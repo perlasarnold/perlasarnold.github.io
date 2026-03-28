@@ -1,0 +1,23 @@
+---
+layout: default
+title: Archive
+permalink: /archive/
+---
+<section class="page-intro container">
+  <p class="eyebrow">Archive</p>
+  <h1>Browse every post.</h1>
+  <p>The archive keeps the same simple rhythm as the main blog and makes older posts easy to revisit.</p>
+</section>
+
+<section class="container">
+  <div class="archive-panel">
+    <ul class="archive-list">
+      {% for post in site.posts %}
+        <li>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>

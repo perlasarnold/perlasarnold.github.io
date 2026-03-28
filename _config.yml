@@ -1,0 +1,27 @@
+title: Perlas Arnold
+email: hello@perlasarnold.me
+description: Insights, notes, and experiments from Perlas Arnold.
+url: "https://perlasarnold.me"
+baseurl: ""
+timezone: America/Los_Angeles
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title/
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+author:
+  name: Perlas Arnold
+nav:
+  - title: Home
+    url: /
+  - title: Blog
+    url: /blog/
+  - title: Archive
+    url: /archive/
+  - title: About
+    url: /about/
+  - title: Contact
+    url: /contact/
