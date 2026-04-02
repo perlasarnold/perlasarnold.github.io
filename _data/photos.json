@@ -2,7 +2,7 @@
     "aggregations": {
         "groupMembers": [
             {
-                "count": 361,
+                "count": 360,
                 "match": "A3J92KC8JH1BB4",
                 "searchData": {}
             }
@@ -34,7 +34,7 @@
                 "searchData": {}
             },
             {
-                "count": 98,
+                "count": 97,
                 "match": "2025",
                 "searchData": {}
             },
@@ -46,13 +46,13 @@
         ],
         "type": [
             {
-                "count": 361,
+                "count": 360,
                 "match": "PHOTOS",
                 "searchData": {}
             }
         ]
     },
-    "count": 361,
+    "count": 360,
     "data": [
         {
             "accessRuleIds": [],
@@ -16506,179 +16506,6 @@
             "xAccntParentMap": {},
             "xAccntParents": [],
             "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/T1zhfijgSrKzL797LH9NDw?viewBox=1024&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB"
-        },
-        {
-            "accessRuleIds": [],
-            "childAssetTypeInfo": [],
-            "contentProperties": {
-                "contentDate": "2025-07-26T09:23:37.716Z",
-                "contentSignatures": [
-                    {
-                        "contentSignature": "33c131ebb15de62331c5538ea6fc83e5",
-                        "contentSignatureType": "MD5"
-                    }
-                ],
-                "contentType": "image/jpeg",
-                "extension": "jpg",
-                "image": {
-                    "apertureValue": "1.4",
-                    "colorSpace": "sRGB",
-                    "dateTime": "2025-07-26T19:52:04.000Z",
-                    "dateTimeDigitized": "2025-07-26T09:23:37.000Z",
-                    "dateTimeOriginal": "2025-07-26T09:23:37.000Z",
-                    "exposureMode": "Auto",
-                    "exposureProgram": "Aperture-priority AE",
-                    "exposureTime": "1/200",
-                    "flash": "Off, Did not fire",
-                    "focalLength": "23",
-                    "height": 4104,
-                    "make": "SONY",
-                    "meteringMode": "Multi-segment",
-                    "model": "ILCE-6700",
-                    "resolutionUnit": "Pixels/Inch",
-                    "sharpness": "Soft",
-                    "software": "Adobe Photoshop Lightroom Classic 12.5 (Windows)",
-                    "subSecTimeDigitized": "716",
-                    "subSecTimeOriginal": "716",
-                    "whiteBalance": "Auto",
-                    "width": 4104
-                },
-                "md5": "1f169ec5494601cacfcf4806c78a1e89",
-                "size": 1466565,
-                "version": 1
-            },
-            "createdBy": "Amazon Photos Web",
-            "createdDate": "2025-07-27T02:52:39.558Z",
-            "eTagResponse": "FQYJS21BgvQ",
-            "familyId": "DftzcisEQU61qxIqVOcihQ",
-            "familyModifiedDate": "2025-07-27T02:52:41.329Z",
-            "groupPermissions": [
-                {
-                    "albumIds": [
-                        "wOLV0_6pS2C62ihUlybS1g"
-                    ],
-                    "groupId": "taGFYAkbTxm_IGZsc6zVUg",
-                    "lastModifiedTime": "2025-07-27T02:52:44.033Z",
-                    "sharedByIds": [
-                        "A3J92KC8JH1BB4"
-                    ]
-                },
-                {
-                    "albumIds": [
-                        "wOLV0_6pS2C62ihUlybS1g"
-                    ],
-                    "groupId": "OhCsyGOeRJWMNV3vkCZZ_A",
-                    "lastModifiedTime": "2025-07-28T18:00:48.948Z",
-                    "sharedByIds": [
-                        "A3J92KC8JH1BB4"
-                    ]
-                },
-                {
-                    "albumIds": [
-                        "wOLV0_6pS2C62ihUlybS1g"
-                    ],
-                    "groupId": "Rxnx4GgxR-iOwI-2Q409VQ",
-                    "lastModifiedTime": "2025-07-27T02:52:44.248Z",
-                    "sharedByIds": [
-                        "A3J92KC8JH1BB4"
-                    ]
-                },
-                {
-                    "albumIds": [
-                        "wOLV0_6pS2C62ihUlybS1g"
-                    ],
-                    "groupId": "c0DUWYbiQp-l29Y1XNeONw",
-                    "lastModifiedTime": "2026-04-02T19:28:23.315Z",
-                    "sharedByIds": [
-                        "A3J92KC8JH1BB4"
-                    ]
-                },
-                {
-                    "albumIds": [
-                        "wOLV0_6pS2C62ihUlybS1g"
-                    ],
-                    "groupId": "5jMzmPXBQoe70GZsoovD1Q",
-                    "lastModifiedTime": "2025-08-06T03:42:57.607Z",
-                    "sharedByIds": [
-                        "A3J92KC8JH1BB4"
-                    ]
-                },
-                {
-                    "albumIds": [
-                        "wOLV0_6pS2C62ihUlybS1g"
-                    ],
-                    "groupId": "0jfpXwDoTzm9hmzPCp3eZA",
-                    "lastModifiedTime": "2025-07-27T02:52:44.155Z",
-                    "sharedByIds": [
-                        "A3J92KC8JH1BB4"
-                    ]
-                },
-                {
-                    "albumIds": [
-                        "wOLV0_6pS2C62ihUlybS1g"
-                    ],
-                    "groupId": "SncWhSdqShG4ZTtGDs5K-Q",
-                    "lastModifiedTime": "2025-07-28T18:06:43.154Z",
-                    "sharedByIds": [
-                        "A3J92KC8JH1BB4"
-                    ]
-                },
-                {
-                    "albumIds": [
-                        "wOLV0_6pS2C62ihUlybS1g"
-                    ],
-                    "groupId": "cx2piXfcR7OkLkQtT8i6dQ",
-                    "lastModifiedTime": "2025-07-28T16:45:24.880Z",
-                    "sharedByIds": [
-                        "A3J92KC8JH1BB4"
-                    ]
-                },
-                {
-                    "albumIds": [
-                        "wOLV0_6pS2C62ihUlybS1g"
-                    ],
-                    "groupId": "tdAntzQyQIaIL4MScX85jg",
-                    "lastModifiedTime": "2025-07-27T02:52:44.362Z",
-                    "sharedByIds": [
-                        "A3J92KC8JH1BB4"
-                    ]
-                }
-            ],
-            "id": "p55IBuUuRGGQBp8LxbORQg",
-            "isRoot": false,
-            "isShared": false,
-            "keywords": [],
-            "kind": "FILE",
-            "labels": [],
-            "modifiedDate": "2026-04-02T19:28:23.327Z",
-            "name": "Showcase-Square1-04607 (2025-07-27T02_52_39.570).jpg",
-            "ownerId": "A3J92KC8JH1BB4",
-            "parentMap": {
-                "FOLDER": [
-                    "5_Kyf4dWTpqEhwTdAHbMNQ"
-                ],
-                "VISUAL_COLLECTION": [
-                    "wOLV0_6pS2C62ihUlybS1g",
-                    "5Dcd_4aWR-C7bFMGtAVj-g"
-                ]
-            },
-            "parents": [
-                "5_Kyf4dWTpqEhwTdAHbMNQ",
-                "wOLV0_6pS2C62ihUlybS1g",
-                "5Dcd_4aWR-C7bFMGtAVj-g"
-            ],
-            "protectedFolder": false,
-            "restricted": false,
-            "status": "AVAILABLE",
-            "subKinds": [],
-            "tempLink": "https://content-na.drive.amazonaws.com/cdproxy/templink/VtDkHgHItXqwikRm3mQP7h2Hca_OxH35t17WcL0y9LweJxFPc",
-            "transforms": [
-                "IMAGE_THUMBNAIL"
-            ],
-            "version": 16,
-            "xAccntParentMap": {},
-            "xAccntParents": [],
-            "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/p55IBuUuRGGQBp8LxbORQg?viewBox=1024&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB"
         },
         {
             "accessRuleIds": [],
@@ -34978,8 +34805,179 @@
             "xAccntParentMap": {},
             "xAccntParents": [],
             "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/3Uo3R7yZTDacd3-0SauYtA?viewBox=1024&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB"
+        },
+        {
+            "accessRuleIds": [],
+            "childAssetTypeInfo": [],
+            "contentProperties": {
+                "contentDate": "2024-05-18T01:05:49.573Z",
+                "contentSignatures": [
+                    {
+                        "contentSignature": "2f9f59924c080371edcd182758985e46",
+                        "contentSignatureType": "MD5"
+                    }
+                ],
+                "contentType": "image/jpeg",
+                "extension": "jpg",
+                "image": {
+                    "apertureValue": "2.8",
+                    "colorSpace": "sRGB",
+                    "dateTime": "2025-06-28T08:45:01.000Z",
+                    "dateTimeDigitized": "2024-05-18T01:05:49.000Z",
+                    "dateTimeOriginal": "2024-05-18T01:05:49.000Z",
+                    "exposureMode": "Auto",
+                    "exposureProgram": "Aperture-priority AE",
+                    "exposureTime": "1/125",
+                    "flash": "Off, Did not fire",
+                    "focalLength": "50",
+                    "height": 3218,
+                    "make": "SONY",
+                    "meteringMode": "Multi-segment",
+                    "model": "ILCE-6700",
+                    "resolutionUnit": "Pixels/Inch",
+                    "sharpness": "Soft",
+                    "software": "Adobe Photoshop Lightroom Classic 12.5 (Windows)",
+                    "subSecTimeDigitized": "573",
+                    "subSecTimeOriginal": "573",
+                    "whiteBalance": "Auto",
+                    "width": 3218
+                },
+                "md5": "725dc4e7c315340b79aa6607a561e762",
+                "size": 1959559,
+                "version": 1
+            },
+            "createdBy": "CloudDriveWeb",
+            "createdDate": "2025-06-28T16:01:34.542Z",
+            "eTagResponse": "ZFeF7v5lZZI",
+            "familyId": "DftzcisEQU61qxIqVOcihQ",
+            "familyModifiedDate": "2025-06-28T16:01:36.442Z",
+            "groupPermissions": [
+                {
+                    "albumIds": [
+                        "wOLV0_6pS2C62ihUlybS1g"
+                    ],
+                    "groupId": "5jMzmPXBQoe70GZsoovD1Q",
+                    "lastModifiedTime": "2025-08-06T03:42:57.615Z",
+                    "sharedByIds": [
+                        "A3J92KC8JH1BB4"
+                    ]
+                },
+                {
+                    "albumIds": [
+                        "wOLV0_6pS2C62ihUlybS1g"
+                    ],
+                    "groupId": "tdAntzQyQIaIL4MScX85jg",
+                    "lastModifiedTime": "2025-07-01T23:25:32.972Z",
+                    "sharedByIds": [
+                        "A3J92KC8JH1BB4"
+                    ]
+                },
+                {
+                    "albumIds": [
+                        "wOLV0_6pS2C62ihUlybS1g"
+                    ],
+                    "groupId": "c0DUWYbiQp-l29Y1XNeONw",
+                    "lastModifiedTime": "2026-04-02T19:28:23.248Z",
+                    "sharedByIds": [
+                        "A3J92KC8JH1BB4"
+                    ]
+                },
+                {
+                    "albumIds": [
+                        "wOLV0_6pS2C62ihUlybS1g"
+                    ],
+                    "groupId": "Rxnx4GgxR-iOwI-2Q409VQ",
+                    "lastModifiedTime": "2025-06-29T05:21:05.216Z",
+                    "sharedByIds": [
+                        "A3J92KC8JH1BB4"
+                    ]
+                },
+                {
+                    "albumIds": [
+                        "wOLV0_6pS2C62ihUlybS1g"
+                    ],
+                    "groupId": "cx2piXfcR7OkLkQtT8i6dQ",
+                    "lastModifiedTime": "2025-07-28T16:45:25.077Z",
+                    "sharedByIds": [
+                        "A3J92KC8JH1BB4"
+                    ]
+                },
+                {
+                    "albumIds": [
+                        "wOLV0_6pS2C62ihUlybS1g"
+                    ],
+                    "groupId": "OhCsyGOeRJWMNV3vkCZZ_A",
+                    "lastModifiedTime": "2025-07-28T18:00:48.632Z",
+                    "sharedByIds": [
+                        "A3J92KC8JH1BB4"
+                    ]
+                },
+                {
+                    "albumIds": [
+                        "wOLV0_6pS2C62ihUlybS1g"
+                    ],
+                    "groupId": "taGFYAkbTxm_IGZsc6zVUg",
+                    "lastModifiedTime": "2025-06-28T19:25:17.891Z",
+                    "sharedByIds": [
+                        "A3J92KC8JH1BB4"
+                    ]
+                },
+                {
+                    "albumIds": [
+                        "wOLV0_6pS2C62ihUlybS1g"
+                    ],
+                    "groupId": "0jfpXwDoTzm9hmzPCp3eZA",
+                    "lastModifiedTime": "2025-06-30T23:38:22.751Z",
+                    "sharedByIds": [
+                        "A3J92KC8JH1BB4"
+                    ]
+                },
+                {
+                    "albumIds": [
+                        "wOLV0_6pS2C62ihUlybS1g"
+                    ],
+                    "groupId": "SncWhSdqShG4ZTtGDs5K-Q",
+                    "lastModifiedTime": "2025-07-28T18:06:43.364Z",
+                    "sharedByIds": [
+                        "A3J92KC8JH1BB4"
+                    ]
+                }
+            ],
+            "id": "TaLNuLZKSiiFEga6BMhdqA",
+            "isRoot": false,
+            "isShared": false,
+            "keywords": [],
+            "kind": "FILE",
+            "labels": [],
+            "modifiedDate": "2026-04-02T19:28:23.259Z",
+            "name": "Showcase-Square-02849.jpg",
+            "ownerId": "A3J92KC8JH1BB4",
+            "parentMap": {
+                "FOLDER": [
+                    "5_Kyf4dWTpqEhwTdAHbMNQ"
+                ],
+                "VISUAL_COLLECTION": [
+                    "wOLV0_6pS2C62ihUlybS1g"
+                ]
+            },
+            "parents": [
+                "wOLV0_6pS2C62ihUlybS1g",
+                "5_Kyf4dWTpqEhwTdAHbMNQ"
+            ],
+            "protectedFolder": false,
+            "restricted": false,
+            "status": "AVAILABLE",
+            "subKinds": [],
+            "tempLink": "https://content-na.drive.amazonaws.com/cdproxy/templink/ITeLAx2OmKO1R-ZkKLgOAkpX7XNrgbenUAF71aLKFYAeJxFPc",
+            "transforms": [
+                "IMAGE_THUMBNAIL"
+            ],
+            "version": 15,
+            "xAccntParentMap": {},
+            "xAccntParents": [],
+            "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/TaLNuLZKSiiFEga6BMhdqA?viewBox=1024&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB"
         }
     ],
-    "nextToken": "1F_gIHheBHc4muRxH_zk6-1SwiBCHzkDeZraYSXx-YGSFvw_Xh4MEnXA7FsfquTrs2XgCVZbEhEj0-tjB-_osu1X9VVSGQQpMOXnbjnX3563ZucmVWoZMw7T0WQQ4OicuGHqMF56BykKweRuC9Xz6Lh0_CJGQQw_LPm-NklS",
+    "nextToken": "1F_gIHheBHc4muRxH_zk6-1SwiBCHzkDeZraYSXx-YGSFvw_Xh4MEnXA7FsfquTrs2XgDGxfOXYG799YJd7rnO1j_wtSZgkCNOfaYg_c8LKRZucmVWoZNHjE6WQT79mjknb1HV57ERMS2PBaCODvo44T9CJsUgkQefm-NklS",
     "nodeToSearchScoreMap": {}
 }
