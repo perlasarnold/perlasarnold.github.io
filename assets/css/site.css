@@ -32,6 +32,16 @@
   color-scheme: dark;
 }
 
+/* Explicit dark mode overrides — belt-and-suspenders */
+[data-theme="dark"] .site-header {
+  background: #1c1917;
+  border-bottom-color: #2e2822;
+}
+
+[data-theme="dark"] .brand a {
+  color: #c0b9b0;
+}
+
 * {
   box-sizing: border-box;
 }
