@@ -3,43 +3,296 @@ layout: default
 title: Photography
 permalink: /photography/
 ---
+
+<!-- Lightbox overlay -->
+<div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer">
+  <button class="lightbox-close" id="lightbox-close" aria-label="Close">&times;</button>
+  <div class="lightbox-backdrop" id="lightbox-backdrop"></div>
+  <div class="lightbox-content">
+    <img id="lightbox-img" src="" alt="" />
+    <div class="lightbox-meta" id="lightbox-meta"></div>
+  </div>
+</div>
+
 <section class="container" style="padding-top: 4rem;">
   <div class="hero-copy" style="margin-bottom: 2rem;">
     <h1>Photography Gallery</h1>
     <p>A collection of my latest shots, dynamically updated directly from my Amazon Photos stream.</p>
   </div>
-  
-  <div class="gallery-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 2rem;">
+
+  <div class="gallery-grid">
     {% for photo in site.data.photos.data %}
-      {% if photo.imageUrl %}
-        <div class="photo-card" style="background: var(--bg-secondary, #f9f9f9); border: 1px solid var(--border-color, #eaeaea); border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05); transition: transform 0.2s ease;">
-          <a href="{{ photo.imageUrl }}" target="_blank">
-            <img src="{{ photo.imageUrl }}" alt="{{ photo.name }}" style="width: 100%; height: 300px; object-fit: cover; display: block;" loading="lazy" />
-          </a>
-          <div class="meta" style="padding: 1rem; font-size: 0.9rem; color: var(--text-secondary, #666);">
-            {% if photo.contentProperties.image %}
-              <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.5rem;">
-                <strong style="color: var(--text-color, #333);">{{ photo.contentProperties.image.make }} {{ photo.contentProperties.image.model }}</strong>
-                <span style="font-size: 0.8rem;">{{ photo.contentProperties.image.dateTimeOriginal | date: "%b %d, %Y" }}</span>
-              </div>
-              <div style="font-family: monospace; font-size: 0.85rem;">
-                <span>{{ photo.contentProperties.image.focalLength }}mm</span> &bull; 
-                <span>f/{{ photo.contentProperties.image.apertureValue }}</span> &bull; 
-                <span>{{ photo.contentProperties.image.exposureTime }}s</span>
-              </div>
-            {% else %}
-              <p>No EXIF data assigned.</p>
-            {% endif %}
-          </div>
+    {% if photo.imageUrl %}
+    <div class="photo-card" data-src="{{ photo.imageUrl }}" data-alt="{{ photo.name }}" {% if
+      photo.contentProperties.image %}
+      data-make="{{ photo.contentProperties.image.make }} {{ photo.contentProperties.image.model }}"
+      data-date="{{ photo.contentProperties.image.dateTimeOriginal | date: " %b %d, %Y" }}"
+      data-focal="{{ photo.contentProperties.image.focalLength }}"
+      data-aperture="{{ photo.contentProperties.image.apertureValue }}"
+      data-exposure="{{ photo.contentProperties.image.exposureTime }}" {% endif %}>
+      <div class="photo-card-img-wrap">
+        <img src="{{ photo.imageUrl }}" alt="{{ photo.name }}" loading="lazy" />
+        <div class="photo-card-overlay"><span>View</span></div>
+      </div>
+      <div class="meta">
+        {% if photo.contentProperties.image %}
+        <div class="meta-row">
+          <strong>{{ photo.contentProperties.image.make }} {{ photo.contentProperties.image.model }}</strong>
+          <span class="meta-date">{{ photo.contentProperties.image.dateTimeOriginal | date: "%b %d, %Y" }}</span>
         </div>
-      {% endif %}
+        <div class="meta-exif">
+          <span>{{ photo.contentProperties.image.focalLength }}mm</span> &bull;
+          <span>f/{{ photo.contentProperties.image.apertureValue }}</span> &bull;
+          <span>{{ photo.contentProperties.image.exposureTime }}s</span>
+        </div>
+        {% else %}
+        <p class="no-exif">No EXIF data.</p>
+        {% endif %}
+      </div>
+    </div>
+    {% endif %}
     {% endfor %}
   </div>
 </section>
 
 <style>
-.photo-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 15px rgba(0,0,0,0.1);
-}
+  /* Gallery grid */
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+  }
+
+  /* Photo card */
+  .photo-card {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .photo-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  }
+
+  /* Image wrapper with hover overlay */
+  .photo-card-img-wrap {
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 4/3;
+  }
+
+  .photo-card-img-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.35s ease;
+  }
+
+  .photo-card:hover .photo-card-img-wrap img {
+    transform: scale(1.04);
+  }
+
+  .photo-card-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s ease;
+  }
+
+  .photo-card:hover .photo-card-overlay {
+    opacity: 1;
+  }
+
+  .photo-card-overlay span {
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    padding: 0.4rem 1rem;
+    border-radius: 999px;
+  }
+
+  /* Card metadata */
+  .meta {
+    padding: 0.9rem 1rem;
+    font-size: 0.88rem;
+    color: var(--muted);
+  }
+
+  .meta-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0.3rem;
+  }
+
+  .meta-row strong {
+    color: var(--ink);
+    font-size: 0.9rem;
+  }
+
+  .meta-date {
+    font-size: 0.8rem;
+  }
+
+  .meta-exif {
+    font-family: monospace;
+    font-size: 0.82rem;
+  }
+
+  .no-exif {
+    margin: 0;
+  }
+
+  /* ── Lightbox ─────────────────────────────────── */
+  .lightbox {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .lightbox.is-open {
+    display: flex;
+  }
+
+  .lightbox-backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.88);
+    backdrop-filter: blur(6px);
+    cursor: pointer;
+  }
+
+  .lightbox-content {
+    position: relative;
+    z-index: 1;
+    max-width: min(90vw, 1100px);
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: lb-pop 0.25s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+  }
+
+  @keyframes lb-pop {
+    from {
+      opacity: 0;
+      transform: scale(0.92);
+    }
+
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  #lightbox-img {
+    display: block;
+    max-width: 100%;
+    max-height: 80vh;
+    object-fit: contain;
+    border-radius: 8px;
+    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.6);
+  }
+
+  .lightbox-meta {
+    margin-top: 0.85rem;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 0.88rem;
+    text-align: center;
+    font-family: monospace;
+  }
+
+  .lightbox-close {
+    position: fixed;
+    top: 1.2rem;
+    right: 1.4rem;
+    z-index: 2;
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+    font-size: 1.6rem;
+    line-height: 1;
+    width: 2.4rem;
+    height: 2.4rem;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s ease;
+  }
+
+  .lightbox-close:hover {
+    background: rgba(255, 255, 255, 0.25);
+  }
 </style>
+
+<script>
+  (function () {
+    var lb = document.getElementById('lightbox');
+    var lbImg = document.getElementById('lightbox-img');
+    var lbMeta = document.getElementById('lightbox-meta');
+    var lbClose = document.getElementById('lightbox-close');
+    var lbBack = document.getElementById('lightbox-backdrop');
+
+    function openLightbox(card) {
+      var src = card.dataset.src;
+      var alt = card.dataset.alt || '';
+      var make = card.dataset.make || '';
+      var date = card.dataset.date || '';
+      var focal = card.dataset.focal;
+      var aperture = card.dataset.aperture;
+      var exposure = card.dataset.exposure;
+
+      lbImg.src = src;
+      lbImg.alt = alt;
+
+      var parts = [];
+      if (make) parts.push('<strong>' + make + '</strong>');
+      if (date) parts.push(date);
+      if (focal) parts.push(focal + 'mm');
+      if (aperture) parts.push('f/' + aperture);
+      if (exposure) parts.push(exposure + 's');
+      lbMeta.innerHTML = parts.join(' &nbsp;·&nbsp; ');
+
+      lb.classList.add('is-open');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeLightbox() {
+      lb.classList.remove('is-open');
+      document.body.style.overflow = '';
+      lbImg.src = '';
+    }
+
+    document.querySelectorAll('.photo-card').forEach(function (card) {
+      card.addEventListener('click', function () { openLightbox(card); });
+      card.setAttribute('tabindex', '0');
+      card.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openLightbox(card); }
+      });
+    });
+
+    lbClose.addEventListener('click', closeLightbox);
+    lbBack.addEventListener('click', closeLightbox);
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') closeLightbox();
+    });
+  })();
+</script>
