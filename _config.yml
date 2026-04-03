@@ -1,6 +1,6 @@
 title: Perlas Arnold
 email: hello@perlasarnold.me
-description: Insights, notes, and experiments from Perlas Arnold.
+description: Insights, notes, and experiments from Arnold.
 url: "https://perlasarnold.me"
 baseurl: ""
 timezone: America/Los_Angeles
@@ -13,7 +13,7 @@ defaults:
     values:
       layout: post
 author:
-  name: Perlas Arnold
+  name: Arnold
 nav:
   - title: Home
     url: /

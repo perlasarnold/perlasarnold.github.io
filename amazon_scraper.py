@@ -27,14 +27,37 @@ def fetch_amazon_photos():
         resp.raise_for_status()
         data = resp.json()
         
-        # Inject the correct image download URL for hotlinking
+        # Inject the correct image download URL for hotlinking and strip PII
         if 'data' in data:
+            clean_data = []
             for item in data['data']:
                 node_id = item.get('id')
                 owner_id = item.get('ownerId')
                 if node_id and owner_id:
                     # Construct hotlink URL for 1024px viewBox
-                    item['imageUrl'] = f"https://thumbnails-photos.amazon.com/v1/thumbnail/{node_id}?viewBox=1024&ownerId={owner_id}&groupShareToken={params['groupShareToken']}"
+                    image_url = f"https://thumbnails-photos.amazon.com/v1/thumbnail/{node_id}?viewBox=1024&ownerId={owner_id}&groupShareToken={params['groupShareToken']}"
+                    
+                    # Aggressively filter out PII (owner IDs, geolocation, etc), keeping only public display fields
+                    clean_item = {
+                        "id": node_id,
+                        "name": item.get("name", "Photo"),
+                        "imageUrl": image_url,
+                        "contentProperties": {
+                            "image": {}
+                        }
+                    }
+                    
+                    # Safely extract safe display info if it exists
+                    img_props = item.get("contentProperties", {}).get("image", {})
+                    for prop in ["make", "model", "focalLength", "apertureValue", "exposureTime", "dateTimeOriginal"]:
+                        if prop in img_props:
+                            clean_item["contentProperties"]["image"][prop] = img_props[prop]
+                            
+                    clean_data.append(clean_item)
+            
+            data['data'] = clean_data
+            if 'aggregations' in data:
+                del data['aggregations'] # Prevents leaking Amazon Group IDs
         
         # Ensure _data directory exists
         os.makedirs("_data", exist_ok=True)
