@@ -6,3 +6,12 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+<!-- Theme: run before paint to prevent flash -->
+<script>
+  (function () {
+    var stored = localStorage.getItem('theme');
+    // Default to dark mode if no preference has been saved
+    var theme = stored ? stored : 'dark';
+    document.documentElement.setAttribute('data-theme', theme);
+  })();
+</script>

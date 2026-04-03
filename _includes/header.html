@@ -10,5 +10,16 @@
         <a href="{{ item.url | relative_url }}"{% if current %} aria-current="page"{% endif %}>{{ item.title }}</a>
       {% endfor %}
     </nav>
+    <button
+      id="theme-toggle"
+      class="theme-toggle"
+      aria-label="Toggle light/dark mode"
+      title="Toggle light/dark mode"
+    >
+      <span class="toggle-icon" aria-hidden="true" id="theme-icon">🌙</span>
+      <div class="toggle-track" aria-hidden="true">
+        <div class="toggle-knob"></div>
+      </div>
+    </button>
   </div>
 </header>

@@ -9,5 +9,26 @@
       {{ content }}
     </main>
     {% include footer.html %}
+    <script>
+      (function () {
+        var btn = document.getElementById('theme-toggle');
+        var icon = document.getElementById('theme-icon');
+
+        function applyTheme(theme) {
+          document.documentElement.setAttribute('data-theme', theme);
+          localStorage.setItem('theme', theme);
+          icon.textContent = theme === 'dark' ? '☀️' : '🌙';
+        }
+
+        // Set correct icon on load
+        var current = document.documentElement.getAttribute('data-theme') || 'dark';
+        icon.textContent = current === 'dark' ? '☀️' : '🌙';
+
+        btn.addEventListener('click', function () {
+          var next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+          applyTheme(next);
+        });
+      })();
+    </script>
   </body>
 </html>
