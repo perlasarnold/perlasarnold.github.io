@@ -66,8 +66,8 @@ a:hover {
 }
 
 .site-header {
-  border-bottom: 1px solid rgba(221, 209, 193, 0.7);
-  background: rgba(251, 247, 241, 0.9);
+  border-bottom: 1px solid var(--line);
+  background: color-mix(in srgb, var(--surface) 90%, transparent);
   backdrop-filter: blur(10px);
   position: sticky;
   top: 0;
@@ -248,7 +248,7 @@ a:hover {
   margin: 0;
 }
 
-.archive-list li + li {
+.archive-list li+li {
   border-top: 1px solid var(--line);
   margin-top: 1rem;
   padding-top: 1rem;
@@ -322,6 +322,7 @@ a:hover {
     opacity: 0;
     transform: translateY(16px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -329,6 +330,7 @@ a:hover {
 }
 
 @media (max-width: 900px) {
+
   .hero,
   .content-grid {
     grid-template-columns: 1fr;
