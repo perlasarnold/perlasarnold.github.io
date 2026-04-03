@@ -16,9 +16,8 @@ permalink: /about/
   <div class="simple-panel">
     <h2>Starter copy</h2>
     <p>
-      Perlas Arnold writes practical articles, project notes, and experiments that help readers move
-      from idea to implementation. Replace this copy with your own background and the topics you want
-      the blog to be known for.
+      Arnold writes practical articles, project notes, and experiments that help readers move
+      from idea to implementation.
     </p>
   </div>
 </section>

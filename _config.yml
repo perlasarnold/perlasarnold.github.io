@@ -17,11 +17,11 @@ author:
 nav:
   - title: Home
     url: /
+  - title: Photography
+    url: /photography/
   - title: Blog
     url: /blog/
   - title: Family
     url: "https://docs.google.com/spreadsheets/d/1gcWSrqBbkT3ygMAU_9x00z6gBy7V5585r0pIs4cZJYQ/edit?usp=sharing"
-  - title: About
-    url: /about/
   - title: Contact
     url: /contact/
