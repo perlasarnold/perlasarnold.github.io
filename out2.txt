@@ -1,8 +1,0 @@
-Navigating to URL...
-[FOUND] https://www.amazon.com/drive/v1/search/groups/c0DUWYbiQp-l29Y1XNeONw?asset=ALL&limit=1&searchContext=groups&tempLink=false&timeZone=America%2FLos_Angeles&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB&resourceVersion=V2&ContentType=JSON&_=1775159082261 - Has 1 items
-{'aggregations': {'groupMembers': [{'count': 256, 'match': 'A3J92KC8JH1BB4', 'searchData': {}}], 'time': [{'count': 21, 'match': '2018', 'searchData': {}}, {'count': 9, 'match': '2020', 'searchData': 
-[FOUND] https://www.amazon.com/drive/v1/search/groups/c0DUWYbiQp-l29Y1XNeONw?asset=ALL&filters=type%3A(PHOTOS+OR+VIDEOS)&limit=200&lowResThumbnail=true&searchContext=groups&sort=%5B%27contentProperties.contentDate+DESC%27%5D&tempLink=false&timeZone=America%2FLos_Angeles&groupByForTime=month&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB&resourceVersion=V2&ContentType=JSON&_=1775159082262 - Has 200 items
-{'aggregations': {'groupMembers': [{'count': 255, 'match': 'A3J92KC8JH1BB4', 'searchData': {}}], 'time': [{'count': 21, 'match': '2018-03', 'searchData': {}}, {'count': 9, 'match': '2020-11', 'searchD
-[FOUND] https://www.amazon.com/drive/v1/search/groups/c0DUWYbiQp-l29Y1XNeONw?asset=ALL&filters=type%3A(PHOTOS+OR+VIDEOS)&limit=200&lowResThumbnail=true&searchContext=groups&sort=%5B%27contentProperties.contentDate+DESC%27%5D&tempLink=false&timeZone=America%2FLos_Angeles&offset=200&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB&resourceVersion=V2&ContentType=JSON&_=1775159082263 - Has 55 items
-{'aggregations': {}, 'count': 255, 'data': [{'accessRuleIds': [], 'childAssetTypeInfo': [], 'contentProperties': {'contentDate': '2024-03-02T07:25:42.000Z', 'contentSignatures': [{'contentSignature': 
-Done waiting.
