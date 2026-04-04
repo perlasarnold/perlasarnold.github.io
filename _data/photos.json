@@ -1,5 +1,5 @@
 {
-    "count": 377,
+    "count": 363,
     "data": [
         {
             "id": "mxc524KQSbukWvvL34cLlg",
@@ -5573,6 +5573,14 @@
                     "exposureTime": "1/3200",
                     "dateTimeOriginal": "2016-12-15T11:38:30.000Z"
                 }
+            }
+        },
+        {
+            "id": "lk4D6cVvSjWoKXr-rEjmqg",
+            "name": "VIDEO0062_7659.jpg",
+            "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/lk4D6cVvSjWoKXr-rEjmqg?viewBox=1024&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
+            "contentProperties": {
+                "image": {}
             }
         },
         {
