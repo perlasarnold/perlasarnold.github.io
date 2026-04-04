@@ -10,13 +10,13 @@ import json, re, os
 RULES = [
     # (filename pattern, tags to assign)
     # Costa Rica trips (covers both spelling variants in filenames)
-    (re.compile(r"CostaRica|CosaRica",  re.I), ["wildlife", "nature", "travel"]),
-    # Huntington Library & Gardens — primarily a botanical garden
-    (re.compile(r"HuntingtonLib",       re.I), ["botanical"]),
-    # Disney + Gators shoot
-    (re.compile(r"DisneyGators",        re.I), ["wildlife", "travel"]),
-    # Add new album rules here, e.g.:
-    # (re.compile(r"^AMP",              re.I), ["street"]),
+    (re.compile(r"CostaRica|CosaRica",  re.I), ["nature", "travel"]),
+    # Huntington Library & Gardens — gardens = nature
+    (re.compile(r"HuntingtonLib",       re.I), ["nature"]),
+    # Disney + Gators shoot — gators = nature
+    (re.compile(r"DisneyGators",        re.I), ["nature", "travel"]),
+    # Buildings & cityscapes — add the filename prefix for any architecture shoot here:
+    # (re.compile(r"CityShoot|Downtown", re.I), ["architecture"]),
 ]
 
 src  = os.path.join(os.path.dirname(__file__), "_data", "photos.json")
