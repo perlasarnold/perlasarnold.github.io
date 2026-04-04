@@ -28,8 +28,11 @@ jobs:
       - name: Fetch Latest Photos from Amazon
         run: python amazon_scraper.py
 
+      - name: Generate photo tags
+        run: python generate_tags.py
+
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: dynamically update amazon photos gallery"
-          file_pattern: "_data/photos.json"
+          file_pattern: "_data/photos.json _data/photo_tags.json"

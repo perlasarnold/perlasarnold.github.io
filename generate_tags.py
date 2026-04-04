@@ -2,17 +2,21 @@
 Generates _data/photo_tags.json mapping each photo ID to a list of tags.
 Tags are descriptive subject labels — never raw filenames.
 
-Edit the RULES dict below to customize tag assignments, then re-run.
+Edit the RULES list below to add or change tag assignments, then re-run.
+Each rule is (regex pattern, [tags]). The first matching rule wins.
 """
 import json, re, os
 
 RULES = [
     # (filename pattern, tags to assign)
-    (re.compile(r"CostaRica|CosaRica", re.I), ["wildlife", "travel", "nature"]),
-    (re.compile(r"HuntingtonLib",        re.I), ["botanical", "architecture"]),
-    # AMP = author's name initials, intentionally left untagged so they appear in "All"
-    # but can be given tags here once you know the subject:
-    # (re.compile(r"^AMP", re.I), ["street", "urban"]),
+    # Costa Rica trips (covers both spelling variants in filenames)
+    (re.compile(r"CostaRica|CosaRica",  re.I), ["wildlife", "nature", "travel"]),
+    # Huntington Library & Gardens — primarily a botanical garden
+    (re.compile(r"HuntingtonLib",       re.I), ["botanical"]),
+    # Disney + Gators shoot
+    (re.compile(r"DisneyGators",        re.I), ["wildlife", "travel"]),
+    # Add new album rules here, e.g.:
+    # (re.compile(r"^AMP",              re.I), ["street"]),
 ]
 
 src  = os.path.join(os.path.dirname(__file__), "_data", "photos.json")
