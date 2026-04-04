@@ -63,9 +63,17 @@ permalink: /photography/
           <span class="meta-date">{{ photo.contentProperties.image.dateTimeOriginal | date: "%b %d, %Y" }}</span>
         </div>
         <div class="meta-exif">
-          <span>{{ photo.contentProperties.image.focalLength }}mm</span> &bull;
-          <span>f/{{ photo.contentProperties.image.apertureValue }}</span> &bull;
-          <span>{{ photo.contentProperties.image.exposureTime }}s</span>
+          {% if photo.contentProperties.image.focalLength %}
+            <span>{{ photo.contentProperties.image.focalLength }}mm</span>
+          {% endif %}
+          {% if photo.contentProperties.image.apertureValue %}
+            {% if photo.contentProperties.image.focalLength %} &bull; {% endif %}
+            <span>f/{{ photo.contentProperties.image.apertureValue }}</span>
+          {% endif %}
+          {% if photo.contentProperties.image.exposureTime %}
+            {% if photo.contentProperties.image.focalLength or photo.contentProperties.image.apertureValue %} &bull; {% endif %}
+            <span>{{ photo.contentProperties.image.exposureTime }}s</span>
+          {% endif %}
         </div>
         {% else %}
         <p class="no-exif">No EXIF data.</p>

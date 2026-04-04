@@ -27,8 +27,8 @@ FILENAME_RULES = [
 DATE_RULES = [
     # Venice trip — March 2018 Showcase-Square shots
     ("2018-03", "2018-03", ["city", "travel"]),
-    # Add more date-range rules here as you identify other trips, e.g.:
-    # ("2024-03", "2024-03", ["city", "travel"]),
+    # Philippines / Mount Pinatubo — August 2011 Showcase
+    ("2011-08", "2011-08", ["nature", "travel"]),
 ]
 
 # ───────────────────────────────────────────────────────────────────────────
