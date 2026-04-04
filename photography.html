@@ -20,11 +20,8 @@ permalink: /photography/
     <p>A collection of my latest shots, dynamically updated directly from my Amazon Photos stream.</p>
   </div>
 
-  <!-- Filter + Sort toolbar -->
+  <!-- Sort toolbar -->
   <div class="gallery-toolbar">
-    <div class="filter-pills" id="filter-pills" role="group" aria-label="Filter by album">
-      <button class="filter-pill active" data-tag="all" id="filter-all">All</button>
-    </div>
     <div class="sort-wrap">
       <label for="sort-select" class="sort-label">Sort by</label>
       <select id="sort-select" class="sort-select">
@@ -88,37 +85,6 @@ permalink: /photography/
     flex-wrap: wrap;
     gap: 0.75rem 1.25rem;
     margin-bottom: 1.75rem;
-  }
-
-  .filter-pills {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    flex: 1;
-  }
-
-  .filter-pill {
-    padding: 0.35rem 1rem;
-    border-radius: 999px;
-    border: 1.5px solid var(--line);
-    background: transparent;
-    color: var(--muted);
-    font-size: 0.82rem;
-    font-weight: 600;
-    cursor: pointer;
-    transition: background 0.18s ease, color 0.18s ease, border-color 0.18s ease;
-    white-space: nowrap;
-  }
-
-  .filter-pill:hover {
-    border-color: var(--accent, #7c6ef7);
-    color: var(--accent, #7c6ef7);
-  }
-
-  .filter-pill.active {
-    background: var(--accent, #7c6ef7);
-    border-color: var(--accent, #7c6ef7);
-    color: #fff;
   }
 
   .sort-wrap {
@@ -392,86 +358,37 @@ permalink: /photography/
       if (e.key === 'Escape') closeLightbox();
     });
 
-    /* ── Build filter pills from data-tags ───────────────── */
+    /* ── Sort logic ───────────────────────────────────────── */
     var cards = Array.from(document.querySelectorAll('.photo-card'));
-    var pillsContainer = document.getElementById('filter-pills');
-    var seenTags = {};
-
-    cards.forEach(function (card) {
-      var raw = (card.dataset.tags || '').trim();
-      var tags = raw ? raw.split(',').map(function (t) { return t.trim(); }).filter(Boolean) : [];
-      card._tags = tags;
-      tags.forEach(function (t) { seenTags[t] = true; });
-    });
-
-    Object.keys(seenTags).sort().forEach(function (tag) {
-      var btn = document.createElement('button');
-      btn.className = 'filter-pill';
-      btn.dataset.tag = tag;
-      btn.textContent = tag.charAt(0).toUpperCase() + tag.slice(1);
-      btn.setAttribute('id', 'filter-' + tag.replace(/\s+/g, '-').toLowerCase());
-      pillsContainer.appendChild(btn);
-    });
-
-    /* ── Filter + Sort logic ──────────────────────────────── */
-    var activeTag  = 'all';
     var activeSort = 'newest';
     var grid = document.getElementById('gallery-grid');
 
-    function applyFilterSort() {
-      var visible = cards.filter(function (card) {
-        return activeTag === 'all' || card._tags.indexOf(activeTag) !== -1;
-      });
-
-      var hidden = cards.filter(function (card) {
-        return activeTag !== 'all' && card._tags.indexOf(activeTag) === -1;
-      });
-
-      hidden.forEach(function (card) { card.classList.add('hidden'); });
-
-      // Sort visible cards
-      visible.sort(function (a, b) {
+    function applySort() {
+      cards.sort(function (a, b) {
         var aTs = parseInt(a.dataset.timestamp || '0', 10);
         var bTs = parseInt(b.dataset.timestamp || '0', 10);
         var aF  = parseFloat(a.dataset.focal || '0');
         var bF  = parseFloat(b.dataset.focal || '0');
         var aAp = parseFloat(a.dataset.aperture || '0');
         var bAp = parseFloat(b.dataset.aperture || '0');
-        if (activeSort === 'newest')       return bTs - aTs;
-        if (activeSort === 'oldest')       return aTs - bTs;
-        if (activeSort === 'focal-asc')    return aF - bF;
-        if (activeSort === 'focal-desc')   return bF - aF;
-        if (activeSort === 'aperture-asc') return aAp - bAp;
-        if (activeSort === 'aperture-desc')return bAp - aAp;
+        if (activeSort === 'newest')        return bTs - aTs;
+        if (activeSort === 'oldest')        return aTs - bTs;
+        if (activeSort === 'focal-asc')     return aF - bF;
+        if (activeSort === 'focal-desc')    return bF - aF;
+        if (activeSort === 'aperture-asc')  return aAp - bAp;
+        if (activeSort === 'aperture-desc') return bAp - aAp;
         return 0;
       });
-
-      // Re-append in sorted order
-      visible.forEach(function (card) {
-        card.classList.remove('hidden');
-        grid.appendChild(card);
-      });
+      cards.forEach(function (card) { grid.appendChild(card); });
     }
-
-    // Pill clicks
-    pillsContainer.addEventListener('click', function (e) {
-      var btn = e.target.closest('.filter-pill');
-      if (!btn) return;
-      pillsContainer.querySelectorAll('.filter-pill').forEach(function (p) {
-        p.classList.remove('active');
-      });
-      btn.classList.add('active');
-      activeTag = btn.dataset.tag;
-      applyFilterSort();
-    });
 
     // Sort dropdown
     document.getElementById('sort-select').addEventListener('change', function (e) {
       activeSort = e.target.value;
-      applyFilterSort();
+      applySort();
     });
 
     // Initial render
-    applyFilterSort();
+    applySort();
   })();
 </script>
