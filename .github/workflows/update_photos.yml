@@ -35,4 +35,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: dynamically update amazon photos gallery"
-          file_pattern: "_data/photos.json _data/photo_tags.json"
+          file_pattern: "_data/photos.json _data/photo_tags.json _data/metadata_overrides.json"

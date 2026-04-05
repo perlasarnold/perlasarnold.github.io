@@ -57,26 +57,31 @@ permalink: /photography/
         <div class="photo-card-overlay"><span>View</span></div>
       </div>
       <div class="meta">
-        {% if photo.contentProperties.image %}
+        {% if photo.contentProperties.image.make or photo.contentProperties.image.model %}
         <div class="meta-row">
           <strong>{{ photo.contentProperties.image.make }} {{ photo.contentProperties.image.model }}</strong>
+          {% if photo.contentProperties.image.dateTimeOriginal %}
+          <span class="meta-date">{{ photo.contentProperties.image.dateTimeOriginal | date: "%b %d, %Y" }}</span>
+          {% endif %}
+        </div>
+        {% elsif photo.contentProperties.image.dateTimeOriginal %}
+        <div class="meta-row">
           <span class="meta-date">{{ photo.contentProperties.image.dateTimeOriginal | date: "%b %d, %Y" }}</span>
         </div>
-        <div class="meta-exif">
-          {% if photo.contentProperties.image.focalLength %}
-            <span>{{ photo.contentProperties.image.focalLength }}mm</span>
-          {% endif %}
-          {% if photo.contentProperties.image.apertureValue %}
-            {% if photo.contentProperties.image.focalLength %} &bull; {% endif %}
-            <span>f/{{ photo.contentProperties.image.apertureValue }}</span>
-          {% endif %}
-          {% if photo.contentProperties.image.exposureTime %}
-            {% if photo.contentProperties.image.focalLength or photo.contentProperties.image.apertureValue %} &bull; {% endif %}
-            <span>{{ photo.contentProperties.image.exposureTime }}s</span>
-          {% endif %}
-        </div>
         {% else %}
-        <p class="no-exif">No EXIF data.</p>
+        <div class="meta-row">
+          <span class="no-exif">{{ photo.name }}</span>
+        </div>
+        {% endif %}
+        {% assign has_focal    = photo.contentProperties.image.focalLength %}
+        {% assign has_aperture = photo.contentProperties.image.apertureValue %}
+        {% assign has_exposure = photo.contentProperties.image.exposureTime %}
+        {% if has_focal or has_aperture or has_exposure %}
+        <div class="meta-exif">
+          {% if has_focal %}<span>{{ photo.contentProperties.image.focalLength }}mm</span>{% endif %}
+          {% if has_aperture %}{% if has_focal %} &bull; {% endif %}<span>f/{{ photo.contentProperties.image.apertureValue }}</span>{% endif %}
+          {% if has_exposure %}{% if has_focal or has_aperture %} &bull; {% endif %}<span>{{ photo.contentProperties.image.exposureTime }}s</span>{% endif %}
+        </div>
         {% endif %}
       </div>
     </div>
@@ -229,6 +234,13 @@ permalink: /photography/
 
   .no-exif {
     margin: 0;
+    font-size: 0.78rem;
+    opacity: 0.5;
+    font-style: italic;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
   }
 
   /* ── Lightbox ─────────────────────────────────── */

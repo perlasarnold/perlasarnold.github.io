@@ -69,7 +69,30 @@ def fetch_amazon_photos():
             
             if offset >= total_count:
                 break
-                
+
+        # ── Apply manual metadata overrides ───────────────────────────────────
+        # Edit _data/metadata_overrides.json to fill in missing fields.
+        # Any non-empty value in the overrides file will be written into
+        # photos.json after every fetch, so your edits persist across syncs.
+        overrides_file = os.path.join("_data", "metadata_overrides.json")
+        if os.path.exists(overrides_file):
+            with open(overrides_file, "r", encoding="utf-8") as f:
+                overrides = json.load(f)
+            applied = 0
+            for item in all_clean_data:
+                node_id = item["id"]
+                if node_id in overrides:
+                    override = overrides[node_id]
+                    img = item["contentProperties"]["image"]
+                    for field, value in override.items():
+                        if field.startswith("_"):   # skip _name and other internal keys
+                            continue
+                        if value != "":             # only apply non-empty overrides
+                            img[field] = value
+                    applied += 1
+            print(f"Applied metadata overrides to {applied} photo(s).")
+        # ─────────────────────────────────────────────────────────────────────
+
         final_data = {
             "count": len(all_clean_data),
             "data": all_clean_data
