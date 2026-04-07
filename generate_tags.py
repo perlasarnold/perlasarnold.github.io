@@ -33,7 +33,6 @@ DATE_RULES = [
 
 # ── Location rules ─────────────────────────────────────────────────────────
 LOCATION_FILENAME_RULES = [
-    (re.compile(r"CostaRica|CosaRica", re.I), "Costa Rica"),
     (re.compile(r"HuntingtonLib", re.I), "Huntington Library, San Marino, CA"),
     (re.compile(r"Disney", re.I), "Walt Disney World Resort, FL"),
 ]
