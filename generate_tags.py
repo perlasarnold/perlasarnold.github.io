@@ -40,9 +40,9 @@ LOCATION_FILENAME_RULES = [
 
 LOCATION_DATE_RULES = [
     # Explicit dates (must come first so they take precedence over general month-wide fallbacks)
-    ("2011-08-18", "2011-08-18", "Laguna Beach"),
-    ("2016-12-15", "2016-12-15", "Mount Pinatubo"),
-    ("2017-01-28", "2017-01-28", "Grand Canyon"),
+    ("2011-08-18", "2011-08-18", "Laguna Beach, CA"),
+    ("2016-12-15", "2016-12-15", "Mount Pinatubo, Philippines"),
+    ("2017-01-28", "2017-01-28", "Grand Canyon, Arizona"),
     
     ("2018-03-26", "2018-03-26", "Giverny, France"),
     ("2018-03-28", "2018-03-29", "Paris, France"),
@@ -55,11 +55,11 @@ LOCATION_DATE_RULES = [
     ("2021-04-01", "2021-04-01", "Nashville, Tennesee"),
     ("2021-12-25", "2021-12-26", "Yosemite, CA"),
 
-    ("2022-02-06", "2022-02-06", "Antipolo, Rizal"),
+    ("2022-02-06", "2022-02-06", "Antipolo, Rizal, Philippines"),
     ("2022-06-10", "2022-06-12", "Banff, Alberta, Canada"),
     
     ("2023-03-15", "2023-03-15", "Pirámide del Sol, Mexico"),
-    ("2023-06-03", "2023-06-03", "Natural History Museum, Los Angeles"),
+    ("2023-06-03", "2023-06-03", "Natural History Museum, Los Angeles, CA"),
 
     ("2024-03-01", "2024-03-03", "Cartagena, Bolivar, Colombia"),
     ("2024-03-04", "2024-03-05", "Salento, Quindio, Colombia"),
