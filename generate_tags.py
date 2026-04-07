@@ -31,38 +31,68 @@ DATE_RULES = [
     ("2011-08", "2011-08", ["nature", "travel"]),
 ]
 
+# ── Location rules ─────────────────────────────────────────────────────────
+LOCATION_FILENAME_RULES = [
+    (re.compile(r"CostaRica|CosaRica", re.I), "Costa Rica"),
+    (re.compile(r"HuntingtonLib", re.I), "Huntington Library, CA"),
+    (re.compile(r"Disney", re.I), "Disney, FL"),
+]
+
+LOCATION_DATE_RULES = [
+    ("2018-03", "2018-03", "Venice, Italy"),
+    ("2011-08", "2011-08", "Mount Pinatubo, Philippines"),
+]
+
 # ───────────────────────────────────────────────────────────────────────────
 src  = os.path.join(os.path.dirname(__file__), "_data", "photos.json")
 dest = os.path.join(os.path.dirname(__file__), "_data", "photo_tags.json")
+loc_dest = os.path.join(os.path.dirname(__file__), "_data", "photo_locations.json")
+
 
 with open(src, encoding="utf-8") as f:
     photos = json.load(f)["data"]
 
 result = {}
+loc_result = {}
+
 for photo in photos:
     name  = photo.get("name", "")
     img   = photo.get("contentProperties", {}).get("image", {})
     date  = img.get("dateTimeOriginal", "")  # e.g. "2018-03-24T00:23:12.000Z"
     ym    = date[:7] if date else ""          # "YYYY-MM"
     tags  = []
+    loc   = ""
 
-    # 1. Try filename rules first
+    # 1. Subject Tags
     for pattern, assigned_tags in FILENAME_RULES:
         if pattern.search(name):
             tags = assigned_tags
             break
-
-    # 2. Fall back to date-range rules if no filename rule matched
     if not tags and ym:
         for date_from, date_to, assigned_tags in DATE_RULES:
             if date_from <= ym <= date_to:
                 tags = assigned_tags
                 break
-
     result[photo["id"]] = tags
+
+    # 2. Location Tags
+    for pattern, assigned_loc in LOCATION_FILENAME_RULES:
+        if pattern.search(name):
+            loc = assigned_loc
+            break
+    if not loc and ym:
+        for date_from, date_to, assigned_loc in LOCATION_DATE_RULES:
+            if date_from <= ym <= date_to:
+                loc = assigned_loc
+                break
+    if loc:
+        loc_result[photo["id"]] = loc
 
 with open(dest, "w", encoding="utf-8") as f:
     json.dump(result, f, indent=2)
+
+with open(loc_dest, "w", encoding="utf-8") as f:
+    json.dump(loc_result, f, indent=2)
 
 print(f"Written {len(result)} entries to {dest}")
 tag_counts = {}

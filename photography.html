@@ -39,10 +39,12 @@ permalink: /photography/
     {% for photo in site.data.photos.data %}
     {% if photo.imageUrl %}
     {% assign photo_tags = site.data.photo_tags[photo.id] | join: ',' %}
+    {% assign final_location = photo.contentProperties.image.location | default: site.data.photo_locations[photo.id] %}
     <div class="photo-card"
       data-src="{{ photo.imageUrl }}"
       data-alt="{{ photo.name }}"
       data-tags="{{ photo_tags }}"
+      data-location="{{ final_location }}"
       {% if photo.contentProperties.image %}
       data-make="{{ photo.contentProperties.image.make }} {{ photo.contentProperties.image.model }}"
       data-date="{{ photo.contentProperties.image.dateTimeOriginal | date: "%b %d, %Y" }}"
@@ -71,6 +73,11 @@ permalink: /photography/
         {% else %}
         <div class="meta-row">
           <span class="no-exif">{{ photo.name }}</span>
+        </div>
+        {% endif %}
+        {% if final_location %}
+        <div class="meta-location">
+          <svg style="width:12px;height:12px;vertical-align:text-bottom;margin-right:4px;opacity:0.8;" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg><span>{{ final_location }}</span>
         </div>
         {% endif %}
         {% assign has_focal    = photo.contentProperties.image.focalLength %}
@@ -227,6 +234,15 @@ permalink: /photography/
     font-size: 0.8rem;
   }
 
+  .meta-location {
+    font-size: 0.82rem;
+    color: var(--muted);
+    margin-top: 0.2rem;
+    margin-bottom: 0.4rem;
+    display: flex;
+    align-items: center;
+  }
+
   .meta-exif {
     font-family: monospace;
     font-size: 0.82rem;
@@ -347,9 +363,11 @@ permalink: /photography/
       var focal    = card.dataset.focal;
       var aperture = card.dataset.aperture;
       var exposure = card.dataset.exposure;
+      var location = card.dataset.location;
       var parts = [];
       if (make)     parts.push('<strong>' + make + '</strong>');
       if (date)     parts.push(date);
+      if (location) parts.push(location);
       if (focal)    parts.push(focal + 'mm');
       if (aperture) parts.push('f/' + aperture);
       if (exposure) parts.push(exposure + 's');
