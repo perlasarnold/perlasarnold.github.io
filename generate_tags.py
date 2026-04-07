@@ -40,7 +40,9 @@ LOCATION_FILENAME_RULES = [
 
 LOCATION_DATE_RULES = [
     ("2018-03", "2018-03", "Venice, Italy"),
-    ("2011-08", "2011-08", "Mount Pinatubo, Philippines"),
+    ("2011-08", "2011-08", "Laguna Beach"),
+    ("2016-12", "2016-12", "Mount Pinatubo"),
+    ("2017-01", "2017-01", "Grand Canyon"),
 ]
 
 # ───────────────────────────────────────────────────────────────────────────
