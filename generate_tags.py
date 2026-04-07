@@ -22,27 +22,83 @@ FILENAME_RULES = [
 ]
 
 # ── Date-range rules ────────────────────────────────────────────────────────
-# Format: ("YYYY-MM-from", "YYYY-MM-to", [tags])
-# Matches any photo whose EXIF date falls within the month range (inclusive).
+# Format: ("YYYY-MM-DD", "YYYY-MM-DD", [tags])
+# Matches any photo whose EXIF date falls within the range (inclusive).
 DATE_RULES = [
     # Venice trip — March 2018 Showcase-Square shots
-    ("2018-03", "2018-03", ["city", "travel"]),
+    ("2018-03-01", "2018-03-31", ["city", "travel"]),
     # Philippines / Mount Pinatubo — August 2011 Showcase
-    ("2011-08", "2011-08", ["nature", "travel"]),
+    ("2011-08-01", "2011-08-31", ["nature", "travel"]),
 ]
 
 # ── Location rules ─────────────────────────────────────────────────────────
 LOCATION_FILENAME_RULES = [
     (re.compile(r"CostaRica|CosaRica", re.I), "Costa Rica"),
-    (re.compile(r"HuntingtonLib", re.I), "Huntington Library, CA"),
-    (re.compile(r"Disney", re.I), "Disney, FL"),
+    (re.compile(r"HuntingtonLib", re.I), "Huntington Library, San Marino, CA"),
+    (re.compile(r"Disney", re.I), "Walt Disney World Resort, FL"),
 ]
 
 LOCATION_DATE_RULES = [
-    ("2018-03", "2018-03", "Venice, Italy"),
-    ("2011-08", "2011-08", "Laguna Beach"),
-    ("2016-12", "2016-12", "Mount Pinatubo"),
-    ("2017-01", "2017-01", "Grand Canyon"),
+    # Explicit dates (must come first so they take precedence over general month-wide fallbacks)
+    ("2011-08-18", "2011-08-18", "Laguna Beach"),
+    ("2016-12-15", "2016-12-15", "Mount Pinatubo"),
+    ("2017-01-28", "2017-01-28", "Grand Canyon"),
+    
+    ("2018-03-26", "2018-03-26", "Giverny, France"),
+    ("2018-03-28", "2018-03-29", "Paris, France"),
+    
+    ("2018-11-08", "2018-11-08", "Keystone, South Dakota"),
+    ("2020-11-21", "2020-11-22", "Mammoth Lakes, CA"),
+    
+    ("2021-03-30", "2021-03-30", "Durham, North Carolina"),
+    ("2021-03-31", "2021-03-31", "Atlanta, Georgia"),
+    ("2021-04-01", "2021-04-01", "Nashville, Tennesee"),
+    ("2021-12-25", "2021-12-26", "Yosemite, CA"),
+
+    ("2022-02-06", "2022-02-06", "Antipolo, Rizal"),
+    ("2022-06-10", "2022-06-12", "Banff, Alberta, Canada"),
+    
+    ("2023-03-15", "2023-03-15", "Pirámide del Sol, Mexico"),
+    ("2023-06-03", "2023-06-03", "Natural History Museum, Los Angeles"),
+
+    ("2024-03-01", "2024-03-03", "Cartagena, Bolivar, Colombia"),
+    ("2024-03-04", "2024-03-05", "Salento, Quindio, Colombia"),
+    ("2024-03-06", "2024-03-06", "Bogotá, Bogota, Colombia"),
+    
+    ("2024-05-10", "2024-05-12", "Rome, Italy"),
+    ("2024-05-16", "2024-05-16", "Walenstadt, Switzerland"),
+    ("2024-05-17", "2024-05-17", "Lucerne, Switzerland"),
+    ("2024-05-18", "2024-05-18", "Engelberg, Switzerland"),
+    ("2024-05-18", "2024-05-18", "Amsterdam, Netherlands"),
+    ("2024-05-19", "2024-05-20", "Fiumucuno, Italy"),
+    
+    ("2024-06-29", "2024-06-29", "Morro Bay, CA"),
+    
+    ("2024-07-19", "2024-07-20", "Grand Canyon, Arizona"),
+    ("2024-07-21", "2024-07-21", "Colorado Springs, Colorado"),
+    ("2024-10-31", "2024-10-31", "Old Towne Orange, CA"),
+    
+    ("2025-03-17", "2025-03-17", "Scottish Highlands, Scotland"),
+    ("2025-03-18", "2025-03-18", "Edinburgh, United Kingdom"),
+    ("2025-03-19", "2025-03-19", "Cotswolds, United Kingdom"),
+    ("2025-03-23", "2025-03-23", "London, United Kingdom"),
+    
+    ("2025-07-19", "2025-07-19", "Huntington Library, San Marino, CA"),
+    
+    ("2025-07-26", "2025-07-26", "Carbon Canyon Regional Park, Brea, CA"),
+    ("2025-10-26", "2025-10-26", "Downtown Los Angeles, CA"),
+    
+    ("2025-12-20", "2025-12-21", "Nassau, Bahamas"),
+    ("2025-12-23", "2025-12-23", "EPCOT, Walt Disney World Resort, FL"),
+    ("2025-12-24", "2025-12-24", "Kennedy Space Center, Merritt Island, FL"),
+    ("2025-12-25", "2025-12-25", "EPCOT, Walt Disney World Resort, FL"),
+    ("2025-12-26", "2025-12-26", "Gatorland, Orlando, FL"),
+    
+    ("2026-01-31", "2026-02-01", "La Fortuna, Costa Rica"),
+    ("2026-02-02", "2026-02-02", "Tenorio Volcano National Park, Costa Rica"),
+    ("2026-02-28", "2026-02-28", "North Back Bay Trail, Newport Beach, CA"),
+    
+    ("2026-03-15", "2026-03-15", "Huntington Library, San Marino, CA"),
 ]
 
 # ───────────────────────────────────────────────────────────────────────────
@@ -61,7 +117,7 @@ for photo in photos:
     name  = photo.get("name", "")
     img   = photo.get("contentProperties", {}).get("image", {})
     date  = img.get("dateTimeOriginal", "")  # e.g. "2018-03-24T00:23:12.000Z"
-    ym    = date[:7] if date else ""          # "YYYY-MM"
+    ymd   = date[:10] if date else ""         # "YYYY-MM-DD"
     tags  = []
     loc   = ""
 
@@ -70,9 +126,9 @@ for photo in photos:
         if pattern.search(name):
             tags = assigned_tags
             break
-    if not tags and ym:
+    if not tags and ymd:
         for date_from, date_to, assigned_tags in DATE_RULES:
-            if date_from <= ym <= date_to:
+            if date_from <= ymd <= date_to:
                 tags = assigned_tags
                 break
     result[photo["id"]] = tags
@@ -82,9 +138,9 @@ for photo in photos:
         if pattern.search(name):
             loc = assigned_loc
             break
-    if not loc and ym:
+    if not loc and ymd:
         for date_from, date_to, assigned_loc in LOCATION_DATE_RULES:
-            if date_from <= ym <= date_to:
+            if date_from <= ymd <= date_to:
                 loc = assigned_loc
                 break
     if loc:
