@@ -23,6 +23,12 @@ permalink: /photography/
   <!-- Sort toolbar -->
   <div class="gallery-toolbar">
     <div class="sort-wrap">
+      <label for="country-filter" class="sort-label">Country</label>
+      <select id="country-filter" class="sort-select">
+        <option value="all">All</option>
+      </select>
+    </div>
+    <div class="sort-wrap">
       <label for="sort-select" class="sort-label">Sort by</label>
       <select id="sort-select" class="sort-select">
         <option value="newest">Newest first</option>
@@ -396,12 +402,53 @@ permalink: /photography/
       if (e.key === 'Escape') closeLightbox();
     });
 
-    /* ── Sort logic ───────────────────────────────────────── */
+    /* ── Filter & Sort logic ──────────────────────────────── */
     var cards = Array.from(document.querySelectorAll('.photo-card'));
     var activeSort = 'newest';
+    var activeCountry = 'all';
     var grid = document.getElementById('gallery-grid');
 
-    function applySort() {
+    // Dynamically build country list
+    var countryMap = {
+      "CA": "United States", "FL": "United States", "Arizona": "United States",
+      "Colorado": "United States", "South Dakota": "United States",
+      "North Carolina": "United States", "Georgia": "United States",
+      "Tennesee": "United States", "Nevada": "United States", "Florida": "United States",
+      "England": "United Kingdom", "Scotland": "United Kingdom", "UK": "United Kingdom"
+    };
+
+    var countrySelect = document.getElementById('country-filter');
+    var foundCountries = new Set();
+    cards.forEach(function(card) {
+      if (card.dataset.location) {
+        var parts = card.dataset.location.split(",");
+        var rawLast = parts[parts.length - 1].trim();
+        var c = countryMap[rawLast] || rawLast;
+        foundCountries.add(c);
+        // Tag card for easy filtering
+        card.dataset.country = c;
+      }
+    });
+
+    var sortedCountries = Array.from(foundCountries).sort();
+    sortedCountries.forEach(function(c) {
+      var opt = document.createElement('option');
+      opt.value = c;
+      opt.textContent = c;
+      countrySelect.appendChild(opt);
+    });
+
+    function applySortAndFilter() {
+      // 1. Toggle visibility based on country
+      cards.forEach(function (card) {
+        if (activeCountry === 'all' || card.dataset.country === activeCountry) {
+          card.classList.remove('hidden');
+        } else {
+          card.classList.add('hidden');
+        }
+      });
+
+      // 2. Apply sort to DOM
       cards.sort(function (a, b) {
         var aTs = parseInt(a.dataset.timestamp || '0', 10);
         var bTs = parseInt(b.dataset.timestamp || '0', 10);
@@ -420,13 +467,18 @@ permalink: /photography/
       cards.forEach(function (card) { grid.appendChild(card); });
     }
 
-    // Sort dropdown
+    // Dropdowns
     document.getElementById('sort-select').addEventListener('change', function (e) {
       activeSort = e.target.value;
-      applySort();
+      applySortAndFilter();
+    });
+    
+    countrySelect.addEventListener('change', function (e) {
+      activeCountry = e.target.value;
+      applySortAndFilter();
     });
 
     // Initial render
-    applySort();
+    applySortAndFilter();
   })();
 </script>
