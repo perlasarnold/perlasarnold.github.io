@@ -1,5 +1,5 @@
 {
-    "count": 436,
+    "count": 435,
     "data": [
         {
             "id": "ZuCIPdhWS7ixlm0XLB1JvQ",
@@ -5100,21 +5100,6 @@
                     "apertureValue": "1.6",
                     "exposureTime": "1/236",
                     "dateTimeOriginal": "2022-02-06T17:56:17.000Z"
-                }
-            }
-        },
-        {
-            "id": "F7Z0JW-VSK-rOCuCdZytVQ",
-            "name": "IMG_20220206_174945.jpg",
-            "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/F7Z0JW-VSK-rOCuCdZytVQ?viewBox=1024&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
-            "contentProperties": {
-                "image": {
-                    "make": "OnePlus",
-                    "model": "HD1905",
-                    "focalLength": "4.755",
-                    "apertureValue": "1.6",
-                    "exposureTime": "1/572",
-                    "dateTimeOriginal": "2022-02-06T17:49:46.000Z"
                 }
             }
         },
