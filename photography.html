@@ -41,72 +41,158 @@ permalink: /photography/
     </div>
   </div>
 
-  <div class="gallery-grid" id="gallery-grid">
-    {% for photo in site.data.photos.data %}
-    {% if photo.imageUrl %}
-    {% assign photo_tags = site.data.photo_tags[photo.id] | join: ',' %}
-    {% assign final_location = site.data.photo_locations[photo.id] %}
-    {% if photo.contentProperties.image.location != nil and photo.contentProperties.image.location != "" %}
-      {% assign final_location = photo.contentProperties.image.location %}
-    {% endif %}
-    <div class="photo-card"
-      data-src="{{ photo.imageUrl }}"
-      data-alt="{{ photo.name }}"
-      data-tags="{{ photo_tags }}"
-      data-location="{{ final_location }}"
-      {% if photo.contentProperties.image %}
-      data-make="{{ photo.contentProperties.image.make }} {{ photo.contentProperties.image.model }}"
-      data-date="{{ photo.contentProperties.image.dateTimeOriginal | date: "%b %d, %Y" }}"
-      data-timestamp="{{ photo.contentProperties.image.dateTimeOriginal | date: "%s" }}"
-      data-focal="{{ photo.contentProperties.image.focalLength }}"
-      data-aperture="{{ photo.contentProperties.image.apertureValue }}"
-      data-exposure="{{ photo.contentProperties.image.exposureTime }}"
-      {% endif %}
-      >
-      <div class="photo-card-img-wrap">
-        <img src="{{ photo.imageUrl }}" alt="{{ photo.name }}" loading="lazy" />
-        <div class="photo-card-overlay"><span>View</span></div>
-      </div>
-      <div class="meta">
-        {% if photo.contentProperties.image.make or photo.contentProperties.image.model %}
-        <div class="meta-row">
-          <strong>{{ photo.contentProperties.image.make }} {{ photo.contentProperties.image.model }}</strong>
-          {% if photo.contentProperties.image.dateTimeOriginal %}
-          <span class="meta-date">{{ photo.contentProperties.image.dateTimeOriginal | date: "%b %d, %Y" }}</span>
+  <div class="gallery-wrapper" style="display: flex; gap: 2rem; position: relative;">
+    <div style="flex-grow: 1; min-width: 0;">
+      <div class="gallery-container" id="gallery-container">
+        <!-- Initial load fallback; JS will restructure -->
+        <div class="gallery-grid" id="gallery-grid-initial">
+          {% for photo in site.data.photos.data %}
+          {% if photo.imageUrl %}
+          {% assign photo_tags = site.data.photo_tags[photo.id] | join: ',' %}
+          {% assign final_location = site.data.photo_locations[photo.id] %}
+          {% if photo.contentProperties.image.location != nil and photo.contentProperties.image.location != "" %}
+            {% assign final_location = photo.contentProperties.image.location %}
           {% endif %}
+          <div class="photo-card"
+            data-src="{{ photo.imageUrl }}"
+            data-alt="{{ photo.name }}"
+            data-tags="{{ photo_tags }}"
+            data-location="{{ final_location }}"
+            {% if photo.contentProperties.image %}
+            data-make="{{ photo.contentProperties.image.make }} {{ photo.contentProperties.image.model }}"
+            data-date="{{ photo.contentProperties.image.dateTimeOriginal | date: "%b %d, %Y" }}"
+            data-month-year="{{ photo.contentProperties.image.dateTimeOriginal | date: "%B %Y" }}"
+            data-year="{{ photo.contentProperties.image.dateTimeOriginal | date: "%Y" }}"
+            data-timestamp="{{ photo.contentProperties.image.dateTimeOriginal | date: "%s" }}"
+            data-focal="{{ photo.contentProperties.image.focalLength }}"
+            data-aperture="{{ photo.contentProperties.image.apertureValue }}"
+            data-exposure="{{ photo.contentProperties.image.exposureTime }}"
+            {% endif %}
+            >
+            <div class="photo-card-img-wrap">
+              <img src="{{ photo.imageUrl }}" alt="{{ photo.name }}" loading="lazy" />
+              <div class="photo-card-overlay"><span>View</span></div>
+            </div>
+            <div class="meta">
+              {% if photo.contentProperties.image.make or photo.contentProperties.image.model %}
+              <div class="meta-row">
+                <strong>{{ photo.contentProperties.image.make }} {{ photo.contentProperties.image.model }}</strong>
+                {% if photo.contentProperties.image.dateTimeOriginal %}
+                <span class="meta-date">{{ photo.contentProperties.image.dateTimeOriginal | date: "%b %d, %Y" }}</span>
+                {% endif %}
+              </div>
+              {% elsif photo.contentProperties.image.dateTimeOriginal %}
+              <div class="meta-row">
+                <span class="meta-date">{{ photo.contentProperties.image.dateTimeOriginal | date: "%b %d, %Y" }}</span>
+              </div>
+              {% else %}
+              <div class="meta-row">
+                <span class="no-exif">{{ photo.name }}</span>
+              </div>
+              {% endif %}
+              {% if final_location %}
+              <div class="meta-location">
+                <svg style="width:12px;height:12px;vertical-align:text-bottom;margin-right:4px;opacity:0.8;" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg><span>{{ final_location }}</span>
+              </div>
+              {% endif %}
+              {% assign has_focal    = photo.contentProperties.image.focalLength %}
+              {% assign has_aperture = photo.contentProperties.image.apertureValue %}
+              {% assign has_exposure = photo.contentProperties.image.exposureTime %}
+              {% if has_focal or has_aperture or has_exposure %}
+              <div class="meta-exif">
+                {% if has_focal %}<span>{{ photo.contentProperties.image.focalLength }}mm</span>{% endif %}
+                {% if has_aperture %}{% if has_focal %} &bull; {% endif %}<span>f/{{ photo.contentProperties.image.apertureValue }}</span>{% endif %}
+                {% if has_exposure %}{% if has_focal or has_aperture %} &bull; {% endif %}<span>{{ photo.contentProperties.image.exposureTime }}s</span>{% endif %}
+              </div>
+              {% endif %}
+            </div>
+          </div>
+          {% endif %}
+          {% endfor %}
         </div>
-        {% elsif photo.contentProperties.image.dateTimeOriginal %}
-        <div class="meta-row">
-          <span class="meta-date">{{ photo.contentProperties.image.dateTimeOriginal | date: "%b %d, %Y" }}</span>
-        </div>
-        {% else %}
-        <div class="meta-row">
-          <span class="no-exif">{{ photo.name }}</span>
-        </div>
-        {% endif %}
-        {% if final_location %}
-        <div class="meta-location">
-          <svg style="width:12px;height:12px;vertical-align:text-bottom;margin-right:4px;opacity:0.8;" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg><span>{{ final_location }}</span>
-        </div>
-        {% endif %}
-        {% assign has_focal    = photo.contentProperties.image.focalLength %}
-        {% assign has_aperture = photo.contentProperties.image.apertureValue %}
-        {% assign has_exposure = photo.contentProperties.image.exposureTime %}
-        {% if has_focal or has_aperture or has_exposure %}
-        <div class="meta-exif">
-          {% if has_focal %}<span>{{ photo.contentProperties.image.focalLength }}mm</span>{% endif %}
-          {% if has_aperture %}{% if has_focal %} &bull; {% endif %}<span>f/{{ photo.contentProperties.image.apertureValue }}</span>{% endif %}
-          {% if has_exposure %}{% if has_focal or has_aperture %} &bull; {% endif %}<span>{{ photo.contentProperties.image.exposureTime }}s</span>{% endif %}
-        </div>
-        {% endif %}
       </div>
     </div>
-    {% endif %}
-    {% endfor %}
+    
+    <!-- Scrubber Map -->
+    <aside class="timeline-scrubber-wrap" id="timeline-scrubber-wrap" style="display: none;">
+      <div class="timeline-scrubber" id="timeline-scrubber"></div>
+    </aside>
   </div>
 </section>
 
 <style>
+  /* ── Timeline ─────────────────────────────────── */
+  .timeline-group {
+    margin-bottom: 2.5rem;
+    position: relative;
+    scroll-margin-top: 80px;
+  }
+
+  .timeline-header {
+    position: sticky;
+    top: 30px;
+    z-index: 10;
+    background: rgba(18, 18, 18, 0.75);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    padding: 0.6rem 1.25rem;
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin: 0 0 1.25rem 0;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    color: var(--ink);
+    display: inline-block;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+
+  /* Timeline scrubber */
+  .timeline-scrubber-wrap {
+    position: sticky;
+    top: 80px;
+    height: calc(100vh - 100px);
+    flex-shrink: 0;
+    width: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .timeline-scrubber {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 20px;
+    padding: 0.8rem 0.4rem;
+  }
+
+  .timeline-scrubber a {
+    color: var(--muted);
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0.3rem 0;
+    writing-mode: vertical-rl;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.2s ease;
+    cursor: pointer;
+  }
+  .timeline-scrubber a:hover {
+    color: var(--accent, #7c6ef7);
+  }
+
+  .timeline-scrubber a.active {
+    color: var(--accent, #7c6ef7);
+  }
+  
+  @media (max-width: 800px) {
+    .timeline-scrubber-wrap { display: none !important; }
+  }
+
   /* ── Toolbar ──────────────────────────────────── */
   .gallery-toolbar {
     display: flex;
@@ -409,7 +495,9 @@ permalink: /photography/
     var cards = Array.from(document.querySelectorAll('.photo-card'));
     var activeSort = 'newest';
     var activeCountry = 'all';
-    var grid = document.getElementById('gallery-grid');
+    var gridContainer = document.getElementById('gallery-container');
+    var scrubberWrap = document.getElementById('timeline-scrubber-wrap');
+    var scrubber = document.getElementById('timeline-scrubber');
 
     // Dynamically build country list
     var countryMap = {
@@ -442,17 +530,19 @@ permalink: /photography/
     });
 
     function applySortAndFilter() {
-      // 1. Toggle visibility based on country
-      cards.forEach(function (card) {
+      // 1. Filter
+      var visibleCards = cards.filter(function (card) {
         if (activeCountry === 'all' || card.dataset.country === activeCountry) {
           card.classList.remove('hidden');
+          return true;
         } else {
           card.classList.add('hidden');
+          return false;
         }
       });
 
-      // 2. Apply sort to DOM
-      cards.sort(function (a, b) {
+      // 2. Apply sort to array
+      visibleCards.sort(function (a, b) {
         var aTs = parseInt(a.dataset.timestamp || '0', 10);
         var bTs = parseInt(b.dataset.timestamp || '0', 10);
         var aF  = parseFloat(a.dataset.focal || '0');
@@ -467,7 +557,73 @@ permalink: /photography/
         if (activeSort === 'aperture-desc') return bAp - aAp;
         return 0;
       });
-      cards.forEach(function (card) { grid.appendChild(card); });
+
+      // 3. Render
+      gridContainer.innerHTML = '';
+      scrubber.innerHTML = '';
+      if (scrubberWrap) scrubberWrap.style.display = 'none';
+
+      // Group if date sorting
+      if (activeSort === 'newest' || activeSort === 'oldest') {
+        if (scrubberWrap) scrubberWrap.style.display = 'flex';
+        
+        var uniqueYears = new Set();
+        visibleCards.forEach(function(card) {
+          if (card.dataset.year) uniqueYears.add(card.dataset.year);
+        });
+        
+        var sortedYears = Array.from(uniqueYears).sort();
+        if (activeSort === 'newest') sortedYears.reverse();
+        
+        sortedYears.forEach(function(year) {
+          var a = document.createElement('a');
+          a.href = '#timeline-year-' + year;
+          a.textContent = year;
+          a.addEventListener('click', function(e) {
+            e.preventDefault();
+            var target = document.getElementById('timeline-year-' + year);
+            if(target) target.scrollIntoView({behavior: 'smooth'});
+          });
+          scrubber.appendChild(a);
+        });
+
+        var currentGroupName = null;
+        var currentGroup = null;
+        var innerGrid = null;
+        var renderedYears = new Set();
+
+        visibleCards.forEach(function (card) {
+          var groupName = card.dataset.location || 'Various Locations';
+          if (groupName !== currentGroupName) {
+            currentGroupName = groupName;
+            currentGroup = document.createElement('div');
+            currentGroup.className = 'timeline-group';
+            
+            var year = card.dataset.year;
+            if (year && !renderedYears.has(year)) {
+              currentGroup.id = 'timeline-year-' + year;
+              renderedYears.add(year);
+            }
+            
+            var header = document.createElement('div');
+            header.className = 'timeline-header';
+            header.textContent = groupName;
+            currentGroup.appendChild(header);
+
+            innerGrid = document.createElement('div');
+            innerGrid.className = 'gallery-grid-inner';
+            currentGroup.appendChild(innerGrid);
+            gridContainer.appendChild(currentGroup);
+          }
+          innerGrid.appendChild(card);
+        });
+      } else {
+        // Flat List
+        var innerGrid = document.createElement('div');
+        innerGrid.className = 'gallery-grid-inner';
+        visibleCards.forEach(function(card) { innerGrid.appendChild(card); });
+        gridContainer.appendChild(innerGrid);
+      }
     }
 
     // Dropdowns
