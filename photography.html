@@ -474,6 +474,46 @@ permalink: /photography/
   .lightbox-close:hover {
     background: rgba(255, 255, 255, 0.25);
   }
+
+  /* Light mode overrides for timeline components */
+  html:not([data-theme="dark"]) .timeline-header,
+  html[data-theme="light"] .timeline-header {
+    background: #636B2F;
+    color: #ffffff;
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+
+  html:not([data-theme="dark"]) .timeline-scrubber,
+  html[data-theme="light"] .timeline-scrubber {
+    background: #636B2F;
+    border-color: #636B2F;
+  }
+
+  html:not([data-theme="dark"]) .timeline-scrubber a,
+  html[data-theme="light"] .timeline-scrubber a {
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  html:not([data-theme="dark"]) .timeline-scrubber a:hover,
+  html:not([data-theme="dark"]) .timeline-scrubber a.active,
+  html[data-theme="light"] .timeline-scrubber a:hover,
+  html[data-theme="light"] .timeline-scrubber a.active {
+    color: #ffffff;
+  }
+
+  html:not([data-theme="dark"]) .timeline-scrubber-mobile a,
+  html[data-theme="light"] .timeline-scrubber-mobile a {
+    background: #636B2F;
+    color: rgba(255, 255, 255, 0.8);
+    border-color: #636B2F;
+  }
+
+  html:not([data-theme="dark"]) .timeline-scrubber-mobile a:hover,
+  html:not([data-theme="dark"]) .timeline-scrubber-mobile a.active,
+  html[data-theme="light"] .timeline-scrubber-mobile a:hover,
+  html[data-theme="light"] .timeline-scrubber-mobile a.active {
+    color: #ffffff;
+  }
 </style>
 
 <script>
