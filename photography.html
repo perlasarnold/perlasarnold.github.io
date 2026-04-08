@@ -45,7 +45,10 @@ permalink: /photography/
     {% for photo in site.data.photos.data %}
     {% if photo.imageUrl %}
     {% assign photo_tags = site.data.photo_tags[photo.id] | join: ',' %}
-    {% assign final_location = photo.contentProperties.image.location | default: site.data.photo_locations[photo.id] %}
+    {% assign final_location = site.data.photo_locations[photo.id] %}
+    {% if photo.contentProperties.image.location != nil and photo.contentProperties.image.location != "" %}
+      {% assign final_location = photo.contentProperties.image.location %}
+    {% endif %}
     <div class="photo-card"
       data-src="{{ photo.imageUrl }}"
       data-alt="{{ photo.name }}"
