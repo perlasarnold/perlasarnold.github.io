@@ -40,6 +40,8 @@ permalink: /photography/
       </select>
     </div>
   </div>
+  
+  <div class="timeline-scrubber-mobile" id="timeline-scrubber-mobile" style="display: none;"></div>
 
   <div class="gallery-wrapper" style="display: flex; gap: 2rem; position: relative;">
     <div style="flex-grow: 1; min-width: 0;">
@@ -191,7 +193,35 @@ permalink: /photography/
   
   @media (max-width: 800px) {
     .timeline-scrubber-wrap { display: none !important; }
-  }
+    
+    .timeline-scrubber-mobile {
+      display: flex !important;
+      gap: 0.5rem;
+      overflow-x: auto;
+      padding: 0.25rem 0 1rem 0;
+      margin-bottom: 0.5rem;
+      scrollbar-width: none;
+    }
+    .timeline-scrubber-mobile::-webkit-scrollbar {
+      display: none;
+    }
+    .timeline-scrubber-mobile a {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 0.4rem 1rem;
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--muted);
+      text-decoration: none;
+      white-space: nowrap;
+      transition: color 0.15s ease, border-color 0.15s ease;
+    }
+    .timeline-scrubber-mobile a:hover, .timeline-scrubber-mobile a:active {
+      color: var(--accent, #7c6ef7);
+      border-color: var(--accent, #7c6ef7);
+    }
+   }
 
   /* ── Toolbar ──────────────────────────────────── */
   .gallery-toolbar {
@@ -232,7 +262,8 @@ permalink: /photography/
   }
 
   /* Gallery grid */
-  .gallery-grid {
+  .gallery-grid,
+  .gallery-grid-inner {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 1.5rem;
@@ -557,16 +588,21 @@ permalink: /photography/
         if (activeSort === 'aperture-desc') return bAp - aAp;
         return 0;
       });
-
       // 3. Render
       gridContainer.innerHTML = '';
       scrubber.innerHTML = '';
       if (scrubberWrap) scrubberWrap.style.display = 'none';
+      var mobileScrubber = document.getElementById('timeline-scrubber-mobile');
+      if (mobileScrubber) {
+        mobileScrubber.innerHTML = '';
+        mobileScrubber.style.display = 'none';
+      }
 
       // Group if date sorting
       if (activeSort === 'newest' || activeSort === 'oldest') {
         if (scrubberWrap) scrubberWrap.style.display = 'flex';
-        
+        if (mobileScrubber) mobileScrubber.style.display = ''; // Let CSS handle flex vs none
+
         var uniqueYears = new Set();
         visibleCards.forEach(function(card) {
           if (card.dataset.year) uniqueYears.add(card.dataset.year);
@@ -576,15 +612,31 @@ permalink: /photography/
         if (activeSort === 'newest') sortedYears.reverse();
         
         sortedYears.forEach(function(year) {
+          function scrollToYear(e) {
+            e.preventDefault();
+            var target = document.getElementById('timeline-year-' + year);
+            if(target) {
+              // Smooth scroll minus the stick offset
+              var y = target.getBoundingClientRect().top + window.scrollY - 100;
+              window.scrollTo({top: y, behavior: 'smooth'});
+            }
+          }
+
+          // Desktop scrubber link
           var a = document.createElement('a');
           a.href = '#timeline-year-' + year;
           a.textContent = year;
-          a.addEventListener('click', function(e) {
-            e.preventDefault();
-            var target = document.getElementById('timeline-year-' + year);
-            if(target) target.scrollIntoView({behavior: 'smooth'});
-          });
+          a.addEventListener('click', scrollToYear);
           scrubber.appendChild(a);
+
+          // Mobile scrubber pill link
+          if (mobileScrubber) {
+            var m_a = document.createElement('a');
+            m_a.href = '#timeline-year-' + year;
+            m_a.textContent = year;
+            m_a.addEventListener('click', scrollToYear);
+            mobileScrubber.appendChild(m_a);
+          }
         });
 
         var currentGroupName = null;
