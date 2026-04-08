@@ -58,6 +58,11 @@ LOCATION_DATE_RULES = [
     ("2022-06-10", "2022-06-12", "Banff, Alberta, Canada"),
     
     ("2023-03-15", "2023-03-15", "Pirámide del Sol, Mexico"),
+    
+    ("2023-05-26", "2023-05-27", "Antigua, Guatemala"),
+    ("2023-05-28", "2023-05-28", "Santiago Atitlán, Guatemala"),
+    ("2023-05-29", "2023-05-29", "Tikal, Guatemala"),
+    
     ("2023-06-03", "2023-06-03", "Natural History Museum, Los Angeles, CA"),
 
     ("2024-03-01", "2024-03-03", "Cartagena, Bolivar, Colombia"),
