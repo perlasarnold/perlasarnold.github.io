@@ -31,9 +31,9 @@ DATE_RULES = [
     ("2011-08-01", "2011-08-31", ["nature", "travel"]),
 ]
 
-# ── Location rules ─────────────────────────────────────────────────────────
 LOCATION_FILENAME_RULES = [
     (re.compile(r"HuntingtonLib", re.I), "Huntington Library, San Marino, CA"),
+    (re.compile(r"DisneyGators", re.I), "Gatorland, Orlando, FL"),
     (re.compile(r"Disney", re.I), "Walt Disney World Resort, FL"),
 ]
 
