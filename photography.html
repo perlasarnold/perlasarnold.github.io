@@ -45,75 +45,20 @@ permalink: /photography/
 
   <div class="gallery-wrapper" style="display: flex; gap: 2rem; position: relative;">
     <div style="flex-grow: 1; min-width: 0;">
-      <div class="gallery-container" id="gallery-container">
-        <!-- Initial load fallback; JS will restructure -->
-        <div class="gallery-grid" id="gallery-grid-initial">
-          {% for photo in site.data.photos.data %}
-          {% if photo.imageUrl %}
-          {% assign photo_tags = site.data.photo_tags[photo.id] | join: ',' %}
-          {% assign final_location = site.data.photo_locations[photo.id] %}
-          {% if photo.contentProperties.image.location != nil and photo.contentProperties.image.location != "" %}
-            {% assign final_location = photo.contentProperties.image.location %}
-          {% endif %}
-          <div class="photo-card"
-            data-src="{{ photo.imageUrl }}"
-            data-alt="{{ photo.name }}"
-            data-tags="{{ photo_tags }}"
-            data-location="{{ final_location }}"
-            {% if photo.contentProperties.image %}
-            data-make="{{ photo.contentProperties.image.make }} {{ photo.contentProperties.image.model }}"
-            data-date="{{ photo.contentProperties.image.dateTimeOriginal | date: "%b %d, %Y" }}"
-            data-month-year="{{ photo.contentProperties.image.dateTimeOriginal | date: "%B %Y" }}"
-            data-year="{{ photo.contentProperties.image.dateTimeOriginal | date: "%Y" }}"
-            data-timestamp="{{ photo.contentProperties.image.dateTimeOriginal | date: "%s" }}"
-            data-focal="{{ photo.contentProperties.image.focalLength }}"
-            data-aperture="{{ photo.contentProperties.image.apertureValue }}"
-            data-exposure="{{ photo.contentProperties.image.exposureTime }}"
-            {% endif %}
-            >
-            <div class="photo-card-img-wrap">
-              <img src="{{ photo.imageUrl }}" alt="{{ photo.name }}" loading="lazy" />
-              <div class="photo-card-overlay"><span>View</span></div>
-            </div>
-            <div class="meta">
-              {% if photo.contentProperties.image.make or photo.contentProperties.image.model %}
-              <div class="meta-row">
-                <strong>{{ photo.contentProperties.image.make }} {{ photo.contentProperties.image.model }}</strong>
-                {% if photo.contentProperties.image.dateTimeOriginal %}
-                <span class="meta-date">{{ photo.contentProperties.image.dateTimeOriginal | date: "%b %d, %Y" }}</span>
-                {% endif %}
-              </div>
-              {% elsif photo.contentProperties.image.dateTimeOriginal %}
-              <div class="meta-row">
-                <span class="meta-date">{{ photo.contentProperties.image.dateTimeOriginal | date: "%b %d, %Y" }}</span>
-              </div>
-              {% else %}
-              <div class="meta-row">
-                <span class="no-exif">{{ photo.name }}</span>
-              </div>
-              {% endif %}
-              {% if final_location %}
-              <div class="meta-location">
-                <svg style="width:12px;height:12px;vertical-align:text-bottom;margin-right:4px;opacity:0.8;" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg><span>{{ final_location }}</span>
-              </div>
-              {% endif %}
-              {% assign has_focal    = photo.contentProperties.image.focalLength %}
-              {% assign has_aperture = photo.contentProperties.image.apertureValue %}
-              {% assign has_exposure = photo.contentProperties.image.exposureTime %}
-              {% if has_focal or has_aperture or has_exposure %}
-              <div class="meta-exif">
-                {% if has_focal %}<span>{{ photo.contentProperties.image.focalLength }}mm</span>{% endif %}
-                {% if has_aperture %}{% if has_focal %} &bull; {% endif %}<span>f/{{ photo.contentProperties.image.apertureValue }}</span>{% endif %}
-                {% if has_exposure %}{% if has_focal or has_aperture %} &bull; {% endif %}<span>{{ photo.contentProperties.image.exposureTime }}s</span>{% endif %}
-              </div>
-              {% endif %}
-            </div>
-          </div>
-          {% endif %}
-          {% endfor %}
-        </div>
+      <div id="gallery-container">
+        <!-- Dynamic content will be injected here -->
       </div>
+      <div id="gallery-sentinel" style="height: 50px; margin-top: 2rem;"></div>
     </div>
+
+    <!-- Inject data for dynamic rendering -->
+    <script id="gallery-data" type="application/json">
+    {
+      "photos": {{ site.data.photos.data | jsonify }},
+      "tags": {{ site.data.photo_tags | jsonify }},
+      "locations": {{ site.data.photo_locations | jsonify }}
+    }
+    </script>
     
     <!-- Scrubber Map -->
     <aside class="timeline-scrubber-wrap" id="timeline-scrubber-wrap" style="display: none;">
@@ -289,6 +234,8 @@ permalink: /photography/
     overflow: hidden;
     box-shadow: var(--shadow);
     cursor: pointer;
+    content-visibility: auto;
+    contain-intrinsic-size: 300px 400px;
   }
 
   .photo-card:hover {
@@ -518,29 +465,77 @@ permalink: /photography/
 
 <script>
   (function () {
-    /* ── Lightbox ─────────────────────────────────────────── */
-    var lb    = document.getElementById('lightbox');
-    var lbImg = document.getElementById('lightbox-img');
-    var lbMeta = document.getElementById('lightbox-meta');
-    var lbClose = document.getElementById('lightbox-close');
-    var lbBack  = document.getElementById('lightbox-backdrop');
+    /* ── Data Initialization ───────────────────────────────── */
+    const rawData = JSON.parse(document.getElementById('gallery-data').textContent);
+    const countryMap = {
+      "CA": "United States", "FL": "United States", "Arizona": "United States",
+      "Colorado": "United States", "South Dakota": "United States",
+      "North Carolina": "United States", "Georgia": "United States",
+      "Tennesee": "United States", "Nevada": "United States", "Florida": "United States",
+      "England": "United Kingdom", "Scotland": "United Kingdom", "UK": "United Kingdom"
+    };
 
-    function openLightbox(card) {
-      lbImg.src  = card.dataset.src;
-      lbImg.alt  = card.dataset.alt || '';
-      var make     = card.dataset.make || '';
-      var date     = card.dataset.date || '';
-      var focal    = card.dataset.focal;
-      var aperture = card.dataset.aperture;
-      var exposure = card.dataset.exposure;
-      var location = card.dataset.location;
-      var parts = [];
-      if (make)     parts.push('<strong>' + make + '</strong>');
-      if (date)     parts.push(date);
-      if (location) parts.push(location);
-      if (focal)    parts.push(focal + 'mm');
-      if (aperture) parts.push('f/' + aperture);
-      if (exposure) parts.push(exposure + 's');
+    // Pre-process photos to match the old Liquid-generated data attributes
+    const allPhotos = rawData.photos.filter(p => p.imageUrl).map(p => {
+      const img = p.contentProperties?.image || {};
+      const loc = rawData.locations[p.id] || img.location || "";
+      const tags = rawData.tags[p.id] || [];
+      
+      let country = "";
+      if (loc) {
+        const parts = loc.split(",");
+        const rawLast = parts[parts.length - 1].trim();
+        country = countryMap[rawLast] || rawLast;
+      }
+
+      return {
+        id: p.id,
+        src: p.imageUrl,
+        alt: p.name || "",
+        tags: tags.join(','),
+        location: loc,
+        country: country,
+        make: `${img.make || ""} ${img.model || ""}`.trim(),
+        date: img.dateTimeOriginal ? new Date(img.dateTimeOriginal).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }) : "",
+        monthYear: img.dateTimeOriginal ? new Date(img.dateTimeOriginal).toLocaleDateString('en-US', { month: 'long', year: 'numeric' }) : "",
+        year: img.dateTimeOriginal ? new Date(img.dateTimeOriginal).getFullYear().toString() : "",
+        timestamp: img.dateTimeOriginal ? Math.floor(new Date(img.dateTimeOriginal).getTime() / 1000) : 0,
+        focal: img.focalLength,
+        aperture: img.apertureValue,
+        exposure: img.exposureTime
+      };
+    });
+
+    /* ── State ────────────────────────────────────────────── */
+    let filteredPhotos = [];
+    let activeSort = 'newest';
+    let activeCountry = 'all';
+    let currentBatchIndex = 0;
+    const pageSize = 24;
+
+    const gridContainer = document.getElementById('gallery-container');
+    const scrubberWrap = document.getElementById('timeline-scrubber-wrap');
+    const scrubber = document.getElementById('timeline-scrubber');
+    const mobileScrubber = document.getElementById('timeline-scrubber-mobile');
+    const sentinel = document.getElementById('gallery-sentinel');
+
+    /* ── Lightbox ─────────────────────────────────────────── */
+    const lb = document.getElementById('lightbox');
+    const lbImg = document.getElementById('lightbox-img');
+    const lbMeta = document.getElementById('lightbox-meta');
+    const lbClose = document.getElementById('lightbox-close');
+    const lbBack = document.getElementById('lightbox-backdrop');
+
+    function openLightbox(photo) {
+      lbImg.src = photo.src;
+      lbImg.alt = photo.alt;
+      const parts = [];
+      if (photo.make) parts.push('<strong>' + photo.make + '</strong>');
+      if (photo.date) parts.push(photo.date);
+      if (photo.location) parts.push(photo.location);
+      if (photo.focal) parts.push(photo.focal + 'mm');
+      if (photo.aperture) parts.push('f/' + photo.aperture);
+      if (photo.exposure) parts.push(photo.exposure + 's');
       lbMeta.innerHTML = parts.join(' &nbsp;·&nbsp; ');
       lb.classList.add('is-open');
       document.body.style.overflow = 'hidden';
@@ -552,188 +547,195 @@ permalink: /photography/
       lbImg.src = '';
     }
 
-    document.querySelectorAll('.photo-card').forEach(function (card) {
-      card.addEventListener('click', function () { openLightbox(card); });
-      card.setAttribute('tabindex', '0');
-      card.addEventListener('keydown', function (e) {
-        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openLightbox(card); }
-      });
-    });
-
     lbClose.addEventListener('click', closeLightbox);
     lbBack.addEventListener('click', closeLightbox);
-    document.addEventListener('keydown', function (e) {
-      if (e.key === 'Escape') closeLightbox();
-    });
+    document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
 
-    /* ── Filter & Sort logic ──────────────────────────────── */
-    var cards = Array.from(document.querySelectorAll('.photo-card'));
-    var activeSort = 'newest';
-    var activeCountry = 'all';
-    var gridContainer = document.getElementById('gallery-container');
-    var scrubberWrap = document.getElementById('timeline-scrubber-wrap');
-    var scrubber = document.getElementById('timeline-scrubber');
-
-    // Dynamically build country list
-    var countryMap = {
-      "CA": "United States", "FL": "United States", "Arizona": "United States",
-      "Colorado": "United States", "South Dakota": "United States",
-      "North Carolina": "United States", "Georgia": "United States",
-      "Tennesee": "United States", "Nevada": "United States", "Florida": "United States",
-      "England": "United Kingdom", "Scotland": "United Kingdom", "UK": "United Kingdom"
-    };
-
-    var countrySelect = document.getElementById('country-filter');
-    var foundCountries = new Set();
-    cards.forEach(function(card) {
-      if (card.dataset.location) {
-        var parts = card.dataset.location.split(",");
-        var rawLast = parts[parts.length - 1].trim();
-        var c = countryMap[rawLast] || rawLast;
-        foundCountries.add(c);
-        // Tag card for easy filtering
-        card.dataset.country = c;
+    /* ── Rendering ────────────────────────────────────────── */
+    function createPhotoCard(photo) {
+      const card = document.createElement('div');
+      card.className = 'photo-card';
+      card.setAttribute('tabindex', '0');
+      
+      const imgWrap = document.createElement('div');
+      imgWrap.className = 'photo-card-img-wrap';
+      imgWrap.innerHTML = `
+        <img src="${photo.src}" alt="${photo.alt}" loading="lazy" />
+        <div class="photo-card-overlay"><span>View</span></div>
+      `;
+      
+      const meta = document.createElement('div');
+      meta.className = 'meta';
+      
+      let metaContent = '';
+      if (photo.make) {
+        metaContent += `<div class="meta-row"><strong>${photo.make}</strong><span class="meta-date">${photo.date}</span></div>`;
+      } else if (photo.date) {
+        metaContent += `<div class="meta-row"><span class="meta-date">${photo.date}</span></div>`;
+      } else {
+        metaContent += `<div class="meta-row"><span class="no-exif">${photo.alt}</span></div>`;
       }
+      
+      if (photo.location) {
+        metaContent += `<div class="meta-location"><svg style="width:12px;height:12px;vertical-align:text-bottom;margin-right:4px;opacity:0.8;" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg><span>${photo.location}</span></div>`;
+      }
+      
+      if (photo.focal || photo.aperture || photo.exposure) {
+        metaContent += `<div class="meta-exif">`;
+        if (photo.focal) metaContent += `<span>${photo.focal}mm</span>`;
+        if (photo.aperture) metaContent += `${photo.focal ? ' &bull; ' : ''}<span>f/${photo.aperture}</span>`;
+        if (photo.exposure) metaContent += `${(photo.focal || photo.aperture) ? ' &bull; ' : ''}<span>${photo.exposure}s</span>`;
+        metaContent += `</div>`;
+      }
+      
+      meta.innerHTML = metaContent;
+      card.appendChild(imgWrap);
+      card.appendChild(meta);
+      
+      card.addEventListener('click', () => openLightbox(photo));
+      card.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openLightbox(photo); } });
+      
+      return card;
+    }
+
+    let currentGroupName = null;
+    let currentInnerGrid = null;
+    let renderedYears = new Set();
+
+    function renderNextBatch() {
+      if (currentBatchIndex >= filteredPhotos.length) return;
+      
+      const batch = filteredPhotos.slice(currentBatchIndex, currentBatchIndex + pageSize);
+      const isTimeline = activeSort === 'newest' || activeSort === 'oldest';
+
+      batch.forEach(photo => {
+        if (isTimeline) {
+          const groupName = photo.location || 'Various Locations';
+          if (groupName !== currentGroupName) {
+            currentGroupName = groupName;
+            const groupDiv = document.createElement('div');
+            groupDiv.className = 'timeline-group';
+            
+            if (photo.year && !renderedYears.has(photo.year)) {
+              groupDiv.id = 'timeline-year-' + photo.year;
+              renderedYears.add(photo.year);
+            }
+            
+            const header = document.createElement('div');
+            header.className = 'timeline-header';
+            header.textContent = groupName;
+            groupDiv.appendChild(header);
+
+            currentInnerGrid = document.createElement('div');
+            currentInnerGrid.className = 'gallery-grid-inner';
+            groupDiv.appendChild(currentInnerGrid);
+            gridContainer.appendChild(groupDiv);
+          }
+          currentInnerGrid.appendChild(createPhotoCard(photo));
+        } else {
+          if (!currentInnerGrid) {
+            currentInnerGrid = document.createElement('div');
+            currentInnerGrid.className = 'gallery-grid-inner';
+            gridContainer.appendChild(currentInnerGrid);
+          }
+          currentInnerGrid.appendChild(createPhotoCard(photo));
+        }
+      });
+
+      currentBatchIndex += pageSize;
+    }
+
+    /* ── Infinite Scroll Observer ─────────────────────────── */
+    const observer = new IntersectionObserver(entries => {
+      if (entries[0].isIntersecting) renderNextBatch();
+    }, { rootMargin: '400px' });
+    observer.observe(sentinel);
+
+    /* ── Filtering & Sorting ──────────────────────────────── */
+    function applySortAndFilter() {
+      // Reset state
+      gridContainer.innerHTML = '';
+      currentBatchIndex = 0;
+      currentGroupName = null;
+      currentInnerGrid = null;
+      renderedYears.clear();
+      
+      // Filter
+      filteredPhotos = allPhotos.filter(p => activeCountry === 'all' || p.country === activeCountry);
+
+      // Sort
+      filteredPhotos.sort((a, b) => {
+        if (activeSort === 'newest') return b.timestamp - a.timestamp;
+        if (activeSort === 'oldest') return a.timestamp - b.timestamp;
+        if (activeSort === 'focal-asc') return (parseFloat(a.focal) || 0) - (parseFloat(b.focal) || 0);
+        if (activeSort === 'focal-desc') return (parseFloat(b.focal) || 0) - (parseFloat(a.focal) || 0);
+        if (activeSort === 'aperture-asc') return (parseFloat(a.aperture) || 0) - (parseFloat(b.aperture) || 0);
+        if (activeSort === 'aperture-desc') return (parseFloat(b.aperture) || 0) - (parseFloat(a.aperture) || 0);
+        return 0;
+      });
+
+      // Update Scrubber
+      scrubber.innerHTML = '';
+      if (mobileScrubber) mobileScrubber.innerHTML = '';
+      
+      const isTimeline = activeSort === 'newest' || activeSort === 'oldest';
+      if (isTimeline) {
+        scrubberWrap.style.display = 'flex';
+        if (mobileScrubber) mobileScrubber.style.display = '';
+        
+        const uniqueYears = Array.from(new Set(filteredPhotos.map(p => p.year).filter(Boolean)));
+        if (activeSort === 'newest') uniqueYears.sort((a, b) => b - a);
+        else uniqueYears.sort((a, b) => a - b);
+
+        uniqueYears.forEach(year => {
+          const scrollToYear = e => {
+            e.preventDefault();
+            const target = document.getElementById('timeline-year-' + year);
+            if (target) window.scrollTo({ top: target.getBoundingClientRect().top + window.scrollY - 100, behavior: 'smooth' });
+          };
+          
+          const a = document.createElement('a');
+          a.href = '#timeline-year-' + year;
+          a.textContent = year;
+          a.onclick = scrollToYear;
+          scrubber.appendChild(a);
+
+          if (mobileScrubber) {
+            const m_a = a.cloneNode(true);
+            m_a.onclick = scrollToYear;
+            mobileScrubber.appendChild(m_a);
+          }
+        });
+      } else {
+        scrubberWrap.style.display = 'none';
+        if (mobileScrubber) mobileScrubber.style.display = 'none';
+      }
+
+      // Render the first batch
+      renderNextBatch();
+    }
+
+    /* ── Event Listeners ──────────────────────────────────── */
+    document.getElementById('sort-select').addEventListener('change', e => {
+      activeSort = e.target.value;
+      applySortAndFilter();
+    });
+    
+    document.getElementById('country-filter').addEventListener('change', e => {
+      activeCountry = e.target.value;
+      applySortAndFilter();
     });
 
-    var sortedCountries = Array.from(foundCountries).sort();
-    sortedCountries.forEach(function(c) {
-      var opt = document.createElement('option');
+    // Populate Country dropdown
+    const countrySelect = document.getElementById('country-filter');
+    Array.from(new Set(allPhotos.map(p => p.country).filter(Boolean))).sort().forEach(c => {
+      const opt = document.createElement('option');
       opt.value = c;
       opt.textContent = c;
       countrySelect.appendChild(opt);
     });
 
-    function applySortAndFilter() {
-      // 1. Filter
-      var visibleCards = cards.filter(function (card) {
-        if (activeCountry === 'all' || card.dataset.country === activeCountry) {
-          card.classList.remove('hidden');
-          return true;
-        } else {
-          card.classList.add('hidden');
-          return false;
-        }
-      });
-
-      // 2. Apply sort to array
-      visibleCards.sort(function (a, b) {
-        var aTs = parseInt(a.dataset.timestamp || '0', 10);
-        var bTs = parseInt(b.dataset.timestamp || '0', 10);
-        var aF  = parseFloat(a.dataset.focal || '0');
-        var bF  = parseFloat(b.dataset.focal || '0');
-        var aAp = parseFloat(a.dataset.aperture || '0');
-        var bAp = parseFloat(b.dataset.aperture || '0');
-        if (activeSort === 'newest')        return bTs - aTs;
-        if (activeSort === 'oldest')        return aTs - bTs;
-        if (activeSort === 'focal-asc')     return aF - bF;
-        if (activeSort === 'focal-desc')    return bF - aF;
-        if (activeSort === 'aperture-asc')  return aAp - bAp;
-        if (activeSort === 'aperture-desc') return bAp - aAp;
-        return 0;
-      });
-      // 3. Render
-      gridContainer.innerHTML = '';
-      scrubber.innerHTML = '';
-      if (scrubberWrap) scrubberWrap.style.display = 'none';
-      var mobileScrubber = document.getElementById('timeline-scrubber-mobile');
-      if (mobileScrubber) {
-        mobileScrubber.innerHTML = '';
-        mobileScrubber.style.display = 'none';
-      }
-
-      // Group if date sorting
-      if (activeSort === 'newest' || activeSort === 'oldest') {
-        if (scrubberWrap) scrubberWrap.style.display = 'flex';
-        if (mobileScrubber) mobileScrubber.style.display = ''; // Let CSS handle flex vs none
-
-        var uniqueYears = new Set();
-        visibleCards.forEach(function(card) {
-          if (card.dataset.year) uniqueYears.add(card.dataset.year);
-        });
-        
-        var sortedYears = Array.from(uniqueYears).sort();
-        if (activeSort === 'newest') sortedYears.reverse();
-        
-        sortedYears.forEach(function(year) {
-          function scrollToYear(e) {
-            e.preventDefault();
-            var target = document.getElementById('timeline-year-' + year);
-            if(target) {
-              // Smooth scroll minus the stick offset
-              var y = target.getBoundingClientRect().top + window.scrollY - 100;
-              window.scrollTo({top: y, behavior: 'smooth'});
-            }
-          }
-
-          // Desktop scrubber link
-          var a = document.createElement('a');
-          a.href = '#timeline-year-' + year;
-          a.textContent = year;
-          a.addEventListener('click', scrollToYear);
-          scrubber.appendChild(a);
-
-          // Mobile scrubber pill link
-          if (mobileScrubber) {
-            var m_a = document.createElement('a');
-            m_a.href = '#timeline-year-' + year;
-            m_a.textContent = year;
-            m_a.addEventListener('click', scrollToYear);
-            mobileScrubber.appendChild(m_a);
-          }
-        });
-
-        var currentGroupName = null;
-        var currentGroup = null;
-        var innerGrid = null;
-        var renderedYears = new Set();
-
-        visibleCards.forEach(function (card) {
-          var groupName = card.dataset.location || 'Various Locations';
-          if (groupName !== currentGroupName) {
-            currentGroupName = groupName;
-            currentGroup = document.createElement('div');
-            currentGroup.className = 'timeline-group';
-            
-            var year = card.dataset.year;
-            if (year && !renderedYears.has(year)) {
-              currentGroup.id = 'timeline-year-' + year;
-              renderedYears.add(year);
-            }
-            
-            var header = document.createElement('div');
-            header.className = 'timeline-header';
-            header.textContent = groupName;
-            currentGroup.appendChild(header);
-
-            innerGrid = document.createElement('div');
-            innerGrid.className = 'gallery-grid-inner';
-            currentGroup.appendChild(innerGrid);
-            gridContainer.appendChild(currentGroup);
-          }
-          innerGrid.appendChild(card);
-        });
-      } else {
-        // Flat List
-        var innerGrid = document.createElement('div');
-        innerGrid.className = 'gallery-grid-inner';
-        visibleCards.forEach(function(card) { innerGrid.appendChild(card); });
-        gridContainer.appendChild(innerGrid);
-      }
-    }
-
-    // Dropdowns
-    document.getElementById('sort-select').addEventListener('change', function (e) {
-      activeSort = e.target.value;
-      applySortAndFilter();
-    });
-    
-    countrySelect.addEventListener('change', function (e) {
-      activeCountry = e.target.value;
-      applySortAndFilter();
-    });
-
-    // Initial render
+    // Initial load
     applySortAndFilter();
   })();
 </script>

@@ -46,7 +46,7 @@ def fetch_amazon_photos():
                 node_id = item.get('id')
                 owner_id = item.get('ownerId')
                 if node_id and owner_id:
-                    image_url = f"https://thumbnails-photos.amazon.com/v1/thumbnail/{node_id}?viewBox=1024&ownerId={owner_id}&groupShareToken={params['groupShareToken']}"
+                    image_url = f"https://thumbnails-photos.amazon.com/v1/thumbnail/{node_id}?viewBox=512&ownerId={owner_id}&groupShareToken={params['groupShareToken']}"
                     
                     clean_item = {
                         "id": node_id,
