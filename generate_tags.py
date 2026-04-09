@@ -36,12 +36,11 @@ LOCATION_FILENAME_RULES = [
     (re.compile(r"DisneyGators", re.I), "Gatorland, Orlando, FL"),
     (re.compile(r"Disney", re.I), "Walt Disney World Resort, FL"),
 ]
-
 LOCATION_DATE_RULES = [
     # Explicit dates (must come first so they take precedence over general month-wide fallbacks)
-    ("2011-08-18", "2011-08-18", "Laguna Beach, CA"),
     ("2016-12-15", "2016-12-15", "Mount Pinatubo, Philippines"),
     ("2017-01-28", "2017-01-28", "Grand Canyon, Arizona"),
+    ("2017-12-28", "2018-01-04", "New York City, NY"),
     
     ("2018-03-24", "2018-03-25", "Venice, Italy"),
     ("2018-03-26", "2018-03-26", "Giverny, France"),
@@ -54,6 +53,7 @@ LOCATION_DATE_RULES = [
     ("2021-03-30", "2021-03-30", "Durham, North Carolina"),
     ("2021-03-31", "2021-03-31", "Atlanta, Georgia"),
     ("2021-04-01", "2021-04-01", "Nashville, Tennesee"),
+    ("2021-08-18", "2021-08-18", "Laguna Beach, CA"),
     ("2021-12-25", "2021-12-26", "Yosemite, CA"),
 
     ("2022-02-06", "2022-02-06", "Antipolo, Rizal, Philippines"),
