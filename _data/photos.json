@@ -86,7 +86,8 @@
                     "model": "ILCE-6700",
                     "focalLength": "60",
                     "exposureTime": "1/200",
-                    "dateTimeOriginal": "2026-03-15T15:23:29.000Z"
+                    "dateTimeOriginal": "2026-03-15T15:23:29.000Z",
+                    "apertureValue": ""
                 }
             }
         },
@@ -6136,35 +6137,13 @@
             }
         },
         {
-            "id": "ud22Nm_nShiw2lc6P5fCPQ",
-            "name": "IMG_20240417_210921_711.jpg",
-            "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/ud22Nm_nShiw2lc6P5fCPQ?viewBox=512&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
-            "contentProperties": {
-                "image": {}
-            }
-        },
-        {
-            "id": "xh-2GOXURouoMgttjybSxw",
-            "name": "IMG_20240417_210921_788.jpg",
-            "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/xh-2GOXURouoMgttjybSxw?viewBox=512&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
-            "contentProperties": {
-                "image": {}
-            }
-        },
-        {
             "id": "RcOwy3BQQPaHYBDpTu4Yog",
             "name": "IMG_20240417_210921_822.jpg",
-            "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/RcOwy3BQQPaHYBDpTu4Yog?viewBox=1024&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
+            "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/RcOwy3BQQPaHYBDpTu4Yog?viewBox=512&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
             "contentProperties": {
-                "image": {}
-            }
-        },
-        {
-            "id": "U1exCtEzRgy4dBapIWrCsg",
-            "name": "IMG_20240417_210921_764.jpg",
-            "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/U1exCtEzRgy4dBapIWrCsg?viewBox=1024&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
-            "contentProperties": {
-                "image": {}
+                "image": {
+                    "dateTimeOriginal": "2024-04-17T12:00:00.000Z"
+                }
             }
         },
         {
@@ -6172,7 +6151,29 @@
             "name": "IMG_20240417_210921_673.jpg",
             "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/_WyC9reJToKiejZvqW8CPw?viewBox=512&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
             "contentProperties": {
-                "image": {}
+                "image": {
+                    "dateTimeOriginal": "2024-04-17T12:00:00.000Z"
+                }
+            }
+        },
+        {
+            "id": "ud22Nm_nShiw2lc6P5fCPQ",
+            "name": "IMG_20240417_210921_711.jpg",
+            "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/ud22Nm_nShiw2lc6P5fCPQ?viewBox=512&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
+            "contentProperties": {
+                "image": {
+                    "dateTimeOriginal": "2024-04-17T12:00:00.000Z"
+                }
+            }
+        },
+        {
+            "id": "xh-2GOXURouoMgttjybSxw",
+            "name": "IMG_20240417_210921_788.jpg",
+            "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/xh-2GOXURouoMgttjybSxw?viewBox=512&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
+            "contentProperties": {
+                "image": {
+                    "dateTimeOriginal": "2024-04-17T12:00:00.000Z"
+                }
             }
         },
         {
@@ -8602,7 +8603,8 @@
                     "model": "ILCE-6400",
                     "focalLength": "18",
                     "exposureTime": "1/30",
-                    "dateTimeOriginal": "2023-06-03T11:53:38.000Z"
+                    "dateTimeOriginal": "2023-06-03T11:53:38.000Z",
+                    "apertureValue": ""
                 }
             }
         },
@@ -8616,7 +8618,8 @@
                     "model": "ILCE-6400",
                     "focalLength": "31.4",
                     "exposureTime": "1/50",
-                    "dateTimeOriginal": "2023-06-03T11:35:16.000Z"
+                    "dateTimeOriginal": "2023-06-03T11:35:16.000Z",
+                    "apertureValue": ""
                 }
             }
         },
@@ -10565,7 +10568,8 @@
                     "model": "ILCE-6400",
                     "focalLength": "35",
                     "exposureTime": "1/60",
-                    "dateTimeOriginal": "2022-06-10T19:43:57.000Z"
+                    "dateTimeOriginal": "2022-06-10T19:43:57.000Z",
+                    "apertureValue": ""
                 }
             }
         },
@@ -10579,7 +10583,8 @@
                     "model": "ILCE-6400",
                     "focalLength": "35",
                     "exposureTime": "1/160",
-                    "dateTimeOriginal": "2022-06-10T17:55:06.000Z"
+                    "dateTimeOriginal": "2022-06-10T17:55:06.000Z",
+                    "apertureValue": ""
                 }
             }
         },
@@ -10593,7 +10598,8 @@
                     "model": "ILCE-6400",
                     "focalLength": "35",
                     "exposureTime": "1/4000",
-                    "dateTimeOriginal": "2022-06-10T17:27:15.000Z"
+                    "dateTimeOriginal": "2022-06-10T17:27:15.000Z",
+                    "apertureValue": ""
                 }
             }
         },
@@ -10622,7 +10628,8 @@
                     "model": "ILCE-6400",
                     "focalLength": "35",
                     "exposureTime": "1/4000",
-                    "dateTimeOriginal": "2022-06-10T16:05:27.000Z"
+                    "dateTimeOriginal": "2022-06-10T16:05:27.000Z",
+                    "apertureValue": ""
                 }
             }
         },
@@ -10636,7 +10643,8 @@
                     "model": "ILCE-6400",
                     "focalLength": "35",
                     "exposureTime": "1/4000",
-                    "dateTimeOriginal": "2022-06-10T15:10:08.000Z"
+                    "dateTimeOriginal": "2022-06-10T15:10:08.000Z",
+                    "apertureValue": ""
                 }
             }
         },
@@ -10650,7 +10658,8 @@
                     "model": "ILCE-6400",
                     "focalLength": "35",
                     "exposureTime": "1/1600",
-                    "dateTimeOriginal": "2022-06-10T14:11:51.000Z"
+                    "dateTimeOriginal": "2022-06-10T14:11:51.000Z",
+                    "apertureValue": ""
                 }
             }
         },
@@ -10664,7 +10673,8 @@
                     "model": "ILCE-6400",
                     "focalLength": "35",
                     "exposureTime": "1/4000",
-                    "dateTimeOriginal": "2022-06-10T11:44:25.000Z"
+                    "dateTimeOriginal": "2022-06-10T11:44:25.000Z",
+                    "apertureValue": ""
                 }
             }
         },
@@ -10723,7 +10733,8 @@
                     "model": "ILCE-6400",
                     "focalLength": "35",
                     "exposureTime": "1/4000",
-                    "dateTimeOriginal": "2022-06-10T07:42:03.000Z"
+                    "dateTimeOriginal": "2022-06-10T07:42:03.000Z",
+                    "apertureValue": ""
                 }
             }
         },
@@ -10737,7 +10748,8 @@
                     "model": "ILCE-6400",
                     "focalLength": "35",
                     "exposureTime": "1/640",
-                    "dateTimeOriginal": "2022-06-10T07:36:41.000Z"
+                    "dateTimeOriginal": "2022-06-10T07:36:41.000Z",
+                    "apertureValue": ""
                 }
             }
         },
@@ -10751,7 +10763,8 @@
                     "model": "ILCE-6400",
                     "focalLength": "35",
                     "exposureTime": "1/640",
-                    "dateTimeOriginal": "2022-06-10T06:15:57.000Z"
+                    "dateTimeOriginal": "2022-06-10T06:15:57.000Z",
+                    "apertureValue": ""
                 }
             }
         },
@@ -10825,7 +10838,8 @@
                     "model": "ILCE-6400",
                     "focalLength": "35",
                     "exposureTime": "1/320",
-                    "dateTimeOriginal": "2021-12-26T14:25:08.000Z"
+                    "dateTimeOriginal": "2021-12-26T14:25:08.000Z",
+                    "apertureValue": ""
                 }
             }
         },
@@ -10839,7 +10853,8 @@
                     "model": "ILCE-6400",
                     "focalLength": "35",
                     "exposureTime": "1/4000",
-                    "dateTimeOriginal": "2021-12-26T13:54:42.000Z"
+                    "dateTimeOriginal": "2021-12-26T13:54:42.000Z",
+                    "apertureValue": ""
                 }
             }
         },
@@ -10868,7 +10883,8 @@
                     "model": "ILCE-6400",
                     "focalLength": "35",
                     "exposureTime": "1/320",
-                    "dateTimeOriginal": "2021-12-25T12:12:32.000Z"
+                    "dateTimeOriginal": "2021-12-25T12:12:32.000Z",
+                    "apertureValue": ""
                 }
             }
         },
@@ -10882,7 +10898,8 @@
                     "model": "ILCE-6400",
                     "focalLength": "35",
                     "exposureTime": "1/200",
-                    "dateTimeOriginal": "2021-12-25T12:12:28.000Z"
+                    "dateTimeOriginal": "2021-12-25T12:12:28.000Z",
+                    "apertureValue": ""
                 }
             }
         },
@@ -10896,7 +10913,8 @@
                     "model": "ILCE-6400",
                     "focalLength": "35",
                     "exposureTime": "1/400",
-                    "dateTimeOriginal": "2021-12-25T12:12:03.000Z"
+                    "dateTimeOriginal": "2021-12-25T12:12:03.000Z",
+                    "apertureValue": ""
                 }
             }
         },
@@ -10906,8 +10924,8 @@
             "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/tVBNzPTLQ7aWzP3pQQFuAg?viewBox=512&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
             "contentProperties": {
                 "image": {
-                    "make": "SONY",
-                    "model": "ILCE-6400",
+                    "make": "",
+                    "model": "",
                     "focalLength": "30",
                     "exposureTime": "1/60",
                     "dateTimeOriginal": "2011-08-18T19:15:54.000Z"
@@ -10920,8 +10938,8 @@
             "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/W_DcbWZJQ3uq0gcBNgGibg?viewBox=512&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
             "contentProperties": {
                 "image": {
-                    "make": "SONY",
-                    "model": "ILCE-6400",
+                    "make": "",
+                    "model": "",
                     "focalLength": "30",
                     "exposureTime": "1/320",
                     "dateTimeOriginal": "2011-08-18T19:02:46.000Z"
@@ -10934,8 +10952,8 @@
             "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/tnxuqzg0QOCeEmxl1qO3sg?viewBox=512&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
             "contentProperties": {
                 "image": {
-                    "make": "SONY",
-                    "model": "ILCE-6400",
+                    "make": "",
+                    "model": "",
                     "focalLength": "30",
                     "exposureTime": "1/640",
                     "dateTimeOriginal": "2011-08-18T18:56:26.000Z"
@@ -10948,8 +10966,8 @@
             "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/wMyMmVZwRqSqm8iTqMyQ3A?viewBox=512&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
             "contentProperties": {
                 "image": {
-                    "make": "SONY",
-                    "model": "ILCE-6400",
+                    "make": "",
+                    "model": "",
                     "focalLength": "30",
                     "exposureTime": "1/1250",
                     "dateTimeOriginal": "2011-08-18T18:45:55.000Z"
@@ -10966,7 +10984,8 @@
                     "model": "ILCE-6400",
                     "focalLength": "30",
                     "exposureTime": "1/1250",
-                    "dateTimeOriginal": "2021-04-01T07:56:01.000Z"
+                    "dateTimeOriginal": "2021-04-01T07:56:01.000Z",
+                    "apertureValue": ""
                 }
             }
         },
@@ -11010,7 +11029,8 @@
                     "model": "DSC-RX100M3",
                     "focalLength": "149/10",
                     "exposureTime": "1/20",
-                    "dateTimeOriginal": "2021-03-31T07:08:34.000Z"
+                    "dateTimeOriginal": "2021-03-31T07:08:34.000Z",
+                    "apertureValue": ""
                 }
             }
         },
@@ -11024,7 +11044,8 @@
                     "model": "DSC-RX100M3",
                     "focalLength": "44/5",
                     "exposureTime": "1/30",
-                    "dateTimeOriginal": "2021-03-31T06:50:44.000Z"
+                    "dateTimeOriginal": "2021-03-31T06:50:44.000Z",
+                    "apertureValue": ""
                 }
             }
         },
@@ -11038,7 +11059,8 @@
                     "model": "DSC-RX100M3",
                     "focalLength": "44/5",
                     "exposureTime": "1/30",
-                    "dateTimeOriginal": "2021-03-31T06:38:24.000Z"
+                    "dateTimeOriginal": "2021-03-31T06:38:24.000Z",
+                    "apertureValue": ""
                 }
             }
         },
@@ -11142,7 +11164,8 @@
                     "model": "ILCE-6400",
                     "focalLength": "30",
                     "exposureTime": "1/2000",
-                    "dateTimeOriginal": "2021-03-30T09:43:23.000Z"
+                    "dateTimeOriginal": "2021-03-30T09:43:23.000Z",
+                    "apertureValue": ""
                 }
             }
         },
@@ -11156,7 +11179,8 @@
                     "model": "ILCE-6400",
                     "focalLength": "30",
                     "exposureTime": "1/1000",
-                    "dateTimeOriginal": "2021-03-30T09:42:49.000Z"
+                    "dateTimeOriginal": "2021-03-30T09:42:49.000Z",
+                    "apertureValue": ""
                 }
             }
         },
@@ -11170,7 +11194,8 @@
                     "model": "ILCE-6400",
                     "focalLength": "30",
                     "exposureTime": "1/50",
-                    "dateTimeOriginal": "2021-03-30T09:26:16.000Z"
+                    "dateTimeOriginal": "2021-03-30T09:26:16.000Z",
+                    "apertureValue": ""
                 }
             }
         },
@@ -11184,7 +11209,8 @@
                     "model": "ILCE-6400",
                     "focalLength": "30",
                     "exposureTime": "1/50",
-                    "dateTimeOriginal": "2021-03-30T09:23:00.000Z"
+                    "dateTimeOriginal": "2021-03-30T09:23:00.000Z",
+                    "apertureValue": ""
                 }
             }
         },
@@ -11198,7 +11224,8 @@
                     "model": "ILCE-6400",
                     "focalLength": "30",
                     "exposureTime": "1/50",
-                    "dateTimeOriginal": "2021-03-30T09:02:47.000Z"
+                    "dateTimeOriginal": "2021-03-30T09:02:47.000Z",
+                    "apertureValue": ""
                 }
             }
         },
@@ -11212,7 +11239,8 @@
                     "model": "ILCE-6400",
                     "focalLength": "30",
                     "exposureTime": "1/50",
-                    "dateTimeOriginal": "2021-03-30T08:40:04.000Z"
+                    "dateTimeOriginal": "2021-03-30T08:40:04.000Z",
+                    "apertureValue": ""
                 }
             }
         },
@@ -11226,7 +11254,8 @@
                     "model": "ILCE-6400",
                     "focalLength": "30",
                     "exposureTime": "1/320",
-                    "dateTimeOriginal": "2021-03-30T08:35:29.000Z"
+                    "dateTimeOriginal": "2021-03-30T08:35:29.000Z",
+                    "apertureValue": ""
                 }
             }
         },
@@ -11240,7 +11269,8 @@
                     "model": "ILCE-6400",
                     "focalLength": "30",
                     "exposureTime": "1/640",
-                    "dateTimeOriginal": "2021-03-29T15:14:49.000Z"
+                    "dateTimeOriginal": "2021-03-29T15:14:49.000Z",
+                    "apertureValue": ""
                 }
             }
         },
@@ -11254,7 +11284,8 @@
                     "model": "ILCE-6400",
                     "focalLength": "30",
                     "exposureTime": "1/1600",
-                    "dateTimeOriginal": "2021-03-29T15:07:18.000Z"
+                    "dateTimeOriginal": "2021-03-29T15:07:18.000Z",
+                    "apertureValue": ""
                 }
             }
         },
@@ -11298,7 +11329,8 @@
                     "model": "ILCE-6400",
                     "focalLength": "30",
                     "exposureTime": "1/50",
-                    "dateTimeOriginal": "2021-03-28T18:19:48.000Z"
+                    "dateTimeOriginal": "2021-03-28T18:19:48.000Z",
+                    "apertureValue": ""
                 }
             }
         },
@@ -11312,7 +11344,8 @@
                     "model": "ILCE-6400",
                     "focalLength": "35",
                     "exposureTime": "1/800",
-                    "dateTimeOriginal": "2020-11-28T15:58:09.000Z"
+                    "dateTimeOriginal": "2020-11-28T15:58:09.000Z",
+                    "apertureValue": ""
                 }
             }
         },
@@ -11326,7 +11359,8 @@
                     "model": "ILCE-6400",
                     "focalLength": "35",
                     "exposureTime": "1/800",
-                    "dateTimeOriginal": "2020-11-28T15:26:08.000Z"
+                    "dateTimeOriginal": "2020-11-28T15:26:08.000Z",
+                    "apertureValue": ""
                 }
             }
         },
@@ -11400,7 +11434,8 @@
                     "model": "ILCE-6400",
                     "focalLength": "18",
                     "exposureTime": "1/30",
-                    "dateTimeOriginal": "2020-11-21T17:46:13.000Z"
+                    "dateTimeOriginal": "2020-11-21T17:46:13.000Z",
+                    "apertureValue": ""
                 }
             }
         },
@@ -11444,7 +11479,8 @@
                     "model": "ILCE-6400",
                     "focalLength": "25",
                     "exposureTime": "1/40",
-                    "dateTimeOriginal": "2020-11-21T17:38:08.000Z"
+                    "dateTimeOriginal": "2020-11-21T17:38:08.000Z",
+                    "apertureValue": ""
                 }
             }
         },
@@ -11518,21 +11554,8 @@
                     "model": "ILCE-6400",
                     "focalLength": "35",
                     "exposureTime": "1/60",
-                    "dateTimeOriginal": "2020-10-31T17:59:54.000Z"
-                }
-            }
-        },
-        {
-            "id": "Nk4YRZ1KS1GtGNv43ED61g",
-            "name": "DSC06236.ARW",
-            "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/Nk4YRZ1KS1GtGNv43ED61g?viewBox=512&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
-            "contentProperties": {
-                "image": {
-                    "make": "SONY",
-                    "model": "ILCE-6400",
-                    "focalLength": "35",
-                    "exposureTime": "1/60",
-                    "dateTimeOriginal": "2020-10-31T17:59:37.000Z"
+                    "dateTimeOriginal": "2020-10-31T17:59:54.000Z",
+                    "apertureValue": ""
                 }
             }
         },
@@ -11546,7 +11569,23 @@
                     "model": "ILCE-6400",
                     "focalLength": "35",
                     "exposureTime": "1/60",
-                    "dateTimeOriginal": "2020-10-31T17:59:37.000Z"
+                    "dateTimeOriginal": "2020-10-31T17:59:37.000Z",
+                    "apertureValue": ""
+                }
+            }
+        },
+        {
+            "id": "Nk4YRZ1KS1GtGNv43ED61g",
+            "name": "DSC06236.ARW",
+            "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/Nk4YRZ1KS1GtGNv43ED61g?viewBox=512&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
+            "contentProperties": {
+                "image": {
+                    "make": "SONY",
+                    "model": "ILCE-6400",
+                    "focalLength": "35",
+                    "exposureTime": "1/60",
+                    "dateTimeOriginal": "2020-10-31T17:59:37.000Z",
+                    "apertureValue": ""
                 }
             }
         },
@@ -11589,7 +11628,8 @@
                     "model": "DSC-RX100M3",
                     "focalLength": "181/10",
                     "exposureTime": "1/400",
-                    "dateTimeOriginal": "2018-11-08T15:53:12.000Z"
+                    "dateTimeOriginal": "2018-11-08T15:53:12.000Z",
+                    "apertureValue": ""
                 }
             }
         },
@@ -11603,7 +11643,8 @@
                     "model": "DSC-RX100M3",
                     "focalLength": "257/10",
                     "exposureTime": "1/320",
-                    "dateTimeOriginal": "2018-11-08T15:34:33.000Z"
+                    "dateTimeOriginal": "2018-11-08T15:34:33.000Z",
+                    "apertureValue": ""
                 }
             }
         },
@@ -11722,7 +11763,8 @@
                     "model": "ILCE-6300",
                     "focalLength": "20",
                     "exposureTime": "1/160",
-                    "dateTimeOriginal": "2018-03-26T21:23:07.000Z"
+                    "dateTimeOriginal": "2018-03-26T21:23:07.000Z",
+                    "apertureValue": ""
                 }
             }
         },
@@ -11736,7 +11778,8 @@
                     "model": "ILCE-6300",
                     "focalLength": "20",
                     "exposureTime": "1/160",
-                    "dateTimeOriginal": "2018-03-26T21:20:26.000Z"
+                    "dateTimeOriginal": "2018-03-26T21:20:26.000Z",
+                    "apertureValue": ""
                 }
             }
         },
@@ -11750,7 +11793,8 @@
                     "model": "ILCE-6300",
                     "focalLength": "20",
                     "exposureTime": "1/200",
-                    "dateTimeOriginal": "2018-03-26T21:19:34.000Z"
+                    "dateTimeOriginal": "2018-03-26T21:19:34.000Z",
+                    "apertureValue": ""
                 }
             }
         },
@@ -11764,7 +11808,8 @@
                     "model": "ILCE-6300",
                     "focalLength": "20",
                     "exposureTime": "1/80",
-                    "dateTimeOriginal": "2018-03-26T20:41:22.000Z"
+                    "dateTimeOriginal": "2018-03-26T20:41:22.000Z",
+                    "apertureValue": ""
                 }
             }
         },
@@ -11778,7 +11823,8 @@
                     "model": "ILCE-6300",
                     "focalLength": "20",
                     "exposureTime": "1/100",
-                    "dateTimeOriginal": "2018-03-26T20:25:06.000Z"
+                    "dateTimeOriginal": "2018-03-26T20:25:06.000Z",
+                    "apertureValue": ""
                 }
             }
         },
@@ -11792,7 +11838,8 @@
                     "model": "ILCE-6300",
                     "focalLength": "20",
                     "exposureTime": "1/200",
-                    "dateTimeOriginal": "2018-03-26T17:07:29.000Z"
+                    "dateTimeOriginal": "2018-03-26T17:07:29.000Z",
+                    "apertureValue": ""
                 }
             }
         },
@@ -11806,7 +11853,8 @@
                     "model": "ILCE-6300",
                     "focalLength": "20",
                     "exposureTime": "1/640",
-                    "dateTimeOriginal": "2018-03-26T16:41:19.000Z"
+                    "dateTimeOriginal": "2018-03-26T16:41:19.000Z",
+                    "apertureValue": ""
                 }
             }
         },
@@ -11820,7 +11868,8 @@
                     "model": "ILCE-6300",
                     "focalLength": "20",
                     "exposureTime": "1/160",
-                    "dateTimeOriginal": "2018-03-26T14:22:02.000Z"
+                    "dateTimeOriginal": "2018-03-26T14:22:02.000Z",
+                    "apertureValue": ""
                 }
             }
         },
@@ -11834,7 +11883,8 @@
                     "model": "ILCE-6000",
                     "focalLength": "35",
                     "exposureTime": "1/800",
-                    "dateTimeOriginal": "2018-03-26T05:42:01.000Z"
+                    "dateTimeOriginal": "2018-03-26T05:42:01.000Z",
+                    "apertureValue": ""
                 }
             }
         },
@@ -11848,7 +11898,8 @@
                     "model": "ILCE-6000",
                     "focalLength": "35",
                     "exposureTime": "1/800",
-                    "dateTimeOriginal": "2018-03-26T05:41:49.000Z"
+                    "dateTimeOriginal": "2018-03-26T05:41:49.000Z",
+                    "apertureValue": ""
                 }
             }
         },
@@ -11862,7 +11913,8 @@
                     "model": "ILCE-6000",
                     "focalLength": "35",
                     "exposureTime": "1/800",
-                    "dateTimeOriginal": "2018-03-26T02:39:42.000Z"
+                    "dateTimeOriginal": "2018-03-26T02:39:42.000Z",
+                    "apertureValue": ""
                 }
             }
         },
@@ -11876,7 +11928,8 @@
                     "model": "ILCE-6000",
                     "focalLength": "35",
                     "exposureTime": "1/250",
-                    "dateTimeOriginal": "2018-03-26T02:25:49.000Z"
+                    "dateTimeOriginal": "2018-03-26T02:25:49.000Z",
+                    "apertureValue": ""
                 }
             }
         },
@@ -11890,7 +11943,8 @@
                     "model": "ILCE-6000",
                     "focalLength": "35",
                     "exposureTime": "1/200",
-                    "dateTimeOriginal": "2018-03-26T02:11:45.000Z"
+                    "dateTimeOriginal": "2018-03-26T02:11:45.000Z",
+                    "apertureValue": ""
                 }
             }
         },
@@ -11904,7 +11958,8 @@
                     "model": "ILCE-6000",
                     "focalLength": "35",
                     "exposureTime": "1/1600",
-                    "dateTimeOriginal": "2018-03-26T02:01:26.000Z"
+                    "dateTimeOriginal": "2018-03-26T02:01:26.000Z",
+                    "apertureValue": ""
                 }
             }
         },
@@ -11918,7 +11973,8 @@
                     "model": "ILCE-6000",
                     "focalLength": "35",
                     "exposureTime": "1/160",
-                    "dateTimeOriginal": "2018-03-26T01:42:10.000Z"
+                    "dateTimeOriginal": "2018-03-26T01:42:10.000Z",
+                    "apertureValue": ""
                 }
             }
         },

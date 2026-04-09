@@ -1,6 +1,7 @@
 import os
 import requests
 import json
+import re
 
 def fetch_amazon_photos():
     base_url = "https://www.amazon.com/drive/v1/search/groups/c0DUWYbiQp-l29Y1XNeONw"
@@ -61,6 +62,14 @@ def fetch_amazon_photos():
                     for prop in ["make", "model", "focalLength", "apertureValue", "exposureTime", "dateTimeOriginal"]:
                         if prop in img_props:
                             clean_item["contentProperties"]["image"][prop] = img_props[prop]
+                    
+                    # Fallback: if no date, try to extract from filename (e.g. IMG_20240417_...)
+                    if not clean_item["contentProperties"]["image"].get("dateTimeOriginal"):
+                        # Look for YYYYMMDD pattern like IMG_20240417_
+                        match = re.search(r"(\d{4})(\d{2})(\d{2})", clean_item["name"])
+                        if match:
+                            y, m, d = match.groups()
+                            clean_item["contentProperties"]["image"]["dateTimeOriginal"] = f"{y}-{m}-{d}T12:00:00.000Z"
                             
                     all_clean_data.append(clean_item)
                     
@@ -71,9 +80,6 @@ def fetch_amazon_photos():
                 break
 
         # ── Apply manual metadata overrides ───────────────────────────────────
-        # Edit _data/metadata_overrides.json to fill in missing fields.
-        # Any non-empty value in the overrides file will be written into
-        # photos.json after every fetch, so your edits persist across syncs.
         overrides_file = os.path.join("_data", "metadata_overrides.json")
         if os.path.exists(overrides_file):
             with open(overrides_file, "r", encoding="utf-8") as f:
@@ -87,8 +93,8 @@ def fetch_amazon_photos():
                     for field, value in override.items():
                         if field.startswith("_"):   # skip _name and other internal keys
                             continue
-                        if value != "":             # only apply non-empty overrides
-                            img[field] = value
+                        # Apply value regardless of whether it's empty (allows clearing)
+                        img[field] = value
                     applied += 1
             print(f"Applied metadata overrides to {applied} photo(s).")
         # ─────────────────────────────────────────────────────────────────────
