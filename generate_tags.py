@@ -43,10 +43,12 @@ LOCATION_DATE_RULES = [
     ("2016-12-15", "2016-12-15", "Mount Pinatubo, Philippines"),
     ("2017-01-28", "2017-01-28", "Grand Canyon, Arizona"),
     
+    ("2018-03-24", "2018-03-25", "Venice, Italy"),
     ("2018-03-26", "2018-03-26", "Giverny, France"),
     ("2018-03-28", "2018-03-29", "Paris, France"),
     
     ("2018-11-08", "2018-11-08", "Keystone, South Dakota"),
+    ("2019-05-04", "2019-05-04", "Lake Tahoe, CA"),
     ("2020-11-21", "2020-11-22", "Mammoth Lakes, CA"),
     
     ("2021-03-30", "2021-03-30", "Durham, North Carolina"),
@@ -58,7 +60,8 @@ LOCATION_DATE_RULES = [
     ("2022-06-10", "2022-06-12", "Banff, Alberta, Canada"),
     
     ("2023-03-15", "2023-03-15", "Pirámide del Sol, Mexico"),
-    
+    ("2023-03-16", "2023-03-17", "Mexico City, Mexico"),
+
     ("2023-05-26", "2023-05-27", "Antigua, Guatemala"),
     ("2023-05-28", "2023-05-28", "Santiago Atitlán, Guatemala"),
     ("2023-05-29", "2023-05-29", "Tikal, Guatemala"),
@@ -68,8 +71,18 @@ LOCATION_DATE_RULES = [
     ("2024-03-01", "2024-03-03", "Cartagena, Bolivar, Colombia"),
     ("2024-03-04", "2024-03-05", "Salento, Quindio, Colombia"),
     ("2024-03-06", "2024-03-06", "Bogotá, Bogota, Colombia"),
+
+    ("2024-03-24", "2024-03-24", "Irvine, CA"),
+    ("2024-04-06", "2024-04-06", "Irvine, CA"),
     
-    ("2024-05-10", "2024-05-12", "Rome, Italy"),
+    ("2024-04-07", "2024-04-07", "Pasadena, CA"),
+    ("2024-04-17", "2024-04-17", "Irvine, CA"),
+    
+    ("2024-05-08", "2024-05-08", "Bari, Italy"),
+   
+    ("2024-05-10", "2024-05-13", "Rome, Italy"),
+    ("2024-05-14", "2024-05-14", "Pisa, Italy"),
+    ("2024-05-15", "2024-05-15", "Milan, Italy"),
     ("2024-05-16", "2024-05-16", "Walenstadt, Switzerland"),
     ("2024-05-17", "2024-05-17", "Lucerne, Switzerland"),
     ("2024-05-18", "2024-05-18", "Engelberg, Switzerland"),
@@ -82,9 +95,13 @@ LOCATION_DATE_RULES = [
     ("2024-07-21", "2024-07-21", "Colorado Springs, Colorado"),
     ("2024-10-31", "2024-10-31", "Old Towne Orange, CA"),
     
-    ("2025-03-17", "2025-03-17", "Scottish Highlands, Scotland"),
+    ("2025-03-16", "2025-03-16", "Edinburgh, United Kingdom"),
+    ("2025-03-17", "2025-03-17", "Scottish Highlands, United Kingdom"),
     ("2025-03-18", "2025-03-18", "Edinburgh, United Kingdom"),
     ("2025-03-19", "2025-03-19", "Cotswolds, United Kingdom"),
+    ("2025-03-20", "2025-03-20", "Oxford, United Kingdom"),
+    ("2025-03-21", "2025-03-21", "London, United Kingdom"),
+    ("2025-03-22", "2025-03-22", "Wales, United Kingdom"),
     ("2025-03-23", "2025-03-23", "London, United Kingdom"),
     
     ("2025-07-19", "2025-07-19", "Huntington Library, San Marino, CA"),
