@@ -65,8 +65,12 @@ LOCATION_DATE_RULES = [
     ("2023-05-26", "2023-05-27", "Antigua, Guatemala"),
     ("2023-05-28", "2023-05-28", "Santiago Atitlán, Guatemala"),
     ("2023-05-29", "2023-05-29", "Tikal, Guatemala"),
+    ("2023-05-30", "2023-05-30", "Antigua, Guatemala"),
     
     ("2023-06-03", "2023-06-03", "Natural History Museum, Los Angeles, CA"),
+
+    ("2023-12-26", "2023-12-26", "Bryce Canyon, Utah"),
+    ("2023-12-27", "2023-12-27", "Zion National Park, Utah"),
 
     ("2024-03-01", "2024-03-03", "Cartagena, Bolivar, Colombia"),
     ("2024-03-04", "2024-03-05", "Salento, Quindio, Colombia"),
@@ -74,7 +78,7 @@ LOCATION_DATE_RULES = [
 
     ("2024-03-24", "2024-03-24", "Irvine, CA"),
     ("2024-04-06", "2024-04-06", "Irvine, CA"),
-    
+
     ("2024-04-07", "2024-04-07", "Pasadena, CA"),
     ("2024-04-17", "2024-04-17", "Irvine, CA"),
     
@@ -88,6 +92,8 @@ LOCATION_DATE_RULES = [
     ("2024-05-18", "2024-05-18", "Engelberg, Switzerland"),
     ("2024-05-18", "2024-05-18", "Amsterdam, Netherlands"),
     ("2024-05-19", "2024-05-20", "Fiumucuno, Italy"),
+
+
     
     ("2024-06-29", "2024-06-29", "Morro Bay, CA"),
     
