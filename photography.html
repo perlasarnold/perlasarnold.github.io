@@ -690,8 +690,19 @@ permalink: /photography/
         uniqueYears.forEach(year => {
           const scrollToYear = e => {
             e.preventDefault();
-            const target = document.getElementById('timeline-year-' + year);
-            if (target) window.scrollTo({ top: target.getBoundingClientRect().top + window.scrollY - 100, behavior: 'smooth' });
+            let target = document.getElementById('timeline-year-' + year);
+            
+            // If the year hasn't been rendered yet, force-render batches until found
+            while (!target && currentBatchIndex < filteredPhotos.length) {
+              renderNextBatch();
+              target = document.getElementById('timeline-year-' + year);
+            }
+            
+            if (target) {
+              const yOffset = -100;
+              const y = target.getBoundingClientRect().top + window.scrollY + yOffset;
+              window.scrollTo({ top: y, behavior: 'smooth' });
+            }
           };
           
           const a = document.createElement('a');
