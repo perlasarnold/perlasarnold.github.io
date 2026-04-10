@@ -8,7 +8,8 @@ permalink: /photography/
 <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer">
   <button class="lightbox-close" id="lightbox-close" aria-label="Close">&times;</button>
   <div class="lightbox-backdrop" id="lightbox-backdrop"></div>
-  <div class="lightbox-content">
+  <div class="lightbox-content" id="lightbox-content">
+    <div class="lightbox-loader"></div>
     <img id="lightbox-img" src="" alt="" />
     <div class="lightbox-meta" id="lightbox-meta"></div>
   </div>
@@ -388,6 +389,36 @@ permalink: /photography/
     object-fit: contain;
     border-radius: 8px;
     box-shadow: 0 30px 80px rgba(0, 0, 0, 0.6);
+    transition: filter 0.3s ease, transform 0.3s ease;
+  }
+
+  .lightbox-content.is-loading #lightbox-img {
+    filter: blur(8px);
+    transform: scale(0.98);
+  }
+
+  /* Optional: Spinner or loading indicator */
+  .lightbox-loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    border: 3px solid rgba(255, 255, 255, 0.2);
+    border-top-color: #fff;
+    border-radius: 50%;
+    animation: lb-spin 0.8s linear infinite;
+    display: none;
+    z-index: 2;
+  }
+
+  .lightbox-content.is-loading .lightbox-loader {
+    display: block;
+  }
+
+  @keyframes lb-spin {
+    to { transform: translate(-50%, -50%) rotate(360deg); }
   }
 
   .lightbox-meta {
@@ -526,9 +557,13 @@ permalink: /photography/
     const lbClose = document.getElementById('lightbox-close');
     const lbBack = document.getElementById('lightbox-backdrop');
 
+    const lbContent = document.getElementById('lightbox-content');
+
     function openLightbox(photo) {
+      // 1. Show low-res thumbnail immediately
       lbImg.src = photo.src;
       lbImg.alt = photo.alt;
+      
       const parts = [];
       if (photo.make) parts.push('<strong>' + photo.make + '</strong>');
       if (photo.date) parts.push(photo.date);
@@ -537,12 +572,28 @@ permalink: /photography/
       if (photo.aperture) parts.push('f/' + photo.aperture);
       if (photo.exposure) parts.push(photo.exposure + 's');
       lbMeta.innerHTML = parts.join(' &nbsp;·&nbsp; ');
+      
       lb.classList.add('is-open');
       document.body.style.overflow = 'hidden';
+
+      // 2. Load high-res version in background
+      const fullResUrl = photo.src.replace(/viewBox=\d+/, 'viewBox=2500');
+      lbContent.classList.add('is-loading');
+      
+      const img = new Image();
+      img.src = fullResUrl;
+      img.onload = () => {
+        // Only swap if the lightbox is still open and for the same photo
+        if (lb.classList.contains('is-open')) {
+          lbImg.src = fullResUrl;
+          lbContent.classList.remove('is-loading');
+        }
+      };
     }
 
     function closeLightbox() {
       lb.classList.remove('is-open');
+      lbContent.classList.remove('is-loading'); // Reset loading state
       document.body.style.overflow = '';
       lbImg.src = '';
     }
