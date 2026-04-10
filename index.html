@@ -6,32 +6,62 @@ permalink: /
 
 <link rel="stylesheet" href="{{ '/assets/css/home.css' | relative_url }}">
 
-<section class="floating-gallery" id="floating-gallery">
-  <div class="floating-overlay">
+<section class="hero-slideshow" id="hero-slideshow">
+  <div class="slideshow-bg active" id="bg-1"></div>
+  <div class="slideshow-bg" id="bg-2"></div>
+  
+  <div class="hero-overlay">
     <h1>Photography.</h1>
     <p>Now that you don't have to be perfect, you can be good.</p>
-    <div class="floating-cta">
+    <div class="hero-cta">
       <a class="button" href="{{ '/photography/' | relative_url }}">View Gallery</a>
-      <a class="button button-secondary" href="{{ '/blog/' | relative_url }}">Read Blog</a>
+      <a class="button button-secondary" href="{{ '/blog/' | relative_url }}">Read the Blog</a>
     </div>
   </div>
 </section>
 
-<!-- Data for the floating gallery -->
+<!-- Data for the slideshow -->
 <script id="home-photo-data" type="application/json">
-  {{ site.data.photos.data | sample: 40 | jsonify }}
+  {{ site.data.photos.data | sample: 50 | jsonify }}
 </script>
 
-<script src="{{ '/assets/js/FloatingGallery.js' | relative_url }}"></script>
 <script>
   document.addEventListener('DOMContentLoaded', () => {
     const rawData = JSON.parse(document.getElementById('home-photo-data').textContent);
-    const photos = rawData.map(p => ({
-      src: p.imageUrl,
-      alt: p.name || "Photography"
-    }));
+    const photos = rawData.map(p => p.imageUrl.replace(/viewBox=\d+/, 'viewBox=2048'));
     
-    new FloatingGallery('floating-gallery', photos);
+    let currentIndex = 0;
+    const bg1 = document.getElementById('bg-1');
+    const bg2 = document.getElementById('bg-2');
+    let currentBg = bg1;
+    let nextBg = bg2;
+
+    // Initial load
+    bg1.style.backgroundImage = `url(${photos[0]})`;
+    
+    function nextImage() {
+      currentIndex = (currentIndex + 1) % photos.length;
+      const nextUrl = photos[currentIndex];
+      
+      // Preload next image
+      const img = new Image();
+      img.src = nextUrl;
+      img.onload = () => {
+        nextBg.style.backgroundImage = `url(${nextUrl})`;
+        
+        // Swap visibility
+        nextBg.classList.add('active');
+        currentBg.classList.remove('active');
+        
+        // Toggle pointers
+        const temp = currentBg;
+        currentBg = nextBg;
+        nextBg = temp;
+      };
+    }
+
+    // Cycle every 10 seconds
+    setInterval(nextImage, 10000);
   });
 </script>
 
@@ -56,7 +86,7 @@ permalink: /
       <ul>
         <li>Jekyll & GitHub Pages</li>
         <li>Automated Data Sync</li>
-        <li>Custom Interactive UI</li>
+        <li>Custom Background Slideshow</li>
       </ul>
     </aside>
   </div>

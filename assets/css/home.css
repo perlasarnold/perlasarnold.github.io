@@ -1,77 +1,44 @@
-.floating-gallery {
+.hero-slideshow {
   position: relative;
   width: 100%;
-  height: clamp(600px, 85vh, 900px);
+  height: clamp(600px, 90vh, 1000px);
   overflow: hidden;
-  background: radial-gradient(circle at center, var(--surface) 0%, var(--bg) 100%);
-  margin: -2rem 0 2rem; /* Pull up to meet header if needed */
+  margin: -2rem 0 2rem;
   border-radius: 24px;
-  border: 1px solid var(--line);
-  box-shadow: var(--shadow);
-  touch-action: none; /* Prevent scrolling on touch while interacting */
+  background: var(--surface-strong);
+  order: 1;
 }
 
-/* Vignette effect */
-.floating-gallery::after {
+.slideshow-bg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: opacity 1.5s ease-in-out;
+  opacity: 0;
+  z-index: 1;
+}
+
+.slideshow-bg.active {
+  opacity: 1;
+}
+
+/* Vignette and Tint */
+.hero-slideshow::after {
   content: '';
   position: absolute;
   inset: 0;
-  pointer-events: none;
-  background: radial-gradient(circle at center, transparent 30%, rgba(0,0,0,0.03) 100%);
-  z-index: 5;
-}
-
-[data-theme="dark"] .floating-gallery::after {
-  background: radial-gradient(circle at center, transparent 30%, rgba(0,0,0,0.2) 100%);
-}
-
-.floating-card {
-  position: absolute;
-  z-index: 10;
-  padding: 10px;
-  background: #fff;
-  border-radius: 4px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.12);
-  transition: box-shadow 0.2s ease-out, opacity 0.8s ease;
-  cursor: pointer;
-  will-change: transform, opacity;
-}
-
-[data-theme="dark"] .floating-card {
-  background: #e0e0e0; /* Slightly off-white polaroid look in dark mode */
-}
-
-.floating-card:hover {
-  z-index: 50;
-  box-shadow: 0 20px 60px rgba(0,0,0,0.25);
-  transform: scale(1.05) !important;
-}
-
-.floating-card img {
-  display: block;
-  width: 100%;
-  height: auto;
-  border: 1px solid rgba(0,0,0,0.05);
-  pointer-events: none;
-}
-
-/* Particles / Bokeh */
-.floating-particle {
-  position: absolute;
-  border-radius: 50%;
-  background: var(--accent);
-  opacity: 0.08;
-  filter: blur(20px);
-  pointer-events: none;
+  background: radial-gradient(circle at center, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.4) 100%);
   z-index: 2;
+  pointer-events: none;
 }
 
-[data-theme="dark"] .floating-particle {
-  opacity: 0.15;
+[data-theme="dark"] .hero-slideshow::after {
+  background: radial-gradient(circle at center, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.7) 100%);
 }
 
-/* Overlay Copy */
-.floating-overlay {
+.hero-overlay {
   position: absolute;
   inset: 0;
   display: flex;
@@ -79,36 +46,54 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  z-index: 100;
-  pointer-events: none;
+  z-index: 10;
+  color: #fff;
+  padding: 2rem;
 }
 
-.floating-overlay h1 {
+.hero-overlay h1 {
   font-family: var(--serif);
   font-size: clamp(3rem, 10vw, 7rem);
   margin: 0;
-  color: var(--ink);
-  opacity: 0.9;
-  text-shadow: 0 4px 20px rgba(0,0,0,0.05);
+  color: #fff;
+  text-shadow: 0 4px 30px rgba(0,0,0,0.5);
 }
 
-.floating-overlay p {
-  font-size: 1.2rem;
-  color: var(--muted);
-  max-width: 40ch;
-  margin-top: 1rem;
+.hero-overlay p {
+  font-size: 1.25rem;
+  font-weight: 500;
+  max-width: 45ch;
+  margin: 1.5rem auto 0;
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 0 2px 10px rgba(0,0,0,0.4);
 }
 
-.floating-cta {
-  pointer-events: auto;
-  margin-top: 2rem;
+.hero-cta {
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hero-cta .button {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.hero-cta .button.button-secondary {
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+}
+
+.hero-cta .button.button-secondary:hover {
+  background: rgba(255, 255, 255, 0.2);
 }
 
 @media (max-width: 768px) {
-  .floating-gallery {
-    height: 70vh;
-  }
-  .floating-overlay h1 {
-    font-size: 3.5rem;
+  .hero-slideshow {
+    height: 75vh;
+    border-radius: 12px;
   }
 }
