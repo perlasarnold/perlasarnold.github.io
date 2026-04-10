@@ -4,6 +4,7 @@ class FloatingGallery {
     if (!this.container) return;
 
     this.photos = photos;
+    this.shuffle(this.photos);
     this.nodes = [];
     this.particles = [];
     this.width = this.container.offsetWidth;
@@ -13,8 +14,16 @@ class FloatingGallery {
 
     this.init();
     this.animate();
+    this.startCycling();
     window.addEventListener('resize', () => this.onResize());
     this.container.addEventListener('mousemove', (e) => this.onMouseMove(e));
+  }
+
+  shuffle(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
   }
 
   init() {
@@ -49,6 +58,9 @@ class FloatingGallery {
     const w = 150 + Math.random() * 100;
     const node = {
         el: card,
+        img: img,
+        isHovered: false,
+        isFading: false,
         x: Math.random() * (this.width - w),
         y: Math.random() * (this.height - w * 1.3),
         vx: (Math.random() - 0.5) * 0.4,
@@ -57,6 +69,9 @@ class FloatingGallery {
         vr: (Math.random() - 0.5) * 0.1,
         w: w
     };
+    
+    card.addEventListener('mouseenter', () => { node.isHovered = true; });
+    card.addEventListener('mouseleave', () => { node.isHovered = false; });
     
     card.style.width = `${w}px`;
     this.nodes.push(node);
@@ -101,13 +116,20 @@ class FloatingGallery {
         node.rotation += node.vr;
 
         // Interaction (slight repulsion from mouse)
-        const dx = node.x + node.w/2 - this.mouseX;
-        const dy = node.y + node.w/2 - this.mouseY;
-        const dist = Math.sqrt(dx*dx + dy*dy);
-        if (dist < 300) {
-            const force = (300 - dist) / 3000;
-            node.vx += dx * force;
-            node.vy += dy * force;
+        // Only apply physics if NOT hovered
+        if (!node.isHovered && !node.isFading) {
+            const dx = node.x + node.w/2 - this.mouseX;
+            const dy = node.y + node.w/2 - this.mouseY;
+            const dist = Math.sqrt(dx*dx + dy*dy);
+            if (dist < 300) {
+                const force = (300 - dist) / 3000;
+                node.vx += dx * force;
+                node.vy += dy * force;
+            }
+
+            node.x += node.vx;
+            node.y += node.vy;
+            node.rotation += node.vr;
         }
 
         // Boundary bounce with damping
@@ -143,5 +165,41 @@ class FloatingGallery {
     });
 
     requestAnimationFrame(() => this.animate());
+  }
+
+  startCycling() {
+    setInterval(() => {
+        this.cycleImage();
+    }, 10000); // Cycle every 10 seconds
+  }
+
+  cycleImage() {
+    // Pick a card that isn't hovered or already fading
+    const eligible = this.nodes.filter(n => !n.isHovered && !n.isFading);
+    if (!eligible.length) return;
+    
+    const node = eligible[Math.floor(Math.random() * eligible.length)];
+    const newPhoto = this.photos[Math.floor(Math.random() * this.photos.length)];
+    
+    node.isFading = true;
+    node.el.style.opacity = '0';
+    
+    setTimeout(() => {
+        // Swap content
+        node.img.src = newPhoto.src.replace(/viewBox=\d+/, 'viewBox=512');
+        node.img.alt = newPhoto.alt;
+        
+        // Randomize new position
+        node.x = Math.random() * (this.width - node.w);
+        node.y = Math.random() * (this.height - node.w * 1.3);
+        node.vx = (Math.random() - 0.5) * 0.4;
+        node.vy = (Math.random() - 0.5) * 0.4;
+        
+        // Wait for image load before fade in
+        node.img.onload = () => {
+            node.el.style.opacity = '1';
+            setTimeout(() => { node.isFading = false; }, 800);
+        };
+    }, 850); // Match CSS transition duration
   }
 }
