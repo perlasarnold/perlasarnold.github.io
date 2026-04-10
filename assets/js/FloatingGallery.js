@@ -110,11 +110,6 @@ class FloatingGallery {
   animate() {
     // Update cards
     this.nodes.forEach(node => {
-        // Drifting velocity
-        node.x += node.vx;
-        node.y += node.vy;
-        node.rotation += node.vr;
-
         // Interaction (slight repulsion from mouse)
         // Only apply physics if NOT hovered
         if (!node.isHovered && !node.isFading) {
@@ -127,6 +122,7 @@ class FloatingGallery {
                 node.vy += dy * force;
             }
 
+            // Drifting velocity
             node.x += node.vx;
             node.y += node.vy;
             node.rotation += node.vr;
