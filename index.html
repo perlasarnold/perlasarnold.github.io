@@ -30,6 +30,12 @@ permalink: /
     const rawData = JSON.parse(document.getElementById('home-photo-data').textContent);
     const photos = rawData.map(p => p.imageUrl.replace(/viewBox=\d+/, 'viewBox=2048'));
     
+    // Shuffle the array to ensure a unique sequence for every user
+    for (let i = photos.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [photos[i], photos[j]] = [photos[j], photos[i]];
+    }
+    
     let currentIndex = 0;
     const bg1 = document.getElementById('bg-1');
     const bg2 = document.getElementById('bg-2');
