@@ -50,8 +50,8 @@ jobs:
           cat <<EOF > "$FILENAME"
 ---
 layout: post
-title: "Security Digest - \$(date +'%B %d, %Y')"
-date: \$(date +'%Y-%m-%d %H:%M:%S %z')
+title: "Security Digest - $(date +'%B %d, %Y')"
+date: $(date +'%Y-%m-%d %H:%M:%S %z')
 categories: [security]
 tags: [security-digest, daily]
 ---
@@ -71,5 +71,6 @@ EOF
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add _posts/
+          git status
           git commit -m "feat: daily security digest $(date +'%Y-%m-%d')" || echo "No changes to commit"
-          git push
+          git push origin HEAD:main
