@@ -16,13 +16,6 @@ jobs:
       - name: Checkout Website Repository
         uses: actions/checkout@v4
 
-      - name: Checkout System Engineering Repository
-        uses: actions/checkout@v4
-        with:
-          repository: perlasarnold/FBM-SysEngineering
-          token: ${{ secrets.GH_PAT }}
-          path: FBM-SysEngineering
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -30,8 +23,8 @@ jobs:
 
       - name: Run Security Digest Script
         run: |
-          # Go to the script directory
-          cd FBM-SysEngineering/tools/security_digest
+          # Go to the local script directory
+          cd tools/security_digest
           
           # Install dependencies if they exist
           if [ -f "requirements.txt" ]; then
@@ -46,7 +39,7 @@ jobs:
           fi
           
           echo "Running $SCRIPT..."
-          python "$SCRIPT" > ../../../digest_output.md
+          python "$SCRIPT" > ../../digest_output.md
 
       - name: Format as Jekyll Post
         run: |
@@ -69,9 +62,6 @@ EOF
           if [ -f "digest_output.md" ]; then
             cat digest_output.md >> "$FILENAME"
             rm digest_output.md
-            
-            # Clean up the FBM-SysEngineering repo so we don't commit it
-            rm -rf FBM-SysEngineering
           else
             echo "There was an error retrieving the digest today." >> "$FILENAME"
           fi
