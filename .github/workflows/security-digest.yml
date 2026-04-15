@@ -1,0 +1,85 @@
+name: Generate Security Digest
+
+on:
+  schedule:
+    # 11:00 UTC is approximately 4:00 AM Pacific Time
+    - cron: '0 11 * * *'
+  workflow_dispatch: # Allows manual triggering from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  generate-digest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Website Repository
+        uses: actions/checkout@v4
+
+      - name: Checkout System Engineering Repository
+        uses: actions/checkout@v4
+        with:
+          repository: perlasarnold/FBM-SysEngineering
+          token: ${{ secrets.GH_PAT }}
+          path: FBM-SysEngineering
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run Security Digest Script
+        run: |
+          # Go to the script directory
+          cd FBM-SysEngineering/tools/security_digest
+          
+          # Install dependencies if they exist
+          if [ -f "requirements.txt" ]; then
+            pip install -r requirements.txt
+          fi
+          
+          # Find and execute the main python script
+          SCRIPT=$(ls *.py | head -n 1)
+          if [ -z "$SCRIPT" ]; then
+            echo "Error: No python script found in tools/security_digest/"
+            exit 1
+          fi
+          
+          echo "Running $SCRIPT..."
+          python "$SCRIPT" > ../../../digest_output.md
+
+      - name: Format as Jekyll Post
+        run: |
+          DATE=$(date +'%Y-%m-%d')
+          FILENAME="_posts/${DATE}-security-digest.md"
+          
+          # Create Jekyll front matter
+          cat <<EOF > "$FILENAME"
+---
+layout: post
+title: "Security Digest - \$(date +'%B %d, %Y')"
+date: \$(date +'%Y-%m-%d %H:%M:%S %z')
+categories: [security]
+tags: [security-digest, daily]
+---
+
+EOF
+          
+          # Append the script's markdown output
+          if [ -f "digest_output.md" ]; then
+            cat digest_output.md >> "$FILENAME"
+            rm digest_output.md
+            
+            # Clean up the FBM-SysEngineering repo so we don't commit it
+            rm -rf FBM-SysEngineering
+          else
+            echo "There was an error retrieving the digest today." >> "$FILENAME"
+          fi
+
+      - name: Commit and Push Post
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _posts/
+          git commit -m "feat: daily security digest $(date +'%Y-%m-%d')" || echo "No changes to commit"
+          git push
