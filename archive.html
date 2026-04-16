@@ -3,21 +3,23 @@ layout: default
 title: Archive
 permalink: /archive/
 ---
+{% assign digest_posts = site.posts | where_exp: "post", "post.categories contains 'weekly-digest'" %}
 <section class="page-intro container">
   <p class="eyebrow">Archive</p>
-  <h1>Browse every post.</h1>
-  <p>The archive keeps the same simple rhythm as the main blog and makes older posts easy to revisit.</p>
+  <h1>Browse every weekly digest.</h1>
+  <p>The archive keeps the report stream easy to revisit and separates the published blog posts from the raw generated markdown archive.</p>
 </section>
 
 <section class="container">
   <div class="archive-panel">
     <ul class="archive-list">
-      {% for post in site.posts %}
+      {% for post in digest_posts %}
         <li>
           <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
           <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
         </li>
       {% endfor %}
     </ul>
+    <p><a href="{{ '/blog/digest-archive/' | relative_url }}">Open generated digest archive</a></p>
   </div>
 </section>

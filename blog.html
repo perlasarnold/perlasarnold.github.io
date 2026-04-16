@@ -3,20 +3,22 @@ layout: default
 title: Blog
 permalink: /blog/
 ---
+{% assign digest_posts = site.posts | where_exp: "post", "post.categories contains 'weekly-digest'" %}
 <section class="page-intro container">
   <p class="eyebrow">Blog</p>
-  <h1>Articles, field notes, and practical write-ups.</h1>
+  <h1>Weekly reports with actionable security follow-up.</h1>
   <p>
-    A clean, archive-friendly layout inspired by classic technical blogs: clear titles, readable
-    excerpts, visible publishing dates, and fast scanning for returning readers.
+    This page tracks the weekly digest stream for current security, Windows, browser, and endpoint
+    management changes that may require follow-up in Tanium or Intune.
   </p>
 </section>
 
 <section class="container content-grid">
   <div>
-    <h2 class="section-heading">Latest posts</h2>
+    <h2 class="section-heading">Latest weekly digests</h2>
     <div class="posts-grid">
-      {% for post in site.posts %}
+      {% if digest_posts.size > 0 %}
+      {% for post in digest_posts %}
         <article class="post-card">
           <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
           <div class="post-card-meta">
@@ -30,18 +32,25 @@ permalink: /blog/
           <a class="post-card-link" href="{{ post.url | relative_url }}">Read more</a>
         </article>
       {% endfor %}
+      {% else %}
+        <article class="post-card">
+          <h2>No weekly digests yet</h2>
+          <p>The `build-digest` workflow will publish the first report here after its first successful run.</p>
+        </article>
+      {% endif %}
     </div>
   </div>
 
   <aside class="archive-panel">
     <h2>About this blog</h2>
     <p>
-      The structure is intentionally simple and durable: ideal for publishing with GitHub Pages and
-      easy to maintain with Markdown posts.
+      Each digest is published as a standard Jekyll post so it automatically appears at
+      <a href="{{ '/blog/' | relative_url }}">/blog/</a> and stays easy to archive.
     </p>
     <h2>Quick links</h2>
     <ul>
       <li><a href="{{ '/archive/' | relative_url }}">Full archive</a></li>
+      <li><a href="{{ '/blog/digest-archive/' | relative_url }}">Generated digest archive</a></li>
       <li><a href="{{ '/about/' | relative_url }}">About Perlas Arnold</a></li>
       <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
     </ul>

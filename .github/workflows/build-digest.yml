@@ -1,0 +1,43 @@
+name: build-digest
+
+on:
+  schedule:
+    - cron: '0 15 * * 2'
+  workflow_dispatch:
+    inputs:
+      lookback_days:
+        description: Days of source history to include
+        required: false
+        default: '7'
+      max_items_per_source:
+        description: Max items to collect per source
+        required: false
+        default: '20'
+
+permissions:
+  contents: write
+
+jobs:
+  build-digest:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout website repository
+        uses: actions/checkout@v4
+
+      - name: Run weekly digest generator
+        shell: pwsh
+        run: |
+          ./tools/security_digest/build_digest.ps1 `
+            -LookbackDays "${{ github.event.inputs.lookback_days || '7' }}" `
+            -MaxItemsPerSource "${{ github.event.inputs.max_items_per_source || '20' }}"
+
+      - name: Commit generated digest content
+        shell: bash
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _posts/ blog-digest/
+          git diff --cached --quiet && exit 0
+          git commit -m "feat: weekly digest $(date -u +'%Y-%m-%d')"
+          git push origin HEAD:main

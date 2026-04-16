@@ -1,21 +1,23 @@
 # Perlas Arnold GitHub Pages Blog
 
-This repository contains a GitHub Pages-compatible Jekyll site designed around a dedicated `Blog` experience.
+This repository contains a GitHub Pages-compatible Jekyll site that publishes weekly security digest reports at `https://www.perlasarnold.me/blog/`.
 
 ## Structure
 
-- `/blog/` is the main blog landing page
-- `/_posts/` contains Markdown blog posts
-- `/archive/` lists all posts
-- `/about/` and `/contact/` are ready for your real content
+- `/blog/` is the main landing page for weekly digest posts
+- `/_posts/` contains the generated Markdown posts that Jekyll publishes
+- `/blog/digest-archive/` exposes the raw generated digest files
+- `/archive/` lists the published weekly digests
 
-## Publish on GitHub Pages
+## Weekly Digest Automation
 
-1. Push this repository to GitHub.
-2. In the repository settings, enable GitHub Pages from the default branch root.
-3. If `perlasarnold.me` should point directly to this repo, add a `CNAME` file with `perlasarnold.me`.
-4. If this blog should sit behind an existing site’s `Blog` link, deploy it to the repo or branch that serves that destination.
+- Workflow: `.github/workflows/build-digest.yml`
+- Generator: `tools/security_digest/build_digest.ps1`
+- Generated posts: `/_posts/`
+- Generated raw archive: `/blog-digest/`
 
-## Notes
+Run the workflow manually from GitHub Actions or let the weekly schedule publish new digest posts automatically.
 
-The current content is starter content and should be replaced with your own posts, bio, and contact links.
+## GitHub Pages
+
+This repo is already configured for the custom domain `https://www.perlasarnold.me` through the `CNAME` file and Jekyll config.

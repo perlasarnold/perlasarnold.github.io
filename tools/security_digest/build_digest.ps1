@@ -1,0 +1,578 @@
+param(
+    [int]$LookbackDays = 7,
+    [int]$MaxItemsPerSource = 20,
+    [string]$PostsRoot,
+    [string]$DigestArchiveRoot
+)
+
+$ErrorActionPreference = 'Stop'
+
+function Ensure-Directory {
+    param([string]$Path)
+
+    if (-not (Test-Path -LiteralPath $Path)) {
+        New-Item -ItemType Directory -Path $Path -Force | Out-Null
+    }
+}
+
+function Write-Utf8File {
+    param(
+        [string]$Path,
+        [string]$Content
+    )
+
+    Ensure-Directory -Path (Split-Path -Parent $Path)
+    Set-Content -LiteralPath $Path -Value $Content -Encoding utf8
+}
+
+function Get-WebContent {
+    param([string]$Url)
+
+    $headers = @{
+        'User-Agent' = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36'
+    }
+
+    return Invoke-WebRequest -Uri $Url -Headers $headers -UseBasicParsing -TimeoutSec 45
+}
+
+function Get-DateValue {
+    param($Value)
+
+    if ($null -eq $Value -or [string]::IsNullOrWhiteSpace([string]$Value)) {
+        return $null
+    }
+
+    try {
+        return [datetimeoffset]$Value
+    }
+    catch {
+        return $null
+    }
+}
+
+function ConvertTo-Text {
+    param([string]$Value)
+
+    if ([string]::IsNullOrWhiteSpace($Value)) {
+        return ''
+    }
+
+    $text = $Value -replace '<[^>]+>', ' '
+    $text = $text -replace '&nbsp;', ' '
+    $text = $text -replace '&amp;', '&'
+    $text = $text -replace '\s+', ' '
+    return $text.Trim()
+}
+
+function ConvertTo-Slug {
+    param([string]$Value)
+
+    $slug = $Value.ToLowerInvariant()
+    $slug = $slug -replace '[^a-z0-9]+', '-'
+    $slug = $slug.Trim('-')
+
+    if ([string]::IsNullOrWhiteSpace($slug)) {
+        return 'weekly-security-digest'
+    }
+
+    return $slug
+}
+
+function Escape-FrontMatterValue {
+    param([string]$Value)
+
+    if ($null -eq $Value) {
+        return ''
+    }
+
+    return ($Value -replace '"', '\"')
+}
+
+function Get-FeedDefinitions {
+    return @(
+        [pscustomobject]@{ Name = 'BleepingComputer'; Url = 'https://www.bleepingcomputer.com/feed/'; Format = 'rss' },
+        [pscustomobject]@{ Name = 'CybersecurityNews'; Url = 'https://cybersecuritynews.com/feed/'; Format = 'rss' },
+        [pscustomobject]@{ Name = 'Neowin'; Url = 'https://www.neowin.net/news/rss/'; Format = 'rss' },
+        [pscustomobject]@{ Name = 'The Old New Thing'; Url = 'https://devblogs.microsoft.com/oldnewthing/feed/'; Format = 'rss' },
+        [pscustomobject]@{ Name = 'Reddit r/cybersecurity'; Url = 'https://www.reddit.com/r/cybersecurity/new/.rss'; Format = 'atom' },
+        [pscustomobject]@{ Name = 'Reddit r/sysadmin'; Url = 'https://www.reddit.com/r/sysadmin/new/.rss'; Format = 'atom' },
+        [pscustomobject]@{ Name = 'Reddit r/Windows11'; Url = 'https://www.reddit.com/r/Windows11/new/.rss'; Format = 'atom' },
+        [pscustomobject]@{ Name = 'NVD'; Url = 'https://nvd.nist.gov/vuln'; Format = 'nvd-api' },
+        [pscustomobject]@{ Name = 'CVE.org'; Url = 'https://cve.org/'; Format = 'cve-derived' }
+    )
+}
+
+function Get-RssItems {
+    param(
+        [xml]$Xml,
+        [string]$SourceName
+    )
+
+    $items = [System.Collections.Generic.List[object]]::new()
+    foreach ($node in @($Xml.rss.channel.item)) {
+        if ($null -eq $node) {
+            continue
+        }
+
+        $items.Add([pscustomobject]@{
+            Source    = $SourceName
+            Title     = [string]$node.title
+            Link      = [string]$node.link
+            Published = Get-DateValue -Value $node.pubDate
+            Summary   = ConvertTo-Text -Value ([string]$node.description)
+        })
+    }
+
+    return $items
+}
+
+function Get-AtomItems {
+    param(
+        [xml]$Xml,
+        [string]$SourceName
+    )
+
+    $ns = New-Object System.Xml.XmlNamespaceManager($Xml.NameTable)
+    $ns.AddNamespace('a', 'http://www.w3.org/2005/Atom')
+    $entries = $Xml.SelectNodes('//a:entry', $ns)
+    $items = [System.Collections.Generic.List[object]]::new()
+
+    foreach ($entry in @($entries)) {
+        $linkNode = $entry.SelectSingleNode("a:link[@rel='alternate']", $ns)
+        if ($null -eq $linkNode) {
+            $linkNode = $entry.SelectSingleNode('a:link', $ns)
+        }
+
+        $summaryNode = $entry.SelectSingleNode('a:summary', $ns)
+        if ($null -eq $summaryNode) {
+            $summaryNode = $entry.SelectSingleNode('a:content', $ns)
+        }
+
+        $items.Add([pscustomobject]@{
+            Source    = $SourceName
+            Title     = [string]$entry.SelectSingleNode('a:title', $ns).InnerText
+            Link      = [string]$linkNode.Attributes['href'].Value
+            Published = Get-DateValue -Value ($entry.SelectSingleNode('a:updated', $ns).InnerText)
+            Summary   = ConvertTo-Text -Value ([string]$summaryNode.InnerText)
+        })
+    }
+
+    return $items
+}
+
+function Get-NvdApiItems {
+    param(
+        [datetimeoffset]$Since,
+        [int]$MaxItems
+    )
+
+    $start = $Since.ToUniversalTime().ToString("yyyy-MM-ddTHH:mm:ss.fffK")
+    $end = [datetimeoffset]::UtcNow.ToString("yyyy-MM-ddTHH:mm:ss.fffK")
+    $uri = "https://services.nvd.nist.gov/rest/json/cves/2.0?pubStartDate=$([uri]::EscapeDataString($start))&pubEndDate=$([uri]::EscapeDataString($end))&resultsPerPage=$MaxItems&noRejected"
+
+    $response = Get-WebContent -Url $uri
+    $payload = $response.Content | ConvertFrom-Json
+    $items = [System.Collections.Generic.List[object]]::new()
+
+    foreach ($entry in @($payload.vulnerabilities)) {
+        $cve = $entry.cve
+        if ($null -eq $cve) {
+            continue
+        }
+
+        $description = ''
+        foreach ($desc in @($cve.descriptions)) {
+            if ($desc.lang -eq 'en' -and -not [string]::IsNullOrWhiteSpace($desc.value)) {
+                $description = $desc.value
+                break
+            }
+        }
+
+        $published = Get-DateValue -Value $cve.published
+        $cveId = [string]$cve.id
+        $items.Add([pscustomobject]@{
+            Source    = 'NVD'
+            Title     = $cveId
+            Link      = "https://nvd.nist.gov/vuln/detail/$cveId"
+            Published = $published
+            Summary   = ConvertTo-Text -Value $description
+            CveId     = $cveId
+        })
+    }
+
+    return @($items | Sort-Object Published -Descending | Select-Object -First $MaxItems)
+}
+
+function ConvertTo-CveOrgItems {
+    param(
+        [object[]]$Items,
+        [int]$MaxItems
+    )
+
+    $derived = [System.Collections.Generic.List[object]]::new()
+    foreach ($item in @($Items | Select-Object -First $MaxItems)) {
+        if ([string]::IsNullOrWhiteSpace($item.CveId)) {
+            continue
+        }
+
+        $derived.Add([pscustomobject]@{
+            Source    = 'CVE.org'
+            Title     = $item.CveId
+            Link      = "https://www.cve.org/CVERecord?id=$($item.CveId)"
+            Published = $item.Published
+            Summary   = $item.Summary
+            CveId     = $item.CveId
+        })
+    }
+
+    return @($derived)
+}
+
+function Get-FeedData {
+    param(
+        [pscustomobject]$Definition,
+        [datetimeoffset]$Since,
+        [int]$MaxItems
+    )
+
+    try {
+        if ($Definition.Format -eq 'nvd-api') {
+            $items = Get-NvdApiItems -Since $Since -MaxItems $MaxItems
+        }
+        elseif ($Definition.Format -eq 'cve-derived') {
+            $nvdItems = Get-NvdApiItems -Since $Since -MaxItems $MaxItems
+            $items = ConvertTo-CveOrgItems -Items $nvdItems -MaxItems $MaxItems
+        }
+        else {
+            $response = Get-WebContent -Url $Definition.Url
+            [xml]$xml = $response.Content
+
+            if ($Definition.Format -eq 'atom') {
+                $items = Get-AtomItems -Xml $xml -SourceName $Definition.Name
+            }
+            else {
+                $items = Get-RssItems -Xml $xml -SourceName $Definition.Name
+            }
+        }
+
+        $recentItems = @(
+            $items |
+            Where-Object { $null -ne $_.Published -and $_.Published -ge $Since } |
+            Sort-Object Published -Descending |
+            Select-Object -First $MaxItems
+        )
+
+        return [pscustomobject]@{
+            Name    = $Definition.Name
+            Status  = 'OK'
+            Message = "Collected $($recentItems.Count) recent items"
+            Items   = $recentItems
+        }
+    }
+    catch {
+        return [pscustomobject]@{
+            Name    = $Definition.Name
+            Status  = 'Error'
+            Message = $_.Exception.Message
+            Items   = @()
+        }
+    }
+}
+
+function Get-WatchRules {
+    return @(
+        [pscustomobject]@{ Name = 'Google Chrome'; Pattern = '(?i)\bchrome\b|\bchromium\b'; Category = 'Tanium'; Action = 'Validate current Chrome coverage and accelerate an update if the affected build is deployed.' },
+        [pscustomobject]@{ Name = 'Microsoft Edge'; Pattern = '(?i)\bedge\b|\bwebview2\b'; Category = 'Tanium'; Action = 'Validate Edge or WebView2 coverage and refresh the managed package if needed.' },
+        [pscustomobject]@{ Name = 'Mozilla Firefox'; Pattern = '(?i)\bfirefox\b'; Category = 'Tanium'; Action = 'Check the Firefox package version and update the deployment if the advisory applies.' },
+        [pscustomobject]@{ Name = 'Adobe Acrobat or Reader'; Pattern = '(?i)\badobe\b|\bacrobat\b|\breader\b'; Category = 'Tanium'; Action = 'Confirm Adobe package exposure and push an updated deployment if the build is vulnerable.' },
+        [pscustomobject]@{ Name = 'Palo Alto GlobalProtect'; Pattern = '(?i)\bglobalprotect\b|\bpalo alto\b|\bprisma\b'; Category = 'Tanium'; Action = 'Review the VPN client version and update the managed deployment when relevant.' },
+        [pscustomobject]@{ Name = 'CrowdStrike'; Pattern = '(?i)\bcrowdstrike\b|\bfalcon\b'; Category = 'Intune'; Action = 'Review sensor guidance and validate whether the current deployment posture needs adjustment.' },
+        [pscustomobject]@{ Name = 'Qualys'; Pattern = '(?i)\bqualys\b'; Category = 'Intune'; Action = 'Validate the Cloud Agent release and deployment health in the current environment.' },
+        [pscustomobject]@{ Name = 'BitLocker'; Pattern = '(?i)\bbitlocker\b'; Category = 'Intune'; Action = 'Review BitLocker policy posture and harden or remediate gaps through Intune.' },
+        [pscustomobject]@{ Name = 'LAPS'; Pattern = '(?i)\blaps\b|\blocal admin password\b'; Category = 'Intune'; Action = 'Validate LAPS scope, account mapping, and rotation posture.' },
+        [pscustomobject]@{ Name = 'Conditional Access and MFA'; Pattern = '(?i)\bconditional access\b|\bmfa\b|\bauthentication strength\b'; Category = 'Intune'; Action = 'Review Conditional Access and MFA strength settings for tightening opportunities.' },
+        [pscustomobject]@{ Name = 'Defender, AV, or Firewall'; Pattern = '(?i)\bdefender\b|\bantivirus\b|\bfirewall\b|\basr\b|\battack surface reduction\b'; Category = 'Intune'; Action = 'Review Defender, firewall, and ASR controls for policy updates.' },
+        [pscustomobject]@{ Name = 'Windows Update and Autopatch'; Pattern = '(?i)\bpatch tuesday\b|\bwindows update\b|\bautopatch\b|\bcumulative update\b|\bout-of-band\b'; Category = 'Intune'; Action = 'Evaluate whether update rings, expedite actions, or coordinated patching changes are needed.' }
+    )
+}
+
+function Get-MatchedRules {
+    param(
+        [string]$Text,
+        [object[]]$Rules
+    )
+
+    $matchedRules = New-Object System.Collections.ArrayList
+    foreach ($rule in $Rules) {
+        if ($Text -match $rule.Pattern) {
+            [void]$matchedRules.Add($rule)
+        }
+    }
+    return @($matchedRules)
+}
+
+function Format-DateLine {
+    param([datetimeoffset]$Value)
+
+    if ($null -eq $Value) {
+        return 'Unknown publish time'
+    }
+
+    return $Value.ToString('yyyy-MM-dd HH:mm:ss zzz')
+}
+
+function Get-PatchTuesdayExperienceItems {
+    param(
+        [object[]]$Items,
+        [int]$MaxItems = 10
+    )
+
+    $patchTuesdayPattern = '(?i)\bpatch tuesday\b|\bwindows update\b|\bcumulative update\b|\bout-of-band\b|\bkb\d{6,7}\b'
+    $experiencePattern = '(?i)\bissue\b|\bproblem\b|\bbroken\b|\bbug\b|\bbsod\b|\bblue screen\b|\bcrash\b|\breboot\b|\bslow\b|\bperformance\b|\bbitlocker\b|\brecovery\b|\bremote desktop\b|\bsign-in\b|\bprinting\b|\binstall fails\b|\bfailed\b'
+
+    $candidates = @(
+        $Items |
+        Where-Object {
+            $text = "$($_.Title) $($_.Summary)"
+            ($text -match $patchTuesdayPattern) -and ($text -match $experiencePattern)
+        } |
+        Sort-Object Published -Descending
+    )
+
+    $ranked = foreach ($item in $candidates) {
+        $text = "$($item.Title) $($item.Summary)"
+        $score = 1
+        if ($text -match '(?i)\bbitlocker\b|\brecovery\b') { $score += 3 }
+        if ($text -match '(?i)\bbsod\b|\bblue screen\b|\bcrash\b') { $score += 2 }
+        if ($text -match '(?i)\bremote desktop\b|\bsign-in\b|\bprinting\b') { $score += 2 }
+        if ($item.Source -match 'Reddit r/sysadmin|Reddit r/Windows11|Neowin|BleepingComputer') { $score += 1 }
+
+        [pscustomobject]@{
+            Title     = $item.Title
+            Link      = $item.Link
+            Source    = $item.Source
+            Published = $item.Published
+            Summary   = $item.Summary
+            Score     = $score
+        }
+    }
+
+    return @(
+        $ranked |
+        Sort-Object -Property @{ Expression = 'Score'; Descending = $true }, @{ Expression = 'Published'; Descending = $true } |
+        Group-Object Title |
+        ForEach-Object { $_.Group | Select-Object -First 1 } |
+        Select-Object -First $MaxItems
+    )
+}
+
+$repoRoot = Split-Path -Parent (Split-Path -Parent $PSScriptRoot)
+if (-not $PostsRoot) {
+    $PostsRoot = Join-Path $repoRoot '_posts'
+}
+if (-not $DigestArchiveRoot) {
+    $DigestArchiveRoot = Join-Path $repoRoot 'blog-digest'
+}
+
+$nowUtc = [datetimeoffset]::UtcNow
+$runDate = $nowUtc.ToString('yyyy-MM-dd')
+$timestamp = $nowUtc.ToString('yyyy-MM-dd_HH-mm-ssZ')
+$title = "Weekly Security Digest - $($nowUtc.ToString('MMMM d, yyyy'))"
+$slug = ConvertTo-Slug -Value $title
+$postFileName = "$runDate-$slug.md"
+$postPath = Join-Path $PostsRoot $postFileName
+$historicalFileName = "weekly-digest-$timestamp.md"
+$historicalPath = Join-Path $DigestArchiveRoot $historicalFileName
+$latestPath = Join-Path $DigestArchiveRoot 'latest-weekly-digest.md'
+$indexPath = Join-Path $DigestArchiveRoot 'index.md'
+$since = $nowUtc.AddDays(-1 * $LookbackDays)
+
+Ensure-Directory -Path $PostsRoot
+Ensure-Directory -Path $DigestArchiveRoot
+
+$feedResults = foreach ($definition in (Get-FeedDefinitions)) {
+    Get-FeedData -Definition $definition -Since $since -MaxItems $MaxItemsPerSource
+}
+
+$allItems = @($feedResults | ForEach-Object { $_.Items } | Where-Object { $null -ne $_ })
+$watchRules = Get-WatchRules
+
+$matchedItems = foreach ($item in ($allItems | Sort-Object Published -Descending)) {
+    $text = "$($item.Title) $($item.Summary)"
+    $ruleMatches = @(Get-MatchedRules -Text $text -Rules $watchRules)
+    if ($ruleMatches.Count -eq 0) {
+        continue
+    }
+
+    $categories = @($ruleMatches | ForEach-Object { $_.Category } | Sort-Object -Unique)
+    $names = @($ruleMatches | ForEach-Object { $_.Name } | Sort-Object -Unique)
+    $actions = @($ruleMatches | ForEach-Object { $_.Action } | Sort-Object -Unique)
+
+    $score = 1
+    if ($text -match '(?i)\bcritical\b|\bactively exploited\b|\bzero[- ]day\b|\brce\b|\bremote code execution\b') { $score += 3 }
+    if ($text -match '(?i)\bmicrosoft\b|\bwindows\b|\bentra\b|\bintune\b|\bdefender\b') { $score += 1 }
+    if ($categories.Count -gt 0) { $score += 1 }
+
+    [pscustomobject]@{
+        Title       = $item.Title
+        Link        = $item.Link
+        Source      = $item.Source
+        Published   = $item.Published
+        Summary     = $item.Summary
+        Categories  = $categories
+        Matched     = $names
+        Actions     = $actions
+        Score       = $score
+    }
+}
+
+$dedupedItems = @(
+    $matchedItems |
+    Sort-Object -Property @{ Expression = 'Score'; Descending = $true }, @{ Expression = 'Published'; Descending = $true } |
+    Group-Object Title |
+    ForEach-Object { $_.Group | Select-Object -First 1 }
+)
+
+$highPriority = @($dedupedItems | Where-Object { $_.Score -ge 4 } | Select-Object -First 12)
+$taniumItems = @($dedupedItems | Where-Object { $_.Categories -contains 'Tanium' } | Select-Object -First 12)
+$intuneItems = @($dedupedItems | Where-Object { $_.Categories -contains 'Intune' } | Select-Object -First 12)
+$watchItems = @(
+    $allItems |
+    Sort-Object Published -Descending |
+    Where-Object {
+        $text = "$($_.Title) $($_.Summary)"
+        $text -match '(?i)\bcve\b|\bsecurity\b|\bpatch\b|\bvulnerability\b|\bexploit\b'
+    } |
+    Select-Object -First 15
+)
+$patchTuesdayExperienceItems = @(Get-PatchTuesdayExperienceItems -Items $allItems -MaxItems 8)
+
+$digestLines = [System.Collections.Generic.List[string]]::new()
+$digestLines.Add("# $title")
+$digestLines.Add('')
+$digestLines.Add("This weekly report consolidates recent security and platform changes into a blog-ready summary focused on actions relevant to the current Tanium and Intune operating model.")
+$digestLines.Add('')
+$digestLines.Add("- Generated (UTC): $($nowUtc.ToString('yyyy-MM-dd HH:mm:ss zzz'))")
+$digestLines.Add("- Lookback window: $LookbackDays days")
+$digestLines.Add('- Historical file: `' + $historicalFileName + '`')
+$digestLines.Add("- Older digest files are preserved in the digest archive.")
+$digestLines.Add('')
+$digestLines.Add('## Executive Summary')
+if ($highPriority.Count -eq 0) {
+    $digestLines.Add('- No high-confidence environment-matched items were found in this run.')
+}
+else {
+    foreach ($item in $highPriority | Select-Object -First 5) {
+        $digestLines.Add("- $($item.Title) [$($item.Source)]")
+    }
+}
+$digestLines.Add('')
+$digestLines.Add('## High-Priority Matches')
+if ($highPriority.Count -eq 0) {
+    $digestLines.Add('- None this run.')
+}
+else {
+    foreach ($item in $highPriority) {
+        $digestLines.Add("- [$($item.Title)]($($item.Link))")
+        $digestLines.Add("  Source: $($item.Source) | Published: $(Format-DateLine -Value $item.Published) | Score: $($item.Score)")
+        $digestLines.Add("  Routes: $($item.Categories -join '; ')")
+        $digestLines.Add("  Environment match: $($item.Matched -join '; ')")
+        $digestLines.Add("  Suggested action: $($item.Actions -join ' ')")
+    }
+}
+$digestLines.Add('')
+$digestLines.Add('## Tanium Candidates')
+if ($taniumItems.Count -eq 0) {
+    $digestLines.Add('- None this run.')
+}
+else {
+    foreach ($item in $taniumItems) {
+        $digestLines.Add("- [$($item.Title)]($($item.Link))")
+        $digestLines.Add("  Match: $($item.Matched -join '; ')")
+    }
+}
+$digestLines.Add('')
+$digestLines.Add('## Intune Candidates')
+if ($intuneItems.Count -eq 0) {
+    $digestLines.Add('- None this run.')
+}
+else {
+    foreach ($item in $intuneItems) {
+        $digestLines.Add("- [$($item.Title)]($($item.Link))")
+        $digestLines.Add("  Match: $($item.Matched -join '; ')")
+    }
+}
+$digestLines.Add('')
+$digestLines.Add('## Patch Tuesday User Experience Notes')
+if ($patchTuesdayExperienceItems.Count -eq 0) {
+    $digestLines.Add('- No meaningful Patch Tuesday user-experience notes were detected in this run.')
+}
+else {
+    foreach ($item in $patchTuesdayExperienceItems) {
+        $digestLines.Add("- [$($item.Title)]($($item.Link))")
+        $digestLines.Add("  Source: $($item.Source) | Published: $(Format-DateLine -Value $item.Published)")
+        if (-not [string]::IsNullOrWhiteSpace($item.Summary)) {
+            $digestLines.Add("  Note: $($item.Summary)")
+        }
+    }
+}
+$digestLines.Add('')
+$digestLines.Add('## Source Collection Status')
+foreach ($result in $feedResults) {
+    $digestLines.Add("- $($result.Name): $($result.Status) - $($result.Message)")
+}
+$digestLines.Add('')
+$digestLines.Add('## Watch Items')
+foreach ($item in $watchItems) {
+    $digestLines.Add("- [$($item.Title)]($($item.Link)) - $(Format-DateLine -Value $item.Published)")
+}
+
+$digestBody = $digestLines -join [Environment]::NewLine
+
+$frontMatter = @(
+    '---'
+    'layout: post'
+    "title: ""$(Escape-FrontMatterValue -Value $title)"""
+    "date: $($nowUtc.ToString('yyyy-MM-dd HH:mm:ss zzz'))"
+    'categories: [weekly-digest]'
+    'tags: [security-digest, weekly-report, tanium, intune]'
+    'author: Arnold'
+    '---'
+    ''
+) -join [Environment]::NewLine
+
+$postContent = $frontMatter + $digestBody + [Environment]::NewLine
+Write-Utf8File -Path $postPath -Content $postContent
+Write-Utf8File -Path $historicalPath -Content $digestBody
+Write-Utf8File -Path $latestPath -Content $digestBody
+
+$historicalFiles = @(
+    Get-ChildItem -LiteralPath $DigestArchiveRoot -Filter 'weekly-digest-*.md' -File |
+    Sort-Object Name -Descending
+)
+
+$indexLines = [System.Collections.Generic.List[string]]::new()
+$indexLines.Add('---')
+$indexLines.Add('layout: default')
+$indexLines.Add('title: Digest Archive')
+$indexLines.Add('permalink: /blog/digest-archive/')
+$indexLines.Add('---')
+$indexLines.Add('')
+$indexLines.Add('# Security Digest Archive')
+$indexLines.Add('')
+$indexLines.Add('This archive stores the raw markdown generated for each weekly digest run.')
+$indexLines.Add('')
+$indexLines.Add('- [Latest generated digest](./latest-weekly-digest.md)')
+$indexLines.Add('- Historical files are append-only and keep the timestamp in the filename.')
+$indexLines.Add('')
+$indexLines.Add('## Runs')
+foreach ($file in $historicalFiles) {
+    $indexLines.Add("- [$($file.Name)](./$($file.Name))")
+}
+
+Write-Utf8File -Path $indexPath -Content ($indexLines -join [Environment]::NewLine)
+
+Write-Host "Jekyll post: $postPath"
+Write-Host "Historical digest: $historicalPath"
+Write-Host "Latest digest: $latestPath"
+Write-Host "Archive index: $indexPath"
