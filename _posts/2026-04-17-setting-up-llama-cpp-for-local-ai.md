@@ -2,7 +2,7 @@
 layout: post
 title: "Setting Up llama.cpp for Local AI: A Practical Guide"
 date: 2026-04-17 12:00:00 -0700
-categories: homelab ai programming
+categories: homelab ai programming weekly-digest
 ---
 
 Running large language models (LLMs) locally has become increasingly accessible, and `llama.cpp` is at the forefront of this movement. Designed as a lightweight C/C++ library, it allows developers to run powerful models on consumer hardware without relying on expensive cloud infrastructures or high-end enterprise GPUs. 
