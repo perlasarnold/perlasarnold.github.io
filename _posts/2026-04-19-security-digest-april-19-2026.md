@@ -1,7 +1,7 @@
-﻿---
+---
 layout: post
 title: "Security Digest - April 19, 2026"
-date: 2026-04-19 06:12:36 +00:00
+date: 2026-04-19 14:36:44 +00:00
 categories: [security-digest]
 tags: [security, tldr, situational-awareness, endpoint-management]
 author: Arnold
@@ -10,16 +10,25 @@ author: Arnold
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
 
-- **Generated (UTC):** 2026-04-19 06:12:36 +00:00
-- **Lookback window:** 3 days
+- **Generated (UTC):** 2026-04-19 14:36:44 +00:00
+- **Lookback window:** 7 days
 
 ## 🚀 Top Research & Advisories
-- *No high-priority security research detected in this window.*
+- **[New Microsoft Defender “RedSun” zero-day PoC grants SYSTEM privileges](https://www.bleepingcomputer.com/news/microsoft/new-microsoft-defender-redsun-zero-day-poc-grants-system-privileges/)** - *(BleepingComputer)*
+  System.Xml.XmlElement
+  > **Action:** Review security controls and policy updates.
+
 ## 💻 AppSec
+- **[Cool GitHub lab projects for Cloud/DevOps roles](https://www.reddit.com/r/sysadmin/comments/1spelie/cool_github_lab_projects_for_clouddevops_roles/)** - *(Reddit r/sysadmin)*
+  Monitor developer tool vulnerabilities and supply chain risks.
+
 - **[I’m a 19 year old SOC Analyst, this is my cert plan](https://www.reddit.com/r/cybersecurity/comments/1spkp7z/im_a_19_year_old_soc_analyst_this_is_my_cert_plan/)** - *(Reddit r/cybersecurity)*
   Monitor developer tool vulnerabilities and supply chain risks. Review security controls and policy updates. Review sensor guidance and deployment posture.
 
-- **[Cool GitHub lab projects for Cloud/DevOps roles](https://www.reddit.com/r/sysadmin/comments/1spelie/cool_github_lab_projects_for_clouddevops_roles/)** - *(Reddit r/sysadmin)*
+- **[Need suggestion for a APT emulation tool I am working on](https://www.reddit.com/r/cybersecurity/comments/1spmiz8/need_suggestion_for_a_apt_emulation_tool_i_am/)** - *(Reddit r/cybersecurity)*
+  Monitor developer tool vulnerabilities and supply chain risks.
+
+- **[What Linux projects actually matter for getting hired—real automation or just flashy setups?](https://www.reddit.com/r/sysadmin/comments/1spu90s/what_linux_projects_actually_matter_for_getting/)** - *(Reddit r/sysadmin)*
   Monitor developer tool vulnerabilities and supply chain risks.
 
 ## 🏗 Infrastructure
@@ -27,87 +36,132 @@ Daily security intelligence briefing for infrastructure and endpoint management 
   Review CA/MFA settings for tightening opportunities. Review security controls and policy updates. Review VPN client version and deployment.
 
 ## 🛡 Security Ops
-- **[I’m a 19 year old SOC Analyst, this is my cert plan](https://www.reddit.com/r/cybersecurity/comments/1spkp7z/im_a_19_year_old_soc_analyst_this_is_my_cert_plan/)** - *(Reddit r/cybersecurity)*
-  Monitor developer tool vulnerabilities and supply chain risks. Review security controls and policy updates. Review sensor guidance and deployment posture.
+- **[Are we solving the wrong problem in authentication?](https://www.reddit.com/r/cybersecurity/comments/1spq1sq/are_we_solving_the_wrong_problem_in_authentication/)** - *(Reddit r/cybersecurity)*
+  Review CA/MFA settings for tightening opportunities.
 
 - **[Entra ID for GP and DUO for admin access](https://www.reddit.com/r/sysadmin/comments/1sp61kg/entra_id_for_gp_and_duo_for_admin_access/)** - *(Reddit r/sysadmin)*
   Review CA/MFA settings for tightening opportunities. Review security controls and policy updates. Review VPN client version and deployment.
 
-## 🛠 Infrastructure & Endpoint Control
 - **[I’m a 19 year old SOC Analyst, this is my cert plan](https://www.reddit.com/r/cybersecurity/comments/1spkp7z/im_a_19_year_old_soc_analyst_this_is_my_cert_plan/)** - *(Reddit r/cybersecurity)*
   Monitor developer tool vulnerabilities and supply chain risks. Review security controls and policy updates. Review sensor guidance and deployment posture.
 
-- **[OTPs (Spotify + Microsoft) → suspicious “account accessed” SMS for unknown email](https://www.reddit.com/r/cybersecurity/comments/1spjj6v/otps_spotify_microsoft_suspicious_account/)** - *(Reddit r/cybersecurity)*
+- **[Jumphost vs phishing resistant rdp](https://www.reddit.com/r/sysadmin/comments/1sp2u10/jumphost_vs_phishing_resistant_rdp/)** - *(Reddit r/sysadmin)*
+  Review CA/MFA settings for tightening opportunities.
+
+## 🛠 Infrastructure & Endpoint Control
+- **["TotalRecall Reloaded" tool finds a side entrance to Windows 11's Recall database](https://www.reddit.com/r/Windows11/comments/1sp6znc/totalrecall_reloaded_tool_finds_a_side_entrance/)** - *(Reddit r/Windows11)*
+  Validate workstation security baseline and update compliance.
+
+- **[10 quick tweaks that make Windows 11 a lot better](https://www.neowin.net/guides/10-quick-tweaks-that-make-windows-11-a-lot-better/)** - *(Neowin)*
+  Validate workstation security baseline and update compliance.
+
+- **[7 Days: ZuckerBot is coming, $1 million from Microsoft, and Android 17 reaches stability](https://www.neowin.net/news/7-days-zuckerbot-is-coming-1-million-from-microsoft-and-android-17-reaches-stability/)** - *(Neowin)*
+  Validate Edge/WebView2 coverage; refresh managed package.
+
+- **[Announcing Windows 11 Insider Preview Build 26220.8271 for the Beta Channel](https://www.reddit.com/r/Windows11/comments/1so74bc/announcing_windows_11_insider_preview_build/)** - *(Reddit r/Windows11)*
+  Validate workstation security baseline and update compliance.
+
+- **[Announcing Windows 11 Insider Preview Build 26300.8276 for the Dev Channel](https://www.reddit.com/r/Windows11/comments/1so7500/announcing_windows_11_insider_preview_build/)** - *(Reddit r/Windows11)*
+  Validate workstation security baseline and update compliance.
+
+- **[Announcing Windows 11 Insider Preview Build for Canary Channel 29570.1000](https://www.reddit.com/r/Windows11/comments/1so73to/announcing_windows_11_insider_preview_build_for/)** - *(Reddit r/Windows11)*
+  Validate workstation security baseline and update compliance.
+
+- **[Entra ID for GP and DUO for admin access](https://www.reddit.com/r/sysadmin/comments/1sp61kg/entra_id_for_gp_and_duo_for_admin_access/)** - *(Reddit r/sysadmin)*
+  Review CA/MFA settings for tightening opportunities. Review security controls and policy updates. Review VPN client version and deployment.
+
+- **[Feature request: Open apps directly on a specific virtual desktop](https://www.reddit.com/r/Windows11/comments/1sotara/feature_request_open_apps_directly_on_a_specific/)** - *(Reddit r/Windows11)*
+  Validate workstation security baseline and update compliance.
+
+- **[Have anyone been/know anyone Audited by Adobe/SAM Audit, Please shed light on this!!!](https://www.reddit.com/r/sysadmin/comments/1spojjv/have_anyone_beenknow_anyone_audited_by_adobesam/)** - *(Reddit r/sysadmin)*
+  Confirm Adobe exposure; push updated deployment.
+
+- **[I’m a 19 year old SOC Analyst, this is my cert plan](https://www.reddit.com/r/cybersecurity/comments/1spkp7z/im_a_19_year_old_soc_analyst_this_is_my_cert_plan/)** - *(Reddit r/cybersecurity)*
+  Monitor developer tool vulnerabilities and supply chain risks. Review security controls and policy updates. Review sensor guidance and deployment posture.
+
+- **[INCROYABLE ! Microsoft vient de supprimer le compte Microsoft obligatoire dans Windows !](https://www.reddit.com/r/Windows11/comments/1sopv4f/incroyable_microsoft_vient_de_supprimer_le_compte/)** - *(Reddit r/Windows11)*
+  Validate workstation security baseline and update compliance.
+
+- **[M365 Backup at Scale (~150TB) – AvePoint vs alternatives?](https://www.reddit.com/r/sysadmin/comments/1spcit0/m365_backup_at_scale_150tb_avepoint_vs/)** - *(Reddit r/sysadmin)*
   Review Office update channel health and security baseline compliance.
 
+- **[Microsoft acquires Fintool to supercharge Excel with financial AI agents](https://www.neowin.net/news/microsoft-acquires-fintool-to-supercharge-excel-with-financial-ai-agents/)** - *(Neowin)*
+  Review Office update channel health and security baseline compliance.
+
+- **[Microsoft confirms AI agents are still coming to the Windows 11 taskbar as it prepares for public rollout](https://www.reddit.com/r/Windows11/comments/1soj1gq/microsoft_confirms_ai_agents_are_still_coming_to/)** - *(Reddit r/Windows11)*
+  Validate workstation security baseline and update compliance.
+
+- **[Microsoft debuting new way to remove Windows 11 default apps with latest builds](https://www.neowin.net/news/microsoft-debuting-new-way-to-remove-windows-11-default-apps-with-latest-builds/)** - *(Neowin)*
+  Validate workstation security baseline and update compliance.
+
 - **[Microsoft is giving Windows 11 File Explorer a speed boost, dark mode fix, and reducing explorer.exe crashes](https://www.reddit.com/r/Windows11/comments/1speb21/microsoft_is_giving_windows_11_file_explorer_a/)** - *(Reddit r/Windows11)*
+  Validate workstation security baseline and update compliance.
+
+- **[Microsoft is ignoring its most powerful automation tool in Windows 11](https://www.neowin.net/opinions/microsoft-is-ignoring-its-most-powerful-automation-tool-in-windows-11/)** - *(Neowin)*
+  Validate workstation security baseline and update compliance.
+
+- **[Microsoft is once again reworking Windows 11's Start menu](https://www.neowin.net/news/microsoft-is-once-again-reworking-windows-11s-start-menu/)** - *(Neowin)*
+  Validate workstation security baseline and update compliance.
+
+- **[Microsoft released Windows 11 KB5083826 update for OS recovery](https://www.neowin.net/news/microsoft-released-windows-11-kb5083826-update-for-os-recovery/)** - *(Neowin)*
   Validate workstation security baseline and update compliance.
 
 - **[Microsoft shares a way to unblock important Windows 11/10 updates with free official tools](https://www.neowin.net/news/microsoft-shares-a-way-to-unblock-important-windows-1110-updates-with-free-official-tools/)** - *(Neowin)*
   Validate workstation security baseline and update compliance.
 
-- **[Made snoop: an eBPF syscall tracer with a live TUI](https://www.reddit.com/r/cybersecurity/comments/1sp9vgz/made_snoop_an_ebpf_syscall_tracer_with_a_live_tui/)** - *(Reddit r/cybersecurity)*
-  Validate Chrome coverage; update managed package if needed.
-
-- **[Microsoft released Windows 11 KB5083826 update for OS recovery](https://www.neowin.net/news/microsoft-released-windows-11-kb5083826-update-for-os-recovery/)** - *(Neowin)*
-  Validate workstation security baseline and update compliance.
-
-- **["TotalRecall Reloaded" tool finds a side entrance to Windows 11's Recall database](https://www.reddit.com/r/Windows11/comments/1sp6znc/totalrecall_reloaded_tool_finds_a_side_entrance/)** - *(Reddit r/Windows11)*
-  Validate workstation security baseline and update compliance.
-
-- **[Top 10 cool and useful apps for Windows 11 in 2026](https://www.neowin.net/news/top-10-cool-and-useful-apps-for-windows-11-in-2026/)** - *(Neowin)*
-  Validate workstation security baseline and update compliance.
-
-- **[Entra ID for GP and DUO for admin access](https://www.reddit.com/r/sysadmin/comments/1sp61kg/entra_id_for_gp_and_duo_for_admin_access/)** - *(Reddit r/sysadmin)*
-  Review CA/MFA settings for tightening opportunities. Review security controls and policy updates. Review VPN client version and deployment.
-
-- **[Windows 11 finally fixes inconsistent folder views in File Explorer](https://www.reddit.com/r/Windows11/comments/1soz9d0/windows_11_finally_fixes_inconsistent_folder/)** - *(Reddit r/Windows11)*
-  Validate workstation security baseline and update compliance.
-
 - **[Microsoft Teams right-click paste broken by Edge update bug](https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-right-click-paste-broken-by-edge-update-bug/)** - *(BleepingComputer)*
+  Validate Edge/WebView2 coverage; refresh managed package.
+
+- **[Microsoft Teams Right-Click Paste Broken Following Edge Browser Update](https://cybersecuritynews.com/teams-right-click-paste-broken/)** - *(CybersecurityNews)*
   Validate Edge/WebView2 coverage; refresh managed package.
 
 - **[Microsoft Weekly: Start menu in rework again and Recall is on fire](https://www.neowin.net/news/microsoft-weekly-start-menu-in-rework-again-and-recall-is-on-fire/)** - *(Neowin)*
   Evaluate update rings and expedite actions if needed.
 
-- **[Microsoft acquires Fintool to supercharge Excel with financial AI agents](https://www.neowin.net/news/microsoft-acquires-fintool-to-supercharge-excel-with-financial-ai-agents/)** - *(Neowin)*
-  Review Office update channel health and security baseline compliance.
-
 - **[my windows 11 desktop](https://www.reddit.com/r/Windows11/comments/1sottgl/my_windows_11_desktop/)** - *(Reddit r/Windows11)*
   Validate workstation security baseline and update compliance.
 
-- **[Feature request: Open apps directly on a specific virtual desktop](https://www.reddit.com/r/Windows11/comments/1sotara/feature_request_open_apps_directly_on_a_specific/)** - *(Reddit r/Windows11)*
+- **[OTPs (Spotify + Microsoft) → suspicious “account accessed” SMS for unknown email](https://www.reddit.com/r/cybersecurity/comments/1spjj6v/otps_spotify_microsoft_suspicious_account/)** - *(Reddit r/cybersecurity)*
+  Review Office update channel health and security baseline compliance.
+
+- **[Releasing Windows 11 Builds 26100.8313 and 26200.8313 to the Release Preview Channel](https://www.reddit.com/r/Windows11/comments/1so76vk/releasing_windows_11_builds_261008313_and/)** - *(Reddit r/Windows11)*
   Validate workstation security baseline and update compliance.
 
-- **[INCROYABLE ! Microsoft vient de supprimer le compte Microsoft obligatoire dans Windows !](https://www.reddit.com/r/Windows11/comments/1sopv4f/incroyable_microsoft_vient_de_supprimer_le_compte/)** - *(Reddit r/Windows11)*
+- **[Researcher Uses Claude Opus to Build a Working Chrome Exploit Chain](https://cybersecuritynews.com/claude-opus-to-build-a-working-chrome-exploit-chain/)** - *(CybersecurityNews)*
+  Validate Chrome coverage; update managed package if needed.
+
+- **[SSL Certificates now only last 200 days](https://www.reddit.com/r/sysadmin/comments/1spby5g/ssl_certificates_now_only_last_200_days/)** - *(Reddit r/sysadmin)*
+  Review security controls and policy updates.
+
+- **[Top 10 cool and useful apps for Windows 11 in 2026](https://www.neowin.net/news/top-10-cool-and-useful-apps-for-windows-11-in-2026/)** - *(Neowin)*
   Validate workstation security baseline and update compliance.
 
-- **[Microsoft confirms AI agents are still coming to the Windows 11 taskbar as it prepares for public rollout](https://www.reddit.com/r/Windows11/comments/1soj1gq/microsoft_confirms_ai_agents_are_still_coming_to/)** - *(Reddit r/Windows11)*
+- **[User finds how a simple mistake on Windows 11 can lead to massive performance losses](https://www.neowin.net/news/user-finds-how-a-simple-mistake-on-windows-11-can-lead-to-massive-performance-losses/)** - *(Neowin)*
+  Validate workstation security baseline and update compliance.
+
+- **[Windows 11 finally fixes inconsistent folder views in File Explorer](https://www.reddit.com/r/Windows11/comments/1soz9d0/windows_11_finally_fixes_inconsistent_folder/)** - *(Reddit r/Windows11)*
+  Validate workstation security baseline and update compliance.
+
+- **[Windows 11 gets improved privacy controls, better Windows Hello, and more in new builds](https://www.neowin.net/news/windows-11-gets-improved-privacy-controls-better-windows-hello-and-more-in-new-builds/)** - *(Neowin)*
   Validate workstation security baseline and update compliance.
 
 - **[Windows 11’s mandatory update auto opens Microsoft Edge on some PCs after restart](https://www.reddit.com/r/Windows11/comments/1soj0uo/windows_11s_mandatory_update_auto_opens_microsoft/)** - *(Reddit r/Windows11)*
   Validate Edge/WebView2 coverage; refresh managed package. Validate workstation security baseline and update compliance.
-
-- **[M365 Backup at Scale (~150TB) – AvePoint vs alternatives?](https://www.reddit.com/r/sysadmin/comments/1spcit0/m365_backup_at_scale_150tb_avepoint_vs/)** - *(Reddit r/sysadmin)*
-  Review Office update channel health and security baseline compliance.
-
-- **[SSL Certificates now only last 200 days](https://www.reddit.com/r/sysadmin/comments/1spby5g/ssl_certificates_now_only_last_200_days/)** - *(Reddit r/sysadmin)*
-  Review security controls and policy updates.
 
 ## 🩹 Patch Tuesday & Update Experience
 - **[Microsoft released Windows 11 KB5083826 update for OS recovery](https://www.neowin.net/news/microsoft-released-windows-11-kb5083826-update-for-os-recovery/)** - *(Neowin)*
   New dynamic updates for Windows 11 26H1, 25H2, and 24H2, as well as Windows 11 22H2, under KB5083826, and more, have been released. Read more...
 
 ## 🔍 Quick Links (Watch Items)
+- [Need suggestion](https://www.reddit.com/r/cybersecurity/comments/1sps9rb/need_suggestion/) - *(Reddit r/cybersecurity)*
+- [Do you find consistent use of "security.txt" on web servers?](https://www.reddit.com/r/cybersecurity/comments/1spqye6/do_you_find_consistent_use_of_securitytxt_on_web/) - *(Reddit r/cybersecurity)*
+- [CISO roles and responsibilities](https://www.reddit.com/r/cybersecurity/comments/1spqssz/ciso_roles_and_responsibilities/) - *(Reddit r/cybersecurity)*
+- [Vendor refuses CVEs for third-party findings. Anything you can do?](https://www.reddit.com/r/cybersecurity/comments/1spov5s/vendor_refuses_cves_for_thirdparty_findings/) - *(Reddit r/cybersecurity)*
+- ["automation's agentic future is here" does that mean were we just scaling human error toward an August 2026 disaster?](https://www.reddit.com/r/cybersecurity/comments/1spnv8c/automations_agentic_future_is_here_does_that_mean/) - *(Reddit r/cybersecurity)*
+- [Patch SLA vs vulnerability metrics — how are others reporting this to governance forums?](https://www.reddit.com/r/cybersecurity/comments/1spn68w/patch_sla_vs_vulnerability_metrics_how_are_others/) - *(Reddit r/cybersecurity)*
+- [Need suggestion for a APT emulation tool I am working on](https://www.reddit.com/r/cybersecurity/comments/1spmiz8/need_suggestion_for_a_apt_emulation_tool_i_am/) - *(Reddit r/cybersecurity)*
 - [I’m a 19 year old SOC Analyst, this is my cert plan](https://www.reddit.com/r/cybersecurity/comments/1spkp7z/im_a_19_year_old_soc_analyst_this_is_my_cert_plan/) - *(Reddit r/cybersecurity)*
 - [Can I post about unpatched security vulnerabilities on Facebook/meta?](https://www.reddit.com/r/cybersecurity/comments/1spigiz/can_i_post_about_unpatched_security/) - *(Reddit r/cybersecurity)*
 - [Cybersecurity Technical Writer badly needing to pivot](https://www.reddit.com/r/cybersecurity/comments/1spfzdg/cybersecurity_technical_writer_badly_needing_to/) - *(Reddit r/cybersecurity)*
-- [Interviewing for Cybersecurity Engineer (WAF) at Visa — anyone been through this process?](https://www.reddit.com/r/cybersecurity/comments/1spfwtv/interviewing_for_cybersecurity_engineer_waf_at/) - *(Reddit r/cybersecurity)*
-- [What is your server room storage for patch cables und stuf?](https://www.reddit.com/r/sysadmin/comments/1spfau8/what_is_your_server_room_storage_for_patch_cables/) - *(Reddit r/sysadmin)*
-- [SSL Certificates now only last 200 days](https://www.reddit.com/r/sysadmin/comments/1spby5g/ssl_certificates_now_only_last_200_days/) - *(Reddit r/sysadmin)*
-- [Anyone else getting screwed by Microsoft April Patch that requires signed RDP files](https://www.reddit.com/r/sysadmin/comments/1sp6h4x/anyone_else_getting_screwed_by_microsoft_april/) - *(Reddit r/sysadmin)*
-- [[Price Drop] CISSP Security & Risk Management Training Bundle now 95% off](https://www.neowin.net/deals/price-drop-cissp-security--risk-management-training-bundle-now-95-off/) - *(Neowin)*
-- [Microsoft Weekly: Start menu in rework again and Recall is on fire](https://www.neowin.net/news/microsoft-weekly-start-menu-in-rework-again-and-recall-is-on-fire/) - *(Neowin)*
-- [Payouts King ransomware uses QEMU VMs to bypass endpoint security](https://www.bleepingcomputer.com/news/security/payouts-king-ransomware-uses-qemu-vms-to-bypass-endpoint-security/) - *(BleepingComputer)*
 
 
