@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-04-19T05:58:06.317334+00:00",
+  "generated_utc": "2026-04-19T06:00:29.341429+00:00",
   "date": "2026-04-19",
   "lookback_hours": 25,
   "source_status": [
@@ -55,33 +55,39 @@
     },
     {
       "name": "Reddit r/Intune",
-      "status": "OK",
-      "count": 6
+      "status": "Error",
+      "count": 0,
+      "message": "403 Client Error: Blocked for url: https://www.reddit.com/r/Intune/new/.json?limit=25"
     },
     {
       "name": "Reddit r/sysadmin",
-      "status": "OK",
-      "count": 3
+      "status": "Error",
+      "count": 0,
+      "message": "403 Client Error: Blocked for url: https://www.reddit.com/r/sysadmin/new/.json?limit=25"
     },
     {
       "name": "Reddit r/SCCM",
-      "status": "OK",
-      "count": 0
+      "status": "Error",
+      "count": 0,
+      "message": "403 Client Error: Blocked for url: https://www.reddit.com/r/SCCM/new/.json?limit=25"
     },
     {
       "name": "Reddit r/microsoft365",
-      "status": "OK",
-      "count": 0
+      "status": "Error",
+      "count": 0,
+      "message": "403 Client Error: Blocked for url: https://www.reddit.com/r/microsoft365/new/.json?limit=25"
     },
     {
       "name": "Reddit r/AzureAD",
-      "status": "OK",
-      "count": 0
+      "status": "Error",
+      "count": 0,
+      "message": "403 Client Error: Blocked for url: https://www.reddit.com/r/AzureAD/new/.json?limit=25"
     },
     {
       "name": "Reddit r/Windows11",
-      "status": "OK",
-      "count": 0
+      "status": "Error",
+      "count": 0,
+      "message": "403 Client Error: Blocked for url: https://www.reddit.com/r/Windows11/new/.json?limit=25"
     }
   ],
   "items": {
@@ -99,106 +105,6 @@
         "category": "official_news"
       }
     ],
-    "community_buzz": [
-      {
-        "fingerprint": "730d52181701",
-        "title": "End User Device Migration from on-prem AD to Entra ID",
-        "link": "https://www.reddit.com/r/Intune/comments/1spil8k/end_user_device_migration_from_onprem_ad_to_entra/",
-        "source": "Reddit r/Intune",
-        "published": "2026-04-19T04:08:34+00:00",
-        "summary": "I’m trying to migrate end-user devices from on-prem AD joined to Entra ID joined. I tried Autopilot, but Microsoft’s suggestion is basically wipe and reload, which is a painfull process and very challenging. The biggest issue is that end users are not happy because they lose their profile settings and personal setup. Doing a wipe and reload for around 3,800 devices is a really painful process. ...",
-        "category": "community_buzz",
-        "reddit_score": 9,
-        "reddit_comments": 6
-      },
-      {
-        "fingerprint": "6719effc0905",
-        "title": "Intune clients stop checking in",
-        "link": "https://www.reddit.com/r/Intune/comments/1spdbqr/intune_clients_stop_checking_in/",
-        "source": "Reddit r/Intune",
-        "published": "2026-04-18T23:52:44+00:00",
-        "summary": "",
-        "category": "community_buzz",
-        "reddit_score": 1,
-        "reddit_comments": 0
-      },
-      {
-        "fingerprint": "4ffa75d935af",
-        "title": "Had anyone successfully got intune to autopilot windows 11 devices in multi app kiosk mode?",
-        "link": "https://www.reddit.com/r/Intune/comments/1spc2oj/had_anyone_successfully_got_intune_to_autopilot/",
-        "source": "Reddit r/Intune",
-        "published": "2026-04-18T22:57:11+00:00",
-        "summary": "",
-        "category": "community_buzz",
-        "reddit_score": 3,
-        "reddit_comments": 7
-      },
-      {
-        "fingerprint": "e879950a1fc1",
-        "title": "Entra ID for GP and DUO for admin access",
-        "link": "https://www.reddit.com/r/sysadmin/comments/1sp61kg/entra_id_for_gp_and_duo_for_admin_access/",
-        "source": "Reddit r/sysadmin",
-        "published": "2026-04-18T18:53:16+00:00",
-        "summary": "Hello All, What’s your opinion on this setup on PA firewalls GlobalProtect users authenticated via Microsoft Entra ID (SAML) Firewall admin access using Duo MFA We already have both Entra ID and Duo, so thinking to use them like this. Appreciate any advice Thanks",
-        "category": "community_buzz",
-        "reddit_score": 3,
-        "reddit_comments": 6
-      },
-      {
-        "fingerprint": "2a7f4c48cf05",
-        "title": "iOS ADE optional app's aren't showing in Company Portal app.",
-        "link": "https://www.reddit.com/r/Intune/comments/1sp49ds/ios_ade_optional_apps_arent_showing_in_company/",
-        "source": "Reddit r/Intune",
-        "published": "2026-04-18T17:45:37+00:00",
-        "summary": "I'm about 90% through setting up iOS ADE with Intune, but I'm stuck on one issue: apps assigned as “Available for enrolled devices” do NOT show in the Company Portal app. If I tap “Company Portal website” inside CP, the apps do appear and install fine. Current state Successfully signed into tenant during OOBE. Company Portal installed via VPP (token valid, correct location, synced). Required ap...",
-        "category": "community_buzz",
-        "reddit_score": 1,
-        "reddit_comments": 3
-      },
-      {
-        "fingerprint": "e3455bf2bbee",
-        "title": "Jumphost vs phishing resistant rdp",
-        "link": "https://www.reddit.com/r/sysadmin/comments/1sp2u10/jumphost_vs_phishing_resistant_rdp/",
-        "source": "Reddit r/sysadmin",
-        "published": "2026-04-18T16:52:00+00:00",
-        "summary": "Hello, With Entra passkeys on Windows entering GA this month, is tiered account approach for rdp connection to serves via password+mfa more secure than direct rdp access to server without jumphost but using device bound passkey for rdp authentication with separate privileged account? Im trying to develop a passwordless strategy for my company, we currently use tiered system. What is the NIST re...",
-        "category": "community_buzz",
-        "reddit_score": 4,
-        "reddit_comments": 3
-      },
-      {
-        "fingerprint": "5f1f109fdaf8",
-        "title": "LAPS Shortcoming",
-        "link": "https://www.reddit.com/r/Intune/comments/1sozolg/laps_shortcoming/",
-        "source": "Reddit r/Intune",
-        "published": "2026-04-18T14:51:21+00:00",
-        "summary": "I figured I’d just throw this out for everyone to think about since it sort of blindsided us….a few weeks ago someone accidentally deleted several thousand active windows devices from AAD. Users were not admins. Only admin account was LAPS managed. This was a major roadblock when recovering the devices! Fortunately our AV product can run scripts on devices so we used that to create a temp local...",
-        "category": "community_buzz",
-        "reddit_score": 35,
-        "reddit_comments": 53
-      },
-      {
-        "fingerprint": "b4c2b8bb8e27",
-        "title": "Intune clients stop checking in",
-        "link": "https://www.reddit.com/r/sysadmin/comments/1sozncf/intune_clients_stop_checking_in/",
-        "source": "Reddit r/sysadmin",
-        "published": "2026-04-18T14:49:59+00:00",
-        "summary": "We are a shop using assigned access through intune to turn regular laptops and mini-pcs into hardened thinclients. This takes place as part of the autopilot process which is pushed using automated device enrollment (zero-touch). For the past year we randomly encounter devices that have stopped reporting to intune and so their compliance checks start to fail. From the local client kicking off a ...",
-        "category": "community_buzz",
-        "reddit_score": 2,
-        "reddit_comments": 9
-      },
-      {
-        "fingerprint": "f8138a07efd4",
-        "title": "Half my users say \"Not Applicable\"",
-        "link": "https://www.reddit.com/r/Intune/comments/1soz147/half_my_users_say_not_applicable/",
-        "source": "Reddit r/Intune",
-        "published": "2026-04-18T14:25:13+00:00",
-        "summary": "I am trying to enforce a default lock screen and home screen through Intune. Half my users say \"Not Applicable\" and the other half say \"Success\". I have been going over account details for someone it is working for and for someone it is not and I can't see any difference. Please help! EDIT: Licenses: Microsoft 365 Business Premium OS: Windows 11 Applied: All Users & Devices Method?: Device Conf...",
-        "category": "community_buzz",
-        "reddit_score": 3,
-        "reddit_comments": 15
-      }
-    ]
+    "community_buzz": []
   }
 }
