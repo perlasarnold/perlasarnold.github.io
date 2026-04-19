@@ -1,10 +1,10 @@
 """
-assembler.py — Phase 2: Intune Daily Intelligence Content Assembly
+assembler.py — Phase 2: Microsoft Situational Awareness Content Assembly
 
 Reads the raw JSON output from scraper.py (_data/intune_feed_raw.json)
 and generates a polished Jekyll-compatible Markdown blog post.
 
-Output: _posts/YYYY-MM-DD-intune-daily-intel-MONTH-DD-YYYY.md
+Output: _posts/YYYY-MM-DD-microsoft-situational-awareness-MONTH-DD-YYYY.md
 Triggered by GitHub Actions at 12:00 PM PT every weekday.
 """
 
@@ -26,7 +26,7 @@ def slugify(text: str) -> str:
     slug = text.lower()
     slug = re.sub(r"[^a-z0-9]+", "-", slug)
     slug = slug.strip("-")
-    return slug or "intune-daily-intel"
+    return slug or "microsoft-situational-awareness"
 
 
 def escape_yaml(value: str) -> str:
@@ -66,7 +66,7 @@ def build_front_matter(date_str: str, now: datetime) -> str:
     dt_display = now.strftime("%B %d, %Y")
     # Remove leading zero from day
     dt_display = re.sub(r" 0(\d),", r" \1,", dt_display)
-    title = f"Intune Daily Intel — {dt_display}"
+    title = f"Microsoft Situational Awareness — {dt_display}"
 
     lines = [
         "---",
@@ -92,7 +92,7 @@ def build_header(date_str: str, source_count: int) -> str:
         display_date = date_str
 
     lines = [
-        f"# 📡 Intune Situational Intelligence — {display_date}",
+        f"# 📡 Microsoft Situational Awareness — {display_date}",
         "",
         "> Daily intelligence briefing for Intune administrators.",
         f"> Sources monitored: {source_count} feeds across Microsoft, Reddit, and security news",
@@ -141,6 +141,71 @@ def build_high_alerts(items: list) -> str:
         lines.append(f"**Source:** {source} · **Published:** {format_date_display(published)}")
         if summary:
             lines.append(f"> {truncate(summary, 300)}")
+        lines.append("")
+
+    return "\n".join(lines)
+
+
+def build_bad_updates(items: list) -> str:
+    """Build the Bad Updates section — broken patches and regressions."""
+    lines = [
+        "## ⚠️ Bad Updates & Known Issues",
+        "",
+        "Reports of problematic updates, regressions, and patches causing issues.",
+        "",
+    ]
+
+    if not items:
+        lines.append("*No problematic update reports detected today.*")
+        lines.append("")
+        return "\n".join(lines)
+
+    for item in items[:12]:
+        title = item.get("title", "Untitled")
+        link = item.get("link", "#")
+        summary = item.get("summary", "")
+        source = item.get("source", "Unknown")
+        score = item.get("reddit_score")
+        comments = item.get("reddit_comments")
+
+        meta_parts = [f"*{source}*"]
+        if score is not None and score > 0:
+            meta_parts.append(f"{score} upvotes")
+        if comments is not None and comments > 0:
+            meta_parts.append(f"{comments} comments")
+        meta = " · ".join(meta_parts)
+
+        lines.append(f"- 🟠 **[{title}]({link})** — {meta}")
+        if summary:
+            lines.append(f"  > {truncate(summary, 250)}")
+        lines.append("")
+
+    return "\n".join(lines)
+
+
+def build_upcoming_changes(items: list) -> str:
+    """Build the Upcoming Changes section — Microsoft changes within 14 days."""
+    lines = [
+        "## 📅 Upcoming Changes (14-Day Horizon)",
+        "",
+        "Microsoft changes on the horizon. Plan and act before these take effect.",
+        "",
+    ]
+
+    if not items:
+        lines.append("*No upcoming changes detected in the monitored feeds.*")
+        lines.append("")
+        return "\n".join(lines)
+
+    for item in items[:15]:
+        title = item.get("title", "Untitled")
+        link = item.get("link", "#")
+        summary = item.get("summary", "")
+        source = item.get("source", "Unknown")
+
+        lines.append(f"- 📆 **[{title}]({link})** — *{source}*")
+        if summary:
+            lines.append(f"  {truncate(summary, 250)}")
         lines.append("")
 
     return "\n".join(lines)
@@ -267,16 +332,22 @@ def assemble_post(data: dict) -> str:
     items = data.get("items", {})
 
     high_alerts = items.get("high_alert", [])
+    bad_updates = items.get("bad_updates", [])
+    upcoming_changes = items.get("upcoming_changes", [])
     official_news = items.get("official_news", [])
     community_buzz = items.get("community_buzz", [])
 
     source_count = len(source_status)
 
-    # Assemble the full post
+    # Assemble the full post — bad updates right after alerts, upcoming before official
     sections = [
         build_front_matter(date_str, now),
         build_header(date_str, source_count),
         build_high_alerts(high_alerts),
+        "---\n",
+        build_bad_updates(bad_updates),
+        "---\n",
+        build_upcoming_changes(upcoming_changes),
         "---\n",
         build_official_news(official_news),
         "---\n",
@@ -332,13 +403,13 @@ def main():
     except ValueError:
         display_date = date_str
 
-    slug = f"intune-daily-intel-{display_date}"
+    slug = f"microsoft-situational-awareness-{display_date}"
     filename = f"{date_str}-{slug}.md"
     post_path = posts_dir / filename
 
-    # Remove any existing intune-daily-intel post for the same date.
+    # Remove any existing microsoft-situational-awareness post for the same date.
     # This ensures manual re-triggers (workflow_dispatch) replace instead of duplicate.
-    existing_pattern = f"{date_str}-intune-daily-intel-*"
+    existing_pattern = f"{date_str}-microsoft-situational-awareness-*"
     for existing in posts_dir.glob(existing_pattern):
         if existing != post_path:
             print(f"[assembler] Removing previous same-day post: {existing.name}")

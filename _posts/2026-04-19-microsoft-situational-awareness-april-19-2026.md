@@ -1,16 +1,16 @@
 ---
 layout: post
-title: "Intune Daily Intel — April 19, 2026"
-date: 2026-04-19 05:44:44 +00:00
+title: "Microsoft Situational Awareness — April 19, 2026"
+date: 2026-04-19 05:58:42 +00:00
 categories: [intune-daily]
 tags: [intune, endpoint-management, daily-intel, situational-awareness]
 author: Arnold
 ---
 
-# 📡 Intune Situational Intelligence — April 19, 2026
+# 📡 Microsoft Situational Awareness — April 19, 2026
 
 > Daily intelligence briefing for Intune administrators.
-> Sources monitored: 17 feeds across Microsoft, Reddit, and security news
+> Sources monitored: 16 feeds across Microsoft, Reddit, and security news
 
 ---
 
@@ -19,6 +19,22 @@ author: Arnold
 Items requiring immediate attention from endpoint management teams.
 
 *No high-priority alerts detected in the last 24 hours. All clear.* ✅
+
+---
+
+## ⚠️ Bad Updates & Known Issues
+
+Reports of problematic updates, regressions, and patches causing issues.
+
+*No problematic update reports detected today.*
+
+---
+
+## 📅 Upcoming Changes (14-Day Horizon)
+
+Microsoft changes on the horizon. Plan and act before these take effect.
+
+*No upcoming changes detected in the monitored feeds.*
 
 ---
 
@@ -35,7 +51,7 @@ Feature changes, deprecations, and roadmap items from Microsoft.
 
 What Intune admins are discussing today.
 
-- **[End User Device Migration from on-prem AD to Entra ID](https://www.reddit.com/r/Intune/comments/1spil8k/end_user_device_migration_from_onprem_ad_to_entra/)** — *Reddit r/Intune* · 7 upvotes · 5 comments
+- **[End User Device Migration from on-prem AD to Entra ID](https://www.reddit.com/r/Intune/comments/1spil8k/end_user_device_migration_from_onprem_ad_to_entra/)** — *Reddit r/Intune* · 9 upvotes · 6 comments
   > I’m trying to migrate end-user devices from on-prem AD joined to Entra ID joined. I tried Autopilot, but Microsoft’s suggestion is basically wipe and reload, which is a painfull process and very ch...
 
 - **[Intune clients stop checking in](https://www.reddit.com/r/Intune/comments/1spdbqr/intune_clients_stop_checking_in/)** — *Reddit r/Intune* · 1 upvotes
@@ -48,7 +64,7 @@ What Intune admins are discussing today.
 - **[iOS ADE optional app's aren't showing in Company Portal app.](https://www.reddit.com/r/Intune/comments/1sp49ds/ios_ade_optional_apps_arent_showing_in_company/)** — *Reddit r/Intune* · 1 upvotes · 3 comments
   > I'm about 90% through setting up iOS ADE with Intune, but I'm stuck on one issue: apps assigned as “Available for enrolled devices” do NOT show in the Company Portal app. If I tap “Company Portal w...
 
-- **[Jumphost vs phishing resistant rdp](https://www.reddit.com/r/sysadmin/comments/1sp2u10/jumphost_vs_phishing_resistant_rdp/)** — *Reddit r/sysadmin* · 2 upvotes · 3 comments
+- **[Jumphost vs phishing resistant rdp](https://www.reddit.com/r/sysadmin/comments/1sp2u10/jumphost_vs_phishing_resistant_rdp/)** — *Reddit r/sysadmin* · 4 upvotes · 3 comments
   > Hello, With Entra passkeys on Windows entering GA this month, is tiered account approach for rdp connection to serves via password+mfa more secure than direct rdp access to server without jumphost ...
 
 - **[LAPS Shortcoming](https://www.reddit.com/r/Intune/comments/1sozolg/laps_shortcoming/)** — *Reddit r/Intune* · 35 upvotes · 53 comments
@@ -77,7 +93,6 @@ What Intune admins are discussing today.
 | Krebs on Security | ✅ OK | 0 |
 | The Old New Thing | ✅ OK | 0 |
 | Reddit r/Intune | ✅ OK | 6 |
-| Reddit r/MicrosoftIntune | ⚠️ Error — 403 Client Error: Forbidden for url: https://www.reddit.c... | 0 |
 | Reddit r/sysadmin | ✅ OK | 3 |
 | Reddit r/SCCM | ✅ OK | 0 |
 | Reddit r/microsoft365 | ✅ OK | 0 |
@@ -86,4 +101,4 @@ What Intune admins are discussing today.
 
 ---
 
-*Generated automatically at April 19, 2026 at 05:44 AM UTC · [View all daily intel →](/blog/)*
+*Generated automatically at April 19, 2026 at 05:58 AM UTC · [View all daily intel →](/blog/)*

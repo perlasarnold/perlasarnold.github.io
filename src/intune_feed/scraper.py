@@ -1,5 +1,5 @@
 """
-scraper.py — Phase 1: Intune Daily Intelligence Data Collection
+scraper.py — Phase 1: Microsoft Situational Awareness Data Collection
 
 Fetches data from three distinct source types:
   1. RSS Feeds   — Microsoft 365 Roadmap, Intune Blog, Windows IT Pro Blog,
@@ -9,9 +9,11 @@ Fetches data from three distinct source types:
   3. News RSS    — The Hacker News, BleepingComputer (Intune-relevant items)
 
 Applies keyword-based severity classification:
-  🚨 HIGH ALERT     — zero-days, critical CVEs, actively exploited vulns
-  ✅ OFFICIAL NEWS   — Microsoft roadmap, GA, deprecations, what's new
-  🐛 COMMUNITY BUZZ — Admin discussions, troubleshooting, tips
+  🚨 HIGH ALERT       — zero-days, critical CVEs, actively exploited vulns
+  ⚠️ BAD UPDATES      — broken patches, BSOD, failed updates, regressions
+  📅 UPCOMING CHANGES — Microsoft changes arriving in the next 14 days
+  ✅ OFFICIAL NEWS     — Microsoft roadmap, GA, deprecations, what's new
+  🐛 COMMUNITY BUZZ   — Admin discussions, troubleshooting, tips
 
 Output: _data/intune_feed_raw.json
 Triggered by GitHub Actions at 6:00 AM PT every weekday.
@@ -112,11 +114,6 @@ REDDIT_SOURCES = [
         "type": "reddit",
     },
     {
-        "name": "Reddit r/MicrosoftIntune",
-        "url": "https://www.reddit.com/r/MicrosoftIntune/new/.json?limit=25",
-        "type": "reddit",
-    },
-    {
         "name": "Reddit r/sysadmin",
         "url": "https://www.reddit.com/r/sysadmin/new/.json?limit=25",
         "type": "reddit",
@@ -180,6 +177,40 @@ HIGH_ALERT_KEYWORDS = re.compile(
     r")\b"
 )
 
+# ⚠️ BAD UPDATES — problematic patches and broken updates
+BAD_UPDATES_KEYWORDS = re.compile(
+    r"(?i)\b("
+    r"broken\s*update|bad\s*update|buggy\s*update|failed\s*update|"
+    r"update\s*broke|update\s*break|update\s*caus(e|ing)\s*issue|"
+    r"bsod|blue\s*screen|crash(es|ing)?\s*after\s*update|"
+    r"boot\s*loop|reboot\s*loop|install\s*fail|"
+    r"rollback|uninstall.*update|known\s*issue|"
+    r"printing\s*(issue|problem|broken)|bitlocker\s*recovery|"
+    r"regression|performance\s*(issue|degrad|problem)|"
+    r"breaks?\s*(rdp|vpn|remote|sign[- ]in|login|printing|network)|"
+    r"patch\s*tuesday.*(issue|problem|broken|bug|crash)|"
+    r"(issue|problem|broken|bug|crash).*patch\s*tuesday|"
+    r"pulled\s*(the\s*)?update|update\s*(was\s*)?pulled|"
+    r"workaround|KB\d{6,7}\s*(issue|problem|broken|bug)"
+    r")\b"
+)
+
+# 📅 UPCOMING CHANGES — changes arriving within 14 days
+UPCOMING_CHANGES_KEYWORDS = re.compile(
+    r"(?i)\b("
+    r"coming\s*soon|upcoming|planned|scheduled|"
+    r"will\s*be\s*(deprecat|retir|remov|chang|updat|replac)|"
+    r"starting\s*(in|on|from)\s*(january|february|march|april|may|june|"
+    r"july|august|september|october|november|december|\d{4})|"
+    r"end[- ]of[- ](support|life|service)\s*(on|in|by|date)|"
+    r"action\s*required\s*by|"
+    r"deadline|sunset(ting)?|phase[- ]out|"
+    r"in\s*development|scheduled\s*for|target(ed)?\s*(date|release)|"
+    r"beginning\s*(in|on)\s*\w+\s*\d{4}|"
+    r"effective\s*(date|from|starting)"
+    r")\b"
+)
+
 # ✅ OFFICIAL NEWS — Microsoft announcements
 OFFICIAL_NEWS_KEYWORDS = re.compile(
     r"(?i)\b("
@@ -199,6 +230,10 @@ OFFICIAL_SOURCES = {
     "Windows IT Pro Blog",
     "Microsoft Security Blog",
     "Microsoft Entra Blog",
+}
+
+UPCOMING_SOURCES = {
+    "Microsoft 365 Roadmap",
 }
 
 # ---------------------------------------------------------------------------
@@ -232,12 +267,28 @@ def item_fingerprint(title: str, link: str) -> str:
 
 
 def classify_item(title: str, summary: str, source_name: str) -> str:
-    """Classify an item into HIGH_ALERT, OFFICIAL_NEWS, or COMMUNITY_BUZZ."""
+    """Classify an item by severity.
+
+    Priority order:
+      1. HIGH ALERT    — critical security issues
+      2. BAD UPDATES   — broken patches, regressions
+      3. UPCOMING       — changes arriving within 14 days
+      4. OFFICIAL NEWS  — Microsoft announcements
+      5. COMMUNITY BUZZ — everything else
+    """
     text = f"{title} {summary}"
 
-    # High alert takes priority
+    # High alert takes top priority
     if HIGH_ALERT_KEYWORDS.search(text):
         return "high_alert"
+
+    # Bad updates — problematic patches and regressions
+    if BAD_UPDATES_KEYWORDS.search(text):
+        return "bad_updates"
+
+    # Upcoming changes — items from Roadmap or mentioning future dates
+    if source_name in UPCOMING_SOURCES or UPCOMING_CHANGES_KEYWORDS.search(text):
+        return "upcoming_changes"
 
     # Official news from Microsoft sources, or matching official keywords
     if source_name in OFFICIAL_SOURCES or OFFICIAL_NEWS_KEYWORDS.search(text):
@@ -441,7 +492,13 @@ def run_scraper() -> dict:
 
     # 3. Collect and deduplicate all items
     seen_fingerprints = set()
-    all_items = {"high_alert": [], "official_news": [], "community_buzz": []}
+    all_items = {
+        "high_alert": [],
+        "bad_updates": [],
+        "upcoming_changes": [],
+        "official_news": [],
+        "community_buzz": [],
+    }
 
     for result in source_results:
         for item in result.get("items", []):
@@ -470,10 +527,12 @@ def run_scraper() -> dict:
 
     total_items = sum(len(v) for v in all_items.values())
     print(f"\n[scraper] Collection complete:")
-    print(f"  HIGH ALERTS:    {len(all_items['high_alert'])}")
-    print(f"  OFFICIAL NEWS:  {len(all_items['official_news'])}")
-    print(f"  COMMUNITY BUZZ: {len(all_items['community_buzz'])}")
-    print(f"  TOTAL UNIQUE:   {total_items}")
+    print(f"  HIGH ALERTS:      {len(all_items['high_alert'])}")
+    print(f"  BAD UPDATES:      {len(all_items['bad_updates'])}")
+    print(f"  UPCOMING CHANGES: {len(all_items['upcoming_changes'])}")
+    print(f"  OFFICIAL NEWS:    {len(all_items['official_news'])}")
+    print(f"  COMMUNITY BUZZ:   {len(all_items['community_buzz'])}")
+    print(f"  TOTAL UNIQUE:     {total_items}")
 
     output = {
         "generated_utc": now.isoformat(),

@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-04-19T05:44:35.123524+00:00",
+  "generated_utc": "2026-04-19T05:58:06.317334+00:00",
   "date": "2026-04-19",
   "lookback_hours": 25,
   "source_status": [
@@ -59,12 +59,6 @@
       "count": 6
     },
     {
-      "name": "Reddit r/MicrosoftIntune",
-      "status": "Error",
-      "count": 0,
-      "message": "403 Client Error: Forbidden for url: https://www.reddit.com/r/MicrosoftIntune/new/.json?limit=25"
-    },
-    {
       "name": "Reddit r/sysadmin",
       "status": "OK",
       "count": 3
@@ -92,6 +86,8 @@
   ],
   "items": {
     "high_alert": [],
+    "bad_updates": [],
+    "upcoming_changes": [],
     "official_news": [
       {
         "fingerprint": "84b2fd9cd41f",
@@ -112,8 +108,8 @@
         "published": "2026-04-19T04:08:34+00:00",
         "summary": "I’m trying to migrate end-user devices from on-prem AD joined to Entra ID joined. I tried Autopilot, but Microsoft’s suggestion is basically wipe and reload, which is a painfull process and very challenging. The biggest issue is that end users are not happy because they lose their profile settings and personal setup. Doing a wipe and reload for around 3,800 devices is a really painful process. ...",
         "category": "community_buzz",
-        "reddit_score": 7,
-        "reddit_comments": 5
+        "reddit_score": 9,
+        "reddit_comments": 6
       },
       {
         "fingerprint": "6719effc0905",
@@ -167,7 +163,7 @@
         "published": "2026-04-18T16:52:00+00:00",
         "summary": "Hello, With Entra passkeys on Windows entering GA this month, is tiered account approach for rdp connection to serves via password+mfa more secure than direct rdp access to server without jumphost but using device bound passkey for rdp authentication with separate privileged account? Im trying to develop a passwordless strategy for my company, we currently use tiered system. What is the NIST re...",
         "category": "community_buzz",
-        "reddit_score": 2,
+        "reddit_score": 4,
         "reddit_comments": 3
       },
       {
