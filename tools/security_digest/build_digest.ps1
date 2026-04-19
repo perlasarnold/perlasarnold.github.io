@@ -15,6 +15,16 @@ function Ensure-Directory {
     }
 }
 
+function truncate {
+    param(
+        [string]$text,
+        [int]$length
+    )
+    if ($null -eq $text) { return "" }
+    if ($text.Length -le $length) { return $text }
+    return $text.Substring(0, $length).Trim() + "..."
+}
+
 function Write-Utf8File {
     param(
         [string]$Path,
@@ -281,18 +291,22 @@ function Get-FeedData {
 
 function Get-WatchRules {
     return @(
-        [pscustomobject]@{ Name = 'Google Chrome'; Pattern = '(?i)\bchrome\b|\bchromium\b'; Category = 'Tanium'; Action = 'Validate current Chrome coverage and accelerate an update if the affected build is deployed.' },
-        [pscustomobject]@{ Name = 'Microsoft Edge'; Pattern = '(?i)\bedge\b|\bwebview2\b'; Category = 'Tanium'; Action = 'Validate Edge or WebView2 coverage and refresh the managed package if needed.' },
-        [pscustomobject]@{ Name = 'Mozilla Firefox'; Pattern = '(?i)\bfirefox\b'; Category = 'Tanium'; Action = 'Check the Firefox package version and update the deployment if the advisory applies.' },
-        [pscustomobject]@{ Name = 'Adobe Acrobat or Reader'; Pattern = '(?i)\badobe\b|\bacrobat\b|\breader\b'; Category = 'Tanium'; Action = 'Confirm Adobe package exposure and push an updated deployment if the build is vulnerable.' },
-        [pscustomobject]@{ Name = 'Palo Alto GlobalProtect'; Pattern = '(?i)\bglobalprotect\b|\bpalo alto\b|\bprisma\b'; Category = 'Tanium'; Action = 'Review the VPN client version and update the managed deployment when relevant.' },
-        [pscustomobject]@{ Name = 'CrowdStrike'; Pattern = '(?i)\bcrowdstrike\b|\bfalcon\b'; Category = 'Intune'; Action = 'Review sensor guidance and validate whether the current deployment posture needs adjustment.' },
-        [pscustomobject]@{ Name = 'Qualys'; Pattern = '(?i)\bqualys\b'; Category = 'Intune'; Action = 'Validate the Cloud Agent release and deployment health in the current environment.' },
-        [pscustomobject]@{ Name = 'BitLocker'; Pattern = '(?i)\bbitlocker\b'; Category = 'Intune'; Action = 'Review BitLocker policy posture and harden or remediate gaps through Intune.' },
-        [pscustomobject]@{ Name = 'LAPS'; Pattern = '(?i)\blaps\b|\blocal admin password\b'; Category = 'Intune'; Action = 'Validate LAPS scope, account mapping, and rotation posture.' },
-        [pscustomobject]@{ Name = 'Conditional Access and MFA'; Pattern = '(?i)\bconditional access\b|\bmfa\b|\bauthentication strength\b'; Category = 'Intune'; Action = 'Review Conditional Access and MFA strength settings for tightening opportunities.' },
-        [pscustomobject]@{ Name = 'Defender, AV, or Firewall'; Pattern = '(?i)\bdefender\b|\bantivirus\b|\bfirewall\b|\basr\b|\battack surface reduction\b'; Category = 'Intune'; Action = 'Review Defender, firewall, and ASR controls for policy updates.' },
-        [pscustomobject]@{ Name = 'Windows Update and Autopatch'; Pattern = '(?i)\bpatch tuesday\b|\bwindows update\b|\bautopatch\b|\bcumulative update\b|\bout-of-band\b'; Category = 'Intune'; Action = 'Evaluate whether update rings, expedite actions, or coordinated patching changes are needed.' }
+        [pscustomobject]@{ Name = 'Google Chrome'; Pattern = '(?i)\bchrome\b|\bchromium\b'; Category = 'Tanium'; Action = 'Validate Chrome coverage; update managed package if needed.' },
+        [pscustomobject]@{ Name = 'Microsoft Edge'; Pattern = '(?i)\bedge\b|\bwebview2\b'; Category = 'Tanium'; Action = 'Validate Edge/WebView2 coverage; refresh managed package.' },
+        [pscustomobject]@{ Name = 'Adobe Acrobat/Reader'; Pattern = '(?i)\badobe\b|\bacrobat\b|\breader\b'; Category = 'Tanium'; Action = 'Confirm Adobe exposure; push updated deployment.' },
+        [pscustomobject]@{ Name = 'Microsoft Office / M365'; Pattern = '(?i)\boffice\s*365\b|\bm365\b|\boutlook\b|\bword\b|\bexcel\b|\bpowerpoint\b'; Category = 'Intune'; Action = 'Review Office update channel health and security baseline compliance.' },
+        [pscustomobject]@{ Name = 'Windows Server / AD'; Pattern = '(?i)\bwindows\s*server\b|\bactive\s*directory\b|\bhyper-v\b|\bdns\s*server\b'; Category = 'Infrastructure'; Action = 'Review server hardening and AD security posture.' },
+        [pscustomobject]@{ Name = 'Windows Workstation'; Pattern = '(?i)\bwindows\s*10\b|\bwindows\s*11\b|\bworkstation\b'; Category = 'Intune'; Action = 'Validate workstation security baseline and update compliance.' },
+        [pscustomobject]@{ Name = 'Developer Apps (VSCode, Docker)'; Pattern = '(?i)\bvscode\b|\bvisual\s*studio\b|\bdocker\b|\bkubernetes\b|\bk8s\b|\bgit\b'; Category = 'AppSec'; Action = 'Monitor developer tool vulnerabilities and supply chain risks.' },
+        [pscustomobject]@{ Name = '.NET Framework / Core'; Pattern = '(?i)\b\.net\b|\bdotnet\b|\basp\.net\b'; Category = 'AppSec'; Action = 'Review .NET runtime vulnerabilities and apply patches.' },
+        [pscustomobject]@{ Name = 'Palo Alto GlobalProtect'; Pattern = '(?i)\bglobalprotect\b|\bpalo alto\b|\bprisma\b'; Category = 'Infrastructure'; Action = 'Review VPN client version and deployment.' },
+        [pscustomobject]@{ Name = 'CrowdStrike'; Pattern = '(?i)\bcrowdstrike\b|\bfalcon\b'; Category = 'Security Ops'; Action = 'Review sensor guidance and deployment posture.' },
+        [pscustomobject]@{ Name = 'Qualys'; Pattern = '(?i)\bqualys\b'; Category = 'Security Ops'; Action = 'Validate Cloud Agent release and health.' },
+        [pscustomobject]@{ Name = 'BitLocker'; Pattern = '(?i)\bbitlocker\b'; Category = 'Intune'; Action = 'Review encryption policy and remediation gaps.' },
+        [pscustomobject]@{ Name = 'LAPS'; Pattern = '(?i)\blaps\b|\blocal\s*admin\s*password\b'; Category = 'Intune'; Action = 'Validate LAPS scope and rotation posture.' },
+        [pscustomobject]@{ Name = 'Conditional Access / MFA'; Pattern = '(?i)\bconditional\s*access\b|\bmfa\b|\bauthentication\s*strength\b'; Category = 'Security Ops'; Action = 'Review CA/MFA settings for tightening opportunities.' },
+        [pscustomobject]@{ Name = 'Defender / Security Baselines'; Pattern = '(?i)\bdefender\b|\bantivirus\b|\bfirewall\b|\basr\b|\battack\s*surface\s*reduction\b'; Category = 'Intune'; Action = 'Review security controls and policy updates.' },
+        [pscustomobject]@{ Name = 'Windows Update / Autopatch'; Pattern = '(?i)\bpatch\s*tuesday\b|\bwindows\s*update\b|\bautopatch\b|\bcumulative\s*update\b|\bout-of-band\b'; Category = 'Intune'; Action = 'Evaluate update rings and expedite actions if needed.' }
     )
 }
 
@@ -377,7 +391,7 @@ if (-not $DigestArchiveRoot) {
 $nowUtc = [datetimeoffset]::UtcNow
 $runDate = $nowUtc.ToString('yyyy-MM-dd')
 $timestamp = $nowUtc.ToString('yyyy-MM-dd_HH-mm-ssZ')
-$title = "Weekly Security Digest - $($nowUtc.ToString('MMMM d, yyyy'))"
+$title = "Security Digest - $($nowUtc.ToString('MMMM d, yyyy'))"
 $slug = ConvertTo-Slug -Value $title
 $postFileName = "$runDate-$slug.md"
 $postPath = Join-Path $PostsRoot $postFileName
@@ -450,82 +464,90 @@ $patchTuesdayExperienceItems = @(Get-PatchTuesdayExperienceItems -Items $allItem
 $digestLines = [System.Collections.Generic.List[string]]::new()
 $digestLines.Add("# $title")
 $digestLines.Add('')
-$digestLines.Add("This weekly report consolidates recent security and platform changes into a blog-ready summary focused on actions relevant to the current Tanium and Intune operating model.")
+$digestLines.Add("Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.")
 $digestLines.Add('')
-$digestLines.Add("- Generated (UTC): $($nowUtc.ToString('yyyy-MM-dd HH:mm:ss zzz'))")
-$digestLines.Add("- Lookback window: $LookbackDays days")
-$digestLines.Add('- Historical file: `' + $historicalFileName + '`')
-$digestLines.Add("- Older digest files are preserved in the digest archive.")
+$digestLines.Add("- **Generated (UTC):** $($nowUtc.ToString('yyyy-MM-dd HH:mm:ss zzz'))")
+$digestLines.Add("- **Lookback window:** $LookbackDays days")
 $digestLines.Add('')
-$digestLines.Add('## Executive Summary')
-if ($highPriority.Count -eq 0) {
-    $digestLines.Add('- No high-confidence environment-matched items were found in this run.')
-}
-else {
-    foreach ($item in $highPriority | Select-Object -First 5) {
-        $digestLines.Add("- $($item.Title) [$($item.Source)]")
+
+    $rocket = [char]::ConvertFromUtf32(0x1F680)
+    $digestLines.Add('## ' + $rocket + ' Top Research & Advisories')
+    if ($highPriority.Count -eq 0) {
+        $digestLines.Add('- *No high-priority security research detected in this window.*')
     }
-}
-$digestLines.Add('')
-$digestLines.Add('## High-Priority Matches')
-if ($highPriority.Count -eq 0) {
-    $digestLines.Add('- None this run.')
-}
-else {
-    foreach ($item in $highPriority) {
-        $digestLines.Add("- [$($item.Title)]($($item.Link))")
-        $digestLines.Add("  Source: $($item.Source) | Published: $(Format-DateLine -Value $item.Published) | Score: $($item.Score)")
-        $digestLines.Add("  Routes: $($item.Categories -join '; ')")
-        $digestLines.Add("  Environment match: $($item.Matched -join '; ')")
-        $digestLines.Add("  Suggested action: $($item.Actions -join ' ')")
-    }
-}
-$digestLines.Add('')
-$digestLines.Add('## Tanium Candidates')
-if ($taniumItems.Count -eq 0) {
-    $digestLines.Add('- None this run.')
-}
-else {
-    foreach ($item in $taniumItems) {
-        $digestLines.Add("- [$($item.Title)]($($item.Link))")
-        $digestLines.Add("  Match: $($item.Matched -join '; ')")
-    }
-}
-$digestLines.Add('')
-$digestLines.Add('## Intune Candidates')
-if ($intuneItems.Count -eq 0) {
-    $digestLines.Add('- None this run.')
-}
-else {
-    foreach ($item in $intuneItems) {
-        $digestLines.Add("- [$($item.Title)]($($item.Link))")
-        $digestLines.Add("  Match: $($item.Matched -join '; ')")
-    }
-}
-$digestLines.Add('')
-$digestLines.Add('## Patch Tuesday User Experience Notes')
-if ($patchTuesdayExperienceItems.Count -eq 0) {
-    $digestLines.Add('- No meaningful Patch Tuesday user-experience notes were detected in this run.')
-}
-else {
-    foreach ($item in $patchTuesdayExperienceItems) {
-        $digestLines.Add("- [$($item.Title)]($($item.Link))")
-        $digestLines.Add("  Source: $($item.Source) | Published: $(Format-DateLine -Value $item.Published)")
-        if (-not [string]::IsNullOrWhiteSpace($item.Summary)) {
-            $digestLines.Add("  Note: $($item.Summary)")
+    else {
+        foreach ($item in $highPriority) {
+            $truncatedSummary = truncate -text $item.Summary -length 250
+            $actionsJoined = $item.Actions -join ' '
+            $digestLines.Add('- **[' + $item.Title + '](' + $item.Link + ')** - *(' + $item.Source + ')*')
+            if (-not [string]::IsNullOrWhiteSpace($truncatedSummary)) {
+                $digestLines.Add('  ' + $truncatedSummary)
+            }
+            if (-not [string]::IsNullOrWhiteSpace($actionsJoined)) {
+                $digestLines.Add('  > **Action:** ' + $actionsJoined)
+            }
+            $digestLines.Add('')
         }
     }
-}
-$digestLines.Add('')
-$digestLines.Add('## Source Collection Status')
-foreach ($result in $feedResults) {
-    $digestLines.Add("- $($result.Name): $($result.Status) - $($result.Message)")
-}
-$digestLines.Add('')
-$digestLines.Add('## Watch Items')
-foreach ($item in $watchItems) {
-    $digestLines.Add("- [$($item.Title)]($($item.Link)) - $(Format-DateLine -Value $item.Published)")
-}
+
+    $allCategories = @($dedupedItems | ForEach-Object { $_.Categories } | Sort-Object -Unique)
+    foreach ($cat in $allCategories) {
+        if ($cat -eq 'Tanium' -or $cat -eq 'Intune') { continue }
+        
+        $catItems = @($dedupedItems | Where-Object { $_.Categories -contains $cat } | Where-Object { $highPriority.Title -notcontains $_.Title })
+        if ($catItems.Count -eq 0) { continue }
+
+        $emoji = [char]::ConvertFromUtf32(0x1F4E6) # Package
+        if ($cat -eq 'AppSec') { $emoji = [char]::ConvertFromUtf32(0x1F4BB) } # Computer
+        elseif ($cat -eq 'Infrastructure') { $emoji = [char]::ConvertFromUtf32(0x1F3D7) } # Construction
+        elseif ($cat -eq 'Security Ops') { $emoji = [char]::ConvertFromUtf32(0x1F6E1) } # Shield
+
+        $digestLines.Add('## ' + $emoji + ' ' + $cat)
+        foreach ($item in $catItems) {
+            $actionsJoined = $item.Actions -join ' '
+            $digestLines.Add('- **[' + $item.Title + '](' + $item.Link + ')** - *(' + $item.Source + ')*')
+            if (-not [string]::IsNullOrWhiteSpace($actionsJoined)) {
+                $digestLines.Add('  ' + $actionsJoined)
+            }
+            $digestLines.Add('')
+        }
+    }
+
+    $taniumIntuneItems = @($dedupedItems | Where-Object { $_.Categories -contains 'Tanium' -or $_.Categories -contains 'Intune' } | Where-Object { $highPriority.Title -notcontains $_.Title })
+    if ($taniumIntuneItems.Count -gt 0) {
+        $toolsEmoji = [char]::ConvertFromUtf32(0x1F6E0)
+        $digestLines.Add('## ' + $toolsEmoji + ' Infrastructure & Endpoint Control')
+        foreach ($item in $taniumIntuneItems) {
+            $actionsJoined = $item.Actions -join ' '
+            $digestLines.Add('- **[' + $item.Title + '](' + $item.Link + ')** - *(' + $item.Source + ')*')
+            if (-not [string]::IsNullOrWhiteSpace($actionsJoined)) {
+                $digestLines.Add('  ' + $actionsJoined)
+            }
+            $digestLines.Add('')
+        }
+    }
+
+    if ($patchTuesdayExperienceItems.Count -gt 0) {
+        $bandageEmoji = [char]::ConvertFromUtf32(0x1FA79)
+        $digestLines.Add('## ' + $bandageEmoji + ' Patch Tuesday & Update Experience')
+        foreach ($item in $patchTuesdayExperienceItems) {
+            $truncatedSummary = truncate -text $item.Summary -length 200
+            $digestLines.Add('- **[' + $item.Title + '](' + $item.Link + ')** - *(' + $item.Source + ')*')
+            if (-not [string]::IsNullOrWhiteSpace($truncatedSummary)) {
+                $digestLines.Add('  ' + $truncatedSummary)
+            }
+            $digestLines.Add('')
+        }
+    }
+
+    $searchEmoji = [char]::ConvertFromUtf32(0x1F50D)
+    $digestLines.Add('## ' + $searchEmoji + ' Quick Links (Watch Items)')
+    foreach ($item in $watchItems | Select-Object -First 10) {
+        $digestLines.Add('- [' + $item.Title + '](' + $item.Link + ') - *(' + $item.Source + ')*')
+    }
+    $digestLines.Add('')
+
+
 
 $digestBody = $digestLines -join [Environment]::NewLine
 
@@ -534,8 +556,8 @@ $frontMatter = @(
     'layout: post'
     "title: ""$(Escape-FrontMatterValue -Value $title)"""
     "date: $($nowUtc.ToString('yyyy-MM-dd HH:mm:ss zzz'))"
-    'categories: [weekly-digest]'
-    'tags: [security-digest, weekly-report, tanium, intune]'
+    'categories: [security-digest]'
+    'tags: [security, tldr, situational-awareness, endpoint-management]'
     'author: Arnold'
     '---'
     ''

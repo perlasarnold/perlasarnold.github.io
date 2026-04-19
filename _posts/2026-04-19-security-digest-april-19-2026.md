@@ -1,4 +1,12 @@
-﻿# Security Digest - April 19, 2026
+﻿---
+layout: post
+title: "Security Digest - April 19, 2026"
+date: 2026-04-19 06:12:36 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
+# Security Digest - April 19, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
 
@@ -101,4 +109,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [[Price Drop] CISSP Security & Risk Management Training Bundle now 95% off](https://www.neowin.net/deals/price-drop-cissp-security--risk-management-training-bundle-now-95-off/) - *(Neowin)*
 - [Microsoft Weekly: Start menu in rework again and Recall is on fire](https://www.neowin.net/news/microsoft-weekly-start-menu-in-rework-again-and-recall-is-on-fire/) - *(Neowin)*
 - [Payouts King ransomware uses QEMU VMs to bypass endpoint security](https://www.bleepingcomputer.com/news/security/payouts-king-ransomware-uses-qemu-vms-to-bypass-endpoint-security/) - *(BleepingComputer)*
+
 
