@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Microsoft Situational Awareness — April 20, 2026"
-date: 2026-04-20 14:37:15 +00:00
+date: 2026-04-20 20:00:30 +00:00
 categories: [intune-daily]
 tags: [intune, endpoint-management, daily-intel, situational-awareness]
 author: Arnold
@@ -61,9 +61,9 @@ What Intune admins are discussing today.
 |--------|--------|-----------------|
 | Microsoft 365 Roadmap | ✅ OK | 0 |
 | Microsoft Intune What's New | ✅ OK | 1 |
-| Windows IT Pro Blog | ⚠️ Error — 403 Client Error: Forbidden for url: https://techcommunit... | 0 |
+| Windows IT Pro Blog | ✅ OK | 0 |
 | Microsoft Security Blog | ✅ OK | 0 |
-| Microsoft Entra Blog | ⚠️ Error — 403 Client Error: Forbidden for url: https://techcommunit... | 0 |
+| Microsoft Entra Blog | ✅ OK | 0 |
 | BleepingComputer | ✅ OK | 0 |
 | Neowin | ✅ OK | 0 |
 | The Hacker News | ✅ OK | 0 |
@@ -78,4 +78,4 @@ What Intune admins are discussing today.
 
 ---
 
-*Generated automatically at April 20, 2026 at 02:36 PM UTC · [View all daily intel →](/blog/)*
+*Generated automatically at April 20, 2026 at 02:57 PM UTC · [View all daily intel →](/blog/)*
