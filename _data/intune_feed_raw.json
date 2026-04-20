@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-04-20T14:36:56.578268+00:00",
+  "generated_utc": "2026-04-20T14:57:57.133855+00:00",
   "date": "2026-04-20",
   "lookback_hours": 25,
   "source_status": [
@@ -15,9 +15,8 @@
     },
     {
       "name": "Windows IT Pro Blog",
-      "status": "Error",
-      "count": 0,
-      "message": "403 Client Error: Forbidden for url: https://techcommunity.microsoft.com/t5/windows-it-pro-blog/bg-p/Windows10Blog/rss"
+      "status": "OK",
+      "count": 0
     },
     {
       "name": "Microsoft Security Blog",
@@ -26,9 +25,8 @@
     },
     {
       "name": "Microsoft Entra Blog",
-      "status": "Error",
-      "count": 0,
-      "message": "403 Client Error: Forbidden for url: https://techcommunity.microsoft.com/t5/microsoft-entra-blog/bg-p/Identity/rss"
+      "status": "OK",
+      "count": 0
     },
     {
       "name": "BleepingComputer",
