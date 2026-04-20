@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - April 20, 2026"
+date: 2026-04-20 14:39:53 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - April 20, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -121,4 +129,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Telia: Location data leaked through telecom signaling](https://www.reddit.com/r/cybersecurity/comments/1sqmcdj/telia_location_data_leaked_through_telecom/) - *(Reddit r/cybersecurity)*
 - [Vercel just got hacked and it raises a bigger question about AI and security](https://www.reddit.com/r/cybersecurity/comments/1sqlxcm/vercel_just_got_hacked_and_it_raises_a_bigger/) - *(Reddit r/cybersecurity)*
 - [New RDP Alert After April 2026 Security Update Warns of Unknown Connections](https://cybersecuritynews.com/rdp-alert/) - *(CybersecurityNews)*
+
 
