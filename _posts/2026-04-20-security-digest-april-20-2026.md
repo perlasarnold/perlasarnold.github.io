@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Security Digest - April 20, 2026"
-date: 2026-04-20 14:39:53 +00:00
+date: 2026-04-20 15:12:10 +00:00
 categories: [security-digest]
 tags: [security, tldr, situational-awareness, endpoint-management]
 author: Arnold
@@ -10,7 +10,7 @@ author: Arnold
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
 
-- **Generated (UTC):** 2026-04-20 14:39:53 +00:00
+- **Generated (UTC):** 2026-04-20 15:12:10 +00:00
 - **Lookback window:** 7 days
 
 ## 🚀 Top Research & Advisories
@@ -35,12 +35,18 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - **[Got a ticket today that made me question everything about MFA rollouts](https://www.reddit.com/r/sysadmin/comments/1sqmox5/got_a_ticket_today_that_made_me_question/)** - *(Reddit r/sysadmin)*
   Review CA/MFA settings for tightening opportunities.
 
+- **[Question regarding new employee training](https://www.reddit.com/r/sysadmin/comments/1sqrct5/question_regarding_new_employee_training/)** - *(Reddit r/sysadmin)*
+  Review CA/MFA settings for tightening opportunities.
+
 ## 🛠 Infrastructure & Endpoint Control
 - **["TotalRecall Reloaded" tool finds a side entrance to Windows 11's Recall database](https://www.reddit.com/r/Windows11/comments/1sp6znc/totalrecall_reloaded_tool_finds_a_side_entrance/)** - *(Reddit r/Windows11)*
   Validate workstation security baseline and update compliance.
 
 - **[10 quick tweaks that make Windows 11 a lot better](https://www.neowin.net/guides/10-quick-tweaks-that-make-windows-11-a-lot-better/)** - *(Neowin)*
   Validate workstation security baseline and update compliance.
+
+- **[365 admin down for anyone else?](https://www.reddit.com/r/sysadmin/comments/1sqrbw6/365_admin_down_for_anyone_else/)** - *(Reddit r/sysadmin)*
+  Validate Chrome coverage; update managed package if needed. Validate Edge/WebView2 coverage; refresh managed package.
 
 - **[7 Days: ZuckerBot is coming, $1 million from Microsoft, and Android 17 reaches stability](https://www.neowin.net/news/7-days-zuckerbot-is-coming-1-million-from-microsoft-and-android-17-reaches-stability/)** - *(Neowin)*
   Validate Edge/WebView2 coverage; refresh managed package.
@@ -57,11 +63,11 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - **[IT Guy Gone Feral](https://www.reddit.com/r/sysadmin/comments/1sql1oh/it_guy_gone_feral/)** - *(Reddit r/sysadmin)*
   Review Office update channel health and security baseline compliance.
 
+- **[M365 Admins: What did you that got you a great performance review?](https://www.reddit.com/r/sysadmin/comments/1sqrrcd/m365_admins_what_did_you_that_got_you_a_great/)** - *(Reddit r/sysadmin)*
+  Review Office update channel health and security baseline compliance.
+
 - **[Microsoft confirms AI agents are still coming to the Windows 11 taskbar as it prepares for public rollout](https://www.reddit.com/r/Windows11/comments/1soj1gq/microsoft_confirms_ai_agents_are_still_coming_to/)** - *(Reddit r/Windows11)*
   Validate workstation security baseline and update compliance.
-
-- **[Microsoft Entra identity verification for account recovery and what a near miss revealed about our recovery flow](https://www.reddit.com/r/sysadmin/comments/1sqggyf/microsoft_entra_identity_verification_for_account/)** - *(Reddit r/sysadmin)*
-  Review Office update channel health and security baseline compliance.
 
 - **[Microsoft is giving Windows 11 File Explorer a speed boost, dark mode fix, and reducing explorer.exe crashes](https://www.reddit.com/r/Windows11/comments/1speb21/microsoft_is_giving_windows_11_file_explorer_a/)** - *(Reddit r/Windows11)*
   Validate workstation security baseline and update compliance.
@@ -89,9 +95,6 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 
 - **[New Windows 11 Dev Build Improves Secure Boot Monitoring and Storage Controls](https://cybersecuritynews.com/windows-11-dev-secure-boot-controls/)** - *(CybersecurityNews)*
   Validate workstation security baseline and update compliance.
-
-- **[OS upgrade](https://www.reddit.com/r/sysadmin/comments/1sqbmz5/os_upgrade/)** - *(Reddit r/sysadmin)*
-  Evaluate update rings and expedite actions if needed. Validate workstation security baseline and update compliance.
 
 - **[Phishing emails coming from me?](https://www.reddit.com/r/sysadmin/comments/1sqpje8/phishing_emails_coming_from_me/)** - *(Reddit r/sysadmin)*
   Review Office update channel health and security baseline compliance.
