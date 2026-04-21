@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Security Digest - April 21, 2026"
-date: 2026-04-21 15:06:42 +00:00
+date: 2026-04-21 20:58:44 +00:00
 categories: [security-digest]
 tags: [security, tldr, situational-awareness, endpoint-management]
 author: Arnold
@@ -10,7 +10,7 @@ author: Arnold
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
 
-- **Generated (UTC):** 2026-04-21 15:06:42 +00:00
+- **Generated (UTC):** 2026-04-21 20:58:44 +00:00
 - **Lookback window:** 7 days
 
 ## 🚀 Top Research & Advisories
@@ -18,57 +18,55 @@ Daily security intelligence briefing for infrastructure and endpoint management 
   Perforce is source control software used in games, entertainment, and a few engineering sectors. It&#39;s particularly useful when large binary assets need to be stored alongside source code. It handles binary assets much better than Git, IMO. Howeve...
   > **Action:** Monitor developer tool vulnerabilities and supply chain risks. Review .NET runtime vulnerabilities and apply patches.
 
-## 💻 AppSec
-- **[[New] Save up to 39% on VP.NET VPN subscriptions](https://www.neowin.net/deals/new-save-up-to-39-on-vpnet-vpn-subscriptions/)** - *(Neowin)*
-  Review .NET runtime vulnerabilities and apply patches.
-
-## 🏗 Infrastructure
-- **[CA policy requires corporate network. VPN requires CA to pass. How is anyone solving this](https://www.reddit.com/r/sysadmin/comments/1srl9ns/ca_policy_requires_corporate_network_vpn_requires/)** - *(Reddit r/sysadmin)*
-  Review CA/MFA settings for tightening opportunities. Review VPN client version and deployment.
-
-- **[I need a bit(a lot) of guidance and any advice is appreciated](https://www.reddit.com/r/sysadmin/comments/1srq36d/i_need_a_bita_lot_of_guidance_and_any_advice_is/)** - *(Reddit r/sysadmin)*
-  Review server hardening and AD security posture.
-
-- **[Windows Server Secure Boot for certificates expiring in 2026](https://www.reddit.com/r/sysadmin/comments/1sroxoa/windows_server_secure_boot_for_certificates/)** - *(Reddit r/sysadmin)*
-  Review server hardening and AD security posture.
-
 ## 🛡 Security Ops
-- **[CA policy requires corporate network. VPN requires CA to pass. How is anyone solving this](https://www.reddit.com/r/sysadmin/comments/1srl9ns/ca_policy_requires_corporate_network_vpn_requires/)** - *(Reddit r/sysadmin)*
-  Review CA/MFA settings for tightening opportunities. Review VPN client version and deployment.
+- **[Almost 2 year since July 19, rewatched CrowdStrike's own RCA and the Content Validator bug is wilder than I remembered](https://www.reddit.com/r/sysadmin/comments/1ss0cci/almost_2_year_since_july_19_rewatched/)** - *(Reddit r/sysadmin)*
+  Review encryption policy and remediation gaps. Review sensor guidance and deployment posture.
 
-- **[Partner Search: Windows 11, Entra ID & Intune Transformation](https://www.reddit.com/r/sysadmin/comments/1srpqng/partner_search_windows_11_entra_id_intune/)** - *(Reddit r/sysadmin)*
-  Review CA/MFA settings for tightening opportunities. Validate workstation security baseline and update compliance.
+- **[SMTP Relay service to send email to external customers](https://www.reddit.com/r/sysadmin/comments/1srydz4/smtp_relay_service_to_send_email_to_external/)** - *(Reddit r/sysadmin)*
+  Review CA/MFA settings for tightening opportunities.
 
 ## 🛠 Infrastructure & Endpoint Control
 - **["TotalRecall Reloaded" tool finds a side entrance to Windows 11's Recall database](https://www.reddit.com/r/Windows11/comments/1sp6znc/totalrecall_reloaded_tool_finds_a_side_entrance/)** - *(Reddit r/Windows11)*
   Validate workstation security baseline and update compliance.
 
-- **[CVE-2025-69893](https://nvd.nist.gov/vuln/detail/CVE-2025-69893)** - *(NVD)*
+- **[[New] Save 72% on Microsoft Office 2024 Home & Business with a Certification Training Bundle](https://www.neowin.net/deals/new-save-72-on-microsoft-office-2024-home--business-with-a-certification-training-bundle/)** - *(Neowin)*
+  Review Office update channel health and security baseline compliance.
+
+- **[Almost 2 year since July 19, rewatched CrowdStrike's own RCA and the Content Validator bug is wilder than I remembered](https://www.reddit.com/r/sysadmin/comments/1ss0cci/almost_2_year_since_july_19_rewatched/)** - *(Reddit r/sysadmin)*
+  Review encryption policy and remediation gaps. Review sensor guidance and deployment posture.
+
+- **[Android Moto 5G+](https://www.reddit.com/r/cybersecurity/comments/1srqrcg/android_moto_5g/)** - *(Reddit r/cybersecurity)*
+  Validate Chrome coverage; update managed package if needed.
+
+- **[BLS Cybersecurity Job Outlook vs reality](https://www.reddit.com/r/cybersecurity/comments/1srxc83/bls_cybersecurity_job_outlook_vs_reality/)** - *(Reddit r/cybersecurity)*
+  Review Office update channel health and security baseline compliance.
+
+- **[ClamAV or VirusTotal](https://www.reddit.com/r/cybersecurity/comments/1srry29/clamav_or_virustotal/)** - *(Reddit r/cybersecurity)*
+  Review Office update channel health and security baseline compliance.
+
+- **[Editing Outlook's Suggested Meeting Locations](https://www.reddit.com/r/sysadmin/comments/1srxvnf/editing_outlooks_suggested_meeting_locations/)** - *(Reddit r/sysadmin)*
   Review Office update channel health and security baseline compliance.
 
 - **[Feature request: Open apps directly on a specific virtual desktop](https://www.reddit.com/r/Windows11/comments/1sotara/feature_request_open_apps_directly_on_a_specific/)** - *(Reddit r/Windows11)*
   Validate workstation security baseline and update compliance.
 
-- **[Frustration with Defender for Office 365. High Confidence Phishing.](https://www.reddit.com/r/sysadmin/comments/1sro45y/frustration_with_defender_for_office_365_high/)** - *(Reddit r/sysadmin)*
-  Review Office update channel health and security baseline compliance. Review security controls and policy updates.
-
 - **[Google supercharges Chrome with Gemini and image AI across Asia Pacific](https://www.neowin.net/news/google-supercharges-chrome-with-gemini-and-image-ai-across-asia-pacific/)** - *(Neowin)*
   Validate Chrome coverage; update managed package if needed.
-
-- **[How long did it take to update your Secure Boot Certificates with the "Controlled Feature Rollout"?](https://www.reddit.com/r/sysadmin/comments/1srhvds/how_long_did_it_take_to_update_your_secure_boot/)** - *(Reddit r/sysadmin)*
-  Evaluate update rings and expedite actions if needed.
 
 - **[I built a modern, open-source photo manager for Windows (supports 100K+ files and local AI search)](https://www.reddit.com/r/Windows11/comments/1srasfg/i_built_a_modern_opensource_photo_manager_for/)** - *(Reddit r/Windows11)*
   Validate workstation security baseline and update compliance.
 
-- **[KB5083631: Microsoft explains how Windows 11 will get significantly faster soon](https://www.neowin.net/news/kb5083631-microsoft-explains-how-windows-11-will-get-significantly-faster-soon/)** - *(Neowin)*
-  Validate workstation security baseline and update compliance.
+- **[Looking for real‑world experiences with MDM on BYOD phones (iOS / Android)](https://www.reddit.com/r/sysadmin/comments/1srxdni/looking_for_realworld_experiences_with_mdm_on/)** - *(Reddit r/sysadmin)*
+  Review Office update channel health and security baseline compliance. Validate Edge/WebView2 coverage; refresh managed package.
 
 - **[Microsoft confirms AI agents are still coming to the Windows 11 taskbar as it prepares for public rollout](https://www.reddit.com/r/Windows11/comments/1soj1gq/microsoft_confirms_ai_agents_are_still_coming_to/)** - *(Reddit r/Windows11)*
   Validate workstation security baseline and update compliance.
 
 - **[Microsoft is giving Windows 11 File Explorer a speed boost, dark mode fix, and reducing explorer.exe crashes](https://www.reddit.com/r/Windows11/comments/1speb21/microsoft_is_giving_windows_11_file_explorer_a/)** - *(Reddit r/Windows11)*
   Validate workstation security baseline and update compliance.
+
+- **[Microsoft officially says you don’t need extra antivirus on Windows 11](https://www.reddit.com/r/Windows11/comments/1srt2ro/microsoft_officially_says_you_dont_need_extra/)** - *(Reddit r/Windows11)*
+  Review security controls and policy updates. Validate workstation security baseline and update compliance.
 
 - **[Microsoft Password Manager on Windows 11 as a standalone app?](https://www.reddit.com/r/Windows11/comments/1sqjvij/microsoft_password_manager_on_windows_11_as_a/)** - *(Reddit r/Windows11)*
   Validate Edge/WebView2 coverage; refresh managed package. Validate workstation security baseline and update compliance.
@@ -82,13 +80,19 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - **[my windows 11 desktop](https://www.reddit.com/r/Windows11/comments/1sottgl/my_windows_11_desktop/)** - *(Reddit r/Windows11)*
   Validate workstation security baseline and update compliance.
 
-- **[Partner Search: Windows 11, Entra ID & Intune Transformation](https://www.reddit.com/r/sysadmin/comments/1srpqng/partner_search_windows_11_entra_id_intune/)** - *(Reddit r/sysadmin)*
-  Review CA/MFA settings for tightening opportunities. Validate workstation security baseline and update compliance.
-
-- **[Random Direct Send NDRs when email is not Direct Send?](https://www.reddit.com/r/sysadmin/comments/1srlaf6/random_direct_send_ndrs_when_email_is_not_direct/)** - *(Reddit r/sysadmin)*
+- **[Need help creating a simple server for cloud storage and hosting our company website](https://www.reddit.com/r/sysadmin/comments/1srxj8p/need_help_creating_a_simple_server_for_cloud/)** - *(Reddit r/sysadmin)*
   Review Office update channel health and security baseline compliance.
 
+- **[Peguei um trojan (Conteban/Cryxos) baixando um software, mas já limpei, o que mais devo fazer?](https://www.reddit.com/r/cybersecurity/comments/1srwa4p/peguei_um_trojan_contebancryxos_baixando_um/)** - *(Reddit r/cybersecurity)*
+  Review security controls and policy updates.
+
 - **[Rufus gets big update with silent Windows 11 installation, new bloat removal tools and more](https://www.neowin.net/news/rufus-gets-big-update-with-silent-windows-11-installation-new-bloat-removal-tools-and-more/)** - *(Neowin)*
+  Validate workstation security baseline and update compliance.
+
+- **[Unable to run executable from server](https://www.reddit.com/r/sysadmin/comments/1srw62s/unable_to_run_executable_from_server/)** - *(Reddit r/sysadmin)*
+  Evaluate update rings and expedite actions if needed.
+
+- **[VirtualBox 7.2.8 arrives with fixes for Windows 11 BSOD, Secure Boot, and more](https://www.neowin.net/news/virtualbox-728-arrives-with-fixes-for-windows-11-bsod-secure-boot-and-more/)** - *(Neowin)*
   Validate workstation security baseline and update compliance.
 
 - **[Windows 11 does not honor DNS over HTTPS privacy settings](https://www.reddit.com/r/Windows11/comments/1sqnj1l/windows_11_does_not_honor_dns_over_https_privacy/)** - *(Reddit r/Windows11)*
@@ -104,19 +108,19 @@ Daily security intelligence briefing for infrastructure and endpoint management 
   Validate Edge/WebView2 coverage; refresh managed package. Validate workstation security baseline and update compliance.
 
 ## 🩹 Patch Tuesday & Update Experience
-- **[KB5083631: Microsoft explains how Windows 11 will get significantly faster soon](https://www.neowin.net/news/kb5083631-microsoft-explains-how-windows-11-will-get-significantly-faster-soon/)** - *(Neowin)*
-  Microsoft says multiple upgrades are coming to Windows 11 components that should lead to a hefty performance improvement. Read more...
+- **[Unable to run executable from server](https://www.reddit.com/r/sysadmin/comments/1srw62s/unable_to_run_executable_from_server/)** - *(Reddit r/sysadmin)*
+  I have an odd ball here. We have core apps stored on the shared folder on the server. Lately (more like this past weekend), I&#39;m not able to run the executable from the server. We keep getting &quo...
 
 ## 🔍 Quick Links (Watch Items)
+- [BlueRock found critical RCE in AWS’s aws-diagram-mcp-server: exec() denylist bypass (HackerOne #3557138)](https://www.reddit.com/r/cybersecurity/comments/1srzmi7/bluerock_found_critical_rce_in_awss/) - *(Reddit r/cybersecurity)*
+- [SMTP Relay service to send email to external customers](https://www.reddit.com/r/sysadmin/comments/1srydz4/smtp_relay_service_to_send_email_to_external/) - *(Reddit r/sysadmin)*
+- [Cybersecurity statistics of the week (April 13th - April 19th)](https://www.reddit.com/r/cybersecurity/comments/1srxz5a/cybersecurity_statistics_of_the_week_april_13th/) - *(Reddit r/cybersecurity)*
+- [What would increase my chances of a help desk job w/ a customer service background only?](https://www.reddit.com/r/sysadmin/comments/1srxxff/what_would_increase_my_chances_of_a_help_desk_job/) - *(Reddit r/sysadmin)*
+- [BLS Cybersecurity Job Outlook vs reality](https://www.reddit.com/r/cybersecurity/comments/1srxc83/bls_cybersecurity_job_outlook_vs_reality/) - *(Reddit r/cybersecurity)*
+- [Title: SPVM gross negligence: I handed PDQ 20 a frozen extortion node and a human trafficking threat. They laughed and closed the file](https://www.reddit.com/r/cybersecurity/comments/1srwp3b/title_spvm_gross_negligence_i_handed_pdq_20_a/) - *(Reddit r/cybersecurity)*
+- [Looking for my replacement](https://www.reddit.com/r/sysadmin/comments/1srvukc/looking_for_my_replacement/) - *(Reddit r/sysadmin)*
+- [How to build a career in hardware security?](https://www.reddit.com/r/cybersecurity/comments/1srvr5x/how_to_build_a_career_in_hardware_security/) - *(Reddit r/cybersecurity)*
+- [Post-Mythos: what are you actually doing differently right now?](https://www.reddit.com/r/cybersecurity/comments/1sru3lc/postmythos_what_are_you_actually_doing/) - *(Reddit r/cybersecurity)*
 - [P4WNED: How Insecure Defaults in Perforce Expose Source Code Across the Internet](https://www.reddit.com/r/cybersecurity/comments/1srq47h/p4wned_how_insecure_defaults_in_perforce_expose/) - *(Reddit r/cybersecurity)*
-- [I need a bit(a lot) of guidance and any advice is appreciated](https://www.reddit.com/r/sysadmin/comments/1srq36d/i_need_a_bita_lot_of_guidance_and_any_advice_is/) - *(Reddit r/sysadmin)*
-- [Partner Search: Windows 11, Entra ID & Intune Transformation](https://www.reddit.com/r/sysadmin/comments/1srpqng/partner_search_windows_11_entra_id_intune/) - *(Reddit r/sysadmin)*
-- [Runtime security for AI agents is becoming a practical defense problem](https://www.reddit.com/r/cybersecurity/comments/1srpp79/runtime_security_for_ai_agents_is_becoming_a/) - *(Reddit r/cybersecurity)*
-- [I'm incredibly confused by Microsoft's remediation script regarding Secure boot](https://www.reddit.com/r/sysadmin/comments/1srp86f/im_incredibly_confused_by_microsofts_remediation/) - *(Reddit r/sysadmin)*
-- [6000+ Apache ActiveMQ Instances Vulnerable to CVE-2026-34197 Exposed Online](https://cybersecuritynews.com/apache-activemq-instances-exposed/) - *(CybersecurityNews)*
-- [CA policy requires corporate network. VPN requires CA to pass. How is anyone solving this](https://www.reddit.com/r/sysadmin/comments/1srl9ns/ca_policy_requires_corporate_network_vpn_requires/) - *(Reddit r/sysadmin)*
-- [Meetups in Navi Mumbai?](https://www.reddit.com/r/cybersecurity/comments/1srl68g/meetups_in_navi_mumbai/) - *(Reddit r/cybersecurity)*
-- [We analysed almost 100 UK charity websites and found that ~1 in 6 are running vulnerable JavaScript dependencies.](https://www.reddit.com/r/cybersecurity/comments/1srkm6p/we_analysed_almost_100_uk_charity_websites_and/) - *(Reddit r/cybersecurity)*
-- [Thinking about a pivot into security leadership](https://www.reddit.com/r/cybersecurity/comments/1srkl9u/thinking_about_a_pivot_into_security_leadership/) - *(Reddit r/cybersecurity)*
 
 
