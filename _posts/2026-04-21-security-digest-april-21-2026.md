@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - April 21, 2026"
+date: 2026-04-21 15:06:42 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - April 21, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -110,4 +118,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Meetups in Navi Mumbai?](https://www.reddit.com/r/cybersecurity/comments/1srl68g/meetups_in_navi_mumbai/) - *(Reddit r/cybersecurity)*
 - [We analysed almost 100 UK charity websites and found that ~1 in 6 are running vulnerable JavaScript dependencies.](https://www.reddit.com/r/cybersecurity/comments/1srkm6p/we_analysed_almost_100_uk_charity_websites_and/) - *(Reddit r/cybersecurity)*
 - [Thinking about a pivot into security leadership](https://www.reddit.com/r/cybersecurity/comments/1srkl9u/thinking_about_a_pivot_into_security_leadership/) - *(Reddit r/cybersecurity)*
+
 
