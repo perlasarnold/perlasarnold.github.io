@@ -1,17 +1,17 @@
 {
-  "generated_utc": "2026-04-20T14:57:57.133855+00:00",
-  "date": "2026-04-20",
+  "generated_utc": "2026-04-21T14:49:35.811663+00:00",
+  "date": "2026-04-21",
   "lookback_hours": 25,
   "source_status": [
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 0
+      "count": 2
     },
     {
       "name": "Microsoft Intune What's New",
       "status": "OK",
-      "count": 1
+      "count": 0
     },
     {
       "name": "Windows IT Pro Blog",
@@ -21,7 +21,7 @@
     {
       "name": "Microsoft Security Blog",
       "status": "OK",
-      "count": 0
+      "count": 1
     },
     {
       "name": "Microsoft Entra Blog",
@@ -93,15 +93,34 @@
   "items": {
     "high_alert": [],
     "bad_updates": [],
-    "upcoming_changes": [],
+    "upcoming_changes": [
+      {
+        "fingerprint": "82a3be158832",
+        "title": "Microsoft Copilot (Microsoft 365): Create a presentation with Copilot in PowerPoint directly from the PowerPoint Home",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=560536",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-04-20T22:45:53+00:00",
+        "summary": "You can now create a presentation with Copilot in PowerPoint straight from the PowerPoint Home in file menu. GA date: May CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "732ab4969efe",
+        "title": "Microsoft Teams: Efficiency Mode",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=560055",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-04-20T18:45:45+00:00",
+        "summary": "Teams efficiency mode improves performance and responsiveness on hardware constrained devices by applying a reduced resource configuration by default, helping maintain meeting quality and responsiveness during collaboration. GA date: May CY2026",
+        "category": "upcoming_changes"
+      }
+    ],
     "official_news": [
       {
-        "fingerprint": "c3a7e6aa22f8",
-        "title": "Microsoft Entra releases and announcements - Microsoft Entra",
-        "link": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
-        "source": "Microsoft Intune What's New",
-        "published": "2026-04-19T17:03:00+00:00",
-        "summary": "If you're looking for information that's older than six months, see: Archive for What's new in Microsoft Entra. What’s changing The Agent registry and Agent collections blades in the Entra admin center will be retired on May 1, 2026. Public Preview - Entra Hybrid Join using Entra Kerberos Type: Public Preview Service category: Device Registration.",
+        "fingerprint": "55288139cd0e",
+        "title": "Making opportunistic cyberattacks harder by design",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/04/20/making-opportunistic-cyberattacks-harder-by-design/",
+        "source": "Microsoft Security Blog",
+        "published": "2026-04-20T16:00:00+00:00",
+        "summary": "How Microsoft secures Dynamics 365 and Power Platform by removing credentials, reducing attack surfaces, and using platform engineering to block opportunistic threats. The post Making opportunistic cyberattacks harder by design appeared first on Microsoft Security Blog .",
         "category": "official_news"
       }
     ],
