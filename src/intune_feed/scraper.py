@@ -45,9 +45,7 @@ LOOKBACK_HOURS = int(os.environ.get("LOOKBACK_HOURS", "25"))
 MAX_ITEMS_PER_SOURCE = int(os.environ.get("MAX_ITEMS_PER_SOURCE", "25"))
 
 USER_AGENT = (
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-    "AppleWebKit/537.36 (KHTML, like Gecko) "
-    "Chrome/135.0.0.0 Safari/537.36"
+    "web:perlasarnold-intel:v1.1 (by /u/perlasarnold)"
 )
 
 REQUESTS_TIMEOUT = 30  # seconds
