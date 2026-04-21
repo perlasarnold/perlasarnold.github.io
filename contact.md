@@ -7,20 +7,11 @@ permalink: /contact/
 <section class="page-intro container">
   <p class="eyebrow">Contact</p>
   <h1>Let's connect.</h1>
-  <p>Reach out via email or find me on any of the platforms below.</p>
+  <p>Reach out on any of the platforms below.</p>
 </section>
 
 <section class="container contact-section">
 
-  <a class="social-btn email-btn" href="mailto:perlasarnold@gmail.com" title="Send an email">
-    <span class="social-icon">
-      <!-- Gmail / Email -->
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
-        <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/>
-      </svg>
-    </span>
-    <span class="social-label">perlasarnold@gmail.com</span>
-  </a>
 
   <a class="social-btn linkedin-btn" href="https://www.linkedin.com/in/perlasarnold/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
     <span class="social-icon">
@@ -117,7 +108,6 @@ permalink: /contact/
   }
 
   /* Per-platform brand colours */
-  .email-btn     .social-icon { background: #EA4335; }
   .linkedin-btn  .social-icon { background: #0A66C2; }
   .github-btn    .social-icon { background: #24292e; }
   .instagram-btn .social-icon { background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); }
