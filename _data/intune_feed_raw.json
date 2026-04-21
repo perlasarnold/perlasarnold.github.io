@@ -1,0 +1,110 @@
+{
+  "generated_utc": "2026-04-20T14:57:57.133855+00:00",
+  "date": "2026-04-20",
+  "lookback_hours": 25,
+  "source_status": [
+    {
+      "name": "Microsoft 365 Roadmap",
+      "status": "OK",
+      "count": 0
+    },
+    {
+      "name": "Microsoft Intune What's New",
+      "status": "OK",
+      "count": 1
+    },
+    {
+      "name": "Windows IT Pro Blog",
+      "status": "OK",
+      "count": 0
+    },
+    {
+      "name": "Microsoft Security Blog",
+      "status": "OK",
+      "count": 0
+    },
+    {
+      "name": "Microsoft Entra Blog",
+      "status": "OK",
+      "count": 0
+    },
+    {
+      "name": "BleepingComputer",
+      "status": "OK",
+      "count": 0
+    },
+    {
+      "name": "Neowin",
+      "status": "OK",
+      "count": 0
+    },
+    {
+      "name": "The Hacker News",
+      "status": "OK",
+      "count": 0
+    },
+    {
+      "name": "Krebs on Security",
+      "status": "OK",
+      "count": 0
+    },
+    {
+      "name": "The Old New Thing",
+      "status": "OK",
+      "count": 0
+    },
+    {
+      "name": "Reddit r/Intune",
+      "status": "Error",
+      "count": 0,
+      "message": "403 Client Error: Blocked for url: https://www.reddit.com/r/Intune/new/.json?limit=25"
+    },
+    {
+      "name": "Reddit r/sysadmin",
+      "status": "Error",
+      "count": 0,
+      "message": "403 Client Error: Blocked for url: https://www.reddit.com/r/sysadmin/new/.json?limit=25"
+    },
+    {
+      "name": "Reddit r/SCCM",
+      "status": "Error",
+      "count": 0,
+      "message": "403 Client Error: Blocked for url: https://www.reddit.com/r/SCCM/new/.json?limit=25"
+    },
+    {
+      "name": "Reddit r/microsoft365",
+      "status": "Error",
+      "count": 0,
+      "message": "403 Client Error: Blocked for url: https://www.reddit.com/r/microsoft365/new/.json?limit=25"
+    },
+    {
+      "name": "Reddit r/AzureAD",
+      "status": "Error",
+      "count": 0,
+      "message": "403 Client Error: Blocked for url: https://www.reddit.com/r/AzureAD/new/.json?limit=25"
+    },
+    {
+      "name": "Reddit r/Windows11",
+      "status": "Error",
+      "count": 0,
+      "message": "403 Client Error: Blocked for url: https://www.reddit.com/r/Windows11/new/.json?limit=25"
+    }
+  ],
+  "items": {
+    "high_alert": [],
+    "bad_updates": [],
+    "upcoming_changes": [],
+    "official_news": [
+      {
+        "fingerprint": "c3a7e6aa22f8",
+        "title": "Microsoft Entra releases and announcements - Microsoft Entra",
+        "link": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-04-19T17:03:00+00:00",
+        "summary": "If you're looking for information that's older than six months, see: Archive for What's new in Microsoft Entra. What’s changing The Agent registry and Agent collections blades in the Entra admin center will be retired on May 1, 2026. Public Preview - Entra Hybrid Join using Entra Kerberos Type: Public Preview Service category: Device Registration.",
+        "category": "official_news"
+      }
+    ],
+    "community_buzz": []
+  }
+}

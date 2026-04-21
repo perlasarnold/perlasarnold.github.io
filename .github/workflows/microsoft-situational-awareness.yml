@@ -1,0 +1,94 @@
+name: Microsoft Situational Awareness
+
+# Single workflow for the daily Intune intelligence feed.
+# Phase 1 (scrape) runs at 6 AM PT, Phase 2 (publish) at 12 PM PT.
+# Manual dispatch runs both phases back-to-back.
+
+on:
+  schedule:
+    - cron: '0 13 * * 1-5'   # 6:00 AM Pacific (UTC-7) — scrape only
+    - cron: '0 19 * * 1-5'   # 12:00 PM Pacific (UTC-7) — publish only
+  workflow_dispatch:
+    inputs:
+      lookback_hours:
+        description: 'Hours of source history to include'
+        required: false
+        default: '25'
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    # Runs on the 6 AM cron or manual dispatch
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      github.event.schedule == '0 13 * * 1-5'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r src/intune_feed/requirements.txt
+
+      - name: Scrape sources
+        env:
+          LOOKBACK_HOURS: ${{ github.event.inputs.lookback_hours || '25' }}
+        run: python -m src.intune_feed.scraper
+
+      - name: Commit raw data
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _data/intune_feed_raw.json
+          git diff --cached --quiet && echo "No changes to commit" && exit 0
+          git commit -m "data: intune feed scrape $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push origin HEAD:main
+
+  publish:
+    # Runs on the 12 PM cron or after scrape on manual dispatch.
+    # "if: !cancelled()" lets this job run even when scrape was skipped (12 PM cron).
+    needs: [scrape]
+    if: >-
+      !cancelled() &&
+      (github.event_name == 'workflow_dispatch' || github.event.schedule == '0 19 * * 1-5')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Verify scraper data exists
+        run: |
+          if [ ! -f _data/intune_feed_raw.json ]; then
+            echo "::error::No scraper data found. Run the scrape phase first."
+            exit 1
+          fi
+          echo "Found scraper data ($(stat -c%s _data/intune_feed_raw.json) bytes)"
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r src/intune_feed/requirements.txt
+
+      - name: Assemble and write post
+        run: python -m src.intune_feed.assembler
+
+      - name: Commit and push post
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _posts/ _data/
+          git diff --cached --quiet && echo "No changes to commit" && exit 0
+          git commit -m "feat: microsoft situational awareness $(date -u +'%Y-%m-%d')"
+          git push origin HEAD:main

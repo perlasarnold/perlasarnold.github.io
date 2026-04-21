@@ -1,1 +1,4 @@
 Screen Recording 2026-04-10 104340.mp4
+__pycache__/
+*.pyc
+*.pyo
