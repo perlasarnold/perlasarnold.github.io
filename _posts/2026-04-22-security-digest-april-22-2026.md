@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - April 22, 2026"
+date: 2026-04-22 15:06:56 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - April 22, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -146,4 +154,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Need Opinions on Certs](https://www.reddit.com/r/cybersecurity/comments/1ssihei/need_opinions_on_certs/) - *(Reddit r/cybersecurity)*
 - [Microsoft Shipped a Broken ASP.NET Patch](https://www.reddit.com/r/cybersecurity/comments/1ssh7to/microsoft_shipped_a_broken_aspnet_patch/) - *(Reddit r/cybersecurity)*
 - [Interesting read on Darksword chain and How browser exploits work](https://www.reddit.com/r/cybersecurity/comments/1ssgxjm/interesting_read_on_darksword_chain_and_how/) - *(Reddit r/cybersecurity)*
+
 
