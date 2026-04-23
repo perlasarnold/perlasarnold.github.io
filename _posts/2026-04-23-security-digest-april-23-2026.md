@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - April 23, 2026"
+date: 2026-04-23 15:46:49 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - April 23, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -140,4 +148,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [What’s a time when you broke your own automation in the pursuit of security? How did you work through it?](https://www.reddit.com/r/sysadmin/comments/1sth9er/whats_a_time_when_you_broke_your_own_automation/) - *(Reddit r/sysadmin)*
 - [CISA orders feds to patch BlueHammer flaw exploited as zero-day](https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-microsoft-defender-flaw-exploited-in-zero-day-attacks/) - *(BleepingComputer)*
 - [UK security agency officially declares passkeys superior to passwords – and passkeys should be the 'first choice' for authentication](https://www.reddit.com/r/cybersecurity/comments/1stfeea/uk_security_agency_officially_declares_passkeys/) - *(Reddit r/cybersecurity)*
+
 
