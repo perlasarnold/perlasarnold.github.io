@@ -1,12 +1,12 @@
 {
-  "generated_utc": "2026-04-22T14:49:23.485932+00:00",
-  "date": "2026-04-22",
+  "generated_utc": "2026-04-23T15:17:09.943701+00:00",
+  "date": "2026-04-23",
   "lookback_hours": 25,
   "source_status": [
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 13
+      "count": 6
     },
     {
       "name": "Microsoft Intune What's New",
@@ -36,7 +36,7 @@
     {
       "name": "Neowin",
       "status": "OK",
-      "count": 1
+      "count": 0
     },
     {
       "name": "The Hacker News",
@@ -92,133 +92,60 @@
   ],
   "items": {
     "high_alert": [],
-    "bad_updates": [
-      {
-        "fingerprint": "0a1520648896",
-        "title": "Microsoft confirms Windows 11 KB5083769, KB5082052 wrongly forcing BitLocker recovery",
-        "link": "https://www.neowin.net/news/microsoft-confirms-windows-11-kb5083769-kb5082052-wrongly-forcing-bitlocker-recovery/",
-        "source": "Neowin",
-        "published": "2026-04-22T08:38:01+00:00",
-        "summary": "Microsoft has confirmed that a new BitLocker recovery issue is affecting all supported versions of Windows 11, 10, and Server. Read more...",
-        "category": "bad_updates"
-      }
-    ],
+    "bad_updates": [],
     "upcoming_changes": [
       {
-        "fingerprint": "5baf429aba90",
-        "title": "Microsoft Edge: Work Search Banner for Google”",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=560823",
+        "fingerprint": "1d5eb6fd9988",
+        "title": "SharePoint: eSignature for Microsoft 365 - Recipient groups",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=560822",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-04-21T23:00:01+00:00",
-        "summary": "When a user performs a search on google.com from a work profile, Microsoft Edge can detect whether organization-specific results are available for that query. When relevant results are found, a banner is shown with a link to explore those work results. This builds on the existing experience already available on Bing and extends it to Google, helping users seamlessly access work-related informat...",
+        "published": "2026-04-22T23:30:25+00:00",
+        "summary": "Recipient groups in eSignature allow a recipient slot to be assigned to multiple people, such that any one of those people can fulfil the signing requirement on behalf of the group. GA date: June CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "0b0e73be0a6e",
-        "title": "Microsoft Viva: Viva Glint - Export Heat Map report in Viva Glint to editable PowerPoint slides",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=560821",
+        "fingerprint": "202c87613d9b",
+        "title": "Outlook: Multiselect events on calendar surface",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=560698",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-04-21T23:00:01+00:00",
-        "summary": "Managers will be able to export the default sections from the Heat Map report in Viva Glint directly to editable PowerPoint slides. This enhancement allows for easier and quicker consumption of this report outside Viva Glint, compared to the previous export method which included static screenshots. GA date: July CY2026",
+        "published": "2026-04-22T23:30:25+00:00",
+        "summary": "Users can now multi-select events on calendar surface and perform bulk operations like open, copy -paste, delete & categorize in #newoutlookforwindows, similar to classic Outlook. GA date: May CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "e470339952c9",
-        "title": "Microsoft Purview: Information Protection – AI-powered intent for classifiers",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=560708",
+        "fingerprint": "55822bd50f07",
+        "title": "Outlook: Bulk Opening/Closing calendar groups in the left nav",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=560697",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-04-21T23:00:01+00:00",
-        "summary": "AI-powered intent for classifiers: Microsoft Purview Information Protection will generate a human-readable semantic intent for custom Sensitive Information Types (SITs), helping customers better understand what their classifiers detect and refine them for higher accuracy and fewer false positives. GA date: June CY2026 Preview date: May CY2026",
+        "published": "2026-04-22T23:30:25+00:00",
+        "summary": "Users can now bulk select/deselect all calendars within a group on left rail in calendar in #newoutlookforwindows, similar to classic Outlook. GA date: May CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "f0689f781209",
-        "title": "Microsoft Viva: Copilot Analytics - Power user insights in Copilot dashboard",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=560705",
+        "fingerprint": "2cfabc528aac",
+        "title": "Outlook: Teammates Calendars in Left Nav in calendar",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=560695",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-04-21T23:00:01+00:00",
-        "summary": "Understand who is building a habit using Copilot with the new power user insights in Copilot dashboard GA date: May CY2026",
+        "published": "2026-04-22T23:30:25+00:00",
+        "summary": "Users can now see colleagues’ and direct reports’ calendars in the left navigation by default—without manual setup. #newoutlookforwindows GA date: May CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "c2aba957fe08",
-        "title": "Microsoft Teams: Security Detection Report in Teams Admin Center",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=560702",
+        "fingerprint": "7e5cc5b48d8e",
+        "title": "OneDrive: Sync Support for up to 1 million items on Windows",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=560549",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-04-21T23:00:01+00:00",
-        "summary": "A new Security Detection Report in the Teams admin center provides a centralized view of messaging security detections, including impersonation, malicious URLs, and weaponizable file types. Admins can review detection activity in one place and export detailed data to support investigation and response. This capability helps consolidate security signals for Teams messaging scenarios. GA date: Ju...",
+        "published": "2026-04-22T23:30:25+00:00",
+        "summary": "OneDrive Sync supports syncing up to 1 million items on Windows devices, helping teams manage large document libraries and shared content at scale without compromising access across devices. This preview requires the Insiders ring and that devices meet minimum hardware and configuration requirements. Devices that don't meet these requirements continue to sync at the existing 300,000-item suppor...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "c9f3cebeeb50",
-        "title": "Microsoft Copilot (Microsoft 365): Create a presentation with Copilot in PowerPoint directly from the PowerPoint Home",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=560694",
+        "fingerprint": "0a61698d2a35",
+        "title": "Microsoft Copilot (Microsoft 365): Proactive push notifications for the Microsoft 365 Copilot mobile app",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=560339",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-04-21T23:00:01+00:00",
-        "summary": "You can now create a presentation with Copilot in PowerPoint straight from the PowerPoint Home in file menu. GA date: May CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "fc36ca650d85",
-        "title": "SharePoint: AI in SharePoint can generate code to translate your intent into reliable workflows",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=560596",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-04-21T23:00:01+00:00",
-        "summary": "AI in SharePoint can now generate code which allows it to take what you ask and build the behind-the-scenes instructions or \"helper programs\" needed to actually do the work, like generating reports. GA date: June CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "c62c41f3f3f5",
-        "title": "SharePoint: Governance Reviews Dashboard for Site Owners",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=560541",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-04-21T23:00:01+00:00",
-        "summary": "Site owners have a critical role to play in ensuring accuracy of site information, including the site's necessity, its owners, members, permissions, and sharing settings. We’re introducing the Governance Reviews Dashboard in Private Preview, a centralized view where site owners can see all pending site governance reviews (inactivity, ownership, attestation) across the sites they own. The dashbo...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "603aa46abbd2",
-        "title": "Microsoft Viva: Copilot Analytics - Export metrics from Agent Dashboard",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=560538",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-04-21T23:00:01+00:00",
-        "summary": "Users can export de-identified, row-level agent metrics and attributes from the Agent Dashboard. Exported data provides detailed insights into agent usage and user-level agent interactions across the organization, with personal identifiers removed. #copilotcontrolsystem GA date: July CY2026 Preview date: May CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "999a76524ac9",
-        "title": "Microsoft Copilot (Microsoft 365): Create a presentation with Copilot in PowerPoint directly from the PowerPoint Web App",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=560537",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-04-21T23:00:01+00:00",
-        "summary": "You can now create a presentation with Copilot in PowerPoint just as you open the PowerPoint web app. GA date: May CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "672df52eaae3",
-        "title": "Planner: Planner Agent chat",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=560532",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-04-21T23:00:01+00:00",
-        "summary": "Introducing built-in Planner Agent chat with natural language Q&A, smart task discovery, and in-plan task management. GA date: May CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "bf0e4f55321b",
-        "title": "SharePoint: Create Word, Excel, and PowerPoint files with AI",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=560337",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-04-21T23:00:01+00:00",
-        "summary": "You can ask AI in SharePoint to create a Word, Excel or PowerPoint file based on the information you've gathered within SharePoint GA date: May CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "5c9b2eb900b2",
-        "title": "Microsoft Edge: Modern, unified, and updated Look and Feel",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=559993",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-04-21T23:00:01+00:00",
-        "summary": "Microsoft Edge will update the Look and Feel to give customers a unified experience across all of Microsoft AI surfaces including Copilot and Bing. This will change multiple elements of the UX such as spacing, corners, fonts, default colors, etc. GA date: June CY2026",
+        "published": "2026-04-22T23:30:25+00:00",
+        "summary": "The Microsoft 365 Copilot mobile app will proactively send push notifications for common productivity workflows like 'Your Day at a Glance' and 'Items waiting for you', which send users to the respective Copilot response when opened. This feature taps into your Copilot Memory and will be available for users with Microsoft 365 Copilot licenses and can also be accessed once opening the Microsoft ...",
         "category": "upcoming_changes"
       }
     ],
@@ -228,17 +155,17 @@
         "title": "Microsoft Entra releases and announcements - Microsoft Entra",
         "link": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
         "source": "Microsoft Intune What's New",
-        "published": "2026-04-21T22:09:00+00:00",
+        "published": "2026-04-22T17:15:00+00:00",
         "summary": "If you're looking for information that's older than six months, see: Archive for What's new in Microsoft Entra. What’s changing The Agent registry and Agent collections blades in the Entra admin center will be retired on May 1, 2026. Public Preview - Entra Hybrid Join using Entra Kerberos Type: Public Preview Service category: Device Registration.",
         "category": "official_news"
       },
       {
-        "fingerprint": "f2af4e3c0727",
-        "title": "Detection strategies across cloud and identities against infiltrating IT workers",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/04/21/detection-strategies-cloud-identities-against-infiltrating-it-workers/",
+        "fingerprint": "179f71eb5ab6",
+        "title": "AI-powered defense for an AI-accelerated threat landscape",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/04/22/ai-powered-defense-for-an-ai-accelerated-threat-landscape/",
         "source": "Microsoft Security Blog",
-        "published": "2026-04-21T16:03:09+00:00",
-        "summary": "The shift to remote and hybrid work since the pandemic expanded global hiring and accelerated digital onboarding, increasing reliance on online identity verification and remote access. The post Detection strategies across cloud and identities against infiltrating IT workers appeared first on Microsoft Security Blog .",
+        "published": "2026-04-22T17:00:00+00:00",
+        "summary": "Read how Microsoft is partnering with Anthropic and broader industry to use leading models, paired with our platforms and expertise, to turn AI-driven discovery into protection at scale. The post AI-powered defense for an AI-accelerated threat landscape appeared first on Microsoft Security Blog .",
         "category": "official_news"
       }
     ],
