@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - April 25, 2026"
+date: 2026-04-25 14:37:39 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - April 25, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -96,4 +104,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [New-ish, young admin seeking some advice](https://www.reddit.com/r/sysadmin/comments/1sv4an0/newish_young_admin_seeking_some_advice/) - *(Reddit r/sysadmin)*
 - [Should i be worried about ai advancement in cyber security field?](https://www.reddit.com/r/cybersecurity/comments/1sv0scb/should_i_be_worried_about_ai_advancement_in_cyber/) - *(Reddit r/cybersecurity)*
 - [Firestarter malware survives Cisco firewall updates, security patches](https://www.bleepingcomputer.com/news/security/firestarter-malware-survives-cisco-firewall-updates-security-patches/) - *(BleepingComputer)*
+
 
