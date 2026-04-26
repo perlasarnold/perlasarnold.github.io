@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - April 26, 2026"
+date: 2026-04-26 14:38:21 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - April 26, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -87,4 +95,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [help with fortigate automation](https://www.reddit.com/r/sysadmin/comments/1svwwac/help_with_fortigate_automation/) - *(Reddit r/sysadmin)*
 - [Vercel breach traced back to one employee signing into Context.ai with an "Allow All" Google Workspace grant, data listed on BreachForums for $2 million](https://www.reddit.com/r/sysadmin/comments/1svwe27/vercel_breach_traced_back_to_one_employee_signing/) - *(Reddit r/sysadmin)*
 - [Bell Canada HomeHub 3000 - Unauthenticated DoS Affecting 1.24M Routers (CRTC Complaint Filed)](https://www.reddit.com/r/cybersecurity/comments/1svvh6j/bell_canada_homehub_3000_unauthenticated_dos/) - *(Reddit r/cybersecurity)*
+
 
