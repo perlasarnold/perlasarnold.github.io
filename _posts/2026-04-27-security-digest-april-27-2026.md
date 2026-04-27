@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - April 27, 2026"
+date: 2026-04-27 15:43:17 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - April 27, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -123,4 +131,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Google Workspace ↔ M365: Mail coexistence during staged migration](https://www.reddit.com/r/sysadmin/comments/1sx2ndd/google_workspace_m365_mail_coexistence_during/) - *(Reddit r/sysadmin)*
 - [What field of hacking is the penetration tester, Red Team?](https://www.reddit.com/r/cybersecurity/comments/1sx217h/what_field_of_hacking_is_the_penetration_tester/) - *(Reddit r/cybersecurity)*
 - [India’s utilities are getting smarter every day. But are they getting more secure too?](https://www.reddit.com/r/cybersecurity/comments/1sx1gy0/indias_utilities_are_getting_smarter_every_day/) - *(Reddit r/cybersecurity)*
+
 
