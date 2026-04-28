@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - April 28, 2026"
+date: 2026-04-28 16:05:00 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - April 28, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -110,4 +118,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Even cybersecurity researchers are exposing secrets in their arXiv LaTeX source](https://www.reddit.com/r/cybersecurity/comments/1sy1jxc/even_cybersecurity_researchers_are_exposing/) - *(Reddit r/cybersecurity)*
 - [This may sound stupid but hear me out. Anyone that primarily had IT technical roles and struggled getting into Cyber GRC/Audit roles but picked up a Secondary Profession in healthcare?](https://www.reddit.com/r/cybersecurity/comments/1sy18av/this_may_sound_stupid_but_hear_me_out_anyone_that/) - *(Reddit r/cybersecurity)*
 - [CySA+ or Security+](https://www.reddit.com/r/cybersecurity/comments/1sy15hh/cysa_or_security/) - *(Reddit r/cybersecurity)*
+
 
