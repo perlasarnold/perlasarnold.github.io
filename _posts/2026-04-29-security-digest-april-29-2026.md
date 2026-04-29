@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - April 29, 2026"
+date: 2026-04-29 15:53:10 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - April 29, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -118,4 +126,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Static CTFs are becoming obsolete for LLMs. This new paper on "Dynamic Cyber Ranges" shows why](https://www.reddit.com/r/cybersecurity/comments/1sywtls/static_ctfs_are_becoming_obsolete_for_llms_this/) - *(Reddit r/cybersecurity)*
 - [Hardening administrative actions - issues with Kerberos and HTML if machines are cloned without Sysprep](https://www.reddit.com/r/sysadmin/comments/1sywmau/hardening_administrative_actions_issues_with/) - *(Reddit r/sysadmin)*
 - [CISA Warns Microsoft Windows Shell 0-click Vulnerability Exploited in Attacks](https://cybersecuritynews.com/windows-shell-0-click-vulnerability/) - *(CybersecurityNews)*
+
 
