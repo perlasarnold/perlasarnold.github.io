@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - April 30, 2026"
+date: 2026-04-30 15:44:16 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - April 30, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -145,4 +153,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [How do teams preserve and verify evidence from existing security logs before/during incident response?](https://www.reddit.com/r/cybersecurity/comments/1szw71f/how_do_teams_preserve_and_verify_evidence_from/) - *(Reddit r/cybersecurity)*
 - [Does a short public key fingerprint is at risk if there is central registry?](https://www.reddit.com/r/cybersecurity/comments/1szvqj2/does_a_short_public_key_fingerprint_is_at_risk_if/) - *(Reddit r/cybersecurity)*
 - [Advice for a 7-hour marathon CTF? (Transitioning from picoCTF)](https://www.reddit.com/r/cybersecurity/comments/1szuwxa/advice_for_a_7hour_marathon_ctf_transitioning/) - *(Reddit r/cybersecurity)*
+
 
