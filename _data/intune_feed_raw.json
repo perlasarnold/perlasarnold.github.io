@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-04-29T15:20:36.427183+00:00",
-  "date": "2026-04-29",
+  "generated_utc": "2026-04-30T15:14:18.902671+00:00",
+  "date": "2026-04-30",
   "lookback_hours": 25,
   "source_status": [
     {
@@ -11,7 +11,7 @@
     {
       "name": "Microsoft Intune What's New",
       "status": "OK",
-      "count": 2
+      "count": 0
     },
     {
       "name": "Windows IT Pro Blog",
@@ -21,7 +21,7 @@
     {
       "name": "Microsoft Security Blog",
       "status": "OK",
-      "count": 0
+      "count": 1
     },
     {
       "name": "Microsoft Entra Blog",
@@ -95,59 +95,50 @@
     "bad_updates": [],
     "upcoming_changes": [
       {
-        "fingerprint": "0c79253a641d",
-        "title": "Microsoft Purview: Insider Risk Management – Policy Recommendation Panel in IRM",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=560600",
+        "fingerprint": "d3d4d4de6f42",
+        "title": "Microsoft 365 admin center: New dedicated License Requests page in Microsoft 365 Admin Center",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561206",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-04-28T22:45:03+00:00",
-        "summary": "Today, Insider Risk Management (IRM) provides policy-driven protection for data leaks, data theft, and risky AI usage. However, while policy-driven protections are powerful, customers may not always have clear visibility into where coverage can be optimized or expanded to address latent insider risk. IRM now provides guidance on what protections are missing or which policy configurations delive...",
+        "published": "2026-04-29T23:15:48+00:00",
+        "summary": "We are introducing a new dedicated License Requests page in the Microsoft 365 Admin Center to help admins more easily discover, review, and manage Microsoft 365 Copilot license requests submitted by users. GA date: May CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "ed546f475789",
-        "title": "Outlook: 1-year and 2-year options for email sync window (Offline settings)",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=560535",
+        "fingerprint": "ff55b8213aee",
+        "title": "Microsoft Edge: Unifying Copilot Chat policy controls",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561041",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-04-28T22:45:03+00:00",
-        "summary": "In the new Outlook for Windows, users can choose to save 1 year or 2 years of email on their device for offline access. This expands the existing offline settings and allows users to access more email when they are not connected to the internet. The new options are available under Settings > General > Offline > Days of email to save, giving users greater flexibility based on their storage and o...",
+        "published": "2026-04-29T23:15:48+00:00",
+        "summary": "The Microsoft365CopilotChatIconEnabled policy is becoming the standard for configuring Copilot Chat. Extension and sidebar policies will no longer affect the appearance or functionality of Copilot Chat. GA date: June CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "e3f357f1f12f",
-        "title": "Outlook: Jump to Any Folder Instantly with Go to Folder",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=559801",
+        "fingerprint": "5ad6badf75d7",
+        "title": "SharePoint: Power Automate trigger and action for forms in SharePoint",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561025",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-04-28T22:45:03+00:00",
-        "summary": "You can now quickly search for and navigate to any folder in your mailbox using the new Go to Folder feature. Instead of scrolling through long folder lists, just press Ctrl+Y or access it from your accounts context menu to instantly find what you need. Type a few letters of the folder name and jump straight there. #newoutlookforwindows GA date: June CY2026",
+        "published": "2026-04-29T23:15:48+00:00",
+        "summary": "We are introducing new Power Automate integration capabilities for forms in SharePoint, enabling customers to create automated workflows based on responses collected using list forms, file upload forms, and document generation forms. With this update, a new trigger and action are now available in Power Automate: Trigger: When a form is submitted This operation triggers a flow when a list form, ...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "e65613d5523a",
-        "title": "Microsoft Copilot (Microsoft 365): Additional meeting results in Copilot responses",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=559111",
+        "fingerprint": "c47807150e52",
+        "title": "Microsoft Purview: Endpoint Data Loss Prevention: Add control to include or exclude Default file paths exclusions for Windows",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=560057",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-04-28T22:45:03+00:00",
-        "summary": "Today, Copilot can show up to 25 meeting results, which can limit visibility in larger calendars. We’re expanding this limit so you can see more relevant meetings at once making it easier to find, review, and act on the full context you need. GA date: June CY2026",
+        "published": "2026-04-29T23:15:48+00:00",
+        "summary": "Previously customers would have system files either included or excluded manually configured. With this feature there is now a capability to provide this by default and have the option of including or excluding those paths. This list is managed by Microsoft to ensure accuracy and ease of management. GA date: July CY2026 Preview date: May CY2026",
         "category": "upcoming_changes"
       }
     ],
     "official_news": [
       {
-        "fingerprint": "d18e263d5c1c",
-        "title": "Microsoft Cloud PKI for Microsoft Intune - Microsoft Intune",
-        "link": "https://learn.microsoft.com/en-us/intune/cloud-pki/",
-        "source": "Microsoft Intune What's New",
-        "published": "2026-04-29T12:36:00+00:00",
-        "summary": "Overview of Microsoft Cloud PKI for Microsoft Intune Summarize this article for me In this article Applies to: Windows Android iOS macOS Use Microsoft Cloud PKI to issue certificates for Intune-managed devices. Microsoft Cloud PKI is a cloud-based service that simplifies and automates certificate lifecycle management for Intune-managed devices. It.",
-        "category": "official_news"
-      },
-      {
-        "fingerprint": "571306ef90b1",
-        "title": "What's new in Microsoft Intune - Microsoft Intune",
-        "link": "https://learn.microsoft.com/en-us/intune/whats-new/",
-        "source": "Microsoft Intune What's New",
-        "published": "2026-04-29T07:35:00+00:00",
-        "summary": "...opilot:Applies to: Windows Week of April 20, 2026 Device security New reporting considerations for compliance policies New guidance has been added to the Microsoft Intune compliance policy reporting documentation to help explain how device compliance results appear in Intune reports. Tenant administration New TeamViewer connector experience in.",
+        "fingerprint": "f13047ba3ab9",
+        "title": "8 best practices for CISOs conducting risk reviews",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/04/29/8-best-practices-for-cisos-conducting-risk-reviews/",
+        "source": "Microsoft Security Blog",
+        "published": "2026-04-29T16:00:00+00:00",
+        "summary": "Embracing strong proactive security is something we can all do to mitigate our increased exposure to security threats. The post 8 best practices for CISOs conducting risk reviews appeared first on Microsoft Security Blog .",
         "category": "official_news"
       }
     ],
