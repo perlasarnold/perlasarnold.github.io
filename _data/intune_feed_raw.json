@@ -1,17 +1,17 @@
 {
-  "generated_utc": "2026-04-30T15:14:18.902671+00:00",
-  "date": "2026-04-30",
+  "generated_utc": "2026-05-01T14:18:35.912611+00:00",
+  "date": "2026-05-01",
   "lookback_hours": 25,
   "source_status": [
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 4
+      "count": 3
     },
     {
       "name": "Microsoft Intune What's New",
       "status": "OK",
-      "count": 0
+      "count": 3
     },
     {
       "name": "Windows IT Pro Blog",
@@ -21,7 +21,7 @@
     {
       "name": "Microsoft Security Blog",
       "status": "OK",
-      "count": 1
+      "count": 2
     },
     {
       "name": "Microsoft Entra Blog",
@@ -95,50 +95,77 @@
     "bad_updates": [],
     "upcoming_changes": [
       {
-        "fingerprint": "d3d4d4de6f42",
-        "title": "Microsoft 365 admin center: New dedicated License Requests page in Microsoft 365 Admin Center",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561206",
+        "fingerprint": "e506abf67b27",
+        "title": "SharePoint: Authoritative Sites",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561323",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-04-29T23:15:48+00:00",
-        "summary": "We are introducing a new dedicated License Requests page in the Microsoft 365 Admin Center to help admins more easily discover, review, and manage Microsoft 365 Copilot license requests submitted by users. GA date: May CY2026",
+        "published": "2026-04-30T23:30:16+00:00",
+        "summary": "Authoritative Sites feature empowers administrators to designate specific SharePoint sites as official, trusted sources of information. By classifying these sites as authoritative these high-quality, credible content, such as company news, policies, and updates, are prioritized across Copilot Chat and Copilot Search experiences GA date: June CY2026 Preview date: May CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "ff55b8213aee",
-        "title": "Microsoft Edge: Unifying Copilot Chat policy controls",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561041",
+        "fingerprint": "ebe2e7bee278",
+        "title": "Microsoft Copilot (Microsoft 365): Generate documents using forms in SharePoint with Power Automate",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561026",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-04-29T23:15:48+00:00",
-        "summary": "The Microsoft365CopilotChatIconEnabled policy is becoming the standard for configuring Copilot Chat. Extension and sidebar policies will no longer affect the appearance or functionality of Copilot Chat. GA date: June CY2026",
+        "published": "2026-04-30T23:30:16+00:00",
+        "summary": "We are introducing a new Power Automate action that enables automated document generation using document generation (DocGen) forms in SharePoint. Generate document from form (Preview) allows customers to create documents from a template by mapping data inputs to predefined template fields. Documents are generated as part of an automated flow and stored in SharePoint. This capability supports sc...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "5ad6badf75d7",
-        "title": "SharePoint: Power Automate trigger and action for forms in SharePoint",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561025",
+        "fingerprint": "c13cf7fa48a7",
+        "title": "Microsoft Copilot (Microsoft 365): Teams Meetings in Copilot Notebooks",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=560706",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-04-29T23:15:48+00:00",
-        "summary": "We are introducing new Power Automate integration capabilities for forms in SharePoint, enabling customers to create automated workflows based on responses collected using list forms, file upload forms, and document generation forms. With this update, a new trigger and action are now available in Power Automate: Trigger: When a form is submitted This operation triggers a flow when a list form, ...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "c47807150e52",
-        "title": "Microsoft Purview: Endpoint Data Loss Prevention: Add control to include or exclude Default file paths exclusions for Windows",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=560057",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-04-29T23:15:48+00:00",
-        "summary": "Previously customers would have system files either included or excluded manually configured. With this feature there is now a capability to provide this by default and have the option of including or excluding those paths. This list is managed by Microsoft to ensure accuracy and ease of management. GA date: July CY2026 Preview date: May CY2026",
+        "published": "2026-04-30T23:30:16+00:00",
+        "summary": "Meetings as References in Copilot Notebooks bring Teams meeting content into the notebook experience, enabling users to ground Copilot on the discussions, decisions, and context that drive their work. By adding meetings as knowledge sources, users can connect transcripts, notes, chats, and shared content directly to their projects, enriching notebooks beyond files alone and improving downstream...",
         "category": "upcoming_changes"
       }
     ],
     "official_news": [
       {
-        "fingerprint": "f13047ba3ab9",
-        "title": "8 best practices for CISOs conducting risk reviews",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/04/29/8-best-practices-for-cisos-conducting-risk-reviews/",
+        "fingerprint": "c3a7e6aa22f8",
+        "title": "Microsoft Entra releases and announcements - Microsoft Entra",
+        "link": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-05-01T07:34:00+00:00",
+        "summary": "Microsoft Entra releases and announcements Summarize this article for me In this article This article provides information about the latest releases and change announcements across the Microsoft Entra family of products over the last six months (updated monthly). If you're looking for information that's older than six months, see: Archive for.",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "571306ef90b1",
+        "title": "What's new in Microsoft Intune - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/whats-new/",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-04-30T22:39:00+00:00",
+        "summary": "New remote actions to suspend and restore Managed Home Screen on Android devices Intune has two new remote actions that allow admins to temporarily suspend and restore Managed Home Screen (MHS) on Android devices. Applies to: Windows Week of April 20, 2026 Device security New reporting considerations for compliance policies New guidance has been.",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "e6d8907b03ad",
+        "title": "Licenses available for Microsoft Intune - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/fundamentals/licensing/",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-04-30T22:39:00+00:00",
+        "summary": "Microsoft Intune licensing Summarize this article for me In this article Microsoft Intune is available for different customer needs and organization sizes, from a simple-to-use management experience for schools and small businesses, to more advanced functionality required by enterprise customers. Most licenses that include Microsoft Intune also.",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "27520d765f29",
+        "title": "What’s new, updated, or recently released in Microsoft Security",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/04/30/whats-new-updated-or-recently-released-in-microsoft-security/",
         "source": "Microsoft Security Blog",
-        "published": "2026-04-29T16:00:00+00:00",
-        "summary": "Embracing strong proactive security is something we can all do to mitigate our increased exposure to security threats. The post 8 best practices for CISOs conducting risk reviews appeared first on Microsoft Security Blog .",
+        "published": "2026-04-30T16:00:00+00:00",
+        "summary": "Stay ahead of emerging threats with Microsoft’s newest security innovations and updates, delivered through the In the Loop series. The post What’s new, updated, or recently released in Microsoft Security appeared first on Microsoft Security Blog .",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "fcfe8bf17941",
+        "title": "Email threat landscape: Q1 2026 trends and insights",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/04/30/email-threat-landscape-q1-2026-trends-and-insights/",
+        "source": "Microsoft Security Blog",
+        "published": "2026-04-30T15:00:00+00:00",
+        "summary": "In early 2026, email threats increased with a rise in credential phishing, QR code phishing, and CAPTCHA-gated campaigns, highlighted by Microsoft’s disruption of the Tycoon2FA phishing platform which led to a 15% volume decrease and shifts in threat actor tactics. The post Email threat landscape: Q1 2026 trends and insights appeared first on Microsoft Security Blog .",
         "category": "official_news"
       }
     ],
