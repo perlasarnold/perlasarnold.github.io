@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Microsoft Situational Awareness — May 4, 2026"
-date: 2026-05-04 20:18:14 +00:00
+title: "Microsoft Situational Awareness — May 5, 2026"
+date: 2026-05-05 20:09:43 +00:00
 categories: [intune-daily]
 tags: [intune, endpoint-management, daily-intel, situational-awareness]
 author: Arnold
