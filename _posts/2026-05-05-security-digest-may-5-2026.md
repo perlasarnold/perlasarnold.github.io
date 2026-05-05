@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - May 5, 2026"
+date: 2026-05-05 15:47:54 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - May 5, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -122,4 +130,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Cyber security free course](https://www.reddit.com/r/cybersecurity/comments/1t4fdlp/cyber_security_free_course/) - *(Reddit r/cybersecurity)*
 - [Does certification expires?](https://www.reddit.com/r/cybersecurity/comments/1t4embf/does_certification_expires/) - *(Reddit r/cybersecurity)*
 - [Trying to display more domain users on the logon screen (bottom left) on Windows 10/11](https://www.reddit.com/r/sysadmin/comments/1t4dis6/trying_to_display_more_domain_users_on_the_logon/) - *(Reddit r/sysadmin)*
+
 
