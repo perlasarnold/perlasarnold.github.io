@@ -1,17 +1,17 @@
 {
-  "generated_utc": "2026-05-04T15:12:20.173585+00:00",
-  "date": "2026-05-04",
+  "generated_utc": "2026-05-06T15:28:27.522750+00:00",
+  "date": "2026-05-06",
   "lookback_hours": 25,
   "source_status": [
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 0
+      "count": 13
     },
     {
       "name": "Microsoft Intune What's New",
       "status": "OK",
-      "count": 0
+      "count": 2
     },
     {
       "name": "Windows IT Pro Blog",
@@ -93,8 +93,145 @@
   "items": {
     "high_alert": [],
     "bad_updates": [],
-    "upcoming_changes": [],
-    "official_news": [],
+    "upcoming_changes": [
+      {
+        "fingerprint": "acd8638e0d41",
+        "title": "Microsoft Teams: MTR Proximity Join support for Presenters in Town Halls, Webinars, and Structured meetings",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561550",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-05-05T23:00:02+00:00",
+        "summary": "Presenters can use Proximity Join with Teams Rooms (MTRoW and MTRoA) to seamlessly connect to nearby room systems during Town halls, webinars, and structured meetings—making live presentations fast and effortless. GA date: May CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "e92f239458cc",
+        "title": "Microsoft Teams: Teams room builder in the Pro Management portal",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561549",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-05-05T23:00:02+00:00",
+        "summary": "The Teams room builder is a user-friendly, visually engaging tool to help IT managers design and configure Teams Rooms traditional, signature, and flex meeting spaces. This feature, available in the Teams Rooms Pro Management portal, enables faster design, standards creation, and rollout. With a variety of equipment options and helpful criteria filters, device and license selection and purchase...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "e5060342673e",
+        "title": "Microsoft Copilot (Microsoft 365): Copilot in Forms - US Government clouds",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561485",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-05-05T23:00:02+00:00",
+        "summary": "Copilot in Forms is being enabled for Microsoft Forms in Government Cloud environments, bringing end-to-end AI assistance to forms, from creating a form, to refining and sending to analyzing results. This rollout includes key Copilot features such as: - Draft with Copilot - Distribution and monitoring - Copilot Insights - On-canvas Copilot features such as Rewrite question, Continue writing, An...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "676a1894dd9c",
+        "title": "Microsoft 365: Introducing Exchange Online Cross-tenant Message Recall",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561330",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-05-05T23:00:02+00:00",
+        "summary": "We're enhancing the Exchange Online Message Recall feature to add support for cross-tenant recalls. Today, you can recall messages only within your organization. Cross-tenant recall will let you recall messages sent to other organizations that add your tenant to their recall allow list. GA date: August CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "8ce2126e09b2",
+        "title": "Access: Cascading combo and list boxes with LinkMasterFields/LinkChildFields",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561328",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-05-05T23:00:02+00:00",
+        "summary": "Combo boxes and list boxes now support LinkMasterFields/LinkChildFields properties, enabling cascading dropdowns (e.g., Country filters City) without writing VBA code. GA date: August CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "28512f911a6f",
+        "title": "Microsoft Teams: SharePoint thumbnail previews",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561321",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-05-05T23:00:02+00:00",
+        "summary": "Microsoft Teams on desktop now shows rich link previews when you share SharePoint pages. Links automatically expand into a visually appealing card with a thumbnail image and page description, making it easier to understand and engage with shared SharePoint content directly in Teams. GA date: June CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "d615d53d4a16",
+        "title": "Microsoft Purview: Use sensitivity labels to block all connected experiences that analyze content in Word, Excel, and PowerPoint",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561320",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-05-05T23:00:02+00:00",
+        "summary": "In Word, Excel, and PowerPoint, the ‘Prevent some connected experiences that analyze content’ label setting now prevents files in these apps from being sent to all Microsoft connected experiences for analysis, rather than a subset of these connected experiences. GA date: June CY2026 Preview date: May CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "844b83bd35f0",
+        "title": "Microsoft Purview: Data Lifecycle Management – Insights and policy recommendations on Microsoft Copilot and AI Apps interactions for better Data Security and Compliance posture",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561209",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-05-05T23:00:02+00:00",
+        "summary": "Provide insights on Copilots and AI Apps usage and recommend retention policies for customers to govern their Copilots and AI App interactions. GA date: July CY2026 Preview date: June CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "10ab1723b97a",
+        "title": "Microsoft Purview: Data Lifecycle Management – Archive OneDrive and SharePoint files under retention",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561208",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-05-05T23:00:02+00:00",
+        "summary": "Retention based file archiving moves inactive content to low-cost storage, lowering costs without compromising on Compliance - while keeping data discoverable and Copilot results highly relevant. GA date: June CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "09664b1c7b47",
+        "title": "Microsoft Purview: Data Lifecycle Management – Hard delete capability for OneDrive and SharePoint through secure priority cleanup workflows",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561034",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-05-05T23:00:02+00:00",
+        "summary": "Ability to select hard delete configuration for a Priority cleanup policy for OneDrive and SharePoint content and skip recycle bins. GA date: June CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "eff7cd3f6320",
+        "title": "Microsoft Copilot (Microsoft 365): Work IQ APIs – Unified REST Endpoint for Agents and Workflows",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=559021",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-05-05T23:00:02+00:00",
+        "summary": "Introduces a new REST endpoint for Work IQ that serves as a unified entry point for invoking agents and workflows, providing a consistent, scalable alternative to legacy Copilot Chat endpoints. GA date: June CY2026 Preview date: May CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "7f3e7e043d10",
+        "title": "Microsoft Copilot (Microsoft 365): Work IQ APIs – Remote MCP Server Support",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=559020",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-05-05T23:00:02+00:00",
+        "summary": "Supports connecting to remote MCP servers through the Work IQ endpoint, enabling agents to securely invoke external tools and services beyond the local runtime for richer, distributed agent orchestration. GA date: June CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "cfd75ffd751e",
+        "title": "Microsoft Copilot (Microsoft 365): Work IQ APIs - Endpoints: Declarative Agent Access",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=559019",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-05-05T23:00:02+00:00",
+        "summary": "Enables programmatic access to first‑party and tenant‑defined declarative agents via the Work IQ endpoint, allowing applications to trigger specialized agents for domain‑specific tasks within broader workflows. GA date: June CY2026 Preview date: April CY2026",
+        "category": "upcoming_changes"
+      }
+    ],
+    "official_news": [
+      {
+        "fingerprint": "1396d4e82dee",
+        "title": "What's new in Windows 365 Enterprise",
+        "link": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-05-06T03:40:00+00:00",
+        "summary": "What's new in Windows 365 En... Week of April 27, 2026 Snapshot-based reset for Windows 365 Frontline shared Cloud PCs (Public Preview) Snapshot-based reset is in public preview for Windows 365 Frontline shared Cloud PCs. Week of April 6, 2026 Updates to Windows 365 navigation in the Microsoft Intune admin center now generally available The.",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "571306ef90b1",
+        "title": "What's new in Microsoft Intune - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/whats-new/",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-05-05T22:34:00+00:00",
+        "summary": "Week of May 4, 2026 Monitor and troubleshoot Enhanced app inventory with faster data updates Intune enhanced app inventory brings faster, more detailed visibility into the apps in your environment to support identification of outdated or risky software. ...ows 10/11 Week of April 27, 2026 (Service release 2604) Microsoft Intune Suite Expanded.",
+        "category": "official_news"
+      }
+    ],
     "community_buzz": []
   }
 }
