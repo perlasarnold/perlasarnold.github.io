@@ -1,17 +1,17 @@
 {
-  "generated_utc": "2026-05-07T15:29:34.534572+00:00",
-  "date": "2026-05-07",
+  "generated_utc": "2026-05-08T14:55:22.945125+00:00",
+  "date": "2026-05-08",
   "lookback_hours": 25,
   "source_status": [
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 6
+      "count": 5
     },
     {
       "name": "Microsoft Intune What's New",
       "status": "OK",
-      "count": 1
+      "count": 2
     },
     {
       "name": "Windows IT Pro Blog",
@@ -31,7 +31,7 @@
     {
       "name": "BleepingComputer",
       "status": "OK",
-      "count": 1
+      "count": 2
     },
     {
       "name": "Neowin",
@@ -41,7 +41,7 @@
     {
       "name": "The Hacker News",
       "status": "OK",
-      "count": 0
+      "count": 1
     },
     {
       "name": "Krebs on Security",
@@ -93,6 +93,33 @@
   "items": {
     "high_alert": [
       {
+        "fingerprint": "3ca8989c5152",
+        "title": "CISA gives feds four days to patch Ivanti flaw exploited as zero-day",
+        "link": "https://www.bleepingcomputer.com/news/security/cisa-gives-feds-four-days-to-patch-ivanti-flaw-exploited-as-zero-day/",
+        "source": "BleepingComputer",
+        "published": "2026-05-08T12:16:32+00:00",
+        "summary": "CISA has given U.S. federal agencies four days to secure their networks against a high-severity vulnerability in Ivanti Endpoint Manager Mobile (EPMM) exploited in zero-day attacks. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "103826601172",
+        "title": "When prompts become shells: RCE vulnerabilities in AI agent frameworks",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/05/07/prompts-become-shells-rce-vulnerabilities-ai-agent-frameworks/",
+        "source": "Microsoft Security Blog",
+        "published": "2026-05-07T20:22:39+00:00",
+        "summary": "New research exposes how prompt injection in AI agent frameworks can lead to remote code execution. Learn how these vulnerabilities work, what’s impacted, and how to secure your agents. The post When prompts become shells: RCE vulnerabilities in AI agent frameworks appeared first on Microsoft Security Blog .",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "d758f93c4de4",
+        "title": "Ivanti EPMM CVE-2026-6973 RCE Under Active Exploitation Grants Admin-Level Access",
+        "link": "https://thehackernews.com/2026/05/ivanti-epmm-cve-2026-6973-rce-under.html",
+        "source": "The Hacker News",
+        "published": "2026-05-07T17:55:00+00:00",
+        "summary": "Ivanti is warning that a new security flaw impacting Endpoint Manager Mobile (EPMM) has been explored in limited attacks in the wild. The high-severity vulnerability, CVE-2026-6973 (CVSS score: 7.2), is a case of improper input validation affecting EPMM before versions 12.6.1.1, 12.7.0.1, and 12.8.0.1. It allows \"a remotely authenticated user with administrative access to achieve remote code",
+        "category": "high_alert"
+      },
+      {
         "fingerprint": "68f39e2b9455",
         "title": "Ivanti warns of new EPMM flaw exploited in zero-day attacks",
         "link": "https://www.bleepingcomputer.com/news/security/ivanti-warns-of-new-epmm-flaw-exploited-in-zero-day-attacks/",
@@ -105,57 +132,57 @@
     "bad_updates": [],
     "upcoming_changes": [
       {
-        "fingerprint": "b3a9bfd8335d",
-        "title": "Microsoft Teams: Town hall media optimization for VDI attendees",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561648",
+        "fingerprint": "fd4c982cc08d",
+        "title": "Microsoft Edge: Passkey Sync for Enterprise Users",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561652",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-05-06T23:15:10+00:00",
-        "summary": "What’s new Teams now supports audio and video offloading for Town hall attendees in VDI environments that are using the new optimization. Media streams are offloaded directly to the user’s local device, improving performance and delivering a high definition viewing experience while reducing virtual desktop resource usage. Who it applies to • Windows endpoints only using the new VDI optimization...",
+        "published": "2026-05-07T23:15:02+00:00",
+        "summary": "Microsoft Edge is introducing support for passkey synchronization for enterprise users, enabling secure, passwordless authentication across devices. Passkeys created in Edge can now be synced seamlessly, improving sign-in experience while maintaining strong security standards. GA date: June CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "6e13b6148dcd",
-        "title": "Microsoft Purview: eDiscovery – Enhancement of Loop and Copilot Pages in Review and Export",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561492",
+        "fingerprint": "8abbc1e98d2f",
+        "title": "Microsoft Teams: Chat panel open by default in the gallery view on Teams Rooms on Android",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561604",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-05-06T23:15:10+00:00",
-        "summary": "Improves eDiscovery workflows for Loop and Copilot pages by enabling full indexing of page content for keyword search within review sets and adding HTML format support for export from search. GA date: June CY2026",
+        "published": "2026-05-07T23:15:02+00:00",
+        "summary": "The chat panel will open by default in gallery view, allowing participants in Teams Room on Android to quickly see ongoing meeting chat when they join. Admins can configure this default device behavior, and users can close the panel in one tap during meetings. GA date: June CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "8793965297d0",
-        "title": "Outlook: Copilot Settings in classic Outlook for Windows",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561491",
+        "fingerprint": "444af6ad67d8",
+        "title": "Microsoft Teams: Upload custom backgrounds for Teams events",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561493",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-05-06T23:15:10+00:00",
-        "summary": "You will now be able to access different Copilot settings directly in classic Outlook for Windows. GA date: July CY2026 Preview date: June CY2026",
+        "published": "2026-05-07T23:15:02+00:00",
+        "summary": "Organizers and presenters who have access to production tools can now upload custom backgrounds in the \"Manage what attendees see\" experience for Teams events. This enhancement allows organizations to display their brand identity by replacing the default backgrounds with their own images, such as company logos, event-specific artwork, or themed visuals. Custom backgrounds appear behind presente...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "ca9ca4eea8e4",
-        "title": "Microsoft Edge: Enterprise WebView2 runtime downgrade via Downgrade Version policy",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561329",
+        "fingerprint": "08ebacc17a95",
+        "title": "Microsoft Purview: Information Protection- File Labeler and File Viewer for MacOS",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561327",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-05-06T23:15:10+00:00",
-        "summary": "Administrators can temporarily roll back specific applications to a previous WebView2 Evergreen Runtime version (N-1 or N-2) using the new Downgrade Version policy in msedgewebview2.admx. This policy allows enterprises to mitigate critical regressions by specifying per-application exe-to-version mappings. The Edge Updater installs the target version side-by-side, and the WebView2 Loader redirec...",
+        "published": "2026-05-07T23:15:02+00:00",
+        "summary": "This feature is bringing the Information Protection Filer Labeler and Viewer applications to the MacOS platform. Enabling customers to have the same capabilities available on Mac. Core functionality will be available with the exception of the Advanced label-based protection feature. GA date: September CY2026 Preview date: May CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "51ab7f6a11bb",
-        "title": "Microsoft Viva: Copilot Analytics: Copilot usage snapshot PBI at day level with fresh data",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561325",
+        "fingerprint": "d3662978e662",
+        "title": "Microsoft Purview: Insider Risk Management – Reduce temporary file noise for Endpoint activities in IRM",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=560601",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-05-06T23:15:10+00:00",
-        "summary": "A day level Copilot adoption Power BI report reflecting the most recent copilot activity & freshest insights. GA date: November CY2026 Preview date: August CY2026",
+        "published": "2026-05-07T23:15:02+00:00",
+        "summary": "When files are opened in Windows, the operating system, and applications (for example, Microsoft Office and browsers) can create, rename, and delete temporary files as part of normal behavior. The Endpoint client audits these activities, resulting in high-volume, low-signal events that appear as “noise” for Insider Risk Management (IRM) customers. While global exclusions exist (file type, keywo...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "489145c8fa86",
-        "title": "Microsoft Teams: Enhanced bookable desk experience with Teams panel-based desk dock devices",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561031",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-05-06T23:15:10+00:00",
-        "summary": "Users have better experiences in flexible work environments with Microsoft Teams panel-based desk dock devices coming later this year. The Teams panel app now enables devices, such as the Yealink Linkhub, to enhance bookable desk experiences by indicating at-a-glance availability and letting visitors book directly on the device. Each device requires a Teams Shared Space license. GA date: June C...",
+        "fingerprint": "71363aab014e",
+        "title": "In development - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/whats-new/in-development",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-05-07T22:35:00+00:00",
+        "summary": "In develop... To learn more, see: Wi-Fi profiles settings list Learn more about Wi-Fi profiles in Intune Applies to: macOS 15 and later New Wired Networks device configuration profile for iOS/iPadOS There will be a new 802.1x Wired Networks device configuration profile for iOS/iPadOS devices. Applies to: iOS/iPadOS 17 and newer New Block Bluetooth.",
         "category": "upcoming_changes"
       }
     ],
@@ -165,26 +192,17 @@
         "title": "What's new in Windows 365 Enterprise",
         "link": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new",
         "source": "Microsoft Intune What's New",
-        "published": "2026-05-06T21:00:00+00:00",
-        "summary": "What's new in Windows 365 Enterprise and Frontline Summarize this article for me In this article Learn what new features are available in Windows 365 Enterprise and Frontline. Admin Insights for Windows 365 Admin Insig... Week of April 6, 2026 Updates to Windows 365 navigation in the Microsoft Intune admin center now generally available The.",
+        "published": "2026-05-07T22:50:00+00:00",
+        "summary": "What's new in Windows 365 Enterprise and Windows 365 Flex Summarize this article for me In this article Learn what new features are available in Windows 365 Enterprise and Windows 365 Flex. Admin Insights for Windows 3... Week of April 6, 2026 Updates to Windows 365 navigation in the Microsoft Intune admin center now generally available The.",
         "category": "official_news"
       },
       {
-        "fingerprint": "d8ff88f33f64",
-        "title": "​​Microsoft named an overall leader in KuppingerCole Analyst’s 2026 Emerging AI Security Operations Center (SOC) report ​​",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/05/06/microsoft-named-an-overall-leader-in-kuppingercole-analysts-2026-emerging-ai-security-operations-center-soc-report/",
+        "fingerprint": "62be9650d385",
+        "title": "World Passkey Day: Advancing passwordless authentication",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/05/07/world-passkey-day-advancing-passwordless-authentication/",
         "source": "Microsoft Security Blog",
-        "published": "2026-05-06T16:00:00+00:00",
-        "summary": "Microsoft is excited to be named an Overall Leader, and the Market Leader in the Kuppinger Cole Analyst’s 2026 Emerging AI Security Operations Center (SOC) report, as we see automation and AI as core components of the future of cybersecurity. The post ​​Microsoft named an overall leader in KuppingerCole Analyst’s 2026 Emerging AI Security Operations Center (SOC) report ​​ appeared first on Micr...",
-        "category": "official_news"
-      },
-      {
-        "fingerprint": "5db867776e71",
-        "title": "ClickFix campaign uses fake macOS utilities lures to deliver infostealers",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/05/06/clickfix-campaign-uses-fake-macos-utilities-lures-deliver-infostealers/",
-        "source": "Microsoft Security Blog",
-        "published": "2026-05-06T15:20:32+00:00",
-        "summary": "Threat actors are targeting macOS users with fake utility fixes that trick them into running malicious Terminal commands. This campaign evades traditional defenses by stealing credentials, wallets, and sensitive data. The post ClickFix campaign uses fake macOS utilities lures to deliver infostealers appeared first on Microsoft Security Blog .",
+        "published": "2026-05-07T16:00:00+00:00",
+        "summary": "This World Passkey Day, read how Microsoft is advancing passkey adoption to replace passwords, cut phishing risk, and deliver simpler, more secure sign-ins. The post World Passkey Day: Advancing passwordless authentication appeared first on Microsoft Security Blog .",
         "category": "official_news"
       }
     ],
