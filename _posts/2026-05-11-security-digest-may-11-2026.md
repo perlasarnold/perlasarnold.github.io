@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - May 11, 2026"
+date: 2026-05-11 16:26:19 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - May 11, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -91,4 +99,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Your Biggest Security Risk Isn’t Malware — It’s What You Already Trust](https://www.reddit.com/r/cybersecurity/comments/1t9v39b/your_biggest_security_risk_isnt_malware_its_what/) - *(Reddit r/cybersecurity)*
 - [Cybersecurity beginner building an experimental log analyzer — looking for advice](https://www.reddit.com/r/cybersecurity/comments/1t9v0l5/cybersecurity_beginner_building_an_experimental/) - *(Reddit r/cybersecurity)*
 - [Anyone else worried about AI being a security nightmare?](https://www.reddit.com/r/cybersecurity/comments/1t9ud6e/anyone_else_worried_about_ai_being_a_security/) - *(Reddit r/cybersecurity)*
+
 
