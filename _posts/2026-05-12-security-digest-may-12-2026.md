@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - May 12, 2026"
+date: 2026-05-12 16:14:39 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - May 12, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -91,4 +99,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Windows 11 Pro license is now only $7.97](https://www.neowin.net/deals/windows-11-pro-license-is-now-only-797/) - *(Neowin)*
 - [Google: Hackers used AI to develop zero-day exploit for web admin tool](https://www.bleepingcomputer.com/news/security/google-hackers-used-ai-to-develop-zero-day-exploit-for-web-admin-tool/) - *(BleepingComputer)*
 - [Linus Torvalds declares massive AI-fueled code surges as the new normal for Linux](https://www.neowin.net/news/linus-torvalds-declares-massive-ai-fueled-code-surges-as-the-new-normal-for-linux/) - *(Neowin)*
+
 
