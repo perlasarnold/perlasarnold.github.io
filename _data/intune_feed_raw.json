@@ -1,23 +1,22 @@
 {
-  "generated_utc": "2026-05-11T16:05:00.503972+00:00",
-  "date": "2026-05-11",
+  "generated_utc": "2026-05-12T15:41:54.935742+00:00",
+  "date": "2026-05-12",
   "lookback_hours": 25,
   "source_status": [
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 0
+      "count": 9
     },
     {
       "name": "Microsoft Intune What's New",
       "status": "OK",
-      "count": 0
+      "count": 1
     },
     {
       "name": "Windows IT Pro Blog",
-      "status": "Error",
-      "count": 0,
-      "message": "403 Client Error: Forbidden for url: https://techcommunity.microsoft.com/t5/windows-it-pro-blog/bg-p/Windows10Blog/rss"
+      "status": "OK",
+      "count": 0
     },
     {
       "name": "Microsoft Security Blog",
@@ -26,9 +25,8 @@
     },
     {
       "name": "Microsoft Entra Blog",
-      "status": "Error",
-      "count": 0,
-      "message": "403 Client Error: Forbidden for url: https://techcommunity.microsoft.com/t5/microsoft-entra-blog/bg-p/Identity/rss"
+      "status": "OK",
+      "count": 0
     },
     {
       "name": "BleepingComputer",
@@ -95,8 +93,100 @@
   "items": {
     "high_alert": [],
     "bad_updates": [],
-    "upcoming_changes": [],
-    "official_news": [],
+    "upcoming_changes": [
+      {
+        "fingerprint": "4f2b11333d9f",
+        "title": "Microsoft Purview: Role groups UI enhancements",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=562033",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-05-11T23:15:11+00:00",
+        "summary": "The Role groups page in the Microsoft Purview compliance portal now allows admins to look up permissions by roles and memberships. GA date: July CY2026 Preview date: June CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "fac339dcb80b",
+        "title": "SharePoint: AI overview for SharePoint News posts in the SharePoint app for Teams",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=562018",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-05-11T23:15:11+00:00",
+        "summary": "Users will be able access an AI generated audio summary of SharePoint News posts in the SharePoint app for Teams (Viva Connections). GA date: June CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "f42698c0bbcc",
+        "title": "Microsoft Purview: Data Loss Prevention - Granular classification error controls (Exchange online)",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561916",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-05-11T23:15:11+00:00",
+        "summary": "Granular Protections for Exchange Online is available in public preview. This release gives administrators fine-grained control to create DLP policies based on specific classification or text extraction failure types — such as timeout, throttling and other scan errors — rather than one blanket policy for all failure conditions. GA date: July CY2026 Preview date: June CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "12fab670ee9a",
+        "title": "Microsoft Purview: Data Loss Prevention for Microsoft 365 Copilot to safeguard prompts for government clouds",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561892",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-05-11T23:15:11+00:00",
+        "summary": "We are expanding Microsoft Purview DLP for Microsoft 365 Copilot to safeguard prompts containing sensitive data. This real-time control helps organizations mitigate data leakage and oversharing risks by preventing Microsoft 365 Copilot and agents from returning a response when prompts contain sensitive data or using that sensitive data for grounding in Microsoft 365 or the web. This capability ...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "5021c4973b03",
+        "title": "Microsoft Viva: Viva Glint - Topic Assignments Included in Comment Report Export",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561857",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-05-11T23:15:11+00:00",
+        "summary": "When exporting comments to spreadsheet from the Comments report, the topic(s) assigned to each comment will be included in the export. GA date: June CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "b7d2ebc9d542",
+        "title": "Access: Zooming for Continuous Forms and Multiple-Items Forms",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561856",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-05-11T23:15:11+00:00",
+        "summary": "Access extends zoom capabilities to continuous forms and pop-up forms, building on zoom support already available in tables and queries. Adjust magnification from 10 percent to 500 percent using the slider in the lower-right corner or controls on the ribbon. Keyboard shortcuts are also available, making it easy to quickly change your view and focus on the details that matter most. GA date: June...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "c40111486035",
+        "title": "Access: Rounded corners on Access form controls",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561854",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-05-11T23:15:11+00:00",
+        "summary": "We’re making it easier to give your Access apps a polished, up-to-date feel. With the new CornerRadius property, you can add rounded corners to form controls—bringing a softer, more modern look to your designs. GA date: July CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "d82a31d6e10b",
+        "title": "Microsoft Teams: Connect Teams meeting to existing Planner Plans",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561490",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-05-11T23:15:11+00:00",
+        "summary": "Teams meetings automatically create a corresponding Planner plan to capture meeting tasks. However, when teams use meetings as their primary collaboration surface for long-running initiatives, tasks from the same project can become scattered across multiple auto-generated plans. With this capability, users can now connect Teams meetings to existing Planner plans, so all related tasks across mee...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "7565445c4485",
+        "title": "Microsoft Copilot (Microsoft 365): Vision in Microsoft 365 Copilot can analyze content shared on-screen",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561037",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-05-11T23:15:11+00:00",
+        "summary": "Vision in Microsoft 365 Copilot helps you make faster, more informed decisions by understanding context from what you share on your screen. Copilot can analyze visual inputs from shared desktop screens and provide detailed insights about the content. Talk to Copilot for answers grounded in work and web data. GA date: June CY2026",
+        "category": "upcoming_changes"
+      }
+    ],
+    "official_news": [
+      {
+        "fingerprint": "1396d4e82dee",
+        "title": "What's new in Windows 365 Enterprise",
+        "link": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-05-11T21:20:00+00:00",
+        "summary": "What's new in Windows 365 Enterprise and Windows 365 Flex Summarize this article for me In this article Learn what new features are available in Windows 365 Enterprise and Windows 365 Flex. Admin Insights for Windows 3... Week of April 6, 2026 Updates to Windows 365 navigation in the Microsoft Intune admin center now generally available The.",
+        "category": "official_news"
+      }
+    ],
     "community_buzz": []
   }
 }
