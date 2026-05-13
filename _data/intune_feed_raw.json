@@ -1,12 +1,12 @@
 {
-  "generated_utc": "2026-05-12T15:41:54.935742+00:00",
-  "date": "2026-05-12",
+  "generated_utc": "2026-05-13T15:45:58.187014+00:00",
+  "date": "2026-05-13",
   "lookback_hours": 25,
   "source_status": [
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 9
+      "count": 8
     },
     {
       "name": "Microsoft Intune What's New",
@@ -21,7 +21,7 @@
     {
       "name": "Microsoft Security Blog",
       "status": "OK",
-      "count": 0
+      "count": 4
     },
     {
       "name": "Microsoft Entra Blog",
@@ -31,7 +31,7 @@
     {
       "name": "BleepingComputer",
       "status": "OK",
-      "count": 0
+      "count": 3
     },
     {
       "name": "Neowin",
@@ -92,101 +92,157 @@
   ],
   "items": {
     "high_alert": [],
-    "bad_updates": [],
+    "bad_updates": [
+      {
+        "fingerprint": "0d76a24fc334",
+        "title": "Microsoft fixes BitLocker recovery issue only for Windows 11 users",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bitlocker-recovery-issue-only-for-windows-11-users/",
+        "source": "BleepingComputer",
+        "published": "2026-05-13T15:42:46+00:00",
+        "summary": "Microsoft has addressed a known issue causing some Windows 11 systems to boot into BitLocker recovery after installing the April 2026 Windows security updates. [...]",
+        "category": "bad_updates"
+      }
+    ],
     "upcoming_changes": [
       {
-        "fingerprint": "4f2b11333d9f",
-        "title": "Microsoft Purview: Role groups UI enhancements",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=562033",
+        "fingerprint": "f82c57aa1455",
+        "title": "Microsoft Purview: Data Loss Prevention - Enriched Audit Data for Matched Rules",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=562051",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-05-11T23:15:11+00:00",
-        "summary": "The Role groups page in the Microsoft Purview compliance portal now allows admins to look up permissions by roles and memberships. GA date: July CY2026 Preview date: June CY2026",
+        "published": "2026-05-12T23:00:33+00:00",
+        "summary": "When DLP rules detect policy violations in Exchange Online, they generate audit records that administrators rely on for compliance monitoring, incident investigation, and policy tuning. Previously, these records only showed Sensitive Information Type matches. This feature aims to extend that to sender domain, subject keywords, attachment type, or recipient information. Now they will be visible ...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "fac339dcb80b",
-        "title": "SharePoint: AI overview for SharePoint News posts in the SharePoint app for Teams",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=562018",
+        "fingerprint": "621b79e70b5d",
+        "title": "Microsoft Viva: Fresh Copilot Metrics in Custom Person Queries & Reports- Viva Advanced Analysis",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=562017",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-05-11T23:15:11+00:00",
-        "summary": "Users will be able access an AI generated audio summary of SharePoint News posts in the SharePoint app for Teams (Viva Connections). GA date: June CY2026",
+        "published": "2026-05-12T23:00:33+00:00",
+        "summary": "Key Microsoft 365 Copilot metrics in custom person queries and reports will have values up to 2-3 days old from the current date. This will provide fresher copilot usage analysis to analysts in Viva Advanced analysis. GA date: June CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "f42698c0bbcc",
-        "title": "Microsoft Purview: Data Loss Prevention - Granular classification error controls (Exchange online)",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561916",
+        "fingerprint": "465501018e0e",
+        "title": "Microsoft Purview: Endpoint Data Loss Prevention - Policy Sync & Device Health AI Skill",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=562016",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-05-11T23:15:11+00:00",
-        "summary": "Granular Protections for Exchange Online is available in public preview. This release gives administrators fine-grained control to create DLP policies based on specific classification or text extraction failure types — such as timeout, throttling and other scan errors — rather than one blanket policy for all failure conditions. GA date: July CY2026 Preview date: June CY2026",
+        "published": "2026-05-12T23:00:33+00:00",
+        "summary": "AI agent skill to detect and alert unhealthy policy sync and device configuration. GA date: July CY2026 Preview date: June CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "12fab670ee9a",
-        "title": "Microsoft Purview: Data Loss Prevention for Microsoft 365 Copilot to safeguard prompts for government clouds",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561892",
+        "fingerprint": "d9867e349431",
+        "title": "Microsoft Teams: Scoped Search for SharePoint app in Teams (Viva Connections)",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=562015",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-05-11T23:15:11+00:00",
-        "summary": "We are expanding Microsoft Purview DLP for Microsoft 365 Copilot to safeguard prompts containing sensitive data. This real-time control helps organizations mitigate data leakage and oversharing risks by preventing Microsoft 365 Copilot and agents from returning a response when prompts contain sensitive data or using that sensitive data for grounding in Microsoft 365 or the web. This capability ...",
+        "published": "2026-05-12T23:00:33+00:00",
+        "summary": "With this feature, users accessing search through the Teams search icon while within the SharePoint app in Teams (Viva Connections) will be able to receive search result scoped to SharePoint global search. Hitting enter on the search query will then open the SharePoint search page. GA date: June CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "5021c4973b03",
-        "title": "Microsoft Viva: Viva Glint - Topic Assignments Included in Comment Report Export",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561857",
+        "fingerprint": "5dd9026e1d20",
+        "title": "Microsoft Copilot (Microsoft 365): SharePoint list support in Agent Builder",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561920",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-05-11T23:15:11+00:00",
-        "summary": "When exporting comments to spreadsheet from the Comments report, the topic(s) assigned to each comment will be included in the export. GA date: June CY2026",
+        "published": "2026-05-12T23:00:33+00:00",
+        "summary": "Agent Builder now supports using a SharePoint list as a knowledge source for agents in Microsoft 365 Copilot. Makers can ground an agent in structured list data so users can ask questions and get responses based on information stored in a selected SharePoint list. For this release, each agent can reference one SharePoint list with up to 20,000 items, alongside other knowledge source types. Supp...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "b7d2ebc9d542",
-        "title": "Access: Zooming for Continuous Forms and Multiple-Items Forms",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561856",
+        "fingerprint": "c99bdd1043b4",
+        "title": "Microsoft Purview: Data Loss Prevention to restrict processing external emails in Microsoft 365 Copilot and Copilot Chat",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561552",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-05-11T23:15:11+00:00",
-        "summary": "Access extends zoom capabilities to continuous forms and pop-up forms, building on zoom support already available in tables and queries. Adjust magnification from 10 percent to 500 percent using the slider in the lower-right corner or controls on the ribbon. Keyboard shortcuts are also available, making it easy to quickly change your view and focus on the details that matter most. GA date: June...",
+        "published": "2026-05-12T23:00:33+00:00",
+        "summary": "We are expanding Microsoft Purview DLP for Microsoft 365 Copilot and Copilot Chat to safeguard risks from external emails. This real-time control helps organizations mitigate data risks by preventing Microsoft 365 Copilot and Chat from processing emails from senders external to your organization. This capability currently extends to Microsoft 365 Copilot and agents built in Copilot Studio that ...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "c40111486035",
-        "title": "Access: Rounded corners on Access form controls",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561854",
+        "fingerprint": "e3de8904bf06",
+        "title": "Microsoft Edge: Intune MAM Protected Downloads",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561551",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-05-11T23:15:11+00:00",
-        "summary": "We’re making it easier to give your Access apps a polished, up-to-date feel. With the new CornerRadius property, you can add rounded corners to form controls—bringing a softer, more modern look to your designs. GA date: July CY2026",
+        "published": "2026-05-12T23:00:33+00:00",
+        "summary": "The protected downloads feature for Intune MAM will now save downloaded files to the Documents > Microsoft Edge > Downloads folder in OneDrive. GA date: June CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "d82a31d6e10b",
-        "title": "Microsoft Teams: Connect Teams meeting to existing Planner Plans",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561490",
+        "fingerprint": "e8d493f2cf01",
+        "title": "Microsoft Edge: Allow M365 authentication popups in work profiles",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561035",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-05-11T23:15:11+00:00",
-        "summary": "Teams meetings automatically create a corresponding Planner plan to capture meeting tasks. However, when teams use meetings as their primary collaboration surface for long-running initiatives, tasks from the same project can become scattered across multiple auto-generated plans. With this capability, users can now connect Teams meetings to existing Planner plans, so all related tasks across mee...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "7565445c4485",
-        "title": "Microsoft Copilot (Microsoft 365): Vision in Microsoft 365 Copilot can analyze content shared on-screen",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561037",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-05-11T23:15:11+00:00",
-        "summary": "Vision in Microsoft 365 Copilot helps you make faster, more informed decisions by understanding context from what you share on your screen. Copilot can analyze visual inputs from shared desktop screens and provide detailed insights about the content. Talk to Copilot for answers grounded in work and web data. GA date: June CY2026",
+        "published": "2026-05-12T23:00:33+00:00",
+        "summary": "When users are signed in with a work account, some Microsoft 365 sites (for example, microsoft.com, cloud.microsoft, and microsoft365.com) may open authentication pop-up windows to Microsoft sign-in endpoints such as login.microsoftonline.com, login.live.com, or login.microsoft.com. These pop-ups are required to complete sign-in. Microsoft Edge now allows authentication pop-up windows from Micr...",
         "category": "upcoming_changes"
       }
     ],
     "official_news": [
       {
+        "fingerprint": "896052142a73",
+        "title": "Accelerating detection engineering using AI-assisted synthetic attack logs generation",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/accelerating-detection-engineering-using-ai-assisted-synthetic-attack-logs-generation/",
+        "source": "Microsoft Security Blog",
+        "published": "2026-05-12T22:53:09+00:00",
+        "summary": "What if you could generate realistic attack telemetry on demand? Explore research methods that translate attacker behaviors (TTPs) into synthetic logs that can trigger detections at scale and without sensitive data. The post Accelerating detection engineering using AI-assisted synthetic attack logs generation appeared first on Microsoft Security Blog .",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "5b69b80611d7",
+        "title": "Defense at AI speed: Microsoft’s new multi-model agentic security system tops leading industry benchmark",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/defense-at-ai-speed-microsofts-new-multi-model-agentic-security-system-tops-leading-industry-benchmark/",
+        "source": "Microsoft Security Blog",
+        "published": "2026-05-12T22:00:00+00:00",
+        "summary": "Today Microsoft is announcing a major step forward in AI-powered cyber defense: a new multi-model agentic scanning harness (codenamed MDASH). The post Defense at AI speed: Microsoft’s new multi-model agentic security system tops leading industry benchmark appeared first on Microsoft Security Blog .",
+        "category": "official_news"
+      },
+      {
         "fingerprint": "1396d4e82dee",
         "title": "What's new in Windows 365 Enterprise",
         "link": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new",
         "source": "Microsoft Intune What's New",
-        "published": "2026-05-11T21:20:00+00:00",
+        "published": "2026-05-12T21:00:00+00:00",
         "summary": "What's new in Windows 365 Enterprise and Windows 365 Flex Summarize this article for me In this article Learn what new features are available in Windows 365 Enterprise and Windows 365 Flex. Admin Insights for Windows 3... Week of April 6, 2026 Updates to Windows 365 navigation in the Microsoft Intune admin center now generally available The.",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "624dc40ac494",
+        "title": "Defending consumer web properties against modern DDoS attacks",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/defending-consumer-web-properties-against-modern-ddos-attacks/",
+        "source": "Microsoft Security Blog",
+        "published": "2026-05-12T16:00:00+00:00",
+        "summary": "Read how to protect consumer websites and defend against modern DDoS attacks with layered security, resilient architecture, and graceful service degradation. The post Defending consumer web properties against modern DDoS attacks appeared first on Microsoft Security Blog .",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "ddd3618462d2",
+        "title": "Undermining the trust boundary: Investigating a stealthy intrusion through third-party compromise",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/undermining-the-trust-boundary-investigating-a-stealthy-intrusion-through-third-party-compromise/",
+        "source": "Microsoft Security Blog",
+        "published": "2026-05-12T15:00:00+00:00",
+        "summary": "Microsoft Incident Response investigated an attack operated through legitimate and trusted administrative mechanisms to blend seamlessly into routine operations and remain undetected demonstrating that intrusions have increasingly avoided using noisy exploits, obvious malware, or custom tooling, instead leveraging systems that organizations already trust within their environments. The post Unde...",
         "category": "official_news"
       }
     ],
-    "community_buzz": []
+    "community_buzz": [
+      {
+        "fingerprint": "99c5496af627",
+        "title": "Microsoft fixes Windows Autopatch bug installing restricted drivers",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-autopatch-bug-installing-restricted-drivers/",
+        "source": "BleepingComputer",
+        "published": "2026-05-13T14:36:09+00:00",
+        "summary": "Microsoft has fixed a Windows Autopatch bug that caused driver updates restricted by administrative policies to be deployed on some Autopatch-managed Windows devices in the European Union. [...]",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "812ecfb88e3c",
+        "title": "Microsoft says some users can't install Office on Windows 365 devices",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-some-users-cant-install-office-on-windows-365-devices/",
+        "source": "BleepingComputer",
+        "published": "2026-05-13T11:53:54+00:00",
+        "summary": "Microsoft says some customers are experiencing issues downloading and installing Office on their Windows 365 devices. [...]",
+        "category": "community_buzz"
+      }
+    ]
   }
 }
