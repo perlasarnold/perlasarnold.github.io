@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - May 13, 2026"
+date: 2026-05-13 16:14:12 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - May 13, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -125,4 +133,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Fragnesia Linux Vulnerability Let Attackers Gain Root Privileges – PoC Released](https://cybersecuritynews.com/fragnesia-linux-vulnerability/) - *(CybersecurityNews)*
 - [Adaptive Behavioral Identity: A Human‑First Model for Symbiotic Security](https://www.reddit.com/r/cybersecurity/comments/1tc01az/adaptive_behavioral_identity_a_humanfirst_model/) - *(Reddit r/cybersecurity)*
 - [73 Seconds to Breach, 24 Hours to Patch: The Case for Autonomous Validation](https://www.bleepingcomputer.com/news/security/73-seconds-to-breach-24-hours-to-patch-the-case-for-autonomous-validation/) - *(BleepingComputer)*
+
 
