@@ -1,17 +1,17 @@
 {
-  "generated_utc": "2026-05-13T15:45:58.187014+00:00",
-  "date": "2026-05-13",
+  "generated_utc": "2026-05-14T15:23:49.677922+00:00",
+  "date": "2026-05-14",
   "lookback_hours": 25,
   "source_status": [
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 8
+      "count": 6
     },
     {
       "name": "Microsoft Intune What's New",
       "status": "OK",
-      "count": 1
+      "count": 4
     },
     {
       "name": "Windows IT Pro Blog",
@@ -21,7 +21,7 @@
     {
       "name": "Microsoft Security Blog",
       "status": "OK",
-      "count": 4
+      "count": 1
     },
     {
       "name": "Microsoft Entra Blog",
@@ -36,12 +36,12 @@
     {
       "name": "Neowin",
       "status": "OK",
-      "count": 0
+      "count": 1
     },
     {
       "name": "The Hacker News",
       "status": "OK",
-      "count": 0
+      "count": 1
     },
     {
       "name": "Krebs on Security",
@@ -91,7 +91,35 @@
     }
   ],
   "items": {
-    "high_alert": [],
+    "high_alert": [
+      {
+        "fingerprint": "f0a6ccd870e6",
+        "title": "When configuration becomes a vulnerability: Exploitable misconfigurations in AI apps",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/05/14/configuration-becomes-vulnerability-exploitable-misconfigurations-ai-apps/",
+        "source": "Microsoft Security Blog",
+        "published": "2026-05-14T14:20:55+00:00",
+        "summary": "Exposed UIs, weak authentication, and risky defaults could turn cloud-native AI apps on Kubernetes into potential targets by threat actors. Learn how exploitable misconfigurations lead to RCE and data leaks. The post When configuration becomes a vulnerability: Exploitable misconfigurations in AI apps appeared first on Microsoft Security Blog .",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "0175dbcee571",
+        "title": "Windows Zero-Days Expose BitLocker Bypasses And CTFMON Privilege Escalation",
+        "link": "https://thehackernews.com/2026/05/windows-zero-days-expose-bitlocker.html",
+        "source": "The Hacker News",
+        "published": "2026-05-14T09:25:50+00:00",
+        "summary": "An anonymous cybersecurity researcher who disclosed three Microsoft Defender vulnerabilities has returned with two more zero-days involving a BitLocker bypass and a privilege escalation impacting Windows Collaborative Translation Framework (CTFMON). The security defects have been codenamed YellowKey and GreenPlasma, respectively, by the researcher, who goes by the online aliases Chaotic Eclipse",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "ba41ac52c716",
+        "title": "Windows BitLocker zero-day gives access to protected drives, PoC released",
+        "link": "https://www.bleepingcomputer.com/news/security/windows-bitlocker-zero-day-gives-access-to-protected-drives-poc-released/",
+        "source": "BleepingComputer",
+        "published": "2026-05-13T16:37:49+00:00",
+        "summary": "A cybersecurity researcher has published proof-of-concept (PoC) exploits for two unpatched Microsoft Windows vulnerabilities named YellowKey and GreenPlasma, which are a BitLocker bypass and a privilege-escalation flaw. [...]",
+        "category": "high_alert"
+      }
+    ],
     "bad_updates": [
       {
         "fingerprint": "0d76a24fc334",
@@ -105,126 +133,108 @@
     ],
     "upcoming_changes": [
       {
-        "fingerprint": "f82c57aa1455",
-        "title": "Microsoft Purview: Data Loss Prevention - Enriched Audit Data for Matched Rules",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=562051",
+        "fingerprint": "e717d025f134",
+        "title": "Microsoft Teams: Interpreter - Simultaneous mode enhancements",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=562035",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-05-12T23:00:33+00:00",
-        "summary": "When DLP rules detect policy violations in Exchange Online, they generate audit records that administrators rely on for compliance monitoring, incident investigation, and policy tuning. Previously, these records only showed Sensitive Information Type matches. This feature aims to extend that to sender domain, subject keywords, attachment type, or recipient information. Now they will be visible ...",
+        "published": "2026-05-13T23:00:44+00:00",
+        "summary": "We’re introducing 3 enhancements to AI Interpreter’s Simultaneous mode. First, the interpreter audio and live captions now match exactly, with both using the same language the user selects. Second, admins can fully disable voice simulation if needed. Third, users will have more platform voice options, with dynamic voice assignments that help distinguish each speaker and make conversations easie...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "621b79e70b5d",
-        "title": "Microsoft Viva: Fresh Copilot Metrics in Custom Person Queries & Reports- Viva Advanced Analysis",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=562017",
+        "fingerprint": "c6a18d1a5c4b",
+        "title": "Universal Print: Universal Print Portal",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561922",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-05-12T23:00:33+00:00",
-        "summary": "Key Microsoft 365 Copilot metrics in custom person queries and reports will have values up to 2-3 days old from the current date. This will provide fresher copilot usage analysis to analysts in Viva Advanced analysis. GA date: June CY2026",
+        "published": "2026-05-13T23:00:44+00:00",
+        "summary": "You can release your secure print jobs by scanning a QR code at any printer and access your print workflows from a browser on any device, all signed in with your Microsoft 365 account. GA date: July CY2026 Preview date: July CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "465501018e0e",
-        "title": "Microsoft Purview: Endpoint Data Loss Prevention - Policy Sync & Device Health AI Skill",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=562016",
+        "fingerprint": "065050f6b415",
+        "title": "Microsoft Purview: Data Loss Prevention - Reusable Global List for Exchange Online",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561919",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-05-12T23:00:33+00:00",
-        "summary": "AI agent skill to detect and alert unhealthy policy sync and device configuration. GA date: July CY2026 Preview date: June CY2026",
+        "published": "2026-05-13T23:00:44+00:00",
+        "summary": "Reusable Lists centralize management of keywords, domains, and email addresses, eliminating duplication across rules and reducing the effort required to maintain large policies. GA date: July CY2026 Preview date: June CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "d9867e349431",
-        "title": "Microsoft Teams: Scoped Search for SharePoint app in Teams (Viva Connections)",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=562015",
+        "fingerprint": "dab3375f3c8f",
+        "title": "Microsoft Teams: Save your event as template to reuse event configurations",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561915",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-05-12T23:00:33+00:00",
-        "summary": "With this feature, users accessing search through the Teams search icon while within the SharePoint app in Teams (Viva Connections) will be able to receive search result scoped to SharePoint global search. Hitting enter on the search query will then open the SharePoint search page. GA date: June CY2026",
+        "published": "2026-05-13T23:00:44+00:00",
+        "summary": "Organizers for Teams events instances will now be able to reuse their event configurations in the Events app in Teams. Organizers can save these configurations as a template in the Events app to use again for future Teams events. GA date: June CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "5dd9026e1d20",
-        "title": "Microsoft Copilot (Microsoft 365): SharePoint list support in Agent Builder",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561920",
+        "fingerprint": "b5dc17e1a4b3",
+        "title": "Microsoft Copilot (Microsoft 365): Dynamic Tool Discovery for Declarative Agents and Federated Copilot Connectors",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561855",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-05-12T23:00:33+00:00",
-        "summary": "Agent Builder now supports using a SharePoint list as a knowledge source for agents in Microsoft 365 Copilot. Makers can ground an agent in structured list data so users can ask questions and get responses based on information stored in a selected SharePoint list. For this release, each agent can reference one SharePoint list with up to 20,000 items, alongside other knowledge source types. Supp...",
+        "published": "2026-05-13T23:00:44+00:00",
+        "summary": "We're introducing dynamic tool discovery for declarative agents in Microsoft 365 Copilot. Developers can now add, update, or retire tools on their MCP servers without republishing the agent - so end users get the latest agent capabilities immediately, with no deployment cycle in between. Support for federated Copilot connectors will be a fast follow to declarative agents at a later stage. Dynam...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "c99bdd1043b4",
-        "title": "Microsoft Purview: Data Loss Prevention to restrict processing external emails in Microsoft 365 Copilot and Copilot Chat",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561552",
+        "fingerprint": "032585c01d1e",
+        "title": "Microsoft Copilot (Microsoft 365): Copilot in PowerPoint for Government clouds",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561322",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-05-12T23:00:33+00:00",
-        "summary": "We are expanding Microsoft Purview DLP for Microsoft 365 Copilot and Copilot Chat to safeguard risks from external emails. This real-time control helps organizations mitigate data risks by preventing Microsoft 365 Copilot and Chat from processing emails from senders external to your organization. This capability currently extends to Microsoft 365 Copilot and agents built in Copilot Studio that ...",
+        "published": "2026-05-13T23:00:44+00:00",
+        "summary": "Copilot in PowerPoint lets you create, edit, and refine presentations through natural conversation, directly in your presentation. You can start a new presentation or build on an existing one, asking Copilot to generate slides, update content, improve layouts, and polish design—while preserving formatting, structure, and branding. Copilot uses your files, meetings, emails, and more to help shap...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "e3de8904bf06",
-        "title": "Microsoft Edge: Intune MAM Protected Downloads",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561551",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-05-12T23:00:33+00:00",
-        "summary": "The protected downloads feature for Intune MAM will now save downloaded files to the Documents > Microsoft Edge > Downloads folder in OneDrive. GA date: June CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "e8d493f2cf01",
-        "title": "Microsoft Edge: Allow M365 authentication popups in work profiles",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561035",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-05-12T23:00:33+00:00",
-        "summary": "When users are signed in with a work account, some Microsoft 365 sites (for example, microsoft.com, cloud.microsoft, and microsoft365.com) may open authentication pop-up windows to Microsoft sign-in endpoints such as login.microsoftonline.com, login.live.com, or login.microsoft.com. These pop-ups are required to complete sign-in. Microsoft Edge now allows authentication pop-up windows from Micr...",
+        "fingerprint": "71363aab014e",
+        "title": "In development - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/whats-new/in-development",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-05-13T17:34:00+00:00",
+        "summary": "In develop... To learn more, see: Wi-Fi profiles settings list Learn more about Wi-Fi profiles in Intune Applies to: macOS 15 and later New Wired Networks device configuration profile for iOS/iPadOS There will be a new 802.1x Wired Networks device configuration profile for iOS/iPadOS devices. Applies to: iOS/iPadOS 17 and newer New Block Bluetooth.",
         "category": "upcoming_changes"
       }
     ],
     "official_news": [
       {
-        "fingerprint": "896052142a73",
-        "title": "Accelerating detection engineering using AI-assisted synthetic attack logs generation",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/accelerating-detection-engineering-using-ai-assisted-synthetic-attack-logs-generation/",
-        "source": "Microsoft Security Blog",
-        "published": "2026-05-12T22:53:09+00:00",
-        "summary": "What if you could generate realistic attack telemetry on demand? Explore research methods that translate attacker behaviors (TTPs) into synthetic logs that can trigger detections at scale and without sensitive data. The post Accelerating detection engineering using AI-assisted synthetic attack logs generation appeared first on Microsoft Security Blog .",
-        "category": "official_news"
-      },
-      {
-        "fingerprint": "5b69b80611d7",
-        "title": "Defense at AI speed: Microsoft’s new multi-model agentic security system tops leading industry benchmark",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/defense-at-ai-speed-microsofts-new-multi-model-agentic-security-system-tops-leading-industry-benchmark/",
-        "source": "Microsoft Security Blog",
-        "published": "2026-05-12T22:00:00+00:00",
-        "summary": "Today Microsoft is announcing a major step forward in AI-powered cyber defense: a new multi-model agentic scanning harness (codenamed MDASH). The post Defense at AI speed: Microsoft’s new multi-model agentic security system tops leading industry benchmark appeared first on Microsoft Security Blog .",
-        "category": "official_news"
-      },
-      {
-        "fingerprint": "1396d4e82dee",
-        "title": "What's new in Windows 365 Enterprise",
-        "link": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new",
+        "fingerprint": "bafce5c36df7",
+        "title": "Use Multi Admin Approval in Intune - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/fundamentals/role-based-access-control/multi-admin-approval",
         "source": "Microsoft Intune What's New",
-        "published": "2026-05-12T21:00:00+00:00",
-        "summary": "What's new in Windows 365 Enterprise and Windows 365 Flex Summarize this article for me In this article Learn what new features are available in Windows 365 Enterprise and Windows 365 Flex. Admin Insights for Windows 3... Week of April 6, 2026 Updates to Windows 365 navigation in the Microsoft Intune admin center now generally available The.",
+        "published": "2026-05-14T07:37:00+00:00",
+        "summary": "Role 1: Access policy manager To create and manage access policies, use an account with one of the following options: Custom Intune role (recommended): Use a custom role that includes the following Multi Admin Approval permissions: Permission Description Create access policy Create new MAA access policies Read access policy View existing MAA.",
         "category": "official_news"
       },
       {
-        "fingerprint": "624dc40ac494",
-        "title": "Defending consumer web properties against modern DDoS attacks",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/defending-consumer-web-properties-against-modern-ddos-attacks/",
-        "source": "Microsoft Security Blog",
-        "published": "2026-05-12T16:00:00+00:00",
-        "summary": "Read how to protect consumer websites and defend against modern DDoS attacks with layered security, resilient architecture, and graceful service degradation. The post Defending consumer web properties against modern DDoS attacks appeared first on Microsoft Security Blog .",
+        "fingerprint": "571306ef90b1",
+        "title": "What's new in Microsoft Intune - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/whats-new/",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-05-13T17:34:00+00:00",
+        "summary": "Applies to: macOS 26 and newer Company Portal 5.2604.0 and newer Week of May 4, 2026 Monitor and troubleshoot Enhanced app inventory with faster data updates Intune enhanced app inventory brings faster, more detailed visibility into the apps in your environment to support identification of outdated or risky software. Applies to: Windows 10/11 Week.",
         "category": "official_news"
       },
       {
-        "fingerprint": "ddd3618462d2",
-        "title": "Undermining the trust boundary: Investigating a stealthy intrusion through third-party compromise",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/undermining-the-trust-boundary-investigating-a-stealthy-intrusion-through-third-party-compromise/",
-        "source": "Microsoft Security Blog",
-        "published": "2026-05-12T15:00:00+00:00",
-        "summary": "Microsoft Incident Response investigated an attack operated through legitimate and trusted administrative mechanisms to blend seamlessly into routine operations and remain undetected demonstrating that intrusions have increasingly avoided using noisy exploits, obvious malware, or custom tooling, instead leveraging systems that organizations already trust within their environments. The post Unde...",
+        "fingerprint": "30c73696f7ff",
+        "title": "Configure Platform SSO for macOS devices - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/device-configuration/settings-catalog/configure-platform-sso-macos",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-05-13T17:34:00+00:00",
+        "summary": "Configure Platform SSO for macOS devices in Microsoft Intune Summarize this article for me In this article You can configure Platform SSO to enable single sign-on (SSO) for your macOS devices using passwordless authentication, Microsoft Entra ID user accounts, or smart cards. Platform SSO is a Microsoft Entra feature that enhances the Microsoft.",
         "category": "official_news"
       }
     ],
     "community_buzz": [
+      {
+        "fingerprint": "327c1a23ed43",
+        "title": "Nightmare-Eclipse drops YellowKey and GreenPlasma exploits for Windows 11",
+        "link": "https://www.neowin.net/news/nightmare-eclipse-drops-yellowkey-and-greenplasma-exploits-for-windows-11/",
+        "source": "Neowin",
+        "published": "2026-05-14T06:08:01+00:00",
+        "summary": "Is there a backdoor in BitLocker? A new exploit suggests Microsoft might have left the door open for data access, while a second flaw threatens system security. Read more...",
+        "category": "community_buzz"
+      },
       {
         "fingerprint": "99c5496af627",
         "title": "Microsoft fixes Windows Autopatch bug installing restricted drivers",
@@ -232,15 +242,6 @@
         "source": "BleepingComputer",
         "published": "2026-05-13T14:36:09+00:00",
         "summary": "Microsoft has fixed a Windows Autopatch bug that caused driver updates restricted by administrative policies to be deployed on some Autopatch-managed Windows devices in the European Union. [...]",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "812ecfb88e3c",
-        "title": "Microsoft says some users can't install Office on Windows 365 devices",
-        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-some-users-cant-install-office-on-windows-365-devices/",
-        "source": "BleepingComputer",
-        "published": "2026-05-13T11:53:54+00:00",
-        "summary": "Microsoft says some customers are experiencing issues downloading and installing Office on their Windows 365 devices. [...]",
         "category": "community_buzz"
       }
     ]
