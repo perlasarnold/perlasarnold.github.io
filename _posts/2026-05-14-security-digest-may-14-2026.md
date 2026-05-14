@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - May 14, 2026"
+date: 2026-05-14 16:06:59 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - May 14, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -125,4 +133,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [I tried using apparmor (linux security) but it doesn't seem to work very well](https://www.reddit.com/r/cybersecurity/comments/1tcxgal/i_tried_using_apparmor_linux_security_but_it/) - *(Reddit r/cybersecurity)*
 - [Level Effect AMA! Former NSA Operators turned EDR developers and trainers in 2020. We’ve seen a lot of trends over the years and want to start being active in r/cybersecurity giving back. Ask us anything!](https://www.reddit.com/r/cybersecurity/comments/1tcxech/level_effect_ama_former_nsa_operators_turned_edr/) - *(Reddit r/cybersecurity)*
 - [How are small security teams handling vulnerability overload now?](https://www.reddit.com/r/cybersecurity/comments/1tcv3qu/how_are_small_security_teams_handling/) - *(Reddit r/cybersecurity)*
+
 
