@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - May 15, 2026"
+date: 2026-05-15 15:59:01 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - May 15, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -129,4 +137,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Beyond Acceleration and Automation: How AI + Intelligence Changes Cyber Defence](https://www.reddit.com/r/cybersecurity/comments/1tdu8jp/beyond_acceleration_and_automation_how_ai/) - *(Reddit r/cybersecurity)*
 - [PraisonAI Vulnerability Exploited Within Hours of Public Disclosure](https://cybersecuritynews.com/praisonai-vulnerability-exploited/) - *(CybersecurityNews)*
 - [Exchange Server has a "critical" security bug, but Microsoft does not have a proper fix yet](https://www.neowin.net/news/exchange-server-has-a-critical-security-bug-but-microsoft-does-not-have-a-proper-fix-yet/) - *(Neowin)*
+
 
