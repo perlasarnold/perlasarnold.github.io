@@ -1,17 +1,17 @@
 {
-  "generated_utc": "2026-05-14T15:23:49.677922+00:00",
-  "date": "2026-05-14",
+  "generated_utc": "2026-05-15T15:20:56.979464+00:00",
+  "date": "2026-05-15",
   "lookback_hours": 25,
   "source_status": [
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 6
+      "count": 4
     },
     {
       "name": "Microsoft Intune What's New",
       "status": "OK",
-      "count": 4
+      "count": 0
     },
     {
       "name": "Windows IT Pro Blog",
@@ -21,7 +21,7 @@
     {
       "name": "Microsoft Security Blog",
       "status": "OK",
-      "count": 1
+      "count": 2
     },
     {
       "name": "Microsoft Entra Blog",
@@ -31,17 +31,17 @@
     {
       "name": "BleepingComputer",
       "status": "OK",
-      "count": 3
+      "count": 0
     },
     {
       "name": "Neowin",
       "status": "OK",
-      "count": 1
+      "count": 0
     },
     {
       "name": "The Hacker News",
       "status": "OK",
-      "count": 1
+      "count": 0
     },
     {
       "name": "Krebs on Security",
@@ -91,159 +91,66 @@
     }
   ],
   "items": {
-    "high_alert": [
-      {
-        "fingerprint": "f0a6ccd870e6",
-        "title": "When configuration becomes a vulnerability: Exploitable misconfigurations in AI apps",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/05/14/configuration-becomes-vulnerability-exploitable-misconfigurations-ai-apps/",
-        "source": "Microsoft Security Blog",
-        "published": "2026-05-14T14:20:55+00:00",
-        "summary": "Exposed UIs, weak authentication, and risky defaults could turn cloud-native AI apps on Kubernetes into potential targets by threat actors. Learn how exploitable misconfigurations lead to RCE and data leaks. The post When configuration becomes a vulnerability: Exploitable misconfigurations in AI apps appeared first on Microsoft Security Blog .",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "0175dbcee571",
-        "title": "Windows Zero-Days Expose BitLocker Bypasses And CTFMON Privilege Escalation",
-        "link": "https://thehackernews.com/2026/05/windows-zero-days-expose-bitlocker.html",
-        "source": "The Hacker News",
-        "published": "2026-05-14T09:25:50+00:00",
-        "summary": "An anonymous cybersecurity researcher who disclosed three Microsoft Defender vulnerabilities has returned with two more zero-days involving a BitLocker bypass and a privilege escalation impacting Windows Collaborative Translation Framework (CTFMON). The security defects have been codenamed YellowKey and GreenPlasma, respectively, by the researcher, who goes by the online aliases Chaotic Eclipse",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "ba41ac52c716",
-        "title": "Windows BitLocker zero-day gives access to protected drives, PoC released",
-        "link": "https://www.bleepingcomputer.com/news/security/windows-bitlocker-zero-day-gives-access-to-protected-drives-poc-released/",
-        "source": "BleepingComputer",
-        "published": "2026-05-13T16:37:49+00:00",
-        "summary": "A cybersecurity researcher has published proof-of-concept (PoC) exploits for two unpatched Microsoft Windows vulnerabilities named YellowKey and GreenPlasma, which are a BitLocker bypass and a privilege-escalation flaw. [...]",
-        "category": "high_alert"
-      }
-    ],
-    "bad_updates": [
-      {
-        "fingerprint": "0d76a24fc334",
-        "title": "Microsoft fixes BitLocker recovery issue only for Windows 11 users",
-        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bitlocker-recovery-issue-only-for-windows-11-users/",
-        "source": "BleepingComputer",
-        "published": "2026-05-13T15:42:46+00:00",
-        "summary": "Microsoft has addressed a known issue causing some Windows 11 systems to boot into BitLocker recovery after installing the April 2026 Windows security updates. [...]",
-        "category": "bad_updates"
-      }
-    ],
+    "high_alert": [],
+    "bad_updates": [],
     "upcoming_changes": [
       {
-        "fingerprint": "e717d025f134",
-        "title": "Microsoft Teams: Interpreter - Simultaneous mode enhancements",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=562035",
+        "fingerprint": "4d7d99f6ef22",
+        "title": "Microsoft Viva: Agent metrics for custom reporting in Insights analyst workbench",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=562412",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-05-13T23:00:44+00:00",
-        "summary": "We’re introducing 3 enhancements to AI Interpreter’s Simultaneous mode. First, the interpreter audio and live captions now match exactly, with both using the same language the user selects. Second, admins can fully disable voice simulation if needed. Third, users will have more platform voice options, with dynamic voice assignments that help distinguish each speaker and make conversations easie...",
+        "published": "2026-05-14T23:15:59+00:00",
+        "summary": "Unlock deeper insights into Copilot agent adoption with flexible, self-serve analytics. Insights global and partition analysts can access and combine granular agent usage metrics with agent and organizational attributes to uncover agent adoption trends, export and customize reporting, and drive more informed decisions, without relying on predefined dashboards. GA date: September CY2026 Preview ...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "c6a18d1a5c4b",
-        "title": "Universal Print: Universal Print Portal",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561922",
+        "fingerprint": "34f7d736aad0",
+        "title": "Microsoft Teams: Join Google Meet meetings in Teams Rooms on Windows",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=562341",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-05-13T23:00:44+00:00",
-        "summary": "You can release your secure print jobs by scanning a QR code at any printer and access your print workflows from a browser on any device, all signed in with your Microsoft 365 account. GA date: July CY2026 Preview date: July CY2026",
+        "published": "2026-05-14T23:15:59+00:00",
+        "summary": "Organizations now have expanded meeting interoperability with two-way Direct Guest Join (DGJ) between Google Meet and Teams meetings. Teams Rooms on Windows devices can join Google Meet meetings, and Google Meet devices can join Teams meetings. Users can join with one click through the calendar or by meeting ID. This capability is now available for both Commercial (Feb 2026) and Government clou...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "065050f6b415",
-        "title": "Microsoft Purview: Data Loss Prevention - Reusable Global List for Exchange Online",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561919",
+        "fingerprint": "8ccec6e61fb6",
+        "title": "Microsoft Teams: Preloaded video for Teams Events and Meetings",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=562340",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-05-13T23:00:44+00:00",
-        "summary": "Reusable Lists centralize management of keywords, domains, and email addresses, eliminating duplication across rules and reducing the effort required to maintain large policies. GA date: July CY2026 Preview date: June CY2026",
+        "published": "2026-05-14T23:15:59+00:00",
+        "summary": "Users can now upload videos directly into a Teams event or meeting from OneDrive from the \"Manage view\" options when an organizer has turned on Manage What Attendees See mode. This ensures a smoother high quality video playback with a more consistent experience for attendees. GA date: June CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "dab3375f3c8f",
-        "title": "Microsoft Teams: Save your event as template to reuse event configurations",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561915",
+        "fingerprint": "6170196d9408",
+        "title": "Microsoft Copilot Studio: Invoke agents as workflow steps with the agent node",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=562222",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-05-13T23:00:44+00:00",
-        "summary": "Organizers for Teams events instances will now be able to reuse their event configurations in the Events app in Teams. Organizers can save these configurations as a template in the Events app to use again for future Teams events. GA date: June CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "b5dc17e1a4b3",
-        "title": "Microsoft Copilot (Microsoft 365): Dynamic Tool Discovery for Declarative Agents and Federated Copilot Connectors",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561855",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-05-13T23:00:44+00:00",
-        "summary": "We're introducing dynamic tool discovery for declarative agents in Microsoft 365 Copilot. Developers can now add, update, or retire tools on their MCP servers without republishing the agent - so end users get the latest agent capabilities immediately, with no deployment cycle in between. Support for federated Copilot connectors will be a fast follow to declarative agents at a later stage. Dynam...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "032585c01d1e",
-        "title": "Microsoft Copilot (Microsoft 365): Copilot in PowerPoint for Government clouds",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561322",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-05-13T23:00:44+00:00",
-        "summary": "Copilot in PowerPoint lets you create, edit, and refine presentations through natural conversation, directly in your presentation. You can start a new presentation or build on an existing one, asking Copilot to generate slides, update content, improve layouts, and polish design—while preserving formatting, structure, and branding. Copilot uses your files, meetings, emails, and more to help shap...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "71363aab014e",
-        "title": "In development - Microsoft Intune",
-        "link": "https://learn.microsoft.com/en-us/intune/whats-new/in-development",
-        "source": "Microsoft Intune What's New",
-        "published": "2026-05-13T17:34:00+00:00",
-        "summary": "In develop... To learn more, see: Wi-Fi profiles settings list Learn more about Wi-Fi profiles in Intune Applies to: macOS 15 and later New Wired Networks device configuration profile for iOS/iPadOS There will be a new 802.1x Wired Networks device configuration profile for iOS/iPadOS devices. Applies to: iOS/iPadOS 17 and newer New Block Bluetooth.",
+        "published": "2026-05-14T23:15:59+00:00",
+        "summary": "Add an agent node to your workflow to reason over data, call tools, and return a response, all within a single step. The agent node lets you embed reasoning directly into your workflow. This means fewer manual handoffs, faster processing times, and workflows that can handle nuanced decisions without additional development effort, helping teams automate more of their end-to-end processes and red...",
         "category": "upcoming_changes"
       }
     ],
     "official_news": [
       {
-        "fingerprint": "bafce5c36df7",
-        "title": "Use Multi Admin Approval in Intune - Microsoft Intune",
-        "link": "https://learn.microsoft.com/en-us/intune/fundamentals/role-based-access-control/multi-admin-approval",
-        "source": "Microsoft Intune What's New",
-        "published": "2026-05-14T07:37:00+00:00",
-        "summary": "Role 1: Access policy manager To create and manage access policies, use an account with one of the following options: Custom Intune role (recommended): Use a custom role that includes the following Multi Admin Approval permissions: Permission Description Create access policy Create new MAA access policies Read access policy View existing MAA.",
+        "fingerprint": "b5ea3c8ab0bf",
+        "title": "Defense in depth for autonomous AI agents",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/05/14/defense-in-depth-autonomous-ai-agents/",
+        "source": "Microsoft Security Blog",
+        "published": "2026-05-14T16:00:00+00:00",
+        "summary": "As AI agents gain autonomy, defense in depth must evolve, with application-layer design, identity, and human oversight at the center. The post Defense in depth for autonomous AI agents appeared first on Microsoft Security Blog .",
         "category": "official_news"
       },
       {
-        "fingerprint": "571306ef90b1",
-        "title": "What's new in Microsoft Intune - Microsoft Intune",
-        "link": "https://learn.microsoft.com/en-us/intune/whats-new/",
-        "source": "Microsoft Intune What's New",
-        "published": "2026-05-13T17:34:00+00:00",
-        "summary": "Applies to: macOS 26 and newer Company Portal 5.2604.0 and newer Week of May 4, 2026 Monitor and troubleshoot Enhanced app inventory with faster data updates Intune enhanced app inventory brings faster, more detailed visibility into the apps in your environment to support identification of outdated or risky software. Applies to: Windows 10/11 Week.",
-        "category": "official_news"
-      },
-      {
-        "fingerprint": "30c73696f7ff",
-        "title": "Configure Platform SSO for macOS devices - Microsoft Intune",
-        "link": "https://learn.microsoft.com/en-us/intune/device-configuration/settings-catalog/configure-platform-sso-macos",
-        "source": "Microsoft Intune What's New",
-        "published": "2026-05-13T17:34:00+00:00",
-        "summary": "Configure Platform SSO for macOS devices in Microsoft Intune Summarize this article for me In this article You can configure Platform SSO to enable single sign-on (SSO) for your macOS devices using passwordless authentication, Microsoft Entra ID user accounts, or smart cards. Platform SSO is a Microsoft Entra feature that enhances the Microsoft.",
+        "fingerprint": "d4c677aa9ab4",
+        "title": "Kazuar: Anatomy of a nation-state botnet",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/05/14/kazuar-anatomy-of-a-nation-state-botnet/",
+        "source": "Microsoft Security Blog",
+        "published": "2026-05-14T15:00:00+00:00",
+        "summary": "Kazuar, a sophisticated malware family attributed to the Russian state actor Secret Blizzard, has been under constant development for years and continues to evolve in support of espionage-focused operations. Over time, Kazuar has expanded from a relatively traditional backdoor into a highly modular peer-to-peer (P2P) botnet ecosystem designed to enable persistent, covert access to target enviro...",
         "category": "official_news"
       }
     ],
-    "community_buzz": [
-      {
-        "fingerprint": "327c1a23ed43",
-        "title": "Nightmare-Eclipse drops YellowKey and GreenPlasma exploits for Windows 11",
-        "link": "https://www.neowin.net/news/nightmare-eclipse-drops-yellowkey-and-greenplasma-exploits-for-windows-11/",
-        "source": "Neowin",
-        "published": "2026-05-14T06:08:01+00:00",
-        "summary": "Is there a backdoor in BitLocker? A new exploit suggests Microsoft might have left the door open for data access, while a second flaw threatens system security. Read more...",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "99c5496af627",
-        "title": "Microsoft fixes Windows Autopatch bug installing restricted drivers",
-        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-autopatch-bug-installing-restricted-drivers/",
-        "source": "BleepingComputer",
-        "published": "2026-05-13T14:36:09+00:00",
-        "summary": "Microsoft has fixed a Windows Autopatch bug that caused driver updates restricted by administrative policies to be deployed on some Autopatch-managed Windows devices in the European Union. [...]",
-        "category": "community_buzz"
-      }
-    ]
+    "community_buzz": []
   }
 }
