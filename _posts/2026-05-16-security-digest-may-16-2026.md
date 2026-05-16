@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - May 16, 2026"
+date: 2026-05-16 14:49:29 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - May 16, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -93,4 +101,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Google Project Zero Discloses Zero-Click Exploit Chain for Pixel 10 Devices](https://cybersecuritynews.com/zero-click-exploit-chain-pixel-10-devices/) - *(CybersecurityNews)*
 - [Red Team Ops Ⅱ ( CRTL ) exam preparation](https://www.reddit.com/r/cybersecurity/comments/1tei78g/red_team_ops_ⅱ_crtl_exam_preparation/) - *(Reddit r/cybersecurity)*
 - [VMware Fusion Pro 26H1 released with support for more guest OSes](https://www.neowin.net/news/vmware-fusion-pro-26h1-released-with-support-for-more-guest-oses/) - *(Neowin)*
+
 
