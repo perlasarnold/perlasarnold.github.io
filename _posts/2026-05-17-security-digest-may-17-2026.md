@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - May 17, 2026"
+date: 2026-05-17 14:50:51 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - May 17, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -92,4 +100,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Grafana Labs Security Breach – Hackers Access GitHub and Download Codebase](https://cybersecuritynews.com/grafana-labs-security-breach/) - *(CybersecurityNews)*
 - [Career advice needed - 6 YoE - Mid-career infra/cloud engineer feeling stuck between traditional ops and modern DevOps — need realistic direction](https://www.reddit.com/r/sysadmin/comments/1tfjixt/career_advice_needed_6_yoe_midcareer_infracloud/) - *(Reddit r/sysadmin)*
 - [What is session level DLP and is it actually useful for GenAI data leaks?](https://www.reddit.com/r/sysadmin/comments/1tfig0b/what_is_session_level_dlp_and_is_it_actually/) - *(Reddit r/sysadmin)*
+
 
