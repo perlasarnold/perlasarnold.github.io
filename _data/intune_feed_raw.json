@@ -1,12 +1,12 @@
 {
-  "generated_utc": "2026-05-15T15:20:56.979464+00:00",
-  "date": "2026-05-15",
+  "generated_utc": "2026-05-18T16:28:53.856838+00:00",
+  "date": "2026-05-18",
   "lookback_hours": 25,
   "source_status": [
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 4
+      "count": 0
     },
     {
       "name": "Microsoft Intune What's New",
@@ -21,7 +21,7 @@
     {
       "name": "Microsoft Security Blog",
       "status": "OK",
-      "count": 2
+      "count": 0
     },
     {
       "name": "Microsoft Entra Blog",
@@ -93,64 +93,8 @@
   "items": {
     "high_alert": [],
     "bad_updates": [],
-    "upcoming_changes": [
-      {
-        "fingerprint": "4d7d99f6ef22",
-        "title": "Microsoft Viva: Agent metrics for custom reporting in Insights analyst workbench",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=562412",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-05-14T23:15:59+00:00",
-        "summary": "Unlock deeper insights into Copilot agent adoption with flexible, self-serve analytics. Insights global and partition analysts can access and combine granular agent usage metrics with agent and organizational attributes to uncover agent adoption trends, export and customize reporting, and drive more informed decisions, without relying on predefined dashboards. GA date: September CY2026 Preview ...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "34f7d736aad0",
-        "title": "Microsoft Teams: Join Google Meet meetings in Teams Rooms on Windows",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=562341",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-05-14T23:15:59+00:00",
-        "summary": "Organizations now have expanded meeting interoperability with two-way Direct Guest Join (DGJ) between Google Meet and Teams meetings. Teams Rooms on Windows devices can join Google Meet meetings, and Google Meet devices can join Teams meetings. Users can join with one click through the calendar or by meeting ID. This capability is now available for both Commercial (Feb 2026) and Government clou...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "8ccec6e61fb6",
-        "title": "Microsoft Teams: Preloaded video for Teams Events and Meetings",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=562340",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-05-14T23:15:59+00:00",
-        "summary": "Users can now upload videos directly into a Teams event or meeting from OneDrive from the \"Manage view\" options when an organizer has turned on Manage What Attendees See mode. This ensures a smoother high quality video playback with a more consistent experience for attendees. GA date: June CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "6170196d9408",
-        "title": "Microsoft Copilot Studio: Invoke agents as workflow steps with the agent node",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=562222",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-05-14T23:15:59+00:00",
-        "summary": "Add an agent node to your workflow to reason over data, call tools, and return a response, all within a single step. The agent node lets you embed reasoning directly into your workflow. This means fewer manual handoffs, faster processing times, and workflows that can handle nuanced decisions without additional development effort, helping teams automate more of their end-to-end processes and red...",
-        "category": "upcoming_changes"
-      }
-    ],
-    "official_news": [
-      {
-        "fingerprint": "b5ea3c8ab0bf",
-        "title": "Defense in depth for autonomous AI agents",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/05/14/defense-in-depth-autonomous-ai-agents/",
-        "source": "Microsoft Security Blog",
-        "published": "2026-05-14T16:00:00+00:00",
-        "summary": "As AI agents gain autonomy, defense in depth must evolve, with application-layer design, identity, and human oversight at the center. The post Defense in depth for autonomous AI agents appeared first on Microsoft Security Blog .",
-        "category": "official_news"
-      },
-      {
-        "fingerprint": "d4c677aa9ab4",
-        "title": "Kazuar: Anatomy of a nation-state botnet",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/05/14/kazuar-anatomy-of-a-nation-state-botnet/",
-        "source": "Microsoft Security Blog",
-        "published": "2026-05-14T15:00:00+00:00",
-        "summary": "Kazuar, a sophisticated malware family attributed to the Russian state actor Secret Blizzard, has been under constant development for years and continues to evolve in support of espionage-focused operations. Over time, Kazuar has expanded from a relatively traditional backdoor into a highly modular peer-to-peer (P2P) botnet ecosystem designed to enable persistent, covert access to target enviro...",
-        "category": "official_news"
-      }
-    ],
+    "upcoming_changes": [],
+    "official_news": [],
     "community_buzz": []
   }
 }
