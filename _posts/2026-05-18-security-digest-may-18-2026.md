@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - May 18, 2026"
+date: 2026-05-18 16:44:12 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - May 18, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -131,4 +139,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Linus Torvalds Says AI Bug Reports Have Made Linux Security Mailing List Unmanageable](https://cybersecuritynews.com/linus-torvalds-on-ai-bug-reports/) - *(CybersecurityNews)*
 - [Microsoft confirms Windows 11 security update install issues](https://www.reddit.com/r/cybersecurity/comments/1tgijk0/microsoft_confirms_windows_11_security_update/) - *(Reddit r/cybersecurity)*
 - [Linus Torvalds says AI-powered bug hunters have made Linux security mailing list ‘almost entirely unmanageable’](https://www.reddit.com/r/cybersecurity/comments/1tgibc2/linus_torvalds_says_aipowered_bug_hunters_have/) - *(Reddit r/cybersecurity)*
+
 
