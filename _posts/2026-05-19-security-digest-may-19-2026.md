@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - May 19, 2026"
+date: 2026-05-19 16:47:17 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - May 19, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -89,4 +97,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Framework for Preventing Secret Ideas from Leakage](https://www.reddit.com/r/cybersecurity/comments/1thkvwa/framework_for_preventing_secret_ideas_from_leakage/) - *(Reddit r/cybersecurity)*
 - [Local LLM for building AI Security platform](https://www.reddit.com/r/cybersecurity/comments/1thkqqv/local_llm_for_building_ai_security_platform/) - *(Reddit r/cybersecurity)*
 - [SHub macOS infostealer variant spoofs Apple security updates](https://www.bleepingcomputer.com/news/security/shub-macos-infostealer-variant-spoofs-apple-security-updates/) - *(BleepingComputer)*
+
 
