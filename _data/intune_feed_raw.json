@@ -1,17 +1,17 @@
 {
-  "generated_utc": "2026-05-18T16:28:53.856838+00:00",
-  "date": "2026-05-18",
+  "generated_utc": "2026-05-19T16:25:56.237149+00:00",
+  "date": "2026-05-19",
   "lookback_hours": 25,
   "source_status": [
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 0
+      "count": 4
     },
     {
       "name": "Microsoft Intune What's New",
       "status": "OK",
-      "count": 0
+      "count": 1
     },
     {
       "name": "Windows IT Pro Blog",
@@ -21,7 +21,7 @@
     {
       "name": "Microsoft Security Blog",
       "status": "OK",
-      "count": 0
+      "count": 3
     },
     {
       "name": "Microsoft Entra Blog",
@@ -93,8 +93,82 @@
   "items": {
     "high_alert": [],
     "bad_updates": [],
-    "upcoming_changes": [],
-    "official_news": [],
+    "upcoming_changes": [
+      {
+        "fingerprint": "bb07aa907f2b",
+        "title": "Microsoft Purview: Data Lifecycle Management - Archive OneDrive and SharePoint files under retention",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=562345",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-05-18T22:30:51+00:00",
+        "summary": "Retention based file archiving moves inactive content to low-cost storage, lowering costs with no compromise on Compliance, keeping data discoverable and making Copilot results highly relevant. GA date: July CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "07424d802dc0",
+        "title": "Microsoft Purview: Data Lifecycle Management - Insights and policy recommendations on sensitive M365 data for better Data Security and Compliance posture",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=562343",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-05-18T22:30:51+00:00",
+        "summary": "Insights on sensitive M365 data (OneDrive and SharePoint) and recommendations on retention policies for customers to better govern their sensitive data. GA date: July CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "7478e30d9905",
+        "title": "Microsoft Teams: Support human interpreter listening mode in Microsoft Teams Rooms on Windows",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=562050",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-05-18T22:30:51+00:00",
+        "summary": "Microsoft Teams Rooms on Windows now supports human interpreter listening mode in meetings where organizers enable language interpretation in Meeting options, allowing room participants to select a language and hear interpreter audio. GA date: July CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "ba2830336445",
+        "title": "Microsoft Copilot (Microsoft 365): Work IQ APIs: Researcher Agent Access",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=559018",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-05-18T22:30:51+00:00",
+        "summary": "Allows developers to invoke the Researcher agent through the Work IQ endpoint to perform multi‑step analysis, deep reasoning, and synthesis across enterprise content as part of agentic workflows. GA date: July CY2026 Preview date: June CY2026",
+        "category": "upcoming_changes"
+      }
+    ],
+    "official_news": [
+      {
+        "fingerprint": "69f5905b0aa0",
+        "title": "Exposing Fox Tempest: A malware-signing service operation",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/05/19/exposing-fox-tempest-a-malware-signing-service-operation/",
+        "source": "Microsoft Security Blog",
+        "published": "2026-05-19T15:07:01+00:00",
+        "summary": "Fox Tempest is a financially motivated threat actor operating a malware‑signing‑as‑a‑service (MSaaS) used by other cybercriminals, including Vanilla Tempest and Storm groups, to more effectively distribute malicious code, including ransomware. The post Exposing Fox Tempest: A malware-signing service operation appeared first on Microsoft Security Blog .",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "d3b41f503a9c",
+        "title": "How Storm-2949 turned a compromised identity into a cloud-wide breach",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/05/18/storm-2949-turned-compromised-identity-into-cloud-wide-breach/",
+        "source": "Microsoft Security Blog",
+        "published": "2026-05-18T22:42:50+00:00",
+        "summary": "Storm-2949 turned stolen credentials into a cloud-wide breach, moving from identity compromise to large-scale data theft without using malware. This incident shows how threat actors can exploit trusted systems to operate undetected. The post How Storm-2949 turned a compromised identity into a cloud-wide breach appeared first on Microsoft Security Blog .",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "30c73696f7ff",
+        "title": "Configure Platform SSO for macOS devices - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/device-configuration/settings-catalog/configure-platform-sso-macos",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-05-18T22:35:00+00:00",
+        "summary": "Configure Platform SSO for macOS devices in Microsoft Intune Summarize this article for me In this article You can configure Platform SSO to enable single sign-on (SSO) for your macOS devices using passwordless authentication, Microsoft Entra ID user accounts, or smart cards. Platform SSO is a Microsoft Entra feature that enhances the Microsoft.",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "bf2a41a8d21a",
+        "title": "How to better protect your growing business in an AI-powered world",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/05/18/how-to-better-protect-your-growing-business-in-an-ai-powered-world/",
+        "source": "Microsoft Security Blog",
+        "published": "2026-05-18T16:00:00+00:00",
+        "summary": "See how built-in security helps keep your growing business running, protect customer trust, and support growth. The post How to better protect your growing business in an AI-powered world appeared first on Microsoft Security Blog .",
+        "category": "official_news"
+      }
+    ],
     "community_buzz": []
   }
 }
