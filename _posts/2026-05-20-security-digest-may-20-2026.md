@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - May 20, 2026"
+date: 2026-05-20 16:47:25 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - May 20, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -133,4 +141,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [FreePBX Vulnerability Allow Attackers to Gain Access to User Portals](https://cybersecuritynews.com/freepbx-vulnerability/) - *(CybersecurityNews)*
 - [Critical ExifTool Vulnerability Allows Attackers to Compromise Macs via Single Malicious Image](https://cybersecuritynews.com/exiftool-vulnerability-compromise-macs/) - *(CybersecurityNews)*
 - [Identity Alone Isn't Enough: Why Device Security Has to Share the Load](https://www.bleepingcomputer.com/news/security/identity-alone-isnt-enough-why-device-security-has-to-share-the-load/) - *(BleepingComputer)*
+
 
