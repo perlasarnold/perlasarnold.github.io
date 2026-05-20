@@ -1,12 +1,12 @@
 {
-  "generated_utc": "2026-05-19T16:25:56.237149+00:00",
-  "date": "2026-05-19",
+  "generated_utc": "2026-05-20T16:29:22.446674+00:00",
+  "date": "2026-05-20",
   "lookback_hours": 25,
   "source_status": [
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 4
+      "count": 1
     },
     {
       "name": "Microsoft Intune What's New",
@@ -21,7 +21,7 @@
     {
       "name": "Microsoft Security Blog",
       "status": "OK",
-      "count": 3
+      "count": 0
     },
     {
       "name": "Microsoft Entra Blog",
@@ -31,7 +31,7 @@
     {
       "name": "BleepingComputer",
       "status": "OK",
-      "count": 0
+      "count": 1
     },
     {
       "name": "Neowin",
@@ -41,7 +41,7 @@
     {
       "name": "The Hacker News",
       "status": "OK",
-      "count": 0
+      "count": 1
     },
     {
       "name": "Krebs on Security",
@@ -91,81 +91,46 @@
     }
   ],
   "items": {
-    "high_alert": [],
+    "high_alert": [
+      {
+        "fingerprint": "bd521fedfdd3",
+        "title": "Microsoft Releases Mitigation for YellowKey BitLocker Bypass CVE-2026-45585 Exploit",
+        "link": "https://thehackernews.com/2026/05/microsoft-releases-mitigation-for.html",
+        "source": "The Hacker News",
+        "published": "2026-05-20T08:28:26+00:00",
+        "summary": "Microsoft on Tuesday released a mitigation for a BitLocker bypass vulnerability named YellowKey following its public disclosure last week. The zero-day flaw, now tracked as CVE-2026-45585, carries a CVSS score of 6.8. It has been described as a BitLocker security feature bypass. \"Microsoft is aware of a security feature bypass vulnerability in Windows publicly referred to as 'YellowKey,'\" the",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "f49f57bb159a",
+        "title": "Microsoft shares mitigation for YellowKey Windows zero-day",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-mitigation-for-yellowkey-windows-zero-day/",
+        "source": "BleepingComputer",
+        "published": "2026-05-20T07:31:15+00:00",
+        "summary": "Microsoft has shared mitigations for YellowKey, a recently disclosed Windows BitLocker zero-day vulnerability that grants access to protected drives. [...]",
+        "category": "high_alert"
+      }
+    ],
     "bad_updates": [],
     "upcoming_changes": [
       {
-        "fingerprint": "bb07aa907f2b",
-        "title": "Microsoft Purview: Data Lifecycle Management - Archive OneDrive and SharePoint files under retention",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=562345",
+        "fingerprint": "9332f07ff8a6",
+        "title": "Microsoft Teams: Assign Open Shifts",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=562535",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-05-18T22:30:51+00:00",
-        "summary": "Retention based file archiving moves inactive content to low-cost storage, lowering costs with no compromise on Compliance, keeping data discoverable and making Copilot results highly relevant. GA date: July CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "07424d802dc0",
-        "title": "Microsoft Purview: Data Lifecycle Management - Insights and policy recommendations on sensitive M365 data for better Data Security and Compliance posture",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=562343",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-05-18T22:30:51+00:00",
-        "summary": "Insights on sensitive M365 data (OneDrive and SharePoint) and recommendations on retention policies for customers to better govern their sensitive data. GA date: July CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "7478e30d9905",
-        "title": "Microsoft Teams: Support human interpreter listening mode in Microsoft Teams Rooms on Windows",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=562050",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-05-18T22:30:51+00:00",
-        "summary": "Microsoft Teams Rooms on Windows now supports human interpreter listening mode in meetings where organizers enable language interpretation in Meeting options, allowing room participants to select a language and hear interpreter audio. GA date: July CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "ba2830336445",
-        "title": "Microsoft Copilot (Microsoft 365): Work IQ APIs: Researcher Agent Access",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=559018",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-05-18T22:30:51+00:00",
-        "summary": "Allows developers to invoke the Researcher agent through the Work IQ endpoint to perform multi‑step analysis, deep reasoning, and synthesis across enterprise content as part of agentic workflows. GA date: July CY2026 Preview date: June CY2026",
+        "published": "2026-05-19T22:45:25+00:00",
+        "summary": "Auto Assign Open Shifts is a Microsoft Teams Shifts feature that automatically fills unassigned (open) shifts for you. It lets managers automatically assign open shifts to available employees instead of doing it manually. The system considers factors like employee availability, approved time off, past scheduling patterns, and scheduling rules (e.g., max hours, rest time); and generates a draft ...",
         "category": "upcoming_changes"
       }
     ],
     "official_news": [
       {
-        "fingerprint": "69f5905b0aa0",
-        "title": "Exposing Fox Tempest: A malware-signing service operation",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/05/19/exposing-fox-tempest-a-malware-signing-service-operation/",
-        "source": "Microsoft Security Blog",
-        "published": "2026-05-19T15:07:01+00:00",
-        "summary": "Fox Tempest is a financially motivated threat actor operating a malware‑signing‑as‑a‑service (MSaaS) used by other cybercriminals, including Vanilla Tempest and Storm groups, to more effectively distribute malicious code, including ransomware. The post Exposing Fox Tempest: A malware-signing service operation appeared first on Microsoft Security Blog .",
-        "category": "official_news"
-      },
-      {
-        "fingerprint": "d3b41f503a9c",
-        "title": "How Storm-2949 turned a compromised identity into a cloud-wide breach",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/05/18/storm-2949-turned-compromised-identity-into-cloud-wide-breach/",
-        "source": "Microsoft Security Blog",
-        "published": "2026-05-18T22:42:50+00:00",
-        "summary": "Storm-2949 turned stolen credentials into a cloud-wide breach, moving from identity compromise to large-scale data theft without using malware. This incident shows how threat actors can exploit trusted systems to operate undetected. The post How Storm-2949 turned a compromised identity into a cloud-wide breach appeared first on Microsoft Security Blog .",
-        "category": "official_news"
-      },
-      {
-        "fingerprint": "30c73696f7ff",
-        "title": "Configure Platform SSO for macOS devices - Microsoft Intune",
-        "link": "https://learn.microsoft.com/en-us/intune/device-configuration/settings-catalog/configure-platform-sso-macos",
+        "fingerprint": "571306ef90b1",
+        "title": "What's new in Microsoft Intune - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/whats-new/",
         "source": "Microsoft Intune What's New",
-        "published": "2026-05-18T22:35:00+00:00",
-        "summary": "Configure Platform SSO for macOS devices in Microsoft Intune Summarize this article for me In this article You can configure Platform SSO to enable single sign-on (SSO) for your macOS devices using passwordless authentication, Microsoft Entra ID user accounts, or smart cards. Platform SSO is a Microsoft Entra feature that enhances the Microsoft.",
-        "category": "official_news"
-      },
-      {
-        "fingerprint": "bf2a41a8d21a",
-        "title": "How to better protect your growing business in an AI-powered world",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/05/18/how-to-better-protect-your-growing-business-in-an-ai-powered-world/",
-        "source": "Microsoft Security Blog",
-        "published": "2026-05-18T16:00:00+00:00",
-        "summary": "See how built-in security helps keep your growing business running, protect customer trust, and support growth. The post How to better protect your growing business in an AI-powered world appeared first on Microsoft Security Blog .",
+        "published": "2026-05-19T22:34:00+00:00",
+        "summary": "Applies to: macOS 26 and newer Company Portal 5.2604.0 and newer Week of May 4, 2026 Monitor and troubleshoot Enhanced app inventory with faster data updates Intune enhanced app inventory brings faster, more detailed visibility into the apps in your environment to support identification of outdated or risky software. Applies to: Windows 10/11 Week.",
         "category": "official_news"
       }
     ],
