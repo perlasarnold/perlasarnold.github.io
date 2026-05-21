@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - May 21, 2026"
+date: 2026-05-21 16:35:32 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - May 21, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -135,4 +143,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [9-Year-Old Linux Kernel Flaw Enables Root Command Execution on Major Distros (Yes there is another one, only a CVS 5.5 though this time, still looks pretty bad though)](https://www.reddit.com/r/cybersecurity/comments/1tjhur5/9yearold_linux_kernel_flaw_enables_root_command/) - *(Reddit r/cybersecurity)*
 - [cyber security remote](https://www.reddit.com/r/cybersecurity/comments/1tjhgyl/cyber_security_remote/) - *(Reddit r/cybersecurity)*
 - [Windows Defender Org ID is completely different on our devices from what we're seeing in security.microsoft.com](https://www.reddit.com/r/sysadmin/comments/1tjg7u8/windows_defender_org_id_is_completely_different/) - *(Reddit r/sysadmin)*
+
 
