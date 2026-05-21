@@ -1,17 +1,17 @@
 {
-  "generated_utc": "2026-05-20T16:29:22.446674+00:00",
-  "date": "2026-05-20",
+  "generated_utc": "2026-05-21T16:18:44.193907+00:00",
+  "date": "2026-05-21",
   "lookback_hours": 25,
   "source_status": [
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 1
+      "count": 2
     },
     {
       "name": "Microsoft Intune What's New",
       "status": "OK",
-      "count": 1
+      "count": 10
     },
     {
       "name": "Windows IT Pro Blog",
@@ -21,7 +21,7 @@
     {
       "name": "Microsoft Security Blog",
       "status": "OK",
-      "count": 0
+      "count": 2
     },
     {
       "name": "Microsoft Entra Blog",
@@ -31,7 +31,7 @@
     {
       "name": "BleepingComputer",
       "status": "OK",
-      "count": 1
+      "count": 0
     },
     {
       "name": "Neowin",
@@ -41,7 +41,7 @@
     {
       "name": "The Hacker News",
       "status": "OK",
-      "count": 1
+      "count": 0
     },
     {
       "name": "Krebs on Security",
@@ -91,35 +91,25 @@
     }
   ],
   "items": {
-    "high_alert": [
-      {
-        "fingerprint": "bd521fedfdd3",
-        "title": "Microsoft Releases Mitigation for YellowKey BitLocker Bypass CVE-2026-45585 Exploit",
-        "link": "https://thehackernews.com/2026/05/microsoft-releases-mitigation-for.html",
-        "source": "The Hacker News",
-        "published": "2026-05-20T08:28:26+00:00",
-        "summary": "Microsoft on Tuesday released a mitigation for a BitLocker bypass vulnerability named YellowKey following its public disclosure last week. The zero-day flaw, now tracked as CVE-2026-45585, carries a CVSS score of 6.8. It has been described as a BitLocker security feature bypass. \"Microsoft is aware of a security feature bypass vulnerability in Windows publicly referred to as 'YellowKey,'\" the",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "f49f57bb159a",
-        "title": "Microsoft shares mitigation for YellowKey Windows zero-day",
-        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-mitigation-for-yellowkey-windows-zero-day/",
-        "source": "BleepingComputer",
-        "published": "2026-05-20T07:31:15+00:00",
-        "summary": "Microsoft has shared mitigations for YellowKey, a recently disclosed Windows BitLocker zero-day vulnerability that grants access to protected drives. [...]",
-        "category": "high_alert"
-      }
-    ],
+    "high_alert": [],
     "bad_updates": [],
     "upcoming_changes": [
       {
-        "fingerprint": "9332f07ff8a6",
-        "title": "Microsoft Teams: Assign Open Shifts",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=562535",
+        "fingerprint": "609428626be3",
+        "title": "Microsoft Teams: Interpreter agent support in Teams Rooms on Android",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=562665",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-05-19T22:45:25+00:00",
-        "summary": "Auto Assign Open Shifts is a Microsoft Teams Shifts feature that automatically fills unassigned (open) shifts for you. It lets managers automatically assign open shifts to available employees instead of doing it manually. The system considers factors like employee availability, approved time off, past scheduling patterns, and scheduling rules (e.g., max hours, rest time); and generates a draft ...",
+        "published": "2026-05-20T23:15:13+00:00",
+        "summary": "The Interpreter agent acts as a translator in Microsoft Teams meetings, allowing participants to listen to the meeting in their chosen language with real-time translation so speaking different languages isn’t a barrier to effective understanding and collaboration. It's now available in Teams Rooms on Android licensed for Teams Rooms Pro. GA date: August CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "8b9a8d8da9e6",
+        "title": "Microsoft Purview: Information Protection – Auto-labeling Simulation Evaluation",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=560707",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-05-20T23:15:13+00:00",
+        "summary": "The Simulation Grader helps admins understand and improve auto‑labeling accuracy before enforcing a policy. When enabled during simulation, matched items are evaluated by an AI-powered grader to determine whether each match is a true positive or false positive, along with an explanation of why the content matched. The results roll up into clear policy‑level accuracy insights and file‑level eval...",
         "category": "upcoming_changes"
       }
     ],
@@ -129,8 +119,107 @@
         "title": "What's new in Microsoft Intune - Microsoft Intune",
         "link": "https://learn.microsoft.com/en-us/intune/whats-new/",
         "source": "Microsoft Intune What's New",
-        "published": "2026-05-19T22:34:00+00:00",
+        "published": "2026-05-21T12:36:00+00:00",
         "summary": "Applies to: macOS 26 and newer Company Portal 5.2604.0 and newer Week of May 4, 2026 Monitor and troubleshoot Enhanced app inventory with faster data updates Intune enhanced app inventory brings faster, more detailed visibility into the apps in your environment to support identification of outdated or risky software. Applies to: Windows 10/11 Week.",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "135d132f1a8b",
+        "title": "Android device enrollment guide for Microsoft Intune - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/device-enrollment/android/guide",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-05-21T12:36:00+00:00",
+        "summary": "Enrollment guide: Enroll Android devices in Microsoft Intune Summarize this article for me In this article Personal and organization-owned devices can be enrolled in Intune. Once enrolled, they receive the policies and profiles you create. Intune is ending support for device administrator devices with acces... Microsoft recommends: Don't enroll.",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "bafce5c36df7",
+        "title": "Use Multi Admin Approval in Intune - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/fundamentals/role-based-access-control/multi-admin-approval",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-05-21T12:36:00+00:00",
+        "summary": "Role 1: Access policy manager To create and manage access policies, use an account with one of the following options: Custom Intune role (recommended): Use a custom role that includes the following Multi Admin Approval permissions: Permission Description Create access policy Create new MAA access policies Read access policy View existing MAA.",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "30c73696f7ff",
+        "title": "Configure Platform SSO for macOS devices - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/device-configuration/settings-catalog/configure-platform-sso-macos",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-05-21T12:36:00+00:00",
+        "summary": "Configure Platform SSO for macOS devices in Microsoft Intune Summarize this article for me In this article You can configure Platform SSO to enable single sign-on (SSO) for your macOS devices using passwordless authentication, Microsoft Entra ID user accounts, or smart cards. Platform SSO is a Microsoft Entra feature that enhances the Microsoft.",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "6014930e0bbc",
+        "title": "What is Microsoft Intune? - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/fundamentals/what-is-intune",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-05-21T12:36:00+00:00",
+        "summary": "What is Microsoft Intune. Summarize this article for me In this article Microsoft Intune is a cloud-based endpoint management service that secures and manages your organization's devices and apps. Use Intune to enroll, configure, secure, and update devices, deploy and protect apps, and control which users and devices can access organization.",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "3fae2900c1df",
+        "title": "Device enrollment guide for Microsoft Intune - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/device-enrollment/guide",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-05-21T12:36:00+00:00",
+        "summary": "Enrollment guide: Microsoft Intune enrollment Summarize this article for me In this article Microsoft Intune, together with Microsoft Entra ID, facilitates a secure, streamlined process for registering and enrolling devices that want access to your internal resources. Once users and devices are registered within your Microsoft Entra ID (also.",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "d18e263d5c1c",
+        "title": "Microsoft Cloud PKI for Microsoft Intune - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/cloud-pki/",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-05-21T12:36:00+00:00",
+        "summary": "Overview of Microsoft Cloud PKI for Microsoft Intune Summarize this article for me In this article Use Microsoft Cloud PKI to issue certificates for Intune-managed devices. Microsoft Cloud PKI is a cloud-based service that simplifies and automates certificate lifecycle management for Intune-managed devices. It provides a dedicated public key.",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "00ac277d25a8",
+        "title": "App Protection Policies Overview - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/app-management/protection/overview",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-05-21T12:36:00+00:00",
+        "summary": "App Protection Policies Overview Summarize this article for me In this article Intune app protection policies ensure an organization's data remains safe or contained in a managed app. A managed app in Intune is a protected app where Intune applies app protection policies and manages the app. Intune app protection policies provide several benefits..",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "d4494652ecec",
+        "title": "Use Remote Help to Assist Users Authenticated by your Organization - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/remote-help/",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-05-21T12:36:00+00:00",
+        "summary": "Use Remote Help with Microsoft Intune Summarize this article for me In this article Microsoft Intune Remote Help is a cloud-based remote support solution that allows IT support teams to connect securely to an end-user's device for real-time assistance. It enables organizations to provide remote troubleshooting and guidance with enterprise security.",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "5ddf3a01986f",
+        "title": "Enable MDM automatic enrollment for Windows - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/device-enrollment/windows/enable-automatic-mdm",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-05-21T12:36:00+00:00",
+        "summary": "Set up automatic enrollment for Windows devices Summarize this article for me In this article Simplify device enrollment by enabling automatic enrollment in Microsoft Intune. ... can be used in the following device management and provisioning scenarios: Bring-your-own-device (BYOD), personal devices Bulk enrollment Group Policy Windows Autopilot.",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "14411d089f99",
+        "title": "Mini Shai Hulud: Compromised @antv npm packages enable CI/CD credential theft",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/05/20/mini-shai-hulud-compromised-antv-npm-packages-enable-ci-cd-credential-theft/",
+        "source": "Microsoft Security Blog",
+        "published": "2026-05-20T17:48:44+00:00",
+        "summary": "Compromised @antv npm packages deploy the Mini Shai-Hulud payload to steal CI/CD secrets from Linux-based automation environments. The malware executes during npm install and targets credentials across GitHub, AWS, Kubernetes, Vault, npm, and 1Password platforms. The post Mini Shai Hulud: Compromised @antv npm packages enable CI/CD credential theft appeared first on Microsoft Security Blog .",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "14b26ed60ddb",
+        "title": "Securing the gaming culture of cultures",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/05/20/securing-the-gaming-culture-of-cultures/",
+        "source": "Microsoft Security Blog",
+        "published": "2026-05-20T16:00:00+00:00",
+        "summary": "Read about the unique challenges and rewards of securing gaming platforms and how to better protect gaming communities. The post Securing the gaming culture of cultures appeared first on Microsoft Security Blog .",
         "category": "official_news"
       }
     ],
