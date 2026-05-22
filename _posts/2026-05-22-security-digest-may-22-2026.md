@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - May 22, 2026"
+date: 2026-05-22 16:18:36 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - May 22, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -127,4 +135,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [14 npm/PyPI/AI Supply-Chain Threats Today (2026-05-22): Critical Worms, Credential Harvesting, and RCEs](https://www.reddit.com/r/cybersecurity/comments/1tkfk0l/14_npmpypiai_supplychain_threats_today_20260522/) - *(Reddit r/cybersecurity)*
 - [Microsoft apparently blames researcher for publicly exposing a Windows 11 Recovery flaw](https://www.neowin.net/news/microsoft-apparnetly-blames-researcher-for-publicly-exposing-a-windows-11-recovery-flaw/) - *(Neowin)*
 - [do rollbacks change a PC’s history?](https://www.reddit.com/r/Windows11/comments/1tjcodz/do_rollbacks_change_a_pcs_history/) - *(Reddit r/Windows11)*
+
 
