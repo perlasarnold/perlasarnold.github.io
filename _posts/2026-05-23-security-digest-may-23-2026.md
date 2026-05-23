@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - May 23, 2026"
+date: 2026-05-23 14:55:14 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - May 23, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -94,4 +102,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Pentesting company recommendation](https://www.reddit.com/r/cybersecurity/comments/1tl4n7k/pentesting_company_recommendation/) - *(Reddit r/cybersecurity)*
 - [AI Chatbot Security Research – Prompt Injection Behavior in Financial Context (Seeking Responsible Disclosure Guidance](https://www.reddit.com/r/cybersecurity/comments/1tl241k/ai_chatbot_security_research_prompt_injection/) - *(Reddit r/cybersecurity)*
 - [Are your NVR servers domain joined? (Genetec VMS)](https://www.reddit.com/r/sysadmin/comments/1tl1rv9/are_your_nvr_servers_domain_joined_genetec_vms/) - *(Reddit r/sysadmin)*
+
 
