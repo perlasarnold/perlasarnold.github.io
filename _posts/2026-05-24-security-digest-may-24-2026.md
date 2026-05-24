@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - May 24, 2026"
+date: 2026-05-24 14:57:14 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - May 24, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -87,4 +95,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Am I underpaid or market?](https://www.reddit.com/r/sysadmin/comments/1tliy0r/am_i_underpaid_or_market/) - *(Reddit r/sysadmin)*
 - [Resolving WinAppRuntime Deployment Failure (Error 0x80070032 / AppX Dependency Validation Block)](https://www.reddit.com/r/sysadmin/comments/1tli6gm/resolving_winappruntime_deployment_failure_error/) - *(Reddit r/sysadmin)*
 - [Nginx-poolslip Vulnerability Enables DoS and Code Execution Attacks — Patch Now!](https://cybersecuritynews.com/nginx-poolslip-vulnerability/) - *(CybersecurityNews)*
+
 
