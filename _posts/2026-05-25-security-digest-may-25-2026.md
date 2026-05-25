@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - May 25, 2026"
+date: 2026-05-25 16:17:06 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - May 25, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -80,4 +88,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Crypto4A launches quantum-safe rival to AWS Secrets Manager](https://www.reddit.com/r/cybersecurity/comments/1tnbtf2/crypto4a_launches_quantumsafe_rival_to_aws/) - *(Reddit r/cybersecurity)*
 - [ZTE rated this router leak 3.5 Low. NVD rated it 6.5 Medium. The impact explains why.](https://www.reddit.com/r/cybersecurity/comments/1tnaxpn/zte_rated_this_router_leak_35_low_nvd_rated_it_65/) - *(Reddit r/cybersecurity)*
 - [As AI speeds coding, CVE Lite CLI keeps security deliberately AI-free](https://www.reddit.com/r/cybersecurity/comments/1tn9qqq/as_ai_speeds_coding_cve_lite_cli_keeps_security/) - *(Reddit r/cybersecurity)*
+
 
