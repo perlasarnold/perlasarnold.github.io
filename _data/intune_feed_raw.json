@@ -1,12 +1,12 @@
 {
-  "generated_utc": "2026-05-22T15:51:24.939222+00:00",
-  "date": "2026-05-22",
+  "generated_utc": "2026-05-25T15:54:38.606043+00:00",
+  "date": "2026-05-25",
   "lookback_hours": 25,
   "source_status": [
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 4
+      "count": 0
     },
     {
       "name": "Microsoft Intune What's New",
@@ -21,7 +21,7 @@
     {
       "name": "Microsoft Security Blog",
       "status": "OK",
-      "count": 1
+      "count": 0
     },
     {
       "name": "Microsoft Entra Blog",
@@ -36,7 +36,7 @@
     {
       "name": "Neowin",
       "status": "OK",
-      "count": 1
+      "count": 0
     },
     {
       "name": "The Hacker News",
@@ -93,65 +93,8 @@
   "items": {
     "high_alert": [],
     "bad_updates": [],
-    "upcoming_changes": [
-      {
-        "fingerprint": "850b77180918",
-        "title": "Outlook: Navigate Your Favorite Folders Without Expanding the Folder Pane",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=563810",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-05-21T23:15:57+00:00",
-        "summary": "You can now quickly switch between your favorite folders without opening the full folder pane. When the pane is collapsed, your favorite folders appear as a vertical list, giving you one-click access to the folders you use most. Each folder shows unread or total counts so you always know what needs attention. Right-click any favorite for the same options you're used to, and your selections stay...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "88e6c7b95906",
-        "title": "Outlook: Choose to Show Unread or Total Count for Each Folder",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=563807",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-05-21T23:15:57+00:00",
-        "summary": "You can now pick whether each folder in your folder pane shows the unread count or the total item count. Until now, Outlook only displayed unread counts, but sometimes you need to see how many items are in a folder overall. Just right-click any folder and choose whether to show the total or unread count. It gives you more control over how you keep track of your email without changing how anythi...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "ae542ab1da56",
-        "title": "Outlook: Emails marked with External to be supported as Rules conditions",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=563806",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-05-21T23:15:57+00:00",
-        "summary": "The External tag on an email, set by the ExternalInOutlook feature, will now be usable as a condition in Outlook Inbox Rules. This change also makes available the ability to create or modify these Rules on the new Outlook for Windows, Outlook Web, and Outlook for Mac. GA date: June CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "48f85db1fcf7",
-        "title": "Microsoft Purview: Data Loss Prevention - Reduce policy sync status SLA on the Purview UI from 2 hours to 30 mins",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=562994",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-05-21T23:15:57+00:00",
-        "summary": "Policy updates in Microsoft Purview now sync faster, reducing wait times from up to 2 hours to just 30 minutes, so your protections stay up to date and take effect more quickly across your organization. GA date: June CY2026",
-        "category": "upcoming_changes"
-      }
-    ],
-    "official_news": [
-      {
-        "fingerprint": "5a1fa8f12158",
-        "title": "What’s new in Microsoft Security: May 2026",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/05/21/whats-new-in-microsoft-security-may-2026/",
-        "source": "Microsoft Security Blog",
-        "published": "2026-05-21T16:00:00+00:00",
-        "summary": "Microsoft Security’s latest updates extend visibility, control, and protection across expanding ecosystems as organizations accelerate AI adoption. The post What’s new in Microsoft Security: May 2026 appeared first on Microsoft Security Blog .",
-        "category": "official_news"
-      }
-    ],
-    "community_buzz": [
-      {
-        "fingerprint": "690d78210f67",
-        "title": "Microsoft apparently blames researcher for publicly exposing a Windows 11 Recovery flaw",
-        "link": "https://www.neowin.net/news/microsoft-apparnetly-blames-researcher-for-publicly-exposing-a-windows-11-recovery-flaw/",
-        "source": "Neowin",
-        "published": "2026-05-22T09:06:01+00:00",
-        "summary": "Microsoft appears to blame a security researcher for publicly revealing a legitimate Windows 11 Recovery vulnerability affecting BitLocker protection. Read more...",
-        "category": "community_buzz"
-      }
-    ]
+    "upcoming_changes": [],
+    "official_news": [],
+    "community_buzz": []
   }
 }
