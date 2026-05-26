@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - May 26, 2026"
+date: 2026-05-26 17:22:15 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - May 26, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -101,4 +109,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [help needed from experienced people](https://www.reddit.com/r/cybersecurity/comments/1to7awx/help_needed_from_experienced_people/) - *(Reddit r/cybersecurity)*
 - [Microsoft SharePoint Server Vulnerability Enables Remote Code Execution Attacks](https://cybersecuritynews.com/sharepoint-server-rce-vulnerability/) - *(CybersecurityNews)*
 - [Which one Intellipaat or coursera which one to choose](https://www.reddit.com/r/cybersecurity/comments/1to6fgx/which_one_intellipaat_or_coursera_which_one_to/) - *(Reddit r/cybersecurity)*
+
 
