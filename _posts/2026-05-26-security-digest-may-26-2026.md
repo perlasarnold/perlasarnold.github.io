@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Security Digest - May 26, 2026"
-date: 2026-05-26 17:22:15 +00:00
+date: 2026-05-26 21:48:31 +00:00
 categories: [security-digest]
 tags: [security, tldr, situational-awareness, endpoint-management]
 author: Arnold
@@ -10,14 +10,10 @@ author: Arnold
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
 
-- **Generated (UTC):** 2026-05-26 17:22:15 +00:00
+- **Generated (UTC):** 2026-05-26 21:48:31 +00:00
 - **Lookback window:** 7 days
 
 ## 🚀 Top Research & Advisories
-- **[Audited 20 production repos after the May supply chain attack. Every single one had at least 3 of the 8 misconfigs.](https://www.reddit.com/r/cybersecurity/comments/1to4n77/audited_20_production_repos_after_the_may_supply/)** - *(Reddit r/cybersecurity)*
-  With the recent mass supply chain attack, spent a few days going through 20 production repos to see how exposed they were. Every single repo had at least 3 of the same 8 misconfigs the attackers used. Most had 5 or more. Shared fork/upstream cache na...
-  > **Action:** Monitor developer tool vulnerabilities and supply chain risks.
-
 - **[Cybersecurity statistics of the week (May 18th - May 24th)](https://www.reddit.com/r/cybersecurity/comments/1tob92i/cybersecurity_statistics_of_the_week_may_18th_may/)** - *(Reddit r/cybersecurity)*
   Hi guys, I send out a weekly newsletter with the latest cybersecurity vendor reports and research, and thought you might find it useful, so sharing it here. All the reports and research below were published between May 18th - May 24th. You can get th...
   > **Action:** Validate Edge/WebView2 coverage; refresh managed package.
@@ -26,7 +22,7 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - **[[Price Dropped] Microsoft Visual Studio Professional 2026 now 93% off](https://www.neowin.net/deals/price-dropped-microsoft-visual-studio-professional-2026-now-93-off/)** - *(Neowin)*
   Monitor developer tool vulnerabilities and supply chain risks.
 
-- **[CVE-2026-27173](https://nvd.nist.gov/vuln/detail/CVE-2026-27173)** - *(NVD)*
+- **[I open-sourced KernelEye — an eBPF/XDP-based Linux server security monitoring project](https://www.reddit.com/r/cybersecurity/comments/1tojqrw/i_opensourced_kerneleye_an_ebpfxdpbased_linux/)** - *(Reddit r/cybersecurity)*
   Monitor developer tool vulnerabilities and supply chain risks.
 
 ## 🏗 Infrastructure
@@ -38,9 +34,6 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 
 ## 🛡 Security Ops
 - **[Global Secure Access stopping Claude 365 MCP connection](https://www.reddit.com/r/sysadmin/comments/1todn9n/global_secure_access_stopping_claude_365_mcp/)** - *(Reddit r/sysadmin)*
-  Review CA/MFA settings for tightening opportunities.
-
-- **[passkeys, MFA, biometrics, and you can still reset everything with access to one gmail account](https://www.reddit.com/r/cybersecurity/comments/1to4axl/passkeys_mfa_biometrics_and_you_can_still_reset/)** - *(Reddit r/cybersecurity)*
   Review CA/MFA settings for tightening opportunities.
 
 - **[RSA SecurID / RSA IDPlus Educational Resources?](https://www.reddit.com/r/sysadmin/comments/1to8wyd/rsa_securid_rsa_idplus_educational_resources/)** - *(Reddit r/sysadmin)*
@@ -56,14 +49,17 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - **[China-Linked Hackers Target Southeast Asian Edge Routers With Custom Linux Implant](https://cybersecuritynews.com/china-linked-hackers-target-southeast-asian-edge-routers/)** - *(CybersecurityNews)*
   Validate Edge/WebView2 coverage; refresh managed package.
 
-- **[CVE-2026-32134](https://www.cve.org/CVERecord?id=CVE-2026-32134)** - *(CVE.org)*
-  Validate Edge/WebView2 coverage; refresh managed package.
-
 - **[EU-based folks: external pentest vs mandatory data/security training?](https://www.reddit.com/r/cybersecurity/comments/1to7rg8/eubased_folks_external_pentest_vs_mandatory/)** - *(Reddit r/cybersecurity)*
   Validate workstation security baseline and update compliance.
 
 - **[I turned my Windows 11 into windows 10. It ended up really well.](https://www.reddit.com/r/Windows11/comments/1tmd1so/i_turned_my_windows_11_into_windows_10_it_ended/)** - *(Reddit r/Windows11)*
   Validate workstation security baseline and update compliance.
+
+- **[Laptop windows 11 desktop custom design](https://www.reddit.com/r/Windows11/comments/1to28wb/laptop_windows_11_desktop_custom_design/)** - *(Reddit r/Windows11)*
+  Validate workstation security baseline and update compliance.
+
+- **[Lost MikroTik RB3011 credentials — any safe way to recover or back up config without admin access?](https://www.reddit.com/r/sysadmin/comments/1toescm/lost_mikrotik_rb3011_credentials_any_safe_way_to/)** - *(Reddit r/sysadmin)*
+  Review security controls and policy updates.
 
 - **[Microsoft confirms plans to integrate Copilot with the Taskbar on Windows 11 this summer: Ask Copilot expected to debut "mid-2026"](https://www.reddit.com/r/Windows11/comments/1to994l/microsoft_confirms_plans_to_integrate_copilot/)** - *(Reddit r/Windows11)*
   Validate workstation security baseline and update compliance.
@@ -80,17 +76,20 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - **[Odd issue with new website sub domain](https://www.reddit.com/r/sysadmin/comments/1todifa/odd_issue_with_new_website_sub_domain/)** - *(Reddit r/sysadmin)*
   Validate Chrome coverage; update managed package if needed. Validate Edge/WebView2 coverage; refresh managed package.
 
-- **[Page does not open](https://www.reddit.com/r/sysadmin/comments/1to6rqr/page_does_not_open/)** - *(Reddit r/sysadmin)*
-  Review security controls and policy updates. Validate Chrome coverage; update managed package if needed. Validate Edge/WebView2 coverage; refresh managed package.
-
 - **[RSA SecurID / RSA IDPlus Educational Resources?](https://www.reddit.com/r/sysadmin/comments/1to8wyd/rsa_securid_rsa_idplus_educational_resources/)** - *(Reddit r/sysadmin)*
   Review CA/MFA settings for tightening opportunities. Review Office update channel health and security baseline compliance.
+
+- **[Shared calendar issue today in 365](https://www.reddit.com/r/sysadmin/comments/1tog4rb/shared_calendar_issue_today_in_365/)** - *(Reddit r/sysadmin)*
+  Review Office update channel health and security baseline compliance.
 
 - **[Taskbar Zones? not app groups.](https://www.reddit.com/r/Windows11/comments/1tnlojk/taskbar_zones_not_app_groups/)** - *(Reddit r/Windows11)*
   Review Office update channel health and security baseline compliance. Validate Chrome coverage; update managed package if needed. Validate Edge/WebView2 coverage; refresh managed package.
 
 - **[Troubleshooting Help Needed](https://www.reddit.com/r/sysadmin/comments/1toc69e/troubleshooting_help_needed/)** - *(Reddit r/sysadmin)*
   Review security controls and policy updates. Validate workstation security baseline and update compliance.
+
+- **[Windows 11 gets big performance upgrade, shared audio support, and more in new update](https://www.neowin.net/news/windows-11-gets-big-performance-upgrade-shared-audio-support-and-more-in-new-update/)** - *(Neowin)*
+  Validate workstation security baseline and update compliance.
 
 - **[Windows 11 now lets you remove Microsoft Copilot app with Group Policy or Registry, as it tries to win back users](https://www.reddit.com/r/Windows11/comments/1tn3izt/windows_11_now_lets_you_remove_microsoft_copilot/)** - *(Reddit r/Windows11)*
   Validate workstation security baseline and update compliance.
@@ -99,15 +98,15 @@ Daily security intelligence briefing for infrastructure and endpoint management 
   Validate workstation security baseline and update compliance.
 
 ## 🔍 Quick Links (Watch Items)
+- [Windows 11 gets big performance upgrade, shared audio support, and more in new update](https://www.neowin.net/news/windows-11-gets-big-performance-upgrade-shared-audio-support-and-more-in-new-update/) - *(Neowin)*
+- [I open-sourced KernelEye — an eBPF/XDP-based Linux server security monitoring project](https://www.reddit.com/r/cybersecurity/comments/1tojqrw/i_opensourced_kerneleye_an_ebpfxdpbased_linux/) - *(Reddit r/cybersecurity)*
+- [KnowledgeDeliver flaw exploited as a zero-day to install web shells](https://www.reddit.com/r/cybersecurity/comments/1tojdsq/knowledgedeliver_flaw_exploited_as_a_zeroday_to/) - *(Reddit r/cybersecurity)*
+- [What Software Supply Chain, Water Filters, and Power Grids Have in Common](https://www.reddit.com/r/cybersecurity/comments/1toe4vl/what_software_supply_chain_water_filters_and/) - *(Reddit r/cybersecurity)*
+- [QA engineer trying to move into AppSec — does this plan hold up?](https://www.reddit.com/r/cybersecurity/comments/1todqqj/qa_engineer_trying_to_move_into_appsec_does_this/) - *(Reddit r/cybersecurity)*
 - [AlmaLinux 10.2 released with GNOME 49, i686 userspace packages and more.](https://www.neowin.net/news/almalinux-102-released-with-gnome-49-i686-userspace-packages-and-more/) - *(Neowin)*
 - [CentOS Stream 8 Long-Term Patching](https://www.reddit.com/r/sysadmin/comments/1tocmnt/centos_stream_8_longterm_patching/) - *(Reddit r/sysadmin)*
 - [Cybersecurity statistics of the week (May 18th - May 24th)](https://www.reddit.com/r/cybersecurity/comments/1tob92i/cybersecurity_statistics_of_the_week_may_18th_may/) - *(Reddit r/cybersecurity)*
 - [Environmental consulting firm pushing heavy AI adoption despite employee concerns over environmental impact and data governance](https://www.reddit.com/r/cybersecurity/comments/1toazjw/environmental_consulting_firm_pushing_heavy_ai/) - *(Reddit r/cybersecurity)*
-- [Environmental consulting firm pushing heavy AI adoption despite employee concerns over environmental impact and data governance](https://www.reddit.com/r/sysadmin/comments/1toavcy/environmental_consulting_firm_pushing_heavy_ai/) - *(Reddit r/sysadmin)*
 - [Two layer email security tool thesis](https://www.reddit.com/r/cybersecurity/comments/1toarwh/two_layer_email_security_tool_thesis/) - *(Reddit r/cybersecurity)*
-- [EU-based folks: external pentest vs mandatory data/security training?](https://www.reddit.com/r/cybersecurity/comments/1to7rg8/eubased_folks_external_pentest_vs_mandatory/) - *(Reddit r/cybersecurity)*
-- [help needed from experienced people](https://www.reddit.com/r/cybersecurity/comments/1to7awx/help_needed_from_experienced_people/) - *(Reddit r/cybersecurity)*
-- [Microsoft SharePoint Server Vulnerability Enables Remote Code Execution Attacks](https://cybersecuritynews.com/sharepoint-server-rce-vulnerability/) - *(CybersecurityNews)*
-- [Which one Intellipaat or coursera which one to choose](https://www.reddit.com/r/cybersecurity/comments/1to6fgx/which_one_intellipaat_or_coursera_which_one_to/) - *(Reddit r/cybersecurity)*
 
 
