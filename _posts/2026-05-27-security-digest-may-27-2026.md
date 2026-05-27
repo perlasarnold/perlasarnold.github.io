@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - May 27, 2026"
+date: 2026-05-27 16:58:15 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - May 27, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -101,4 +109,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Research: All three major eBPF security monitors (Falco, Tracee, Tetragon) can be silently disabled via BPF map poisoning](https://www.reddit.com/r/cybersecurity/comments/1tp7hs1/research_all_three_major_ebpf_security_monitors/) - *(Reddit r/cybersecurity)*
 - [Final Year Project: Looking for non-generic IAM project ideas that solve real problems](https://www.reddit.com/r/cybersecurity/comments/1tp7cp9/final_year_project_looking_for_nongeneric_iam/) - *(Reddit r/cybersecurity)*
 - [How do machine builders track Siemens/Rockwell security advisories?](https://www.reddit.com/r/cybersecurity/comments/1tp5vgc/how_do_machine_builders_track_siemensrockwell/) - *(Reddit r/cybersecurity)*
+
 
