@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - May 28, 2026"
+date: 2026-05-28 17:31:57 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - May 28, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -127,4 +135,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [After a year of using Windows Server 2025, I'm finally throwing in the towel](https://www.reddit.com/r/sysadmin/comments/1tq5zma/after_a_year_of_using_windows_server_2025_im/) - *(Reddit r/sysadmin)*
 - [Microsoft vs Chaotic Eclipse: three zero-days now actively exploited](https://www.reddit.com/r/cybersecurity/comments/1tq4ryq/microsoft_vs_chaotic_eclipse_three_zerodays_now/) - *(Reddit r/cybersecurity)*
 - [Proxmox Datacenter Manager 1.1 available](https://www.reddit.com/r/sysadmin/comments/1tq49ce/proxmox_datacenter_manager_11_available/) - *(Reddit r/sysadmin)*
+
 
