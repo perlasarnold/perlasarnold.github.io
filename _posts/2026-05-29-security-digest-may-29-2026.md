@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - May 29, 2026"
+date: 2026-05-29 17:28:55 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - May 29, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -106,4 +114,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Best Personality Type/Traits for Working in Cyber Security](https://www.reddit.com/r/cybersecurity/comments/1tr2h21/best_personality_typetraits_for_working_in_cyber/) - *(Reddit r/cybersecurity)*
 - [Is there a viable career path here or am I just being delusional?](https://www.reddit.com/r/cybersecurity/comments/1tr1afv/is_there_a_viable_career_path_here_or_am_i_just/) - *(Reddit r/cybersecurity)*
 - [US charges Google security engineer with Polymarket insider trading](https://www.bleepingcomputer.com/news/security/us-charges-google-security-engineer-with-polymarket-insider-trading/) - *(BleepingComputer)*
+
 
