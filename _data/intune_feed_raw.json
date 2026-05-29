@@ -1,17 +1,17 @@
 {
-  "generated_utc": "2026-05-28T16:57:01.076395+00:00",
-  "date": "2026-05-28",
+  "generated_utc": "2026-05-29T16:46:43.987744+00:00",
+  "date": "2026-05-29",
   "lookback_hours": 25,
   "source_status": [
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 13
+      "count": 0
     },
     {
       "name": "Microsoft Intune What's New",
       "status": "OK",
-      "count": 1
+      "count": 0
     },
     {
       "name": "Windows IT Pro Blog",
@@ -93,142 +93,15 @@
   "items": {
     "high_alert": [],
     "bad_updates": [],
-    "upcoming_changes": [
-      {
-        "fingerprint": "8b684a8c8700",
-        "title": "Microsoft Purview: Insider Risk Management - Unified alert queue",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=564621",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-05-27T23:15:50+00:00",
-        "summary": "We’re introducing a new unified alert triage experience in Insider Risk Management that brings agent‑driven insights directly into the standard Alerts queue. With this update, analysts can view agent categorizations alongside traditional alert filters and columns in a single, consolidated workflow. The updated alert details panel, enables faster investigation and action from the alerts list pag...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "bfe4581066b3",
-        "title": "Microsoft Purview: Insider Risk Management - Expanding note capabilities across alerts & cases",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=564620",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-05-27T23:15:50+00:00",
-        "summary": "We’re introducing a new collaboration capability in Insider Risk Management that enables analysts and investigators to add notes directly within alerts. With this feature, users can document investigation progress, share findings, and capture key context throughout the triage process. In addition to manually added notes, system‑generated notes will automatically record updates such as alert sta...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "5e8637d521f8",
-        "title": "Microsoft Purview: Insider Risk Management - Enhanced user profile in IRM alerts",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=564619",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-05-27T23:15:50+00:00",
-        "summary": "We’re enhancing the User section within Insider Risk Management alerts to provide investigators with more contextual user profile and risk attributes directly within their workflow. With this update, analysts can now view key user details such as employee type, office location, start date, policy inclusion, priority user group status, and last working day—helping them build a more complete unde...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "ac378918a75a",
-        "title": "Outlook: Variable number of message preview lines",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=564610",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-05-27T23:15:50+00:00",
-        "summary": "Outlook for Windows and Outlook for Web will now allow users to modify how the preview text for emails show in the message list. The preview text can now take up 2 lines, 1 whole line, or 0 additional lines. GA date: June CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "76429ec4585a",
-        "title": "Outlook: All Accounts view (Unified Inbox) brings your email into a single inbox view",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=564609",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-05-27T23:15:50+00:00",
-        "summary": "The All-Accounts view, also known as Unified Inbox, lets you see emails from multiple accounts in a single inbox view in the new Outlook for Windows, without merging your mailboxes. Each account's inbox stays separate; the view brings them together so you can triage in one place. Users can read, delete, move, archive, and mark messages across accounts without switching between mailboxes. The ex...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "3fa474165b69",
-        "title": "Microsoft Copilot (Microsoft 365): Support for MCP Agents with Interactive UI Widgets in Government Clouds",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=564608",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-05-27T23:15:50+00:00",
-        "summary": "Feature description: Model Context Protocol (MCP) based agents in Microsoft 365 Copilot Chat will now be able to surface rich, interactive UI widgets directly within chat. This enhancement enables developers to deliver more engaging and structured agent interactions. Users will experience these widgets when interacting with agents that implement them, and admins will continue to manage these ag...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "20fbe0381095",
-        "title": "Microsoft Copilot (Microsoft 365): MCP-Based Agent Enablement for U.S. Government Clouds",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=564607",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-05-27T23:15:50+00:00",
-        "summary": "We’re introducing support for Model Context Protocol (MCP)-based agents in Microsoft 365 Copilot . This update enables developers to build Copilot agents using MCP servers and allows users to interact with these agents using familiar experiences. This change supports extensibility and improves agent capabilities for organizations. GA date: June CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "ae198f571b8d",
-        "title": "Microsoft Copilot (Microsoft 365): Declarative agents with Actions available in GCC High and DoD",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=564606",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-05-27T23:15:50+00:00",
-        "summary": "Declarative Agents with Actions enable Microsoft 365 Copilot to take real-world actions by invoking APIs, plugins, and enterprise workflows directly within the chat experience. Using custom actions, declarative agents can call external systems, execute operations, and retrieve or update data, moving beyond Q&A to full task completion. These actions are powered through API plugins, MCP tools, an...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "86180ca0e399",
-        "title": "Endpoint Data Loss Prevention — Endpoint DLP now supports a pre curated list of file extensions for the file extension condition",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=562993",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-05-27T23:15:50+00:00",
-        "summary": "Endpoint DLP now includes a pre curated list of file extensions for the file extension condition. Previously, file extensions were entered as free form text, which could result in unsupported or non-scannable extensions being used. This could lead to gaps in protection and increase processing overhead on endpoints. With the pre curated list, you can select only supported file extensions. This h...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "64710f6bacdf",
-        "title": "Microsoft 365 app: New Copilot Notebooks design in the Microsoft 365 Copilot App",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=562662",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-05-27T23:15:50+00:00",
-        "summary": "The new Copilot Notebooks design in the Microsoft 365 Copilot app now lets users organize related chats, output creations, and references into a persistent AI workspace. Copilot uses the Notebook's accumulated context to ground responses, so work continues across sessions instead of starting over each time. While this is the quicker, light-weight Notebooks experience, you can still find the ful...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "e74bc874fbb9",
-        "title": "Microsoft Teams: Mandatory pre-meeting consent",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561914",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-05-27T23:15:50+00:00",
-        "summary": "We are providing a new configuration experience in Teams Admin Center where tenant admins can enable and customize an explicit consent message before joining any meeting hosted in their organization. GA date: July CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "8bf9ab8605bf",
-        "title": "Planner: My Tasks redesign",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=561204",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-05-27T23:15:50+00:00",
-        "summary": "A redesigned My Tasks experience that brings your tasks into one place, making it easier to capture work, prioritize what matters, and stay focused. Copilot helps surface your top priorities. GA date: June CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "b2dfa519a2f9",
-        "title": "Microsoft Copilot (Microsoft 365): Dataverse data connected to Microsoft 365 Copilot",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=560539",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-05-27T23:15:50+00:00",
-        "summary": "Let people search and query Dataverse business data from Microsoft 365 Copilot. GA date: September CY2026 Preview date: June CY2026",
-        "category": "upcoming_changes"
-      }
-    ],
+    "upcoming_changes": [],
     "official_news": [
       {
-        "fingerprint": "e3aef8bc9e17",
-        "title": "The Gentlemen ransomware: Dissecting a self-propagating Go encryptor",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/05/28/the-gentlemen-ransomware-dissecting-a-self-propagating-go-encryptor/",
+        "fingerprint": "847aecf9227c",
+        "title": "Typosquatted npm packages used to steal cloud and CI/CD secrets",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/05/28/typosquatted-npm-packages-used-steal-cloud-ci-cd-secrets/",
         "source": "Microsoft Security Blog",
-        "published": "2026-05-28T15:00:00+00:00",
-        "summary": "Microsoft Threat Intelligence presents a comprehensive analysis of The Gentlemen, a Go-based ransomware deployed by affiliates of Storm-2697 that combines per-file ephemeral key encryption with an aggressive self-propagation module to deploy itself across an entire network using series of simultaneous lateral movement techniques per target. The post The Gentlemen ransomware: Dissecting a self-p...",
-        "category": "official_news"
-      },
-      {
-        "fingerprint": "bafce5c36df7",
-        "title": "Use Multi Admin Approval in Intune - Microsoft Intune",
-        "link": "https://learn.microsoft.com/en-us/intune/fundamentals/role-based-access-control/multi-admin-approval",
-        "source": "Microsoft Intune What's New",
-        "published": "2026-05-27T22:36:00+00:00",
-        "summary": "Use access policies to require multi admin approval Summarize this article for me In this article To help protect against a compromised administrative account, use Microsoft Intune access policies to require that a second administrative account approves a change before the change is applied. By using Multi Admin Approval, you can configure access.",
+        "published": "2026-05-29T03:04:52+00:00",
+        "summary": "The Mini Shai-Hulud campaign used malicious npm packages to target cloud and CI/CD credentials across developer environments. This report details the attack chain, detection opportunities, and mitigation guidance to help organizations identify and disrupt related activity. The post Typosquatted npm packages used to steal cloud and CI/CD secrets appeared first on Microsoft Security Blog .",
         "category": "official_news"
       }
     ],
