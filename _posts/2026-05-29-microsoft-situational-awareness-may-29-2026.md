@@ -1,0 +1,81 @@
+---
+layout: post
+title: "Microsoft Situational Awareness — May 29, 2026"
+date: 2026-05-29 21:09:55 +00:00
+categories: [intune-daily]
+tags: [intune, endpoint-management, daily-intel, situational-awareness]
+author: Arnold
+---
+
+# 📡 Microsoft Situational Awareness — May 29, 2026
+
+> Daily intelligence briefing for Intune administrators.
+> Sources monitored: 16 feeds across Microsoft, Reddit, and security news
+
+---
+
+## 🚨 High Alerts
+
+Items requiring immediate attention from endpoint management teams.
+
+*No high-priority alerts detected in the last 24 hours. All clear.* ✅
+
+---
+
+## ⚠️ Bad Updates & Known Issues
+
+Reports of problematic updates, regressions, and patches causing issues.
+
+*No problematic update reports detected today.*
+
+---
+
+## 📅 Upcoming Changes (14-Day Horizon)
+
+Microsoft changes on the horizon. Plan and act before these take effect.
+
+*No upcoming changes detected in the monitored feeds.*
+
+---
+
+## ✅ Official Microsoft Updates
+
+Feature changes, deprecations, and roadmap items from Microsoft.
+
+- **[Typosquatted npm packages used to steal cloud and CI/CD secrets](https://www.microsoft.com/en-us/security/blog/2026/05/28/typosquatted-npm-packages-used-steal-cloud-ci-cd-secrets/)** — *Microsoft Security Blog*
+  The Mini Shai-Hulud campaign used malicious npm packages to target cloud and CI/CD credentials across developer environments. This report details the attack chain, detection opportunities, and mitigation guidance to help organizations identify and...
+
+---
+
+## 🐛 Community Buzz
+
+What Intune admins are discussing today.
+
+*No notable community discussions detected today.*
+
+---
+
+## 📊 Source Health
+
+| Source | Status | Items Collected |
+|--------|--------|-----------------|
+| Microsoft 365 Roadmap | ✅ OK | 0 |
+| Microsoft Intune What's New | ✅ OK | 0 |
+| Windows IT Pro Blog | ✅ OK | 0 |
+| Microsoft Security Blog | ✅ OK | 1 |
+| Microsoft Entra Blog | ✅ OK | 0 |
+| BleepingComputer | ✅ OK | 0 |
+| Neowin | ✅ OK | 0 |
+| The Hacker News | ✅ OK | 0 |
+| Krebs on Security | ✅ OK | 0 |
+| The Old New Thing | ✅ OK | 0 |
+| Reddit r/Intune | ⚠️ Error — 403 Client Error: Blocked for url: https://www.reddit.com... | 0 |
+| Reddit r/sysadmin | ⚠️ Error — 403 Client Error: Blocked for url: https://www.reddit.com... | 0 |
+| Reddit r/SCCM | ⚠️ Error — 403 Client Error: Blocked for url: https://www.reddit.com... | 0 |
+| Reddit r/microsoft365 | ⚠️ Error — 403 Client Error: Blocked for url: https://www.reddit.com... | 0 |
+| Reddit r/AzureAD | ⚠️ Error — 403 Client Error: Blocked for url: https://www.reddit.com... | 0 |
+| Reddit r/Windows11 | ⚠️ Error — 403 Client Error: Blocked for url: https://www.reddit.com... | 0 |
+
+---
+
+*Generated automatically at May 29, 2026 at 04:46 PM UTC · [View all daily intel →](/blog/)*
