@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - May 30, 2026"
+date: 2026-05-30 15:00:34 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - May 30, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -109,4 +117,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Hitting a plateau after 2 years in Web Security: How do I transition from standard OWASP bugs to finding CVEs and novel techniques?](https://www.reddit.com/r/cybersecurity/comments/1trlnq3/hitting_a_plateau_after_2_years_in_web_security/) - *(Reddit r/cybersecurity)*
 - [AI-Era Cyber Risk Standards](https://www.reddit.com/r/cybersecurity/comments/1trkb87/aiera_cyber_risk_standards/) - *(Reddit r/cybersecurity)*
 - [Can't for the life of me delegate AD computer permissions, help!](https://www.reddit.com/r/sysadmin/comments/1trjogy/cant_for_the_life_of_me_delegate_ad_computer/) - *(Reddit r/sysadmin)*
+
 
