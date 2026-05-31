@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - May 31, 2026"
+date: 2026-05-31 15:14:21 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - May 31, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -121,4 +129,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Security and experience in Rustdesk server](https://www.reddit.com/r/sysadmin/comments/1tsdrq5/security_and_experience_in_rustdesk_server/) - *(Reddit r/sysadmin)*
 - [Microsoft is making a major change to Entra ID authentication](https://www.neowin.net/news/microsoft-is-making-a-major-change-to-entra-id-authentication/) - *(Neowin)*
 - [Smart App Control being on by default breaks half the Python ecosystem](https://www.reddit.com/r/Windows11/comments/1ts6kh9/smart_app_control_being_on_by_default_breaks_half/) - *(Reddit r/Windows11)*
+
 
