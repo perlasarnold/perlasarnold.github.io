@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - June 1, 2026"
+date: 2026-06-01 19:17:06 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - June 1, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -109,4 +117,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Anyone shutting down all IT equipment down on July 13th 11:59pm?](https://www.reddit.com/r/sysadmin/comments/1tty49c/anyone_shutting_down_all_it_equipment_down_on/) - *(Reddit r/sysadmin)*
 - [mDNS disabled script causes DNS Client service fail "Access is Denied"](https://www.reddit.com/r/sysadmin/comments/1ttxtry/mdns_disabled_script_causes_dns_client_service/) - *(Reddit r/sysadmin)*
 - [Research Notes from Building a Windows Event Log Hunting Workflow](https://www.reddit.com/r/cybersecurity/comments/1ttwwbb/research_notes_from_building_a_windows_event_log/) - *(Reddit r/cybersecurity)*
+
 
