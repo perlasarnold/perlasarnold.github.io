@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-05-29T16:46:43.987744+00:00",
-  "date": "2026-05-29",
+  "generated_utc": "2026-06-01T18:41:58.474761+00:00",
+  "date": "2026-06-01",
   "lookback_hours": 25,
   "source_status": [
     {
@@ -11,7 +11,7 @@
     {
       "name": "Microsoft Intune What's New",
       "status": "OK",
-      "count": 0
+      "count": 1
     },
     {
       "name": "Windows IT Pro Blog",
@@ -21,7 +21,7 @@
     {
       "name": "Microsoft Security Blog",
       "status": "OK",
-      "count": 1
+      "count": 0
     },
     {
       "name": "Microsoft Entra Blog",
@@ -36,7 +36,7 @@
     {
       "name": "Neowin",
       "status": "OK",
-      "count": 0
+      "count": 1
     },
     {
       "name": "The Hacker News",
@@ -93,18 +93,28 @@
   "items": {
     "high_alert": [],
     "bad_updates": [],
-    "upcoming_changes": [],
-    "official_news": [
+    "upcoming_changes": [
       {
-        "fingerprint": "847aecf9227c",
-        "title": "Typosquatted npm packages used to steal cloud and CI/CD secrets",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/05/28/typosquatted-npm-packages-used-steal-cloud-ci-cd-secrets/",
-        "source": "Microsoft Security Blog",
-        "published": "2026-05-29T03:04:52+00:00",
-        "summary": "The Mini Shai-Hulud campaign used malicious npm packages to target cloud and CI/CD credentials across developer environments. This report details the attack chain, detection opportunities, and mitigation guidance to help organizations identify and disrupt related activity. The post Typosquatted npm packages used to steal cloud and CI/CD secrets appeared first on Microsoft Security Blog .",
-        "category": "official_news"
+        "fingerprint": "71363aab014e",
+        "title": "In development - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/whats-new/in-development",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-06-01T17:36:00+00:00",
+        "summary": "In develop... To learn more, see: Wi-Fi profiles settings list Learn more about Wi-Fi profiles in Intune Applies to: macOS 15 and later New Wired Networks device configuration profile for iOS/iPadOS There will be a new 802.1x Wired Networks device configuration profile for iOS/iPadOS devices. Applies to: iOS/iPadOS 17 and newer New Block Bluetooth.",
+        "category": "upcoming_changes"
       }
     ],
-    "community_buzz": []
+    "official_news": [],
+    "community_buzz": [
+      {
+        "fingerprint": "68efcf04e08f",
+        "title": "GEEKOM Air12 2026 Edition review: a refresh on what could be your next Cloud PC",
+        "link": "https://www.neowin.net/reviews/geekom-air12-2026-edition-review-a-refresh-on-what-could-be-your-next-cloud-pc/",
+        "source": "Neowin",
+        "published": "2026-06-01T14:36:01+00:00",
+        "summary": "Geekom has released a super-efficient Mini PC that includes the 15W Pentium Gold 7505, which places it as a serious contender for a small business cloud PC solution in the office. Read more...",
+        "category": "community_buzz"
+      }
+    ]
   }
 }
