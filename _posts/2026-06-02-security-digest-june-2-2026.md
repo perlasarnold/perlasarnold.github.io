@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - June 2, 2026"
+date: 2026-06-02 18:01:22 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - June 2, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -97,4 +105,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [What Windows improvements do users actually want? Let’s create a community wishlist for Microsoft.](https://www.reddit.com/r/Windows11/comments/1tut200/what_windows_improvements_do_users_actually_want/) - *(Reddit r/Windows11)*
 - [Airbus digital apprenticeship](https://www.reddit.com/r/cybersecurity/comments/1tut1vj/airbus_digital_apprenticeship/) - *(Reddit r/cybersecurity)*
 - [Applocker deployment question.](https://www.reddit.com/r/sysadmin/comments/1tusw8d/applocker_deployment_question/) - *(Reddit r/sysadmin)*
+
 
