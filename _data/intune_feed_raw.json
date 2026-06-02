@@ -1,17 +1,17 @@
 {
-  "generated_utc": "2026-06-01T18:41:58.474761+00:00",
-  "date": "2026-06-01",
+  "generated_utc": "2026-06-02T17:27:24.151291+00:00",
+  "date": "2026-06-02",
   "lookback_hours": 25,
   "source_status": [
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 0
+      "count": 7
     },
     {
       "name": "Microsoft Intune What's New",
       "status": "OK",
-      "count": 1
+      "count": 2
     },
     {
       "name": "Windows IT Pro Blog",
@@ -36,7 +36,7 @@
     {
       "name": "Neowin",
       "status": "OK",
-      "count": 1
+      "count": 0
     },
     {
       "name": "The Hacker News",
@@ -95,6 +95,69 @@
     "bad_updates": [],
     "upcoming_changes": [
       {
+        "fingerprint": "04377824c47a",
+        "title": "Microsoft Copilot (Microsoft 365): Outlook Emails in Copilot Notebooks",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=564910",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-06-01T23:15:29+00:00",
+        "summary": "Outlook Emails as References in Copilot Notebooks bring email content into the notebook experience, enabling users to ground Copilot in the conversations, decisions, and context that drive their work. By adding emails as knowledge sources, users can connect context from their emails directly to their projects, enriching notebooks beyond files alone and improving downstream outputs like presenta...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "881067cddd3c",
+        "title": "Microsoft 365 admin center: Organizational Data – Granular access policy controls for custom attributes",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=564805",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-06-01T23:15:29+00:00",
+        "summary": "We are introducing enhanced access policy management for Organizational Data in Microsoft 365. This update enables admins to release custom attributes to specific users or groups, rather than broadly to all employees or all managers. This provides a more conservative default approach for managing sensitive organizational data, while also supporting staged rollout of new attributes. Additionally...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "9f934bc41e1e",
+        "title": "Microsoft Copilot (Microsoft 365): Multiple Voice Styles in M365 Copilot voice chats",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=564804",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-06-01T23:15:29+00:00",
+        "summary": "Users can select from multiple voice style options for their voice experience in M365 Copilot. GA date: June CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "a7c6468cb10a",
+        "title": "Microsoft Teams: Manage Built-in Teams agents in the Teams admin center",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=564766",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-06-01T23:15:29+00:00",
+        "summary": "Admins will be able to manage Teams built-in agents across core Teams experiences, including chats, channels, and meetings, through a dedicated experience in the Teams admin center. From a centralized location, admins can control agents’ availability for users and groups. These agents will be enabled by default for licensed users and managed independently from org-wide Microsoft app settings. G...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "df82547b2ecf",
+        "title": "Microsoft Purview: Data Loss Prevention - User Based Aggregation of DLP Alerts",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=564765",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-06-01T23:15:29+00:00",
+        "summary": "Enable aggregation of DLP alerts based on common entities user even when multiple rules are matched. This feature should consolidate related alert events into a single alert object to: Reduce alert noise, simplify investigation workflows, enhance contextual understanding of violations. GA date: August CY2026 Preview date: July CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "5a0595e67dde",
+        "title": "Microsoft Teams: Inline search in compose box",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=564612",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-06-01T23:15:29+00:00",
+        "summary": "Teams enables search directly within the compose box using @mentions, allowing you to quickly find and insert Files, Chats, Channels, and Meetings without leaving your message. By extending @mentions beyond people, Teams provides a more unified and efficient way to reference content in context. This experience reduces context switching and helps streamline collaboration within conversations. GA...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "0ecc7607febb",
+        "title": "Microsoft Copilot (Microsoft 365): Work IQ APIs: Pay‑As‑You‑Go Consumption",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=559017",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-06-01T23:15:29+00:00",
+        "summary": "Enables metered, pay‑as‑you‑go access to Work IQ endpoints, allowing developers to invoke agents and capabilities without requiring pre‑assigned licenses, with usage billed based on the agents and models invoked per request. GA date: June CY2026",
+        "category": "upcoming_changes"
+      },
+      {
         "fingerprint": "71363aab014e",
         "title": "In development - Microsoft Intune",
         "link": "https://learn.microsoft.com/en-us/intune/whats-new/in-development",
@@ -104,17 +167,17 @@
         "category": "upcoming_changes"
       }
     ],
-    "official_news": [],
-    "community_buzz": [
+    "official_news": [
       {
-        "fingerprint": "68efcf04e08f",
-        "title": "GEEKOM Air12 2026 Edition review: a refresh on what could be your next Cloud PC",
-        "link": "https://www.neowin.net/reviews/geekom-air12-2026-edition-review-a-refresh-on-what-could-be-your-next-cloud-pc/",
-        "source": "Neowin",
-        "published": "2026-06-01T14:36:01+00:00",
-        "summary": "Geekom has released a super-efficient Mini PC that includes the 15W Pentium Gold 7505, which places it as a serious contender for a small business cloud PC solution in the office. Read more...",
-        "category": "community_buzz"
+        "fingerprint": "335187471ccb",
+        "title": "Intune-based deployment for Microsoft Defender for Endpoint on macOS - Microsoft Defender for Endpoint",
+        "link": "https://learn.microsoft.com/en-us/defender-endpoint/mac-install-with-intune",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-06-01T22:35:00+00:00",
+        "summary": "Deploy Microsoft Defender for Endpoint on macOS with Microsoft Intune Summarize this article for me In this article This article describes how to deploy Microsoft Defender for Endpoint on macOS through Microsoft Intune. Important If you want to run multiple security solutions side by side, see Considerations for performance, configuration, and.",
+        "category": "official_news"
       }
-    ]
+    ],
+    "community_buzz": []
   }
 }
