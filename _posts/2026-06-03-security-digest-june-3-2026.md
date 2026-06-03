@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - June 3, 2026"
+date: 2026-06-03 18:19:14 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - June 3, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -87,4 +95,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Have you sold cve before?](https://www.reddit.com/r/cybersecurity/comments/1tvs9jk/have_you_sold_cve_before/) - *(Reddit r/cybersecurity)*
 - [Microsoft is making an important security change in Windows soon](https://www.neowin.net/news/microsoft-is-making-an-important-security-change-in-windows-soon/) - *(Neowin)*
 - [Teamviewer OOB access](https://www.reddit.com/r/sysadmin/comments/1tvrni3/teamviewer_oob_access/) - *(Reddit r/sysadmin)*
+
 
