@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - June 4, 2026"
+date: 2026-06-04 16:47:47 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - June 4, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -91,4 +99,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Impact of Vibe Coding on Cyber Security](https://www.reddit.com/r/cybersecurity/comments/1twp7eb/impact_of_vibe_coding_on_cyber_security/) - *(Reddit r/cybersecurity)*
 - [Hackers Are After the Gaps in Your Vulnerability Program: Here's Their Playbook](https://www.bleepingcomputer.com/news/security/hackers-are-after-the-gaps-in-your-vulnerability-program-heres-their-playbook/) - *(BleepingComputer)*
 - [Hackers Actively Exploiting WordPress Plugin Vulnerability to Inject Malicious PHP Code](https://cybersecuritynews.com/wordpress-plugin-vulnerability-exploit/) - *(CybersecurityNews)*
+
 
