@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-03T18:01:50.412075+00:00",
-  "date": "2026-06-03",
+  "generated_utc": "2026-06-04T16:22:14.711898+00:00",
+  "date": "2026-06-04",
   "lookback_hours": 25,
   "source_status": [
     {
@@ -21,7 +21,7 @@
     {
       "name": "Microsoft Security Blog",
       "status": "OK",
-      "count": 2
+      "count": 0
     },
     {
       "name": "Microsoft Entra Blog",
@@ -95,53 +95,34 @@
     "bad_updates": [],
     "upcoming_changes": [
       {
-        "fingerprint": "2ed8e707f454",
-        "title": "Microsoft Purview: Data Loss Prevention - AI Powered Data Loss Prevention Policy Optimizer",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=564616",
+        "fingerprint": "feaa3bbe18aa",
+        "title": "OneDrive: New Shortcuts folder option when adding shortcuts",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=565028",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-06-02T23:15:28+00:00",
-        "summary": "DLP Policy Optimizer uses AI to analyze your organization’s DLP policies, rule structure, and activity signals to identify optimization opportunities that are difficult to detect manually. It highlights overlapping rules, redundant conditions, misconfigurations, and sources of excessive noise, and presents prioritized recommendations with supporting evidence and suggested actions. This enables ...",
+        "published": "2026-06-03T23:00:57+00:00",
+        "summary": "OneDrive makes it easy to add shortcuts to the files and folders you use most. Now you can choose to keep those shortcuts neatly together in one place instead of mixed in with everything else. When you add a shortcut, you can send it to a dedicated \"Shortcuts\" folder rather than your OneDrive root. The folder is created automatically the first time you use it and is easy to spot, with a distinc...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "24a1e17b2f3a",
-        "title": "Outlook: Improved PDF Preview on iOS",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=564970",
+        "fingerprint": "85a21a191a06",
+        "title": "Microsoft Clipchamp: New text and shape animations in the video editor",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=564968",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-06-02T23:00:40+00:00",
-        "summary": "MIP-label protected PDFs are now supported in the PDF previewer along with a built-in control's toolbar for easier navigation. GA date: July CY2026",
+        "published": "2026-06-03T23:00:57+00:00",
+        "summary": "Clipchamp Editor will support simple animations for text layers. Users can apply preset in/out animations, adjust how long the animation lasts, choose its direction, and preview the animated text in the editor prior to exporting. This capability will be available across web and native desktop versions of Clipchamp. GA date: July CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "cbba852b53a1",
-        "title": "Microsoft Teams: New layout when sharing content for Teams events",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=564613",
+        "fingerprint": "4cc9fdd03f34",
+        "title": "Microsoft Purview: Information Protection - Rights Management connector – Certificate-based authentication",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=564617",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-06-02T23:00:40+00:00",
-        "summary": "Organizers and presenters who have access to production tools will see updated layout options when sharing content in the \"Manage what attendees see\" experience for Teams events. The available layouts are \"Speaker focused\", \"Content focused\", and \"Content only\". The new Speaker focused layout prioritizes presenter video alongside shared content for greater visibility. This feature is available ...",
+        "published": "2026-06-03T23:00:57+00:00",
+        "summary": "The Microsoft Rights Management (RMS) connector is moving from shared-secret authentication to certificate-based authentication, improving its security posture. With this update, administrators configure their own Microsoft Entra app registration and certificate, then use the new PowerShell module to configure the certificate for each workload (Connector, Exchange, SharePoint, and FCI). New Pow...",
         "category": "upcoming_changes"
       }
     ],
-    "official_news": [
-      {
-        "fingerprint": "3d2382a67106",
-        "title": "Preinstall to persistence: Inside the Red Hat npm Miasma credential-stealing campaign",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/06/02/preinstall-persistence-inside-red-hat-npm-miasma-credential-stealing-campaign/",
-        "source": "Microsoft Security Blog",
-        "published": "2026-06-03T04:45:06+00:00",
-        "summary": "A large-scale npm supply chain attack compromised over 90 versions of @redhat-cloud-services packages, silently infecting CI/CD environments and developer systems. The malicious code steals credentials from GitHub, cloud platforms, and local machines, then spreads like a worm by republishing trusted packages. Discover how the attack works, what data is at risk, and the steps you can take to pro...",
-        "category": "official_news"
-      },
-      {
-        "fingerprint": "4f63fb0aab9e",
-        "title": "Microsoft Build 2026: Securing code, agents, and models across the development lifecycle",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/06/02/microsoft-build-2026-securing-code-agents-and-models-across-the-development-lifecycle/",
-        "source": "Microsoft Security Blog",
-        "published": "2026-06-02T17:15:18+00:00",
-        "summary": "Discover how Microsoft enables fast, secure AI development with MDASH and new security capabilities. The post Microsoft Build 2026: Securing code, agents, and models across the development lifecycle appeared first on Microsoft Security Blog .",
-        "category": "official_news"
-      }
-    ],
+    "official_news": [],
     "community_buzz": []
   }
 }
