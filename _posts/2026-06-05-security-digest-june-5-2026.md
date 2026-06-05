@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - June 5, 2026"
+date: 2026-06-05 16:26:52 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - June 5, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -100,4 +108,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [what certs have u seen in ai security related job posts ?](https://www.reddit.com/r/cybersecurity/comments/1txfy5c/what_certs_have_u_seen_in_ai_security_related_job/) - *(Reddit r/cybersecurity)*
 - [How is the Security Architecture / Strategic IT Security process structured in your organization?](https://www.reddit.com/r/cybersecurity/comments/1txfluf/how_is_the_security_architecture_strategic_it/) - *(Reddit r/cybersecurity)*
 - [What's happening in cybersecurity job market in US and Europe these days?](https://www.reddit.com/r/cybersecurity/comments/1txenxz/whats_happening_in_cybersecurity_job_market_in_us/) - *(Reddit r/cybersecurity)*
+
 
