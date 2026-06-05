@@ -1,12 +1,12 @@
 {
-  "generated_utc": "2026-06-04T16:22:14.711898+00:00",
-  "date": "2026-06-04",
+  "generated_utc": "2026-06-05T15:58:32.076925+00:00",
+  "date": "2026-06-05",
   "lookback_hours": 25,
   "source_status": [
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 3
+      "count": 4
     },
     {
       "name": "Microsoft Intune What's New",
@@ -21,7 +21,7 @@
     {
       "name": "Microsoft Security Blog",
       "status": "OK",
-      "count": 0
+      "count": 1
     },
     {
       "name": "Microsoft Entra Blog",
@@ -95,34 +95,53 @@
     "bad_updates": [],
     "upcoming_changes": [
       {
-        "fingerprint": "feaa3bbe18aa",
-        "title": "OneDrive: New Shortcuts folder option when adding shortcuts",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=565028",
+        "fingerprint": "e329eafcfc6d",
+        "title": "Microsoft Teams: Multi-line Calling on Teams Mobile",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=565131",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-06-03T23:00:57+00:00",
-        "summary": "OneDrive makes it easy to add shortcuts to the files and folders you use most. Now you can choose to keep those shortcuts neatly together in one place instead of mixed in with everything else. When you add a shortcut, you can send it to a dedicated \"Shortcuts\" folder rather than your OneDrive root. The folder is created automatically the first time you use it and is easy to spot, with a distinc...",
+        "published": "2026-06-04T23:15:54+00:00",
+        "summary": "Make and receive calls using multiple assigned phone numbers directly from your mobile device - choose the right line for every call, with unified call history and seamless switching across all your lines. GA date: July CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "85a21a191a06",
-        "title": "Microsoft Clipchamp: New text and shape animations in the video editor",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=564968",
+        "fingerprint": "2cac8550a0e8",
+        "title": "SharePoint: Agent Access Insights heatmap for SharePoint and OneDrive sites",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=565027",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-06-03T23:00:57+00:00",
-        "summary": "Clipchamp Editor will support simple animations for text layers. Users can apply preset in/out animations, adjust how long the animation lasts, choose its direction, and preview the animated text in the editor prior to exporting. This capability will be available across web and native desktop versions of Clipchamp. GA date: July CY2026",
+        "published": "2026-06-04T23:15:54+00:00",
+        "summary": "Provides a visual heatmap of agent activity to help admins quickly detect patterns, hotspots, and unusual access behavior. GA date: July CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "4cc9fdd03f34",
-        "title": "Microsoft Purview: Information Protection - Rights Management connector – Certificate-based authentication",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=564617",
+        "fingerprint": "77f9f00846e7",
+        "title": "Microsoft 365 admin center: Notifications for organizational data processing status",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=564971",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-06-03T23:00:57+00:00",
-        "summary": "The Microsoft Rights Management (RMS) connector is moving from shared-secret authentication to certificate-based authentication, improving its security posture. With this update, administrators configure their own Microsoft Entra app registration and certificate, then use the new PowerShell module to configure the certificate for each workload (Connector, Exchange, SharePoint, and FCI). New Pow...",
+        "published": "2026-06-04T23:15:54+00:00",
+        "summary": "With this feature, organizational data source admins receive email notifications when data processing through one of their configured connectors completes successfully or requires attention. Notifications are enabled by default with the option to unsubscribe. GA date: July CY2026 Preview date: June CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "7dbd6f29da69",
+        "title": "Outlook: New Outlook for Windows for GCC-H and DoD",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=564913",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-06-04T23:15:54+00:00",
+        "summary": "The new Microsoft Outlook for Windows will be available for US Government clouds (GCC-H and DoD sovereign environments). GA date: September CY2026 Preview date: July CY2026",
         "category": "upcoming_changes"
       }
     ],
-    "official_news": [],
+    "official_news": [
+      {
+        "fingerprint": "1535d9ad9b8b",
+        "title": "Updating the taxonomy of failure modes in agentic AI systems: What a year of red teaming taught us",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/06/04/updating-taxonomy-failure-modes-agentic-ai-systems-year-red-teaming-taught-us/",
+        "source": "Microsoft Security Blog",
+        "published": "2026-06-04T19:14:42+00:00",
+        "summary": "A surge in real-world attacks against agentic AI systems is reshaping how we think about risk. Based on 12 months of red teaming, this update introduces seven new failure modes, from supply chain compromise to goal hijacking, and the practical mitigations teams need now. The post Updating the taxonomy of failure modes in agentic AI systems: What a year of red teaming taught us appeared first on...",
+        "category": "official_news"
+      }
+    ],
     "community_buzz": []
   }
 }
