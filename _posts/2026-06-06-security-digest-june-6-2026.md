@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - June 6, 2026"
+date: 2026-06-06 15:07:46 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - June 6, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -87,4 +95,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Solution to "New risky sign-ins detected (in real-time)" in Microsoft Entra ID Protection Weekly Digest not showing in "Risky sign-ins" blade](https://www.reddit.com/r/sysadmin/comments/1ty0pfs/solution_to_new_risky_signins_detected_in/) - *(Reddit r/sysadmin)*
 - [Best Certificates?](https://www.reddit.com/r/cybersecurity/comments/1ty0h2k/best_certificates/) - *(Reddit r/cybersecurity)*
 - [CISA: Hackers now exploit SolarWinds Serv-U flaw to crash servers](https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-solarwinds-serv-u-flaw-to-crash-servers/) - *(BleepingComputer)*
+
 
