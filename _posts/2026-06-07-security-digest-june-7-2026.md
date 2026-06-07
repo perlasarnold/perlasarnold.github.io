@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - June 7, 2026"
+date: 2026-06-07 15:19:06 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - June 7, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -91,4 +99,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Is a separate “clean” S3 bucket actually a security boundary for uploaded files?](https://www.reddit.com/r/cybersecurity/comments/1tyy8d2/is_a_separate_clean_s3_bucket_actually_a_security/) - *(Reddit r/cybersecurity)*
 - [CVE-2026-46640: Developing payloads for Twig sandbox bypass](https://www.reddit.com/r/cybersecurity/comments/1tywwu0/cve202646640_developing_payloads_for_twig_sandbox/) - *(Reddit r/cybersecurity)*
 - [PenTest+ Exam](https://www.reddit.com/r/cybersecurity/comments/1tytve2/pentest_exam/) - *(Reddit r/cybersecurity)*
+
 
