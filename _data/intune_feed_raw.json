@@ -1,12 +1,12 @@
 {
-  "generated_utc": "2026-06-05T15:58:32.076925+00:00",
-  "date": "2026-06-05",
+  "generated_utc": "2026-06-08T16:50:53.995598+00:00",
+  "date": "2026-06-08",
   "lookback_hours": 25,
   "source_status": [
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 4
+      "count": 0
     },
     {
       "name": "Microsoft Intune What's New",
@@ -15,18 +15,20 @@
     },
     {
       "name": "Windows IT Pro Blog",
-      "status": "OK",
-      "count": 0
+      "status": "Error",
+      "count": 0,
+      "message": "403 Client Error: Forbidden for url: https://techcommunity.microsoft.com/t5/windows-it-pro-blog/bg-p/Windows10Blog/rss"
     },
     {
       "name": "Microsoft Security Blog",
       "status": "OK",
-      "count": 1
+      "count": 0
     },
     {
       "name": "Microsoft Entra Blog",
-      "status": "OK",
-      "count": 0
+      "status": "Error",
+      "count": 0,
+      "message": "403 Client Error: Forbidden for url: https://techcommunity.microsoft.com/t5/microsoft-entra-blog/bg-p/Identity/rss"
     },
     {
       "name": "BleepingComputer",
@@ -36,7 +38,7 @@
     {
       "name": "Neowin",
       "status": "OK",
-      "count": 0
+      "count": 1
     },
     {
       "name": "The Hacker News",
@@ -92,56 +94,19 @@
   ],
   "items": {
     "high_alert": [],
-    "bad_updates": [],
-    "upcoming_changes": [
+    "bad_updates": [
       {
-        "fingerprint": "e329eafcfc6d",
-        "title": "Microsoft Teams: Multi-line Calling on Teams Mobile",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=565131",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-06-04T23:15:54+00:00",
-        "summary": "Make and receive calls using multiple assigned phone numbers directly from your mobile device - choose the right line for every call, with unified call history and seamless switching across all your lines. GA date: July CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "2cac8550a0e8",
-        "title": "SharePoint: Agent Access Insights heatmap for SharePoint and OneDrive sites",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=565027",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-06-04T23:15:54+00:00",
-        "summary": "Provides a visual heatmap of agent activity to help admins quickly detect patterns, hotspots, and unusual access behavior. GA date: July CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "77f9f00846e7",
-        "title": "Microsoft 365 admin center: Notifications for organizational data processing status",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=564971",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-06-04T23:15:54+00:00",
-        "summary": "With this feature, organizational data source admins receive email notifications when data processing through one of their configured connectors completes successfully or requires attention. Notifications are enabled by default with the option to unsubscribe. GA date: July CY2026 Preview date: June CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "7dbd6f29da69",
-        "title": "Outlook: New Outlook for Windows for GCC-H and DoD",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=564913",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-06-04T23:15:54+00:00",
-        "summary": "The new Microsoft Outlook for Windows will be available for US Government clouds (GCC-H and DoD sovereign environments). GA date: September CY2026 Preview date: July CY2026",
-        "category": "upcoming_changes"
+        "fingerprint": "8deb14df59a5",
+        "title": "Dell, HP PCs ran into endless reboot, BitLocker recovery loops but Windows 11 isn't to blame",
+        "link": "https://www.neowin.net/news/dell-hp-pcs-ran-into-endless-reboot-bitlocker-recovery-loops-but-windows-11-isnt-to-blame/",
+        "source": "Neowin",
+        "published": "2026-06-08T09:50:01+00:00",
+        "summary": "Dell and HP computers have been confirmed to be experiencing persistent reboot cycles and repeated BitLocker recovery prompts. Surprisingly perhaps, Windows 11 has not been responsible. Read more...",
+        "category": "bad_updates"
       }
     ],
-    "official_news": [
-      {
-        "fingerprint": "1535d9ad9b8b",
-        "title": "Updating the taxonomy of failure modes in agentic AI systems: What a year of red teaming taught us",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/06/04/updating-taxonomy-failure-modes-agentic-ai-systems-year-red-teaming-taught-us/",
-        "source": "Microsoft Security Blog",
-        "published": "2026-06-04T19:14:42+00:00",
-        "summary": "A surge in real-world attacks against agentic AI systems is reshaping how we think about risk. Based on 12 months of red teaming, this update introduces seven new failure modes, from supply chain compromise to goal hijacking, and the practical mitigations teams need now. The post Updating the taxonomy of failure modes in agentic AI systems: What a year of red teaming taught us appeared first on...",
-        "category": "official_news"
-      }
-    ],
+    "upcoming_changes": [],
+    "official_news": [],
     "community_buzz": []
   }
 }
