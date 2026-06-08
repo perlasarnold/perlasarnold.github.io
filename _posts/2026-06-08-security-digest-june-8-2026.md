@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - June 8, 2026"
+date: 2026-06-08 17:18:03 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - June 8, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -79,4 +87,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Cyber security expo Manchester](https://www.reddit.com/r/cybersecurity/comments/1u08iri/cyber_security_expo_manchester/) - *(Reddit r/cybersecurity)*
 - [CISA: Patch actively exploited SolarWinds Serv-U DoS vulnerability (CVE-2026-28318)](https://www.reddit.com/r/cybersecurity/comments/1u05xpx/cisa_patch_actively_exploited_solarwinds_servu/) - *(Reddit r/cybersecurity)*
 - [Vendor ISO 27001 Assessment - Questions Around Control 8.29 Security Testing](https://www.reddit.com/r/cybersecurity/comments/1u04ojy/vendor_iso_27001_assessment_questions_around/) - *(Reddit r/cybersecurity)*
+
 
