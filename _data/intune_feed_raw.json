@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-06-08T16:50:53.995598+00:00",
-  "date": "2026-06-08",
+  "generated_utc": "2026-06-09T16:06:45.300472+00:00",
+  "date": "2026-06-09",
   "lookback_hours": 25,
   "source_status": [
     {
@@ -15,20 +15,18 @@
     },
     {
       "name": "Windows IT Pro Blog",
-      "status": "Error",
-      "count": 0,
-      "message": "403 Client Error: Forbidden for url: https://techcommunity.microsoft.com/t5/windows-it-pro-blog/bg-p/Windows10Blog/rss"
-    },
-    {
-      "name": "Microsoft Security Blog",
       "status": "OK",
       "count": 0
     },
     {
+      "name": "Microsoft Security Blog",
+      "status": "OK",
+      "count": 1
+    },
+    {
       "name": "Microsoft Entra Blog",
-      "status": "Error",
-      "count": 0,
-      "message": "403 Client Error: Forbidden for url: https://techcommunity.microsoft.com/t5/microsoft-entra-blog/bg-p/Identity/rss"
+      "status": "OK",
+      "count": 0
     },
     {
       "name": "BleepingComputer",
@@ -38,7 +36,7 @@
     {
       "name": "Neowin",
       "status": "OK",
-      "count": 1
+      "count": 0
     },
     {
       "name": "The Hacker News",
@@ -94,19 +92,19 @@
   ],
   "items": {
     "high_alert": [],
-    "bad_updates": [
+    "bad_updates": [],
+    "upcoming_changes": [],
+    "official_news": [
       {
-        "fingerprint": "8deb14df59a5",
-        "title": "Dell, HP PCs ran into endless reboot, BitLocker recovery loops but Windows 11 isn't to blame",
-        "link": "https://www.neowin.net/news/dell-hp-pcs-ran-into-endless-reboot-bitlocker-recovery-loops-but-windows-11-isnt-to-blame/",
-        "source": "Neowin",
-        "published": "2026-06-08T09:50:01+00:00",
-        "summary": "Dell and HP computers have been confirmed to be experiencing persistent reboot cycles and repeated BitLocker recovery prompts. Surprisingly perhaps, Windows 11 has not been responsible. Read more...",
-        "category": "bad_updates"
+        "fingerprint": "f9b6aec9ffb9",
+        "title": "AI brands as bait: How threat actors are using the AI hype in social engineering",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/06/08/ai-brands-as-bait-how-threat-actors-are-using-the-ai-hype-in-social-engineering/",
+        "source": "Microsoft Security Blog",
+        "published": "2026-06-08T16:00:00+00:00",
+        "summary": "As threat actors operationalize AI to accelerate attacks, they are also leveraging the wider global interest around AI itself as a social engineering lure. The post AI brands as bait: How threat actors are using the AI hype in social engineering appeared first on Microsoft Security Blog .",
+        "category": "official_news"
       }
     ],
-    "upcoming_changes": [],
-    "official_news": [],
     "community_buzz": []
   }
 }
