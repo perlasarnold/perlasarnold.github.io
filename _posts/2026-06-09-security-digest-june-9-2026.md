@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - June 9, 2026"
+date: 2026-06-09 16:27:33 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - June 9, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -87,4 +95,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [New Veeam vulnerability exposes backup servers to RCE attacks](https://www.bleepingcomputer.com/news/security/new-veeam-vulnerability-exposes-backup-servers-to-rce-attacks/) - *(BleepingComputer)*
 - [Top enterprise CVEs from last week worth your patch queue (May 31 - Jun 6)](https://www.reddit.com/r/sysadmin/comments/1u16gsm/top_enterprise_cves_from_last_week_worth_your/) - *(Reddit r/sysadmin)*
 - [Google Chrome 0-Day Vulnerability Exploited in the Wild — Update Now](https://cybersecuritynews.com/google-chrome-0-day-vulnerability-exploited-in-the-wild-update-now/) - *(CybersecurityNews)*
+
 
