@@ -1,12 +1,12 @@
 {
-  "generated_utc": "2026-06-09T16:06:45.300472+00:00",
-  "date": "2026-06-09",
+  "generated_utc": "2026-06-10T16:38:27.619439+00:00",
+  "date": "2026-06-10",
   "lookback_hours": 25,
   "source_status": [
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 0
+      "count": 6
     },
     {
       "name": "Microsoft Intune What's New",
@@ -31,7 +31,7 @@
     {
       "name": "BleepingComputer",
       "status": "OK",
-      "count": 0
+      "count": 1
     },
     {
       "name": "Neowin",
@@ -91,17 +91,82 @@
     }
   ],
   "items": {
-    "high_alert": [],
+    "high_alert": [
+      {
+        "fingerprint": "9ce98337ed93",
+        "title": "Microsoft patches YellowKey, GreenPlasma, MiniPlasma zero-days",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-yellowkey-greenplasma-miniplasma-zero-days/",
+        "source": "BleepingComputer",
+        "published": "2026-06-10T09:57:33+00:00",
+        "summary": "On Tuesday, Microsoft patched two zero-day vulnerabilities that let attackers gain SYSTEM privileges on fully patched Windows systems, and a third one that grants access to BitLocker-protected drives. [...]",
+        "category": "high_alert"
+      }
+    ],
     "bad_updates": [],
-    "upcoming_changes": [],
+    "upcoming_changes": [
+      {
+        "fingerprint": "3f81fa009ce4",
+        "title": "Microsoft Teams: Tenant-level dashboard for Interpreter",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=565217",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-06-09T23:15:32+00:00",
+        "summary": "Get a clear, centralized view of how Interpreter is used across your organization. Monitor adoption, track usage trends, and understand costs—all in one place. Designed for tenant admins, it helps you stay in control, optimize performance, and confidently scale Interpreter across your teams. GA date: July CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "58d599f4fcf8",
+        "title": "Microsoft Purview: Endpoint Data Loss Prevention - Policy Sync & Device Health AI-Powered Investigation",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=565374",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-06-09T20:46:16+00:00",
+        "summary": "AI-powered visibility into DLP policy deployment across devices, helping admins track sync progress and understand enforcement coverage. They proactively identify impacted devices, explain root causes of sync failures, and guide admins with recommended actions to quickly diagnose and resolve issues. GA date: August CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "6f061f7a01ac",
+        "title": "Microsoft Purview: eDiscovery - Advanced Review Set Explorer",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=565372",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-06-09T20:46:16+00:00",
+        "summary": "The Advanced Review Set Explorer empowers reviewers to harness the power of real-time big data analytics on their review set data. This tool enhances data analysis by offering insights such as identifying top item types, spotting patterns, and trends within the review set. Reviewers can utilize powerful Kusto query constructs like complex filtering, pattern-based text extraction, and data forma...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "0ffdb50a8f16",
+        "title": "Microsoft Teams: Assistant field visibility in Organization view",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=565221",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-06-09T20:46:16+00:00",
+        "summary": "Teams now displays assistant information in the Organization view on the profile card and in the Org Explorer, making it easier to identify a key support contact for executive coordination and scheduling. This designation is informational only and does not grant permissions, change roles, or affect organizational hierarchy. GA date: July CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "e15c95377865",
+        "title": "Microsoft Teams: Queues app for Microsoft Teams in GCC High",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=565218",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-06-09T20:46:16+00:00",
+        "summary": "We’re excited to announce that the Queues app is now available in the GCC High cloud. This Teams-native app helps organizations manage customer engagements more efficiently by bringing advanced call queue and auto attendant capabilities directly into Teams. Queues app is a Teams Premium feature. For more information about Queues app, including licensing information, please see Manage Queues app...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "28a8742dd29e",
+        "title": "Microsoft Teams: Automatic recording and transcription for Teams Call Queues",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=565215",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-06-09T20:46:16+00:00",
+        "summary": "Administrators can enable automatic recording and transcription for Teams call queues. When enabled, calls answered by calling representatives are automatically recorded without manual action. Admins configure the feature per queue via Teams admin center or PowerShell, with controls for recording, transcription and agent access to recordings. Recordings are stored in SharePoint and available th...",
+        "category": "upcoming_changes"
+      }
+    ],
     "official_news": [
       {
-        "fingerprint": "f9b6aec9ffb9",
-        "title": "AI brands as bait: How threat actors are using the AI hype in social engineering",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/06/08/ai-brands-as-bait-how-threat-actors-are-using-the-ai-hype-in-social-engineering/",
+        "fingerprint": "cb32ac45d7d4",
+        "title": "Reconstructing AI activity in investigations",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/06/09/reconstructing-ai-activity-investigations/",
         "source": "Microsoft Security Blog",
-        "published": "2026-06-08T16:00:00+00:00",
-        "summary": "As threat actors operationalize AI to accelerate attacks, they are also leveraging the wider global interest around AI itself as a social engineering lure. The post AI brands as bait: How threat actors are using the AI hype in social engineering appeared first on Microsoft Security Blog .",
+        "published": "2026-06-09T17:35:06+00:00",
+        "summary": "Learn how to investigate AI activity in Microsoft 365 Copilot and Azure AI services using a structured, telemetry-driven approach. This playbook helps security teams reconstruct events, assess data exposure, and detect potential threats faster. The post Reconstructing AI activity in investigations appeared first on Microsoft Security Blog .",
         "category": "official_news"
       }
     ],
