@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - June 10, 2026"
+date: 2026-06-10 16:54:52 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - June 10, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -90,4 +98,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Can someone guide me on the basic but necessary cyber security hardwares toolkit like WiFi pineapple?](https://www.reddit.com/r/cybersecurity/comments/1u22pqi/can_someone_guide_me_on_the_basic_but_necessary/) - *(Reddit r/cybersecurity)*
 - [How does this look after a year worth of experience?](https://www.reddit.com/r/sysadmin/comments/1u22ol1/how_does_this_look_after_a_year_worth_of/) - *(Reddit r/sysadmin)*
 - [Cloud Security Report Finds Fragmented Tools Widening the Cloud Complexity Gap](https://cybersecuritynews.com/cloud-security-report-finds-fragmented-tools-widening-the-cloud-complexity-gap/) - *(CybersecurityNews)*
+
 
