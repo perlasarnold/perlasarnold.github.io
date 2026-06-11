@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - June 11, 2026"
+date: 2026-06-11 17:33:11 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - June 11, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -97,4 +105,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Phishing awareness training resulting in ignoring company comms?](https://www.reddit.com/r/cybersecurity/comments/1u2xx2k/phishing_awareness_training_resulting_in_ignoring/) - *(Reddit r/cybersecurity)*
 - [Hackers Exploit Langflow Vulnerability for Remote Code Execution](https://www.reddit.com/r/cybersecurity/comments/1u2xf82/hackers_exploit_langflow_vulnerability_for_remote/) - *(Reddit r/cybersecurity)*
 - [Chaotic Eclipse Strikes Again: New Zero-Day Unlocks BitLocker in Four Hours of Research](https://www.reddit.com/r/cybersecurity/comments/1u2xei3/chaotic_eclipse_strikes_again_new_zeroday_unlocks/) - *(Reddit r/cybersecurity)*
+
 
