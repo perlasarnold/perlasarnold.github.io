@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - June 12, 2026"
+date: 2026-06-12 16:39:43 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - June 12, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -51,4 +59,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [CISA tells govt agencies to patch critical exploited flaws in 3 days](https://www.bleepingcomputer.com/news/security/cisa-tells-govt-agencies-to-patch-critical-exploited-flaws-in-3-days/) - *(BleepingComputer)*
 - [Max severity Ivanti Sentry vulnerability now exploited in attacks](https://www.bleepingcomputer.com/news/security/max-severity-ivanti-sentry-vulnerability-now-exploited-in-attacks/) - *(BleepingComputer)*
 - [CVE-2026-36501](https://www.cve.org/CVERecord?id=CVE-2026-36501) - *(CVE.org)*
+
 
