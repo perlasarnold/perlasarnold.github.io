@@ -1,12 +1,12 @@
 {
-  "generated_utc": "2026-06-11T16:57:21.540177+00:00",
-  "date": "2026-06-11",
+  "generated_utc": "2026-06-12T16:23:16.523329+00:00",
+  "date": "2026-06-12",
   "lookback_hours": 25,
   "source_status": [
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 5
+      "count": 0
     },
     {
       "name": "Microsoft Intune What's New",
@@ -21,7 +21,7 @@
     {
       "name": "Microsoft Security Blog",
       "status": "OK",
-      "count": 1
+      "count": 0
     },
     {
       "name": "Microsoft Entra Blog",
@@ -31,7 +31,7 @@
     {
       "name": "BleepingComputer",
       "status": "OK",
-      "count": 1
+      "count": 0
     },
     {
       "name": "Neowin",
@@ -41,7 +41,7 @@
     {
       "name": "The Hacker News",
       "status": "OK",
-      "count": 0
+      "count": 1
     },
     {
       "name": "Krebs on Security",
@@ -92,93 +92,39 @@
   ],
   "items": {
     "high_alert": [],
-    "bad_updates": [
-      {
-        "fingerprint": "e66e01782b9f",
-        "title": "Microsoft fixes BitLocker recovery bug on Windows Server 2025",
-        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bitlocker-recovery-bug-on-windows-server-2025/",
-        "source": "BleepingComputer",
-        "published": "2026-06-11T08:44:22+00:00",
-        "summary": "Microsoft has resolved a known issue causing some Windows Server 2025 devices to boot into BitLocker recovery after installing the April 2026 security update. [...]",
-        "category": "bad_updates"
-      },
-      {
-        "fingerprint": "d6186bfaba19",
-        "title": "Turn specs into evals for any agent with ASSERT",
-        "link": "https://commandline.microsoft.com/assert-written-intent-executable-evals/",
-        "source": "Microsoft Security Blog",
-        "published": "2026-06-10T16:00:00+00:00",
-        "summary": "Adaptive Spec-driven Scoring for Evaluation and Regression Testing (ASSERT) is an open-source framework for converting natural language behavior requirements into executable evaluations of AI models and agents. The post Turn specs into evals for any agent with ASSERT appeared first on Microsoft Security Blog .",
-        "category": "bad_updates"
-      }
-    ],
+    "bad_updates": [],
     "upcoming_changes": [
       {
         "fingerprint": "71363aab014e",
         "title": "In development - Microsoft Intune",
         "link": "https://learn.microsoft.com/en-us/intune/whats-new/in-development",
         "source": "Microsoft Intune What's New",
-        "published": "2026-06-11T09:02:00+00:00",
-        "summary": "...n policies The Multiple Managed Accounts (MMA)As part of the Intune move to the Android Management API (opens Android's web site), there will be some updates for personally owned devices that enroll in Intune: Web based enrollment for an improved enrollment flow and experience - Users won't have to install an app to enroll in Intune. New.",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "8207c2c2b068",
-        "title": "Microsoft Purview: Data Security Triage Agent - Sensitive Data Remediation through Microsoft Teams",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=564615",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-06-10T23:15:22+00:00",
-        "summary": "The Data Security Triage Agent in Data Loss Prevention now offers a new sensitive data remediation function, which empowers organizations to proactively identify and remediate sensitive information—such as Social Security Numbers, passwords, and credit card data—across thousands of files stored in SharePoint or OneDrive locations, dramatically increasing the percentage of remediated files with ...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "de35f13cecbe",
-        "title": "Microsoft Teams: Improved request flows for apps and agents blocked by admins",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=565424",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-06-10T23:00:02+00:00",
-        "summary": "We are improving how users request access to apps and agents blocked by admins in Teams by introducing a clear, guided, and end-to-end request experience. This work reduces end-user friction by driving clarity into the request process and notifying users when there's been an update to their request. In addition to enhancements in Teams, we've also improved the admin experience in Teams Admin Ce...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "ac5d349e697f",
-        "title": "Microsoft Teams: Emoji shortcuts with autocomplete on mobile",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=565370",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-06-10T23:00:02+00:00",
-        "summary": "Teams brings desktop-style emoji shortcuts to mobile (iOS and Android), allowing you to insert emojis by typing colon-based commands like :smile:. Real-time autocomplete suggestions help you quickly find the right emoji as you type, while support for custom emojis enables more personalized and expressive communication on the go. GA date: July CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "54943724d519",
-        "title": "Microsoft Teams: Open message links in new window",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=565220",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-06-10T23:00:02+00:00",
-        "summary": "Teams now enables links within chat and channel messages to open in a new window, so you can compare information side by side without losing the context of your ongoing conversation. Access this capability through the More options menu or by using Ctrl/Cmd + click. GA date: July CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "8e2342881e3f",
-        "title": "Microsoft Teams: New room optimization mode user experience in Teams desktop",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=564912",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-06-10T23:00:02+00:00",
-        "summary": "Users can more easily use their laptop for meetings and collaboration in spaces like focus or huddle rooms that don’t yet have a Teams Rooms system. The new room optimization mode replaces shared display mode, has a new location, and enables or disables room-specific features. When room peripherals are connected, Teams can automatically select audio and video devices, enable speaker recognition...",
+        "published": "2026-06-11T22:34:00+00:00",
+        "summary": "In development for Microsoft Intune Summarize this artic... When you enable auto-update for an EAM app with a required assignment, Intune will detect when a newer version is available in the EAM catalog and automatically update the app on targeted devices. Applies to: Windows Multiple managed accounts for app protection policies The Multiple.",
         "category": "upcoming_changes"
       }
     ],
     "official_news": [
       {
-        "fingerprint": "d18e263d5c1c",
-        "title": "Microsoft Cloud PKI for Microsoft Intune - Microsoft Intune",
-        "link": "https://learn.microsoft.com/en-us/intune/cloud-pki/",
+        "fingerprint": "00ac277d25a8",
+        "title": "App Protection Policies Overview - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/app-management/protection/overview",
         "source": "Microsoft Intune What's New",
-        "published": "2026-06-11T12:37:00+00:00",
-        "summary": "Overview of Microsoft Cloud PKI for Microsoft Intune Summarize this article for me In this article Use Microsoft Cloud PKI to issue certificates for Intune-managed devices. Microsoft Cloud PKI is a cloud-based service that simplifies and automates certificate lifecycle management for Intune-managed devices. It provides a dedicated public key.",
+        "published": "2026-06-11T18:18:00+00:00",
+        "summary": "App Protection Policies Overview Summarize this article for me In this article Intune app protection policies ensure an organization's data remains safe or contained in a managed app. A managed app in Intune is a protected app where Intune applies app protection policies and manages the app. Intune app protection policies provide several benefits..",
         "category": "official_news"
       }
     ],
-    "community_buzz": []
+    "community_buzz": [
+      {
+        "fingerprint": "be36aff0ecc0",
+        "title": "New GreatXML Exploit Bypasses Windows BitLocker via Recovery Partition XML Files",
+        "link": "https://thehackernews.com/2026/06/new-greatxml-exploit-bypasses-windows.html",
+        "source": "The Hacker News",
+        "published": "2026-06-11T17:43:52+00:00",
+        "summary": "Security researcher Chaotic Eclipse (aka Nightmare-Eclipse and MSNightmare) has released a new Windows BitLocker bypass dubbed GreatXML, a day after they published an exploit for Microsoft Defender. \"This was an accidental discovery, it took a total of 4 hours to find this,\" the researcher said in a post on Blogger. \"If you ever attempted to use Windows Defender Offline Scan, you're",
+        "category": "community_buzz"
+      }
+    ]
   }
 }
