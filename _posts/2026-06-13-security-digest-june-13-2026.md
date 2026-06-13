@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - June 13, 2026"
+date: 2026-06-13 15:27:41 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - June 13, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -48,4 +56,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [How do you handle the dev lead who treats a critical security finding as something to negotiate?](https://www.reddit.com/r/cybersecurity/comments/1u4i6tr/how_do_you_handle_the_dev_lead_who_treats_a/) - *(Reddit r/cybersecurity)*
 - [How are you proving what your AI agents actually did, when an assessor asks?](https://www.reddit.com/r/cybersecurity/comments/1u4gp1s/how_are_you_proving_what_your_ai_agents_actually/) - *(Reddit r/cybersecurity)*
 - [Update: 2 weeks into my new job after 5 months of unemployment, and I'm honestly the happiest I've been in years](https://www.reddit.com/r/cybersecurity/comments/1u4evc6/update_2_weeks_into_my_new_job_after_5_months_of/) - *(Reddit r/cybersecurity)*
+
 
