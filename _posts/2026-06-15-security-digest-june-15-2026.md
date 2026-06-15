@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - June 15, 2026"
+date: 2026-06-15 18:21:47 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - June 15, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -57,4 +65,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Windows 11 KB5094126 BSODing, freezing, forcing BitLocker lockout, breaks OneDrive, and more](https://www.neowin.net/news/windows-11-kb5094126-bsoding-freezing-forcing-bitlocker-lockout-breaks-onedrive-and-more/) - *(Neowin)*
 - [Microsoft Windows 11 Pro and Office Home & Business 2024 is still 69% off](https://www.neowin.net/deals/microsoft-windows-11-pro-and-office-home--business-2024-is-still-69-off/) - *(Neowin)*
 - [CVE-2026-11585](https://www.cve.org/CVERecord?id=CVE-2026-11585) - *(CVE.org)*
+
 
