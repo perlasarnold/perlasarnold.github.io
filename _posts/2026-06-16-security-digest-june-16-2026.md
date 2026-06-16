@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - June 16, 2026"
+date: 2026-06-16 18:25:05 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - June 16, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -47,4 +55,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [With AI handling more of the alerts, what cybersecurity skill do you think still keeps you employed?](https://www.reddit.com/r/cybersecurity/comments/1u7dbhs/with_ai_handling_more_of_the_alerts_what/) - *(Reddit r/cybersecurity)*
 - [Discord groups](https://www.reddit.com/r/cybersecurity/comments/1u7cj83/discord_groups/) - *(Reddit r/cybersecurity)*
 - [How are you all staying up to date on every attack vector and CVE](https://www.reddit.com/r/cybersecurity/comments/1u7c2qu/how_are_you_all_staying_up_to_date_on_every/) - *(Reddit r/cybersecurity)*
+
 
