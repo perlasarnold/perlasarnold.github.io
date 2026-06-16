@@ -1,12 +1,12 @@
 {
-  "generated_utc": "2026-06-15T17:58:00.873131+00:00",
-  "date": "2026-06-15",
+  "generated_utc": "2026-06-16T18:05:57.021913+00:00",
+  "date": "2026-06-16",
   "lookback_hours": 25,
   "source_status": [
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 0
+      "count": 9
     },
     {
       "name": "Microsoft Intune What's New",
@@ -21,7 +21,7 @@
     {
       "name": "Microsoft Security Blog",
       "status": "OK",
-      "count": 1
+      "count": 0
     },
     {
       "name": "Microsoft Entra Blog",
@@ -36,7 +36,7 @@
     {
       "name": "Neowin",
       "status": "OK",
-      "count": 1
+      "count": 0
     },
     {
       "name": "The Hacker News",
@@ -93,7 +93,89 @@
   "items": {
     "high_alert": [],
     "bad_updates": [],
-    "upcoming_changes": [],
+    "upcoming_changes": [
+      {
+        "fingerprint": "fe2e92377894",
+        "title": "Microsoft Copilot (Microsoft 365): People Skills- removal and deletion admin control",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=565905",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-06-15T23:00:45+00:00",
+        "summary": "A new admin control in the People Skills settings lets administrators permanently remove their organization's People Skills data from the tenant. With this new control, organizations can delete their entire skills library along with all users confirmed, inferred, and imported skills data—giving them full control to offboard from People Skills in support of data governance and compliance needs. ...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "108e967ea449",
+        "title": "Microsoft Teams: Personal message reminders for chat and channels",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=565869",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-06-15T23:00:45+00:00",
+        "summary": "Teams now lets you set and manage reminders directly on chat and channel messages, helping you keep track of important items. Create, update, complete, and delete reminders, track them in a dedicated Reminders view, and receive timely notifications when they become due. Reminders are private to each user and include message context, making them easy to revisit and act on when needed. GA date: J...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "6a05f3f70e25",
+        "title": "Microsoft Purview: Endpoint Data Loss Prevention - Protect sensitive data over FTP and SFTP with Endpoint DLP",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=565868",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-06-15T23:00:45+00:00",
+        "summary": "Endpoint DLP support for FTP and SFTP enables organizations to monitor and protect sensitive data transferred from managed endpoints using FTP and SFTP, helping prevent unauthorized data exfiltration while maintaining visibility and control. GA date: August CY2026 Preview date: July CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "2c76af45324e",
+        "title": "Microsoft Purview: Data Lifecycle Management - Retention capabilities based on files Last Accessed in OneDrive and SharePoint",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=565866",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-06-15T23:00:45+00:00",
+        "summary": "Ability to apply Retention labels and policies to items on OneDrive and SharePoint based on when the items were last accessed by an user. GA date: August CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "0e75810bc642",
+        "title": "Microsoft Purview: Data Lifecycle Management - Azure PST Import",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=565865",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-06-15T23:00:45+00:00",
+        "summary": "Azure PST Import is a migration method that enables PST files stored in Azure Blob Storage to be imported directly into Exchange Online mailboxes. It follows the standard two‑step Exchange Migration Service pattern: an initial analysis phase to validate and assess PST data, followed by execution of the actual migration. The process also involves creating a migration endpoint, running an analysi...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "4c629e881b39",
+        "title": "Outlook: S/MIME support for Shared Mailboxes and Delegate Mailboxes in New Outlook for Windows",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=565861",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-06-15T23:00:45+00:00",
+        "summary": "New Outlook for Windows will extend S/MIME support to shared mailboxes and delegate mailboxes associated with a user's primary account. Users will be able to sign, encrypt, decrypt, and reply to S/MIME-protected messages while working from shared and delegated mailboxes. #newoutlookforwindows GA date: July CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "a9b3b0265b7c",
+        "title": "Microsoft Purview: eDiscovery - CMK (Customer managed key) for eDiscovery direct export",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=565373",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-06-15T23:00:45+00:00",
+        "summary": "This release of eDiscovery features the implementation of customer-managed key (CMK) options, allowing users to manage their own encryption keys for the data included in the direct export workflow in eDiscovery, adding to the Microsoft-managed encryption already in place. GA date: September CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "840255ce1f4c",
+        "title": "Microsoft Viva: Copilot Analytics - Identifiable Export metrics in the Copilot Dashboard",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=562648",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-06-15T23:00:45+00:00",
+        "summary": "This enables users to export Identifiable row-level Copilot metrics from the Copilot Dashboard for reporting and deeper analysis. This capability can be tuned On by Admins in a tenant. GA date: August CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "ec03598dbc03",
+        "title": "Excel: Summarize text columns with Copilot",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=560531",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-06-15T23:00:45+00:00",
+        "summary": "Copilot can analyze columns of text to generate related categories or tags. For example, Copilot will find the main themes in survey responses from open-ended questions. GA date: July CY2026",
+        "category": "upcoming_changes"
+      }
+    ],
     "official_news": [
       {
         "fingerprint": "a8949441246e",
@@ -103,27 +185,8 @@
         "published": "2026-06-15T17:37:00+00:00",
         "summary": "Deploying Remote Help with Microsoft Intune Summarize this article for me In this article This article describes the steps to deploy Remote Help with Microsoft Intune. ⚙️Set up your tenant ⬇️Download Remote Help 🛠️Install Remote Help ⚙️Configure Remote Help 🔄️Update Remote Help 🔒Configure Conditional Access When planning your deployment of.",
         "category": "official_news"
-      },
-      {
-        "fingerprint": "e7d34cc01005",
-        "title": "Microsoft Defender email security benchmarking: Key insights from one year of data",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/06/15/microsoft-defender-email-security-benchmarking-key-insights-from-one-year-of-data/",
-        "source": "Microsoft Security Blog",
-        "published": "2026-06-15T16:00:00+00:00",
-        "summary": "See how Microsoft Defender performed in one year of real-world email security benchmarking against SEG and ICES vendors. The post Microsoft Defender email security benchmarking: Key insights from one year of data appeared first on Microsoft Security Blog .",
-        "category": "official_news"
       }
     ],
-    "community_buzz": [
-      {
-        "fingerprint": "c8498dcee5cb",
-        "title": "Windows 11 KB5094126 BSODing, freezing, forcing BitLocker lockout, breaks OneDrive, and more",
-        "link": "https://www.neowin.net/news/windows-11-kb5094126-bsoding-freezing-forcing-bitlocker-lockout-breaks-onedrive-and-more/",
-        "source": "Neowin",
-        "published": "2026-06-15T07:02:02+00:00",
-        "summary": "Users online say the latest Windows 11 Patch Tuesday update, KB5094126, on versions 25H2 and 24H2, is creating all sorts of trouble for some. Read more...",
-        "category": "community_buzz"
-      }
-    ]
+    "community_buzz": []
   }
 }
