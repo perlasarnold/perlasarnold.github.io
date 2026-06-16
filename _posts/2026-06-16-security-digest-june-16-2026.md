@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Security Digest - June 16, 2026"
-date: 2026-06-16 18:25:05 +00:00
+date: 2026-06-16 22:16:27 +00:00
 categories: [security-digest]
 tags: [security, tldr, situational-awareness, endpoint-management]
 author: Arnold
@@ -10,7 +10,7 @@ author: Arnold
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
 
-- **Generated (UTC):** 2026-06-16 18:25:05 +00:00
+- **Generated (UTC):** 2026-06-16 22:16:27 +00:00
 - **Lookback window:** 7 days
 
 ## 🚀 Top Research & Advisories
@@ -27,33 +27,23 @@ Daily security intelligence briefing for infrastructure and endpoint management 
   > **Action:** Review VPN client version and deployment.
 
 ## 💻 AppSec
-- **[Microsoft now allows you to tweak Visual Studio to new extremes](https://www.neowin.net/news/microsoft-now-allows-you-to-tweak-visual-studio-to-new-extremes/)** - *(Neowin)*
+- **[The Hidden Security Debt in Modern Data Platforms: When Fast Experimentation Becomes Expensive Risk](https://www.reddit.com/r/cybersecurity/comments/1u7ms9u/the_hidden_security_debt_in_modern_data_platforms/)** - *(Reddit r/cybersecurity)*
   Monitor developer tool vulnerabilities and supply chain risks.
 
-- **[Skype data export tool returned someone else's data](https://www.reddit.com/r/cybersecurity/comments/1u7b89t/skype_data_export_tool_returned_someone_elses_data/)** - *(Reddit r/cybersecurity)*
-  Review .NET runtime vulnerabilities and apply patches.
-
-## 🛠 Infrastructure & Endpoint Control
-- **[Need Help Analyzing These Windows Defender Detections](https://www.reddit.com/r/cybersecurity/comments/1u7lpiq/need_help_analyzing_these_windows_defender/)** - *(Reddit r/cybersecurity)*
-  Review security controls and policy updates.
-
-- **[Scam ScreenConnect installations on elderly customer's systems](https://www.reddit.com/r/cybersecurity/comments/1u7cg4w/scam_screenconnect_installations_on_elderly/)** - *(Reddit r/cybersecurity)*
-  Evaluate update rings and expedite actions if needed.
-
-## 🩹 Patch Tuesday & Update Experience
-- **[Scam ScreenConnect installations on elderly customer's systems](https://www.reddit.com/r/cybersecurity/comments/1u7cg4w/scam_screenconnect_installations_on_elderly/)** - *(Reddit r/cybersecurity)*
-  After a recent rash of fake Evite emails I&#39;ve now seen five customers with silent ScreenConnect services running three have had a fake blue screen pop-up that mimics windows update. Customer&#39;s...
+## 🏗 Infrastructure
+- **[Job market situation and am k screwed?](https://www.reddit.com/r/cybersecurity/comments/1u7r4ej/job_market_situation_and_am_k_screwed/)** - *(Reddit r/cybersecurity)*
+  Review server hardening and AD security posture.
 
 ## 🔍 Quick Links (Watch Items)
-- [Need Help Analyzing These Windows Defender Detections](https://www.reddit.com/r/cybersecurity/comments/1u7lpiq/need_help_analyzing_these_windows_defender/) - *(Reddit r/cybersecurity)*
+- [CVE-2026-39949: Authenticated Remote Code Execution in Cacti ≤ 1.2.30](https://www.reddit.com/r/cybersecurity/comments/1u7q6ta/cve202639949_authenticated_remote_code_execution/) - *(Reddit r/cybersecurity)*
+- [Ongoing CPE credits for Certifications?](https://www.reddit.com/r/cybersecurity/comments/1u7q09l/ongoing_cpe_credits_for_certifications/) - *(Reddit r/cybersecurity)*
+- [Company plans on automating SCA with AI approvals](https://www.reddit.com/r/cybersecurity/comments/1u7p1i2/company_plans_on_automating_sca_with_ai_approvals/) - *(Reddit r/cybersecurity)*
+- [Looking to pivot in cybersecurity after 3 years of web experience and general IT](https://www.reddit.com/r/cybersecurity/comments/1u7oepl/looking_to_pivot_in_cybersecurity_after_3_years/) - *(Reddit r/cybersecurity)*
+- [The Hidden Security Debt in Modern Data Platforms: When Fast Experimentation Becomes Expensive Risk](https://www.reddit.com/r/cybersecurity/comments/1u7ms9u/the_hidden_security_debt_in_modern_data_platforms/) - *(Reddit r/cybersecurity)*
 - [Getting a CVE Without Shipping Slop](https://www.reddit.com/r/cybersecurity/comments/1u7jjwe/getting_a_cve_without_shipping_slop/) - *(Reddit r/cybersecurity)*
 - [Cybersecurity statistics of the week (June 8th - June 14th)](https://www.reddit.com/r/cybersecurity/comments/1u7iscl/cybersecurity_statistics_of_the_week_june_8th/) - *(Reddit r/cybersecurity)*
 - [My top bug bounty tips (so far)](https://www.reddit.com/r/cybersecurity/comments/1u7gcnk/my_top_bug_bounty_tips_so_far/) - *(Reddit r/cybersecurity)*
 - [is cyber security still worth to learn in 2026?](https://www.reddit.com/r/cybersecurity/comments/1u7f76s/is_cyber_security_still_worth_to_learn_in_2026/) - *(Reddit r/cybersecurity)*
 - [AppViewX Launches Agent Identity Security to Govern Agents for the AI and Quantum Era](https://cybersecuritynews.com/gitguardian-endpoint-protection-developers/) - *(CybersecurityNews)*
-- [Critical Copilot vulnerability allowed hackers to steal 2FA code from users](https://www.reddit.com/r/cybersecurity/comments/1u7e74s/critical_copilot_vulnerability_allowed_hackers_to/) - *(Reddit r/cybersecurity)*
-- [With AI handling more of the alerts, what cybersecurity skill do you think still keeps you employed?](https://www.reddit.com/r/cybersecurity/comments/1u7dbhs/with_ai_handling_more_of_the_alerts_what/) - *(Reddit r/cybersecurity)*
-- [Discord groups](https://www.reddit.com/r/cybersecurity/comments/1u7cj83/discord_groups/) - *(Reddit r/cybersecurity)*
-- [How are you all staying up to date on every attack vector and CVE](https://www.reddit.com/r/cybersecurity/comments/1u7c2qu/how_are_you_all_staying_up_to_date_on_every/) - *(Reddit r/cybersecurity)*
 
 
