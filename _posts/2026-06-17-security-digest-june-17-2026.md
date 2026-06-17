@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - June 17, 2026"
+date: 2026-06-17 16:51:32 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - June 17, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -75,4 +83,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [A strange sign of how much cybersecurity awareness has changed over the last decade.](https://www.reddit.com/r/cybersecurity/comments/1u84tp2/a_strange_sign_of_how_much_cybersecurity/) - *(Reddit r/cybersecurity)*
 - [CEO Password Security Fail: "The Register" describes a company where the CEO stored every employee's username and password in a single Excel file so he could access their email accounts...](https://www.reddit.com/r/cybersecurity/comments/1u84q2m/ceo_password_security_fail_the_register_describes/) - *(Reddit r/cybersecurity)*
 - [Microsoft working on Defender patch for RoguePlanet zero-day](https://www.bleepingcomputer.com/news/microsoft/microsoft-working-on-defender-patch-for-rogueplanet-zero-day/) - *(BleepingComputer)*
+
 
