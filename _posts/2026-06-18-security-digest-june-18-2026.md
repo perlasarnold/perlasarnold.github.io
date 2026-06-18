@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - June 18, 2026"
+date: 2026-06-18 16:52:22 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - June 18, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -44,4 +52,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [AMD silently removes memory encryption from consumer Ryzen CPUs, leaving users unaware that they may be vulnerable — security feature vanishes after newer AGESA firmware, AMD engineers go radio silent when pressed about the change](https://www.reddit.com/r/cybersecurity/comments/1u8z7sm/amd_silently_removes_memory_encryption_from/) - *(Reddit r/cybersecurity)*
 - [Massive database with 24 billion credentials found exposed online](https://www.reddit.com/r/cybersecurity/comments/1u8yz1r/massive_database_with_24_billion_credentials/) - *(Reddit r/cybersecurity)*
 - [Are there freelancers in the area of cybersecurity (offensive security)?](https://www.reddit.com/r/cybersecurity/comments/1u8ypoy/are_there_freelancers_in_the_area_of/) - *(Reddit r/cybersecurity)*
+
 
