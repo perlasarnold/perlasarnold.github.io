@@ -1,17 +1,17 @@
 {
-  "generated_utc": "2026-06-17T16:40:07.372772+00:00",
-  "date": "2026-06-17",
+  "generated_utc": "2026-06-18T16:36:46.235728+00:00",
+  "date": "2026-06-18",
   "lookback_hours": 25,
   "source_status": [
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 2
+      "count": 3
     },
     {
       "name": "Microsoft Intune What's New",
       "status": "OK",
-      "count": 0
+      "count": 1
     },
     {
       "name": "Windows IT Pro Blog",
@@ -21,7 +21,7 @@
     {
       "name": "Microsoft Security Blog",
       "status": "OK",
-      "count": 0
+      "count": 5
     },
     {
       "name": "Microsoft Entra Blog",
@@ -95,25 +95,89 @@
     "bad_updates": [],
     "upcoming_changes": [
       {
-        "fingerprint": "8d89f4cde959",
-        "title": "Outlook: Export support for data files in Mac Outlook",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=566203",
+        "fingerprint": "b407f880c3f2",
+        "title": "SharePoint: Inline comments and notifications for Markdown files",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=566202",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-06-16T23:00:10+00:00",
-        "summary": "This feature adds support for exporting PST files into Outlook for Mac. GA date: September CY2026 Preview date: August CY2026",
+        "published": "2026-06-17T23:15:06+00:00",
+        "summary": "We’re adding inline commenting support for Markdown files in OneDrive and SharePoint, making it easier for teams to review, discuss, and collaborate on Markdown content directly in Microsoft 365. Users will be able to leave comments on specific parts of a Markdown file and receive notifications when they are mentioned or when there is activity that needs their attention. GA date: August CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "461983387e1b",
-        "title": "Microsoft Edge: Sign in to Edge with a Google account",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=565860",
+        "fingerprint": "5c3c510448e3",
+        "title": "Outlook: Block External Images Settings Update",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=565862",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-06-16T23:00:10+00:00",
-        "summary": "Users can now sign in to Microsoft Edge using a Google account in addition to the Microsoft account from the profile menu and Edge sign-in screen. Available for Windows and macOS devices. Admins can control availability to this feature using the NonMicrosoftAccountSignInEnabled policy. GA date: July CY2026",
+        "published": "2026-06-17T23:15:06+00:00",
+        "summary": "Outlook on the web and the new Outlook for Windows now support will support new settings for loading external images. New settings will allow customers to block all external content, or to load all content by default if the customer admin allows. Existing default behavior will not be changed (load external content only for safe senders). GA date: July CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "2b601cf3cf0f",
+        "title": "Microsoft Teams: Enhanced IntelliFrame with AI data channel for intelligent cameras",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=564969",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-06-17T23:15:06+00:00",
+        "summary": "Teams Rooms on Windows users can now benefit from next generation IntelliFrame features on certified AI-capable cameras with on-device video processing. With IntelliFrame’s expanded AI data channel, participants experience faster active speaker framing, people recognition and labels, and more responsive meeting views—even when network conditions are limited. These capabilities are available wit...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "71363aab014e",
+        "title": "In development - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/whats-new/in-development",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-06-17T17:35:00+00:00",
+        "summary": "In development for Microsoft Intune Summarize this artic... When you enable auto-update for an EAM app with a required assignment, Intune will detect when a newer version is available in the EAM catalog and automatically update the app on targeted devices. Applies to: Windows Multiple managed accounts for app protection policies The Multiple.",
         "category": "upcoming_changes"
       }
     ],
-    "official_news": [],
+    "official_news": [
+      {
+        "fingerprint": "575c36571895",
+        "title": "From package to postinstall payload: Inside the Mastra npm supply chain compromise",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/",
+        "source": "Microsoft Security Blog",
+        "published": "2026-06-18T03:43:04+00:00",
+        "summary": "A poisoned npm package infected 140+ projects with a hidden payload. This report highlights how to detect, hunt, and defend against supply chain attacks using Microsoft Defender and actionable threat intelligence. The post From package to postinstall payload: Inside the Mastra npm supply chain compromise appeared first on Microsoft Security Blog .",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "eb2c9395b9ee",
+        "title": "Crypto Clipper uses Tor and worm-like propagation for persistence and control",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/06/17/crypto-clipper-uses-tor-worm-like-propagation-for-persistence-control/",
+        "source": "Microsoft Security Blog",
+        "published": "2026-06-17T23:11:43+00:00",
+        "summary": "Microsoft Threat Intelligence analyzed a cryptocurrency clipper campaign that combines clipboard theft, wallet replacement, Tor-based communications, and worm-like propagation. Beyond stealing cryptocurrency transactions, the malware establishes persistent access and enables follow-on activity through a lightweight backdoor capability. The post Crypto Clipper uses Tor and worm-like propagation ...",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "832af86c9ead",
+        "title": "Beyond the benchmark: Advancing security at AI speed",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/06/17/beyond-the-benchmark-advancing-security-at-ai-speed/",
+        "source": "Microsoft Security Blog",
+        "published": "2026-06-17T19:30:00+00:00",
+        "summary": "Read how Microsoft Security has advanced its agentic vulnerability detection system, codename MDASH, integrating into real-world workflows across Windows, Azure, and identity systems. The post Beyond the benchmark: Advancing security at AI speed appeared first on Microsoft Security Blog .",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "a79758dc94b8",
+        "title": "​​Forrester names Microsoft a Leader in the 2026 Extended Detection and Response Platforms Wave™ report",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/06/17/forrester-names-microsoft-a-leader-in-the-2026-extended-detection-and-response-platforms-wave-report/",
+        "source": "Microsoft Security Blog",
+        "published": "2026-06-17T18:30:00+00:00",
+        "summary": "Microsoft has been named a Leader in The Forrester Wave™: Extended Detection and Response Platforms, Q2 2026. The post ​​Forrester names Microsoft a Leader in the 2026 Extended Detection and Response Platforms Wave™ report appeared first on Microsoft Security Blog .",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "a1392fdfe6b5",
+        "title": "AI is accelerating cyberattacks—here’s how to stay ahead",
+        "link": "https://techcommunity.microsoft.com/blog/microsoft-entra-blog/ai-is-accelerating-cyberattacks%E2%80%94here%E2%80%99s-how-to-stay-ahead/4528592",
+        "source": "Microsoft Security Blog",
+        "published": "2026-06-17T17:00:00+00:00",
+        "summary": "See how Microsoft unifies identity and security signals to help teams prevent, detect, and respond to AI-accelerated attacks faster. The post AI is accelerating cyberattacks—here’s how to stay ahead appeared first on Microsoft Security Blog .",
+        "category": "official_news"
+      }
+    ],
     "community_buzz": []
   }
 }
