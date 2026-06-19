@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - June 19, 2026"
+date: 2026-06-19 16:28:59 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - June 19, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -42,4 +50,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [CISA: Splunk Enterprise flaw actively exploited, patch by Sunday](https://www.bleepingcomputer.com/news/security/cisa-splunk-enterprise-flaw-actively-exploited-patch-by-sunday/) - *(BleepingComputer)*
 - [Cybersecurity game challenge try to unlock codes](https://www.reddit.com/r/cybersecurity/comments/1u9w11e/cybersecurity_game_challenge_try_to_unlock_codes/) - *(Reddit r/cybersecurity)*
 - [24 Billion Stolen Credentials Exposed in Massive Data Leak](https://www.reddit.com/r/cybersecurity/comments/1u9vfn0/24_billion_stolen_credentials_exposed_in_massive/) - *(Reddit r/cybersecurity)*
+
 
