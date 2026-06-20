@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - June 20, 2026"
+date: 2026-06-20 15:41:11 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - June 20, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -38,4 +46,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [CISA Adds LiteSpeed cPanel Plugin Vulnerability to KEV List Following Active Exploitation](https://cybersecuritynews.com/litespeed-cpanel-plugin-flaw-exploit/) - *(CybersecurityNews)*
 - [Critical WordPress Plugin Vulnerability Exposes 1 Million Sites to File Deletion Attacks](https://cybersecuritynews.com/avada-wordpress-plugin-vulnerability/) - *(CybersecurityNews)*
 - [CISA: Splunk Enterprise flaw actively exploited, patch by Sunday](https://www.bleepingcomputer.com/news/security/cisa-splunk-enterprise-flaw-actively-exploited-patch-by-sunday/) - *(BleepingComputer)*
+
 
