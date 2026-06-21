@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - June 21, 2026"
+date: 2026-06-21 15:46:24 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - June 21, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -38,4 +46,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [CyberSentinel AI with 33 Security Tools, Including Nmap, SQLMap, ZAP, and uses Claude, GPT](https://cybersecuritynews.com/cybersentinel-ai-with-33-security-tools/) - *(CybersecurityNews)*
 - [Hackers exploit info disclosure bug in Gravity SMTP WordPress plugin](https://www.bleepingcomputer.com/news/security/hackers-exploit-info-disclosure-bug-in-gravity-smtp-wordpress-plugin/) - *(BleepingComputer)*
 - [CISA Adds LiteSpeed cPanel Plugin Vulnerability to KEV List Following Active Exploitation](https://cybersecuritynews.com/litespeed-cpanel-plugin-flaw-exploit/) - *(CybersecurityNews)*
+
 
