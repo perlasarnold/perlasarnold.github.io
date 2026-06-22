@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - June 22, 2026"
+date: 2026-06-22 18:09:32 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - June 22, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -35,4 +43,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Massive security flaw discovered in popular SSH library libssh2](https://www.reddit.com/r/cybersecurity/comments/1ucfvw4/massive_security_flaw_discovered_in_popular_ssh/) - *(Reddit r/cybersecurity)*
 - [23 ClawHub plugins squatting official scopes expose AI registry security gaps](https://www.reddit.com/r/cybersecurity/comments/1ucfsw1/23_clawhub_plugins_squatting_official_scopes/) - *(Reddit r/cybersecurity)*
 - [Advise needed on account security/2FA and still peace of mind when it comes to recovering acces in case of defect/lost device(s).](https://www.reddit.com/r/cybersecurity/comments/1ucfmih/advise_needed_on_account_security2fa_and_still/) - *(Reddit r/cybersecurity)*
+
 
