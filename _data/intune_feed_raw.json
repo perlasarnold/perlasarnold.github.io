@@ -1,17 +1,17 @@
 {
-  "generated_utc": "2026-06-19T16:10:06.044664+00:00",
-  "date": "2026-06-19",
+  "generated_utc": "2026-06-22T17:41:43.202864+00:00",
+  "date": "2026-06-22",
   "lookback_hours": 25,
   "source_status": [
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 10
+      "count": 0
     },
     {
       "name": "Microsoft Intune What's New",
       "status": "OK",
-      "count": 1
+      "count": 0
     },
     {
       "name": "Windows IT Pro Blog",
@@ -21,7 +21,7 @@
     {
       "name": "Microsoft Security Blog",
       "status": "OK",
-      "count": 2
+      "count": 1
     },
     {
       "name": "Microsoft Entra Blog",
@@ -91,127 +91,17 @@
     }
   ],
   "items": {
-    "high_alert": [
-      {
-        "fingerprint": "b81e100bf635",
-        "title": "AutoJack: How a single page can RCE the host running your AI agent",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/06/18/autojack-single-page-rce-host-running-ai-agent/",
-        "source": "Microsoft Security Blog",
-        "published": "2026-06-19T00:17:54+00:00",
-        "summary": "AutoJack is a novel exploit chain showing how a single malicious webpage can turn an AI browsing agent into a remote code execution vector on the host machine. By abusing trust in localhost, missing authentication, and unsafe parameter handling, attackers can trigger arbitrary process execution through AutoGen Studio’s MCP WebSocket. The research highlights a broader pattern - when agents can b...",
-        "category": "high_alert"
-      }
-    ],
+    "high_alert": [],
     "bad_updates": [],
-    "upcoming_changes": [
-      {
-        "fingerprint": "c8f255f5e48b",
-        "title": "Microsoft Purview: Data Lifecycle Management - Adaptive Protection integration with Data Lifecycle Management",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=566324",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-06-18T23:00:06+00:00",
-        "summary": "Adaptive Protection in Microsoft Purview helps you protect your organization’s data by integrating dynamic insider risk levels, determined by data related activities, with various policy engines to automatically moving users in and out of policies as their risk levels change over time. The integration with Data Lifecycle Management will automatically apply retention labels to preserve deleted e...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "4fc6d5da053c",
-        "title": "Microsoft Purview: Data Loss Prevention - File Testing Against Sensitive Information Classifiers",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=566323",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-06-18T23:00:06+00:00",
-        "summary": "A new feature will be introduced on the main Classification page, allowing users to test files against all available classifiers to identify the presence of sensitive information. Users will have the option to select a single classifier or run tests across all classifiers. This capability is designed to help users identify sensitive content within files and troubleshoot classification issues mo...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "722684d36ac1",
-        "title": "OneNote: Multimodal Capture in Copilot Notebooks (Windows)",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=566322",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-06-18T23:00:06+00:00",
-        "summary": "Capture on Windows helps you bring conversations and ideas from meetings, brainstorming sessions, and everyday work into Copilot Notebooks. Capture audio, images, and notes in one experience, then let Copilot turn them into structured notes with key insights, decisions, and action items, in a Copilot Notebook of your choice GA date: July CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "3014b1477b2a",
-        "title": "Microsoft Purview: Data Loss Prevention - Export DLP and Label Policy Configurations",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=566321",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-06-18T23:00:06+00:00",
-        "summary": "A new export functionality will be introduced in two locations: the Data Loss Prevention > Policies page and the Information Protection > Label publishing policies page. This feature will allow users to export their existing DLP configurations and label policies, including schema, as a downloadable ZIP file. The exported file can be attached to support tickets to accelerate troubleshooting. GA ...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "0db824c929b5",
-        "title": "Microsoft 365 app: Updated light-weight Notebooks experience in the Microsoft 365 Copilot App (iOS)",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=566318",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-06-18T23:00:06+00:00",
-        "summary": "Copilot Notebooks in the Microsoft 365 Copilot app (iOS) now lets users organize related chats, output creations, and references into a persistent AI workspace. Copilot uses the Notebook's accumulated context to ground responses, so work continues across sessions instead of starting over each time. GA date: August CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "40f54cbefca1",
-        "title": "OneDrive: Refreshed file browsing and filtering experience in OneDrive Web",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=566316",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-06-18T23:00:06+00:00",
-        "summary": "OneDrive is making it easier to find and work with files across Microsoft 365. We're refreshing the filtering experience across OneDrive Web, updating existing filters in views like Home, Shared, People, Meetings, and Favorites to support multiple filters at once, and bringing those same filtering capabilities to folder-based experiences such as My files and shared folders. Users can also filte...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "128f6afba896",
-        "title": "OneDrive: Refreshed Libraries View in OneDrive Web",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=566315",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-06-18T23:00:06+00:00",
-        "summary": "We're replacing the existing More places experience in OneDrive Web with a refreshed Libraries view. Users can see more recently accessed libraries, navigate to default document libraries for Teams and favorite SharePoint sites, and use new filtering, sorting, and view options. GA date: July CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "70d5928a922c",
-        "title": "OneDrive: Document library views now available in OneDrive",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=566313",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-06-18T23:00:06+00:00",
-        "summary": "Users can now work with SharePoint document library views directly from OneDrive. In addition to switching between existing views, users can create and manage views to customize how library content is organized and displayed. This helps teams surface the information that matters most while staying within the OneDrive experience. GA date: July CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "5f7193b1e9dd",
-        "title": "OneDrive: Find document libraries in OneDrive search results",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=566204",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-06-18T23:00:06+00:00",
-        "summary": "We’re making it easier for users to find document libraries directly from OneDrive search results. When users search in OneDrive, relevant SharePoint document libraries may appear alongside files and folders, helping users quickly get back to shared team content without needing to navigate across multiple sites. GA date: August CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "50171df9ec35",
-        "title": "Microsoft Teams: Language selection by users in Teams Rooms on Android",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=565425",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-06-18T23:00:06+00:00",
-        "summary": "Users can now choose their preferred meeting language in Teams Rooms on Android. Select from up to 69 languages using the language button on the console. The room system must restart after a language is selected. GA date: August CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "71363aab014e",
-        "title": "In development - Microsoft Intune",
-        "link": "https://learn.microsoft.com/en-us/intune/whats-new/in-development",
-        "source": "Microsoft Intune What's New",
-        "published": "2026-06-18T22:35:00+00:00",
-        "summary": "In development for Microsoft Intune Summarize this artic... When you enable auto-update for an EAM app with a required assignment, Intune will detect when a newer version is available in the EAM catalog and automatically update the app on targeted devices. Applies to: Windows Multiple managed accounts for app protection policies The Multiple.",
-        "category": "upcoming_changes"
-      }
-    ],
+    "upcoming_changes": [],
     "official_news": [
       {
-        "fingerprint": "566ede2fd20a",
-        "title": "New Forrester study shows customers who unified with Microsoft Security benefited from 124% ROI",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/06/18/new-forrester-study-shows-customers-who-unified-with-microsoft-security-benefited-from-124-roi/",
+        "fingerprint": "48996beacbad",
+        "title": "One intrusion, two cyberattackers: Uncovering parallel threat activity",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/06/22/one-intrusion-two-cyberattackers-uncovering-parallel-threat-activity/",
         "source": "Microsoft Security Blog",
-        "published": "2026-06-18T19:36:08+00:00",
-        "summary": "New Forrester Total Economic Impact™ study shows Microsoft Security consolidation delivers ROI, lowers risk, and prepares organizations to secure AI. The post New Forrester study shows customers who unified with Microsoft Security benefited from 124% ROI appeared first on Microsoft Security Blog .",
+        "published": "2026-06-22T16:00:00+00:00",
+        "summary": "Ransomware case reveals two parallel threat actors, blending tactics and evasion—showing why isolated signals can often miss modern, overlapping cyberattacks. The post One intrusion, two cyberattackers: Uncovering parallel threat activity appeared first on Microsoft Security Blog .",
         "category": "official_news"
       }
     ],
