@@ -1,32 +1,34 @@
 {
-  "generated_utc": "2026-06-22T17:41:43.202864+00:00",
-  "date": "2026-06-22",
+  "generated_utc": "2026-06-23T15:54:12.753561+00:00",
+  "date": "2026-06-23",
   "lookback_hours": 25,
   "source_status": [
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 0
+      "count": 1
     },
     {
       "name": "Microsoft Intune What's New",
       "status": "OK",
-      "count": 0
+      "count": 13
     },
     {
       "name": "Windows IT Pro Blog",
-      "status": "OK",
-      "count": 0
+      "status": "Error",
+      "count": 0,
+      "message": "403 Client Error: Forbidden for url: https://techcommunity.microsoft.com/t5/windows-it-pro-blog/bg-p/Windows10Blog/rss"
     },
     {
       "name": "Microsoft Security Blog",
       "status": "OK",
-      "count": 1
+      "count": 2
     },
     {
       "name": "Microsoft Entra Blog",
-      "status": "OK",
-      "count": 0
+      "status": "Error",
+      "count": 0,
+      "message": "403 Client Error: Forbidden for url: https://techcommunity.microsoft.com/t5/microsoft-entra-blog/bg-p/Identity/rss"
     },
     {
       "name": "BleepingComputer",
@@ -93,8 +95,144 @@
   "items": {
     "high_alert": [],
     "bad_updates": [],
-    "upcoming_changes": [],
+    "upcoming_changes": [
+      {
+        "fingerprint": "08e898c19c76",
+        "title": "Microsoft Teams: Block all identified external bots automatically from joining your meetings",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=566201",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-06-22T23:00:47+00:00",
+        "summary": "Extending the admin controls provided for managing external AI bots and regulating their access to your meetings, we are adding the option to automatically block all identified bots. GA date: August CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "12c70a9574cf",
+        "title": "Discovered Apps - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/app-management/discovered-apps",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-06-22T22:36:00+00:00",
+        "summary": "Intune Discovered Apps Summarize this article for me In this article Tip For Windows devices that ... Intune discovered apps is a list of detected apps on the Intune enrolled devices in your tenant. Any changes or updates on this behavior are announced in in development and/or what's new. Software inventory collection for Discovered apps on.",
+        "category": "upcoming_changes"
+      }
+    ],
     "official_news": [
+      {
+        "fingerprint": "489ae0073ab6",
+        "title": "Enrollment for Microsoft Entra hybrid joined devices - Windows Autopilot",
+        "link": "https://learn.microsoft.com/en-us/autopilot/windows-autopilot-hybrid",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-06-22T22:36:00+00:00",
+        "summary": "Deploy Microsoft Entra hybrid joined devices by using Intune and Windows Autopilot Summarize this article for me In this article Important Microsoft recommends deploying new devices as cloud-native using Microsoft Entra join. Intune and Windows Autopilot can be used to set up Microsoft Entra hybrid joined devices. Install the Intune Connector for.",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "00ac277d25a8",
+        "title": "App Protection Policies Overview - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/app-management/protection/overview",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-06-22T22:36:00+00:00",
+        "summary": "App Protection Policies Overview Summarize this article for me In this article Intune app protection policies ensure an organization's data remains safe or contained in a managed app. A managed app in Intune is a protected app where Intune applies app protection policies and manages the app. Intune app protection policies provide several benefits..",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "311148d98f98",
+        "title": "Configure Microsoft Defender for Endpoint with Intune and onboard devices - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/device-security/microsoft-defender/configure-integration",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-06-22T22:36:00+00:00",
+        "summary": "Configure Microsoft Defender for Endpoint with Intune and onboard devices Summarize this article for me In this article This article provides step-by-step instructions to connect Microsoft Defender for Endpoint to Microsoft Intune, onboard devices to Defender for Endpoint by platform, and configure compliance and Conditional Access policies that.",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "a8949441246e",
+        "title": "Deploy Remote Help with Microsoft Intune - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/remote-help/deploy",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-06-22T22:36:00+00:00",
+        "summary": "Deploying Remote Help with Microsoft Intune Summarize this article for me In this article This article describes the steps to deploy Remote Help with Microsoft Intune. ⚙️Set up your tenant ⬇️Download Remote Help 🛠️Install Remote Help ⚙️Configure Remote Help 🔄️Update Remote Help 🔒Configure Conditional Access When planning your deployment of.",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "49cf870ebc11",
+        "title": "Enroll devices using a device enrollment manager account - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/device-enrollment/setup-enrollment-manager",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-06-22T22:36:00+00:00",
+        "summary": "Add device enrollment managers Summarize this article for me In this article A device enrollment manager (DEM) is a nonadministrator user who can enroll devices in Intune. Supported enrollment methods A device enrollment manager can use the following methods to enroll devices in Intune: Bulk enrollment using a provisioning package DEM-initiated.",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "735b7011213f",
+        "title": "Get an Apple MDM Push certificate for Intune - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/device-enrollment/apple/create-mdm-push-certificate",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-06-22T22:36:00+00:00",
+        "summary": "Get an Apple MDM push certificate Summarize this article for me In this article Upload and renew your Apple MDM push certificates in Microsoft Intune. An Apple MDM Push certificate is required to manage iOS/iPadOS and macOS devices in Microsoft Intune, and enables devices to enroll via: The Intune Company Portal app. Apple bulk enrollment methods,.",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "479ed3ededdd",
+        "title": "Step 5 – Enroll devices in Microsoft Intune - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/device-enrollment/enroll-devices",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-06-22T22:36:00+00:00",
+        "summary": "Step 5 – Enroll devices in Microsoft Intune Summarize this article for me In this article In the final phase of deployment, devices are registered or joined in Microsoft Entra ID, enrolled in Microsoft Intune, and checked for compliance. During enrollment, Microsoft Intune installs a mobile device management (MDM) certificate on the device, which.",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "fec18a9fa860",
+        "title": "Use SCEP certificate profiles with Microsoft Intune - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/device-configuration/certificates/scep-profiles",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-06-22T22:36:00+00:00",
+        "summary": "Create and assign SCEP certificate profiles in Intune Summarize this article for me In this article After you configure your infrastructure to support Simple Certificate Enrollment Protocol (SCEP) certificates, you can create and then assign SCEP certificate profiles to users and devices in Intune. Important On October 22, 2022, Microsoft Intune.",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "7820c0f4dab0",
+        "title": "Encrypt Windows devices with BitLocker using Intune - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/device-configuration/endpoint-security/encrypt-bitlocker-windows",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-06-22T22:36:00+00:00",
+        "summary": "Encrypt Windows devices with BitLocker using Intune Summarize this article for me In this article Use Microsoft Intune to configure BitLocker encryption on devices that run Windows, and Personal Data Encryption (PDE) on devices that run Windows 11 Version 22H2 or later. Windows 10 is an allowed version in Intune. Devices running this version can.",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "75deabf558d5",
+        "title": "Use Remediations to Detect and Fix Support Issues - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/device-management/tools/deploy-remediations",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-06-22T22:36:00+00:00",
+        "summary": "Remediations Summarize this article for me In this article Important Proactive Remediations is renamed to Remediations and is available in the Microsoft Intune admin center at Devices > Manage devices > Scripts and remediations. All references to Proactive Remediations in this documentation are replaced with Remediations. However, the term.",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "d65222cb34a4",
+        "title": "Microsoft Intune Enterprise Application Management - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/app-management/deployment/enterprise-app-management",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-06-22T22:36:00+00:00",
+        "summary": "The following table of Enterprise Apps is available within Intune: Apps 3CX Desktop App 3CXPhone for Windows 3DF Zephyr Free 3DxWare 10 4K Video Downloader 4K Video Downloader+ 7-Zip 8x8 Work AbaClient Able2Extract Professional Acro Software CutePDF Writer ActiveState Software Komodo Edit ActiveState Software Komodo IDE Adobe AIR Agent Ransack.",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "381280434640",
+        "title": "Manage approved apps for Windows devices with App Control for Business policy and Managed Installers in Microsoft Intune - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/device-configuration/endpoint-security/manage-app-control",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-06-22T22:36:00+00:00",
+        "summary": "Manage approved apps for Windows devices with App Control for Business policy and Managed Installers for Microsoft Intune Summarize this article for me In this article Every day new malicious files and apps appear in the wild. The Intune management extension is an Intune service that supplemen... Tip On August 18, 2025, Intune replaced a single.",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "423a0a4daed2",
+        "title": "Guarding AI memory",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/06/22/guarding-ai-memory/",
+        "source": "Microsoft Security Blog",
+        "published": "2026-06-22T19:07:28+00:00",
+        "summary": "What happens when threat actors target what AI remembers? Microsoft breaks down the risks and the defenses. The post Guarding AI memory appeared first on Microsoft Security Blog .",
+        "category": "official_news"
+      },
       {
         "fingerprint": "48996beacbad",
         "title": "One intrusion, two cyberattackers: Uncovering parallel threat activity",
