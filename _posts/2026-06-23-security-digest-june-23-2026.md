@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - June 23, 2026"
+date: 2026-06-23 16:23:28 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - June 23, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -36,4 +44,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [OpenAI's new GPT-5.5-Cyber tops Claude Mythos 5 in vulnerability benchmark](https://www.neowin.net/news/openais-new-gpt-55-cyber-tops-claude-mythos-5-in-vulnerability-benchmark/) - *(Neowin)*
 - [CVE-2026-47964](https://nvd.nist.gov/vuln/detail/CVE-2026-47964) - *(NVD)*
 - [CVE-2026-47963](https://nvd.nist.gov/vuln/detail/CVE-2026-47963) - *(NVD)*
+
 
