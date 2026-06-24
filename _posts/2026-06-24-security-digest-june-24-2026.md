@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - June 24, 2026"
+date: 2026-06-24 16:11:18 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - June 24, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -36,4 +44,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [How One Compromised Reseller Account Let an Attacker Hit Dozens of Websites at Once](https://www.reddit.com/r/cybersecurity/comments/1ue7z6q/how_one_compromised_reseller_account_let_an/) - *(Reddit r/cybersecurity)*
 - [Cloud Security Fundamentals eBook —was $131.95, now free to download](https://www.neowin.net/sponsored/cloud-security-fundamentals-ebook-was-13195-now-free-to-download/?utm_source=rss) - *(Neowin)*
 - [Same-Day Shells: A Full-Chain RCE Sweep Against Cisco CUCM (CVE-2026-20230)](https://www.reddit.com/r/cybersecurity/comments/1ue65zh/sameday_shells_a_fullchain_rce_sweep_against/) - *(Reddit r/cybersecurity)*
+
 
