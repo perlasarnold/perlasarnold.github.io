@@ -1,12 +1,12 @@
 {
-  "generated_utc": "2026-06-24T15:34:56.470754+00:00",
-  "date": "2026-06-24",
+  "generated_utc": "2026-06-25T15:42:36.242317+00:00",
+  "date": "2026-06-25",
   "lookback_hours": 25,
   "source_status": [
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 4
+      "count": 0
     },
     {
       "name": "Microsoft Intune What's New",
@@ -93,61 +93,24 @@
   "items": {
     "high_alert": [],
     "bad_updates": [],
-    "upcoming_changes": [
-      {
-        "fingerprint": "923e2d26e25f",
-        "title": "OneDrive: Find your group sites faster with the new My Sites tab in OneDrive for iOS",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=566531",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-06-23T23:15:39+00:00",
-        "summary": "The new My Sites tab in the OneDrive iOS app gives you one place to find every group-connected SharePoint site you own or belong to. Instead of relying on recent files or search, you can browse a complete list of your sites and jump straight to their default document libraries — right from your iPhone or iPad. It's especially handy when you don't remember a site's name, haven't opened it recent...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "0be19c57b725",
-        "title": "Microsoft Purview: View only Role management enhancements",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=566529",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-06-23T23:15:39+00:00",
-        "summary": "Microsoft Purview is introducing a new view-only role management role to give admins permissions to see all the member assignments in Purview and Defender portal. This addition will be added to Global Reader and Security Reader in Purview and Entra. GA date: July CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "0baaf67099bd",
-        "title": "Microsoft Viva: Insights for GitHub Copilot spend and usage",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=566470",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-06-23T23:15:39+00:00",
-        "summary": "AI spend and usage insights for GitHub Copilot will be available on Viva Insights for managers with at least 5 direct reports (scoped access), Global analysts and Microsoft Global administrators. They can track spend and make data-driven decisions for AI spend and usage in GitHub Copilot. The dashboard is enabled by default to ensure immediate access. GA date: July CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "1f8c5bd9067d",
-        "title": "Microsoft Copilot (Microsoft 365): Updated Copilot Answers",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=562354",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-06-23T23:15:39+00:00",
-        "summary": "Copilot Answers in Copilot Search (in the M365 Copilot App on web and desktop) will provide more concise responses and more prominently highlight the ability to continue in the conversation in Copilot chat on the right-hand sidebar. GA date: July CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "71363aab014e",
-        "title": "In development - Microsoft Intune",
-        "link": "https://learn.microsoft.com/en-us/intune/whats-new/in-development",
-        "source": "Microsoft Intune What's New",
-        "published": "2026-06-23T22:34:00+00:00",
-        "summary": "In development for Microsoft Intune Summarize this artic... When you enable auto-update for an EAM app with a required assignment, Intune will detect when a newer version is available in the EAM catalog and automatically update the app on targeted devices. Applies to: Windows Multiple managed accounts for app protection policies The Multiple.",
-        "category": "upcoming_changes"
-      }
-    ],
+    "upcoming_changes": [],
     "official_news": [
       {
-        "fingerprint": "f2369826c831",
-        "title": "StealC and Amadey: Breaking down infostealers and the cybercrime services that deliver them",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/06/24/stealc-and-amadey-breaking-down-infostealers-and-the-cybercrime-services-that-deliver-them/",
+        "fingerprint": "d65222cb34a4",
+        "title": "Microsoft Intune Enterprise Application Management - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/app-management/deployment/enterprise-app-management",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-06-24T22:33:00+00:00",
+        "summary": "When auto-update is enabled for an Enterprise App Catalog app with a required assignment, Intune detects when a newer version is available in the catalog and automatically updates the app on targeted devices. For Enterprise App Catalog apps with a Required assignment, you can turn on auto-update so Intune applies new versions from the catalog.",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "f49d845c8f8c",
+        "title": "CNAPP evolution: How Microsoft aligns with leading cloud risk management platforms",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/06/24/cnapp-evolution-how-microsoft-aligns-with-leading-cloud-risk-management-platforms/",
         "source": "Microsoft Security Blog",
-        "published": "2026-06-24T12:30:00+00:00",
-        "summary": "On June 24, 2026, Microsoft’s Digital Crimes Unit (DCU) facilitated the takedown, suspension, and blocking of domains that formed the backbone of the StealC and Amadey infrastructure. This blog is a technical breakdown of StealC and Amadey. The post StealC and Amadey: Breaking down infostealers and the cybercrime services that deliver them appeared first on Microsoft Security Blog .",
+        "published": "2026-06-24T18:00:00+00:00",
+        "summary": "Learn how CNAPP platforms are helping organizations prioritize exploitable risks, reduce exposure, and operationalize security across the application lifecycle. The post CNAPP evolution: How Microsoft aligns with leading cloud risk management platforms appeared first on Microsoft Security Blog .",
         "category": "official_news"
       }
     ],
