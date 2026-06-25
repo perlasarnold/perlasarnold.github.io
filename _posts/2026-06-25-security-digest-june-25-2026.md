@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - June 25, 2026"
+date: 2026-06-25 16:17:51 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - June 25, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -55,4 +63,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [red team leaders - good training content?](https://www.reddit.com/r/cybersecurity/comments/1uew03q/red_team_leaders_good_training_content/) - *(Reddit r/cybersecurity)*
 - [Cisco Unified CM flaw CVE-2026-20230 now exploited in attacks](https://www.bleepingcomputer.com/news/security/cisco-unified-cm-sme-flaw-cve-2026-20230-now-exploited-in-attacks/) - *(BleepingComputer)*
 - [CVE-2026-55205](https://www.cve.org/CVERecord?id=CVE-2026-55205) - *(CVE.org)*
+
 
