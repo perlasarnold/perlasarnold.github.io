@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - June 26, 2026"
+date: 2026-06-26 16:09:10 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - June 26, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -45,4 +53,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Five Eyes agencies say AI is shrinking the vuln-to-exploit window to "months, not years" — what are you actually changing?](https://www.reddit.com/r/cybersecurity/comments/1uffh7p/five_eyes_agencies_say_ai_is_shrinking_the/) - *(Reddit r/cybersecurity)*
 - [learning about entra id](https://www.reddit.com/r/cybersecurity/comments/1uffcdw/learning_about_entra_id/) - *(Reddit r/cybersecurity)*
 - [CVE-2026-12622](https://www.cve.org/CVERecord?id=CVE-2026-12622) - *(CVE.org)*
+
 
