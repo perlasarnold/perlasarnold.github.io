@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - June 27, 2026"
+date: 2026-06-27 15:10:05 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - June 27, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -44,4 +52,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [PEdit-CoW (CVE-2026-46331): another page-cache write in the DirtyPipe family](https://www.reddit.com/r/cybersecurity/comments/1ugckz5/peditcow_cve202646331_another_pagecache_write_in/) - *(Reddit r/cybersecurity)*
 - [CVE-2025-71379](https://nvd.nist.gov/vuln/detail/CVE-2025-71379) - *(NVD)*
 - [CVE-2025-71379](https://www.cve.org/CVERecord?id=CVE-2025-71379) - *(CVE.org)*
+
 
