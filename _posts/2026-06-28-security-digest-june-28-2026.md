@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - June 28, 2026"
+date: 2026-06-28 15:13:02 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - June 28, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -45,4 +53,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [0DIN: Clean GitHub Repos Can Trick AI Agents Into Reverse Shells](https://www.reddit.com/r/cybersecurity/comments/1uhd65o/0din_clean_github_repos_can_trick_ai_agents_into/) - *(Reddit r/cybersecurity)*
 - [New DirtyClone Linux Vulnerability Allows Attackers to Gain Root Access Via Cloned Packets](https://cybersecuritynews.com/dirtyclone-linux-vulnerability/) - *(CybersecurityNews)*
 - [Amazon Q Vulnerability Let Attackers Execute Code and Access Sensitive Cloud Environments](https://cybersecuritynews.com/amazon-q-vulnerability/) - *(CybersecurityNews)*
+
 
