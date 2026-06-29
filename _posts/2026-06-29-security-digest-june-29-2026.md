@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - June 29, 2026"
+date: 2026-06-29 16:50:04 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - June 29, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -48,4 +56,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Is IAM (Identity & Access Management) considered a strong cybersecurity field to be getting into?](https://www.reddit.com/r/cybersecurity/comments/1uiqwcp/is_iam_identity_access_management_considered_a/) - *(Reddit r/cybersecurity)*
 - [‘DirtyClone’ Linux Kernel Vulnerability Leads to Root Access](https://www.reddit.com/r/cybersecurity/comments/1uipxqg/dirtyclone_linux_kernel_vulnerability_leads_to/) - *(Reddit r/cybersecurity)*
 - [Which Microsoft certification would YOU pick with a free voucher as a college student?](https://www.reddit.com/r/cybersecurity/comments/1uip7g1/which_microsoft_certification_would_you_pick_with/) - *(Reddit r/cybersecurity)*
+
 
