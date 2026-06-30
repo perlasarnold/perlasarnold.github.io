@@ -1,17 +1,17 @@
 {
-  "generated_utc": "2026-06-29T16:39:17.953456+00:00",
-  "date": "2026-06-29",
+  "generated_utc": "2026-06-30T15:33:20.237529+00:00",
+  "date": "2026-06-30",
   "lookback_hours": 25,
   "source_status": [
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 0
+      "count": 3
     },
     {
       "name": "Microsoft Intune What's New",
       "status": "OK",
-      "count": 0
+      "count": 1
     },
     {
       "name": "Windows IT Pro Blog",
@@ -21,7 +21,7 @@
     {
       "name": "Microsoft Security Blog",
       "status": "OK",
-      "count": 0
+      "count": 1
     },
     {
       "name": "Microsoft Entra Blog",
@@ -93,8 +93,55 @@
   "items": {
     "high_alert": [],
     "bad_updates": [],
-    "upcoming_changes": [],
-    "official_news": [],
+    "upcoming_changes": [
+      {
+        "fingerprint": "c36adbb82728",
+        "title": "Microsoft Copilot (Microsoft 365): Edit your document with Copilot in PowerPoint in Government Clouds",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=566702",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-06-29T23:02:39+00:00",
+        "summary": "Copilot in PowerPoint helps you create, edit, and refine presentations through natural language—right inside your deck. Start a new presentation or build on an existing one by asking Copilot to generate slides, update content, improve layouts, and polish design, all while preserving your formatting, structure, and branding. Copilot can also connect to your brand kit to apply branded templates, ...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "23224e7569c7",
+        "title": "Microsoft Copilot (Microsoft 365): Edit your document with Copilot in PowerPoint in Government Clouds",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=566701",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-06-29T23:02:39+00:00",
+        "summary": "Copilot in PowerPoint helps you create, edit, and refine presentations through natural language—right inside your deck. Start a new presentation or build on an existing one by asking Copilot to generate slides, update content, improve layouts, and polish design, all while preserving your formatting, structure, and branding. Copilot can also connect to your brand kit to apply branded templates, ...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "72d6c5daa777",
+        "title": "Microsoft Teams: IntelliFrame people labels in Teams Rooms on Windows",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=566700",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-06-29T23:02:39+00:00",
+        "summary": "Remote meeting participants know who is in the room and better follow the conversation with new IntelliFrame people labels that identify in-room participants and provide a hover-over contact card using voice and face profiles on intelligent cameras and in the cloud. Available with Teams Rooms on Windows licensed for Teams Rooms Pro. GA date: August CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "71363aab014e",
+        "title": "In development - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/whats-new/in-development",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-06-29T18:53:00+00:00",
+        "summary": "In development for Microsoft Intune Summarize this article for me In this article To help in your readiness and planning, this article lists Intune UI updates and features that are in development but not yet released. When a feature enters production, whether it's in preview or generally available, the feature description moves from this article.",
+        "category": "upcoming_changes"
+      }
+    ],
+    "official_news": [
+      {
+        "fingerprint": "8749a4b3a0c8",
+        "title": "Chromium extension uses AI‑related branding to redirect browser search",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/06/29/chromium-extension-uses-airelated-branding-redirect-browser-search/",
+        "source": "Microsoft Security Blog",
+        "published": "2026-06-29T16:27:46+00:00",
+        "summary": "A malicious Chromium-based extension that spoofs the AI-powered answer engine Perplexity AI redirects browser search traffic using MV3 APIs and intermediary infrastructure. The post Chromium extension uses AI‑related branding to redirect browser search appeared first on Microsoft Security Blog .",
+        "category": "official_news"
+      }
+    ],
     "community_buzz": []
   }
 }
