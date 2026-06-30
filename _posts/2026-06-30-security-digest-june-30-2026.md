@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - June 30, 2026"
+date: 2026-06-30 16:18:34 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - June 30, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -39,4 +47,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Security+ SY0-701 study resource – PBQ scenarios included (most study packs skip these) [OC]](https://www.reddit.com/r/cybersecurity/comments/1ujnke9/security_sy0701_study_resource_pbq_scenarios/) - *(Reddit r/cybersecurity)*
 - [Attackers actively exploit the Oracle E-Business Suite flaw CVE-2026-46817](https://www.reddit.com/r/cybersecurity/comments/1ujnbc3/attackers_actively_exploit_the_oracle_ebusiness/) - *(Reddit r/cybersecurity)*
 - [SimpleHelp vulnerability exploited to deliver mighty Djinn Stealer (CVE-2026-48558)](https://www.reddit.com/r/cybersecurity/comments/1ujn47m/simplehelp_vulnerability_exploited_to_deliver/) - *(Reddit r/cybersecurity)*
+
 
