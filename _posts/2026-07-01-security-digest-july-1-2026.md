@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - July 1, 2026"
+date: 2026-07-01 16:20:33 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - July 1, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -57,4 +65,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Anthropic’s Buffa Rust Library 0-Day Vulnerability Enables DoS Attack](https://cybersecuritynews.com/anthropics-buffa-rust-library-0-day-vulnerability-enables-dos-attack/) - *(CybersecurityNews)*
 - [Apple ‘Hide My Email’ Vulnerability Reveals Peoples’ Real Email Addresses](https://www.reddit.com/r/cybersecurity/comments/1ukhvhq/apple_hide_my_email_vulnerability_reveals_peoples/) - *(Reddit r/cybersecurity)*
 - [I have no certs of value](https://www.reddit.com/r/cybersecurity/comments/1ukhj90/i_have_no_certs_of_value/) - *(Reddit r/cybersecurity)*
+
 
