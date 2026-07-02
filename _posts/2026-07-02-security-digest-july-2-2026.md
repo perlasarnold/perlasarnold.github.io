@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - July 2, 2026"
+date: 2026-07-02 16:00:43 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - July 2, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -37,4 +45,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [AI security trainings/certifications](https://www.reddit.com/r/cybersecurity/comments/1ulfqwp/ai_security_trainingscertifications/) - *(Reddit r/cybersecurity)*
 - [Entrepreneurship with cyber security](https://www.reddit.com/r/cybersecurity/comments/1uld5w3/entrepreneurship_with_cyber_security/) - *(Reddit r/cybersecurity)*
 - [Building a security scanner for non-technical business owners (medical/dental practices) — looking for honest criticism before I go further](https://www.reddit.com/r/cybersecurity/comments/1ulanrx/building_a_security_scanner_for_nontechnical/) - *(Reddit r/cybersecurity)*
+
 
