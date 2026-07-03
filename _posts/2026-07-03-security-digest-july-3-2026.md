@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - July 3, 2026"
+date: 2026-07-03 15:49:55 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - July 3, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -50,4 +58,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Security Code Verification Enter 6-digit code from your security auth verification App](https://www.reddit.com/r/cybersecurity/comments/1ulotc5/security_code_verification_enter_6digit_code_from/) - *(Reddit r/cybersecurity)*
 - [It’s 37oC, And All We Can Think About Is ColdFusion (Adobe ColdFusion Security Bulletin APSB26-68 CVE Bonanza) - watchTowr Labs](https://www.reddit.com/r/cybersecurity/comments/1ulngiy/its_37oc_and_all_we_can_think_about_is_coldfusion/) - *(Reddit r/cybersecurity)*
 - [CVE-2026-45406](https://www.cve.org/CVERecord?id=CVE-2026-45406) - *(CVE.org)*
+
 
