@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - July 5, 2026"
+date: 2026-07-05 15:07:45 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - July 5, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -37,4 +45,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [New “Bad Epoll” 0-Day Vulnerability Allows Root Access on Linux Servers and Android Devices](https://cybersecuritynews.com/bad-epoll-0-day-vulnerability/) - *(CybersecurityNews)*
 - [CVE-2026-13520](https://www.cve.org/CVERecord?id=CVE-2026-13520) - *(CVE.org)*
 - [CVE-2026-13520](https://nvd.nist.gov/vuln/detail/CVE-2026-13520) - *(NVD)*
+
 
