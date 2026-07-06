@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - July 6, 2026"
+date: 2026-07-06 16:48:27 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - July 6, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -62,4 +70,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [First time learning cyber security](https://www.reddit.com/r/cybersecurity/comments/1uoixag/first_time_learning_cyber_security/) - *(Reddit r/cybersecurity)*
 - [Releasing my Windows 10/11 Hardening app, free, of course, else it wouldn't be here.](https://www.reddit.com/r/cybersecurity/comments/1uo76tw/releasing_my_windows_1011_hardening_app_free_of/) - *(Reddit r/cybersecurity)*
 - [CVE-2026-57947](https://www.cve.org/CVERecord?id=CVE-2026-57947) - *(CVE.org)*
+
 
