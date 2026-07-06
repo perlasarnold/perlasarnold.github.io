@@ -1,12 +1,12 @@
 {
-  "generated_utc": "2026-07-03T15:13:46.924281+00:00",
-  "date": "2026-07-03",
+  "generated_utc": "2026-07-06T16:24:25.913246+00:00",
+  "date": "2026-07-06",
   "lookback_hours": 25,
   "source_status": [
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 3
+      "count": 0
     },
     {
       "name": "Microsoft Intune What's New",
@@ -21,7 +21,7 @@
     {
       "name": "Microsoft Security Blog",
       "status": "OK",
-      "count": 1
+      "count": 0
     },
     {
       "name": "Microsoft Entra Blog",
@@ -93,46 +93,8 @@
   "items": {
     "high_alert": [],
     "bad_updates": [],
-    "upcoming_changes": [
-      {
-        "fingerprint": "b744d2b037c4",
-        "title": "Outlook: Improvements to Save Contacts on iPhone and iPad",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567006",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-02T23:12:48+00:00",
-        "summary": "Outlook contacts become available system-wide (caller ID, Phone, Messages, Siri) using Apple's Contact Provider framework — without full address-book access or copying contacts onto your device. GA date: January CY2027",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "cd77fb224d69",
-        "title": "Microsoft Copilot Studio: Block the use of maker-provided credentials for authentication",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=566997",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-02T23:12:48+00:00",
-        "summary": "By blocking the use of maker's credentials by AI agents, admins can increase the security and compliance of agents in their organizations: - Prevent unauthorized access to sensitive systems or data that the maker's credentials might have access to. - Help organizations comply with data protection regulations (such as GDPR or HIPAA) by ensuring only authorized identities are used for data access...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "f3bc5807aac0",
-        "title": "Planner: Task Details Sidecar experience",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=566866",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-02T23:12:48+00:00",
-        "summary": "The Task Details Sidecar lets you view and edit task details in a side pane while keeping your Board, Grid, or My Tasks view visible. Update tasks without losing context or switching back and forth from modal dialogs. GA date: August CY2026",
-        "category": "upcoming_changes"
-      }
-    ],
-    "official_news": [
-      {
-        "fingerprint": "901aa2316689",
-        "title": "Improving security posture across the Microsoft partner ecosystem",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/07/02/improving-security-posture-across-the-microsoft-partner-ecosystem/",
-        "source": "Microsoft Security Blog",
-        "published": "2026-07-02T16:00:00+00:00",
-        "summary": "Read how Microsoft strengthens partner ecosystem security with CSP vetting, least privilege access, monitoring, and risk management best practices. The post Improving security posture across the Microsoft partner ecosystem appeared first on Microsoft Security Blog .",
-        "category": "official_news"
-      }
-    ],
+    "upcoming_changes": [],
+    "official_news": [],
     "community_buzz": []
   }
 }
