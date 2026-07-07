@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - July 7, 2026"
+date: 2026-07-07 16:21:25 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - July 7, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -67,4 +75,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Some advice on how to improve my penetration testing workflow.](https://www.reddit.com/r/cybersecurity/comments/1upl6d0/some_advice_on_how_to_improve_my_penetration/) - *(Reddit r/cybersecurity)*
 - [This patch to Mesa could give apps on Windows Subsystem for Linux a speed boost](https://www.neowin.net/news/this-patch-to-mesa-could-give-linux-apps-on-wsl-the-speed-boost-they-need/?utm_source=rss) - *(Neowin)*
 - [Advice needed](https://www.reddit.com/r/cybersecurity/comments/1upi5yk/advice_needed/) - *(Reddit r/cybersecurity)*
+
 
