@@ -1,12 +1,12 @@
 {
-  "generated_utc": "2026-07-06T16:24:25.913246+00:00",
-  "date": "2026-07-06",
+  "generated_utc": "2026-07-07T15:44:45.119448+00:00",
+  "date": "2026-07-07",
   "lookback_hours": 25,
   "source_status": [
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 0
+      "count": 3
     },
     {
       "name": "Microsoft Intune What's New",
@@ -21,7 +21,7 @@
     {
       "name": "Microsoft Security Blog",
       "status": "OK",
-      "count": 0
+      "count": 1
     },
     {
       "name": "Microsoft Entra Blog",
@@ -31,7 +31,7 @@
     {
       "name": "BleepingComputer",
       "status": "OK",
-      "count": 0
+      "count": 1
     },
     {
       "name": "Neowin",
@@ -93,8 +93,56 @@
   "items": {
     "high_alert": [],
     "bad_updates": [],
-    "upcoming_changes": [],
-    "official_news": [],
-    "community_buzz": []
+    "upcoming_changes": [
+      {
+        "fingerprint": "1a483c6180f6",
+        "title": "Outlook: Notification when not responding to most recent message of email thread",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567316",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-07-06T23:00:50+00:00",
+        "summary": "When replying to an email conversation and the message being replied to is not the latest in the conversation, Outlook for Windows and web will now display a notification indicating this. With this change, users can now be more confident that they are responding to the right message in an email conversation. #newoutlookforwindows GA date: August CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "b3e5a9b78098",
+        "title": "Microsoft Copilot (Microsoft 365): Microsoft 365 admin center - Usage reports - Copilot Chat for GCC, GCC High and DoD",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567121",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-07-06T23:00:50+00:00",
+        "summary": "We will be introducing a new Usage report covering Copilot Chat. This report will include total active users, Copilot Chat usage with a breakout per Microsoft 365 app, and user-level activity insights (anonymized by default). #copilotcontrolsystem GA date: July CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "f2f3ab58bef6",
+        "title": "Microsoft Copilot (Microsoft 365): Microsoft 365 admin center – New Microsoft 365 Copilot usage report for GCC High & DoD",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567120",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-07-06T23:00:50+00:00",
+        "summary": "We will be introducing a new Usage report covering Microsoft 365 Copilot. This report will include total enabled and active users, Copilot usage with a breakout per Microsoft 365 app, and user-level activity insights (anonymized by default). #copilotcontrolsystem GA date: July CY2026",
+        "category": "upcoming_changes"
+      }
+    ],
+    "official_news": [
+      {
+        "fingerprint": "cd19bde5b818",
+        "title": "5 insights from Frost & Sullivan’s 2025 Frost Radar™ for Cloud Security Posture Management",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/07/06/5-insights-from-frost-sullivans-2025-frost-radar-for-cloud-security-posture-management/",
+        "source": "Microsoft Security Blog",
+        "published": "2026-07-06T16:00:00+00:00",
+        "summary": "Read five key learnings from the Frost & Sullivan 2025 Frost Radar™ for CSPM to learn how CSPM is evolving from point-in-time compliance to continuous risk management. The post 5 insights from Frost & Sullivan’s 2025 Frost Radar™ for Cloud Security Posture Management appeared first on Microsoft Security Blog .",
+        "category": "official_news"
+      }
+    ],
+    "community_buzz": [
+      {
+        "fingerprint": "f6653a5c5a24",
+        "title": "Microsoft to enable Windows settings backup by default for orgs",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-enable-windows-backup-for-organizations-by-default/",
+        "source": "BleepingComputer",
+        "published": "2026-07-07T09:41:19+00:00",
+        "summary": "Microsoft says the Windows settings backup and restore tool will be enabled by default on Microsoft Entra-joined or Microsoft Entra hybrid-joined enterprise systems after upgrading to Windows 11 26H2. [...]",
+        "category": "community_buzz"
+      }
+    ]
   }
 }
