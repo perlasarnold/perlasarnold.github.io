@@ -1,12 +1,12 @@
 {
-  "generated_utc": "2026-07-07T15:44:45.119448+00:00",
-  "date": "2026-07-07",
+  "generated_utc": "2026-07-08T15:25:05.059204+00:00",
+  "date": "2026-07-08",
   "lookback_hours": 25,
   "source_status": [
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 3
+      "count": 7
     },
     {
       "name": "Microsoft Intune What's New",
@@ -21,7 +21,7 @@
     {
       "name": "Microsoft Security Blog",
       "status": "OK",
-      "count": 1
+      "count": 0
     },
     {
       "name": "Microsoft Entra Blog",
@@ -31,7 +31,7 @@
     {
       "name": "BleepingComputer",
       "status": "OK",
-      "count": 1
+      "count": 0
     },
     {
       "name": "Neowin",
@@ -95,54 +95,70 @@
     "bad_updates": [],
     "upcoming_changes": [
       {
-        "fingerprint": "1a483c6180f6",
-        "title": "Outlook: Notification when not responding to most recent message of email thread",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567316",
+        "fingerprint": "6f19289bf4a1",
+        "title": "Microsoft Teams: Enhanced delegated calling with delegate call access restrictions and join notifications",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567306",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-06T23:00:50+00:00",
-        "summary": "When replying to an email conversation and the message being replied to is not the latest in the conversation, Outlook for Windows and web will now display a notification indicating this. With this change, users can now be more confident that they are responding to the right message in an email conversation. #newoutlookforwindows GA date: August CY2026",
+        "published": "2026-07-07T23:10:08+00:00",
+        "summary": "Call delegation in Teams now includes new controls that give delegators greater privacy and control during active calls. Delegators can lock an ongoing call to prevent delegates from joining or resuming the call and can optionally enable warning tones that notify participants when a delegate joins or resumes a call. GA date: August CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "b3e5a9b78098",
-        "title": "Microsoft Copilot (Microsoft 365): Microsoft 365 admin center - Usage reports - Copilot Chat for GCC, GCC High and DoD",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567121",
+        "fingerprint": "1206f0a3b7f0",
+        "title": "Microsoft Purview: Data Loss Prevention - User Based Aggregation of DLP Alerts",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567010",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-06T23:00:50+00:00",
-        "summary": "We will be introducing a new Usage report covering Copilot Chat. This report will include total active users, Copilot Chat usage with a breakout per Microsoft 365 app, and user-level activity insights (anonymized by default). #copilotcontrolsystem GA date: July CY2026",
+        "published": "2026-07-07T23:10:08+00:00",
+        "summary": "Enable aggregation of DLP alerts based on common entities user even when multiple rules are matched. This feature should consolidate related alert events into a single alert object to: Reduce alert noise, simplify investigation workflows, enhance contextual understanding of violations. GA date: September CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "f2f3ab58bef6",
-        "title": "Microsoft Copilot (Microsoft 365): Microsoft 365 admin center – New Microsoft 365 Copilot usage report for GCC High & DoD",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567120",
+        "fingerprint": "fd038e8471e3",
+        "title": "Outlook: Categorize Emails by Dragging Them onto a Favorite Category",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567319",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-06T23:00:50+00:00",
-        "summary": "We will be introducing a new Usage report covering Microsoft 365 Copilot. This report will include total enabled and active users, Copilot usage with a breakout per Microsoft 365 app, and user-level activity insights (anonymized by default). #copilotcontrolsystem GA date: July CY2026",
+        "published": "2026-07-07T23:01:01+00:00",
+        "summary": "You can now add a category to your Favorites and then drag emails right onto it to apply that category. No need to open menus or right-click each message. Just pin the category you use most to Favorites, then drop your emails on it to tag them in one quick motion. It's a faster, more visual way to keep your inbox sorted the way you like. #newoutlookforwindows GA date: September CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "eea276bf3262",
+        "title": "Outlook: Reply with a Template in Rules",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567318",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-07-07T23:01:01+00:00",
+        "summary": "You can now create a rule that automatically replies to incoming messages with a template you've set up. Set the conditions you care about and pick the template, and Outlook handles the response for you. It's a simple way to send consistent replies without typing the same thing over and over. #newoutlookforwindows GA date: September CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "4b00791eb4e4",
+        "title": "Planner: Capabilities in Microsoft Cowork",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567315",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-07-07T23:01:01+00:00",
+        "summary": "You’ll soon be able to bring your Microsoft Planner into Microsoft Cowork. In Cowork, you can view, create, and update your plans, buckets, goals, and tasks without switching apps. Cowork goes a step further by helping you execute your Planner tasks across Microsoft 365, such as drafting and sending emails, scheduling meetings, posting updates to Teams, and working with files. It can then write...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "d48e786ad9b1",
+        "title": "Microsoft Purview: Data Lifecycle Management - Graph API Support for Archive Mailboxes",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567313",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-07-07T23:01:01+00:00",
+        "summary": "Access to Archive mailboxes (Main + Auxiliary) through Microsoft Graph. The goal is to give users a single, seamless Archive view, even though Archive data may physically reside across multiple auxiliary mailboxes with EWS Graph APIs getting deprecated by OCT 2026. GA date: August CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "1d119c0fe501",
+        "title": "Microsoft Copilot Studio: Use SharePoint lists as a knowledge source",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=566859",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-07-07T23:01:01+00:00",
+        "summary": "Unlock the full value of your structured data by bringing SharePoint lists directly into your Microsoft Copilot Studio agents. With native support, customers can ground AI responses in up-to-date, business-critical data—such as tasks, inventory, customers, or operations—without manual data movement or complex integrations. This enables more accurate, context-aware copilots that reflect how your...",
         "category": "upcoming_changes"
       }
     ],
-    "official_news": [
-      {
-        "fingerprint": "cd19bde5b818",
-        "title": "5 insights from Frost & Sullivan’s 2025 Frost Radar™ for Cloud Security Posture Management",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/07/06/5-insights-from-frost-sullivans-2025-frost-radar-for-cloud-security-posture-management/",
-        "source": "Microsoft Security Blog",
-        "published": "2026-07-06T16:00:00+00:00",
-        "summary": "Read five key learnings from the Frost & Sullivan 2025 Frost Radar™ for CSPM to learn how CSPM is evolving from point-in-time compliance to continuous risk management. The post 5 insights from Frost & Sullivan’s 2025 Frost Radar™ for Cloud Security Posture Management appeared first on Microsoft Security Blog .",
-        "category": "official_news"
-      }
-    ],
-    "community_buzz": [
-      {
-        "fingerprint": "f6653a5c5a24",
-        "title": "Microsoft to enable Windows settings backup by default for orgs",
-        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-enable-windows-backup-for-organizations-by-default/",
-        "source": "BleepingComputer",
-        "published": "2026-07-07T09:41:19+00:00",
-        "summary": "Microsoft says the Windows settings backup and restore tool will be enabled by default on Microsoft Entra-joined or Microsoft Entra hybrid-joined enterprise systems after upgrading to Windows 11 26H2. [...]",
-        "category": "community_buzz"
-      }
-    ]
+    "official_news": [],
+    "community_buzz": []
   }
 }
