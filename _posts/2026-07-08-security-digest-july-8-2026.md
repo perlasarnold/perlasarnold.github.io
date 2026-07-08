@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - July 8, 2026"
+date: 2026-07-08 15:57:59 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - July 8, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -55,4 +63,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Critical Gitea Flaw Under Active Exploitation, Researchers Warn](https://www.reddit.com/r/cybersecurity/comments/1uqjlrj/critical_gitea_flaw_under_active_exploitation/) - *(Reddit r/cybersecurity)*
 - [Jadepuffer from a slightly different angle](https://www.reddit.com/r/cybersecurity/comments/1uqj7az/jadepuffer_from_a_slightly_different_angle/) - *(Reddit r/cybersecurity)*
 - [Can anyone provide insight on Crowdstrike's AI security solutions position?](https://www.reddit.com/r/cybersecurity/comments/1uqcl08/can_anyone_provide_insight_on_crowdstrikes_ai/) - *(Reddit r/cybersecurity)*
+
 
