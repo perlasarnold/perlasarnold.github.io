@@ -1,12 +1,12 @@
 {
-  "generated_utc": "2026-07-08T15:25:05.059204+00:00",
-  "date": "2026-07-08",
+  "generated_utc": "2026-07-09T16:02:41.449071+00:00",
+  "date": "2026-07-09",
   "lookback_hours": 25,
   "source_status": [
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 7
+      "count": 10
     },
     {
       "name": "Microsoft Intune What's New",
@@ -21,7 +21,7 @@
     {
       "name": "Microsoft Security Blog",
       "status": "OK",
-      "count": 0
+      "count": 1
     },
     {
       "name": "Microsoft Entra Blog",
@@ -31,7 +31,7 @@
     {
       "name": "BleepingComputer",
       "status": "OK",
-      "count": 0
+      "count": 1
     },
     {
       "name": "Neowin",
@@ -41,7 +41,7 @@
     {
       "name": "The Hacker News",
       "status": "OK",
-      "count": 0
+      "count": 1
     },
     {
       "name": "Krebs on Security",
@@ -95,70 +95,126 @@
     "bad_updates": [],
     "upcoming_changes": [
       {
-        "fingerprint": "6f19289bf4a1",
-        "title": "Microsoft Teams: Enhanced delegated calling with delegate call access restrictions and join notifications",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567306",
+        "fingerprint": "c0e61379b476",
+        "title": "Microsoft Teams: SharePoint app in Teams",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567314",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-07T23:10:08+00:00",
-        "summary": "Call delegation in Teams now includes new controls that give delegators greater privacy and control during active calls. Delegators can lock an ongoing call to prevent delegates from joining or resuming the call and can optionally enable warning tones that notify participants when a delegate joins or resumes a call. GA date: August CY2026",
+        "published": "2026-07-08T23:10:57+00:00",
+        "summary": "When a user who has access to the SharePoint app in Teams clicks a SharePoint page or news link in Teams chat or channels, the link will open inside the SharePoint app in Teams (if available) instead of the mobile browser GA date: August CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "1206f0a3b7f0",
-        "title": "Microsoft Purview: Data Loss Prevention - User Based Aggregation of DLP Alerts",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567010",
+        "fingerprint": "ca80b6bf5438",
+        "title": "Microsoft Purview: Data Loss Prevention - Collection and DLP Policies for Intune-Policy Managed Apps",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567311",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-07T23:10:08+00:00",
-        "summary": "Enable aggregation of DLP alerts based on common entities user even when multiple rules are matched. This feature should consolidate related alert events into a single alert object to: Reduce alert noise, simplify investigation workflows, enhance contextual understanding of violations. GA date: September CY2026",
+        "published": "2026-07-08T23:10:57+00:00",
+        "summary": "We are introducing a new integrated Microsoft Purview Data Loss Prevention (DLP) capability for Intune Mobile Application Management (MAM)-protected mobile apps, enabling organizations to apply content‑aware protection policies to sensitive data on mobile devices. This integration ensures that clipboard actions in managed mobile apps are evaluated against Purview DLP policies before sharing is ...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "fd038e8471e3",
-        "title": "Outlook: Categorize Emails by Dragging Them onto a Favorite Category",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567319",
+        "fingerprint": "873837c27418",
+        "title": "Microsoft Teams: Specify who has control of production tools in Teams meetings and events",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567305",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-07T23:01:01+00:00",
-        "summary": "You can now add a category to your Favorites and then drag emails right onto it to apply that category. No need to open menus or right-click each message. Just pin the category you use most to Favorites, then drop your emails on it to tag them in one quick motion. It's a faster, more visual way to keep your inbox sorted the way you like. #newoutlookforwindows GA date: September CY2026",
+        "published": "2026-07-08T23:10:57+00:00",
+        "summary": "A new meeting option for Teams meetings with presenters and events that enables organizers to designate 'Who has control of production tools' during the event. Users defined here will have access to the controls in 'Manage What Attendees See' and the ‘Green Room'. GA date: August CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "eea276bf3262",
-        "title": "Outlook: Reply with a Template in Rules",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567318",
+        "fingerprint": "4b9f0e0389c0",
+        "title": "Microsoft Teams: Ability for IT admins to customize the user notification messages for recording and transcription in calls",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567302",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-07T23:01:01+00:00",
-        "summary": "You can now create a rule that automatically replies to incoming messages with a template you've set up. Set the conditions you care about and pick the template, and Outlook handles the response for you. It's a simple way to send consistent replies without typing the same thing over and over. #newoutlookforwindows GA date: September CY2026",
+        "published": "2026-07-08T23:10:57+00:00",
+        "summary": "This feature enables IT admins to customize a portion of the user notification messages for recording and transcription during Teams calls. GA date: August CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "4b00791eb4e4",
-        "title": "Planner: Capabilities in Microsoft Cowork",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567315",
+        "fingerprint": "55219249a28b",
+        "title": "Microsoft Teams: New controls for quick views in the chat list",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567301",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-07T23:01:01+00:00",
-        "summary": "You’ll soon be able to bring your Microsoft Planner into Microsoft Cowork. In Cowork, you can view, create, and update your plans, buckets, goals, and tasks without switching apps. Cowork goes a step further by helping you execute your Planner tasks across Microsoft 365, such as drafting and sending emails, scheduling meetings, posting updates to Teams, and working with files. It can then write...",
+        "published": "2026-07-08T23:10:57+00:00",
+        "summary": "The new chats and channels experience introduced quick views at the top of the chat and channels list. These are views into mentions, followed threads and more. This update allows users to choose when and how these quick views are shown. Users will have options such as always show, always hide and show only when unread. Users will also be able to collapse the quick views section. GA date: Augus...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "d48e786ad9b1",
-        "title": "Microsoft Purview: Data Lifecycle Management - Graph API Support for Archive Mailboxes",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567313",
+        "fingerprint": "a0f5962d2ba9",
+        "title": "Microsoft Copilot (Microsoft 365): Link meetings to CRM records automatically with AI",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567004",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-07T23:01:01+00:00",
-        "summary": "Access to Archive mailboxes (Main + Auxiliary) through Microsoft Graph. The goal is to give users a single, seamless Archive view, even though Archive data may physically reside across multiple auxiliary mailboxes with EWS Graph APIs getting deprecated by OCT 2026. GA date: August CY2026",
+        "published": "2026-07-08T23:10:57+00:00",
+        "summary": "This feature saves you time by automatically connecting your meetings to the correct CRM records. You have the right deal insights at your fingertips when preparing for customer conversations, so you can focus less on updating records and more on selling with confidence and context. GA date: September CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "1d119c0fe501",
-        "title": "Microsoft Copilot Studio: Use SharePoint lists as a knowledge source",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=566859",
+        "fingerprint": "fae029b0b0e0",
+        "title": "Microsoft Copilot (Microsoft 365): Enrich Sales agent meeting prep with more data sources",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567003",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-07T23:01:01+00:00",
-        "summary": "Unlock the full value of your structured data by bringing SharePoint lists directly into your Microsoft Copilot Studio agents. With native support, customers can ground AI responses in up-to-date, business-critical data—such as tasks, inventory, customers, or operations—without manual data movement or complex integrations. This enables more accurate, context-aware copilots that reflect how your...",
+        "published": "2026-07-08T23:10:57+00:00",
+        "summary": "Walking into a customer meeting with incomplete context can mean missed risks, overlooked issues, and conversations that fall flat. With access to richer data, like service tickets, directly in your meeting prep, you can spot open issues and opportunities before the conversation starts. This insight helps you engage more meaningfully, build stronger relationships, and drive better sales outcome...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "c4284504a5b2",
+        "title": "Microsoft Copilot (Microsoft 365): Add custom insights to record summaries in Sales agent",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567002",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-07-08T23:10:57+00:00",
+        "summary": "Sales agent gives you strong CRM-based account and opportunity summaries, but important context is often spread across non-CRM systems. With this capability, you can add insights from any application to enrich account and opportunity summaries in Sales agent, so sellers get a unified view of their accounts and deals in one place without switching applications. GA date: March CY2027 Preview date...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "0808c9084115",
+        "title": "Microsoft Copilot (Microsoft 365): Engage customers across multiple channels (web, voice, SMS & email)",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567001",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-07-08T23:10:57+00:00",
+        "summary": "A multi‑channel outreach capability, spanning web chat, voice, SMS, and email, is critical for meeting customers in the channel they naturally prefer and increasing the likelihood of timely engagement. By activating the agent across multiple surfaces, we ensure continuity of conversations, reduce drop‑off when a single channel fails, and support the FY27 goal of always‑on, end‑to‑end engagement...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "c0c7e9a7ebe3",
+        "title": "Microsoft Copilot (Microsoft 365): Engage prospects faster with Sales Agent-enriched leads",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567000",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-07-08T23:10:57+00:00",
+        "summary": "To reach their sales goals, sales teams need to constantly generate enough pipeline. They need to decide which inbound leads to engage. This decision takes a lot of time because sellers must sift through large amounts of data across tools and data sources. This data includes information from internal systems like their CRM and external resources like the web and third-party data services. Sales...",
         "category": "upcoming_changes"
       }
     ],
-    "official_news": [],
-    "community_buzz": []
+    "official_news": [
+      {
+        "fingerprint": "1a482b180f48",
+        "title": "Protecting Microsoft at AI speed: How SFI proactively hardens our cloud",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/07/08/protecting-microsoft-at-ai-speed-how-sfi-proactively-hardens-our-cloud/",
+        "source": "Microsoft Security Blog",
+        "published": "2026-07-08T17:00:00+00:00",
+        "summary": "At Microsoft we encompass these security requirements, along with threat knowledge, and operational frameworks in our Secure Future Initiative (SFI), to guide what a well-defended cloud service looks like. But defining the requirements is only the start. Meeting the requirements means continuously evaluating our live services against them, at AI speed. The post Protecting Microsoft at AI speed:...",
+        "category": "official_news"
+      }
+    ],
+    "community_buzz": [
+      {
+        "fingerprint": "58df0a8a5c25",
+        "title": "AI Coding Agents Found Triggering Endpoint Security Rules Built to Catch Attackers",
+        "link": "https://thehackernews.com/2026/07/ai-coding-agents-found-triggering.html",
+        "source": "The Hacker News",
+        "published": "2026-07-08T17:02:12+00:00",
+        "summary": "Sophos looked at a week of its own endpoint data and found that AI coding agents such as Claude Code, Cursor, and OpenAI Codex are setting off detection rules written to catch human intruders. The agents are not malicious. They just do a lot of things that, to a behavioral engine, look exactly like an attack. Decrypting browser credentials, listing what sits in Windows' credential store,",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "007a11194c39",
+        "title": "Entra passkey enrollment vishing targets Microsoft 365 users",
+        "link": "https://www.bleepingcomputer.com/news/security/entra-passkey-enrollment-vishing-targets-microsoft-365-users/",
+        "source": "BleepingComputer",
+        "published": "2026-07-08T16:47:25+00:00",
+        "summary": "A threat actor has been targeting organizations across multiple sectors with voice-based fake security requests that ask Microsoft 365 users to enroll a new Entra passkey. [...]",
+        "category": "community_buzz"
+      }
+    ]
   }
 }
