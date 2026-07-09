@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - July 9, 2026"
+date: 2026-07-09 16:22:59 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - July 9, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -37,4 +45,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Chrome 150 Update Patches 27 Vulnerabilities](https://www.reddit.com/r/cybersecurity/comments/1urlj1u/chrome_150_update_patches_27_vulnerabilities/) - *(Reddit r/cybersecurity)*
 - [European cloud provider Nextcloud leaks 367K records, exposing staff and clients](https://www.reddit.com/r/cybersecurity/comments/1urlg47/european_cloud_provider_nextcloud_leaks_367k/) - *(Reddit r/cybersecurity)*
 - [career advice: am I stupid to hang on to this?](https://www.reddit.com/r/cybersecurity/comments/1url9f2/career_advice_am_i_stupid_to_hang_on_to_this/) - *(Reddit r/cybersecurity)*
+
 
