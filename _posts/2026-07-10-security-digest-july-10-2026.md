@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - July 10, 2026"
+date: 2026-07-10 16:17:44 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - July 10, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -47,4 +55,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Best platforms for continuous security validation in 2026?](https://www.reddit.com/r/cybersecurity/comments/1usbadf/best_platforms_for_continuous_security_validation/) - *(Reddit r/cybersecurity)*
 - [Windows for Security Training](https://www.reddit.com/r/cybersecurity/comments/1us4e9t/windows_for_security_training/) - *(Reddit r/cybersecurity)*
 - [Struggling to find my first bug after months of learning – what am I doing wrong?](https://www.reddit.com/r/cybersecurity/comments/1us4e0s/struggling_to_find_my_first_bug_after_months_of/) - *(Reddit r/cybersecurity)*
+
 
