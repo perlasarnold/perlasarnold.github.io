@@ -1,12 +1,12 @@
 {
-  "generated_utc": "2026-07-09T16:02:41.449071+00:00",
-  "date": "2026-07-09",
+  "generated_utc": "2026-07-10T15:33:52.560266+00:00",
+  "date": "2026-07-10",
   "lookback_hours": 25,
   "source_status": [
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 10
+      "count": 7
     },
     {
       "name": "Microsoft Intune What's New",
@@ -31,7 +31,7 @@
     {
       "name": "BleepingComputer",
       "status": "OK",
-      "count": 1
+      "count": 0
     },
     {
       "name": "Neowin",
@@ -95,124 +95,88 @@
     "bad_updates": [],
     "upcoming_changes": [
       {
-        "fingerprint": "c0e61379b476",
-        "title": "Microsoft Teams: SharePoint app in Teams",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567314",
+        "fingerprint": "719a828ee7ed",
+        "title": "OneDrive: PDF annotation for sensitivity-label protected PDFs in the OneDrive apps (iOS and Android)",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=566697",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-08T23:10:57+00:00",
-        "summary": "When a user who has access to the SharePoint app in Teams clicks a SharePoint page or news link in Teams chat or channels, the link will open inside the SharePoint app in Teams (if available) instead of the mobile browser GA date: August CY2026",
+        "published": "2026-07-09T23:26:18+00:00",
+        "summary": "The Microsoft OneDrive apps for iOS and Android will let users annotate PDFs protected by a Microsoft Purview Information Protection sensitivity label that applies encryption — without removing or weakening the label. Users with edit/annotate rights can add a full set of annotations — including ink, highlight, free text, notes, signatures, image/shape/date stamps, bookmarks, and form fields — d...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "ca80b6bf5438",
-        "title": "Microsoft Purview: Data Loss Prevention - Collection and DLP Policies for Intune-Policy Managed Apps",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567311",
+        "fingerprint": "254d6d524c49",
+        "title": "Microsoft Purview: Insider Risk Management - DS Triage Agent for IRM available in Defender",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567472",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-08T23:10:57+00:00",
-        "summary": "We are introducing a new integrated Microsoft Purview Data Loss Prevention (DLP) capability for Intune Mobile Application Management (MAM)-protected mobile apps, enabling organizations to apply content‑aware protection policies to sensitive data on mobile devices. This integration ensures that clipboard actions in managed mobile apps are evaluated against Purview DLP policies before sharing is ...",
+        "published": "2026-07-09T23:00:39+00:00",
+        "summary": "We’re introducing support for Insider Risk Management (IRM) alert agent summaries within Microsoft Defender, enabling investigators to access key triage insights directly in the Defender alert queue. When the IRM Triage Agent is active, IRM alerts surfaced in Microsoft Defender will now include the agent summary—such as agent categorization, investigation summary, identified risk patterns, and ...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "873837c27418",
-        "title": "Microsoft Teams: Specify who has control of production tools in Teams meetings and events",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567305",
+        "fingerprint": "372b979f4b14",
+        "title": "OneDrive: Exclude specific folders from syncing",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567470",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-08T23:10:57+00:00",
-        "summary": "A new meeting option for Teams meetings with presenters and events that enables organizers to designate 'Who has control of production tools' during the event. Users defined here will have access to the controls in 'Manage What Attendees See' and the ‘Green Room'. GA date: August CY2026",
+        "published": "2026-07-09T23:00:39+00:00",
+        "summary": "OneDrive for Windows and Mac will let users exclude specific folders from syncing, so folders that do not belong in the cloud, such as developer tooling folders like PowerShell modules, Visual Studio configuration, and node modules, stay local on the device instead of uploading to OneDrive. Administrators can define folder exclusion rules for their organization. GA date: August CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "4b9f0e0389c0",
-        "title": "Microsoft Teams: Ability for IT admins to customize the user notification messages for recording and transcription in calls",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567302",
+        "fingerprint": "b98f6ac0830f",
+        "title": "Minecraft Education: Learning Cubed Update with Cross-Tenant Multiplayer and Latest Bedrock Features",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567317",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-08T23:10:57+00:00",
-        "summary": "This feature enables IT admins to customize a portion of the user notification messages for recording and transcription during Teams calls. GA date: August CY2026",
+        "published": "2026-07-09T23:00:39+00:00",
+        "summary": "The Learning Cubed Update introduces cross-tenant multiplayer for dedicated servers and key features from the latest Bedrock updates. GA date: August CY2026 Preview date: July CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "55219249a28b",
-        "title": "Microsoft Teams: New controls for quick views in the chat list",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567301",
+        "fingerprint": "13b30923d425",
+        "title": "SharePoint: Create new workflows with Copilot in SharePoint",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567009",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-08T23:10:57+00:00",
-        "summary": "The new chats and channels experience introduced quick views at the top of the chat and channels list. These are views into mentions, followed threads and more. This update allows users to choose when and how these quick views are shown. Users will have options such as always show, always hide and show only when unread. Users will also be able to collapse the quick views section. GA date: Augus...",
+        "published": "2026-07-09T23:00:39+00:00",
+        "summary": "Describe a workflow intent such as \"when files are set to status = Complete, post a message in my Teams chat\" and Copilot in SharePoint will assemble the necessary triggers, conditions, and actions to setup your workflow. You can come back to Copilot in SharePoint at any time to make changes or click \"Workflows\" from the command bar to see your live workflow. GA date: December CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "a0f5962d2ba9",
-        "title": "Microsoft Copilot (Microsoft 365): Link meetings to CRM records automatically with AI",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567004",
+        "fingerprint": "e071f57dc283",
+        "title": "Microsoft 365 app: New Copilot Notebooks design in the Microsoft 365 Copilot App (Android)",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=566704",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-08T23:10:57+00:00",
-        "summary": "This feature saves you time by automatically connecting your meetings to the correct CRM records. You have the right deal insights at your fingertips when preparing for customer conversations, so you can focus less on updating records and more on selling with confidence and context. GA date: September CY2026",
+        "published": "2026-07-09T23:00:39+00:00",
+        "summary": "Copilot Notebooks in the Microsoft 365 Copilot app (Android) now lets users organize related chats, output creations, and references into a persistent AI workspace. Copilot uses the Notebook's accumulated context to ground responses, so work continues across sessions instead of starting over each time. GA date: August CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "fae029b0b0e0",
-        "title": "Microsoft Copilot (Microsoft 365): Enrich Sales agent meeting prep with more data sources",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567003",
+        "fingerprint": "e66fa9ac2bd0",
+        "title": "Thumbnail view for PDFs is available in OneDrive and SharePoint on the web",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=566696",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-08T23:10:57+00:00",
-        "summary": "Walking into a customer meeting with incomplete context can mean missed risks, overlooked issues, and conversations that fall flat. With access to richer data, like service tickets, directly in your meeting prep, you can spot open issues and opportunities before the conversation starts. This insight helps you engage more meaningfully, build stronger relationships, and drive better sales outcome...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "c4284504a5b2",
-        "title": "Microsoft Copilot (Microsoft 365): Add custom insights to record summaries in Sales agent",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567002",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-08T23:10:57+00:00",
-        "summary": "Sales agent gives you strong CRM-based account and opportunity summaries, but important context is often spread across non-CRM systems. With this capability, you can add insights from any application to enrich account and opportunity summaries in Sales agent, so sellers get a unified view of their accounts and deals in one place without switching applications. GA date: March CY2027 Preview date...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "0808c9084115",
-        "title": "Microsoft Copilot (Microsoft 365): Engage customers across multiple channels (web, voice, SMS & email)",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567001",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-08T23:10:57+00:00",
-        "summary": "A multi‑channel outreach capability, spanning web chat, voice, SMS, and email, is critical for meeting customers in the channel they naturally prefer and increasing the likelihood of timely engagement. By activating the agent across multiple surfaces, we ensure continuity of conversations, reduce drop‑off when a single channel fails, and support the FY27 goal of always‑on, end‑to‑end engagement...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "c0c7e9a7ebe3",
-        "title": "Microsoft Copilot (Microsoft 365): Engage prospects faster with Sales Agent-enriched leads",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567000",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-08T23:10:57+00:00",
-        "summary": "To reach their sales goals, sales teams need to constantly generate enough pipeline. They need to decide which inbound leads to engage. This decision takes a lot of time because sellers must sift through large amounts of data across tools and data sources. This data includes information from internal systems like their CRM and external resources like the web and third-party data services. Sales...",
+        "published": "2026-07-09T23:00:39+00:00",
+        "summary": "We are improving PDF navigation in OneDrive and SharePoint on the web by adding a thumbnail view in the PDF viewer. Users will be able to open a thumbnail panel to visually browse pages in a PDF and jump directly to a selected page. This update helps users navigate long PDFs more quickly, especially when they need to find a visual section, page layout, chart, image, or form page without scrolli...",
         "category": "upcoming_changes"
       }
     ],
     "official_news": [
       {
-        "fingerprint": "1a482b180f48",
-        "title": "Protecting Microsoft at AI speed: How SFI proactively hardens our cloud",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/07/08/protecting-microsoft-at-ai-speed-how-sfi-proactively-hardens-our-cloud/",
+        "fingerprint": "72271c8c2ca6",
+        "title": "GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/07/09/gigawiper-anatomy-of-a-destructive-backdoor-assembled-from-multiple-malware/",
         "source": "Microsoft Security Blog",
-        "published": "2026-07-08T17:00:00+00:00",
-        "summary": "At Microsoft we encompass these security requirements, along with threat knowledge, and operational frameworks in our Secure Future Initiative (SFI), to guide what a well-defended cloud service looks like. But defining the requirements is only the start. Meeting the requirements means continuously evaluating our live services against them, at AI speed. The post Protecting Microsoft at AI speed:...",
+        "published": "2026-07-09T15:00:00+00:00",
+        "summary": "GigaWiper is a destructive backdoor that combines multiple wiping and ransomware-like capabilities into a single operational platform. This blog analyzes how the malware incorporates code from several previously separate malware families and provides guidance to help defenders detect and defend against similar threats. The post GigaWiper: Anatomy of a destructive backdoor assembled from multipl...",
         "category": "official_news"
       }
     ],
     "community_buzz": [
       {
-        "fingerprint": "58df0a8a5c25",
-        "title": "AI Coding Agents Found Triggering Endpoint Security Rules Built to Catch Attackers",
-        "link": "https://thehackernews.com/2026/07/ai-coding-agents-found-triggering.html",
+        "fingerprint": "c083924758c9",
+        "title": "Hackers Use Fake Microsoft Entra Passkey Enrollment to Gain Microsoft 365 Access",
+        "link": "https://thehackernews.com/2026/07/hackers-use-fake-microsoft-entra.html",
         "source": "The Hacker News",
-        "published": "2026-07-08T17:02:12+00:00",
-        "summary": "Sophos looked at a week of its own endpoint data and found that AI coding agents such as Claude Code, Cursor, and OpenAI Codex are setting off detection rules written to catch human intruders. The agents are not malicious. They just do a lot of things that, to a behavioral engine, look exactly like an attack. Decrypting browser credentials, listing what sits in Windows' credential store,",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "007a11194c39",
-        "title": "Entra passkey enrollment vishing targets Microsoft 365 users",
-        "link": "https://www.bleepingcomputer.com/news/security/entra-passkey-enrollment-vishing-targets-microsoft-365-users/",
-        "source": "BleepingComputer",
-        "published": "2026-07-08T16:47:25+00:00",
-        "summary": "A threat actor has been targeting organizations across multiple sectors with voice-based fake security requests that ask Microsoft 365 users to enroll a new Entra passkey. [...]",
+        "published": "2026-07-10T10:30:20+00:00",
+        "summary": "A threat actor has been targeting organizations spanning multiple sectors with voice-based fake security requests that prompt Microsoft 365 users to enroll a new Entra passkey with an aim to carry out data extortion attacks. The threat actor, tracked by Okta under the moniker O-UNC-066, has deployed a panel-controlled phishing kit that's capable of targeting the passkey enrollment process. The",
         "category": "community_buzz"
       }
     ]
