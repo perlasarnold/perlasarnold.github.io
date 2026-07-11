@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - July 11, 2026"
+date: 2026-07-11 14:45:10 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - July 11, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -51,4 +59,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Mid-session today](https://www.reddit.com/r/cybersecurity/comments/1ut514a/midsession_today/) - *(Reddit r/cybersecurity)*
 - [Progress Urges ShareFile Admins to Shut Down Servers Over Credible Security Threat](https://cybersecuritynews.com/progress-sharefile-admins-shut-down-servers/) - *(CybersecurityNews)*
 - [Hackers exploit critical auth bypass in Gitea Docker image](https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-auth-bypass-in-gitea-docker-image/) - *(BleepingComputer)*
+
 
