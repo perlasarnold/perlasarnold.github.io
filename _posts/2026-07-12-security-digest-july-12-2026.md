@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - July 12, 2026"
+date: 2026-07-12 14:48:47 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - July 12, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -45,4 +53,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Looking for security specialist who has experience with ios and apple products.](https://www.reddit.com/r/cybersecurity/comments/1uu36z9/looking_for_security_specialist_who_has/) - *(Reddit r/cybersecurity)*
 - [Is it worth pursuing a career in cyber security anymore? Or is it a bad goal in the current era of AI](https://www.reddit.com/r/cybersecurity/comments/1uu36bc/is_it_worth_pursuing_a_career_in_cyber_security/) - *(Reddit r/cybersecurity)*
 - [Microsoft is rewriting Windows patch guidance because of AI - Help Net Security](https://www.reddit.com/r/cybersecurity/comments/1uu1l0i/microsoft_is_rewriting_windows_patch_guidance/) - *(Reddit r/cybersecurity)*
+
 
