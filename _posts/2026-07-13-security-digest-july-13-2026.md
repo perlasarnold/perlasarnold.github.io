@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - July 13, 2026"
+date: 2026-07-13 16:23:23 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - July 13, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -42,4 +50,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [A hardware security AI assistant that checks chips for hidden backdoors](https://www.reddit.com/r/cybersecurity/comments/1uv52xv/a_hardware_security_ai_assistant_that_checks/) - *(Reddit r/cybersecurity)*
 - [CVE-2026-9182](https://nvd.nist.gov/vuln/detail/CVE-2026-9182) - *(NVD)*
 - [CVE-2026-9182](https://www.cve.org/CVERecord?id=CVE-2026-9182) - *(CVE.org)*
+
 
