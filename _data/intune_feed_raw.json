@@ -1,12 +1,12 @@
 {
-  "generated_utc": "2026-07-10T15:33:52.560266+00:00",
-  "date": "2026-07-10",
+  "generated_utc": "2026-07-13T15:44:01.189381+00:00",
+  "date": "2026-07-13",
   "lookback_hours": 25,
   "source_status": [
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 7
+      "count": 0
     },
     {
       "name": "Microsoft Intune What's New",
@@ -21,7 +21,7 @@
     {
       "name": "Microsoft Security Blog",
       "status": "OK",
-      "count": 1
+      "count": 0
     },
     {
       "name": "Microsoft Entra Blog",
@@ -31,7 +31,7 @@
     {
       "name": "BleepingComputer",
       "status": "OK",
-      "count": 0
+      "count": 1
     },
     {
       "name": "Neowin",
@@ -41,7 +41,7 @@
     {
       "name": "The Hacker News",
       "status": "OK",
-      "count": 1
+      "count": 0
     },
     {
       "name": "Krebs on Security",
@@ -93,90 +93,16 @@
   "items": {
     "high_alert": [],
     "bad_updates": [],
-    "upcoming_changes": [
-      {
-        "fingerprint": "719a828ee7ed",
-        "title": "OneDrive: PDF annotation for sensitivity-label protected PDFs in the OneDrive apps (iOS and Android)",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=566697",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-09T23:26:18+00:00",
-        "summary": "The Microsoft OneDrive apps for iOS and Android will let users annotate PDFs protected by a Microsoft Purview Information Protection sensitivity label that applies encryption — without removing or weakening the label. Users with edit/annotate rights can add a full set of annotations — including ink, highlight, free text, notes, signatures, image/shape/date stamps, bookmarks, and form fields — d...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "254d6d524c49",
-        "title": "Microsoft Purview: Insider Risk Management - DS Triage Agent for IRM available in Defender",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567472",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-09T23:00:39+00:00",
-        "summary": "We’re introducing support for Insider Risk Management (IRM) alert agent summaries within Microsoft Defender, enabling investigators to access key triage insights directly in the Defender alert queue. When the IRM Triage Agent is active, IRM alerts surfaced in Microsoft Defender will now include the agent summary—such as agent categorization, investigation summary, identified risk patterns, and ...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "372b979f4b14",
-        "title": "OneDrive: Exclude specific folders from syncing",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567470",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-09T23:00:39+00:00",
-        "summary": "OneDrive for Windows and Mac will let users exclude specific folders from syncing, so folders that do not belong in the cloud, such as developer tooling folders like PowerShell modules, Visual Studio configuration, and node modules, stay local on the device instead of uploading to OneDrive. Administrators can define folder exclusion rules for their organization. GA date: August CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "b98f6ac0830f",
-        "title": "Minecraft Education: Learning Cubed Update with Cross-Tenant Multiplayer and Latest Bedrock Features",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567317",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-09T23:00:39+00:00",
-        "summary": "The Learning Cubed Update introduces cross-tenant multiplayer for dedicated servers and key features from the latest Bedrock updates. GA date: August CY2026 Preview date: July CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "13b30923d425",
-        "title": "SharePoint: Create new workflows with Copilot in SharePoint",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567009",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-09T23:00:39+00:00",
-        "summary": "Describe a workflow intent such as \"when files are set to status = Complete, post a message in my Teams chat\" and Copilot in SharePoint will assemble the necessary triggers, conditions, and actions to setup your workflow. You can come back to Copilot in SharePoint at any time to make changes or click \"Workflows\" from the command bar to see your live workflow. GA date: December CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "e071f57dc283",
-        "title": "Microsoft 365 app: New Copilot Notebooks design in the Microsoft 365 Copilot App (Android)",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=566704",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-09T23:00:39+00:00",
-        "summary": "Copilot Notebooks in the Microsoft 365 Copilot app (Android) now lets users organize related chats, output creations, and references into a persistent AI workspace. Copilot uses the Notebook's accumulated context to ground responses, so work continues across sessions instead of starting over each time. GA date: August CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "e66fa9ac2bd0",
-        "title": "Thumbnail view for PDFs is available in OneDrive and SharePoint on the web",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=566696",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-09T23:00:39+00:00",
-        "summary": "We are improving PDF navigation in OneDrive and SharePoint on the web by adding a thumbnail view in the PDF viewer. Users will be able to open a thumbnail panel to visually browse pages in a PDF and jump directly to a selected page. This update helps users navigate long PDFs more quickly, especially when they need to find a visual section, page layout, chart, image, or form page without scrolli...",
-        "category": "upcoming_changes"
-      }
-    ],
-    "official_news": [
-      {
-        "fingerprint": "72271c8c2ca6",
-        "title": "GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/07/09/gigawiper-anatomy-of-a-destructive-backdoor-assembled-from-multiple-malware/",
-        "source": "Microsoft Security Blog",
-        "published": "2026-07-09T15:00:00+00:00",
-        "summary": "GigaWiper is a destructive backdoor that combines multiple wiping and ransomware-like capabilities into a single operational platform. This blog analyzes how the malware incorporates code from several previously separate malware families and provides guidance to help defenders detect and defend against similar threats. The post GigaWiper: Anatomy of a destructive backdoor assembled from multipl...",
-        "category": "official_news"
-      }
-    ],
+    "upcoming_changes": [],
+    "official_news": [],
     "community_buzz": [
       {
-        "fingerprint": "c083924758c9",
-        "title": "Hackers Use Fake Microsoft Entra Passkey Enrollment to Gain Microsoft 365 Access",
-        "link": "https://thehackernews.com/2026/07/hackers-use-fake-microsoft-entra.html",
-        "source": "The Hacker News",
-        "published": "2026-07-10T10:30:20+00:00",
-        "summary": "A threat actor has been targeting organizations spanning multiple sectors with voice-based fake security requests that prompt Microsoft 365 users to enroll a new Entra passkey with an aim to carry out data extortion attacks. The threat actor, tracked by Okta under the moniker O-UNC-066, has deployed a panel-controlled phishing kit that's capable of targeting the passkey enrollment process. The",
+        "fingerprint": "35ebf71ae191",
+        "title": "Breach at the Beach: Play the Ultimate Entra ID CTF",
+        "link": "https://www.bleepingcomputer.com/news/security/breach-at-the-beach-play-the-ultimate-entra-id-ctf/",
+        "source": "BleepingComputer",
+        "published": "2026-07-13T14:01:11+00:00",
+        "summary": "Learn how attackers abuse Entra ID through a free hands-on Capture the Flag. Varonis created the Breach at the Beach CTF to teach defenders how to investigate Entra ID attack techniques using realistic scenarios. [...]",
         "category": "community_buzz"
       }
     ]
