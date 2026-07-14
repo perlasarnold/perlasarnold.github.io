@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - July 14, 2026"
+date: 2026-07-14 15:18:11 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - July 14, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -54,4 +62,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Microsoft makes Windows Subsystem for Linux more stable with architecture tweak](https://www.neowin.net/news/microsoft-makes-windows-subsystem-for-linux-more-stable-with-architecture-tweak/?utm_source=rss) - *(Neowin)*
 - [Elon Musk says SpaceXAI will delete all Grok Build user data following privacy concerns](https://www.neowin.net/news/elon-musk-says-spacexai-will-delete-all-grok-build-user-data-following-privacy-concerns/?utm_source=rss) - *(Neowin)*
 - [CVE-2026-48955](https://www.cve.org/CVERecord?id=CVE-2026-48955) - *(CVE.org)*
+
 
