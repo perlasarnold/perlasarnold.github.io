@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-13T15:44:01.189381+00:00",
-  "date": "2026-07-13",
+  "generated_utc": "2026-07-14T14:56:48.962329+00:00",
+  "date": "2026-07-14",
   "lookback_hours": 25,
   "source_status": [
     {
@@ -21,7 +21,7 @@
     {
       "name": "Microsoft Security Blog",
       "status": "OK",
-      "count": 0
+      "count": 2
     },
     {
       "name": "Microsoft Entra Blog",
@@ -31,17 +31,17 @@
     {
       "name": "BleepingComputer",
       "status": "OK",
-      "count": 1
+      "count": 2
     },
     {
       "name": "Neowin",
       "status": "OK",
-      "count": 0
+      "count": 1
     },
     {
       "name": "The Hacker News",
       "status": "OK",
-      "count": 0
+      "count": 1
     },
     {
       "name": "Krebs on Security",
@@ -94,8 +94,54 @@
     "high_alert": [],
     "bad_updates": [],
     "upcoming_changes": [],
-    "official_news": [],
+    "official_news": [
+      {
+        "fingerprint": "acf7bb07d8a5",
+        "title": "Defending SaaS-based applications against ShinyHunters OAuth abuse",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/07/13/defending-saas-based-applications-against-shinyhunters-oauth-abuse/",
+        "source": "Microsoft Security Blog",
+        "published": "2026-07-13T22:02:41+00:00",
+        "summary": "Microsoft Threat Intelligence identified threat actor activity with overlapping tradecraft commonly associated with ShinyHunters, including voice phishing (vishing), supply-chain compromise, and misconfigured guest access targeting SaaS-based applications. The post Defending SaaS-based applications against ShinyHunters OAuth abuse appeared first on Microsoft Security Blog .",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "404dd57f598c",
+        "title": "Microsoft Entra ID security updates: Passkeys are the default authentication method in Entra ID",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/07/13/microsoft-entra-id-security-updates-passkeys-are-the-default-authentication-method-in-entra-id/",
+        "source": "Microsoft Security Blog",
+        "published": "2026-07-13T17:00:00+00:00",
+        "summary": "Microsoft Entra ID makes passkeys the default sign-in experience and introduces a new model for SMS and voice authentication. Read about how to prepare. The post Microsoft Entra ID security updates: Passkeys are the default authentication method in Entra ID appeared first on Microsoft Security Blog .",
+        "category": "official_news"
+      }
+    ],
     "community_buzz": [
+      {
+        "fingerprint": "adb8d183dc6b",
+        "title": "Microsoft Entra ID gets passkeys default authentication starting September",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-entra-id-gets-passkeys-default-authentication-starting-september/",
+        "source": "BleepingComputer",
+        "published": "2026-07-14T12:49:56+00:00",
+        "summary": "Microsoft has announced that passkeys will become the default authentication method for the Entra ID enterprise identity service starting September 2026. [...]",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "cbd22c7351aa",
+        "title": "OAuth Client ID Spoofing Lets Attackers Validate Stolen Microsoft Entra Credentials",
+        "link": "https://thehackernews.com/2026/07/oauth-client-id-spoofing-lets-attackers.html",
+        "source": "The Hacker News",
+        "published": "2026-07-14T11:21:35+00:00",
+        "summary": "At least two distinct threat actors are weaponizing a novel evasion technique called OAuth client ID spoofing in cloud campaigns, while slipping past telemetry. The activity allows users to enumerate user accounts and validate stolen credentials in Microsoft Entra ID environments, without ever generating a successful sign-in event that would otherwise alert defenders. And bad actors have begun",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "c4fa120117eb",
+        "title": "Microsoft Entra ID authentication getting major shakeup with default passkeys very soon",
+        "link": "https://www.neowin.net/news/microsoft-entra-id-authentication-getting-major-shakeup-with-default-passkeys-very-soon/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-07-13T22:34:01+00:00",
+        "summary": "Microsoft Entra ID authentication is set for a major change, with passkeys becoming the default sign-in method very soon for users. The company has shared details. Read more...",
+        "category": "community_buzz"
+      },
       {
         "fingerprint": "35ebf71ae191",
         "title": "Breach at the Beach: Play the Ultimate Entra ID CTF",
