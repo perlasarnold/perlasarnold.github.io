@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Security Digest - July 14, 2026"
-date: 2026-07-14 15:18:11 +00:00
+date: 2026-07-14 21:03:28 +00:00
 categories: [security-digest]
 tags: [security, tldr, situational-awareness, endpoint-management]
 author: Arnold
@@ -10,57 +10,65 @@ author: Arnold
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
 
-- **Generated (UTC):** 2026-07-14 15:18:11 +00:00
+- **Generated (UTC):** 2026-07-14 21:03:28 +00:00
 - **Lookback window:** 7 days
 
 ## 🚀 Top Research & Advisories
-- **[CVE-2026-13019](https://www.cve.org/CVERecord?id=CVE-2026-13019)** - *(CVE.org)*
-  Esri Portal for ArcGIS versions 12.1 and earlier on Windows, Linux and Kubernetes have a missing authentication for critical function vulnerability allows a remote, unauthenticated attacker to access an unprotected API.
-  > **Action:** Monitor developer tool vulnerabilities and supply chain risks.
-
-## 💻 AppSec
-- **[CVE-2026-13020](https://www.cve.org/CVERecord?id=CVE-2026-13020)** - *(CVE.org)*
-  Monitor developer tool vulnerabilities and supply chain risks.
-
-- **[Elon Musk says SpaceXAI will delete all Grok Build user data following privacy concerns](https://www.neowin.net/news/elon-musk-says-spacexai-will-delete-all-grok-build-user-data-following-privacy-concerns/?utm_source=rss)** - *(Neowin)*
-  Monitor developer tool vulnerabilities and supply chain risks.
-
-- **[Nightmare Eclipse could be dropping his big promised exploit today](https://www.reddit.com/r/cybersecurity/comments/1uw2f7e/nightmare_eclipse_could_be_dropping_his_big/)** - *(Reddit r/cybersecurity)*
-  Monitor developer tool vulnerabilities and supply chain risks.
-
-- **[xAI Grok Build CLI Uploaded Entire Git Repositories and Unredacted .env Secrets to Cloud Storage](https://cybersecuritynews.com/xai-grok-build-cloud-storage/)** - *(CybersecurityNews)*
-  Monitor developer tool vulnerabilities and supply chain risks.
-
+- *No high-priority security research detected in this window.*
 ## 🛡 Security Ops
-- **[CVE-2026-48949](https://nvd.nist.gov/vuln/detail/CVE-2026-48949)** - *(NVD)*
-  Review CA/MFA settings for tightening opportunities.
+- **[Cybersecurity statistics of the week (July 6th- July 12th)](https://www.reddit.com/r/cybersecurity/comments/1uwjqb1/cybersecurity_statistics_of_the_week_july_6th/)** - *(Reddit r/cybersecurity)*
+  Review CA/MFA settings for tightening opportunities. Review security controls and policy updates.
 
 - **[New phishing kits target Microsoft 365 accounts, evade MFA](https://www.bleepingcomputer.com/news/security/new-phishing-kits-target-microsoft-365-accounts-evade-mfa/)** - *(BleepingComputer)*
   Review CA/MFA settings for tightening opportunities.
 
 ## 🛠 Infrastructure & Endpoint Control
+- **[A default Windows 11 26H2 change may let Microsoft squash user choice, Mozilla warns](https://www.neowin.net/news/a-default-windows-11-26h2-change-may-let-microsoft-squash-user-choice-mozilla-warns/?utm_source=rss)** - *(Neowin)*
+  Validate workstation security baseline and update compliance.
+
+- **[Claude for Chrome Vulnerability Lets Attackers Read Gmail, Docs, and Calendar Data](https://cybersecuritynews.com/claude-for-chrome-vulnerability/)** - *(CybersecurityNews)*
+  Validate Chrome coverage; update managed package if needed.
+
+- **[CVE-2026-46672](https://nvd.nist.gov/vuln/detail/CVE-2026-46672)** - *(NVD)*
+  Review Office update channel health and security baseline compliance.
+
+- **[Cybersecurity statistics of the week (July 6th- July 12th)](https://www.reddit.com/r/cybersecurity/comments/1uwjqb1/cybersecurity_statistics_of_the_week_july_6th/)** - *(Reddit r/cybersecurity)*
+  Review CA/MFA settings for tightening opportunities. Review security controls and policy updates.
+
 - **[Google Chrome's Gemini AI features are rolling out to UK users](https://www.neowin.net/news/google-chromes-gemini-ai-features-are-rolling-out-to-uk-users/?utm_source=rss)** - *(Neowin)*
   Validate Chrome coverage; update managed package if needed.
 
-- **[Here are some new features coming soon to PowerPoint](https://www.neowin.net/news/here-are-some-new-features-coming-soon-to-powerpoint/?utm_source=rss)** - *(Neowin)*
-  Review Office update channel health and security baseline compliance.
+- **[Massive Microsoft Patch Tuesday Update: 570 Vulnerabilities Fixed, Including 3 Zero-Days](https://cybersecuritynews.com/microsoft-patch-tuesday-update-july-2026/)** - *(CybersecurityNews)*
+  Evaluate update rings and expedite actions if needed.
 
-- **[New Microsoft Defender update can let hackers totally fill your Windows 11 PC disk space](https://www.neowin.net/news/new-microsoft-defender-update-can-let-hackers-totally-fill-your-windows-11-pc-disk-space/?utm_source=rss)** - *(Neowin)*
-  Review security controls and policy updates. Validate workstation security baseline and update compliance.
+- **[Microsoft July 2026 Patch Tuesday fixes massive 570 flaws, 3 zero-days](https://www.reddit.com/r/cybersecurity/comments/1uwhqeg/microsoft_july_2026_patch_tuesday_fixes_massive/)** - *(Reddit r/cybersecurity)*
+  Evaluate update rings and expedite actions if needed.
+
+- **[Microsoft releases Windows 10 KB5099539 extended security update](https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5099539-extended-security-update/)** - *(BleepingComputer)*
+  Validate workstation security baseline and update compliance.
+
+- **[Windows 10 KB5099539 July 2026 Cumulative Update is now available for download](https://www.neowin.net/news/windows-10-kb5099539-july-2026-cumulative-update-is-now-available-for-download/?utm_source=rss)** - *(Neowin)*
+  Evaluate update rings and expedite actions if needed. Validate workstation security baseline and update compliance.
+
+- **[Windows 11 KB5101650 & KB5099414 cumulative updates released](https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5101650-and-kb5099414-cumulative-updates-released/)** - *(BleepingComputer)*
+  Validate workstation security baseline and update compliance.
+
+- **[Windows 11 KB5101650, KB5099414 July 2026 Patch Tuesday updates now available to download](https://www.neowin.net/news/windows-11-kb5101650-kb5099414-july-2026-patch-tuesday-updates-now-available-to-download/?utm_source=rss)** - *(Neowin)*
+  Evaluate update rings and expedite actions if needed. Validate workstation security baseline and update compliance.
 
 - **[Windows 11 Search finally feels like it does its job properly](https://www.neowin.net/handson/windows-11-search-finally-feels-like-it-does-its-job-properly/?utm_source=rss)** - *(Neowin)*
   Validate workstation security baseline and update compliance.
 
 ## 🔍 Quick Links (Watch Items)
-- [One trend I've noticed is that enterprise customers seem to trust certifications less than they used to.](https://www.reddit.com/r/cybersecurity/comments/1uwahwi/one_trend_ive_noticed_is_that_enterprise/) - *(Reddit r/cybersecurity)*
-- [You Don't Have to Run an Exploit to Know If You're Vulnerable](https://www.bleepingcomputer.com/news/security/you-dont-have-to-run-an-exploit-to-know-if-youre-vulnerable/) - *(BleepingComputer)*
-- [Key Actions to Prepare Cybersecurity for AI Evolution | Gartner](https://www.reddit.com/r/cybersecurity/comments/1uw7nwx/key_actions_to_prepare_cybersecurity_for_ai/) - *(Reddit r/cybersecurity)*
-- [Is Internal Audit better than TPRM?](https://www.reddit.com/r/cybersecurity/comments/1uw6764/is_internal_audit_better_than_tprm/) - *(Reddit r/cybersecurity)*
-- [CISA Warns of Decades-Old Cisco IOS Vulnerability Actively Exploited in Attacks](https://cybersecuritynews.com/decades-old-cisco-ios-vulnerability-exploited/) - *(CybersecurityNews)*
-- [Nightmare Eclipse could be dropping his big promised exploit today](https://www.reddit.com/r/cybersecurity/comments/1uw2f7e/nightmare_eclipse_could_be_dropping_his_big/) - *(Reddit r/cybersecurity)*
-- [Addressing the state-layer gap in autonomous actor architectures: Byzantine fault tolerance without consensus](https://www.reddit.com/r/cybersecurity/comments/1uw1vt4/addressing_the_statelayer_gap_in_autonomous_actor/) - *(Reddit r/cybersecurity)*
-- [Microsoft makes Windows Subsystem for Linux more stable with architecture tweak](https://www.neowin.net/news/microsoft-makes-windows-subsystem-for-linux-more-stable-with-architecture-tweak/?utm_source=rss) - *(Neowin)*
-- [Elon Musk says SpaceXAI will delete all Grok Build user data following privacy concerns](https://www.neowin.net/news/elon-musk-says-spacexai-will-delete-all-grok-build-user-data-following-privacy-concerns/?utm_source=rss) - *(Neowin)*
-- [CVE-2026-48955](https://www.cve.org/CVERecord?id=CVE-2026-48955) - *(CVE.org)*
+- [What is going on in the cybersecurity job market?](https://www.reddit.com/r/cybersecurity/comments/1uwkqwo/what_is_going_on_in_the_cybersecurity_job_market/) - *(Reddit r/cybersecurity)*
+- [Microsoft ships Exchange Server 2016 and 2019 security updates with key admin guidance](https://www.neowin.net/news/microsoft-ships-exchange-server-2016-and-2019-security-updates-with-key-admin-guidance/?utm_source=rss) - *(Neowin)*
+- [Cybersecurity statistics of the week (July 6th- July 12th)](https://www.reddit.com/r/cybersecurity/comments/1uwjqb1/cybersecurity_statistics_of_the_week_july_6th/) - *(Reddit r/cybersecurity)*
+- [Would you want to know if malware was on a system 6 months ago?](https://www.reddit.com/r/cybersecurity/comments/1uwiy6x/would_you_want_to_know_if_malware_was_on_a_system/) - *(Reddit r/cybersecurity)*
+- [Microsoft July 2026 Patch Tuesday fixes massive 570 flaws, 3 zero-days](https://www.reddit.com/r/cybersecurity/comments/1uwhqeg/microsoft_july_2026_patch_tuesday_fixes_massive/) - *(Reddit r/cybersecurity)*
+- [Microsoft releases Windows 10 KB5099539 extended security update](https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5099539-extended-security-update/) - *(BleepingComputer)*
+- [LegacyHive : Windows user profile service arbitrary hive load elevation of privileges vulnerability](https://www.reddit.com/r/cybersecurity/comments/1uwgj7e/legacyhive_windows_user_profile_service_arbitrary/) - *(Reddit r/cybersecurity)*
+- [Microsoft July 2026 Patch Tuesday fixes massive 570 flaws, 3 zero-days](https://www.bleepingcomputer.com/news/microsoft/microsoft-july-2026-patch-tuesday-fixes-massive-570-flaws-3-zero-days/) - *(BleepingComputer)*
+- [Massive Microsoft Patch Tuesday Update: 570 Vulnerabilities Fixed, Including 3 Zero-Days](https://cybersecuritynews.com/microsoft-patch-tuesday-update-july-2026/) - *(CybersecurityNews)*
+- [Windows 10 KB5099539 July 2026 Cumulative Update is now available for download](https://www.neowin.net/news/windows-10-kb5099539-july-2026-cumulative-update-is-now-available-for-download/?utm_source=rss) - *(Neowin)*
 
 
