@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - July 15, 2026"
+date: 2026-07-15 15:20:23 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - July 15, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -88,4 +96,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [I don’t like the word « cybersecurity »](https://www.reddit.com/r/cybersecurity/comments/1uwy2sp/i_dont_like_the_word_cybersecurity/) - *(Reddit r/cybersecurity)*
 - [Microsoft announces Trusted Launch for virtual machines in Windows Server Insider Preview](https://www.neowin.net/news/microsoft-announces-trusted-launch-for-virtual-machines-in-windows-server-insider-preview/?utm_source=rss) - *(Neowin)*
 - [Career in hardware security](https://www.reddit.com/r/cybersecurity/comments/1uwxrer/career_in_hardware_security/) - *(Reddit r/cybersecurity)*
+
 
