@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - July 16, 2026"
+date: 2026-07-16 15:27:56 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - July 16, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -47,4 +55,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Critical NGINX vulnerability discovered: hackers can attempt to crash servers or even gain code execution](https://www.reddit.com/r/cybersecurity/comments/1uy1xls/critical_nginx_vulnerability_discovered_hackers/) - *(Reddit r/cybersecurity)*
 - [Proof of concept for CVE-2026-58635 LPE in Windows Braille Narrator service](https://www.reddit.com/r/cybersecurity/comments/1uy0wqn/proof_of_concept_for_cve202658635_lpe_in_windows/) - *(Reddit r/cybersecurity)*
 - [going to college for cybersecurity next month and i have some questions.](https://www.reddit.com/r/cybersecurity/comments/1uy0mli/going_to_college_for_cybersecurity_next_month_and/) - *(Reddit r/cybersecurity)*
+
 
