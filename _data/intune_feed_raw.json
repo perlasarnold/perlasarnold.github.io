@@ -1,12 +1,12 @@
 {
-  "generated_utc": "2026-07-15T14:56:19.029081+00:00",
-  "date": "2026-07-15",
+  "generated_utc": "2026-07-16T15:06:25.193527+00:00",
+  "date": "2026-07-16",
   "lookback_hours": 25,
   "source_status": [
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 12
+      "count": 1
     },
     {
       "name": "Microsoft Intune What's New",
@@ -21,7 +21,7 @@
     {
       "name": "Microsoft Security Blog",
       "status": "OK",
-      "count": 0
+      "count": 2
     },
     {
       "name": "Microsoft Entra Blog",
@@ -95,115 +95,35 @@
     "bad_updates": [],
     "upcoming_changes": [
       {
-        "fingerprint": "3848cf76b17e",
-        "title": "Planner: Planner Agent chat in Basic Plans",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567671",
+        "fingerprint": "c36320145f0c",
+        "title": "Microsoft Teams: Teams shared display mode and peripheral detection available for DoD environments",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567465",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-14T22:41:38+00:00",
-        "summary": "Introducing built-in Planner Agent chat with natural language Q&A, smart task discovery, and in-plan task management. GA date: August CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "241535889abf",
-        "title": "SharePoint: Enterprise store plugins in Copilot in SharePoint",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567669",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-14T22:41:38+00:00",
-        "summary": "Copilot in SharePoint now supports plugins from your enterprise store. A plugin can bundle skills, MCP servers, and other capabilities that extend what Copilot can do. Any plugin made available to your organization, whether installed tenant-wide by an admin or added by you, works directly in Copilot in SharePoint, all governed by your M365 admin. For example, your organization can publish a com...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "579a3afdf23f",
-        "title": "SharePoint: Personal Skills in Copilot in SharePoint",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567668",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-14T22:41:38+00:00",
-        "summary": "Create your own personal skills in Copilot in SharePoint and use them anywhere you work. Personal skills travel with you across SharePoint sites and OneDrive—so a skill like document generation works everywhere without recreating it per site. You own your skills, saved as a markdown file in your OneDrive. GA date: December CY2026 Preview date: August CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "45b9e6d6ca1e",
-        "title": "Microsoft Viva: Copilot Analytics - Agent 365 Dashboard in Insights",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567667",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-14T22:41:38+00:00",
-        "summary": "Customers can now access their Agent 365 data through the Agent Dashboard in Copilot Analytics (Insights), enabling leaders to understand activity across all agents registered through Agent 365. Customers with Agent 365 and Copilot will now see the Agent 365 Dashboard with the ability to view historical data in Agent Dashboard. GA date: September CY2026 Preview date: July CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "068f4da4bd02",
-        "title": "Microsoft Teams: PowerPoint Live Light theme support",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567469",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-14T22:41:38+00:00",
-        "summary": "Presenting PowerPoint slides in Teams just got better. PowerPoint Live now supports light mode, giving presenters the option to present in light, dark, classic, or high contrast mode based on their preferences and system settings. GA date: August CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "714f1b8e7c87",
-        "title": "Microsoft Teams: Expand presenter visibility in 'Manage what attendees see' for Teams events",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567467",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-14T22:41:38+00:00",
-        "summary": "Users will now be able to resize and expand the presenter panel in 'Manage what attendees see' options for Teams events. This feature helps make it easier to view, manage, and switch between presenters during events. GA date: August CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "0b3c3e4064e2",
-        "title": "Microsoft Teams: Teams events attendance and engagement report policy",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567466",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-14T22:41:38+00:00",
-        "summary": "Teams events will soon have a separate attendance and engagement report policy from the \"CsTeamsMeetingPolicy\" attendance and engagement report policy. This will permit admins to allow Teams events organizers to access attendance and engagement reports, while restricting access to Teams meeting attendance and engagement reports. GA date: August CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "e919612b44a2",
-        "title": "Microsoft Teams: Enhanced live captions settings and right-side panel view",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567462",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-14T22:41:38+00:00",
-        "summary": "We are improving the live captions experience in Microsoft Teams with new viewing layouts and streamlined configuration options. Users can now view live captions in a new right-side panel, in addition to the existing options of viewing them at the top or bottom of the screen, or popping them out into a separate window. We are also making it easier to manage caption settings directly within the ...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "b9ac7f160a3e",
-        "title": "Microsoft Teams: Multilingual recap available with translation button",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567458",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-14T22:41:38+00:00",
-        "summary": "After meeting recap is automatically generated in the translation language chosen during the meeting, users can continue to change the language of the meeting recap after its generated. GA date: August CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "29e37053e092",
-        "title": "Microsoft Teams: View and manage auto attendant shared voicemails directly in the Queues app",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567457",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-14T22:41:38+00:00",
-        "summary": "Calls to an Auto Attendant that are routed to voicemail will now appear directly within Queues app. This enables organizations to manage shared Auto Attendant voicemails in a centralized experience, making it easier for teams to track, triage, and respond to customer messages. GA date: August CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "6b8d71ed3ac6",
-        "title": "Microsoft Teams: Prevent presence transition to \"Do not disturb\" setting when screen sharing (GCC High, DoD)",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567300",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-14T22:41:38+00:00",
-        "summary": "We're introducing a setting that allows users to opt-out of transitioning presence automatically to Do Not Disturb when presenting or screen sharing. This ensures that they can continue to receive calls, keeping them connected and responsive without manual presence adjustments. GA date: September CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "12a1f7364148",
-        "title": "Microsoft Teams: External presenters can access production controls for Teams events",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567298",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-14T22:41:38+00:00",
-        "summary": "Organizations can allow external presenters to manage Teams events by granting them access to production controls. Federated (B2B) and guest users can be specified in the \"Who has control of production tools\" setting, enabling trusted external presenters to run events and manage what attendees see. This feature supports organizations that work with third-party event producers and vendors. GA da...",
+        "published": "2026-07-15T22:55:27+00:00",
+        "summary": "Shared display mode in Teams is now available in government DOD environments, enabling more seamless and private meeting hosting from your PC. Additionally, peripheral detection for bring-your-own-device spaces is available for inventory management and reporting through the Pro Management portal. GA date: August CY2026",
         "category": "upcoming_changes"
       }
     ],
-    "official_news": [],
+    "official_news": [
+      {
+        "fingerprint": "fcc3273e0a88",
+        "title": "Unpacking the AsyncAPI npm supply chain compromise and import-time payload delivery",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/07/15/unpacking-asyncapi-npm-supply-chain-compromise-import-time-payload-delivery/",
+        "source": "Microsoft Security Blog",
+        "published": "2026-07-16T01:36:21+00:00",
+        "summary": "Threat actors compromised AsyncAPI packages and weaponized trusted CI/CD workflows to distribute malware through npm. This analysis breaks down the attack chain, payload delivery, and recommended defenses. The post Unpacking the AsyncAPI npm supply chain compromise and import-time payload delivery appeared first on Microsoft Security Blog .",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "eff40d5d1089",
+        "title": "Turning threat intelligence into decisive action with Defender Experts",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/07/15/turning-threat-intelligence-into-decisive-action-with-defender-experts/",
+        "source": "Microsoft Security Blog",
+        "published": "2026-07-15T16:00:35+00:00",
+        "summary": "Security teams have never had more visibility, yet rarely have they felt more uncertain. Signal pours in from endpoints, identities, cloud workloads, and a sprawling mix of third-party tools. The post Turning threat intelligence into decisive action with Defender Experts appeared first on Microsoft Security Blog .",
+        "category": "official_news"
+      }
+    ],
     "community_buzz": []
   }
 }
