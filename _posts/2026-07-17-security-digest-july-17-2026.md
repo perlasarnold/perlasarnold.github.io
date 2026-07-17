@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - July 17, 2026"
+date: 2026-07-17 15:07:31 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - July 17, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -63,4 +71,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Are Microsoft Defender's email security gaps a bigger problem than we think?](https://www.reddit.com/r/cybersecurity/comments/1uyv20i/are_microsoft_defenders_email_security_gaps_a/) - *(Reddit r/cybersecurity)*
 - [What's everyone calling the AI code security category in 2026?](https://www.reddit.com/r/cybersecurity/comments/1uytjfr/whats_everyone_calling_the_ai_code_security/) - *(Reddit r/cybersecurity)*
 - [Published research article on IEEE about supply chain attacks and preventive security measures](https://www.reddit.com/r/cybersecurity/comments/1uyrs0g/published_research_article_on_ieee_about_supply/) - *(Reddit r/cybersecurity)*
+
 
