@@ -1,12 +1,12 @@
 {
-  "generated_utc": "2026-07-16T15:06:25.193527+00:00",
-  "date": "2026-07-16",
+  "generated_utc": "2026-07-17T14:46:43.770435+00:00",
+  "date": "2026-07-17",
   "lookback_hours": 25,
   "source_status": [
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 1
+      "count": 2
     },
     {
       "name": "Microsoft Intune What's New",
@@ -95,32 +95,41 @@
     "bad_updates": [],
     "upcoming_changes": [
       {
-        "fingerprint": "c36320145f0c",
-        "title": "Microsoft Teams: Teams shared display mode and peripheral detection available for DoD environments",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567465",
+        "fingerprint": "bfdaeb7e7e5e",
+        "title": "Microsoft Teams: Explicit recording consent for PSTN participants now available in GCC High and DoD",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567304",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-15T22:55:27+00:00",
-        "summary": "Shared display mode in Teams is now available in government DOD environments, enabling more seamless and private meeting hosting from your PC. Additionally, peripheral detection for bring-your-own-device spaces is available for inventory management and reporting through the Pro Management portal. GA date: August CY2026",
+        "published": "2026-07-16T23:08:19+00:00",
+        "summary": "We are introducing explicit recording consent support for PSTN participants joining Microsoft Teams meetings in GCC High and DoD environments. This feature is already available in Public and GCC clouds and is now being extended to sovereign environments. After this rollout, when a meeting is being recorded or transcribed, PSTN participants will be prompted to provide explicit consent before the...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "95cd61dc00f5",
+        "title": "Microsoft Copilot (Microsoft 365): Session and Response Sharing in M365 Copilot",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=562353",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-07-16T23:08:19+00:00",
+        "summary": "Session and Response Sharing let Microsoft 365 Copilot users share Copilot chat content through a link. Session Sharing shares a full chat session, while Response Sharing shares a single Copilot response. The shared content opens as a read-only view, and recipients can continue from it in their own Copilot chat. This gives Copilot users an easier and more controlled way to share useful Copilot ...",
         "category": "upcoming_changes"
       }
     ],
     "official_news": [
       {
-        "fingerprint": "fcc3273e0a88",
-        "title": "Unpacking the AsyncAPI npm supply chain compromise and import-time payload delivery",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/07/15/unpacking-asyncapi-npm-supply-chain-compromise-import-time-payload-delivery/",
+        "fingerprint": "c26dcb3172a9",
+        "title": "ACR Stealer: Two observed intrusion chains amid increased threat activity",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/07/16/acr-stealer-two-observed-intrusion-chains-amid-increased-threat-activity/",
         "source": "Microsoft Security Blog",
-        "published": "2026-07-16T01:36:21+00:00",
-        "summary": "Threat actors compromised AsyncAPI packages and weaponized trusted CI/CD workflows to distribute malware through npm. This analysis breaks down the attack chain, payload delivery, and recommended defenses. The post Unpacking the AsyncAPI npm supply chain compromise and import-time payload delivery appeared first on Microsoft Security Blog .",
+        "published": "2026-07-16T23:12:02+00:00",
+        "summary": "From late April 2026 to mid-June 2026, Microsoft Defender Experts observed increased ACR Stealer activity across customer environments. These campaigns are successfully using ClickFix lures to steal browser credentials, authentication tokens, and sensitive documents from enterprise environments. The post ACR Stealer: Two observed intrusion chains amid increased threat activity appeared first on...",
         "category": "official_news"
       },
       {
-        "fingerprint": "eff40d5d1089",
-        "title": "Turning threat intelligence into decisive action with Defender Experts",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/07/15/turning-threat-intelligence-into-decisive-action-with-defender-experts/",
+        "fingerprint": "79af51b1b41d",
+        "title": "Least privilege for AI agents: Identity, access, and tool binding",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/07/16/least-privilege-for-ai-agents-identity-access-and-tool-binding/",
         "source": "Microsoft Security Blog",
-        "published": "2026-07-15T16:00:35+00:00",
-        "summary": "Security teams have never had more visibility, yet rarely have they felt more uncertain. Signal pours in from endpoints, identities, cloud workloads, and a sprawling mix of third-party tools. The post Turning threat intelligence into decisive action with Defender Experts appeared first on Microsoft Security Blog .",
+        "published": "2026-07-16T16:00:00+00:00",
+        "summary": "As AI agents become more autonomous, strong identity, access, and auditing controls are critical to keeping them secure. The post Least privilege for AI agents: Identity, access, and tool binding appeared first on Microsoft Security Blog .",
         "category": "official_news"
       }
     ],
