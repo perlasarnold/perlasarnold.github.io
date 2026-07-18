@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - July 18, 2026"
+date: 2026-07-18 14:44:22 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - July 18, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -47,4 +55,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Technical analysis of wp2shell: The latest WordPress Core pre-auth RCE chain](https://www.reddit.com/r/cybersecurity/comments/1uznrdn/technical_analysis_of_wp2shell_the_latest/) - *(Reddit r/cybersecurity)*
 - [What Open Source Cyber Security Apps are Your Team Self-Hosting?](https://www.reddit.com/r/cybersecurity/comments/1uzmrnl/what_open_source_cyber_security_apps_are_your/) - *(Reddit r/cybersecurity)*
 - [New wp2shell RCE Vulnerability Hits Millions of WordPress Sites, Emergency Patch Released](https://cybersecuritynews.com/wp2shell-rce-vulnerability/) - *(CybersecurityNews)*
+
 
