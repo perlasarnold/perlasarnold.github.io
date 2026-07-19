@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - July 19, 2026"
+date: 2026-07-19 14:48:05 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - July 19, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -66,4 +74,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Microsoft Weekly: Patch Tuesday updates, Microsoft accounts drama, Fallout 5 news, and more](https://www.neowin.net/news/microsoft-weekly-patch-tuesday-updates-microsoft-accounts-drama-fallout-5-news-and-more/?utm_source=rss) - *(Neowin)*
 - [Shark vacuums with flawed Amazon policy can easily expose millions of user data](https://www.neowin.net/news/shark-vacuums-with-flawed-amazon-policy-can-easily-expose-millions-of-user-data/?utm_source=rss) - *(Neowin)*
 - [Microsoft ends support for SQL Server 2016, but admits that it is still "heavily deployed"](https://www.neowin.net/news/microsoft-ends-support-for-sql-server-2016-but-admits-that-it-is-still-heavily-deployed/?utm_source=rss) - *(Neowin)*
+
 
