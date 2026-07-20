@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - July 20, 2026"
+date: 2026-07-20 15:45:44 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - July 20, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -83,4 +91,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Can you tell me what I should study to become a professional in cyber security? I am in 12th class PCM.](https://www.reddit.com/r/cybersecurity/comments/1v1hpnm/can_you_tell_me_what_i_should_study_to_become_a/) - *(Reddit r/cybersecurity)*
 - [GoPhish landing page blocked by ESET as "Phish/GoPhish" - how do you properly whitelist it?](https://www.reddit.com/r/cybersecurity/comments/1v1hiug/gophish_landing_page_blocked_by_eset_as/) - *(Reddit r/cybersecurity)*
 - [Need advice on building an ML-based adaptive web vulnerability scanner — how to handle lack of datasets?](https://www.reddit.com/r/cybersecurity/comments/1v1h8s1/need_advice_on_building_an_mlbased_adaptive_web/) - *(Reddit r/cybersecurity)*
+
 
