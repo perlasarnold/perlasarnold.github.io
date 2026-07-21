@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - July 21, 2026"
+date: 2026-07-21 15:28:54 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - July 21, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -54,4 +62,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Meta Paid 78K Bounty for Vulnerability Exposing Customer Support Data](https://www.reddit.com/r/cybersecurity/comments/1v2ff48/meta_paid_78k_bounty_for_vulnerability_exposing/) - *(Reddit r/cybersecurity)*
 - [CVSS vs EPSS vs CISA KEV: What actually determines your patching order?](https://www.reddit.com/r/cybersecurity/comments/1v2expz/cvss_vs_epss_vs_cisa_kev_what_actually_determines/) - *(Reddit r/cybersecurity)*
 - [How long does it take for MITRE as the CNA LR to view a CAN/CVE request?](https://www.reddit.com/r/cybersecurity/comments/1v2dzvf/how_long_does_it_take_for_mitre_as_the_cna_lr_to/) - *(Reddit r/cybersecurity)*
+
 

@@ -12,6 +12,7 @@ This archive stores the raw markdown generated for each weekly digest run.
 - Historical files are append-only and keep the timestamp in the filename.
 
 ## Runs
+- [weekly-digest-2026-07-21_15-28-54Z.md](./weekly-digest-2026-07-21_15-28-54Z.md)
 - [weekly-digest-2026-07-20_15-45-44Z.md](./weekly-digest-2026-07-20_15-45-44Z.md)
 - [weekly-digest-2026-07-19_14-48-05Z.md](./weekly-digest-2026-07-19_14-48-05Z.md)
 - [weekly-digest-2026-07-18_14-44-22Z.md](./weekly-digest-2026-07-18_14-44-22Z.md)
