@@ -1,12 +1,12 @@
 {
-  "generated_utc": "2026-07-20T15:14:01.946789+00:00",
-  "date": "2026-07-20",
+  "generated_utc": "2026-07-21T15:06:39.593323+00:00",
+  "date": "2026-07-21",
   "lookback_hours": 25,
   "source_status": [
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 0
+      "count": 5
     },
     {
       "name": "Microsoft Intune What's New",
@@ -15,9 +15,8 @@
     },
     {
       "name": "Windows IT Pro Blog",
-      "status": "Error",
-      "count": 0,
-      "message": "403 Client Error: Forbidden for url: https://techcommunity.microsoft.com/t5/windows-it-pro-blog/bg-p/Windows10Blog/rss"
+      "status": "OK",
+      "count": 0
     },
     {
       "name": "Microsoft Security Blog",
@@ -26,9 +25,8 @@
     },
     {
       "name": "Microsoft Entra Blog",
-      "status": "Error",
-      "count": 0,
-      "message": "403 Client Error: Forbidden for url: https://techcommunity.microsoft.com/t5/microsoft-entra-blog/bg-p/Identity/rss"
+      "status": "OK",
+      "count": 0
     },
     {
       "name": "BleepingComputer",
@@ -95,7 +93,53 @@
   "items": {
     "high_alert": [],
     "bad_updates": [],
-    "upcoming_changes": [],
+    "upcoming_changes": [
+      {
+        "fingerprint": "7b28908abb72",
+        "title": "OneNote: Multimodal capture in Copilot Notebooks (Android)",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567895",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-07-20T22:37:15+00:00",
+        "summary": "Multimodal capture enables users to transcribe audio, take images, and type notes in a single session. Copilot then creates a structured Copilot Page with insights and user-captured content, saved to a user-selected Copilot Notebook. Designed for capturing offline work moments—including in-person conversations, whiteboard sessions, and personal notes. This capability is already generally availa...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "1f3cf05400da",
+        "title": "Microsoft Copilot Studio: Share Autonomous Agents to End Users (Run-Only)",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567894",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-07-20T22:37:15+00:00",
+        "summary": "Previously, autonomous agents could only be used and managed by makers, limiting their reach to the people who needed them. Run-only sharing enables makers to securely share autonomous agents with end users, allowing users to benefit from agent-driven automation without requiring edit permissions or ownership. This extends autonomous agent capabilities to a broader audience while maintaining go...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "e2ea34cb508d",
+        "title": "Microsoft Copilot (Microsoft 365): Power BI integration in M365 Copilot",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567891",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-07-20T22:37:15+00:00",
+        "summary": "This release enables M365 Copilot to reason over Power BI enterprise data and returns grounded answers directly from Power BI reports and semantic models. Users can ask natural‑language questions and receive accurate answers. GA date: August CY2026 Preview date: June CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "9c032fe1a5d3",
+        "title": "SharePoint: Flexible Section Authoring Improvements",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567889",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-07-20T22:37:15+00:00",
+        "summary": "We've enhanced Flexible Sections in SharePoint Pages to make page layout creation more intuitive and predictable. Authors can now use visual column layout guides that mirror familiar sections, keep gridlines and layout guides visible while editing, and convert existing sections into Flexible Sections with a single click while preserving content placement. These improvements help authors create ...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "57f507ee7dd2",
+        "title": "Microsoft Teams: Unified Agent and App Installation Management Across Microsoft 365 and Teams Admin Center",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567883",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-07-20T22:37:15+00:00",
+        "summary": "Administrators using the Microsoft 365 admin center and Teams admin center will be able to apply app and agent installation changes once and have them consistently enforced across Teams, Outlook, and Microsoft 365 Copilot. Previously, installation changes made in the Microsoft 365 admin center only applied to Outlook and Microsoft 365, while changes made in the Teams admin center only applied t...",
+        "category": "upcoming_changes"
+      }
+    ],
     "official_news": [],
     "community_buzz": []
   }
