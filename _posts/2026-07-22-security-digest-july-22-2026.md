@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - July 22, 2026"
+date: 2026-07-22 15:26:22 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - July 22, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -50,4 +58,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Microsoft to stop Exchange 2016 / 2019 security updates in October](https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-2016-and-2019-esu-program-ends-in-october/) - *(BleepingComputer)*
 - [I dont know how to start with over the wire wargames](https://www.reddit.com/r/cybersecurity/comments/1v3c91v/i_dont_know_how_to_start_with_over_the_wire/) - *(Reddit r/cybersecurity)*
 - [Cisco launches super affordable security language model called Antares](https://www.neowin.net/news/cisco-launches-super-affordable-security-language-model-called-antares/?utm_source=rss) - *(Neowin)*
+
 
