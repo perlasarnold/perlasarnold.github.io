@@ -1,12 +1,12 @@
 {
-  "generated_utc": "2026-07-22T15:07:30.533495+00:00",
-  "date": "2026-07-22",
+  "generated_utc": "2026-07-23T15:12:36.491443+00:00",
+  "date": "2026-07-23",
   "lookback_hours": 25,
   "source_status": [
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 1
+      "count": 2
     },
     {
       "name": "Microsoft Intune What's New",
@@ -21,7 +21,7 @@
     {
       "name": "Microsoft Security Blog",
       "status": "OK",
-      "count": 0
+      "count": 1
     },
     {
       "name": "Microsoft Entra Blog",
@@ -95,16 +95,35 @@
     "bad_updates": [],
     "upcoming_changes": [
       {
-        "fingerprint": "ef4fe996d99f",
-        "title": "Microsoft Purview: Data Loss Prevention - Data Security for non-Microsoft connected apps",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=568075",
+        "fingerprint": "ec9d933b9247",
+        "title": "SharePoint: Cross-post SharePoint News to Engage",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=568074",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-21T22:37:32+00:00",
-        "summary": "Microsoft Purview Data Loss Prevention and Information Protection Auto-labeling capabilities now extend to non-Microsoft connected apps (e.g., Google Workspace, Box, Dropbox, Salesforce, ServiceNow, Amazon Web Services, and Cisco Webex). The conditions and actions supported for each of these applications vary. GA date: September CY2026 Preview date: July CY2026",
+        "published": "2026-07-22T22:41:54+00:00",
+        "summary": "This feature allows SharePoint News authors to distribute posts to an Engage community or storyline while preserving full fidelity rendering and a unified conversation experience. SharePoint News post will appear consistently in Engage across feeds, digests, Outlook, Teams, desktop, web and mobile apps. When distributed, the SharePoint News comments module is replaced with the richer Engage con...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "315a6e9a885c",
+        "title": "Outlook: New Copilot entry point in Classic Outlook",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567007",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-07-22T22:41:54+00:00",
+        "summary": "We've introduced a new experience for Copilot in the apps—a consistent entry point across apps that sits above your work and understands the context beneath it. Rather than scattering touchpoints across the interface, it anchors Copilot as one connected system across Microsoft 365, surfacing relevant actions that help you stay in flow. With this release, we are rolling out this new experience -...",
         "category": "upcoming_changes"
       }
     ],
-    "official_news": [],
+    "official_news": [
+      {
+        "fingerprint": "9705530486b2",
+        "title": "Real world incident response: Microsoft and AXA XL strengthen cyber resilience",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/07/22/real-world-incident-response-microsoft-and-axa-xl-strengthen-cyber-resilience/",
+        "source": "Microsoft Security Blog",
+        "published": "2026-07-22T16:00:00+00:00",
+        "summary": "Our collaboration with AXA XL brings Microsoft Incident Response services directly to cyber insurance policyholders, helping organizations coordinate technical, business, and insurance decisions. The post Real world incident response: Microsoft and AXA XL strengthen cyber resilience appeared first on Microsoft Security Blog .",
+        "category": "official_news"
+      }
+    ],
     "community_buzz": []
   }
 }
