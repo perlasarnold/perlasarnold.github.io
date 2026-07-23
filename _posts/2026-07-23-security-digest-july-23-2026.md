@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - July 23, 2026"
+date: 2026-07-23 15:49:15 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - July 23, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -70,4 +78,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Ethics and ISC2 in cybersecurity - does it really exist?](https://www.reddit.com/r/cybersecurity/comments/1v4cleb/ethics_and_isc2_in_cybersecurity_does_it_really/) - *(Reddit r/cybersecurity)*
 - [Real time protection?](https://www.reddit.com/r/cybersecurity/comments/1v4ceyx/real_time_protection/) - *(Reddit r/cybersecurity)*
 - [Google Launches CodeMender AI Agent to Find, Validate, and Patch Vulnerabilities](https://cybersecuritynews.com/google-launches-codemender-ai-agent/) - *(CybersecurityNews)*
+
 
