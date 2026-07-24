@@ -1,0 +1,56 @@
+---
+layout: post
+title: "Security Digest - June 18, 2026"
+date: 2026-06-18 16:52:22 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
+# Security Digest - June 18, 2026
+
+Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
+
+- **Generated (UTC):** 2026-06-18 16:52:22 +00:00
+- **Lookback window:** 7 days
+
+## 🚀 Top Research & Advisories
+- **[F5 issues out-of-band patches for critical NGINX vulnerabilities](https://www.reddit.com/r/cybersecurity/comments/1u96rro/f5_issues_outofband_patches_for_critical_nginx/)** - *(Reddit r/cybersecurity)*
+  &#32; submitted by &#32; /u/rkhunter_ [link] &#32; [comments]
+  > **Action:** Evaluate update rings and expedite actions if needed.
+
+## 💻 AppSec
+- **[Microsoft updates Visual Studio Code with easier language model discovery and in-app search](https://www.neowin.net/news/microsoft-updates-visual-studio-code-with-easier-language-model-discovery-and-in-app-search/)** - *(Neowin)*
+  Monitor developer tool vulnerabilities and supply chain risks.
+
+## 🏗 Infrastructure
+- **[Microsoft fixes Windows Server 2016 security update failures](https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-server-2016-security-update-failures/)** - *(BleepingComputer)*
+  Review server hardening and AD security posture.
+
+## 🛠 Infrastructure & Endpoint Control
+- **[Entretien SOC](https://www.reddit.com/r/cybersecurity/comments/1u94aab/entretien_soc/)** - *(Reddit r/cybersecurity)*
+  Review security controls and policy updates.
+
+- **[Latest Rufus update improves new Windows 11 install method](https://www.neowin.net/news/latest-rufus-update-improves-new-windows-11-install-method/)** - *(Neowin)*
+  Validate workstation security baseline and update compliance.
+
+- **[Microsoft fixes one of Excel Copilot's most frustrating limitations](https://www.neowin.net/news/microsoft-fixes-one-of-excel-copilots-most-frustrating-limitations/)** - *(Neowin)*
+  Review Office update channel health and security baseline compliance.
+
+- **[Microsoft will finally let you sign in to Edge with a Google account](https://www.neowin.net/news/microsoft-will-finally-let-you-sign-in-to-edge-with-a-google-account/)** - *(Neowin)*
+  Validate Edge/WebView2 coverage; refresh managed package.
+
+- **[My favorite file manager for Windows 11 finally gets a long-requested feature](https://www.neowin.net/news/my-favorite-file-manager-for-windows-11-finally-gets-a-long-requested-feature/)** - *(Neowin)*
+  Validate workstation security baseline and update compliance.
+
+## 🔍 Quick Links (Watch Items)
+- [I’m I ready for SOC analyst roles?](https://www.reddit.com/r/cybersecurity/comments/1u999qg/im_i_ready_for_soc_analyst_roles/) - *(Reddit r/cybersecurity)*
+- [Do lightweight PE/.NET inspection tools still make sense alongside larger RE platforms?Do lightweight PE/.NET inspection tools still make sense alongside larger RE platforms?](https://www.reddit.com/r/cybersecurity/comments/1u97wvt/do_lightweight_penet_inspection_tools_still_make/) - *(Reddit r/cybersecurity)*
+- [Critical Cisco ISE Vulnerability Allows Attacker to Execute Malicious Code Remotely](https://cybersecuritynews.com/cisco-ise-rec-vulnerability/) - *(CybersecurityNews)*
+- [F5 Patches NGINX Vulnerability That Enables Code Execution and DoS Attacks](https://cybersecuritynews.com/nginx-vulnerability-patched/) - *(CybersecurityNews)*
+- [Microsoft fixes Windows Server 2016 security update failures](https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-server-2016-security-update-failures/) - *(BleepingComputer)*
+- [One thing I learned from reporting vulnerabilities in production AI systems](https://www.reddit.com/r/cybersecurity/comments/1u8zln5/one_thing_i_learned_from_reporting/) - *(Reddit r/cybersecurity)*
+- [AMD silently removes memory encryption from consumer Ryzen CPUs, leaving users unaware that they may be vulnerable — security feature vanishes after newer AGESA firmware, AMD engineers go radio silent when pressed about the change](https://www.reddit.com/r/cybersecurity/comments/1u8z7sm/amd_silently_removes_memory_encryption_from/) - *(Reddit r/cybersecurity)*
+- [Massive database with 24 billion credentials found exposed online](https://www.reddit.com/r/cybersecurity/comments/1u8yz1r/massive_database_with_24_billion_credentials/) - *(Reddit r/cybersecurity)*
+- [Are there freelancers in the area of cybersecurity (offensive security)?](https://www.reddit.com/r/cybersecurity/comments/1u8ypoy/are_there_freelancers_in_the_area_of/) - *(Reddit r/cybersecurity)*
+
+

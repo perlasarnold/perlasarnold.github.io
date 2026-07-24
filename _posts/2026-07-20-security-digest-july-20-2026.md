@@ -1,0 +1,95 @@
+---
+layout: post
+title: "Security Digest - July 20, 2026"
+date: 2026-07-20 15:45:44 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
+# Security Digest - July 20, 2026
+
+Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
+
+- **Generated (UTC):** 2026-07-20 15:45:44 +00:00
+- **Lookback window:** 7 days
+
+## 🚀 Top Research & Advisories
+- **[Performance benchmark shows Windows 11 totally dominates Linux in one absolutely key area](https://www.neowin.net/news/performance-benchmark-shows-windows-11-totally-dominates-linux-in-one-absolutely-key-area/?utm_source=rss)** - *(Neowin)*
+  Performance benchmarks reveal that Windows 11 decisively outperforms Linux, completely dominating one absolutely critical area in this modern era. Read more...
+  > **Action:** Validate workstation security baseline and update compliance.
+
+## 💻 AppSec
+- **[Can you tell me what I should study to become a professional in cyber security? I am in 12th class PCM.](https://www.reddit.com/r/cybersecurity/comments/1v1hpnm/can_you_tell_me_what_i_should_study_to_become_a/)** - *(Reddit r/cybersecurity)*
+  Monitor developer tool vulnerabilities and supply chain risks.
+
+- **[CVE-2026-58065](https://nvd.nist.gov/vuln/detail/CVE-2026-58065)** - *(NVD)*
+  Monitor developer tool vulnerabilities and supply chain risks.
+
+- **[Kimai Docker Flaw Lets Unauthenticated Attackers Forge Cookies and Take Over Accounts](https://cybersecuritynews.com/kimai-docker-flaw/)** - *(CybersecurityNews)*
+  Monitor developer tool vulnerabilities and supply chain risks.
+
+## 🏗 Infrastructure
+- **[Microsoft confirms Windows Server Update Services sync delays](https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-wsus-server-sync-delays-and-timeouts/)** - *(BleepingComputer)*
+  Review server hardening and AD security posture.
+
+- **[Palo alto’s XDR](https://www.reddit.com/r/cybersecurity/comments/1v1g88b/palo_altos_xdr/)** - *(Reddit r/cybersecurity)*
+  Review VPN client version and deployment.
+
+## 🛡 Security Ops
+- **[123-reg just asked me to share my authenticator codes](https://www.reddit.com/r/cybersecurity/comments/1v1g88v/123reg_just_asked_me_to_share_my_authenticator/)** - *(Reddit r/cybersecurity)*
+  Review CA/MFA settings for tightening opportunities.
+
+## 🛠 Infrastructure & Endpoint Control
+- **[7 Days: Firefox follows Chrome, man loses 25 years of data, Samsung threatens data deletion](https://www.neowin.net/news/7-days-firefox-follows-chrome-man-loses-25-years-of-data-samsung-threatens-data-deletion/?utm_source=rss)** - *(Neowin)*
+  Validate Chrome coverage; update managed package if needed.
+
+- **[Giveaway: Enter to win an AutoFull M6 Ultra 2.0 gaming chair that cools, heats and vibrates](https://www.neowin.net/news/giveaway-enter-to-win-an-autofull-m6-ultra-20-gaming-chair-that-cools-heats-and-vibrates/?utm_source=rss)** - *(Neowin)*
+  Confirm Adobe exposure; push updated deployment.
+
+- **[GoPhish landing page blocked by ESET as "Phish/GoPhish" - how do you properly whitelist it?](https://www.reddit.com/r/cybersecurity/comments/1v1hiug/gophish_landing_page_blocked_by_eset_as/)** - *(Reddit r/cybersecurity)*
+  Review security controls and policy updates.
+
+- **[How to install apps on your Windows 11 PC with Windows Package Manager (winget)](https://www.neowin.net/guides/how-to-install-apps-on-your-windows-11-pc-with-windows-package-manager-winget/?utm_source=rss)** - *(Neowin)*
+  Validate workstation security baseline and update compliance.
+
+- **[Microsoft released Windows 11 KB5106056, KB5101719, KB5099551 setup, recovery updates](https://www.neowin.net/news/microsoft-released-windows-11-kb5106056-kb5101719-kb5099551-setup-recovery-updates/?utm_source=rss)** - *(Neowin)*
+  Validate workstation security baseline and update compliance.
+
+- **[Microsoft Releases KB5121767 Out-of-Band Update to Fix Dell USB-C Compatibility Bug](https://cybersecuritynews.com/microsoft-kb5121767-out-of-band-update/)** - *(CybersecurityNews)*
+  Evaluate update rings and expedite actions if needed.
+
+- **[Microsoft to End OneDrive Sync App Updates for Windows 10](https://cybersecuritynews.com/windows-10-onedrive-updates-ends/)** - *(CybersecurityNews)*
+  Validate workstation security baseline and update compliance.
+
+- **[One in six PCs still run Windows 10, and they're far less secure than Windows 11](https://www.neowin.net/news/one-in-six-pcs-still-run-windows-10-and-theyre-far-less-secure-than-windows-11/?utm_source=rss)** - *(Neowin)*
+  Validate workstation security baseline and update compliance.
+
+- **[Save 79% on this Claude AI for Microsoft Excel Mastery Bundle](https://www.neowin.net/deals/save-79-on-this-claude-ai-for-microsoft-excel-mastery-bundle/?utm_source=rss)** - *(Neowin)*
+  Review Office update channel health and security baseline compliance.
+
+- **[Windows 11 KB5121767 out to fix system performance issues caused by KB5101650, KB5095093](https://www.neowin.net/news/windows-11-kb5121767-out-to-fix-system-performance-issues-caused-by-kb5101650-kb5095093/?utm_source=rss)** - *(Neowin)*
+  Validate workstation security baseline and update compliance.
+
+## 🩹 Patch Tuesday & Update Experience
+- **[Microsoft released Windows 11 KB5106056, KB5101719, KB5099551 setup, recovery updates](https://www.neowin.net/news/microsoft-released-windows-11-kb5106056-kb5101719-kb5099551-setup-recovery-updates/?utm_source=rss)** - *(Neowin)*
+  New dynamic updates for Windows 11 versions 26H1, 25H2, and 24H2, were released by Microsoft this past week. Read more...
+
+- **[Microsoft Releases KB5121767 Out-of-Band Update to Fix Dell USB-C Compatibility Bug](https://cybersecuritynews.com/microsoft-kb5121767-out-of-band-update/)** - *(CybersecurityNews)*
+  System.Xml.XmlElement
+
+- **[Windows 11 KB5121767 out to fix system performance issues caused by KB5101650, KB5095093](https://www.neowin.net/news/windows-11-kb5121767-out-to-fix-system-performance-issues-caused-by-kb5101650-kb5095093/?utm_source=rss)** - *(Neowin)*
+  Microsoft has released a new emergency update for Intel-based Dell systems. It is said to fix system performance issues. Read more...
+
+## 🔍 Quick Links (Watch Items)
+- [Critical wp2shell RCE Vulnerability – Complete Coverage Including PoC and Active Exploitation Details](https://cybersecuritynews.com/critical-wp2shell-rce-vulnerability/) - *(CybersecurityNews)*
+- [Would you leave a comfortable Network Security role for AI Security?](https://www.reddit.com/r/cybersecurity/comments/1v1o7zc/would_you_leave_a_comfortable_network_security/) - *(Reddit r/cybersecurity)*
+- [Vulnerability Summary for the Week of July 13, 2026](https://www.reddit.com/r/cybersecurity/comments/1v1nr6e/vulnerability_summary_for_the_week_of_july_13_2026/) - *(Reddit r/cybersecurity)*
+- [An AI SOC Evaluation Guide for Security Leaders](https://www.bleepingcomputer.com/news/security/an-ai-soc-evaluation-guide-for-security-leaders/) - *(BleepingComputer)*
+- [How to take care of license related findings from appsec tool(Snyk) ?](https://www.reddit.com/r/cybersecurity/comments/1v1knod/how_to_take_care_of_license_related_findings_from/) - *(Reddit r/cybersecurity)*
+- [Cloudflare’s CAA flaw looks impractical for criminals — but what about actors who control the network?](https://www.reddit.com/r/cybersecurity/comments/1v1i16a/cloudflares_caa_flaw_looks_impractical_for/) - *(Reddit r/cybersecurity)*
+- [Need help from my cyber security people](https://www.reddit.com/r/cybersecurity/comments/1v1hy94/need_help_from_my_cyber_security_people/) - *(Reddit r/cybersecurity)*
+- [Can you tell me what I should study to become a professional in cyber security? I am in 12th class PCM.](https://www.reddit.com/r/cybersecurity/comments/1v1hpnm/can_you_tell_me_what_i_should_study_to_become_a/) - *(Reddit r/cybersecurity)*
+- [GoPhish landing page blocked by ESET as "Phish/GoPhish" - how do you properly whitelist it?](https://www.reddit.com/r/cybersecurity/comments/1v1hiug/gophish_landing_page_blocked_by_eset_as/) - *(Reddit r/cybersecurity)*
+- [Need advice on building an ML-based adaptive web vulnerability scanner — how to handle lack of datasets?](https://www.reddit.com/r/cybersecurity/comments/1v1h8s1/need_advice_on_building_an_mlbased_adaptive_web/) - *(Reddit r/cybersecurity)*
+
+

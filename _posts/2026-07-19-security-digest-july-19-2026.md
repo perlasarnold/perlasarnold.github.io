@@ -1,0 +1,78 @@
+---
+layout: post
+title: "Security Digest - July 19, 2026"
+date: 2026-07-19 14:48:05 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
+# Security Digest - July 19, 2026
+
+Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
+
+- **Generated (UTC):** 2026-07-19 14:48:05 +00:00
+- **Lookback window:** 7 days
+
+## 🚀 Top Research & Advisories
+- *No high-priority security research detected in this window.*
+## 🏗 Infrastructure
+- **[Breaking into the industry](https://www.reddit.com/r/cybersecurity/comments/1v0r9oi/breaking_into_the_industry/)** - *(Reddit r/cybersecurity)*
+  Review server hardening and AD security posture.
+
+- **[CVE-2026-10666](https://www.cve.org/CVERecord?id=CVE-2026-10666)** - *(CVE.org)*
+  Review server hardening and AD security posture.
+
+- **[Windows Server 2022 reach end of mainstream support in 90 days](https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reach-end-of-mainstream-support-in-90-days/)** - *(BleepingComputer)*
+  Review server hardening and AD security posture.
+
+## 🛠 Infrastructure & Endpoint Control
+- **[2026 Cybersecurity Career Roadmap](https://www.reddit.com/r/cybersecurity/comments/1v05sgs/2026_cybersecurity_career_roadmap/)** - *(Reddit r/cybersecurity)*
+  Review Office update channel health and security baseline compliance.
+
+- **[7 Days: Firefox follows Chrome, man loses 25 years of data, Samsung threatens data deletion](https://www.neowin.net/news/7-days-firefox-follows-chrome-man-loses-25-years-of-data-samsung-threatens-data-deletion/?utm_source=rss)** - *(Neowin)*
+  Validate Chrome coverage; update managed package if needed.
+
+- **[CVE-2026-58596](https://nvd.nist.gov/vuln/detail/CVE-2026-58596)** - *(NVD)*
+  Validate Chrome coverage; update managed package if needed. Validate Edge/WebView2 coverage; refresh managed package.
+
+- **[From 50 to 703: Expanding Unit 42's Gameograf Adware Chrome Extension Campaign](https://www.reddit.com/r/cybersecurity/comments/1v0j1ir/from_50_to_703_expanding_unit_42s_gameograf/)** - *(Reddit r/cybersecurity)*
+  Validate Chrome coverage; update managed package if needed.
+
+- **[Giveaway: Enter to win an AutoFull M6 Ultra 2.0 gaming chair that cools, heats and vibrates](https://www.neowin.net/news/giveaway-enter-to-win-an-autofull-m6-ultra-20-gaming-chair-that-cools-heats-and-vibrates/?utm_source=rss)** - *(Neowin)*
+  Confirm Adobe exposure; push updated deployment.
+
+- **[How to check your motherboard model without opening up your Windows 11 PC](https://www.neowin.net/guides/how-to-check-your-motherboard-model-without-opening-up-your-windows-11-pc/?utm_source=rss)** - *(Neowin)*
+  Validate workstation security baseline and update compliance.
+
+- **[Microsoft is killing an Outlook feature and replacing it with Copilot](https://www.neowin.net/news/microsoft-is-killing-an-outlook-feature-and-replacing-it-with-copilot/?utm_source=rss)** - *(Neowin)*
+  Review Office update channel health and security baseline compliance.
+
+- **[Microsoft released Windows 11 KB5106056, KB5101719, KB5099551 setup, recovery updates](https://www.neowin.net/news/microsoft-released-windows-11-kb5106056-kb5101719-kb5099551-setup-recovery-updates/?utm_source=rss)** - *(Neowin)*
+  Validate workstation security baseline and update compliance.
+
+- **[Microsoft Weekly: Patch Tuesday updates, Microsoft accounts drama, Fallout 5 news, and more](https://www.neowin.net/news/microsoft-weekly-patch-tuesday-updates-microsoft-accounts-drama-fallout-5-news-and-more/?utm_source=rss)** - *(Neowin)*
+  Evaluate update rings and expedite actions if needed.
+
+- **[Windows 11 KB5121767 out to fix system performance issues caused by KB5101650, KB5095093](https://www.neowin.net/news/windows-11-kb5121767-out-to-fix-system-performance-issues-caused-by-kb5101650-kb5095093/?utm_source=rss)** - *(Neowin)*
+  Validate workstation security baseline and update compliance.
+
+## 🩹 Patch Tuesday & Update Experience
+- **[Microsoft released Windows 11 KB5106056, KB5101719, KB5099551 setup, recovery updates](https://www.neowin.net/news/microsoft-released-windows-11-kb5106056-kb5101719-kb5099551-setup-recovery-updates/?utm_source=rss)** - *(Neowin)*
+  New dynamic updates for Windows 11 versions 26H1, 25H2, and 24H2, were released by Microsoft this past week. Read more...
+
+- **[Windows 11 KB5121767 out to fix system performance issues caused by KB5101650, KB5095093](https://www.neowin.net/news/windows-11-kb5121767-out-to-fix-system-performance-issues-caused-by-kb5101650-kb5095093/?utm_source=rss)** - *(Neowin)*
+  Microsoft has released a new emergency update for Intel-based Dell systems. It is said to fix system performance issues. Read more...
+
+## 🔍 Quick Links (Watch Items)
+- [PC needed for classes](https://www.reddit.com/r/cybersecurity/comments/1v0saaj/pc_needed_for_classes/) - *(Reddit r/cybersecurity)*
+- [Founders using AWS — is cloud security tooling too expensive or too technical for you?](https://www.reddit.com/r/cybersecurity/comments/1v0qy0j/founders_using_aws_is_cloud_security_tooling_too/) - *(Reddit r/cybersecurity)*
+- [nday: CVE-2026-49176_LPE_POC: Local privilege-escalation proof of concept for the Windows WalletService vulnerability fixed in July 2026.](https://www.reddit.com/r/cybersecurity/comments/1v0q6bv/nday_cve202649176_lpe_poc_local/) - *(Reddit r/cybersecurity)*
+- [How does your organisation approach endpoint hardening?](https://www.reddit.com/r/cybersecurity/comments/1v0mtez/how_does_your_organisation_approach_endpoint/) - *(Reddit r/cybersecurity)*
+- [API Security testing](https://www.reddit.com/r/cybersecurity/comments/1v0krat/api_security_testing/) - *(Reddit r/cybersecurity)*
+- [Technical analysis of HollowByte: OpenSSL's latest memory exhaustion DoS](https://www.reddit.com/r/cybersecurity/comments/1v0jio3/technical_analysis_of_hollowbyte_openssls_latest/) - *(Reddit r/cybersecurity)*
+- [WordPress Core "wp2shell" RCE flaws get public exploits, patch now](https://www.bleepingcomputer.com/news/security/wordpress-core-wp2shell-rce-flaws-get-public-exploits-patch-now/) - *(BleepingComputer)*
+- [Microsoft Weekly: Patch Tuesday updates, Microsoft accounts drama, Fallout 5 news, and more](https://www.neowin.net/news/microsoft-weekly-patch-tuesday-updates-microsoft-accounts-drama-fallout-5-news-and-more/?utm_source=rss) - *(Neowin)*
+- [Shark vacuums with flawed Amazon policy can easily expose millions of user data](https://www.neowin.net/news/shark-vacuums-with-flawed-amazon-policy-can-easily-expose-millions-of-user-data/?utm_source=rss) - *(Neowin)*
+- [Microsoft ends support for SQL Server 2016, but admits that it is still "heavily deployed"](https://www.neowin.net/news/microsoft-ends-support-for-sql-server-2016-but-admits-that-it-is-still-heavily-deployed/?utm_source=rss) - *(Neowin)*
+
+

@@ -1,0 +1,62 @@
+---
+layout: post
+title: "Security Digest - July 22, 2026"
+date: 2026-07-22 15:26:22 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
+# Security Digest - July 22, 2026
+
+Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
+
+- **Generated (UTC):** 2026-07-22 15:26:22 +00:00
+- **Lookback window:** 7 days
+
+## 🚀 Top Research & Advisories
+- **[Critical Palo Alto VPN bug now exploited by Qilin ransomware gang](https://www.bleepingcomputer.com/news/security/critical-globalprotect-vpn-bug-now-exploited-in-ransomware-attacks/)** - *(BleepingComputer)*
+  System.Xml.XmlElement
+  > **Action:** Review VPN client version and deployment.
+
+## 🛡 Security Ops
+- **[Kerberoasting is still the one that surprises the most, despite looking into security events for years](https://www.reddit.com/r/cybersecurity/comments/1v3hrdu/kerberoasting_is_still_the_one_that_surprises_the/)** - *(Reddit r/cybersecurity)*
+  Review sensor guidance and deployment posture.
+
+- **[Need Career Advice: Feeling Stuck as an L1 Cybersecurity Analyst](https://www.reddit.com/r/cybersecurity/comments/1v3769r/need_career_advice_feeling_stuck_as_an_l1/)** - *(Reddit r/cybersecurity)*
+  Review sensor guidance and deployment posture.
+
+## 🛠 Infrastructure & Endpoint Control
+- **[Adobe Chrome extension flaw let sites access private WhatsApp chats](https://www.bleepingcomputer.com/news/security/adobe-chrome-extension-flaw-let-sites-access-private-whatsapp-chats/)** - *(BleepingComputer)*
+  Confirm Adobe exposure; push updated deployment. Validate Chrome coverage; update managed package if needed.
+
+- **[Firefox finally gets highly requested Windows 11 feature Chrome, Edge has had for many years](https://www.neowin.net/news/firefox-finally-gets-highly-requested-windows-11-feature-chrome-edge-has-had-for-many-years/?utm_source=rss)** - *(Neowin)*
+  Validate Chrome coverage; update managed package if needed. Validate Edge/WebView2 coverage; refresh managed package. Validate workstation security baseline and update compliance.
+
+- **[Five questions board should ask](https://www.reddit.com/r/cybersecurity/comments/1v3gv3p/five_questions_board_should_ask/)** - *(Reddit r/cybersecurity)*
+  Review security controls and policy updates.
+
+- **[Hands-on: Windows 11's redesigned Widgets panel is finally bearable](https://www.neowin.net/handson/hands-on-windows-11s-redesigned-widgets-panel-is-finally-bearable/?utm_source=rss)** - *(Neowin)*
+  Validate workstation security baseline and update compliance.
+
+- **[Latest Windows 11 26H1 Experimental build adds braille display support, more languages](https://www.neowin.net/news/latest-windows-11-26h1-experimental-build-adds-braille-display-support-more-languages/?utm_source=rss)** - *(Neowin)*
+  Validate workstation security baseline and update compliance.
+
+- **[Microsoft found yet another place to put Copilot inside Windows 11](https://www.neowin.net/reports/microsoft-found-yet-another-place-to-put-copilot-inside-windows-11/?utm_source=rss)** - *(Neowin)*
+  Validate workstation security baseline and update compliance.
+
+- **[Windows 11 is quietly testing a modern, dark Properties dialog (finally)](https://www.neowin.net/news/windows-11-is-quietly-testing-a-modern-dark-properties-dialog-finally/?utm_source=rss)** - *(Neowin)*
+  Validate workstation security baseline and update compliance.
+
+## 🔍 Quick Links (Watch Items)
+- [At what point does a cybersecurity role become professionally unsustainable?](https://www.reddit.com/r/cybersecurity/comments/1v3ipaq/at_what_point_does_a_cybersecurity_role_become/) - *(Reddit r/cybersecurity)*
+- [Critical Meta Vulnerability Exposed Customer Support Emails, Chats, and Uploaded Files](https://cybersecuritynews.com/meta-vulnerability-exposed/) - *(CybersecurityNews)*
+- [Kerberoasting is still the one that surprises the most, despite looking into security events for years](https://www.reddit.com/r/cybersecurity/comments/1v3hrdu/kerberoasting_is_still_the_one_that_surprises_the/) - *(Reddit r/cybersecurity)*
+- [New InfraTrust report reveals infrastructure flaws admins should patch first](https://www.bleepingcomputer.com/news/security/new-infratrust-report-reveals-infrastructure-flaws-admins-should-patch-first/) - *(BleepingComputer)*
+- [What would an AI or AI Agent hack look like?](https://www.reddit.com/r/cybersecurity/comments/1v3e5yr/what_would_an_ai_or_ai_agent_hack_look_like/) - *(Reddit r/cybersecurity)*
+- [Deployed Wazuh SIEM/XDR in virtual lab](https://www.reddit.com/r/cybersecurity/comments/1v3dnyd/deployed_wazuh_siemxdr_in_virtual_lab/) - *(Reddit r/cybersecurity)*
+- [CISA Warns of WordPress Core SQL Injection Vulnerability Actively Exploited in the Wild](https://cybersecuritynews.com/cisa-wordpress-core-sql-injection/) - *(CybersecurityNews)*
+- [Microsoft to stop Exchange 2016 / 2019 security updates in October](https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-2016-and-2019-esu-program-ends-in-october/) - *(BleepingComputer)*
+- [I dont know how to start with over the wire wargames](https://www.reddit.com/r/cybersecurity/comments/1v3c91v/i_dont_know_how_to_start_with_over_the_wire/) - *(Reddit r/cybersecurity)*
+- [Cisco launches super affordable security language model called Antares](https://www.neowin.net/news/cisco-launches-super-affordable-security-language-model-called-antares/?utm_source=rss) - *(Neowin)*
+
+

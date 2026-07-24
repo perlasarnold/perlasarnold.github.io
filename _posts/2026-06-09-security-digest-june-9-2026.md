@@ -1,0 +1,110 @@
+---
+layout: post
+title: "Security Digest - June 9, 2026"
+date: 2026-06-09 21:49:30 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
+# Security Digest - June 9, 2026
+
+Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
+
+- **Generated (UTC):** 2026-06-09 21:49:30 +00:00
+- **Lookback window:** 7 days
+
+## 🚀 Top Research & Advisories
+- **[Google patches new Chrome zero-day flaw exploited in the wild](https://www.bleepingcomputer.com/news/security/google-patches-fifth-chrome-zero-day-bug-exploited-in-attacks-this-year/)** - *(BleepingComputer)*
+  System.Xml.XmlElement
+  > **Action:** Validate Chrome coverage; update managed package if needed.
+
+- **[Microsoft June 2026 Patch Tuesday fixes 3 zero-day, 200 flaws](https://www.bleepingcomputer.com/news/microsoft/microsoft-june-2026-patch-tuesday-fixes-3-zero-day-200-flaws/)** - *(BleepingComputer)*
+  System.Xml.XmlElement
+  > **Action:** Evaluate update rings and expedite actions if needed.
+
+## 💻 AppSec
+- **[CVE-2026-8936](https://www.cve.org/CVERecord?id=CVE-2026-8936)** - *(CVE.org)*
+  Monitor developer tool vulnerabilities and supply chain risks.
+
+- **[Is recent Windows criticism valid or direct overreaction?](https://www.reddit.com/r/Windows11/comments/1tzlfje/is_recent_windows_criticism_valid_or_direct/)** - *(Reddit r/Windows11)*
+  Monitor developer tool vulnerabilities and supply chain risks.
+
+## 🏗 Infrastructure
+- **[DNS fails for some users for one domain but not another, but only on the new IPSec VPN and only for one IP binding per DNS server. Works on internal or SSL VPN](https://www.reddit.com/r/sysadmin/comments/1u1eac4/dns_fails_for_some_users_for_one_domain_but_not/)** - *(Reddit r/sysadmin)*
+  Review server hardening and AD security posture.
+
+- **[IIS outage possible causes? * CONTINUED *](https://www.reddit.com/r/sysadmin/comments/1u1fbfe/iis_outage_possible_causes_continued/)** - *(Reddit r/sysadmin)*
+  Review server hardening and AD security posture. Validate workstation security baseline and update compliance.
+
+## 🛠 Infrastructure & Endpoint Control
+- **[A fix for the Windows BitLocker bypass vulnerability dubbed "YellowKey" is available](https://www.reddit.com/r/cybersecurity/comments/1u1f6bo/a_fix_for_the_windows_bitlocker_bypass/)** - *(Reddit r/cybersecurity)*
+  Review encryption policy and remediation gaps.
+
+- **[Chaotic Eclipse's new RoguePlanet](https://www.reddit.com/r/cybersecurity/comments/1u1gm6j/chaotic_eclipses_new_rogueplanet/)** - *(Reddit r/cybersecurity)*
+  Evaluate update rings and expedite actions if needed. Review security controls and policy updates.
+
+- **[Cumulative Updates: June 9th, 2026](https://www.reddit.com/r/Windows11/comments/1u1bzf1/cumulative_updates_june_9th_2026/)** - *(Reddit r/Windows11)*
+  Evaluate update rings and expedite actions if needed. Validate workstation security baseline and update compliance.
+
+- **[Defender Says “Managed by Your Administrator” on Personal PC — Intune Remnant, Servicing Issue, or Possible Malware?](https://www.reddit.com/r/sysadmin/comments/1u1i2yy/defender_says_managed_by_your_administrator_on/)** - *(Reddit r/sysadmin)*
+  Review security controls and policy updates. Validate workstation security baseline and update compliance.
+
+- **[Entra\InTune joined devices not loading an Entra User Profile](https://www.reddit.com/r/sysadmin/comments/1u1dmz8/entraintune_joined_devices_not_loading_an_entra/)** - *(Reddit r/sysadmin)*
+  Validate workstation security baseline and update compliance.
+
+- **[Google Chrome is killing all uBlock Origin bypasses, Microsoft Edge, Opera to follow](https://www.reddit.com/r/cybersecurity/comments/1u1c245/google_chrome_is_killing_all_ublock_origin/)** - *(Reddit r/cybersecurity)*
+  Validate Chrome coverage; update managed package if needed. Validate Edge/WebView2 coverage; refresh managed package.
+
+- **[IIS outage possible causes? * CONTINUED *](https://www.reddit.com/r/sysadmin/comments/1u1fbfe/iis_outage_possible_causes_continued/)** - *(Reddit r/sysadmin)*
+  Review server hardening and AD security posture. Validate workstation security baseline and update compliance.
+
+- **[Is there a way to change ALL icons in windows 11.](https://www.reddit.com/r/Windows11/comments/1tynqdk/is_there_a_way_to_change_all_icons_in_windows_11/)** - *(Reddit r/Windows11)*
+  Validate workstation security baseline and update compliance.
+
+- **[Microsoft has released a patch for the bitlocker bypass](https://www.reddit.com/r/cybersecurity/comments/1u1dnw3/microsoft_has_released_a_patch_for_the_bitlocker/)** - *(Reddit r/cybersecurity)*
+  Review encryption policy and remediation gaps.
+
+- **[Microsoft just hinted 4 new Windows K2 changes for Windows 11](https://www.reddit.com/r/Windows11/comments/1u0nght/microsoft_just_hinted_4_new_windows_k2_changes/)** - *(Reddit r/Windows11)*
+  Validate workstation security baseline and update compliance.
+
+- **[Microsoft releases Windows 10 KB5094127 extended security update](https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5094127-extended-security-update/)** - *(BleepingComputer)*
+  Validate workstation security baseline and update compliance.
+
+- **[Started my first MSP job. Outlook, OneDrive, and SharePoint are keeping the lights on.](https://www.reddit.com/r/sysadmin/comments/1u1idxj/started_my_first_msp_job_outlook_onedrive_and/)** - *(Reddit r/sysadmin)*
+  Review Office update channel health and security baseline compliance.
+
+- **[Windows 10 KB5094127 Patch Tuesday improves File Explorer search and more](https://www.neowin.net/news/windows-10-kb5094127-patch-tuesday-improves-file-explorer-search-and-more/)** - *(Neowin)*
+  Evaluate update rings and expedite actions if needed. Validate workstation security baseline and update compliance.
+
+- **[Windows 11 KB5094126  June 2026 Patch Tuesday update now available to download](https://www.neowin.net/news/windows-11-kb5094126-june-2026-patch-tuesday-update-now-available-to-download/)** - *(Neowin)*
+  Evaluate update rings and expedite actions if needed. Validate workstation security baseline and update compliance.
+
+- **[Windows 11 KB5094126 & KB5093998 cumulative updates released](https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5094126-and-kb5093998-cumulative-updates-released/)** - *(BleepingComputer)*
+  Validate workstation security baseline and update compliance.
+
+- **[Windows 11 KB5094126 out with Low Latency Profile, Shared Audio, Multiple-apps support for camera, and Secure Boot for more PCs](https://www.reddit.com/r/Windows11/comments/1u1bj98/windows_11_kb5094126_out_with_low_latency_profile/)** - *(Reddit r/Windows11)*
+  Validate workstation security baseline and update compliance.
+
+- **[Windows 11 tip: If a program crashes and covers your screen, press Win + Ctrl + D to create a new desktop, open Task Manager with Ctrl + Shift + Esc, and end the frozen program from there.](https://www.reddit.com/r/Windows11/comments/1tzmpho/windows_11_tip_if_a_program_crashes_and_covers/)** - *(Reddit r/Windows11)*
+  Validate workstation security baseline and update compliance.
+
+## 🩹 Patch Tuesday & Update Experience
+- **[Cumulative Updates: June 9th, 2026](https://www.reddit.com/r/Windows11/comments/1u1bzf1/cumulative_updates_june_9th_2026/)** - *(Reddit r/Windows11)*
+  Changelists linked here for your convenience: Windows 11, version 21H2: EOS . Windows 11 version 22H2: EOS Windows 11, version 23H2: KB5093998 (OS Build 22631.7219) Windows 11, version 24H2 / 25H2: KB...
+
+- **[Microsoft has released a patch for the bitlocker bypass](https://www.reddit.com/r/sysadmin/comments/1u1dlpy/microsoft_has_released_a_patch_for_the_bitlocker/)** - *(Reddit r/sysadmin)*
+  Says manual mitigation steps remain in effect ... I guess they were in no rush to release it before patch Tuesday. Still downplaying the severity of the yellowkey bypass lol &#x200B; https://msrc.micr...
+
+## 🔍 Quick Links (Watch Items)
+- [ServiceNow confirmed some customer instances were breached.](https://www.reddit.com/r/cybersecurity/comments/1u1irlg/servicenow_confirmed_some_customer_instances_were/) - *(Reddit r/cybersecurity)*
+- [ServiceNow discloses security incident exposing customer data](https://www.bleepingcomputer.com/news/security/servicenow-discloses-security-incident-exposing-customer-data/) - *(BleepingComputer)*
+- [Which are some of the best Cybersecurity / OT Security events that happen in GCC?](https://www.reddit.com/r/cybersecurity/comments/1u1iiql/which_are_some_of_the_best_cybersecurity_ot/) - *(Reddit r/cybersecurity)*
+- [DF/IR Community](https://www.reddit.com/r/cybersecurity/comments/1u1i5xx/dfir_community/) - *(Reddit r/cybersecurity)*
+- [Defender Says “Managed by Your Administrator” on Personal PC — Intune Remnant, Servicing Issue, or Possible Malware?](https://www.reddit.com/r/sysadmin/comments/1u1i2yy/defender_says_managed_by_your_administrator_on/) - *(Reddit r/sysadmin)*
+- [Any IT professionals out there learning to vibe code and struggling to find the right guide that doesn't cover all the basics first?](https://www.reddit.com/r/sysadmin/comments/1u1hby7/any_it_professionals_out_there_learning_to_vibe/) - *(Reddit r/sysadmin)*
+- [Chaotic Eclipse's new RoguePlanet](https://www.reddit.com/r/cybersecurity/comments/1u1gm6j/chaotic_eclipses_new_rogueplanet/) - *(Reddit r/cybersecurity)*
+- [Chaotic Eclipse's new RoguePlanet](https://www.reddit.com/r/sysadmin/comments/1u1gezk/chaotic_eclipses_new_rogueplanet/) - *(Reddit r/sysadmin)*
+- [Thoughts on Automated Compliance?](https://www.reddit.com/r/cybersecurity/comments/1u1fqkq/thoughts_on_automated_compliance/) - *(Reddit r/cybersecurity)*
+- [A fix for the Windows BitLocker bypass vulnerability dubbed "YellowKey" is available](https://www.reddit.com/r/cybersecurity/comments/1u1f6bo/a_fix_for_the_windows_bitlocker_bypass/) - *(Reddit r/cybersecurity)*
+
+

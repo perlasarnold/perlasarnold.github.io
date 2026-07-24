@@ -1,0 +1,59 @@
+---
+layout: post
+title: "Security Digest - July 10, 2026"
+date: 2026-07-10 16:17:44 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
+# Security Digest - July 10, 2026
+
+Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
+
+- **Generated (UTC):** 2026-07-10 16:17:44 +00:00
+- **Lookback window:** 7 days
+
+## 🚀 Top Research & Advisories
+- **[Azure security assessment experience](https://www.reddit.com/r/cybersecurity/comments/1uskjoz/azure_security_assessment_experience/)** - *(Reddit r/cybersecurity)*
+  After years of conducting security assessments and adversary emulations, I’ve noticed a troubling, recurring pattern. I want to share my findings and see if other practitioners are running into the exact same blind spots. Specifically, when auditing...
+  > **Action:** Review security controls and policy updates.
+
+- **[Hackers exploit critical auth bypass in Gitea Docker image](https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-auth-bypass-in-gitea-docker-image/)** - *(BleepingComputer)*
+  System.Xml.XmlElement
+  > **Action:** Monitor developer tool vulnerabilities and supply chain risks.
+
+- **[Microsoft patches RoguePlanet Defender zero-day vulnerability](https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-rogueplanet-defender-zero-day-vulnerability/)** - *(BleepingComputer)*
+  System.Xml.XmlElement
+  > **Action:** Review security controls and policy updates.
+
+## 💻 AppSec
+- **[CVE-2026-20896](https://www.cve.org/CVERecord?id=CVE-2026-20896)** - *(CVE.org)*
+  Monitor developer tool vulnerabilities and supply chain risks.
+
+## 🏗 Infrastructure
+- **[PAM Identity Model](https://www.reddit.com/r/cybersecurity/comments/1usahnn/pam_identity_model/)** - *(Reddit r/cybersecurity)*
+  Review server hardening and AD security posture.
+
+## 🛠 Infrastructure & Endpoint Control
+- **[1.6 Million combined installs famous extension ModHeader - Modify HTTP headers removed for Malware](https://www.reddit.com/r/cybersecurity/comments/1usic57/16_million_combined_installs_famous_extension/)** - *(Reddit r/cybersecurity)*
+  Validate Chrome coverage; update managed package if needed. Validate Edge/WebView2 coverage; refresh managed package.
+
+- **[Need help with my project](https://www.reddit.com/r/cybersecurity/comments/1usebug/need_help_with_my_project/)** - *(Reddit r/cybersecurity)*
+  Review security controls and policy updates.
+
+- **[Researcher ‘Chaotic Eclipse’ Claims RoguePlanet Defender Patch May Leak Data and Exhaust Disk Space](https://cybersecuritynews.com/rogueplanet-defender-patch-claim/)** - *(CybersecurityNews)*
+  Review security controls and policy updates.
+
+## 🔍 Quick Links (Watch Items)
+- [Hackers exploit critical auth bypass in Gitea Docker image](https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-auth-bypass-in-gitea-docker-image/) - *(BleepingComputer)*
+- [CISA KEV Threat Intel Orchestrator](https://www.reddit.com/r/cybersecurity/comments/1usoudd/cisa_kev_threat_intel_orchestrator/) - *(Reddit r/cybersecurity)*
+- [The Replicant in Your Directory: AI Agents and the Identity Security Gap](https://www.bleepingcomputer.com/news/security/the-replicant-in-your-directory-ai-agents-and-the-identity-security-gap/) - *(BleepingComputer)*
+- [Linux Kernel FUSE Vulnerability Lets Attackers Gain Root Privileges](https://cybersecuritynews.com/linux-kernel-fuse-vulnerability/) - *(CybersecurityNews)*
+- [Zimbra urges customers to patch critical web client XSS flaw](https://www.bleepingcomputer.com/news/security/zimbra-urges-customers-to-patch-critical-web-client-xss-flaw/) - *(BleepingComputer)*
+- [Azure security assessment experience](https://www.reddit.com/r/cybersecurity/comments/1uskjoz/azure_security_assessment_experience/) - *(Reddit r/cybersecurity)*
+- [Researcher ‘Chaotic Eclipse’ Claims RoguePlanet Defender Patch May Leak Data and Exhaust Disk Space](https://cybersecuritynews.com/rogueplanet-defender-patch-claim/) - *(CybersecurityNews)*
+- [Best platforms for continuous security validation in 2026?](https://www.reddit.com/r/cybersecurity/comments/1usbadf/best_platforms_for_continuous_security_validation/) - *(Reddit r/cybersecurity)*
+- [Windows for Security Training](https://www.reddit.com/r/cybersecurity/comments/1us4e9t/windows_for_security_training/) - *(Reddit r/cybersecurity)*
+- [Struggling to find my first bug after months of learning – what am I doing wrong?](https://www.reddit.com/r/cybersecurity/comments/1us4e0s/struggling_to_find_my_first_bug_after_months_of/) - *(Reddit r/cybersecurity)*
+
+

@@ -1,0 +1,99 @@
+---
+layout: post
+title: "Security Digest - June 6, 2026"
+date: 2026-06-06 15:07:46 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
+# Security Digest - June 6, 2026
+
+Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
+
+- **Generated (UTC):** 2026-06-06 15:07:46 +00:00
+- **Lookback window:** 7 days
+
+## 🚀 Top Research & Advisories
+- **[Solution to "New risky sign-ins detected (in real-time)" in Microsoft Entra ID Protection Weekly Digest not showing in "Risky sign-ins" blade](https://www.reddit.com/r/sysadmin/comments/1ty0pfs/solution_to_new_risky_signins_detected_in/)** - *(Reddit r/sysadmin)*
+  Have you stopped paying attention to the Microsoft Entra ID Protection Weekly Digest email where it reports &quot;New risky sign-ins detected (in real-time)&quot; because when you check in the Entra admin center Identity Protection &quot;Risky sign-i...
+  > **Action:** Review Office update channel health and security baseline compliance.
+
+## 🏗 Infrastructure
+- **[Lenovo SR630 Hyper-V hosts become very slow after 24–48h uptime](https://www.reddit.com/r/sysadmin/comments/1txsclo/lenovo_sr630_hyperv_hosts_become_very_slow_after/)** - *(Reddit r/sysadmin)*
+  Review server hardening and AD security posture.
+
+## 🛡 Security Ops
+- **[Has anyone else had MFA prompt fatigue issues with users?](https://www.reddit.com/r/cybersecurity/comments/1ty4anh/has_anyone_else_had_mfa_prompt_fatigue_issues/)** - *(Reddit r/cybersecurity)*
+  Review CA/MFA settings for tightening opportunities.
+
+## 🛠 Infrastructure & Endpoint Control
+- **[A new BitLocker bypass allows access to encrypted drive in the pre-boot environment with all Windows security features enabled](https://www.reddit.com/r/cybersecurity/comments/1tyba29/a_new_bitlocker_bypass_allows_access_to_encrypted/)** - *(Reddit r/cybersecurity)*
+  Review encryption policy and remediation gaps.
+
+- **[Advice on building on-prem infrastructure as a backup to our cloud service](https://www.reddit.com/r/sysadmin/comments/1txx3kx/advice_on_building_onprem_infrastructure_as_a/)** - *(Reddit r/sysadmin)*
+  Review security controls and policy updates.
+
+- **[Are there any major performance differences between the balanced and best performance settings in the new power mode options inside the settings app for windows 11?](https://www.reddit.com/r/Windows11/comments/1tvtuuu/are_there_any_major_performance_differences/)** - *(Reddit r/Windows11)*
+  Validate workstation security baseline and update compliance.
+
+- **[Best Certificates?](https://www.reddit.com/r/cybersecurity/comments/1ty0h2k/best_certificates/)** - *(Reddit r/cybersecurity)*
+  Review security controls and policy updates.
+
+- **[Flow v1.9.0 is out : Realtime script editing and performance improvements.](https://www.reddit.com/r/Windows11/comments/1tuswdx/flow_v190_is_out_realtime_script_editing_and/)** - *(Reddit r/Windows11)*
+  Review Office update channel health and security baseline compliance.
+
+- **[I bought a Galaxy Book and didn't like the stylus apps on Windows. So I spent months building a native, 60FPS C#/WinUI 3 alternative. It’s completely free.](https://www.reddit.com/r/Windows11/comments/1txq36q/i_bought_a_galaxy_book_and_didnt_like_the_stylus/)** - *(Reddit r/Windows11)*
+  Validate workstation security baseline and update compliance.
+
+- **[Is Splunk suitable for smaller Enterprises?](https://www.reddit.com/r/cybersecurity/comments/1ty4f8s/is_splunk_suitable_for_smaller_enterprises/)** - *(Reddit r/cybersecurity)*
+  Review security controls and policy updates.
+
+- **[Let's Encrypt and the DNS Validation Problem: Where do you keep your DNS credentials?](https://www.reddit.com/r/sysadmin/comments/1txwg7n/lets_encrypt_and_the_dns_validation_problem_where/)** - *(Reddit r/sysadmin)*
+  Validate Edge/WebView2 coverage; refresh managed package.
+
+- **[Microsoft is ditching password-based authentication tomorrow – Edge browser will switch to Windows Hello access](https://www.reddit.com/r/Windows11/comments/1twuhhb/microsoft_is_ditching_passwordbased/)** - *(Reddit r/Windows11)*
+  Validate Edge/WebView2 coverage; refresh managed package.
+
+- **[Microsoft is making Windows 11's context menus faster, simpler, and configurable](https://www.neowin.net/news/microsoft-is-making-windows-11s-context-menus-faster-simpler-and-configurable/)** - *(Neowin)*
+  Validate workstation security baseline and update compliance.
+
+- **[Microsoft just killed Edge's Collections and Sidebar for more Copilot, after years of pushing both features](https://www.reddit.com/r/Windows11/comments/1ty7j44/microsoft_just_killed_edges_collections_and/)** - *(Reddit r/Windows11)*
+  Validate Edge/WebView2 coverage; refresh managed package.
+
+- **[Microsoft Weekly: Surface Laptop Ultra, Windows 11 context menus, Build 2026 recap, and more](https://www.neowin.net/news/microsoft-weekly-surface-laptop-ultra-windows-11-context-menus-build-2026-recap-and-more/)** - *(Neowin)*
+  Validate workstation security baseline and update compliance.
+
+- **[Motherboard replaced on an Entra/Intune joined laptop — now getting constant authentication loops.](https://www.reddit.com/r/sysadmin/comments/1txp89w/motherboard_replaced_on_an_entraintune_joined/)** - *(Reddit r/sysadmin)*
+  Review Office update channel health and security baseline compliance.
+
+- **[My "Windows 11" desktop.](https://www.reddit.com/r/Windows11/comments/1ttvzo5/my_windows_11_desktop/)** - *(Reddit r/Windows11)*
+  Validate workstation security baseline and update compliance.
+
+- **[Nearly 70% of Steam users now run Windows 11](https://www.neowin.net/news/nearly-70-of-steam-users-now-run-windows-11/)** - *(Neowin)*
+  Validate workstation security baseline and update compliance.
+
+- **[Rant](https://www.reddit.com/r/cybersecurity/comments/1ty0aeb/rant/)** - *(Reddit r/cybersecurity)*
+  Review security controls and policy updates.
+
+- **[SASE and Firewalls](https://www.reddit.com/r/sysadmin/comments/1tyiv6k/sase_and_firewalls/)** - *(Reddit r/sysadmin)*
+  Review security controls and policy updates.
+
+- **[We're at Computex 2026 and checking out Windows 11 laptops and RTX Spark - what would you like to see?](https://www.reddit.com/r/Windows11/comments/1tugoim/were_at_computex_2026_and_checking_out_windows_11/)** - *(Reddit r/Windows11)*
+  Validate workstation security baseline and update compliance.
+
+- **[Windows 11 is finally getting an uninstall button for AI models](https://www.reddit.com/r/Windows11/comments/1tus4me/windows_11_is_finally_getting_an_uninstall_button/)** - *(Reddit r/Windows11)*
+  Validate workstation security baseline and update compliance.
+
+## 🔍 Quick Links (Watch Items)
+- [AI Security Certificates](https://www.reddit.com/r/cybersecurity/comments/1tyi5nx/ai_security_certificates/) - *(Reddit r/cybersecurity)*
+- [How useful is it to require at least one uppercase letter in a password?](https://www.reddit.com/r/cybersecurity/comments/1tyh9f9/how_useful_is_it_to_require_at_least_one/) - *(Reddit r/cybersecurity)*
+- [CISA: Hackers now exploit SolarWinds Serv-U flaw to crash servers](https://www.reddit.com/r/cybersecurity/comments/1tye11l/cisa_hackers_now_exploit_solarwinds_servu_flaw_to/) - *(Reddit r/cybersecurity)*
+- [How to train employees to feel when something's off?](https://www.reddit.com/r/cybersecurity/comments/1tyct2t/how_to_train_employees_to_feel_when_somethings_off/) - *(Reddit r/cybersecurity)*
+- [A new BitLocker bypass allows access to encrypted drive in the pre-boot environment with all Windows security features enabled](https://www.reddit.com/r/cybersecurity/comments/1tyba29/a_new_bitlocker_bypass_allows_access_to_encrypted/) - *(Reddit r/cybersecurity)*
+- [OpenAI is now rolling out Lockdown Mode to more ChatGPT users](https://www.neowin.net/news/openai-is-now-rolling-out-lockdown-mode-to-more-chatgpt-users/) - *(Neowin)*
+- [Is Splunk suitable for smaller Enterprises?](https://www.reddit.com/r/cybersecurity/comments/1ty4f8s/is_splunk_suitable_for_smaller_enterprises/) - *(Reddit r/cybersecurity)*
+- [Solution to "New risky sign-ins detected (in real-time)" in Microsoft Entra ID Protection Weekly Digest not showing in "Risky sign-ins" blade](https://www.reddit.com/r/sysadmin/comments/1ty0pfs/solution_to_new_risky_signins_detected_in/) - *(Reddit r/sysadmin)*
+- [Best Certificates?](https://www.reddit.com/r/cybersecurity/comments/1ty0h2k/best_certificates/) - *(Reddit r/cybersecurity)*
+- [CISA: Hackers now exploit SolarWinds Serv-U flaw to crash servers](https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-solarwinds-serv-u-flaw-to-crash-servers/) - *(BleepingComputer)*
+
+
