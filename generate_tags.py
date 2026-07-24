@@ -97,7 +97,7 @@ LOCATION_DATE_RULES = [
     
     ("2024-06-29", "2024-06-29", "Morro Bay, CA"),
     
-    ("2024-07-18", "2024-07-20", "Oaxaca, Mexico"),
+    ("2024-07-19", "2024-07-20", "Grand Canyon, Arizona"),
     ("2024-07-21", "2024-07-21", "Colorado Springs, Colorado"),
     ("2024-10-31", "2024-10-31", "Old Towne Orange, CA"),
     
@@ -126,6 +126,8 @@ LOCATION_DATE_RULES = [
     ("2026-02-28", "2026-02-28", "North Back Bay Trail, Newport Beach, CA"),
     
     ("2026-03-15", "2026-03-15", "Huntington Library, San Marino, CA"),
+    
+    ("2026-07-18", "2026-07-20", "Oaxaca, Mexico"),
 ]
 
 # ───────────────────────────────────────────────────────────────────────────
