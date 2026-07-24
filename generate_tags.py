@@ -126,6 +126,7 @@ LOCATION_DATE_RULES = [
     ("2026-02-28", "2026-02-28", "North Back Bay Trail, Newport Beach, CA"),
     
     ("2026-03-15", "2026-03-15", "Huntington Library, San Marino, CA"),
+    ("2026-03-19", "2026-05-23", "Orange County, CA"),
     
     ("2026-07-18", "2026-07-20", "Oaxaca, Mexico"),
 ]
