@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - July 25, 2026"
+date: 2026-07-25 14:56:29 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - July 25, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -41,4 +49,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [CVE-2026-16155](https://www.cve.org/CVERecord?id=CVE-2026-16155) - *(CVE.org)*
 - [CVE-2026-16154](https://www.cve.org/CVERecord?id=CVE-2026-16154) - *(CVE.org)*
 - [CVE-2026-16154](https://nvd.nist.gov/vuln/detail/CVE-2026-16154) - *(NVD)*
+
 
