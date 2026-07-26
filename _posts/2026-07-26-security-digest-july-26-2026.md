@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - July 26, 2026"
+date: 2026-07-26 14:58:07 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - July 26, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -38,4 +46,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Looking for feedback on an external attack surface monitoring project](https://www.reddit.com/r/cybersecurity/comments/1v6hkbb/looking_for_feedback_on_an_external_attack/) - *(Reddit r/cybersecurity)*
 - [Cybersecurity Beginner needs help with cert knowledge](https://www.reddit.com/r/cybersecurity/comments/1v6h1d2/cybersecurity_beginner_needs_help_with_cert/) - *(Reddit r/cybersecurity)*
 - [Security flaw in Vatican’s ‘Click to Pray’ app leaves over 700,000 global users exposed — app has been leaking user data for over six months and still does](https://www.reddit.com/r/cybersecurity/comments/1v6gr9i/security_flaw_in_vaticans_click_to_pray_app/) - *(Reddit r/cybersecurity)*
+
 
