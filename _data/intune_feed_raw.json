@@ -1,12 +1,12 @@
 {
-  "generated_utc": "2026-07-24T14:59:27.724824+00:00",
-  "date": "2026-07-24",
+  "generated_utc": "2026-07-27T15:45:37.742299+00:00",
+  "date": "2026-07-27",
   "lookback_hours": 25,
   "source_status": [
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 1
+      "count": 0
     },
     {
       "name": "Microsoft Intune What's New",
@@ -21,7 +21,7 @@
     {
       "name": "Microsoft Security Blog",
       "status": "OK",
-      "count": 1
+      "count": 0
     },
     {
       "name": "Microsoft Entra Blog",
@@ -93,28 +93,8 @@
   "items": {
     "high_alert": [],
     "bad_updates": [],
-    "upcoming_changes": [
-      {
-        "fingerprint": "f9b18da135ee",
-        "title": "Microsoft Viva: Campaigns in SharePoint",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=568073",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-23T23:27:16+00:00",
-        "summary": "Campaigns in SharePoint (site campaigns) is a new capability that brings Viva Amplify’ s campaign management natively into SharePoint. Corporate communications teams now have a unified place to create, distribute, and measure their news without leaving the platform where their news content already lives. This feature applies only to Amplify users as of now. This is a complementary way to create...",
-        "category": "upcoming_changes"
-      }
-    ],
-    "official_news": [
-      {
-        "fingerprint": "918baa2b4f93",
-        "title": "Email threat landscape: Q2 2026 trends and insights",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/07/23/email-threat-landscape-q2-2026-trends-and-insights/",
-        "source": "Microsoft Security Blog",
-        "published": "2026-07-23T15:00:00+00:00",
-        "summary": "In the second quarter of 2026, the continuing effects of Microsoft’s disruption of the Tycoon2FA phishing platform contributed to sustained declines in several major phishing techniques, while threat actors expanded into Teams-based social engineering and employed increasingly automated and multi-stage attack chains. The post Email threat landscape: Q2 2026 trends and insights appeared first on...",
-        "category": "official_news"
-      }
-    ],
+    "upcoming_changes": [],
+    "official_news": [],
     "community_buzz": []
   }
 }
