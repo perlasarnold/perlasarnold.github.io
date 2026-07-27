@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - July 27, 2026"
+date: 2026-07-27 16:09:34 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - July 27, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -54,4 +62,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Looking for a technical cofounder(AppSec/Developer Tools/Program Analysis)](https://www.reddit.com/r/cybersecurity/comments/1v7rom0/looking_for_a_technical_cofounderappsecdeveloper/) - *(Reddit r/cybersecurity)*
 - [AMA: I came into cybersecurity with no degree and no traditional background.](https://www.reddit.com/r/cybersecurity/comments/1v7o5vs/ama_i_came_into_cybersecurity_with_no_degree_and/) - *(Reddit r/cybersecurity)*
 - [Job listing for Northern Illinois : CYBER SECURITY ENGINEER](https://www.reddit.com/r/cybersecurity/comments/1v7k20f/job_listing_for_northern_illinois_cyber_security/) - *(Reddit r/cybersecurity)*
+
 
