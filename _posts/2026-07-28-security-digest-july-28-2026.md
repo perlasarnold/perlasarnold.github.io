@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - July 28, 2026"
+date: 2026-07-28 15:59:41 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - July 28, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -36,4 +44,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Feeling behind in cybersecurity](https://www.reddit.com/r/cybersecurity/comments/1v8wpy1/feeling_behind_in_cybersecurity/) - *(Reddit r/cybersecurity)*
 - [Need advice](https://www.reddit.com/r/cybersecurity/comments/1v8w7nt/need_advice/) - *(Reddit r/cybersecurity)*
 - [Entering Security Tool Development](https://www.reddit.com/r/cybersecurity/comments/1v8u56c/entering_security_tool_development/) - *(Reddit r/cybersecurity)*
+
 
