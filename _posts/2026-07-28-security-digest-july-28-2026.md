@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Security Digest - July 28, 2026"
-date: 2026-07-28 15:59:41 +00:00
+date: 2026-07-28 21:11:28 +00:00
 categories: [security-digest]
 tags: [security, tldr, situational-awareness, endpoint-management]
 author: Arnold
@@ -10,39 +10,32 @@ author: Arnold
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
 
-- **Generated (UTC):** 2026-07-28 15:59:41 +00:00
+- **Generated (UTC):** 2026-07-28 21:11:28 +00:00
 - **Lookback window:** 7 days
 
 ## 🚀 Top Research & Advisories
 - *No high-priority security research detected in this window.*
 ## 💻 AppSec
-- **[Automated AI penetration testing with Claude Code or Codex: what setup actually works best?](https://www.reddit.com/r/cybersecurity/comments/1v8t601/automated_ai_penetration_testing_with_claude_code/)** - *(Reddit r/cybersecurity)*
+- **[CVE-2026-47237](https://www.cve.org/CVERecord?id=CVE-2026-47237)** - *(CVE.org)*
   Monitor developer tool vulnerabilities and supply chain risks.
 
-## 🛡 Security Ops
-- **[Your primary email is probably a more important security target than your bank account](https://www.reddit.com/r/cybersecurity/comments/1v90yrh/your_primary_email_is_probably_a_more_important/)** - *(Reddit r/cybersecurity)*
-  Review CA/MFA settings for tightening opportunities.
-
 ## 🛠 Infrastructure & Endpoint Control
-- **[How to find old Windows icons that are still buried in Windows 11](https://www.neowin.net/guides/how-to-find-old-windows-icons-that-are-still-buried-in-windows-11/?utm_source=rss)** - *(Neowin)*
-  Validate workstation security baseline and update compliance.
+- **[Chrome Extension Monitors AI Conversations Across ChatGPT, Claude, Gemini, and Other Platforms](https://cybersecuritynews.com/chrome-extension-monitors-ai-conversations/)** - *(CybersecurityNews)*
+  Validate Chrome coverage; update managed package if needed.
 
-- **[Using a non-Microsoft SIEM in a Microsoft shop.](https://www.reddit.com/r/cybersecurity/comments/1v8yji9/using_a_nonmicrosoft_siem_in_a_microsoft_shop/)** - *(Reddit r/cybersecurity)*
-  Review security controls and policy updates.
-
-- **[Windows update Breaking SMB 1.0?](https://www.reddit.com/r/cybersecurity/comments/1v8xtoc/windows_update_breaking_smb_10/)** - *(Reddit r/cybersecurity)*
-  Evaluate update rings and expedite actions if needed.
+- **[Here are all the new features Microsoft added to Excel in July 2026](https://www.neowin.net/news/here-are-all-the-new-features-microsoft-added-to-excel-in-july-2026/?utm_source=rss)** - *(Neowin)*
+  Review Office update channel health and security baseline compliance.
 
 ## 🔍 Quick Links (Watch Items)
-- [Aembit Joins Snowflake to Tackle AI’s Next Security Frontier: Trusted Agent Interoperability](https://cybersecuritynews.com/aembit-joins-snowflake-to-tackle-ais-next-security-frontier-trusted-agent-interoperability/) - *(CybersecurityNews)*
-- [The EU Commission adopted the final Cyber Resilience Act guidance this week. I compared all 81 pages against the March draft. Here's what changed.](https://www.reddit.com/r/cybersecurity/comments/1v91s53/the_eu_commission_adopted_the_final_cyber/) - *(Reddit r/cybersecurity)*
-- [Prepping for a Google Security Analyst technical interview — tips on detection and alert triage questions?](https://www.reddit.com/r/cybersecurity/comments/1v91mg1/prepping_for_a_google_security_analyst_technical/) - *(Reddit r/cybersecurity)*
-- [Your primary email is probably a more important security target than your bank account](https://www.reddit.com/r/cybersecurity/comments/1v90yrh/your_primary_email_is_probably_a_more_important/) - *(Reddit r/cybersecurity)*
-- [How are you actually consolidating security metrics across tools? (CISO, tired of 10+ dashboards)](https://www.reddit.com/r/cybersecurity/comments/1v8zld7/how_are_you_actually_consolidating_security/) - *(Reddit r/cybersecurity)*
-- [How We Hacked Thousands of Data Centers in Minutes Using a 20-Year-Old Vulnerability](https://www.reddit.com/r/cybersecurity/comments/1v8ysj9/how_we_hacked_thousands_of_data_centers_in/) - *(Reddit r/cybersecurity)*
-- [Researchers scored ISO 42001, COBIT, ISO 27001, and NIST CSF 2.0 on LLM risk oversight. None of them have a control for hallucination.](https://www.reddit.com/r/cybersecurity/comments/1v8x8gf/researchers_scored_iso_42001_cobit_iso_27001_and/) - *(Reddit r/cybersecurity)*
-- [Feeling behind in cybersecurity](https://www.reddit.com/r/cybersecurity/comments/1v8wpy1/feeling_behind_in_cybersecurity/) - *(Reddit r/cybersecurity)*
-- [Need advice](https://www.reddit.com/r/cybersecurity/comments/1v8w7nt/need_advice/) - *(Reddit r/cybersecurity)*
-- [Entering Security Tool Development](https://www.reddit.com/r/cybersecurity/comments/1v8u56c/entering_security_tool_development/) - *(Reddit r/cybersecurity)*
+- [What do you do with CVEs you can't fix? Auditor wants proof they're 'not exploitable'](https://www.reddit.com/r/cybersecurity/comments/1v9989x/what_do_you_do_with_cves_you_cant_fix_auditor/) - *(Reddit r/cybersecurity)*
+- [vBulletin fixes critical pre-auth RCE flaw with public exploit](https://www.bleepingcomputer.com/news/security/vbulletin-fixes-critical-pre-auth-rce-flaw-with-public-exploit/) - *(BleepingComputer)*
+- [Looking for feedback on our CNAPP (pilot program with free 30-day access)](https://www.reddit.com/r/cybersecurity/comments/1v962i2/looking_for_feedback_on_our_cnapp_pilot_program/) - *(Reddit r/cybersecurity)*
+- [JetBrains Urging Customers to Patch Critical TeamCity Flaw that Enables OS Command Execution](https://cybersecuritynews.com/jetbrains-patch-teamcity-flaw/) - *(CybersecurityNews)*
+- [Cyber at Big 4 and afterwards](https://www.reddit.com/r/cybersecurity/comments/1v95lxi/cyber_at_big_4_and_afterwards/) - *(Reddit r/cybersecurity)*
+- [Apple is turning to AI companies to improve the security of its operating systems](https://www.neowin.net/reports/apple-is-turning-to-ai-companies-to-improve-the-security-of-its-operating-systems/?utm_source=rss) - *(Neowin)*
+- [Flying Eagle Android RAT: Leaked Source Code, 170 Active Servers, and a New Platform Called Night Dragon](https://www.reddit.com/r/cybersecurity/comments/1v95gz8/flying_eagle_android_rat_leaked_source_code_170/) - *(Reddit r/cybersecurity)*
+- [Apple's latest security update fixes nearly 200 vulnerabilities across Mac, iPhone, Safari, and more](https://www.reddit.com/r/cybersecurity/comments/1v952ny/apples_latest_security_update_fixes_nearly_200/) - *(Reddit r/cybersecurity)*
+- [Advice for what else to do for a entry cybersecurity tech job - or anything else](https://www.reddit.com/r/cybersecurity/comments/1v94fwj/advice_for_what_else_to_do_for_a_entry/) - *(Reddit r/cybersecurity)*
+- [Any tips on how I should practice for the coding round in an AWS loop interview?](https://www.reddit.com/r/cybersecurity/comments/1v94896/any_tips_on_how_i_should_practice_for_the_coding/) - *(Reddit r/cybersecurity)*
 
 
