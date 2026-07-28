@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-27T15:45:37.742299+00:00",
-  "date": "2026-07-27",
+  "generated_utc": "2026-07-28T15:24:12.462106+00:00",
+  "date": "2026-07-28",
   "lookback_hours": 25,
   "source_status": [
     {
@@ -11,7 +11,7 @@
     {
       "name": "Microsoft Intune What's New",
       "status": "OK",
-      "count": 0
+      "count": 3
     },
     {
       "name": "Windows IT Pro Blog",
@@ -21,7 +21,7 @@
     {
       "name": "Microsoft Security Blog",
       "status": "OK",
-      "count": 0
+      "count": 2
     },
     {
       "name": "Microsoft Entra Blog",
@@ -94,7 +94,53 @@
     "high_alert": [],
     "bad_updates": [],
     "upcoming_changes": [],
-    "official_news": [],
+    "official_news": [
+      {
+        "fingerprint": "5c43912c9d9a",
+        "title": "Study guide for Exam MD-102: Managing and Securing Microsoft 365 Endpoints by using Intune",
+        "link": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/md-102",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-07-27T23:48:00+00:00",
+        "summary": "...hange Deploy and update apps Deploy and update apps Minor Plan and implement app protection and app configuration policies Plan and implement app protection and app configuration policies Minor Protect devices Protect devices No change Configure endpoint security Configure endpoint security Major Manage device updates by using Intune Manage.",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "8ef124377b96",
+        "title": "Learn about using Intune to manage Microsoft Defender settings on devices that aren't enrolled with Intune - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/device-security/microsoft-defender/security-settings-management",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-07-27T22:34:00+00:00",
+        "summary": "Learn how to use Intune endpoint security policies to manage Microsoft Defender for Endpoint on devices that are not enrolled with Intune Summarize this article for me In this article When you integrate Microsoft Intune with Microsoft Defender for Endpoint, you can use Intune endpoint security policies to manage the Defender security settings on.",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "25f12c346384",
+        "title": "Plan for Remote Help with Microsoft Intune - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/remote-help/plan",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-07-27T17:33:00+00:00",
+        "summary": "Planning for Remote Help with Microsoft Intune Summarize this article for me In this article In this article, users who provide help are referred to as helpers, and users that receive help are referred to as sharers, as they share their session with the helper. Keep the Remote Help apps up to date: New versions of Windows and Mac bring.",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "4f9946676e34",
+        "title": "Rethinking security for the age of AI",
+        "link": "https://blogs.microsoft.com/blog/2026/07/27/rethinking-security-for-the-age-of-ai/",
+        "source": "Microsoft Security Blog",
+        "published": "2026-07-27T16:40:00+00:00",
+        "summary": "The physics of cybersecurity are changing. Introducing security's new cyber stack: Project Perception. The post Rethinking security for the age of AI appeared first on Microsoft Security Blog .",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "e85ad381764c",
+        "title": "Enhancing AI security through global AI red teaming",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/07/27/enhancing-ai-security-through-global-ai-red-teaming/",
+        "source": "Microsoft Security Blog",
+        "published": "2026-07-27T16:25:00+00:00",
+        "summary": "Microsoft's External Red Team Alliance (EXTRA) is a global AI security initiative designed to advance AI safety research and red teaming. By partnering with universities, researchers, and regional experts, EXTRA helps identify emerging AI risks, improve security testing, and strengthen the resilience of frontier AI systems. The post Enhancing AI security through global AI red teaming appeared f...",
+        "category": "official_news"
+      }
+    ],
     "community_buzz": []
   }
 }
