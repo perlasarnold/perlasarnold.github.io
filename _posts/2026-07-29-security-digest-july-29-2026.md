@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - July 29, 2026"
+date: 2026-07-29 15:45:43 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - July 29, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -37,4 +45,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Kickstart Career in Germany, OffSec vs AppSec vs General as first step?](https://www.reddit.com/r/cybersecurity/comments/1v9fuud/kickstart_career_in_germany_offsec_vs_appsec_vs/) - *(Reddit r/cybersecurity)*
 - [vBulletin fixes critical pre-auth RCE flaw with public exploit](https://www.bleepingcomputer.com/news/security/vbulletin-fixes-critical-pre-auth-rce-flaw-with-public-exploit/) - *(BleepingComputer)*
 - [Apple is turning to AI companies to improve the security of its operating systems](https://www.neowin.net/reports/apple-is-turning-to-ai-companies-to-improve-the-security-of-its-operating-systems/?utm_source=rss) - *(Neowin)*
+
 
