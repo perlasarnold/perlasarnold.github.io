@@ -1,12 +1,12 @@
 {
-  "generated_utc": "2026-07-29T15:10:23.642288+00:00",
-  "date": "2026-07-29",
+  "generated_utc": "2026-07-30T15:14:31.743261+00:00",
+  "date": "2026-07-30",
   "lookback_hours": 25,
   "source_status": [
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 8
+      "count": 4
     },
     {
       "name": "Microsoft Intune What's New",
@@ -15,18 +15,20 @@
     },
     {
       "name": "Windows IT Pro Blog",
-      "status": "OK",
-      "count": 0
+      "status": "Error",
+      "count": 0,
+      "message": "403 Client Error: Forbidden for url: https://techcommunity.microsoft.com/t5/windows-it-pro-blog/bg-p/Windows10Blog/rss"
     },
     {
       "name": "Microsoft Security Blog",
       "status": "OK",
-      "count": 0
+      "count": 1
     },
     {
       "name": "Microsoft Entra Blog",
-      "status": "OK",
-      "count": 0
+      "status": "Error",
+      "count": 0,
+      "message": "403 Client Error: Forbidden for url: https://techcommunity.microsoft.com/t5/microsoft-entra-blog/bg-p/Identity/rss"
     },
     {
       "name": "BleepingComputer",
@@ -95,79 +97,53 @@
     "bad_updates": [],
     "upcoming_changes": [
       {
-        "fingerprint": "f6d6fb0e9363",
-        "title": "Microsoft Purview: Data Loss Prevention - SLA Based Alert Reporting Dashboard",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=568372",
+        "fingerprint": "9a901f70da15",
+        "title": "Microsoft Edge: Import Google account data anytime from Settings",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=568365",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-28T22:43:45+00:00",
-        "summary": "Out-of-box MTTA/MTTD/MTTR SLA Alert Reporting dashboard showing past trends, Top SITs getting exposed via DLP alerts generated. Customers can define their custom SLAs for high, med and low severity alerts and get access to dashboard showing operational performance and SLA metrics. GA date: September CY2026 Preview date: August CY2026",
+        "published": "2026-07-29T23:07:26+00:00",
+        "summary": "Microsoft Edge now lets users import their Google account data - including passwords, bookmarks, history, and autofill data - directly from Edge Settings, at any time after setup. Previously, users had no way to import this data from a Google account outside the first-run experience. With this update, the import flow is unified into a single, streamlined entry point in Settings that combines im...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "4f7cf0e27a1d",
-        "title": "Microsoft Purview: Data Loss Prevention - Rule-based tagging and auto-resolution of alerts based on business needs of the customer.",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=568371",
+        "fingerprint": "23a3aa3ff1d7",
+        "title": "Microsoft Viva: Rolling out Custom branding in Engage",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=568364",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-28T22:43:45+00:00",
-        "summary": "Alert auto-resolution & tagging rules let you tell DLP, in advance, how to handle predictable alerts. You define a rule once, and from then on DLP applies it automatically to every new alert: ● Resolve alerts you don't need to see - e.g., Low-severity alerts for mail sent only to your trusted partner domains, so they never reach your triage queue. ● Tag alerts so you can find and route them - e...",
+        "published": "2026-07-29T23:07:26+00:00",
+        "summary": "Engage is rolling out Custom Branding, a new admin-led capability that lets organizations define a customized, tenant-wide visual identity across the Engage web and mobile apps. Engage-level admins can configure a brand name, add large and small logos, and a theme color that is applied consistently for all users in the tenant. Branding is managed from the new Brand Center in the Viva Engage adm...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "e4445d0edf49",
-        "title": "Outlook: Copilot Chat pop-out for Outlook for Mac and iPad",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=568368",
+        "fingerprint": "7f1460fc6e8a",
+        "title": "Microsoft Viva: Copilot Dashboard - Targeted Audience Surveys",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=568072",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-28T22:43:45+00:00",
-        "summary": "Copilot Chat remains accessible within an Outlook app window but now can also be popped out to float over the main Outlook app window. Popping out Copilot Chat allows people to switch contexts or have more space for what they are working on in Outlook and control the space and form that Copilot Chat takes on screen. When you open Copilot chat and click the pop-out button, Copilot will open sepa...",
+        "published": "2026-07-29T23:07:26+00:00",
+        "summary": "Targeted Audience Surveys let change leaders launch a Copilot Pulse survey directly from the Copilot Dashboard to all licensed or active users. Audiences update automatically using Insights data and respect existing dashboard filters like organization and job function, with privacy protected through population-level reporting only. Pair adoption metrics with employee sentiment in just a few cli...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "3f45a85e77fc",
-        "title": "Outlook: Drag and Drop",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=568367",
+        "fingerprint": "5a6e74aacc2a",
+        "title": "SharePoint: Viva Connections multi-home site management moving to SharePoint admin center",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567887",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-28T22:43:45+00:00",
-        "summary": "You can now reschedule events by dragging them to a new time slot in your calendar. This feature is available in day and multi day views. GA date: August CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "e383155e6832",
-        "title": "Microsoft Purview: Information Protection - Sensitivity Labels for Microsoft Entra Security Groups",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=568217",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-28T22:43:45+00:00",
-        "summary": "Apply sensitivity labels to Microsoft Entra cloud security groups to extend the classification and governance you already use for Microsoft 365 groups. The same labels you publish in the Microsoft Purview portal and configure for groups and sites apply automatically to cloud security groups, with no separate label configuration required. GA date: August CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "ae222528614c",
-        "title": "Planner: AI-generated Status Reports in Planner Agent",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567886",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-28T22:43:45+00:00",
-        "summary": "AI-powered Status Report in Planner Agent turns your plan data into a polished, stakeholder-ready update in minutes. Just ask Planner Agent for a status report and it pulls your task data and transforms it into a clear narrative covering overall status, progress, risks, and what's next. You can easily customize the report to your needs by specifying the audience, tone, length, and sections you ...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "e0fc2075b1f1",
-        "title": "Microsoft Copilot (Microsoft 365): New Rich Answer Cards",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567008",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-28T22:43:45+00:00",
-        "summary": "Surface new model-driven, dynamically placed Answer Cards across top 7 segments: weather, sports, finance, images, video, places and news for Entra & MSA users across all surfaces. GA date: August CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "cf5c305500bd",
-        "title": "Microsoft Copilot (Microsoft 365): Workforce Insights Agent",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=515145",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-28T22:43:45+00:00",
-        "summary": "Workforce Insights (WFI) Agent in Microsoft 365 Copilot is an agent designed to help leaders, managers, and their delegates quickly understand their organization by turning complex workforce data into clear, actionable insights. With WFI Agent, leaders can quickly explore their organization’s structure, team composition, skills inventories, and flexible work patterns to move from insight to act...",
+        "published": "2026-07-29T23:07:26+00:00",
+        "summary": "Viva Connections multi-home site management is moving from the Microsoft 365 admin center (MAC) to the SharePoint Admin Center (SPAC). Administrators will be able to create and manage multiple Home sites, configure audience targeting, manage home site priority order, and remove Home sites directly from SPAC. Existing entry points in the Microsoft 365 admin center will direct administrators to t...",
         "category": "upcoming_changes"
       }
     ],
-    "official_news": [],
+    "official_news": [
+      {
+        "fingerprint": "2ac2239ef966",
+        "title": "​​Better security starts with better questions",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/07/29/better-security-starts-with-better-questions/",
+        "source": "Microsoft Security Blog",
+        "published": "2026-07-29T16:00:00+00:00",
+        "summary": "Learn how better questions, trusted AI, and human judgment help security leaders make confident decisions and build resilient systems. The post ​​Better security starts with better questions appeared first on Microsoft Security Blog .",
+        "category": "official_news"
+      }
+    ],
     "community_buzz": []
   }
 }
