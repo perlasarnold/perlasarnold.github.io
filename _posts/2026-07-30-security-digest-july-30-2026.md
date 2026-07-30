@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - July 30, 2026"
+date: 2026-07-30 15:46:07 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - July 30, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -50,4 +58,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [bachelor of computer science ( major in cyber security ) or bachelor of science ( cyber security )](https://www.reddit.com/r/cybersecurity/comments/1van2xh/bachelor_of_computer_science_major_in_cyber/) - *(Reddit r/cybersecurity)*
 - [How are modern systems actually stopping DDoS and CC attacks in real time? Isn't relying on basic rate limiting or CAPTCHAs completely obsolete against sophisticated botnets?](https://www.reddit.com/r/cybersecurity/comments/1vamgmu/how_are_modern_systems_actually_stopping_ddos_and/) - *(Reddit r/cybersecurity)*
 - [Russian hackers exploit Exchange OWA zero-day for long-term mailbox access](https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-exchange-owa-zero-day-for-long-term-mailbox-access/) - *(BleepingComputer)*
+
 
