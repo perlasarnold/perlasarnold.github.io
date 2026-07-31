@@ -1,12 +1,12 @@
 {
-  "generated_utc": "2026-07-30T15:14:31.743261+00:00",
-  "date": "2026-07-30",
+  "generated_utc": "2026-07-31T15:22:45.898703+00:00",
+  "date": "2026-07-31",
   "lookback_hours": 25,
   "source_status": [
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 4
+      "count": 0
     },
     {
       "name": "Microsoft Intune What's New",
@@ -15,9 +15,8 @@
     },
     {
       "name": "Windows IT Pro Blog",
-      "status": "Error",
-      "count": 0,
-      "message": "403 Client Error: Forbidden for url: https://techcommunity.microsoft.com/t5/windows-it-pro-blog/bg-p/Windows10Blog/rss"
+      "status": "OK",
+      "count": 0
     },
     {
       "name": "Microsoft Security Blog",
@@ -26,9 +25,8 @@
     },
     {
       "name": "Microsoft Entra Blog",
-      "status": "Error",
-      "count": 0,
-      "message": "403 Client Error: Forbidden for url: https://techcommunity.microsoft.com/t5/microsoft-entra-blog/bg-p/Identity/rss"
+      "status": "OK",
+      "count": 0
     },
     {
       "name": "BleepingComputer",
@@ -95,52 +93,15 @@
   "items": {
     "high_alert": [],
     "bad_updates": [],
-    "upcoming_changes": [
-      {
-        "fingerprint": "9a901f70da15",
-        "title": "Microsoft Edge: Import Google account data anytime from Settings",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=568365",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-29T23:07:26+00:00",
-        "summary": "Microsoft Edge now lets users import their Google account data - including passwords, bookmarks, history, and autofill data - directly from Edge Settings, at any time after setup. Previously, users had no way to import this data from a Google account outside the first-run experience. With this update, the import flow is unified into a single, streamlined entry point in Settings that combines im...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "23a3aa3ff1d7",
-        "title": "Microsoft Viva: Rolling out Custom branding in Engage",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=568364",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-29T23:07:26+00:00",
-        "summary": "Engage is rolling out Custom Branding, a new admin-led capability that lets organizations define a customized, tenant-wide visual identity across the Engage web and mobile apps. Engage-level admins can configure a brand name, add large and small logos, and a theme color that is applied consistently for all users in the tenant. Branding is managed from the new Brand Center in the Viva Engage adm...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "7f1460fc6e8a",
-        "title": "Microsoft Viva: Copilot Dashboard - Targeted Audience Surveys",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=568072",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-29T23:07:26+00:00",
-        "summary": "Targeted Audience Surveys let change leaders launch a Copilot Pulse survey directly from the Copilot Dashboard to all licensed or active users. Audiences update automatically using Insights data and respect existing dashboard filters like organization and job function, with privacy protected through population-level reporting only. Pair adoption metrics with employee sentiment in just a few cli...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "5a6e74aacc2a",
-        "title": "SharePoint: Viva Connections multi-home site management moving to SharePoint admin center",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567887",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-07-29T23:07:26+00:00",
-        "summary": "Viva Connections multi-home site management is moving from the Microsoft 365 admin center (MAC) to the SharePoint Admin Center (SPAC). Administrators will be able to create and manage multiple Home sites, configure audience targeting, manage home site priority order, and remove Home sites directly from SPAC. Existing entry points in the Microsoft 365 admin center will direct administrators to t...",
-        "category": "upcoming_changes"
-      }
-    ],
+    "upcoming_changes": [],
     "official_news": [
       {
-        "fingerprint": "2ac2239ef966",
-        "title": "​​Better security starts with better questions",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/07/29/better-security-starts-with-better-questions/",
+        "fingerprint": "5356227957a5",
+        "title": "​​​​What’s new in Microsoft Security: July 2026",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/07/30/whats-new-in-microsoft-security-july-2026/",
         "source": "Microsoft Security Blog",
-        "published": "2026-07-29T16:00:00+00:00",
-        "summary": "Learn how better questions, trusted AI, and human judgment help security leaders make confident decisions and build resilient systems. The post ​​Better security starts with better questions appeared first on Microsoft Security Blog .",
+        "published": "2026-07-30T16:00:00+00:00",
+        "summary": "This month’s updates help security and IT teams secure their AI environments, use AI to defend, and strengthen the foundations that AI-powered operations depend on. The post ​​​​What’s new in Microsoft Security: July 2026 appeared first on Microsoft Security Blog .",
         "category": "official_news"
       }
     ],
