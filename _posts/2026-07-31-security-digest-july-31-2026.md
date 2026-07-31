@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - July 31, 2026"
+date: 2026-07-31 15:57:08 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - July 31, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -34,4 +42,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Trending Security Topics](https://www.reddit.com/r/cybersecurity/comments/1vbl3dg/trending_security_topics/) - *(Reddit r/cybersecurity)*
 - [Anthropic's AI hacked three companies during tests, highlighting growing security risks](https://www.reddit.com/r/cybersecurity/comments/1vbk3k3/anthropics_ai_hacked_three_companies_during_tests/) - *(Reddit r/cybersecurity)*
 - [Google says AI helped Chrome fix 1,072 security bugs in two releases](https://www.bleepingcomputer.com/news/google/google-says-ai-helped-chrome-fix-1-072-security-bugs-in-two-releases/) - *(BleepingComputer)*
+
 
