@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - August 1, 2026"
+date: 2026-08-01 14:53:24 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - August 1, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -68,4 +76,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Kind of an off the wall niche question, but is there anyone that got into IT/Security Auditing by starting with medial coding ?](https://www.reddit.com/r/cybersecurity/comments/1vc8n69/kind_of_an_off_the_wall_niche_question_but_is/) - *(Reddit r/cybersecurity)*
 - [OT/ICS Water Treatment](https://www.reddit.com/r/cybersecurity/comments/1vc6klx/otics_water_treatment/) - *(Reddit r/cybersecurity)*
 - [CIOs](https://www.reddit.com/r/cybersecurity/comments/1vc5w50/cios/) - *(Reddit r/cybersecurity)*
+
 
