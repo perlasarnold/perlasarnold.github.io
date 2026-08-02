@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - August 2, 2026"
+date: 2026-08-02 14:55:28 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - August 2, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -78,4 +86,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Google says AI helped Chrome fix 1,072 security bugs in two releases](https://www.bleepingcomputer.com/news/google/google-says-ai-helped-chrome-fix-1-072-security-bugs-in-two-releases/) - *(BleepingComputer)*
 - [CVE-2026-13714](https://www.cve.org/CVERecord?id=CVE-2026-13714) - *(CVE.org)*
 - [CVE-2026-13714](https://nvd.nist.gov/vuln/detail/CVE-2026-13714) - *(NVD)*
+
 
