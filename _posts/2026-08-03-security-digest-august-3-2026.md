@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - August 3, 2026"
+date: 2026-08-03 16:15:36 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - August 3, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -45,4 +53,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Repeated Microsoft MFA prompts from foreign locations despite password resets. Is this a known attack pattern?](https://www.reddit.com/r/cybersecurity/comments/1ve1gfr/repeated_microsoft_mfa_prompts_from_foreign/) - *(Reddit r/cybersecurity)*
 - [How do you test that an AI agent won't do something catastrophic?](https://www.reddit.com/r/cybersecurity/comments/1vdopg2/how_do_you_test_that_an_ai_agent_wont_do/) - *(Reddit r/cybersecurity)*
 - [LLM Agents for security research](https://www.reddit.com/r/cybersecurity/comments/1vdn7e7/llm_agents_for_security_research/) - *(Reddit r/cybersecurity)*
+
 
