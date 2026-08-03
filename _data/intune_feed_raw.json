@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-07-31T15:22:45.898703+00:00",
-  "date": "2026-07-31",
+  "generated_utc": "2026-08-03T15:46:13.591158+00:00",
+  "date": "2026-08-03",
   "lookback_hours": 25,
   "source_status": [
     {
@@ -21,7 +21,7 @@
     {
       "name": "Microsoft Security Blog",
       "status": "OK",
-      "count": 1
+      "count": 0
     },
     {
       "name": "Microsoft Entra Blog",
@@ -94,17 +94,7 @@
     "high_alert": [],
     "bad_updates": [],
     "upcoming_changes": [],
-    "official_news": [
-      {
-        "fingerprint": "5356227957a5",
-        "title": "​​​​What’s new in Microsoft Security: July 2026",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/07/30/whats-new-in-microsoft-security-july-2026/",
-        "source": "Microsoft Security Blog",
-        "published": "2026-07-30T16:00:00+00:00",
-        "summary": "This month’s updates help security and IT teams secure their AI environments, use AI to defend, and strengthen the foundations that AI-powered operations depend on. The post ​​​​What’s new in Microsoft Security: July 2026 appeared first on Microsoft Security Blog .",
-        "category": "official_news"
-      }
-    ],
+    "official_news": [],
     "community_buzz": []
   }
 }
