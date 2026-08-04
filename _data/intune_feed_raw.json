@@ -1,12 +1,12 @@
 {
-  "generated_utc": "2026-08-03T15:46:13.591158+00:00",
-  "date": "2026-08-03",
+  "generated_utc": "2026-08-04T15:26:44.782805+00:00",
+  "date": "2026-08-04",
   "lookback_hours": 25,
   "source_status": [
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 0
+      "count": 5
     },
     {
       "name": "Microsoft Intune What's New",
@@ -93,7 +93,53 @@
   "items": {
     "high_alert": [],
     "bad_updates": [],
-    "upcoming_changes": [],
+    "upcoming_changes": [
+      {
+        "fingerprint": "6a5e568a68bf",
+        "title": "Microsoft Edge: Automatically unsubscribe users from notifications sent by scam and malicious sites",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=568366",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-08-03T22:55:03+00:00",
+        "summary": "Microsoft Edge now helps further protect users from malicious web notifications. When a notification leads users to a site that Microsoft Defender SmartScreen blocks as a scam, phishing, or malware page, Edge automatically stops that source from sending users further notifications and lets users know. Users can review and restore any of these sites anytime under edge://settings/privacy/sitePerm...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "ab36f9056e64",
+        "title": "Microsoft Teams: See more messages on mobile",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=568067",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-08-03T22:55:03+00:00",
+        "summary": "We are introducing a more streamlined messaging experience that displays more content on screen while improving readability when using Teams on mobile. These updates make it easier to scan conversations and follow the discussion flow, helping users stay productive and engaged wherever they work. GA date: September CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "cfebf12c4ed4",
+        "title": "Microsoft Teams: Upated header and dashboard for chats and channels on mobile",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567461",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-08-03T22:55:03+00:00",
+        "summary": "You can now get oriented and take action faster when using Teams on mobile, with a redesigned header and lightweight dashboard that brings key channel details, people, and pinned content into one intuitive place. It creates a more predictable, familiar experience across desktop and mobile so you can move faster with less friction. GA date: September CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "6db434a5385f",
+        "title": "Microsoft Viva: Viva Glint - Copilot admin configuration assistance",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=567320",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-08-03T22:55:03+00:00",
+        "summary": "A Copilot-powered conversational assistant embedded in the Viva Glint admin experience that answers configuration and how-to questions and provides step-by-step guidance. Responses will include deep links to configuration pages streamlining navigation and discoverability. Only available for Viva Glint users with Admin permissions. GA date: September CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "db807de39658",
+        "title": "Microsoft Teams: Clearer text highlighting in dark mode",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=566858",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-08-03T22:55:03+00:00",
+        "summary": "We've improved how highlighted text looks when composing messages in dark mode, giving you a more consistent editing experience. GA date: September CY2026",
+        "category": "upcoming_changes"
+      }
+    ],
     "official_news": [],
     "community_buzz": []
   }
