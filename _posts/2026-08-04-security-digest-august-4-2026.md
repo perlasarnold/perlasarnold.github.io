@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Security Digest - August 4, 2026"
-date: 2026-08-04 16:08:01 +00:00
+date: 2026-08-04 21:14:50 +00:00
 categories: [security-digest]
 tags: [security, tldr, situational-awareness, endpoint-management]
 author: Arnold
@@ -10,7 +10,7 @@ author: Arnold
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
 
-- **Generated (UTC):** 2026-08-04 16:08:01 +00:00
+- **Generated (UTC):** 2026-08-04 21:14:50 +00:00
 - **Lookback window:** 7 days
 
 ## 🚀 Top Research & Advisories
@@ -18,18 +18,19 @@ Daily security intelligence briefing for infrastructure and endpoint management 
   Our team has just published new research about exploiting Zero Touch Provisioning (ZTP), specifically targeting TP-Link&#39;s Omada ecosystem: https://www.forescout.com/research-labs/zero-touch-provisioning-is-a-fleet-scale-attack-vector/ The researc...
   > **Action:** Validate Edge/WebView2 coverage; refresh managed package.
 
+## 🛡 Security Ops
+- **[Data Encryption at rest advantages?](https://www.reddit.com/r/cybersecurity/comments/1vfle75/data_encryption_at_rest_advantages/)** - *(Reddit r/cybersecurity)*
+  Review CA/MFA settings for tightening opportunities.
+
 ## 🛠 Infrastructure & Endpoint Control
 - **[Apple plans iPhone to Windows 11 clipboard copy/paste syncing](https://www.neowin.net/news/apple-plans-iphone-to-windows-11-clipboard-copypaste-syncing/?utm_source=rss)** - *(Neowin)*
   Validate workstation security baseline and update compliance.
 
-- **[CVE-2026-62828](https://www.cve.org/CVERecord?id=CVE-2026-62828)** - *(CVE.org)*
-  Validate Edge/WebView2 coverage; refresh managed package.
-
 - **[Google Chrome may soon block New Tab hijacker extensions by default](https://www.bleepingcomputer.com/news/google/google-chrome-may-soon-block-new-tab-hijacker-extensions-by-default/)** - *(BleepingComputer)*
   Validate Chrome coverage; update managed package if needed.
 
-- **[HEVD: From Stack Overflows to Modern Pool Grooming](https://www.reddit.com/r/cybersecurity/comments/1vf60g3/hevd_from_stack_overflows_to_modern_pool_grooming/)** - *(Reddit r/cybersecurity)*
-  Validate workstation security baseline and update compliance.
+- **[How bad was this answer?](https://www.reddit.com/r/cybersecurity/comments/1vfji4g/how_bad_was_this_answer/)** - *(Reddit r/cybersecurity)*
+  Review Office update channel health and security baseline compliance.
 
 - **[Microsoft explains why it cannot blame itself for slow Windows 11 improvements](https://www.neowin.net/news/microsoft-explains-why-it-cannot-blame-itself-for-slow-windows-11-improvements/?utm_source=rss)** - *(Neowin)*
   Validate workstation security baseline and update compliance.
@@ -41,15 +42,15 @@ Daily security intelligence briefing for infrastructure and endpoint management 
   Validate Chrome coverage; update managed package if needed. Validate Edge/WebView2 coverage; refresh managed package.
 
 ## 🔍 Quick Links (Watch Items)
+- [Vibe coders ignoring security?](https://www.reddit.com/r/cybersecurity/comments/1vflhw8/vibe_coders_ignoring_security/) - *(Reddit r/cybersecurity)*
+- [Data Encryption at rest advantages?](https://www.reddit.com/r/cybersecurity/comments/1vfle75/data_encryption_at_rest_advantages/) - *(Reddit r/cybersecurity)*
+- [Guidance required "saviynt"](https://www.reddit.com/r/cybersecurity/comments/1vfl8nc/guidance_required_saviynt/) - *(Reddit r/cybersecurity)*
+- [Why do third-party security audits seem so different in India compared to many other countries?](https://www.reddit.com/r/cybersecurity/comments/1vfgid5/why_do_thirdparty_security_audits_seem_so/) - *(Reddit r/cybersecurity)*
+- [Mallory Unifies Threat Intelligence, Exposure Context, and Response Into One Architecture for Security Teams](https://cybersecuritynews.com/mallory-unifies-threat-intelligence-exposure-context-and-response-into-one-architecture-for-security-teams/) - *(CybersecurityNews)*
+- [Survey: every engineering leader polled uses AI in production code – 42% already had a security incident](https://www.reddit.com/r/cybersecurity/comments/1vff37f/survey_every_engineering_leader_polled_uses_ai_in/) - *(Reddit r/cybersecurity)*
 - [Microsoft Strengthens NuGet Supply Chain Security By Reducing API Key Lifetime](https://cybersecuritynews.com/microsoft-strengthens-nuget-supply-chain-security/) - *(CybersecurityNews)*
 - [Bank of Baroda reportedly had ~1TB of data leaked. What controls should have stopped this?](https://www.reddit.com/r/cybersecurity/comments/1vfcs1d/bank_of_baroda_reportedly_had_1tb_of_data_leaked/) - *(Reddit r/cybersecurity)*
 - [Security Vendor's AI Best Practices Labels Critical Elixir RCE Safe](https://www.reddit.com/r/cybersecurity/comments/1vfcqi9/security_vendors_ai_best_practices_labels/) - *(Reddit r/cybersecurity)*
 - [Researchers altered a forensic DNA evidence file in 45 minutes and the analysis software raised no warning (CVE-2026-17583)](https://www.reddit.com/r/cybersecurity/comments/1vfcnuo/researchers_altered_a_forensic_dna_evidence_file/) - *(Reddit r/cybersecurity)*
-- [DarkSword iOS Exploit Kit Spreads Across 180 Web Properties and 27 Hosts](https://cybersecuritynews.com/darksword-ios-exploit-kit/) - *(CybersecurityNews)*
-- [OWASP Subtractive Security Top 10 Project Released to Identify and Reduce Cyber Risks](https://cybersecuritynews.com/owasp-subtractive-security-top-10-project/) - *(CybersecurityNews)*
-- [CISA Warns of N-able N-central Authentication Bypass Vulnerability Exploited in Attacks](https://cybersecuritynews.com/n-able-n-central-auth-bypass-exploited/) - *(CybersecurityNews)*
-- [Public PoC Released for CUPS Vulnerability Allows Attackers to Gain Root Privileges](https://cybersecuritynews.com/public-poc-released-for-cups-vulnerability/) - *(CybersecurityNews)*
-- [GitHub - offseq/threat-finder: Runtime vulnerability scanner: finds CVEs in the services actually running on a host and ranks them by network exposure.](https://www.reddit.com/r/cybersecurity/comments/1vf8o29/github_offseqthreatfinder_runtime_vulnerability/) - *(Reddit r/cybersecurity)*
-- [AI slop pollutes the CVE pipeline with fake vulns](https://www.reddit.com/r/cybersecurity/comments/1vf7bbf/ai_slop_pollutes_the_cve_pipeline_with_fake_vulns/) - *(Reddit r/cybersecurity)*
 
 
