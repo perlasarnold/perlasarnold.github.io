@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - August 4, 2026"
+date: 2026-08-04 16:08:01 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - August 4, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -43,4 +51,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Public PoC Released for CUPS Vulnerability Allows Attackers to Gain Root Privileges](https://cybersecuritynews.com/public-poc-released-for-cups-vulnerability/) - *(CybersecurityNews)*
 - [GitHub - offseq/threat-finder: Runtime vulnerability scanner: finds CVEs in the services actually running on a host and ranks them by network exposure.](https://www.reddit.com/r/cybersecurity/comments/1vf8o29/github_offseqthreatfinder_runtime_vulnerability/) - *(Reddit r/cybersecurity)*
 - [AI slop pollutes the CVE pipeline with fake vulns](https://www.reddit.com/r/cybersecurity/comments/1vf7bbf/ai_slop_pollutes_the_cve_pipeline_with_fake_vulns/) - *(Reddit r/cybersecurity)*
+
 
