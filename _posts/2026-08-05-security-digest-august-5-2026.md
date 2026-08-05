@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - August 5, 2026"
+date: 2026-08-05 15:55:43 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - August 5, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -51,4 +59,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [PSI DSS > Getting audited via security metrics for SAQ A. Do I need an external ASV Scanning tool ?](https://www.reddit.com/r/cybersecurity/comments/1vg2d43/psi_dss_getting_audited_via_security_metrics_for/) - *(Reddit r/cybersecurity)*
 - [New Linux Bridge STP Vulnerability](https://www.reddit.com/r/cybersecurity/comments/1vg200g/new_linux_bridge_stp_vulnerability/) - *(Reddit r/cybersecurity)*
 - [UK gov tests show AI agents creating fake GitHub accounts to push malicious code](https://www.neowin.net/news/uk-gov-tests-show-ai-agents-creating-fake-github-accounts-to-push-malicious-code/?utm_source=rss) - *(Neowin)*
+
 
