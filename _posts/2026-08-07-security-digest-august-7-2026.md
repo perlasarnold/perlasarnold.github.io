@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - August 7, 2026"
+date: 2026-08-07 14:46:21 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - August 7, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -29,4 +37,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Sec+](https://www.reddit.com/r/cybersecurity/comments/1vhnt7n/sec/) - *(Reddit r/cybersecurity)*
 - [How AI Exposed a Browser Security Gap that Enterprises Cannot Ignore](https://www.bleepingcomputer.com/news/security/how-ai-exposed-a-browser-security-gap-that-enterprises-cannot-ignore/) - *(BleepingComputer)*
 - [COLDCARD security audit phishing attack installs remote access tool](https://www.bleepingcomputer.com/news/security/coldcard-security-audit-phishing-attack-installs-remote-access-tool/) - *(BleepingComputer)*
+
 
