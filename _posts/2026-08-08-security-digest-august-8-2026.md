@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - August 8, 2026"
+date: 2026-08-08 14:23:53 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - August 8, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -47,4 +55,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Google Chrome 151 Fixes 41 Security Flaws, Including 6 Critical Memory Bugs](https://cybersecuritynews.com/chrome-151-vulnerabilities-patched/) - *(CybersecurityNews)*
 - [How AI Exposed a Browser Security Gap that Enterprises Cannot Ignore](https://www.bleepingcomputer.com/news/security/how-ai-exposed-a-browser-security-gap-that-enterprises-cannot-ignore/) - *(BleepingComputer)*
 - [CVE-2026-15206](https://www.cve.org/CVERecord?id=CVE-2026-15206) - *(CVE.org)*
+
 
