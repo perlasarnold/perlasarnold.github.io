@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - August 9, 2026"
+date: 2026-08-09 14:26:28 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - August 9, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -40,4 +48,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [How AI Exposed a Browser Security Gap that Enterprises Cannot Ignore](https://www.bleepingcomputer.com/news/security/how-ai-exposed-a-browser-security-gap-that-enterprises-cannot-ignore/) - *(BleepingComputer)*
 - [CVE-2026-59648](https://nvd.nist.gov/vuln/detail/CVE-2026-59648) - *(NVD)*
 - [CVE-2026-59648](https://www.cve.org/CVERecord?id=CVE-2026-59648) - *(CVE.org)*
+
 
