@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - August 10, 2026"
+date: 2026-08-10 14:51:04 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - August 10, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -38,4 +46,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Am I in a bad soc?](https://www.reddit.com/r/cybersecurity/comments/1vkfyfh/am_i_in_a_bad_soc/) - *(Reddit r/cybersecurity)*
 - [AI agent goes rogue while booking gym class, hacks system and removes another customer](https://www.neowin.net/news/ai-agent-goes-rogue-while-booking-gym-class-hacks-system-and-removes-another-customer/?utm_source=rss) - *(Neowin)*
 - [Is BTL1 worth it for me?](https://www.reddit.com/r/cybersecurity/comments/1vkagrl/is_btl1_worth_it_for_me/) - *(Reddit r/cybersecurity)*
+
 
