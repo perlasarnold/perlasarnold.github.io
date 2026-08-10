@@ -1,17 +1,17 @@
 {
-  "generated_utc": "2026-08-07T14:14:30.111599+00:00",
-  "date": "2026-08-07",
+  "generated_utc": "2026-08-10T14:21:06.136978+00:00",
+  "date": "2026-08-10",
   "lookback_hours": 25,
   "source_status": [
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 4
+      "count": 0
     },
     {
       "name": "Microsoft Intune What's New",
       "status": "OK",
-      "count": 1
+      "count": 0
     },
     {
       "name": "Windows IT Pro Blog",
@@ -41,7 +41,7 @@
     {
       "name": "The Hacker News",
       "status": "OK",
-      "count": 1
+      "count": 0
     },
     {
       "name": "Krebs on Security",
@@ -93,72 +93,16 @@
   "items": {
     "high_alert": [],
     "bad_updates": [],
-    "upcoming_changes": [
-      {
-        "fingerprint": "4c6238661963",
-        "title": "Microsoft Teams: Facilitator Can Join Channel Meetings",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=568936",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-08-06T22:54:24+00:00",
-        "summary": "Facilitator can now join meetings set up in Teams channels. Facilitator helps participants run more effective meetings through the ability to take live notes, manage the agenda, answer questions, and capture tasks. GA date: September CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "50ef10ab0125",
-        "title": "Microsoft Teams: Use Copilot Chat after a call in Queues app",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=568933",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-08-06T22:54:24+00:00",
-        "summary": "After a recorded call is completed, use Copilot in the Queues app to quickly catch up on key details, uncover insights, and resolve customer issues faster without having to manually search through a transcript or listen back to a recording. Navigate to the unified call history in the Queues app, select the recorded call record, and launch the Copilot Chat sidecar from within the Recap tab. You ...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "fb1b6d39d763",
-        "title": "Outlook: Enhanced user interface updates for iPhone and iPad",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=568789",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-08-06T22:54:24+00:00",
-        "summary": "People using Outlook for iOS on iPhone and iPad will see refreshed interface elements aligned with the latest Liquid Glass iOS visual experience, including modernized app chrome, navigation, and use of screen space. It will be enabled by default with no administrator action required. GA date: September CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "307631264746",
-        "title": "Microsoft Copilot Studio: Agent Readiness in Microsoft Copilot Studio",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=568762",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-08-06T22:54:24+00:00",
-        "summary": "Agent Readiness gives makers a real-time, always-visible health check for their Copilot Studio agents. A single \"Review\" indicator in the build experience surfaces anything blocking or at risk — from policy restrictions to missing evaluations — before it derails a publish. Blocked capabilities are grayed out up front with a clear reason, so makers never waste time configuring something that was...",
-        "category": "upcoming_changes"
-      }
-    ],
-    "official_news": [
-      {
-        "fingerprint": "79b1411009ad",
-        "title": "Microsoft Intune Licensing Plans and Options - Microsoft Intune",
-        "link": "https://learn.microsoft.com/en-us/intune/fundamentals/licensing",
-        "source": "Microsoft Intune What's New",
-        "published": "2026-08-06T22:34:00+00:00",
-        "summary": "Microsoft Intune licensing Summarize this article for me In this article Microsoft Intune is licensed through three plans and is included in several Microsoft 365 bundles. This article describes the plans, license requirements for users and administrators, and how to confirm your licenses. Microsoft Intune plans Intune capabilities are organized.",
-        "category": "official_news"
-      }
-    ],
+    "upcoming_changes": [],
+    "official_news": [],
     "community_buzz": [
       {
-        "fingerprint": "57fe29804180",
-        "title": "Malware Can Abuse Windows Hello for Business Keys for Persistent Entra ID Access",
-        "link": "https://thehackernews.com/2026/08/malware-can-abuse-windows-hello-for.html",
-        "source": "The Hacker News",
-        "published": "2026-08-07T08:52:11+00:00",
-        "summary": "Entra ID researcher Dirk-jan Mollema demonstrated that malware already running in a signed-in Windows session can silently use the victim's Windows Hello for Business key to authenticate to Microsoft Entra ID. The attacker can then establish longer-term cloud access, register a device it controls, obtain a Primary Refresh Token (PRT), and add further authentication methods where tenant policies",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "58dab4d55baf",
-        "title": "Microsoft starts sending out emails to warn about big Entra ID change to authentication",
-        "link": "https://www.neowin.net/news/microsoft-starts-sending-out-emails-to-warn-about-big-entra-id-change-to-authentication/?utm_source=rss",
+        "fingerprint": "faac0ec74507",
+        "title": "Microsoft Entra ID has a big change coming for Windows Hello for Business and macOS PSSO",
+        "link": "https://www.neowin.net/news/microsoft-entra-id-has-a-big-change-coming-for-windows-hello-for-business-and-macos-psso/?utm_source=rss",
         "source": "Neowin",
-        "published": "2026-08-07T08:10:02+00:00",
-        "summary": "Microsoft is making a big switch to passkeys for Entra ID to help secure against various malicious attacks. Read more...",
+        "published": "2026-08-10T10:58:01+00:00",
+        "summary": "Microsoft is upgrading enterprise authentication to let Windows Hello and macOS PSSO act as standalone MFA factors. Here is when it'll be available. Read more...",
         "category": "community_buzz"
       }
     ]
