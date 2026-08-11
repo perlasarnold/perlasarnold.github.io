@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - August 11, 2026"
+date: 2026-08-11 14:50:56 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - August 11, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -31,4 +39,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [How much does finding CVE matter?](https://www.reddit.com/r/cybersecurity/comments/1vl4vrk/how_much_does_finding_cve_matter/) - *(Reddit r/cybersecurity)*
 - [Valve informs customers about data breach, personal data stolen](https://www.neowin.net/news/valve-informs-customers-about-data-breach-personal-data-stolen/?utm_source=rss) - *(Neowin)*
 - [CVE-2026-21366](https://www.cve.org/CVERecord?id=CVE-2026-21366) - *(CVE.org)*
+
 
