@@ -1,12 +1,12 @@
 {
-  "generated_utc": "2026-08-10T14:21:06.136978+00:00",
-  "date": "2026-08-10",
+  "generated_utc": "2026-08-11T14:20:51.423528+00:00",
+  "date": "2026-08-11",
   "lookback_hours": 25,
   "source_status": [
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 0
+      "count": 3
     },
     {
       "name": "Microsoft Intune What's New",
@@ -21,7 +21,7 @@
     {
       "name": "Microsoft Security Blog",
       "status": "OK",
-      "count": 0
+      "count": 2
     },
     {
       "name": "Microsoft Entra Blog",
@@ -93,16 +93,63 @@
   "items": {
     "high_alert": [],
     "bad_updates": [],
-    "upcoming_changes": [],
-    "official_news": [],
+    "upcoming_changes": [
+      {
+        "fingerprint": "7dd2a3529d09",
+        "title": "Microsoft Copilot Studio: Dataverse integration on Copilot Studio",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=568929",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-08-10T22:43:02+00:00",
+        "summary": "We are enabling Microsoft Dataverse as a native knowledge source in Copilot Studio, expanding the platform’s ability to ground AI agents in structured enterprise data. This enhancement allows organizations to leverage business-critical information stored in Dataverse—including records, customer data, operational data, and business application content—as a trusted knowledge source for agent expe...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "6dcc40dc85e0",
+        "title": "Microsoft Edge: Updated horizontal tab appearance",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=568793",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-08-10T22:43:02+00:00",
+        "summary": "Microsoft Edge is introducing an updated horizontal tab-strip appearance on Windows and macOS. The treatment uses rounded tabs with revised spacing and aligns related tab-strip controls with the refreshed browser-frame design. Tab behavior and enterprise data handling remain unchanged. GA date: September CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "4ad4b21fb0de",
+        "title": "Microsoft Copilot (Microsoft 365): Review PDFs using the Copilot context menu on OneDrive iOS",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=568790",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-08-10T22:43:02+00:00",
+        "summary": "Microsoft 365 Copilot makes PDF reviews faster and easier on mobile. Select text in any PDF in OneDrive iOS and tap Ask Copilot to explain, summarize, translate, or ask a custom question about the selection — the same in-context Copilot experience already generally available on desktop, now on OneDrive iOS. GA date: October CY2026",
+        "category": "upcoming_changes"
+      }
+    ],
+    "official_news": [
+      {
+        "fingerprint": "27865a7d8193",
+        "title": "Microsoft named a Leader in the 2026 IDC MarketScape for MDR/MXDR for the Enterprise",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/08/10/microsoft-named-a-leader-in-the-2026-idc-marketscape-for-mdr-mxdr-for-the-enterprise/",
+        "source": "Microsoft Security Blog",
+        "published": "2026-08-10T16:00:00+00:00",
+        "summary": "Microsoft is named a Leader in the 2026 IDC MarketScape for MDR services. Discover how Microsoft Defender Experts MDR combines AI, threat intelligence, and human expertise. The post Microsoft named a Leader in the 2026 IDC MarketScape for MDR/MXDR for the Enterprise appeared first on Microsoft Security Blog .",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "c79fac7f7f1b",
+        "title": "DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/08/10/deadlock-ransomware-breaking-down-a-rust-based-encryptor-with-decentralized-recovery-infrastructure/",
+        "source": "Microsoft Security Blog",
+        "published": "2026-08-10T15:00:00+00:00",
+        "summary": "Microsoft Threat Intelligence examines DeadLock ransomware, an emerging financially motivated operation distinguished by its use of decentralized infrastructure to support victim communications, negotiations, and data leak operations alongside double extortion tactics used to pressure victims. The post DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrast...",
+        "category": "official_news"
+      }
+    ],
     "community_buzz": [
       {
-        "fingerprint": "faac0ec74507",
-        "title": "Microsoft Entra ID has a big change coming for Windows Hello for Business and macOS PSSO",
-        "link": "https://www.neowin.net/news/microsoft-entra-id-has-a-big-change-coming-for-windows-hello-for-business-and-macos-psso/?utm_source=rss",
+        "fingerprint": "e95806656be5",
+        "title": "Here are all the new Entra features Microsoft rolled out to IT admins recently",
+        "link": "https://www.neowin.net/news/here-are-all-the-new-entra-features-microsoft-rolled-out-to-it-admins-recently/?utm_source=rss",
         "source": "Neowin",
-        "published": "2026-08-10T10:58:01+00:00",
-        "summary": "Microsoft is upgrading enterprise authentication to let Windows Hello and macOS PSSO act as standalone MFA factors. Here is when it'll be available. Read more...",
+        "published": "2026-08-11T12:26:01+00:00",
+        "summary": "Microsoft Entra just gained several new features for IT admins, but some of the most useful changes may have flown under the radar. Read more...",
         "category": "community_buzz"
       }
     ]
