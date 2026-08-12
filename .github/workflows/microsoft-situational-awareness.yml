@@ -1,13 +1,12 @@
 name: IT SecOps News
 
-# Single workflow for the daily Intune intelligence feed.
-# Phase 1 (scrape) runs at 6 AM PT, Phase 2 (publish) at 12 PM PT.
+# Single workflow for the daily IT SecOps News feed.
+# Runs Phase 1 (scrape) and Phase 2 (publish) back-to-back at 4:00 AM PT.
 # Manual dispatch runs both phases back-to-back.
 
 on:
   schedule:
-    - cron: '0 13 * * 1-5'   # 6:00 AM Pacific (UTC-7) — scrape only
-    - cron: '0 19 * * 1-5'   # 12:00 PM Pacific (UTC-7) — publish only
+    - cron: '0 11 * * 1-5'   # 4:00 AM Pacific (UTC-7) — scrape and publish
   workflow_dispatch:
     inputs:
       lookback_hours:
@@ -20,10 +19,10 @@ permissions:
 
 jobs:
   scrape:
-    # Runs on the 6 AM cron or manual dispatch
+    # Runs on the 4 AM PT cron or manual dispatch
     if: >-
       github.event_name == 'workflow_dispatch' ||
-      github.event.schedule == '0 13 * * 1-5'
+      github.event.schedule == '0 11 * * 1-5'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -52,13 +51,12 @@ jobs:
           git push origin HEAD:main
 
   publish:
-    # Runs on the 12 PM cron or after scrape on manual dispatch.
-    # "if: !cancelled()" lets this job run even when scrape was skipped (12 PM cron).
+    # Runs after scrape on 4 AM PT cron or manual dispatch.
     needs: [scrape]
     if: >-
       !cancelled() &&
       (success() || needs.scrape.result == 'skipped') &&
-      (github.event_name == 'workflow_dispatch' || github.event.schedule == '0 19 * * 1-5')
+      (github.event_name == 'workflow_dispatch' || github.event.schedule == '0 11 * * 1-5')
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
