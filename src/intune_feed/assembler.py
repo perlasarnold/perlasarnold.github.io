@@ -61,10 +61,10 @@ def linkify_cves_and_kbs(text: str) -> str:
     if not text:
         return ""
 
-    # Linkify CVE-YYYY-NNNN if not already inside a Markdown link
+    # Linkify CVE-YYYY-NNNN if not already inside a Markdown link to CVE.org
     def replace_cve(match):
         cve_id = match.group(0).upper()
-        url = f"https://nvd.nist.gov/vuln/detail/{cve_id}"
+        url = f"https://www.cve.org/CVERecord?id={cve_id}"
         return f"[{cve_id}]({url})"
 
     text = re.sub(r"(?<!\[)(?<!\()(CVE-\d{4}-\d{4,})", replace_cve, text, flags=re.IGNORECASE)
@@ -98,7 +98,9 @@ def extract_cve_kb_links(text: str) -> list:
         cve_upper = cve.upper()
         if cve_upper not in seen:
             seen.add(cve_upper)
-            links.append(f"🛡️ **CVE:** [{cve_upper} (NVD)](https://nvd.nist.gov/vuln/detail/{cve_upper})")
+            cve_org_url = f"https://www.cve.org/CVERecord?id={cve_upper}"
+            nvd_url = f"https://nvd.nist.gov/vuln/detail/{cve_upper}"
+            links.append(f"🛡️ **CVE:** [{cve_upper} (CVE.org)]({cve_org_url}) · [(NVD)]({nvd_url})")
 
     for kb in kbs:
         kb_upper = kb.upper()

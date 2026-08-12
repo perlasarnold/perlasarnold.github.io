@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "IT SecOps News — August 12, 2026"
-date: 2026-08-12 03:45:21 +00:00
+date: 2026-08-12 03:47:50 +00:00
 categories: [intune-daily]
 tags: [secops, security-news, cve, patch-tuesday, active-exploits, intune, endpoint-management]
 author: Arnold
@@ -37,7 +37,7 @@ Critical vulnerabilities, zero-days, active exploits in the wild, and emergency 
 
 ### 🔥 **[ACTIVELY EXPLOITED / ZERO-DAY]** [Microsoft Patches 398 Flaws Including a Windows Driver Zero-Day Under Active Attack](https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html)
 **Source:** The Hacker News · **Published:** August 11, 2026 at 08:10 PM UTC · 🔗 **[Direct Link to Article / Advisory](https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html)**
-> 🛡️ **CVE:** [CVE-2026-68820 (NVD)](https://nvd.nist.gov/vuln/detail/CVE-2026-68820)
+> 🛡️ **CVE:** [CVE-2026-68820 (CVE.org)](https://www.cve.org/CVERecord?id=CVE-2026-68820) · [(NVD)](https://nvd.nist.gov/vuln/detail/CVE-2026-68820)
 > Microsoft released its monthly security updates on Tuesday, and one of the flaws it closed is already being used in attacks. The bug sits in a core Windows kernel driver that handles network socket operations. An attacker with code already running on a machine can use it to escalate to SYSTEM. That patch goes out first. The flaw is tracked as CV...
 
 ### [Sandworm-Linked UAC-0145 Uses Fake Job Interviews to Push VPN That Can Run Commands](https://thehackernews.com/2026/08/sandworm-linked-uac-0145-uses-fake-job.html)
@@ -50,8 +50,8 @@ Critical vulnerabilities, zero-days, active exploits in the wild, and emergency 
 
 ### [Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unauthenticated RCE](https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html)
 **Source:** The Hacker News · **Published:** August 11, 2026 at 04:47 PM UTC · 🔗 **[Direct Link to Article / Advisory](https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html)**
-> 🛡️ **CVE:** [CVE-2026-55040 (NVD)](https://nvd.nist.gov/vuln/detail/CVE-2026-55040)
-> Security researchers found a way to enter Microsoft SharePoint servers as any user, including an administrator, with no valid account. A significant part of the work that found it was done through an AI agent. The flaw, tracked as [CVE-2026-55040](https://nvd.nist.gov/vuln/detail/CVE-2026-55040) (CVSS 9.1), affects SharePoint Server Subscription Edition, SharePoint Server 2019, and SharePoint Se...
+> 🛡️ **CVE:** [CVE-2026-55040 (CVE.org)](https://www.cve.org/CVERecord?id=CVE-2026-55040) · [(NVD)](https://nvd.nist.gov/vuln/detail/CVE-2026-55040)
+> Security researchers found a way to enter Microsoft SharePoint servers as any user, including an administrator, with no valid account. A significant part of the work that found it was done through an AI agent. The flaw, tracked as [CVE-2026-55040](https://www.cve.org/CVERecord?id=CVE-2026-55040) (CVSS 9.1), affects SharePoint Server Subscription Edition, SharePoint Server 2019, and SharePoint Se...
 
 ---
 
