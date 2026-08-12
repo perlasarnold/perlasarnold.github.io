@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "IT SecOps News — August 12, 2026"
-date: 2026-08-12 03:47:50 +00:00
+date: 2026-08-12 11:43:08 +00:00
 categories: [intune-daily]
 tags: [secops, security-news, cve, patch-tuesday, active-exploits, intune, endpoint-management]
 author: Arnold
@@ -20,38 +20,40 @@ Critical vulnerabilities, zero-days, active exploits in the wild, and emergency 
 
 | Priority | Title | Source | Advisory / Link |
 |----------|-------|--------|-----------------|
+| 🔴 HIGH | [Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws](https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html) | The Hacker News | [Read News Article →](https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html) |
+| 🔥 ACTIVELY EXPLOITED | [New Microsoft Defender 'ShieldBreak' zero-day grants SYSTEM privileges](https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldbreak-zero-day-grants-system-privileges/) | BleepingComputer | [Read News Article →](https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldbreak-zero-day-grants-system-privileges/) |
+| 🔥 ACTIVELY EXPLOITED | [Attackers Exploit VMware vCenter Vulnerability to Gain Persistent Remote...](https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html) | The Hacker News | [Read News Article →](https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html) |
+| 🔴 HIGH | [SAP Commerce Cloud Flaw Could Let Unauthenticated Attackers Execute Arbi...](https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html) | The Hacker News | [Read News Article →](https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html) |
+| 🔥 ACTIVELY EXPLOITED | [ShieldBreak Zero-Day PoC Claims Microsoft Defender Patch Bypass With SYS...](https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html) | The Hacker News | [Read News Article →](https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html) |
+| 🔥 ACTIVELY EXPLOITED | [Cisco pushes urgent patches for actively exploited zero-day flaw crashin...](https://www.neowin.net/news/cisco-pushes-urgent-patches-for-actively-exploited-zero-day-flaw-crashing-firewalls/?utm_source=rss) | Neowin | [Read News Article →](https://www.neowin.net/news/cisco-pushes-urgent-patches-for-actively-exploited-zero-day-flaw-crashing-firewalls/?utm_source=rss) |
+| 🔥 ACTIVELY EXPLOITED | [Cisco ASA and FTD Flaw Exploited in the Wild Can Trigger Remote DoS](https://thehackernews.com/2026/08/cisco-asa-and-ftd-flaw-exploited-in.html) | The Hacker News | [Read News Article →](https://thehackernews.com/2026/08/cisco-asa-and-ftd-flaw-exploited-in.html) |
 | 🔴 HIGH | [DeadLock ransomware uses blockchain to resist infrastructure takedown](https://www.bleepingcomputer.com/news/security/deadlock-ransomware-uses-blockchain-to-resist-infrastructure-takedown/) | BleepingComputer | [Read News Article →](https://www.bleepingcomputer.com/news/security/deadlock-ransomware-uses-blockchain-to-resist-infrastructure-takedown/) |
 | 🔥 ACTIVELY EXPLOITED | [Microsoft Patches 398 Flaws Including a Windows Driver Zero-Day Under Ac...](https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html) | The Hacker News | [Read News Article →](https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html) |
 | 🔴 HIGH | [Sandworm-Linked UAC-0145 Uses Fake Job Interviews to Push VPN That Can R...](https://thehackernews.com/2026/08/sandworm-linked-uac-0145-uses-fake-job.html) | The Hacker News | [Read News Article →](https://thehackernews.com/2026/08/sandworm-linked-uac-0145-uses-fake-job.html) |
-| 🔥 ACTIVELY EXPLOITED | [Microsoft August 2026 Patch Tuesday fixes 400 flaws, 3 zero-days](https://www.bleepingcomputer.com/news/microsoft/microsoft-august-2026-patch-tuesday-fixes-400-flaws-3-zero-days/) | BleepingComputer | [Read News Article →](https://www.bleepingcomputer.com/news/microsoft/microsoft-august-2026-patch-tuesday-fixes-400-flaws-3-zero-days/) |
-| 🔴 HIGH | [Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unaut...](https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html) | The Hacker News | [Read News Article →](https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html) |
-| 🔴 HIGH | [DeadLock Ransomware Uses Polygon Smart Contracts to Make Extortion Infra...](https://thehackernews.com/2026/08/deadlock-ransomware-uses-polygon-smart.html) | The Hacker News | [Read News Article →](https://thehackernews.com/2026/08/deadlock-ransomware-uses-polygon-smart.html) |
-| 🔥 ACTIVELY EXPLOITED | [OpenAI Launches GPT-5.6-Cyber with Reduced Safeguards for Exploit Develo...](https://thehackernews.com/2026/08/openai-launches-gpt-56-cyber-with.html) | The Hacker News | [Read News Article →](https://thehackernews.com/2026/08/openai-launches-gpt-56-cyber-with.html) |
-| 🔴 HIGH | [CISA: Microsoft SharePoint flaw now exploited in ransomware attacks](https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-flaw-now-exploited-in-ransomware-attacks/) | BleepingComputer | [Read News Article →](https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-flaw-now-exploited-in-ransomware-attacks/) |
-| 🔴 HIGH | [US and South Korea warn of Gunra ransomware targeting govt agencies](https://www.bleepingcomputer.com/news/security/us-warns-of-gunra-ransomware-attacks-against-government-critical-infrastructure/) | BleepingComputer | [Read News Article →](https://www.bleepingcomputer.com/news/security/us-warns-of-gunra-ransomware-attacks-against-government-critical-infrastructure/) |
-| 🔴 HIGH | [Gunra Ransomware Exploits Fortinet and Schneider Electric Flaws to Breac...](https://thehackernews.com/2026/08/gunra-ransomware-exploits-fortinet-and.html) | The Hacker News | [Read News Article →](https://thehackernews.com/2026/08/gunra-ransomware-exploits-fortinet-and.html) |
 
-### [DeadLock ransomware uses blockchain to resist infrastructure takedown](https://www.bleepingcomputer.com/news/security/deadlock-ransomware-uses-blockchain-to-resist-infrastructure-takedown/)
-**Source:** BleepingComputer · **Published:** August 11, 2026 at 10:15 PM UTC · 🔗 **[Direct Link to Article / Advisory](https://www.bleepingcomputer.com/news/security/deadlock-ransomware-uses-blockchain-to-resist-infrastructure-takedown/)**
-> The DeadLock ransomware operation is using a decentralized infrastructure that relies on blockchain-backed services to protect its communication with victims and data-leak activity. [...]
+### [Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws](https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html)
+**Source:** The Hacker News · **Published:** August 12, 2026 at 11:13 AM UTC · 🔗 **[Direct Link to Article / Advisory](https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html)**
+> 🛡️ **CVE:** [CVE-2026-48362 (CVE.org)](https://www.cve.org/CVERecord?id=CVE-2026-48362) · [(NVD)](https://nvd.nist.gov/vuln/detail/CVE-2026-48362)
+> Adobe has shipped updates to address multiple critical security vulnerabilities impacting ColdFusion, Commerce, and Campaign Classic that, if successfully exploited, could result in arbitrary code execution and privilege escalation. The most severe of the flaws are listed below - [CVE-2026-48362](https://www.cve.org/CVERecord?id=CVE-2026-48362) (CVSS score: 10.0) - An operating system command in...
 
-### 🔥 **[ACTIVELY EXPLOITED / ZERO-DAY]** [Microsoft Patches 398 Flaws Including a Windows Driver Zero-Day Under Active Attack](https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html)
-**Source:** The Hacker News · **Published:** August 11, 2026 at 08:10 PM UTC · 🔗 **[Direct Link to Article / Advisory](https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html)**
-> 🛡️ **CVE:** [CVE-2026-68820 (CVE.org)](https://www.cve.org/CVERecord?id=CVE-2026-68820) · [(NVD)](https://nvd.nist.gov/vuln/detail/CVE-2026-68820)
-> Microsoft released its monthly security updates on Tuesday, and one of the flaws it closed is already being used in attacks. The bug sits in a core Windows kernel driver that handles network socket operations. An attacker with code already running on a machine can use it to escalate to SYSTEM. That patch goes out first. The flaw is tracked as CV...
+### 🔥 **[ACTIVELY EXPLOITED / ZERO-DAY]** [New Microsoft Defender 'ShieldBreak' zero-day grants SYSTEM privileges](https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldbreak-zero-day-grants-system-privileges/)
+**Source:** BleepingComputer · **Published:** August 12, 2026 at 10:15 AM UTC · 🔗 **[Direct Link to Article / Advisory](https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldbreak-zero-day-grants-system-privileges/)**
+> Nightmare Eclipse has released a new Microsoft Defender zero-day exploit named "ShieldBreak" after Microsoft released the August 2026 Patch Tuesday security updates. [...]
 
-### [Sandworm-Linked UAC-0145 Uses Fake Job Interviews to Push VPN That Can Run Commands](https://thehackernews.com/2026/08/sandworm-linked-uac-0145-uses-fake-job.html)
-**Source:** The Hacker News · **Published:** August 11, 2026 at 06:36 PM UTC · 🔗 **[Direct Link to Article / Advisory](https://thehackernews.com/2026/08/sandworm-linked-uac-0145-uses-fake-job.html)**
-> The Computer Emergency Response Team of Ukraine (CERT-UA) has disclosed details of a new social engineering campaign orchestrated by Russian nation-state threat actors targeting IT workers in the country by masquerading as recruiters to trick them into installing malware. CERT-UA pinned the activity on a threat cluster it tracks as UAC-0145, whi...
+### 🔥 **[ACTIVELY EXPLOITED / ZERO-DAY]** [Attackers Exploit VMware vCenter Vulnerability to Gain Persistent Remote Access](https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html)
+**Source:** The Hacker News · **Published:** August 12, 2026 at 09:01 AM UTC · 🔗 **[Direct Link to Article / Advisory](https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html)**
+> 🛡️ **CVE:** [CVE-2026-59310 (CVE.org)](https://www.cve.org/CVERecord?id=CVE-2026-59310) · [(NVD)](https://nvd.nist.gov/vuln/detail/CVE-2026-59310)
+> Threat actors have begun to actively exploit a recently patched critical security flaw in Broadcom VMware vCenter, according to new findings from QUIRSO. The vulnerability in question is [CVE-2026-59310](https://www.cve.org/CVERecord?id=CVE-2026-59310) (CVSS score: 9.8), a directory-traversal vulnerability in the VMware vCenter server that a malicious actor with network access can exploit to exe...
 
-### 🔥 **[ACTIVELY EXPLOITED / ZERO-DAY]** [Microsoft August 2026 Patch Tuesday fixes 400 flaws, 3 zero-days](https://www.bleepingcomputer.com/news/microsoft/microsoft-august-2026-patch-tuesday-fixes-400-flaws-3-zero-days/)
-**Source:** BleepingComputer · **Published:** August 11, 2026 at 06:08 PM UTC · 🔗 **[Direct Link to Article / Advisory](https://www.bleepingcomputer.com/news/microsoft/microsoft-august-2026-patch-tuesday-fixes-400-flaws-3-zero-days/)**
-> Today is Microsoft's August 2026 Patch Tuesday, and with it comes security updates for a massive 400 flaws, including one actively exploited and two publicly disclosed zero-day vulnerabilities. [...]
+### [SAP Commerce Cloud Flaw Could Let Unauthenticated Attackers Execute Arbitrary Code](https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html)
+**Source:** The Hacker News · **Published:** August 12, 2026 at 07:31 AM UTC · 🔗 **[Direct Link to Article / Advisory](https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html)**
+> 🛡️ **CVE:** [CVE-2026-58231 (CVE.org)](https://www.cve.org/CVERecord?id=CVE-2026-58231) · [(NVD)](https://nvd.nist.gov/vuln/detail/CVE-2026-58231)
+> SAP has released patches to address a maximum-severity security flaw impacting Commerce Cloud (Data Hub Adapter) that could result in arbitrary code execution. The vulnerability, assigned the CVE identifier [CVE-2026-58231](https://www.cve.org/CVERecord?id=CVE-2026-58231), is rated 10.0 on the CVSS scoring system. It has been described as a case of insufficient authorization checks and input val...
 
-### [Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unauthenticated RCE](https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html)
-**Source:** The Hacker News · **Published:** August 11, 2026 at 04:47 PM UTC · 🔗 **[Direct Link to Article / Advisory](https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html)**
-> 🛡️ **CVE:** [CVE-2026-55040 (CVE.org)](https://www.cve.org/CVERecord?id=CVE-2026-55040) · [(NVD)](https://nvd.nist.gov/vuln/detail/CVE-2026-55040)
-> Security researchers found a way to enter Microsoft SharePoint servers as any user, including an administrator, with no valid account. A significant part of the work that found it was done through an AI agent. The flaw, tracked as [CVE-2026-55040](https://www.cve.org/CVERecord?id=CVE-2026-55040) (CVSS 9.1), affects SharePoint Server Subscription Edition, SharePoint Server 2019, and SharePoint Se...
+### 🔥 **[ACTIVELY EXPLOITED / ZERO-DAY]** [ShieldBreak Zero-Day PoC Claims Microsoft Defender Patch Bypass With SYSTEM Access](https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html)
+**Source:** The Hacker News · **Published:** August 12, 2026 at 06:41 AM UTC · 🔗 **[Direct Link to Article / Advisory](https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html)**
+> 🛡️ **CVE:** [CVE-2026-50656 (CVE.org)](https://www.cve.org/CVERecord?id=CVE-2026-50656) · [(NVD)](https://nvd.nist.gov/vuln/detail/CVE-2026-50656)
+> The security researcher going by the name Chaotic Eclipse (aka INFINITE NIGHTMARE, MSNightmare, and Nightmare-Eclipse) has released a proof-of-concept (PoC) for a new Microsoft zero-day called ShieldBreak. The vulnerability, rooted in Microsoft Defender for Windows, demonstrates a patch bypass for [CVE-2026-50656](https://www.cve.org/CVERecord?id=CVE-2026-50656) (CVSS score: 7.8), otherwise know...
 
 ---
 
@@ -112,6 +114,9 @@ Feature announcements, security blogs, and official releases.
 
 What IT SecOps teams and sysadmins are discussing today.
 
+- **[SpaceXAI launches OpenClaw-style Grok Bot that can work across apps on its own](https://www.neowin.net/news/spacexai-launches-openclaw-style-grok-bot-that-can-work-across-apps-on-its-own/?utm_source=rss)** — *Neowin* · [View Thread →](https://www.neowin.net/news/spacexai-launches-openclaw-style-grok-bot-that-can-work-across-apps-on-its-own/?utm_source=rss)
+  > Unlike traditional local assistants, Grok Bot operates using a dedicated cloud PC, enabling it to log into apps and websites directly even without APIs or MCPs. Read more...
+
 - **[Kimwolf v7 Android Botnet Makes HTTP/2 DDoS Traffic Look Like Legitimate Browsing](https://thehackernews.com/2026/08/kimwolf-v7-android-botnet-makes-http2.html)** — *The Hacker News* · [View Thread →](https://thehackernews.com/2026/08/kimwolf-v7-android-botnet-makes-http2.html)
   > Cybersecurity researchers have discovered a new version of the Kimwolf/AISURU Android and Internet of Things (IoT) botnet that comes with significant improvements to improve its operational resilience and conduct dist...
 
@@ -127,9 +132,6 @@ What IT SecOps teams and sysadmins are discussing today.
 - **[Here are all the new Entra features Microsoft rolled out to IT admins recently](https://www.neowin.net/news/here-are-all-the-new-entra-features-microsoft-rolled-out-to-it-admins-recently/?utm_source=rss)** — *Neowin* · [View Thread →](https://www.neowin.net/news/here-are-all-the-new-entra-features-microsoft-rolled-out-to-it-admins-recently/?utm_source=rss)
   > Microsoft Entra just gained several new features for IT admins, but some of the most useful changes may have flown under the radar. Read more...
 
-- **[BdThemes Supply Chain Attack Poisons JSON to Create Rogue WordPress Admins](https://thehackernews.com/2026/08/bdthemes-supply-chain-attack-poisons.html)** — *The Hacker News* · [View Thread →](https://thehackernews.com/2026/08/bdthemes-supply-chain-attack-poisons.html)
-  > Cybersecurity researchers have warned of a supply chain compromise impacting WordPress plugin vendor BdThemes, prompting the content management systems (CMS) platform's plugins team to temporarily disable their downlo...
-
 ---
 
-*Generated automatically at August 12, 2026 at 03:44 AM UTC · [View all IT SecOps news →](/blog/)*
+*Generated automatically at August 12, 2026 at 11:42 AM UTC · [View all IT SecOps news →](/blog/)*
