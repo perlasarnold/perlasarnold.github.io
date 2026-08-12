@@ -1,10 +1,10 @@
 """
-assembler.py — Phase 2: Microsoft Situational Awareness Content Assembly
+assembler.py — Phase 2: IT SecOps News Content Assembly
 
 Reads the raw JSON output from scraper.py (_data/intune_feed_raw.json)
 and generates a polished Jekyll-compatible Markdown blog post.
 
-Output: _posts/YYYY-MM-DD-microsoft-situational-awareness-MONTH-DD-YYYY.md
+Output: _posts/YYYY-MM-DD-it-secops-news-MONTH-DD-YYYY.md
 Triggered by GitHub Actions at 12:00 PM PT every weekday.
 """
 
@@ -17,7 +17,7 @@ from pathlib import Path
 
 
 # ---------------------------------------------------------------------------
-# Template helpers
+# Template & Link helpers
 # ---------------------------------------------------------------------------
 
 
@@ -26,7 +26,7 @@ def slugify(text: str) -> str:
     slug = text.lower()
     slug = re.sub(r"[^a-z0-9]+", "-", slug)
     slug = slug.strip("-")
-    return slug or "microsoft-situational-awareness"
+    return slug or "it-secops-news"
 
 
 def escape_yaml(value: str) -> str:
@@ -41,7 +41,7 @@ def format_date_display(iso_str: str) -> str:
         return dt.strftime("%B %-d, %Y at %I:%M %p UTC")
     except (ValueError, TypeError):
         try:
-            # Windows doesn't support %-d
+            # Windows fallback
             dt = datetime.fromisoformat(iso_str)
             day = dt.day
             return dt.strftime(f"%B {day}, %Y at %I:%M %p UTC")
@@ -49,11 +49,74 @@ def format_date_display(iso_str: str) -> str:
             return iso_str
 
 
-def truncate(text: str, length: int = 200) -> str:
+def truncate(text: str, length: int = 250) -> str:
     """Truncate text to a max length."""
     if len(text) <= length:
         return text
     return text[: length - 3] + "..."
+
+
+def linkify_cves_and_kbs(text: str) -> str:
+    """Auto-linkify unlinked CVE numbers and KB numbers in body text."""
+    if not text:
+        return ""
+
+    # Linkify CVE-YYYY-NNNN if not already inside a Markdown link
+    def replace_cve(match):
+        cve_id = match.group(0).upper()
+        url = f"https://nvd.nist.gov/vuln/detail/{cve_id}"
+        return f"[{cve_id}]({url})"
+
+    text = re.sub(r"(?<!\[)(?<!\()(CVE-\d{4}-\d{4,})", replace_cve, text, flags=re.IGNORECASE)
+
+    # Linkify KBXXXXXXX if not already inside a Markdown link
+    def replace_kb(match):
+        kb_id = match.group(0).upper()
+        digits_match = re.search(r"\d+", kb_id)
+        if not digits_match:
+            return kb_id
+        digits = digits_match.group(0)
+        url = f"https://support.microsoft.com/help/{digits}"
+        return f"[{kb_id}]({url})"
+
+    text = re.sub(r"(?<!\[)(?<!\()(KB\d{6,7})", replace_kb, text, flags=re.IGNORECASE)
+    return text
+
+
+def extract_cve_kb_links(text: str) -> list:
+    """Extract list of Markdown links for any detected CVEs and KBs in title or summary."""
+    if not text:
+        return []
+
+    cves = re.findall(r"CVE-\d{4}-\d{4,}", text, flags=re.IGNORECASE)
+    kbs = re.findall(r"KB\d{6,7}", text, flags=re.IGNORECASE)
+
+    links = []
+    seen = set()
+
+    for cve in cves:
+        cve_upper = cve.upper()
+        if cve_upper not in seen:
+            seen.add(cve_upper)
+            links.append(f"🛡️ **CVE:** [{cve_upper} (NVD)](https://nvd.nist.gov/vuln/detail/{cve_upper})")
+
+    for kb in kbs:
+        kb_upper = kb.upper()
+        if kb_upper not in seen:
+            seen.add(kb_upper)
+            digits = re.search(r"\d+", kb_upper).group(0)
+            links.append(f"🔧 **KB:** [{kb_upper} (Microsoft Support)](https://support.microsoft.com/help/{digits})")
+
+    return links
+
+
+def is_active_exploit(title: str, summary: str) -> bool:
+    """Check if item mentions zero-day, active exploitation in the wild, or CISA KEV."""
+    combined = f"{title} {summary}"
+    pattern = re.compile(
+        r"(?i)\b(zero[- ]?day|0-day|actively\s*exploit|exploited\s*in\s*the\s*wild|cisa\s*kev|known\s*exploit|wild\s*exploit)\b"
+    )
+    return bool(pattern.search(combined))
 
 
 # ---------------------------------------------------------------------------
@@ -64,9 +127,8 @@ def truncate(text: str, length: int = 200) -> str:
 def build_front_matter(date_str: str, now: datetime) -> str:
     """Build Jekyll YAML front matter."""
     dt_display = now.strftime("%B %d, %Y")
-    # Remove leading zero from day
     dt_display = re.sub(r" 0(\d),", r" \1,", dt_display)
-    title = f"Microsoft Situational Awareness — {dt_display}"
+    title = f"IT SecOps News — {dt_display}"
 
     lines = [
         "---",
@@ -74,7 +136,7 @@ def build_front_matter(date_str: str, now: datetime) -> str:
         f'title: "{escape_yaml(title)}"',
         f"date: {now.strftime('%Y-%m-%d %H:%M:%S +00:00')}",
         "categories: [intune-daily]",
-        "tags: [intune, endpoint-management, daily-intel, situational-awareness]",
+        "tags: [secops, security-news, cve, patch-tuesday, active-exploits, intune, endpoint-management]",
         "author: Arnold",
         "---",
         "",
@@ -92,10 +154,10 @@ def build_header(date_str: str, source_count: int) -> str:
         display_date = date_str
 
     lines = [
-        f"# 📡 Microsoft Situational Awareness — {display_date}",
+        f"# 📡 IT SecOps News — {display_date}",
         "",
-        "> Daily intelligence briefing for Intune administrators.",
-        f"> Sources monitored: {source_count} feeds across Microsoft, Reddit, and security news",
+        "> Daily IT SecOps, vulnerability, patch, and security news briefing.",
+        f"> Sources monitored: {source_count} feeds across Microsoft, CISA, security news, and IT communities",
         "",
         "---",
         "",
@@ -106,30 +168,33 @@ def build_header(date_str: str, source_count: int) -> str:
 def build_high_alerts(items: list) -> str:
     """Build the High Alerts section."""
     lines = [
-        "## 🚨 High Alerts",
+        "## 🚨 High Alerts & Active Exploits",
         "",
-        "Items requiring immediate attention from endpoint management teams.",
+        "Critical vulnerabilities, zero-days, active exploits in the wild, and emergency advisories requiring immediate IT SecOps attention.",
         "",
     ]
 
     if not items:
-        lines.append("*No high-priority alerts detected in the last 24 hours. All clear.* ✅")
+        lines.append("*No high-priority alerts or active exploits detected in the last 24 hours. All clear.* ✅")
         lines.append("")
         return "\n".join(lines)
 
-    # Table format for high alerts
-    lines.append("| Priority | Title | Source |")
-    lines.append("|----------|-------|--------|")
+    # Table summary format for high alerts
+    lines.append("| Priority | Title | Source | Advisory / Link |")
+    lines.append("|----------|-------|--------|-----------------|")
 
     for item in items[:10]:
-        title = truncate(item.get("title", "Untitled"), 80)
+        title = truncate(item.get("title", "Untitled"), 75)
         link = item.get("link", "#")
         source = item.get("source", "Unknown")
-        lines.append(f"| 🔴 | [{title}]({link}) | {source} |")
+        summary = item.get("summary", "")
+        
+        priority_icon = "🔥 ACTIVELY EXPLOITED" if is_active_exploit(title, summary) else "🔴 HIGH"
+        lines.append(f"| {priority_icon} | [{title}]({link}) | {source} | [Read News Article →]({link}) |")
 
     lines.append("")
 
-    # Add details for each alert
+    # Detail breakdown for top high alert items
     for item in items[:5]:
         title = item.get("title", "Untitled")
         link = item.get("link", "#")
@@ -137,21 +202,30 @@ def build_high_alerts(items: list) -> str:
         source = item.get("source", "Unknown")
         published = item.get("published", "")
 
-        lines.append(f"### [{title}]({link})")
-        lines.append(f"**Source:** {source} · **Published:** {format_date_display(published)}")
+        active_badge = "🔥 **[ACTIVELY EXPLOITED / ZERO-DAY]** " if is_active_exploit(title, summary) else ""
+        cve_kb_refs = extract_cve_kb_links(f"{title} {summary}")
+
+        lines.append(f"### {active_badge}[{title}]({link})")
+        lines.append(f"**Source:** {source} · **Published:** {format_date_display(published)} · 🔗 **[Direct Link to Article / Advisory]({link})**")
+        
+        if cve_kb_refs:
+            lines.append(f"> " + " · ".join(cve_kb_refs))
+
         if summary:
-            lines.append(f"> {truncate(summary, 300)}")
+            linked_summary = linkify_cves_and_kbs(truncate(summary, 350))
+            lines.append(f"> {linked_summary}")
+            
         lines.append("")
 
     return "\n".join(lines)
 
 
 def build_bad_updates(items: list) -> str:
-    """Build the Bad Updates section — broken patches and regressions."""
+    """Build the Bad Updates section — broken patches, KBs, and regressions."""
     lines = [
         "## ⚠️ Bad Updates & Known Issues",
         "",
-        "Reports of problematic updates, regressions, and patches causing issues.",
+        "Reports of problematic updates, broken KBs, OS regressions, and patches causing issues.",
         "",
     ]
 
@@ -175,20 +249,24 @@ def build_bad_updates(items: list) -> str:
             meta_parts.append(f"{comments} comments")
         meta = " · ".join(meta_parts)
 
-        lines.append(f"- 🟠 **[{title}]({link})** — {meta}")
+        cve_kb_refs = extract_cve_kb_links(f"{title} {summary}")
+        ref_text = f" — {' · '.join(cve_kb_refs)}" if cve_kb_refs else ""
+
+        lines.append(f"- 🟠 **[{title}]({link})** — {meta} · [Article Link →]({link}){ref_text}")
         if summary:
-            lines.append(f"  > {truncate(summary, 250)}")
+            linked_summary = linkify_cves_and_kbs(truncate(summary, 280))
+            lines.append(f"  > {linked_summary}")
         lines.append("")
 
     return "\n".join(lines)
 
 
 def build_upcoming_changes(items: list) -> str:
-    """Build the Upcoming Changes section — Microsoft changes within 14 days."""
+    """Build the Upcoming Changes section — Microsoft/Vendor changes within 14 days."""
     lines = [
-        "## 📅 Upcoming Changes (14-Day Horizon)",
+        "## 📅 Upcoming Changes & Deprecations (14-Day Horizon)",
         "",
-        "Microsoft changes on the horizon. Plan and act before these take effect.",
+        "Upcoming security changes, feature retirements, and deadlines on the horizon.",
         "",
     ]
 
@@ -203,20 +281,21 @@ def build_upcoming_changes(items: list) -> str:
         summary = item.get("summary", "")
         source = item.get("source", "Unknown")
 
-        lines.append(f"- 📆 **[{title}]({link})** — *{source}*")
+        lines.append(f"- 📆 **[{title}]({link})** — *{source}* · [Read Announcement →]({link})")
         if summary:
-            lines.append(f"  {truncate(summary, 250)}")
+            linked_summary = linkify_cves_and_kbs(truncate(summary, 280))
+            lines.append(f"  {linked_summary}")
         lines.append("")
 
     return "\n".join(lines)
 
 
 def build_official_news(items: list) -> str:
-    """Build the Official Microsoft Updates section."""
+    """Build the Official Microsoft & Security Advisories section."""
     lines = [
-        "## ✅ Official Microsoft Updates",
+        "## ✅ Official Updates & Security Advisories",
         "",
-        "Feature changes, deprecations, and roadmap items from Microsoft.",
+        "Feature announcements, security blogs, and official releases.",
         "",
     ]
 
@@ -231,9 +310,13 @@ def build_official_news(items: list) -> str:
         summary = item.get("summary", "")
         source = item.get("source", "Unknown")
 
-        lines.append(f"- **[{title}]({link})** — *{source}*")
+        cve_kb_refs = extract_cve_kb_links(f"{title} {summary}")
+        ref_text = f" — {' · '.join(cve_kb_refs)}" if cve_kb_refs else ""
+
+        lines.append(f"- **[{title}]({link})** — *{source}* · [Read Article →]({link}){ref_text}")
         if summary:
-            lines.append(f"  {truncate(summary, 250)}")
+            linked_summary = linkify_cves_and_kbs(truncate(summary, 280))
+            lines.append(f"  {linked_summary}")
         lines.append("")
 
     return "\n".join(lines)
@@ -242,9 +325,9 @@ def build_official_news(items: list) -> str:
 def build_community_buzz(items: list) -> str:
     """Build the Community Buzz section."""
     lines = [
-        "## 🐛 Community Buzz",
+        "## 🐛 IT SecOps Community Buzz",
         "",
-        "What Intune admins are discussing today.",
+        "What IT SecOps teams and sysadmins are discussing today.",
         "",
     ]
 
@@ -261,7 +344,6 @@ def build_community_buzz(items: list) -> str:
         score = item.get("reddit_score")
         comments = item.get("reddit_comments")
 
-        # Build metadata line
         meta_parts = [f"*{source}*"]
         if score is not None and score > 0:
             meta_parts.append(f"{score} upvotes")
@@ -269,40 +351,15 @@ def build_community_buzz(items: list) -> str:
             meta_parts.append(f"{comments} comments")
 
         meta = " · ".join(meta_parts)
+        cve_kb_refs = extract_cve_kb_links(f"{title} {summary}")
+        ref_text = f" — {' · '.join(cve_kb_refs)}" if cve_kb_refs else ""
 
-        lines.append(f"- **[{title}]({link})** — {meta}")
+        lines.append(f"- **[{title}]({link})** — {meta} · [View Thread →]({link}){ref_text}")
         if summary:
-            lines.append(f"  > {truncate(summary, 200)}")
+            linked_summary = linkify_cves_and_kbs(truncate(summary, 220))
+            lines.append(f"  > {linked_summary}")
         lines.append("")
 
-    return "\n".join(lines)
-
-
-def build_source_health(source_status: list) -> str:
-    """Build the Source Health table."""
-    lines = [
-        "## 📊 Source Health",
-        "",
-        "| Source | Status | Items Collected |",
-        "|--------|--------|-----------------|",
-    ]
-
-    for source in source_status:
-        name = source.get("name", "Unknown")
-        status = source.get("status", "Unknown")
-        count = source.get("count", 0)
-        message = source.get("message", "")
-
-        if status == "OK":
-            status_icon = "✅ OK"
-        else:
-            status_icon = f"⚠️ {status}"
-            if message:
-                status_icon += f" — {truncate(message, 60)}"
-
-        lines.append(f"| {name} | {status_icon} | {count} |")
-
-    lines.append("")
     return "\n".join(lines)
 
 
@@ -312,7 +369,7 @@ def build_footer(generated_utc: str) -> str:
         "---",
         "",
         f"*Generated automatically at {format_date_display(generated_utc)} · "
-        "[View all daily intel →](/blog/)*",
+        "[View all IT SecOps news →](/blog/)*",
         "",
     ]
     return "\n".join(lines)
@@ -339,7 +396,6 @@ def assemble_post(data: dict) -> str:
 
     source_count = len(source_status)
 
-    # Assemble the full post — bad updates right after alerts, upcoming before official
     sections = [
         build_front_matter(date_str, now),
         build_header(date_str, source_count),
@@ -352,8 +408,6 @@ def assemble_post(data: dict) -> str:
         build_official_news(official_news),
         "---\n",
         build_community_buzz(community_buzz),
-        "---\n",
-        build_source_health(source_status),
         build_footer(generated_utc),
     ]
 
@@ -361,20 +415,14 @@ def assemble_post(data: dict) -> str:
 
 
 def main():
-    """Entry point: read raw JSON, assemble post, write to _posts/.
-
-    If a post for the same date already exists (e.g. from a manual re-trigger),
-    it is replaced rather than creating a duplicate.
-    """
+    """Entry point: read raw JSON, assemble post, write to _posts/."""
     script_dir = Path(__file__).resolve().parent
     repo_root = script_dir.parent.parent
     input_path = repo_root / "_data" / "intune_feed_raw.json"
     posts_dir = repo_root / "_posts"
 
-    # Ensure directories exist
     posts_dir.mkdir(parents=True, exist_ok=True)
 
-    # Read raw data
     if not input_path.exists():
         print(f"[assembler] ERROR: Input file not found: {input_path}")
         print("[assembler] Run scraper.py first (Phase 1) to generate the data file.")
@@ -385,16 +433,10 @@ def main():
 
     print(f"[assembler] Read raw data from: {input_path}")
     print(f"[assembler] Data date: {data.get('date', 'unknown')}")
-    print(f"[assembler] Items: "
-          f"{len(data.get('items', {}).get('high_alert', []))} alerts, "
-          f"{len(data.get('items', {}).get('official_news', []))} official, "
-          f"{len(data.get('items', {}).get('community_buzz', []))} community")
 
-    # Assemble the post content
     now = datetime.now(timezone.utc)
     post_content = assemble_post(data)
 
-    # Generate filename
     date_str = data.get("date", now.strftime("%Y-%m-%d"))
     try:
         dt = datetime.strptime(date_str, "%Y-%m-%d")
@@ -403,19 +445,18 @@ def main():
     except ValueError:
         display_date = date_str
 
-    slug = f"microsoft-situational-awareness-{display_date}"
+    slug = f"it-secops-news-{display_date}"
     filename = f"{date_str}-{slug}.md"
     post_path = posts_dir / filename
 
-    # Remove any existing microsoft-situational-awareness post for the same date.
-    # This ensures manual re-triggers (workflow_dispatch) replace instead of duplicate.
-    existing_pattern = f"{date_str}-microsoft-situational-awareness-*"
-    for existing in posts_dir.glob(existing_pattern):
-        if existing != post_path:
-            print(f"[assembler] Removing previous same-day post: {existing.name}")
-            existing.unlink()
+    # Remove any existing same-day post (both old name and new name)
+    patterns = [f"{date_str}-it-secops-news-*", f"{date_str}-microsoft-situational-awareness-*"]
+    for pattern in patterns:
+        for existing in posts_dir.glob(pattern):
+            if existing != post_path:
+                print(f"[assembler] Removing previous same-day post: {existing.name}")
+                existing.unlink()
 
-    # Write the post (overwrites if same filename already exists)
     with open(post_path, "w", encoding="utf-8") as f:
         f.write(post_content)
 
@@ -426,4 +467,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

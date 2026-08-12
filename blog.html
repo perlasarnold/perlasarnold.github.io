@@ -7,16 +7,16 @@ permalink: /blog/
 {% assign intune_posts = site.posts | where_exp: "post", "post.categories contains 'intune-daily'" %}
 <section class="page-intro container">
   <p class="eyebrow">Blog</p>
-  <h1>Security reports and daily Intune intelligence.</h1>
+  <h1>Security reports and daily IT SecOps news.</h1>
   <p>
-    This page tracks weekly security digests and daily Intune situational intelligence
-    for endpoint management teams working with Tanium and Intune.
+    This page tracks weekly security digests and daily IT SecOps news
+    for IT Security and Operations teams.
   </p>
 </section>
 
 <section class="container content-grid">
   <div>
-    <h2 class="section-heading">📡 Microsoft Situational Awareness</h2>
+    <h2 class="section-heading">📡 IT SecOps News</h2>
     <div class="posts-grid">
       {% if intune_posts.size > 0 %}
       {% for post in intune_posts limit: 5 %}
@@ -67,7 +67,7 @@ permalink: /blog/
   <aside class="archive-panel">
     <h2>About this blog</h2>
     <p>
-      Two automated feeds run on this site: a <strong>daily Intune intelligence briefing</strong>
+      Two automated feeds run on this site: a <strong>daily IT SecOps news briefing</strong>
       (weekdays at noon PT) and a <strong>weekly security digest</strong> (Tuesdays).
       Both are published as standard Jekyll posts.
     </p>

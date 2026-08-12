@@ -66,27 +66,4 @@ What Intune admins are discussing today.
 
 ---
 
-## 📊 Source Health
-
-| Source | Status | Items Collected |
-|--------|--------|-----------------|
-| Microsoft 365 Roadmap | ✅ OK | 4 |
-| Microsoft Intune What's New | ✅ OK | 1 |
-| Windows IT Pro Blog | ⚠️ Error — 502 Server Error: Bad Gateway for url: https://techcommun... | 0 |
-| Microsoft Security Blog | ✅ OK | 0 |
-| Microsoft Entra Blog | ✅ OK | 0 |
-| BleepingComputer | ✅ OK | 0 |
-| Neowin | ✅ OK | 1 |
-| The Hacker News | ✅ OK | 0 |
-| Krebs on Security | ✅ OK | 0 |
-| The Old New Thing | ✅ OK | 0 |
-| Reddit r/Intune | ⚠️ Error — 403 Client Error: Blocked for url: https://www.reddit.com... | 0 |
-| Reddit r/sysadmin | ⚠️ Error — 403 Client Error: Blocked for url: https://www.reddit.com... | 0 |
-| Reddit r/SCCM | ⚠️ Error — 403 Client Error: Blocked for url: https://www.reddit.com... | 0 |
-| Reddit r/microsoft365 | ⚠️ Error — 403 Client Error: Blocked for url: https://www.reddit.com... | 0 |
-| Reddit r/AzureAD | ⚠️ Error — 403 Client Error: Blocked for url: https://www.reddit.com... | 0 |
-| Reddit r/Windows11 | ⚠️ Error — 403 Client Error: Blocked for url: https://www.reddit.com... | 0 |
-
----
-
 *Generated automatically at April 24, 2026 at 02:46 PM UTC · [View all daily intel →](/blog/)*

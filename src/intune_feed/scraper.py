@@ -48,10 +48,13 @@ USER_AGENT = (
     "web:perlasarnold-intel:v1.1 (by /u/perlasarnold)"
 )
 
-REQUESTS_TIMEOUT = 30  # seconds
-
-# RSS feed definitions — Microsoft official + security news
+REQ# RSS feed definitions — Microsoft official + security news + CISA
 RSS_FEEDS = [
+    {
+        "name": "CISA Cyber Advisories",
+        "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+        "type": "rss",
+    },
     {
         "name": "Microsoft 365 Roadmap",
         "url": "https://www.microsoft.com/en-us/microsoft-365/RoadmapFeatureRSS",
@@ -142,36 +145,35 @@ REDDIT_SOURCES = [
 # Keyword classification rules
 # ---------------------------------------------------------------------------
 
-# Intune relevance filter — items must match at least one of these to be kept
+# IT SecOps relevance filter — items must match at least one of these to be kept
 INTUNE_KEYWORDS = re.compile(
     r"(?i)\b("
     r"intune|endpoint\s*manager|autopilot|autopatch|"
     r"mdm|mobile\s*device\s*management|"
     r"conditional\s*access|compliance\s*polic|configuration\s*profile|"
     r"device\s*enrollment|windows\s*autopilot|"
-    r"microsoft\s*defender\s*for\s*endpoint|"
-    r"entra|azure\s*ad|bitlocker|laps|"
-    r"windows\s*update\s*for\s*business|"
-    r"app\s*protection\s*polic|managed\s*app|"
-    r"co-?management|tenant\s*attach|"
+    r"microsoft\s*defender|defender\s*for\s*endpoint|"
+    r"entra|azure\s*ad|active\s*directory|bitlocker|laps|"
+    r"windows\s*update|patch\s*tuesday|kb\d{6,7}|"
     r"endpoint\s*security|endpoint\s*privilege|"
     r"remote\s*help|windows\s*365|cloud\s*pc|"
-    r"win32\s*app|lob\s*app|company\s*portal|"
-    r"graph\s*api.*device|device\s*management"
+    r"vulnerabil|cve-\d{4}-\d{4,}|zero[- ]?day|0-day|exploit|"
+    r"security\s*advisory|cisa|kev|ransomware|malware|"
+    r"sysadmin|it\s*ops|secops|cybersecurity|patch(ing)?"
     r")\b"
 )
 
-# 🚨 HIGH ALERT — critical security issues
+# 🚨 HIGH ALERT — critical security issues & active exploits
 HIGH_ALERT_KEYWORDS = re.compile(
     r"(?i)\b("
-    r"zero[- ]?day|actively\s*exploit|critical\s*vuln|"
+    r"zero[- ]?day|0-day|actively\s*exploit|exploited\s*in\s*the\s*wild|critical\s*vuln|"
     r"remote\s*code\s*execution|rce|privilege\s*escalation|"
     r"out[- ]of[- ]band|emergency\s*patch|"
     r"cve-\d{4}-\d{4,}|"
     r"critical\s*security|security\s*breach|"
-    r"ransomware.*intune|intune.*ransomware|"
+    r"ransomware|malware|active\s*threat|"
     r"authentication\s*bypass|credential\s*leak|"
-    r"cisa\s*kev|known\s*exploit"
+    r"cisa\s*kev|known\s*exploit|wild\s*exploit"
     r")\b"
 )
 
@@ -209,7 +211,7 @@ UPCOMING_CHANGES_KEYWORDS = re.compile(
     r")\b"
 )
 
-# ✅ OFFICIAL NEWS — Microsoft announcements
+# ✅ OFFICIAL NEWS — Microsoft & CISA announcements
 OFFICIAL_NEWS_KEYWORDS = re.compile(
     r"(?i)\b("
     r"what'?s\s*new|generally\s*available|ga\s*release|"
@@ -218,11 +220,12 @@ OFFICIAL_NEWS_KEYWORDS = re.compile(
     r"roadmap|feature\s*update|service\s*update|"
     r"announcement|rolling\s*out|now\s*available|"
     r"microsoft\s*learn|tech\s*community\s*blog|"
-    r"changelog|release\s*notes"
+    r"changelog|release\s*notes|cisa"
     r")\b"
 )
 
 OFFICIAL_SOURCES = {
+    "CISA Cyber Advisories",
     "Microsoft 365 Roadmap",
     "Microsoft Intune What's New",
     "Windows IT Pro Blog",

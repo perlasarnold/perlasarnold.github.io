@@ -1,4 +1,4 @@
-name: Microsoft Situational Awareness
+name: IT SecOps News
 
 # Single workflow for the daily Intune intelligence feed.
 # Phase 1 (scrape) runs at 6 AM PT, Phase 2 (publish) at 12 PM PT.
@@ -91,5 +91,5 @@ jobs:
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add _posts/ _data/
           git diff --cached --quiet && echo "No changes to commit" && exit 0
-          git commit -m "feat: microsoft situational awareness $(date -u +'%Y-%m-%d')"
+          git commit -m "feat: IT SecOps News $(date -u +'%Y-%m-%d')"
           git push origin HEAD:main
