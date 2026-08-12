@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-08-12T03:44:45.808558+00:00",
+  "generated_utc": "2026-08-12T11:42:50.199363+00:00",
   "date": "2026-08-12",
   "lookback_hours": 25,
   "source_status": [
@@ -42,12 +42,12 @@
     {
       "name": "Neowin",
       "status": "OK",
-      "count": 3
+      "count": 5
     },
     {
       "name": "The Hacker News",
       "status": "OK",
-      "count": 8
+      "count": 11
     },
     {
       "name": "Krebs on Security",
@@ -98,6 +98,69 @@
   ],
   "items": {
     "high_alert": [
+      {
+        "fingerprint": "5dcfd73a7095",
+        "title": "Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws",
+        "link": "https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html",
+        "source": "The Hacker News",
+        "published": "2026-08-12T11:13:03+00:00",
+        "summary": "Adobe has shipped updates to address multiple critical security vulnerabilities impacting ColdFusion, Commerce, and Campaign Classic that, if successfully exploited, could result in arbitrary code execution and privilege escalation. The most severe of the flaws are listed below - CVE-2026-48362 (CVSS score: 10.0) - An operating system command injection vulnerability in ColdFusion that could",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "e5834563a2b9",
+        "title": "New Microsoft Defender 'ShieldBreak' zero-day grants SYSTEM privileges",
+        "link": "https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldbreak-zero-day-grants-system-privileges/",
+        "source": "BleepingComputer",
+        "published": "2026-08-12T10:15:22+00:00",
+        "summary": "Nightmare Eclipse has released a new Microsoft Defender zero-day exploit named \"ShieldBreak\" after Microsoft released the August 2026 Patch Tuesday security updates. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "390f27c96fce",
+        "title": "Attackers Exploit VMware vCenter Vulnerability to Gain Persistent Remote Access",
+        "link": "https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html",
+        "source": "The Hacker News",
+        "published": "2026-08-12T09:01:54+00:00",
+        "summary": "Threat actors have begun to actively exploit a recently patched critical security flaw in Broadcom VMware vCenter, according to new findings from QUIRSO. The vulnerability in question is CVE-2026-59310 (CVSS score: 9.8), a directory-traversal vulnerability in the VMware vCenter server that a malicious actor with network access can exploit to execute arbitrary code. Patches for the flaw were",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "fe19cbad5ed9",
+        "title": "SAP Commerce Cloud Flaw Could Let Unauthenticated Attackers Execute Arbitrary Code",
+        "link": "https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html",
+        "source": "The Hacker News",
+        "published": "2026-08-12T07:31:40+00:00",
+        "summary": "SAP has released patches to address a maximum-severity security flaw impacting Commerce Cloud (Data Hub Adapter) that could result in arbitrary code execution. The vulnerability, assigned the CVE identifier CVE-2026-58231, is rated 10.0 on the CVSS scoring system. It has been described as a case of insufficient authorization checks and input validation. \"SAP Commerce Cloud allows an",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "0192e8b5ead0",
+        "title": "ShieldBreak Zero-Day PoC Claims Microsoft Defender Patch Bypass With SYSTEM Access",
+        "link": "https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html",
+        "source": "The Hacker News",
+        "published": "2026-08-12T06:41:38+00:00",
+        "summary": "The security researcher going by the name Chaotic Eclipse (aka INFINITE NIGHTMARE, MSNightmare, and Nightmare-Eclipse) has released a proof-of-concept (PoC) for a new Microsoft zero-day called ShieldBreak. The vulnerability, rooted in Microsoft Defender for Windows, demonstrates a patch bypass for CVE-2026-50656 (CVSS score: 7.8), otherwise known as RoguePlanet. RoguePlanet has been described",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "33331c021b63",
+        "title": "Cisco pushes urgent patches for actively exploited zero-day flaw crashing firewalls",
+        "link": "https://www.neowin.net/news/cisco-pushes-urgent-patches-for-actively-exploited-zero-day-flaw-crashing-firewalls/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-08-12T06:34:01+00:00",
+        "summary": "An active zero-day vulnerability is crashing Cisco firewalls remotely without authentication, and there are no workarounds. Here is what admins need to know right now. Read more...",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "4f0725bc6fca",
+        "title": "Cisco ASA and FTD Flaw Exploited in the Wild Can Trigger Remote DoS",
+        "link": "https://thehackernews.com/2026/08/cisco-asa-and-ftd-flaw-exploited-in.html",
+        "source": "The Hacker News",
+        "published": "2026-08-12T06:15:58+00:00",
+        "summary": "Cisco has warned that a new vulnerability impacting Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software has been exploited in the wild. The high-severity flaw, tracked as CVE-2026-20349 (CVSS score: 8.6), is a case of insufficient error checking when processing HTTP requests that could allow an unauthenticated, remote attacker to trigger",
+        "category": "high_alert"
+      },
       {
         "fingerprint": "b963e48e191c",
         "title": "DeadLock ransomware uses blockchain to resist infrastructure takedown",
@@ -168,24 +231,6 @@
         "source": "BleepingComputer",
         "published": "2026-08-11T12:12:16+00:00",
         "summary": "CISA confirmed today that ransomware gangs have begun abusing a high-severity Microsoft SharePoint remote code execution vulnerability, which has been flagged as actively exploited since early July. [...]",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "2cae818f0b45",
-        "title": "US and South Korea warn of Gunra ransomware targeting govt agencies",
-        "link": "https://www.bleepingcomputer.com/news/security/us-warns-of-gunra-ransomware-attacks-against-government-critical-infrastructure/",
-        "source": "BleepingComputer",
-        "published": "2026-08-11T09:47:06+00:00",
-        "summary": "U.S. federal agencies and South Korea's National Policy Agency warned government and critical infrastructure organizations worldwide to secure their systems against Gunra ransomware attacks. [...]",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "376f5494add9",
-        "title": "Gunra Ransomware Exploits Fortinet and Schneider Electric Flaws to Breach Networks",
-        "link": "https://thehackernews.com/2026/08/gunra-ransomware-exploits-fortinet-and.html",
-        "source": "The Hacker News",
-        "published": "2026-08-11T09:16:24+00:00",
-        "summary": "Cybersecurity and intelligence agencies from South Korea and the U.S. warned of Gunra ransomware attacks targeting critical infrastructure sectors and organizations across the world. Targets of these attacks include healthcare and public health, financial services, government services and facilities, and professional and nonprofit services. \"Gunra is another variant in the ongoing trend of",
         "category": "high_alert"
       }
     ],
@@ -295,6 +340,15 @@
     ],
     "community_buzz": [
       {
+        "fingerprint": "044fb508b255",
+        "title": "SpaceXAI launches OpenClaw-style Grok Bot that can work across apps on its own",
+        "link": "https://www.neowin.net/news/spacexai-launches-openclaw-style-grok-bot-that-can-work-across-apps-on-its-own/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-08-12T05:14:01+00:00",
+        "summary": "Unlike traditional local assistants, Grok Bot operates using a dedicated cloud PC, enabling it to log into apps and websites directly even without APIs or MCPs. Read more...",
+        "category": "community_buzz"
+      },
+      {
         "fingerprint": "4860ea1d5ac1",
         "title": "Kimwolf v7 Android Botnet Makes HTTP/2 DDoS Traffic Look Like Legitimate Browsing",
         "link": "https://thehackernews.com/2026/08/kimwolf-v7-android-botnet-makes-http2.html",
@@ -337,15 +391,6 @@
         "source": "Neowin",
         "published": "2026-08-11T12:26:01+00:00",
         "summary": "Microsoft Entra just gained several new features for IT admins, but some of the most useful changes may have flown under the radar. Read more...",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "87ba6d9da925",
-        "title": "BdThemes Supply Chain Attack Poisons JSON to Create Rogue WordPress Admins",
-        "link": "https://thehackernews.com/2026/08/bdthemes-supply-chain-attack-poisons.html",
-        "source": "The Hacker News",
-        "published": "2026-08-11T05:48:44+00:00",
-        "summary": "Cybersecurity researchers have warned of a supply chain compromise impacting WordPress plugin vendor BdThemes, prompting the content management systems (CMS) platform's plugins team to temporarily disable their downloads. \"Unlike traditional software supply chain attacks, zero source code files were modified within the official WordPress.org repository,\" Wordfence researcher Paolo Tresso said.",
         "category": "community_buzz"
       }
     ]
