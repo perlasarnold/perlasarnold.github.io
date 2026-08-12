@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - August 12, 2026"
+date: 2026-08-12 14:50:33 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - August 12, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -66,4 +74,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Counted every Chrome and Firefox security fix from the last 12 months out of the official repos. The numbers moved a lot this spring.](https://www.reddit.com/r/cybersecurity/comments/1vmc9ee/counted_every_chrome_and_firefox_security_fix/) - *(Reddit r/cybersecurity)*
 - [Signal adds new security feature to thwart man-in-the-middle attacks](https://www.bleepingcomputer.com/news/security/signal-adds-new-security-feature-to-thwart-man-in-the-middle-attacks/) - *(BleepingComputer)*
 - [Nightmare-Eclipse Drops ShieldBreak Windows Defender 0-day Vulnerability](https://cybersecuritynews.com/nightmare-eclipse-drops-shieldbreak-0-day/) - *(CybersecurityNews)*
+
 
