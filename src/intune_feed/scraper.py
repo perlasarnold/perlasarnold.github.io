@@ -45,10 +45,12 @@ LOOKBACK_HOURS = int(os.environ.get("LOOKBACK_HOURS", "25"))
 MAX_ITEMS_PER_SOURCE = int(os.environ.get("MAX_ITEMS_PER_SOURCE", "25"))
 
 USER_AGENT = (
-    "web:perlasarnold-intel:v1.1 (by /u/perlasarnold)"
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
 )
 
-REQ# RSS feed definitions — Microsoft official + security news + CISA
+REQUESTS_TIMEOUT = 30  # seconds
+
+# RSS feed definitions — Microsoft official + security news + CISA
 RSS_FEEDS = [
     {
         "name": "CISA Cyber Advisories",

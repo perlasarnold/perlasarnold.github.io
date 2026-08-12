@@ -1,12 +1,18 @@
 {
-  "generated_utc": "2026-08-11T14:20:51.423528+00:00",
-  "date": "2026-08-11",
+  "generated_utc": "2026-08-12T03:44:45.808558+00:00",
+  "date": "2026-08-12",
   "lookback_hours": 25,
   "source_status": [
     {
+      "name": "CISA Cyber Advisories",
+      "status": "Error",
+      "count": 0,
+      "message": "403 Client Error: Forbidden for url: https://www.cisa.gov/cybersecurity-advisories/all.xml"
+    },
+    {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 3
+      "count": 9
     },
     {
       "name": "Microsoft Intune What's New",
@@ -21,7 +27,7 @@
     {
       "name": "Microsoft Security Blog",
       "status": "OK",
-      "count": 2
+      "count": 0
     },
     {
       "name": "Microsoft Entra Blog",
@@ -31,17 +37,17 @@
     {
       "name": "BleepingComputer",
       "status": "OK",
-      "count": 0
+      "count": 7
     },
     {
       "name": "Neowin",
       "status": "OK",
-      "count": 1
+      "count": 3
     },
     {
       "name": "The Hacker News",
       "status": "OK",
-      "count": 0
+      "count": 8
     },
     {
       "name": "Krebs on Security",
@@ -91,58 +97,239 @@
     }
   ],
   "items": {
-    "high_alert": [],
+    "high_alert": [
+      {
+        "fingerprint": "b963e48e191c",
+        "title": "DeadLock ransomware uses blockchain to resist infrastructure takedown",
+        "link": "https://www.bleepingcomputer.com/news/security/deadlock-ransomware-uses-blockchain-to-resist-infrastructure-takedown/",
+        "source": "BleepingComputer",
+        "published": "2026-08-11T22:15:22+00:00",
+        "summary": "The DeadLock ransomware operation is using a decentralized infrastructure that relies on blockchain-backed services to protect its communication with victims and data-leak activity. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "d4caf45183ed",
+        "title": "Microsoft Patches 398 Flaws Including a Windows Driver Zero-Day Under Active Attack",
+        "link": "https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html",
+        "source": "The Hacker News",
+        "published": "2026-08-11T20:10:55+00:00",
+        "summary": "Microsoft released its monthly security updates on Tuesday, and one of the flaws it closed is already being used in attacks. The bug sits in a core Windows kernel driver that handles network socket operations. An attacker with code already running on a machine can use it to escalate to SYSTEM. That patch goes out first. The flaw is tracked as CVE-2026-68820 (CVSS score: 7.0) and is the only",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "176fa5cdf108",
+        "title": "Sandworm-Linked UAC-0145 Uses Fake Job Interviews to Push VPN That Can Run Commands",
+        "link": "https://thehackernews.com/2026/08/sandworm-linked-uac-0145-uses-fake-job.html",
+        "source": "The Hacker News",
+        "published": "2026-08-11T18:36:47+00:00",
+        "summary": "The Computer Emergency Response Team of Ukraine (CERT-UA) has disclosed details of a new social engineering campaign orchestrated by Russian nation-state threat actors targeting IT workers in the country by masquerading as recruiters to trick them into installing malware. CERT-UA pinned the activity on a threat cluster it tracks as UAC-0145, which is a subgroup within Sandworm (aka APT44,",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "cb54f3a6860d",
+        "title": "Microsoft August 2026 Patch Tuesday fixes 400 flaws, 3 zero-days",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-august-2026-patch-tuesday-fixes-400-flaws-3-zero-days/",
+        "source": "BleepingComputer",
+        "published": "2026-08-11T18:08:50+00:00",
+        "summary": "Today is Microsoft's August 2026 Patch Tuesday, and with it comes security updates for a massive 400 flaws, including one actively exploited and two publicly disclosed zero-day vulnerabilities. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "e49e64fb4e65",
+        "title": "Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unauthenticated RCE",
+        "link": "https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html",
+        "source": "The Hacker News",
+        "published": "2026-08-11T16:47:44+00:00",
+        "summary": "Security researchers found a way to enter Microsoft SharePoint servers as any user, including an administrator, with no valid account. A significant part of the work that found it was done through an AI agent. The flaw, tracked as CVE-2026-55040 (CVSS 9.1), affects SharePoint Server Subscription Edition, SharePoint Server 2019, and SharePoint Server 2016. Microsoft's",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "3d40981988ee",
+        "title": "DeadLock Ransomware Uses Polygon Smart Contracts to Make Extortion Infra Harder to Disrupt",
+        "link": "https://thehackernews.com/2026/08/deadlock-ransomware-uses-polygon-smart.html",
+        "source": "The Hacker News",
+        "published": "2026-08-11T16:35:27+00:00",
+        "summary": "The ransomware group known as DeadLock has been observed using decentralized infrastructure to facilitate victim communications and data leak operations in a bid to improve operational resilience. \"Its recovery ecosystem combines the Session messaging network with blockchain-backed services that store and deliver resources used throughout the extortion process,\" the Microsoft Threat",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "31d07e928d38",
+        "title": "OpenAI Launches GPT-5.6-Cyber with Reduced Safeguards for Exploit Development",
+        "link": "https://thehackernews.com/2026/08/openai-launches-gpt-56-cyber-with.html",
+        "source": "The Hacker News",
+        "published": "2026-08-11T13:11:23+00:00",
+        "summary": "OpenAI on Monday unveiled a new cybersecurity-focused model called GPT‑5.6‑Cyber that it said is focused on vulnerability research, penetration testing, and incident response. \"Built on GPT‑5.6 Sol, it is trained to improve capabilities on several specialized cybersecurity tasks (e.g., finding zero-day vulnerabilities and developing exploit chains) and to reduce refusals for certain higher-risk",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "5dfcfdc5b6e5",
+        "title": "CISA: Microsoft SharePoint flaw now exploited in ransomware attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-flaw-now-exploited-in-ransomware-attacks/",
+        "source": "BleepingComputer",
+        "published": "2026-08-11T12:12:16+00:00",
+        "summary": "CISA confirmed today that ransomware gangs have begun abusing a high-severity Microsoft SharePoint remote code execution vulnerability, which has been flagged as actively exploited since early July. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "2cae818f0b45",
+        "title": "US and South Korea warn of Gunra ransomware targeting govt agencies",
+        "link": "https://www.bleepingcomputer.com/news/security/us-warns-of-gunra-ransomware-attacks-against-government-critical-infrastructure/",
+        "source": "BleepingComputer",
+        "published": "2026-08-11T09:47:06+00:00",
+        "summary": "U.S. federal agencies and South Korea's National Policy Agency warned government and critical infrastructure organizations worldwide to secure their systems against Gunra ransomware attacks. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "376f5494add9",
+        "title": "Gunra Ransomware Exploits Fortinet and Schneider Electric Flaws to Breach Networks",
+        "link": "https://thehackernews.com/2026/08/gunra-ransomware-exploits-fortinet-and.html",
+        "source": "The Hacker News",
+        "published": "2026-08-11T09:16:24+00:00",
+        "summary": "Cybersecurity and intelligence agencies from South Korea and the U.S. warned of Gunra ransomware attacks targeting critical infrastructure sectors and organizations across the world. Targets of these attacks include healthcare and public health, financial services, government services and facilities, and professional and nonprofit services. \"Gunra is another variant in the ongoing trend of",
+        "category": "high_alert"
+      }
+    ],
     "bad_updates": [],
     "upcoming_changes": [
       {
-        "fingerprint": "7dd2a3529d09",
-        "title": "Microsoft Copilot Studio: Dataverse integration on Copilot Studio",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=568929",
+        "fingerprint": "2ef670bf857e",
+        "title": "Microsoft Copilot (Microsoft 365): Add Agents and Skills from the Plus menu",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569213",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-08-10T22:43:02+00:00",
-        "summary": "We are enabling Microsoft Dataverse as a native knowledge source in Copilot Studio, expanding the platform’s ability to ground AI agents in structured enterprise data. This enhancement allows organizations to leverage business-critical information stored in Dataverse—including records, customer data, operational data, and business application content—as a trusted knowledge source for agent expe...",
+        "published": "2026-08-11T22:53:53+00:00",
+        "summary": "Users will be able to insert Agents and Skills in prompts for specialized tasks. They can add them from the Agents and Skills tab after selecting 'Add work content' from the plus (+) menu. Users can also access Agents and Skills by typing / and @ in their prompt. GA date: September CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "6dcc40dc85e0",
-        "title": "Microsoft Edge: Updated horizontal tab appearance",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=568793",
+        "fingerprint": "71f6d970c6e0",
+        "title": "Microsoft Copilot (Microsoft 365):  JPG and PNG references in Copilot Notebooks",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569211",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-08-10T22:43:02+00:00",
-        "summary": "Microsoft Edge is introducing an updated horizontal tab-strip appearance on Windows and macOS. The treatment uses rounded tabs with revised spacing and aligns related tab-strip controls with the refreshed browser-frame design. Tab behavior and enterprise data handling remain unchanged. GA date: September CY2026",
+        "published": "2026-08-11T22:53:53+00:00",
+        "summary": "Copilot Notebooks now supports JPG and PNG files as knowledge sources, allowing users to bring images directly into their projects alongside traditional documents. Copilot can use the content within these images, including text, charts, diagrams, and other visuals, as grounding context to help generate more relevant presentations, reports, and briefs. GA date: October CY2026 Preview date: Septe...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "4ad4b21fb0de",
-        "title": "Microsoft Copilot (Microsoft 365): Review PDFs using the Copilot context menu on OneDrive iOS",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=568790",
+        "fingerprint": "babe6a5c8f5e",
+        "title": "Microsoft Copilot (Microsoft 365): CSV and TSV references in Copilot Notebooks",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569210",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-08-10T22:43:02+00:00",
-        "summary": "Microsoft 365 Copilot makes PDF reviews faster and easier on mobile. Select text in any PDF in OneDrive iOS and tap Ask Copilot to explain, summarize, translate, or ask a custom question about the selection — the same in-context Copilot experience already generally available on desktop, now on OneDrive iOS. GA date: October CY2026",
+        "published": "2026-08-11T22:53:53+00:00",
+        "summary": "Copilot Notebooks now supports CSV and TSV files as knowledge sources, allowing users to bring structured lists and tables directly into their projects alongside traditional documents. This additional context helps Copilot generate more relevant presentations, reports, and briefs. GA date: October CY2026 Preview date: September CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "c60a1cc42d12",
+        "title": "Microsoft Teams: Add multiple steps when building a workflow from scratch",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569209",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-08-11T22:53:53+00:00",
+        "summary": "You will now be able to add multiple steps to your workflow when building one from scratch. GA date: September CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "15cf1430183c",
+        "title": "SharePoint: HTML pages",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569208",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-08-11T22:53:53+00:00",
+        "summary": "Create HTML with Copilot in SharePoint or upload your own HTML from another source. Once stored in the pages library, you can render HTML as a page in SharePoint, make additional edits, and share with your audience. HTML gives you new ways to present your content beautifully alongside our existing ASPX pages. GA date: October CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "4de4263c6a06",
+        "title": "OneNote: New Copilot Notebooks design in the Microsoft 365 Copilot app (DoD, GCC, GCC High)",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569203",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-08-11T22:53:53+00:00",
+        "summary": "The new Copilot Notebooks design in the Microsoft 365 Copilot app for DoD, GCC, and GCC High clouds now lets users organize related chats, output creations, and references into a persistent AI workspace. Copilot uses the Notebook's accumulated context to ground responses, so work continues across sessions instead of starting over each time. While this is the quicker, light-weight Notebooks expe...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "a5a80381bd12",
+        "title": "Microsoft Teams: Identify custom apps that need updates for Teams private and shared channels",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569019",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-08-11T22:53:53+00:00",
+        "summary": "Admins will be able to view in Teams Admin Center a list of custom apps in their tenant that need to be updated to work in private and shared channels. This experience will help admins identify impacted apps, understand which apps require developer action, and coordinate updates so users can continue using custom apps across all supported channel types. GA date: September CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "3416dd21e7de",
+        "title": "Microsoft Teams: Collect information with list form in Workflows",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=568932",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-08-11T22:53:53+00:00",
+        "summary": "Starts a workflow with a form to collect the information you need to run the rest of your workflow. GA date: September CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "4937e077a3e9",
+        "title": "Microsoft Entra: Windows Hello for Business and macOS Platform Single Sign-on can now be used as a second factor for MFA",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=568076",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-08-11T22:53:53+00:00",
+        "summary": "Windows Hello for Business (WHfB) and macOS Platform SSO (macOS PSSO) can now satisfy multifactor authentication as a standalone second factor. Previously, these methods only counted as MFA during primary sign-in, and users needed a separate passkey to complete step-up prompts, Authentication Strength policies, and sign-in frequency checks. With this change, WHfB and macOS PSSO work on their ow...",
         "category": "upcoming_changes"
       }
     ],
     "official_news": [
       {
-        "fingerprint": "27865a7d8193",
-        "title": "Microsoft named a Leader in the 2026 IDC MarketScape for MDR/MXDR for the Enterprise",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/08/10/microsoft-named-a-leader-in-the-2026-idc-marketscape-for-mdr-mxdr-for-the-enterprise/",
-        "source": "Microsoft Security Blog",
-        "published": "2026-08-10T16:00:00+00:00",
-        "summary": "Microsoft is named a Leader in the 2026 IDC MarketScape for MDR services. Discover how Microsoft Defender Experts MDR combines AI, threat intelligence, and human expertise. The post Microsoft named a Leader in the 2026 IDC MarketScape for MDR/MXDR for the Enterprise appeared first on Microsoft Security Blog .",
+        "fingerprint": "a84fb284c935",
+        "title": "Microsoft: Windows 10 KB5120249 August 2026 Patch Tuesday update now available",
+        "link": "https://www.neowin.net/news/microsoft-windows-10-kb5120249-august-2026-patch-tuesday-update-now-available/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-08-11T17:15:14+00:00",
+        "summary": "Microsoft has released the August 2026 Patch Tuesday cumulative updates for Windows 10 under KB5120249. Read more...",
         "category": "official_news"
       },
       {
-        "fingerprint": "c79fac7f7f1b",
-        "title": "DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/08/10/deadlock-ransomware-breaking-down-a-rust-based-encryptor-with-decentralized-recovery-infrastructure/",
-        "source": "Microsoft Security Blog",
-        "published": "2026-08-10T15:00:00+00:00",
-        "summary": "Microsoft Threat Intelligence examines DeadLock ransomware, an emerging financially motivated operation distinguished by its use of decentralized infrastructure to support victim communications, negotiations, and data leak operations alongside double extortion tactics used to pressure victims. The post DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrast...",
+        "fingerprint": "a6a8c7fad2e1",
+        "title": "Windows 11 KB5121003, KB5120240, and KB5121000 Patch Tuesday updates are now available",
+        "link": "https://www.neowin.net/news/windows-11-kb5121003-kb5120240-and-kb5121000-patch-tuesday-updates-are-now-available/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-08-11T17:12:01+00:00",
+        "summary": "Microsoft has released Patch Tuesday updates KB5121003, KB5120240, and KB5121000 for Windows 11 for August 2026. Here's what's included: Read more...",
         "category": "official_news"
       }
     ],
     "community_buzz": [
+      {
+        "fingerprint": "4860ea1d5ac1",
+        "title": "Kimwolf v7 Android Botnet Makes HTTP/2 DDoS Traffic Look Like Legitimate Browsing",
+        "link": "https://thehackernews.com/2026/08/kimwolf-v7-android-botnet-makes-http2.html",
+        "source": "The Hacker News",
+        "published": "2026-08-11T19:36:37+00:00",
+        "summary": "Cybersecurity researchers have discovered a new version of the Kimwolf/AISURU Android and Internet of Things (IoT) botnet that comes with significant improvements to improve its operational resilience and conduct distributed denial-of-service (DDoS) attacks. The new version, tracked as Kimwolf v7, was discovered by Palo Alto Networks Unit 42 in February 2026. \"Kimwolf v7 adds an HTTP/2-based",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "6aa5b0907841",
+        "title": "Microsoft releases Windows 10 KB5120249 extended security update",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5120249-cumulative-update-released-with-fixes/",
+        "source": "BleepingComputer",
+        "published": "2026-08-11T18:26:03+00:00",
+        "summary": "Microsoft has released Windows 10 KB5120249 Extended Security Updates for versions 22H2 and 21H2 to fix security vulnerabilities and bugs. [...]",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "2c3189e33a0b",
+        "title": "Windows 11 KB5121003 & KB5120240 cumulative updates released",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5121003-and-kb5120240-cumulative-updates-released/",
+        "source": "BleepingComputer",
+        "published": "2026-08-11T17:38:42+00:00",
+        "summary": "Microsoft has released Windows 11 KB5121003 and KB5120240 cumulative updates for versions 25H2/24H2 and 23H2 to fix security vulnerabilities, bugs, and add new features. [...]",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "f139edd8be80",
+        "title": "Wesco confirms security incident after ExfilSquad claims data theft",
+        "link": "https://www.bleepingcomputer.com/news/security/wesco-confirms-security-incident-after-exfilsquad-claims-data-theft/",
+        "source": "BleepingComputer",
+        "published": "2026-08-11T15:59:35+00:00",
+        "summary": "Global supply chain and distribution giant Wesco has confirmed in a statement for BleepingComputer that it is investigating a cybersecurity incident. [...]",
+        "category": "community_buzz"
+      },
       {
         "fingerprint": "e95806656be5",
         "title": "Here are all the new Entra features Microsoft rolled out to IT admins recently",
@@ -150,6 +337,15 @@
         "source": "Neowin",
         "published": "2026-08-11T12:26:01+00:00",
         "summary": "Microsoft Entra just gained several new features for IT admins, but some of the most useful changes may have flown under the radar. Read more...",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "87ba6d9da925",
+        "title": "BdThemes Supply Chain Attack Poisons JSON to Create Rogue WordPress Admins",
+        "link": "https://thehackernews.com/2026/08/bdthemes-supply-chain-attack-poisons.html",
+        "source": "The Hacker News",
+        "published": "2026-08-11T05:48:44+00:00",
+        "summary": "Cybersecurity researchers have warned of a supply chain compromise impacting WordPress plugin vendor BdThemes, prompting the content management systems (CMS) platform's plugins team to temporarily disable their downloads. \"Unlike traditional software supply chain attacks, zero source code files were modified within the official WordPress.org repository,\" Wordfence researcher Paolo Tresso said.",
         "category": "community_buzz"
       }
     ]
