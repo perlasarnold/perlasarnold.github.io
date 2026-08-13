@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-12T11:42:50.199363+00:00",
-  "date": "2026-08-12",
+  "generated_utc": "2026-08-13T11:42:46.231830+00:00",
+  "date": "2026-08-13",
   "lookback_hours": 25,
   "source_status": [
     {
@@ -12,7 +12,7 @@
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 9
+      "count": 1
     },
     {
       "name": "Microsoft Intune What's New",
@@ -37,17 +37,17 @@
     {
       "name": "BleepingComputer",
       "status": "OK",
-      "count": 7
+      "count": 5
     },
     {
       "name": "Neowin",
       "status": "OK",
-      "count": 5
+      "count": 2
     },
     {
       "name": "The Hacker News",
       "status": "OK",
-      "count": 11
+      "count": 3
     },
     {
       "name": "Krebs on Security",
@@ -99,6 +99,69 @@
   "items": {
     "high_alert": [
       {
+        "fingerprint": "b0d8d489a18d",
+        "title": "NightmareEclipse strikes again at Windows 11 exploit with ShieldBreak proof of concept",
+        "link": "https://www.neowin.net/news/nightmareeclipse-strikes-again-at-windows-11-exploit-with-shieldbreak-proof-of-concept/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-08-13T10:48:02+00:00",
+        "summary": "This is a zero-day bug being exploited so Microsoft has not patched the issue yet. Admins need to be on the lookout for a fix from Microsoft and apply it ASAP. Read more...",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "33d6bd992a96",
+        "title": "Attackers Exploit SharePoint Authentication Bypass After Public PoC Release",
+        "link": "https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html",
+        "source": "The Hacker News",
+        "published": "2026-08-13T06:09:48+00:00",
+        "summary": "Threat actors have begun to exploit a newly disclosed Microsoft SharePoint vulnerability following the release of a proof-of-concept (PoC) code. The vulnerability in question is CVE-2026-55040 (CVSS score: 9.1), which refers to a critical security feature bypass that stems from weak authentication. It was patched by Microsoft as part of its July 2026 Patch Tuesday updates. \"The authentication",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "f299ce89c9e6",
+        "title": "Android malware combo takes out loans and relays victims' credit cards",
+        "link": "https://www.bleepingcomputer.com/news/security/android-malware-combo-takes-out-loans-and-relays-victims-credit-cards/",
+        "source": "BleepingComputer",
+        "published": "2026-08-12T22:22:57+00:00",
+        "summary": "A new Android NFC relay malware called WindRelay is being used alongside the SpyNote remote administration tool (RAT) to steal live card data and send it to attackers in real time. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "4b68251f142c",
+        "title": "Hackers exploit critical Adobe Commerce flaw to hijack customer accounts",
+        "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-adobe-commerce-flaw-to-hijack-customer-accounts/",
+        "source": "BleepingComputer",
+        "published": "2026-08-12T20:54:59+00:00",
+        "summary": "Attempts to exploit a critical vulnerability (CVE-2026-71362) in Adobe's Commerce and Magento e-commerce platforms have been detected, potentially allowing attackers to hijack customer accounts. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "708b297686ca",
+        "title": "Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor",
+        "link": "https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html",
+        "source": "The Hacker News",
+        "published": "2026-08-12T17:39:27+00:00",
+        "summary": "The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched security flaw impacting Microsoft Windows to deliver a never-before-seen backdoor targeting defense and aerospace companies across France, Germany, Brazil, and India. The activity, per Check Point Research, is part of Operation Dream Job, a long-running cyber espionage and",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "2eb913355435",
+        "title": "Lazarus hackers exploited Windows zero-day to target defense firms",
+        "link": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-exploited-windows-zero-day-to-target-defense-firms/",
+        "source": "BleepingComputer",
+        "published": "2026-08-12T15:38:08+00:00",
+        "summary": "North Korean hackers have been exploiting a Windows zero-day vulnerability (CVE-2026-68820) to target defense-sector companies as part of the Operation Dream Job campaign. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "e567ed58a28b",
+        "title": "Windows 11, Windows 10, Windows Server affected by in-the-wild exploit, here's what to do",
+        "link": "https://www.neowin.net/news/windows-11-windows-10-windows-server-affected-by-in-the-wild-exploit-heres-what-to-do/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-08-12T14:08:01+00:00",
+        "summary": "Admins responsible for Windows fleets are advised to take action to protect their systems against this actively exploited vulnerability. Here's what you need to do to stay secure. Read more...",
+        "category": "high_alert"
+      },
+      {
         "fingerprint": "5dcfd73a7095",
         "title": "Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws",
         "link": "https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html",
@@ -106,291 +169,38 @@
         "published": "2026-08-12T11:13:03+00:00",
         "summary": "Adobe has shipped updates to address multiple critical security vulnerabilities impacting ColdFusion, Commerce, and Campaign Classic that, if successfully exploited, could result in arbitrary code execution and privilege escalation. The most severe of the flaws are listed below - CVE-2026-48362 (CVSS score: 10.0) - An operating system command injection vulnerability in ColdFusion that could",
         "category": "high_alert"
-      },
-      {
-        "fingerprint": "e5834563a2b9",
-        "title": "New Microsoft Defender 'ShieldBreak' zero-day grants SYSTEM privileges",
-        "link": "https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldbreak-zero-day-grants-system-privileges/",
-        "source": "BleepingComputer",
-        "published": "2026-08-12T10:15:22+00:00",
-        "summary": "Nightmare Eclipse has released a new Microsoft Defender zero-day exploit named \"ShieldBreak\" after Microsoft released the August 2026 Patch Tuesday security updates. [...]",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "390f27c96fce",
-        "title": "Attackers Exploit VMware vCenter Vulnerability to Gain Persistent Remote Access",
-        "link": "https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html",
-        "source": "The Hacker News",
-        "published": "2026-08-12T09:01:54+00:00",
-        "summary": "Threat actors have begun to actively exploit a recently patched critical security flaw in Broadcom VMware vCenter, according to new findings from QUIRSO. The vulnerability in question is CVE-2026-59310 (CVSS score: 9.8), a directory-traversal vulnerability in the VMware vCenter server that a malicious actor with network access can exploit to execute arbitrary code. Patches for the flaw were",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "fe19cbad5ed9",
-        "title": "SAP Commerce Cloud Flaw Could Let Unauthenticated Attackers Execute Arbitrary Code",
-        "link": "https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html",
-        "source": "The Hacker News",
-        "published": "2026-08-12T07:31:40+00:00",
-        "summary": "SAP has released patches to address a maximum-severity security flaw impacting Commerce Cloud (Data Hub Adapter) that could result in arbitrary code execution. The vulnerability, assigned the CVE identifier CVE-2026-58231, is rated 10.0 on the CVSS scoring system. It has been described as a case of insufficient authorization checks and input validation. \"SAP Commerce Cloud allows an",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "0192e8b5ead0",
-        "title": "ShieldBreak Zero-Day PoC Claims Microsoft Defender Patch Bypass With SYSTEM Access",
-        "link": "https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html",
-        "source": "The Hacker News",
-        "published": "2026-08-12T06:41:38+00:00",
-        "summary": "The security researcher going by the name Chaotic Eclipse (aka INFINITE NIGHTMARE, MSNightmare, and Nightmare-Eclipse) has released a proof-of-concept (PoC) for a new Microsoft zero-day called ShieldBreak. The vulnerability, rooted in Microsoft Defender for Windows, demonstrates a patch bypass for CVE-2026-50656 (CVSS score: 7.8), otherwise known as RoguePlanet. RoguePlanet has been described",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "33331c021b63",
-        "title": "Cisco pushes urgent patches for actively exploited zero-day flaw crashing firewalls",
-        "link": "https://www.neowin.net/news/cisco-pushes-urgent-patches-for-actively-exploited-zero-day-flaw-crashing-firewalls/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-08-12T06:34:01+00:00",
-        "summary": "An active zero-day vulnerability is crashing Cisco firewalls remotely without authentication, and there are no workarounds. Here is what admins need to know right now. Read more...",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "4f0725bc6fca",
-        "title": "Cisco ASA and FTD Flaw Exploited in the Wild Can Trigger Remote DoS",
-        "link": "https://thehackernews.com/2026/08/cisco-asa-and-ftd-flaw-exploited-in.html",
-        "source": "The Hacker News",
-        "published": "2026-08-12T06:15:58+00:00",
-        "summary": "Cisco has warned that a new vulnerability impacting Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software has been exploited in the wild. The high-severity flaw, tracked as CVE-2026-20349 (CVSS score: 8.6), is a case of insufficient error checking when processing HTTP requests that could allow an unauthenticated, remote attacker to trigger",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "b963e48e191c",
-        "title": "DeadLock ransomware uses blockchain to resist infrastructure takedown",
-        "link": "https://www.bleepingcomputer.com/news/security/deadlock-ransomware-uses-blockchain-to-resist-infrastructure-takedown/",
-        "source": "BleepingComputer",
-        "published": "2026-08-11T22:15:22+00:00",
-        "summary": "The DeadLock ransomware operation is using a decentralized infrastructure that relies on blockchain-backed services to protect its communication with victims and data-leak activity. [...]",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "d4caf45183ed",
-        "title": "Microsoft Patches 398 Flaws Including a Windows Driver Zero-Day Under Active Attack",
-        "link": "https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html",
-        "source": "The Hacker News",
-        "published": "2026-08-11T20:10:55+00:00",
-        "summary": "Microsoft released its monthly security updates on Tuesday, and one of the flaws it closed is already being used in attacks. The bug sits in a core Windows kernel driver that handles network socket operations. An attacker with code already running on a machine can use it to escalate to SYSTEM. That patch goes out first. The flaw is tracked as CVE-2026-68820 (CVSS score: 7.0) and is the only",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "176fa5cdf108",
-        "title": "Sandworm-Linked UAC-0145 Uses Fake Job Interviews to Push VPN That Can Run Commands",
-        "link": "https://thehackernews.com/2026/08/sandworm-linked-uac-0145-uses-fake-job.html",
-        "source": "The Hacker News",
-        "published": "2026-08-11T18:36:47+00:00",
-        "summary": "The Computer Emergency Response Team of Ukraine (CERT-UA) has disclosed details of a new social engineering campaign orchestrated by Russian nation-state threat actors targeting IT workers in the country by masquerading as recruiters to trick them into installing malware. CERT-UA pinned the activity on a threat cluster it tracks as UAC-0145, which is a subgroup within Sandworm (aka APT44,",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "cb54f3a6860d",
-        "title": "Microsoft August 2026 Patch Tuesday fixes 400 flaws, 3 zero-days",
-        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-august-2026-patch-tuesday-fixes-400-flaws-3-zero-days/",
-        "source": "BleepingComputer",
-        "published": "2026-08-11T18:08:50+00:00",
-        "summary": "Today is Microsoft's August 2026 Patch Tuesday, and with it comes security updates for a massive 400 flaws, including one actively exploited and two publicly disclosed zero-day vulnerabilities. [...]",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "e49e64fb4e65",
-        "title": "Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unauthenticated RCE",
-        "link": "https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html",
-        "source": "The Hacker News",
-        "published": "2026-08-11T16:47:44+00:00",
-        "summary": "Security researchers found a way to enter Microsoft SharePoint servers as any user, including an administrator, with no valid account. A significant part of the work that found it was done through an AI agent. The flaw, tracked as CVE-2026-55040 (CVSS 9.1), affects SharePoint Server Subscription Edition, SharePoint Server 2019, and SharePoint Server 2016. Microsoft's",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "3d40981988ee",
-        "title": "DeadLock Ransomware Uses Polygon Smart Contracts to Make Extortion Infra Harder to Disrupt",
-        "link": "https://thehackernews.com/2026/08/deadlock-ransomware-uses-polygon-smart.html",
-        "source": "The Hacker News",
-        "published": "2026-08-11T16:35:27+00:00",
-        "summary": "The ransomware group known as DeadLock has been observed using decentralized infrastructure to facilitate victim communications and data leak operations in a bid to improve operational resilience. \"Its recovery ecosystem combines the Session messaging network with blockchain-backed services that store and deliver resources used throughout the extortion process,\" the Microsoft Threat",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "31d07e928d38",
-        "title": "OpenAI Launches GPT-5.6-Cyber with Reduced Safeguards for Exploit Development",
-        "link": "https://thehackernews.com/2026/08/openai-launches-gpt-56-cyber-with.html",
-        "source": "The Hacker News",
-        "published": "2026-08-11T13:11:23+00:00",
-        "summary": "OpenAI on Monday unveiled a new cybersecurity-focused model called GPT‑5.6‑Cyber that it said is focused on vulnerability research, penetration testing, and incident response. \"Built on GPT‑5.6 Sol, it is trained to improve capabilities on several specialized cybersecurity tasks (e.g., finding zero-day vulnerabilities and developing exploit chains) and to reduce refusals for certain higher-risk",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "5dfcfdc5b6e5",
-        "title": "CISA: Microsoft SharePoint flaw now exploited in ransomware attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-flaw-now-exploited-in-ransomware-attacks/",
-        "source": "BleepingComputer",
-        "published": "2026-08-11T12:12:16+00:00",
-        "summary": "CISA confirmed today that ransomware gangs have begun abusing a high-severity Microsoft SharePoint remote code execution vulnerability, which has been flagged as actively exploited since early July. [...]",
-        "category": "high_alert"
       }
     ],
     "bad_updates": [],
     "upcoming_changes": [
       {
-        "fingerprint": "2ef670bf857e",
-        "title": "Microsoft Copilot (Microsoft 365): Add Agents and Skills from the Plus menu",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569213",
+        "fingerprint": "db3ba6e4a890",
+        "title": "Microsoft Edge: Vertical Tabs update",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569217",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-08-11T22:53:53+00:00",
-        "summary": "Users will be able to insert Agents and Skills in prompts for specialized tasks. They can add them from the Agents and Skills tab after selecting 'Add work content' from the plus (+) menu. Users can also access Agents and Skills by typing / and @ in their prompt. GA date: September CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "71f6d970c6e0",
-        "title": "Microsoft Copilot (Microsoft 365):  JPG and PNG references in Copilot Notebooks",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569211",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-08-11T22:53:53+00:00",
-        "summary": "Copilot Notebooks now supports JPG and PNG files as knowledge sources, allowing users to bring images directly into their projects alongside traditional documents. Copilot can use the content within these images, including text, charts, diagrams, and other visuals, as grounding context to help generate more relevant presentations, reports, and briefs. GA date: October CY2026 Preview date: Septe...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "babe6a5c8f5e",
-        "title": "Microsoft Copilot (Microsoft 365): CSV and TSV references in Copilot Notebooks",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569210",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-08-11T22:53:53+00:00",
-        "summary": "Copilot Notebooks now supports CSV and TSV files as knowledge sources, allowing users to bring structured lists and tables directly into their projects alongside traditional documents. This additional context helps Copilot generate more relevant presentations, reports, and briefs. GA date: October CY2026 Preview date: September CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "c60a1cc42d12",
-        "title": "Microsoft Teams: Add multiple steps when building a workflow from scratch",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569209",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-08-11T22:53:53+00:00",
-        "summary": "You will now be able to add multiple steps to your workflow when building one from scratch. GA date: September CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "15cf1430183c",
-        "title": "SharePoint: HTML pages",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569208",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-08-11T22:53:53+00:00",
-        "summary": "Create HTML with Copilot in SharePoint or upload your own HTML from another source. Once stored in the pages library, you can render HTML as a page in SharePoint, make additional edits, and share with your audience. HTML gives you new ways to present your content beautifully alongside our existing ASPX pages. GA date: October CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "4de4263c6a06",
-        "title": "OneNote: New Copilot Notebooks design in the Microsoft 365 Copilot app (DoD, GCC, GCC High)",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569203",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-08-11T22:53:53+00:00",
-        "summary": "The new Copilot Notebooks design in the Microsoft 365 Copilot app for DoD, GCC, and GCC High clouds now lets users organize related chats, output creations, and references into a persistent AI workspace. Copilot uses the Notebook's accumulated context to ground responses, so work continues across sessions instead of starting over each time. While this is the quicker, light-weight Notebooks expe...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "a5a80381bd12",
-        "title": "Microsoft Teams: Identify custom apps that need updates for Teams private and shared channels",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569019",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-08-11T22:53:53+00:00",
-        "summary": "Admins will be able to view in Teams Admin Center a list of custom apps in their tenant that need to be updated to work in private and shared channels. This experience will help admins identify impacted apps, understand which apps require developer action, and coordinate updates so users can continue using custom apps across all supported channel types. GA date: September CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "3416dd21e7de",
-        "title": "Microsoft Teams: Collect information with list form in Workflows",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=568932",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-08-11T22:53:53+00:00",
-        "summary": "Starts a workflow with a form to collect the information you need to run the rest of your workflow. GA date: September CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "4937e077a3e9",
-        "title": "Microsoft Entra: Windows Hello for Business and macOS Platform Single Sign-on can now be used as a second factor for MFA",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=568076",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-08-11T22:53:53+00:00",
-        "summary": "Windows Hello for Business (WHfB) and macOS Platform SSO (macOS PSSO) can now satisfy multifactor authentication as a standalone second factor. Previously, these methods only counted as MFA during primary sign-in, and users needed a separate passkey to complete step-up prompts, Authentication Strength policies, and sign-in frequency checks. With this change, WHfB and macOS PSSO work on their ow...",
+        "published": "2026-08-12T22:47:48+00:00",
+        "summary": "Microsoft Edge is updating its vertical tab implementation and architecture. Edge is reimplementing capabilities across pane, layout, controls, tab behavior, visual treatments, & embedder customizations. No admin action is required. GA date: December CY2026",
         "category": "upcoming_changes"
       }
     ],
-    "official_news": [
-      {
-        "fingerprint": "a84fb284c935",
-        "title": "Microsoft: Windows 10 KB5120249 August 2026 Patch Tuesday update now available",
-        "link": "https://www.neowin.net/news/microsoft-windows-10-kb5120249-august-2026-patch-tuesday-update-now-available/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-08-11T17:15:14+00:00",
-        "summary": "Microsoft has released the August 2026 Patch Tuesday cumulative updates for Windows 10 under KB5120249. Read more...",
-        "category": "official_news"
-      },
-      {
-        "fingerprint": "a6a8c7fad2e1",
-        "title": "Windows 11 KB5121003, KB5120240, and KB5121000 Patch Tuesday updates are now available",
-        "link": "https://www.neowin.net/news/windows-11-kb5121003-kb5120240-and-kb5121000-patch-tuesday-updates-are-now-available/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-08-11T17:12:01+00:00",
-        "summary": "Microsoft has released Patch Tuesday updates KB5121003, KB5120240, and KB5121000 for Windows 11 for August 2026. Here's what's included: Read more...",
-        "category": "official_news"
-      }
-    ],
+    "official_news": [],
     "community_buzz": [
       {
-        "fingerprint": "044fb508b255",
-        "title": "SpaceXAI launches OpenClaw-style Grok Bot that can work across apps on its own",
-        "link": "https://www.neowin.net/news/spacexai-launches-openclaw-style-grok-bot-that-can-work-across-apps-on-its-own/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-08-12T05:14:01+00:00",
-        "summary": "Unlike traditional local assistants, Grok Bot operates using a dedicated cloud PC, enabling it to log into apps and websites directly even without APIs or MCPs. Read more...",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "4860ea1d5ac1",
-        "title": "Kimwolf v7 Android Botnet Makes HTTP/2 DDoS Traffic Look Like Legitimate Browsing",
-        "link": "https://thehackernews.com/2026/08/kimwolf-v7-android-botnet-makes-http2.html",
-        "source": "The Hacker News",
-        "published": "2026-08-11T19:36:37+00:00",
-        "summary": "Cybersecurity researchers have discovered a new version of the Kimwolf/AISURU Android and Internet of Things (IoT) botnet that comes with significant improvements to improve its operational resilience and conduct distributed denial-of-service (DDoS) attacks. The new version, tracked as Kimwolf v7, was discovered by Palo Alto Networks Unit 42 in February 2026. \"Kimwolf v7 adds an HTTP/2-based",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "6aa5b0907841",
-        "title": "Microsoft releases Windows 10 KB5120249 extended security update",
-        "link": "https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5120249-cumulative-update-released-with-fixes/",
+        "fingerprint": "10dfcaba6d9d",
+        "title": "The Threat Hiding in Your Hiring Process: How Fake Remote Workers Get In",
+        "link": "https://www.bleepingcomputer.com/news/security/the-threat-hiding-in-your-hiring-process-how-fake-remote-workers-get-in/",
         "source": "BleepingComputer",
-        "published": "2026-08-11T18:26:03+00:00",
-        "summary": "Microsoft has released Windows 10 KB5120249 Extended Security Updates for versions 22H2 and 21H2 to fix security vulnerabilities and bugs. [...]",
+        "published": "2026-08-12T14:01:11+00:00",
+        "summary": "Fake remote workers can exploit gaps between hiring checks, device delivery, and account access to enter organizations under false identities. Specops Software explains how document verification and biometric liveness checks can help organizations confirm that the person receiving access is the legitimate new hire. [...]",
         "category": "community_buzz"
       },
       {
-        "fingerprint": "2c3189e33a0b",
-        "title": "Windows 11 KB5121003 & KB5120240 cumulative updates released",
-        "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5121003-and-kb5120240-cumulative-updates-released/",
+        "fingerprint": "a56edde34298",
+        "title": "Hackers leverage new Microsoft SharePoint exploit in attacks",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/hackers-leverage-new-microsoft-sharepoint-exploit-in-attacks/",
         "source": "BleepingComputer",
-        "published": "2026-08-11T17:38:42+00:00",
-        "summary": "Microsoft has released Windows 11 KB5121003 and KB5120240 cumulative updates for versions 25H2/24H2 and 23H2 to fix security vulnerabilities, bugs, and add new features. [...]",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "f139edd8be80",
-        "title": "Wesco confirms security incident after ExfilSquad claims data theft",
-        "link": "https://www.bleepingcomputer.com/news/security/wesco-confirms-security-incident-after-exfilsquad-claims-data-theft/",
-        "source": "BleepingComputer",
-        "published": "2026-08-11T15:59:35+00:00",
-        "summary": "Global supply chain and distribution giant Wesco has confirmed in a statement for BleepingComputer that it is investigating a cybersecurity incident. [...]",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "e95806656be5",
-        "title": "Here are all the new Entra features Microsoft rolled out to IT admins recently",
-        "link": "https://www.neowin.net/news/here-are-all-the-new-entra-features-microsoft-rolled-out-to-it-admins-recently/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-08-11T12:26:01+00:00",
-        "summary": "Microsoft Entra just gained several new features for IT admins, but some of the most useful changes may have flown under the radar. Read more...",
+        "published": "2026-08-12T12:25:37+00:00",
+        "summary": "Hackers have already begun using a proof-of-concept (PoC) exploit for a critical Microsoft SharePoint vulnerability, published by cybersecurity company Rapid7 on Tuesday. [...]",
         "category": "community_buzz"
       }
     ]
