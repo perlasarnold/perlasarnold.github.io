@@ -259,6 +259,99 @@
   color: var(--ink);
 }
 
+/* Homelab Distinct Showcase Panel */
+.homelab-panel {
+  background: var(--surface);
+  border: 2px solid rgba(141, 59, 31, 0.25);
+  border-radius: 24px;
+  padding: 2.25rem;
+  box-shadow: var(--shadow);
+  margin-top: 1.75rem;
+  transition: border-color 0.3s ease;
+}
+
+[data-theme="dark"] .homelab-panel {
+  border-color: rgba(201, 107, 66, 0.35);
+}
+
+.homelab-panel:hover {
+  border-color: var(--accent);
+}
+
+.homelab-badge-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.homelab-chip {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  background: var(--accent);
+  color: #fff;
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+}
+
+.homelab-intro-text {
+  color: var(--muted);
+  font-size: 1.05rem;
+  line-height: 1.6;
+  max-width: 72ch;
+  margin: 0 0 2rem;
+}
+
+.homelab-pillars-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.pillar-card {
+  background: var(--surface-strong);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+.pillar-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--accent);
+}
+
+.pillar-icon-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.pillar-icon {
+  font-size: 1.4rem;
+  line-height: 1;
+}
+
+.pillar-card h4 {
+  font-family: var(--serif);
+  font-size: 1.15rem;
+  margin: 0;
+  color: var(--ink);
+}
+
+.pillar-card p {
+  font-size: 0.9rem;
+  color: var(--muted);
+  line-height: 1.5;
+  margin: 0 0 1rem;
+}
+
 /* Education & Strengths Banner */
 .education-banner {
   background: var(--surface);
@@ -292,5 +385,9 @@
   .education-banner {
     grid-template-columns: 1fr;
     gap: 1.5rem;
+  }
+
+  .homelab-panel {
+    padding: 1.5rem;
   }
 }
