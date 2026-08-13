@@ -425,68 +425,66 @@ permalink: /work/
         <div class="mermaid-box">
           <pre class="mermaid">
 flowchart TB
-    subgraph WAN ["🌐 Internet & External Ingress"]
+    subgraph WAN ["Internet & External Ingress"]
         ISP["ISP Gateway / Modem"]
         CF["Cloudflare Edge & Zero-Trust Tunnels"]
     end
 
-    subgraph ROUTER ["🛡️ Core Gateway & Firewall Layer"]
-        UniFi["UniFi Gateway / Router<br/>(Firewall Rules, Inter-VLAN Routing & Threat Detection)"]
+    subgraph ROUTER ["Core Gateway & Firewall Layer"]
+        UniFi["UniFi Gateway / Router"]
     end
 
     WAN --> UniFi
 
-    subgraph VLANS ["Network Segmentation (VLANs)"]
+    subgraph VLANS ["Network Segmentation - VLANs"]
 
-        subgraph DMZ ["VLAN 120: DMZ / Ingress"]
-            CF_Tunnel1["Cloudflared Tunnel Agent (Primary)"]
-            CF_Tunnel2["Cloudflared Tunnel Agent (Secondary)"]
-            NPM["Nginx Proxy Manager<br/>(SSL Termination & Reverse Proxy)"]
+        subgraph DMZ ["VLAN 120 - DMZ / Ingress"]
+            CF_Tunnel1["Cloudflared Tunnel Agent - Primary"]
+            CF_Tunnel2["Cloudflared Tunnel Agent - Secondary"]
+            NPM["Nginx Proxy Manager - Reverse Proxy"]
         end
 
-        subgraph MGMT ["VLAN 10: Infrastructure Management"]
-            PVE1_Node["Proxmox VE Node: Bulakan"]
-            PVE2_Node["Proxmox VE Node: Cebu"]
-            PVE3_Node["Proxmox VE Node: Dapitan"]
+        subgraph MGMT ["VLAN 10 - Infrastructure Management"]
+            PVE1_Node["Proxmox VE Node - Bulakan"]
+            PVE2_Node["Proxmox VE Node - Cebu"]
+            PVE3_Node["Proxmox VE Node - Dapitan"]
             Netboot["Netboot.xyz PXE Server"]
         end
 
-        subgraph SERVICES ["VLAN 110: Core Enterprise Services"]
-            Auth["Authentik Identity Provider (IdP / OIDC / SAML SSO)"]
-            Immich["Immich Photo Server (OIDC Authenticated)"]
+        subgraph SERVICES ["VLAN 110 - Core Enterprise Services"]
+            Auth["Authentik Identity Provider SSO"]
+            Immich["Immich Photo Server"]
             Media["Plex & Jellyfin Media Servers"]
-            ArrStack["Arr Stack (Radarr / Sonarr / Prowlarr)"]
+            ArrStack["Arr Stack Media Automation"]
         end
 
         subgraph DNS_HA ["High-Availability DNS Layer"]
-            PiHole1["Primary Pi-hole DNS (Bulakan)"]
-            PiHole2["Secondary Pi-hole DNS (Cebu HA)"]
+            PiHole1["Primary Pi-hole DNS"]
+            PiHole2["Secondary Pi-hole DNS HA"]
         end
 
-        subgraph TRUSTED ["VLAN 20: Trusted Clients & Jump Hosts"]
+        subgraph TRUSTED ["VLAN 20 - Trusted Clients"]
             MintJump["Linux Mint Remote Desktop Jump Box"]
             Workstations["Trusted Workstations & Laptops"]
         end
 
-        subgraph STORAGE ["Storage Fabric (NFS / SMB Shares)"]
-            Synology["Synology NAS (PNAS)<br/>Shared NFS/SMB Storage"]
+        subgraph STORAGE ["Storage Fabric"]
+            Synology["Synology NAS - Shared Storage"]
             TrueNAS["TrueNAS DAS Storage Pool"]
         end
 
-        subgraph IOT ["VLAN 130: IoT & Guest Isolation"]
-            IoTDev["Smart Home & Guest Devices (Isolated)"]
+        subgraph IOT ["VLAN 130 - IoT & Guest Isolation"]
+            IoTDev["Smart Home & Guest Devices"]
         end
 
     end
 
-    %% Network Connectivity Flow
     UniFi --> DMZ
     UniFi --> MGMT
     UniFi --> SERVICES
     UniFi --> TRUSTED
     UniFi --> IOT
 
-    %% Ingress Flow
     CF --> CF_Tunnel1
     CF --> CF_Tunnel2
     CF_Tunnel1 --> NPM
@@ -494,19 +492,16 @@ flowchart TB
     NPM --> Auth
     NPM --> Immich
 
-    %% Core Services Interconnection
-    Auth -. "OIDC Authentication" .-> Immich
-    Auth -. "SSO Verification" .-> Media
+    Auth -.->|OIDC Auth| Immich
+    Auth -.->|SSO Verification| Media
 
-    %% DNS Flow
-    TRUSTED -. "DNS Queries" .-> PiHole1
-    SERVICES -. "DNS Queries" .-> PiHole2
-    PiHole1 <== "DNS Mirroring / HA Sync" ==> PiHole2
+    TRUSTED --> PiHole1
+    SERVICES --> PiHole2
+    PiHole1 <-->|HA Sync| PiHole2
 
-    %% Storage Connections
-    MGMT ==> "NFS Mounts" ==> Synology
-    SERVICES ==> "SMB Shares" ==> Synology
-    PVE2_Node ==> "Direct Attached Storage" ==> TrueNAS
+    MGMT ==>|NFS Shares| Synology
+    SERVICES ==>|SMB Shares| Synology
+    PVE2_Node ==>|Direct Attached Storage| TrueNAS
           </pre>
         </div>
       </div>
