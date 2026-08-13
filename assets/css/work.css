@@ -308,6 +308,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .pillar-card {
@@ -352,6 +353,40 @@
   margin: 0 0 1rem;
 }
 
+/* Diagram Embedded Wrapper */
+.diagram-wrapper {
+  background: var(--surface-strong);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  padding: 1.75rem;
+  margin-top: 1.5rem;
+  overflow-x: auto;
+}
+
+.diagram-title {
+  font-family: var(--serif);
+  font-size: 1.25rem;
+  margin: 0 0 0.5rem;
+  color: var(--ink);
+}
+
+.diagram-subtitle {
+  font-size: 0.88rem;
+  color: var(--muted);
+  margin: 0 0 1.25rem;
+}
+
+.mermaid-box {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.mermaid-box svg {
+  max-width: 100%;
+  height: auto;
+}
+
 /* Education & Strengths Banner */
 .education-banner {
   background: var(--surface);
@@ -389,5 +424,9 @@
 
   .homelab-panel {
     padding: 1.5rem;
+  }
+
+  .diagram-wrapper {
+    padding: 1rem;
   }
 }
