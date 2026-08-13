@@ -286,79 +286,79 @@ permalink: /work/
     <div class="homelab-panel">
       <div class="homelab-badge-header">
         <span class="homelab-chip">R&D Lab</span>
-        <span style="font-size: 0.9rem; font-weight: 600; color: var(--muted);">Self-Hosted Infrastructure & Automation Sandbox</span>
+        <span style="font-size: 0.9rem; font-weight: 600; color: var(--muted);">Self-Hosted Enterprise Architecture & DR Sandbox</span>
       </div>
       <p class="homelab-intro-text">
-        A private, sanitized home environment built to prototype production concepts, test infrastructure-as-code manifests, benchmark local open-source AI models, and evaluate zero-trust security controls before production rollout.
+        A private, sanitized home lab built to prototype enterprise production concepts, test infrastructure-as-code manifests, validate disaster recovery playbooks, benchmark local open-source AI models, and enforce zero-trust security controls.
       </p>
 
       <div class="homelab-pillars-grid">
 
-        <!-- Pillar 1: Virtualization -->
+        <!-- Pillar 1: Virtualization & Multi-Node Cluster -->
         <div class="pillar-card">
           <div>
             <div class="pillar-icon-header">
               <span class="pillar-icon">🖥️</span>
-              <h4>Virtualization & Containers</h4>
+              <h4>Virtualization & Cluster Nodes</h4>
             </div>
-            <p>Hypervisor orchestration, containerized services, and virtual machine isolation for rapid prototyping.</p>
+            <p>Multi-node Proxmox VE hypervisor cluster, containerized LXC microservices, and virtual machine isolation.</p>
           </div>
           <div class="tag-cloud">
-            <span class="tag-pill highlight">Proxmox VE</span>
-            <span class="tag-pill">Docker & LXC</span>
-            <span class="tag-pill">Linux Kernel</span>
+            <span class="tag-pill highlight">Proxmox VE Cluster</span>
+            <span class="tag-pill">LXC Containers</span>
+            <span class="tag-pill">Docker</span>
             <span class="tag-pill">Virtual Bridges</span>
           </div>
         </div>
 
-        <!-- Pillar 2: IaC & Automation -->
+        <!-- Pillar 2: Storage Architecture & DAS/NAS -->
         <div class="pillar-card">
           <div>
             <div class="pillar-icon-header">
-              <span class="pillar-icon">⚙️</span>
-              <h4>IaC & Configuration</h4>
+              <span class="pillar-icon">💾</span>
+              <h4>Storage Architecture & NAS/DAS</h4>
             </div>
-            <p>Automating system state, declarative provisioning, and backup validation routines in staging.</p>
+            <p>Centralized Synology NAS & TrueNAS DAS storage pools, ZFS datasets, and NFS/SMB network mounts.</p>
           </div>
           <div class="tag-cloud">
-            <span class="tag-pill highlight">Ansible</span>
-            <span class="tag-pill highlight">Terraform</span>
-            <span class="tag-pill">GitOps</span>
-            <span class="tag-pill">Backup Auditing</span>
+            <span class="tag-pill highlight">Synology NAS</span>
+            <span class="tag-pill highlight">TrueNAS ZFS</span>
+            <span class="tag-pill">NFS / SMB Mounts</span>
+            <span class="tag-pill">DAS Storage</span>
           </div>
         </div>
 
-        <!-- Pillar 3: Security & Network Defense -->
+        <!-- Pillar 3: Cloudflare Zero Trust & HA Redundancy -->
         <div class="pillar-card">
           <div>
             <div class="pillar-icon-header">
               <span class="pillar-icon">🛡️</span>
-              <h4>Network Defense & FOSS</h4>
+              <h4>Cloudflare Ingress & HA Redundancy</h4>
             </div>
-            <p>Evaluating zero-trust access, network segmentation, log analysis, and open-source security tools.</p>
+            <p>Encrypted Cloudflare Tunnels (no open inbound ports), dual redundant Pi-hole DNS, and DMZ VLAN segmentation.</p>
           </div>
           <div class="tag-cloud">
-            <span class="tag-pill highlight">Network Isolation</span>
-            <span class="tag-pill">Cloudflare Zero Trust</span>
-            <span class="tag-pill">Log Parsing</span>
-            <span class="tag-pill">FOSS Security</span>
+            <span class="tag-pill highlight">Cloudflare Tunnels</span>
+            <span class="tag-pill highlight">Dual Pi-hole HA</span>
+            <span class="tag-pill">DMZ VLAN Isolation</span>
+            <span class="tag-pill">Authentik SSO</span>
           </div>
         </div>
 
-        <!-- Pillar 4: Local AI & Workflows -->
+        <!-- Pillar 4: Disaster Recovery & IaC Automation -->
         <div class="pillar-card">
           <div>
             <div class="pillar-icon-header">
-              <span class="pillar-icon">🤖</span>
-              <h4>Local AI & Automation</h4>
+              <span class="pillar-icon">🔄</span>
+              <h4>Disaster Recovery & IaC Automation</h4>
             </div>
-            <p>Benchmarking open-source LLM engines and building event-driven workflow automation pipelines.</p>
+            <p>Automated rsync data replication, cluster node replication, Terraform IaC, and Netboot.xyz PXE provisioning.</p>
           </div>
           <div class="tag-cloud">
-            <span class="tag-pill highlight">Ollama LLMs</span>
-            <span class="tag-pill highlight">n8n Workflows</span>
-            <span class="tag-pill">OpenClaw</span>
-            <span class="tag-pill">REST Webhooks</span>
+            <span class="tag-pill highlight">DR Replication</span>
+            <span class="tag-pill highlight">Terraform & Ansible</span>
+            <span class="tag-pill">Rsync Backups</span>
+            <span class="tag-pill">PXE Netboot</span>
           </div>
         </div>
 
