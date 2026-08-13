@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - August 13, 2026"
+date: 2026-08-13 14:50:38 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - August 13, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -48,4 +56,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Patched SharePoint vulnerability now being exploited in the wild, here's why](https://www.neowin.net/news/patched-sharepoint-vulnerability-now-being-exploited-in-the-wild-heres-why/?utm_source=rss) - *(Neowin)*
 - [As passkeys become default in Entra ID, IT admins may have to worry more about security](https://www.neowin.net/news/as-passkeys-become-default-in-entra-id-it-admins-may-have-to-worry-more-about-security/?utm_source=rss) - *(Neowin)*
 - [NightmareEclipse strikes again at Windows 11 exploit with ShieldBreak proof of concept](https://www.neowin.net/news/nightmareeclipse-strikes-again-at-windows-11-exploit-with-shieldbreak-proof-of-concept/?utm_source=rss) - *(Neowin)*
+
 
