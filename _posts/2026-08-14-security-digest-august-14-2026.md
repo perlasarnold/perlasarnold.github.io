@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - August 14, 2026"
+date: 2026-08-14 14:44:28 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - August 14, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -45,4 +53,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [CVE-2026-17600](https://www.cve.org/CVERecord?id=CVE-2026-17600) - *(CVE.org)*
 - [CVE-2026-17600](https://nvd.nist.gov/vuln/detail/CVE-2026-17600) - *(NVD)*
 - [CVE-2026-17599](https://nvd.nist.gov/vuln/detail/CVE-2026-17599) - *(NVD)*
+
 
