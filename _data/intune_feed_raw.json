@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-13T11:42:46.231830+00:00",
-  "date": "2026-08-13",
+  "generated_utc": "2026-08-14T11:41:41.548197+00:00",
+  "date": "2026-08-14",
   "lookback_hours": 25,
   "source_status": [
     {
@@ -37,17 +37,17 @@
     {
       "name": "BleepingComputer",
       "status": "OK",
-      "count": 5
+      "count": 3
     },
     {
       "name": "Neowin",
       "status": "OK",
-      "count": 2
+      "count": 4
     },
     {
       "name": "The Hacker News",
       "status": "OK",
-      "count": 3
+      "count": 0
     },
     {
       "name": "Krebs on Security",
@@ -99,6 +99,42 @@
   "items": {
     "high_alert": [
       {
+        "fingerprint": "ad91e1630e92",
+        "title": "Akira hackers disable EDR with Safe Mode, steal data but fail to encrypt",
+        "link": "https://www.bleepingcomputer.com/news/security/akira-hackers-disable-edr-with-safe-mode-steal-data-but-fail-to-encrypt/",
+        "source": "BleepingComputer",
+        "published": "2026-08-13T20:47:02+00:00",
+        "summary": "An Akira ransomware affiliate disabled the endpoint detection and response (EDR) solution on a compromised system by restarting the machine into Safe Mode with Networking. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "982b902f3559",
+        "title": "Microsoft patches LegacyHive Windows zero-day vulnerability",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-legacyhive-windows-zero-day-vulnerability/",
+        "source": "BleepingComputer",
+        "published": "2026-08-13T17:46:20+00:00",
+        "summary": "Microsoft has released security patches to address a Windows zero-day vulnerability known as \"LegacyHive,\" disclosed after the July 2026 Patch Tuesday. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "61b99c4e7a5b",
+        "title": "Critical VMware vCenter RCE flaw exploited for reverse SSH access",
+        "link": "https://www.bleepingcomputer.com/news/security/critical-vmware-vcenter-rce-flaw-exploited-for-reverse-ssh-access/",
+        "source": "BleepingComputer",
+        "published": "2026-08-13T16:40:23+00:00",
+        "summary": "A recently patched critical vulnerability (CVE-2026-59310) in VMware vCenter Syslog Server is being exploited in an active campaign to deploy a reverse SSH tool for persistence and remote access. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "397fcc1f9b82",
+        "title": "Patched SharePoint vulnerability now being exploited in the wild, here's why",
+        "link": "https://www.neowin.net/news/patched-sharepoint-vulnerability-now-being-exploited-in-the-wild-heres-why/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-08-13T12:20:02+00:00",
+        "summary": "With attacks ongoing, admins are urged to apply the July 2026 Patch Tuesday updates if they've not done so already. Read more...",
+        "category": "high_alert"
+      },
+      {
         "fingerprint": "b0d8d489a18d",
         "title": "NightmareEclipse strikes again at Windows 11 exploit with ShieldBreak proof of concept",
         "link": "https://www.neowin.net/news/nightmareeclipse-strikes-again-at-windows-11-exploit-with-shieldbreak-proof-of-concept/?utm_source=rss",
@@ -106,101 +142,38 @@
         "published": "2026-08-13T10:48:02+00:00",
         "summary": "This is a zero-day bug being exploited so Microsoft has not patched the issue yet. Admins need to be on the lookout for a fix from Microsoft and apply it ASAP. Read more...",
         "category": "high_alert"
-      },
-      {
-        "fingerprint": "33d6bd992a96",
-        "title": "Attackers Exploit SharePoint Authentication Bypass After Public PoC Release",
-        "link": "https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html",
-        "source": "The Hacker News",
-        "published": "2026-08-13T06:09:48+00:00",
-        "summary": "Threat actors have begun to exploit a newly disclosed Microsoft SharePoint vulnerability following the release of a proof-of-concept (PoC) code. The vulnerability in question is CVE-2026-55040 (CVSS score: 9.1), which refers to a critical security feature bypass that stems from weak authentication. It was patched by Microsoft as part of its July 2026 Patch Tuesday updates. \"The authentication",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "f299ce89c9e6",
-        "title": "Android malware combo takes out loans and relays victims' credit cards",
-        "link": "https://www.bleepingcomputer.com/news/security/android-malware-combo-takes-out-loans-and-relays-victims-credit-cards/",
-        "source": "BleepingComputer",
-        "published": "2026-08-12T22:22:57+00:00",
-        "summary": "A new Android NFC relay malware called WindRelay is being used alongside the SpyNote remote administration tool (RAT) to steal live card data and send it to attackers in real time. [...]",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "4b68251f142c",
-        "title": "Hackers exploit critical Adobe Commerce flaw to hijack customer accounts",
-        "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-adobe-commerce-flaw-to-hijack-customer-accounts/",
-        "source": "BleepingComputer",
-        "published": "2026-08-12T20:54:59+00:00",
-        "summary": "Attempts to exploit a critical vulnerability (CVE-2026-71362) in Adobe's Commerce and Magento e-commerce platforms have been detected, potentially allowing attackers to hijack customer accounts. [...]",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "708b297686ca",
-        "title": "Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor",
-        "link": "https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html",
-        "source": "The Hacker News",
-        "published": "2026-08-12T17:39:27+00:00",
-        "summary": "The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched security flaw impacting Microsoft Windows to deliver a never-before-seen backdoor targeting defense and aerospace companies across France, Germany, Brazil, and India. The activity, per Check Point Research, is part of Operation Dream Job, a long-running cyber espionage and",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "2eb913355435",
-        "title": "Lazarus hackers exploited Windows zero-day to target defense firms",
-        "link": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-exploited-windows-zero-day-to-target-defense-firms/",
-        "source": "BleepingComputer",
-        "published": "2026-08-12T15:38:08+00:00",
-        "summary": "North Korean hackers have been exploiting a Windows zero-day vulnerability (CVE-2026-68820) to target defense-sector companies as part of the Operation Dream Job campaign. [...]",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "e567ed58a28b",
-        "title": "Windows 11, Windows 10, Windows Server affected by in-the-wild exploit, here's what to do",
-        "link": "https://www.neowin.net/news/windows-11-windows-10-windows-server-affected-by-in-the-wild-exploit-heres-what-to-do/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-08-12T14:08:01+00:00",
-        "summary": "Admins responsible for Windows fleets are advised to take action to protect their systems against this actively exploited vulnerability. Here's what you need to do to stay secure. Read more...",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "5dcfd73a7095",
-        "title": "Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws",
-        "link": "https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html",
-        "source": "The Hacker News",
-        "published": "2026-08-12T11:13:03+00:00",
-        "summary": "Adobe has shipped updates to address multiple critical security vulnerabilities impacting ColdFusion, Commerce, and Campaign Classic that, if successfully exploited, could result in arbitrary code execution and privilege escalation. The most severe of the flaws are listed below - CVE-2026-48362 (CVSS score: 10.0) - An operating system command injection vulnerability in ColdFusion that could",
-        "category": "high_alert"
       }
     ],
     "bad_updates": [],
     "upcoming_changes": [
       {
-        "fingerprint": "db3ba6e4a890",
-        "title": "Microsoft Edge: Vertical Tabs update",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569217",
+        "fingerprint": "f0891108e8c9",
+        "title": "Microsoft Teams: Calls popout into a new window on the browser to support multi-tasking and collaboration during a meeting!",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569206",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-08-12T22:47:48+00:00",
-        "summary": "Microsoft Edge is updating its vertical tab implementation and architecture. Edge is reimplementing capabilities across pane, layout, controls, tab behavior, visual treatments, & embedder customizations. No admin action is required. GA date: December CY2026",
+        "published": "2026-08-13T22:42:07+00:00",
+        "summary": "Microsoft Teams browser app users will now be able to have their a simplified call window persist on top of other content when they navigate or hide the tab or PWA hosting the call! GA date: September CY2026",
         "category": "upcoming_changes"
       }
     ],
     "official_news": [],
     "community_buzz": [
       {
-        "fingerprint": "10dfcaba6d9d",
-        "title": "The Threat Hiding in Your Hiring Process: How Fake Remote Workers Get In",
-        "link": "https://www.bleepingcomputer.com/news/security/the-threat-hiding-in-your-hiring-process-how-fake-remote-workers-get-in/",
-        "source": "BleepingComputer",
-        "published": "2026-08-12T14:01:11+00:00",
-        "summary": "Fake remote workers can exploit gaps between hiring checks, device delivery, and account access to enter organizations under false identities. Specops Software explains how document verification and biometric liveness checks can help organizations confirm that the person receiving access is the legitimate new hire. [...]",
+        "fingerprint": "7fff99e8922f",
+        "title": "Microsoft urges IT admins to consider using Entra ID instead of Active Directory",
+        "link": "https://www.neowin.net/news/microsoft-urges-it-admins-to-consider-using-entra-id-instead-of-active-directory/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-08-14T05:50:02+00:00",
+        "summary": "Still relying on Active Directory? Microsoft says these warning signs could mean your organization is ready for a major identity shift. Read more...",
         "category": "community_buzz"
       },
       {
-        "fingerprint": "a56edde34298",
-        "title": "Hackers leverage new Microsoft SharePoint exploit in attacks",
-        "link": "https://www.bleepingcomputer.com/news/microsoft/hackers-leverage-new-microsoft-sharepoint-exploit-in-attacks/",
-        "source": "BleepingComputer",
-        "published": "2026-08-12T12:25:37+00:00",
-        "summary": "Hackers have already begun using a proof-of-concept (PoC) exploit for a critical Microsoft SharePoint vulnerability, published by cybersecurity company Rapid7 on Tuesday. [...]",
+        "fingerprint": "a012abce7eae",
+        "title": "As passkeys become default in Entra ID, IT admins may have to worry more about security",
+        "link": "https://www.neowin.net/news/as-passkeys-become-default-in-entra-id-it-admins-may-have-to-worry-more-about-security/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-08-13T11:56:01+00:00",
+        "summary": "Microsoft is preparing a major Entra ID authentication change, but security experts warn the rollout could create new problems for IT teams. Read more...",
         "category": "community_buzz"
       }
     ]
