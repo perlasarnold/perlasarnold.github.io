@@ -7,62 +7,60 @@ permalink: /
 
 <link rel="stylesheet" href="{{ '/assets/css/home.css' | relative_url }}">
 
-<div class="container">
-  <!-- 4 Separate Hero Section Cards (Scrolling Down) -->
-  <div class="home-hero-list">
-    
-    <!-- 1. Photography Section -->
-    <section class="home-hero-card" id="card-photography">
-      <div class="home-hero-bg" id="bg-photography"></div>
-      <div class="home-hero-overlay">
-        <h2>Photography</h2>
-        <p>Photos, visual stories, and moments captured from behind the lens.</p>
-        <div class="home-hero-cta">
-          <a class="button" href="{{ '/photography/' | relative_url }}">View Gallery &rarr;</a>
-        </div>
+<!-- 4 Full-Width Full-Bleed Scrolling Hero Section Button Links -->
+<div class="home-hero-list">
+  
+  <!-- 1. Photography Section Link -->
+  <a href="{{ '/photography/' | relative_url }}" class="home-hero-card" id="card-photography">
+    <div class="home-hero-bg" id="bg-photography"></div>
+    <div class="home-hero-overlay">
+      <h2>Photography</h2>
+      <p>Photos, visual stories, and moments captured from behind the lens.</p>
+      <div class="home-hero-cta">
+        <span class="button-badge">View Gallery &rarr;</span>
       </div>
-    </section>
+    </div>
+  </a>
 
-    <!-- 2. Profession Section -->
-    <section class="home-hero-card" id="card-profession">
-      <div class="home-hero-bg" id="bg-profession"></div>
-      <div class="home-hero-overlay">
-        <h2>Profession</h2>
-        <p>13+ years of enterprise systems engineering, SecOps, multi-cloud architecture, and endpoint automation.</p>
-        <div class="home-hero-cta">
-          <a class="button" href="{{ '/work/' | relative_url }}">Explore Profession & Portfolio &rarr;</a>
-        </div>
+  <!-- 2. Profession Section Link -->
+  <a href="{{ '/work/' | relative_url }}" class="home-hero-card" id="card-profession">
+    <div class="home-hero-bg" id="bg-profession"></div>
+    <div class="home-hero-overlay">
+      <h2>Profession</h2>
+      <p>13+ years of enterprise systems engineering, SecOps, multi-cloud architecture, and endpoint automation.</p>
+      <div class="home-hero-cta">
+        <span class="button-badge">Explore Profession & Portfolio &rarr;</span>
       </div>
-    </section>
+    </div>
+  </a>
 
-    <!-- 3. Blog Section -->
-    <section class="home-hero-card" id="card-blog">
-      <div class="home-hero-bg" id="bg-blog"></div>
-      <div class="home-hero-overlay">
-        <h2>Blog</h2>
-        <p>Weekly security digests, IT SecOps news, and practical technical breakdowns.</p>
-        <div class="home-hero-cta">
-          <a class="button" href="{{ '/blog/' | relative_url }}">Read the Blog &rarr;</a>
-        </div>
+  <!-- 3. Blog Section Link -->
+  <a href="{{ '/blog/' | relative_url }}" class="home-hero-card" id="card-blog">
+    <div class="home-hero-bg" id="bg-blog"></div>
+    <div class="home-hero-overlay">
+      <h2>Blog</h2>
+      <p>Weekly security digests, IT SecOps news, and practical technical breakdowns.</p>
+      <div class="home-hero-cta">
+        <span class="button-badge">Read the Blog &rarr;</span>
       </div>
-    </section>
+    </div>
+  </a>
 
-    <!-- 4. Contact Section -->
-    <section class="home-hero-card" id="card-contact">
-      <div class="home-hero-bg" id="bg-contact"></div>
-      <div class="home-hero-overlay">
-        <h2>Contact</h2>
-        <p>Get in touch for engineering collaboration, technical inquiries, or photography.</p>
-        <div class="home-hero-cta">
-          <a class="button" href="{{ '/contact/' | relative_url }}">Get in Touch &rarr;</a>
-        </div>
+  <!-- 4. Contact Section Link -->
+  <a href="{{ '/contact/' | relative_url }}" class="home-hero-card" id="card-contact">
+    <div class="home-hero-bg" id="bg-contact"></div>
+    <div class="home-hero-overlay">
+      <h2>Contact</h2>
+      <p>Get in touch for engineering collaboration, technical inquiries, or photography.</p>
+      <div class="home-hero-cta">
+        <span class="button-badge">Get in Touch &rarr;</span>
       </div>
-    </section>
+    </div>
+  </a>
 
-  </div>
 </div>
 
-<!-- Data for the hero backgrounds -->
+<!-- Data for the hero background images -->
 <script id="home-photo-data" type="application/json">
   {{ site.data.photos.data | sample: 50 | jsonify }}
 </script>
@@ -78,7 +76,7 @@ permalink: /
       [photos[i], photos[j]] = [photos[j], photos[i]];
     }
 
-    // Assign unique high-res photo backgrounds to each of the 4 scrolling sections
+    // Assign unique high-res photo backgrounds to each of the 4 full-width scrolling sections
     const bgElements = [
       document.getElementById('bg-photography'),
       document.getElementById('bg-profession'),
