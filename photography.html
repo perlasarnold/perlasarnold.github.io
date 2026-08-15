@@ -34,6 +34,7 @@ permalink: /photography/
       <select id="sort-select" class="sort-select">
         <option value="newest">Newest first</option>
         <option value="oldest">Oldest first</option>
+        <option value="random">Random</option>
         <option value="focal-asc">Focal ↑ (wide→tele)</option>
         <option value="focal-desc">Focal ↓ (tele→wide)</option>
         <option value="aperture-asc">Aperture ↑ (open→closed)</option>
@@ -662,6 +663,7 @@ permalink: /photography/
     }
 
     let currentGroupName = null;
+    let currentGroupKey = null;
     let currentInnerGrid = null;
     let renderedYears = new Set();
 
@@ -669,12 +671,14 @@ permalink: /photography/
       if (currentBatchIndex >= filteredPhotos.length) return;
       
       const batch = filteredPhotos.slice(currentBatchIndex, currentBatchIndex + pageSize);
-      const isTimeline = activeSort === 'newest' || activeSort === 'oldest';
+      const isTimeline = activeSort === 'newest' || activeSort === 'oldest' || activeSort === 'random';
 
       batch.forEach(photo => {
         if (isTimeline) {
-          const groupName = photo.location || 'Various Locations';
-          if (groupName !== currentGroupName) {
+          const groupName = photo.location || photo.date || 'Various Locations';
+          const groupKey = activeSort === 'random' ? (photo.date + '_' + groupName) : groupName;
+          if (groupKey !== currentGroupKey) {
+            currentGroupKey = groupKey;
             currentGroupName = groupName;
             const groupDiv = document.createElement('div');
             groupDiv.className = 'timeline-group';
@@ -720,6 +724,7 @@ permalink: /photography/
       gridContainer.innerHTML = '';
       currentBatchIndex = 0;
       currentGroupName = null;
+      currentGroupKey = null;
       currentInnerGrid = null;
       renderedYears.clear();
       
@@ -727,15 +732,36 @@ permalink: /photography/
       filteredPhotos = allPhotos.filter(p => activeCountry === 'all' || p.country === activeCountry);
 
       // Sort
-      filteredPhotos.sort((a, b) => {
-        if (activeSort === 'newest') return b.timestamp - a.timestamp;
-        if (activeSort === 'oldest') return a.timestamp - b.timestamp;
-        if (activeSort === 'focal-asc') return (parseFloat(a.focal) || 0) - (parseFloat(b.focal) || 0);
-        if (activeSort === 'focal-desc') return (parseFloat(b.focal) || 0) - (parseFloat(a.focal) || 0);
-        if (activeSort === 'aperture-asc') return (parseFloat(a.aperture) || 0) - (parseFloat(b.aperture) || 0);
-        if (activeSort === 'aperture-desc') return (parseFloat(b.aperture) || 0) - (parseFloat(a.aperture) || 0);
-        return 0;
-      });
+      if (activeSort === 'random') {
+        const dayGroupsMap = new Map();
+        filteredPhotos.forEach(p => {
+          const dayKey = p.date || (p.timestamp ? new Date(p.timestamp * 1000).toDateString() : 'unknown');
+          if (!dayGroupsMap.has(dayKey)) {
+            dayGroupsMap.set(dayKey, []);
+          }
+          dayGroupsMap.get(dayKey).push(p);
+        });
+
+        const dayGroups = Array.from(dayGroupsMap.values());
+
+        // Fisher-Yates shuffle on the day groups
+        for (let i = dayGroups.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [dayGroups[i], dayGroups[j]] = [dayGroups[j], dayGroups[i]];
+        }
+
+        filteredPhotos = dayGroups.flat();
+      } else {
+        filteredPhotos.sort((a, b) => {
+          if (activeSort === 'newest') return b.timestamp - a.timestamp;
+          if (activeSort === 'oldest') return a.timestamp - b.timestamp;
+          if (activeSort === 'focal-asc') return (parseFloat(a.focal) || 0) - (parseFloat(b.focal) || 0);
+          if (activeSort === 'focal-desc') return (parseFloat(b.focal) || 0) - (parseFloat(a.focal) || 0);
+          if (activeSort === 'aperture-asc') return (parseFloat(a.aperture) || 0) - (parseFloat(b.aperture) || 0);
+          if (activeSort === 'aperture-desc') return (parseFloat(b.aperture) || 0) - (parseFloat(a.aperture) || 0);
+          return 0;
+        });
+      }
 
       // Update Scrubber
       scrubber.innerHTML = '';
