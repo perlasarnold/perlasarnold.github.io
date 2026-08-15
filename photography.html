@@ -32,9 +32,9 @@ permalink: /photography/
     <div class="sort-wrap">
       <label for="sort-select" class="sort-label">Sort by</label>
       <select id="sort-select" class="sort-select">
+        <option value="random" selected>Random</option>
         <option value="newest">Newest first</option>
         <option value="oldest">Oldest first</option>
-        <option value="random">Random</option>
         <option value="focal-asc">Focal ↑ (wide→tele)</option>
         <option value="focal-desc">Focal ↓ (tele→wide)</option>
         <option value="aperture-asc">Aperture ↑ (open→closed)</option>
@@ -541,7 +541,7 @@ permalink: /photography/
 
     /* ── State ────────────────────────────────────────────── */
     let filteredPhotos = [];
-    let activeSort = 'newest';
+    let activeSort = 'random';
     let activeCountry = 'all';
     let currentBatchIndex = 0;
     const pageSize = 24;
