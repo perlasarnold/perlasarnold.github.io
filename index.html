@@ -7,21 +7,62 @@ permalink: /
 
 <link rel="stylesheet" href="{{ '/assets/css/home.css' | relative_url }}">
 
-<section class="hero-slideshow" id="hero-slideshow">
-  <div class="slideshow-bg active" id="bg-1"></div>
-  <div class="slideshow-bg" id="bg-2"></div>
-  
-  <div class="hero-overlay">
-    <h1>Photography.</h1>
-    <p>Now that you don't have to be perfect, you can be good.</p>
-    <div class="hero-cta">
-      <a class="button" href="{{ '/photography/' | relative_url }}">View Gallery</a>
-      <a class="button button-secondary" href="{{ '/blog/' | relative_url }}">Read the Blog</a>
-    </div>
-  </div>
-</section>
+<div class="container">
+  <!-- 4 Separate Hero Section Cards (Scrolling Down) -->
+  <div class="home-hero-list">
+    
+    <!-- 1. Photography Section -->
+    <section class="home-hero-card" id="card-photography">
+      <div class="home-hero-bg" id="bg-photography"></div>
+      <div class="home-hero-overlay">
+        <h2>Photography</h2>
+        <p>Photos, visual stories, and moments captured from behind the lens.</p>
+        <div class="home-hero-cta">
+          <a class="button" href="{{ '/photography/' | relative_url }}">View Gallery &rarr;</a>
+        </div>
+      </div>
+    </section>
 
-<!-- Data for the slideshow -->
+    <!-- 2. Profession Section -->
+    <section class="home-hero-card" id="card-profession">
+      <div class="home-hero-bg" id="bg-profession"></div>
+      <div class="home-hero-overlay">
+        <h2>Profession</h2>
+        <p>13+ years of enterprise systems engineering, SecOps, multi-cloud architecture, and endpoint automation.</p>
+        <div class="home-hero-cta">
+          <a class="button" href="{{ '/work/' | relative_url }}">Explore Profession & Portfolio &rarr;</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Blog Section -->
+    <section class="home-hero-card" id="card-blog">
+      <div class="home-hero-bg" id="bg-blog"></div>
+      <div class="home-hero-overlay">
+        <h2>Blog</h2>
+        <p>Weekly security digests, IT SecOps news, and practical technical breakdowns.</p>
+        <div class="home-hero-cta">
+          <a class="button" href="{{ '/blog/' | relative_url }}">Read the Blog &rarr;</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Contact Section -->
+    <section class="home-hero-card" id="card-contact">
+      <div class="home-hero-bg" id="bg-contact"></div>
+      <div class="home-hero-overlay">
+        <h2>Contact</h2>
+        <p>Get in touch for engineering collaboration, technical inquiries, or photography.</p>
+        <div class="home-hero-cta">
+          <a class="button" href="{{ '/contact/' | relative_url }}">Get in Touch &rarr;</a>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</div>
+
+<!-- Data for the hero backgrounds -->
 <script id="home-photo-data" type="application/json">
   {{ site.data.photos.data | sample: 50 | jsonify }}
 </script>
@@ -31,48 +72,30 @@ permalink: /
     const rawData = JSON.parse(document.getElementById('home-photo-data').textContent);
     const photos = rawData.map(p => p.imageUrl.replace(/viewBox=\d+/, 'viewBox=2048'));
     
-    // Shuffle the array to ensure a unique sequence for every user
+    // Fisher-Yates shuffle array to pick unique high-res background images
     for (let i = photos.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [photos[i], photos[j]] = [photos[j], photos[i]];
     }
-    
-    let currentIndex = 0;
-    const bg1 = document.getElementById('bg-1');
-    const bg2 = document.getElementById('bg-2');
-    let currentBg = bg1;
-    let nextBg = bg2;
 
-    // Initial load
-    bg1.style.backgroundImage = `url(${photos[0]})`;
-    
-    function nextImage() {
-      currentIndex = (currentIndex + 1) % photos.length;
-      const nextUrl = photos[currentIndex];
-      
-      // Preload next image
-      const img = new Image();
-      img.src = nextUrl;
-      img.onload = () => {
-        nextBg.style.backgroundImage = `url(${nextUrl})`;
-        
-        // Swap visibility
-        nextBg.classList.add('active');
-        currentBg.classList.remove('active');
-        
-        // Toggle pointers
-        const temp = currentBg;
-        currentBg = nextBg;
-        nextBg = temp;
-      };
-    }
+    // Assign unique high-res photo backgrounds to each of the 4 scrolling sections
+    const bgElements = [
+      document.getElementById('bg-photography'),
+      document.getElementById('bg-profession'),
+      document.getElementById('bg-blog'),
+      document.getElementById('bg-contact')
+    ];
 
-    // Cycle every 10 seconds
-    setInterval(nextImage, 10000);
+    bgElements.forEach((bgEl, index) => {
+      if (bgEl && photos[index]) {
+        bgEl.style.backgroundImage = `url(${photos[index]})`;
+      }
+    });
   });
 </script>
 
-<section class="container" style="margin-top: 4rem; margin-bottom: 4rem;">
+<!-- Content Grid Section -->
+<section class="container" style="margin-bottom: 4rem;">
   <div class="content-grid">
     <div class="simple-panel">
       <h2>Latest weekly digest</h2>
