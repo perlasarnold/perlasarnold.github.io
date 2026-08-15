@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - August 15, 2026"
+date: 2026-08-15 14:14:18 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - August 15, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -63,4 +71,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [How do you set risk score for pentest vulnerabilities which do no have CVE assigned?](https://www.reddit.com/r/cybersecurity/comments/1vosft2/how_do_you_set_risk_score_for_pentest/) - *(Reddit r/cybersecurity)*
 - [Automation/Manual QA Engineer looking to move into Cybersecurity — Cloud Security vs AI Security vs AppSec?](https://www.reddit.com/r/cybersecurity/comments/1voqlqn/automationmanual_qa_engineer_looking_to_move_into/) - *(Reddit r/cybersecurity)*
 - [Quantum computing and security](https://www.reddit.com/r/cybersecurity/comments/1vohlmp/quantum_computing_and_security/) - *(Reddit r/cybersecurity)*
+
 
