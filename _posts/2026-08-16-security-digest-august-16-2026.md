@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - August 16, 2026"
+date: 2026-08-16 14:14:43 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - August 16, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -59,4 +67,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [SWE completely new to the world of cybersecurity - where do I even start?](https://www.reddit.com/r/cybersecurity/comments/1vpdy2j/swe_completely_new_to_the_world_of_cybersecurity/) - *(Reddit r/cybersecurity)*
 - [Is there any roles in which deep knowledge of BurpSuite is tested in the interview?](https://www.reddit.com/r/cybersecurity/comments/1vpd46u/is_there_any_roles_in_which_deep_knowledge_of/) - *(Reddit r/cybersecurity)*
 - [A follow up on GM's decision to remove TOTP authentication in favor of SMS.](https://www.reddit.com/r/cybersecurity/comments/1vpadf7/a_follow_up_on_gms_decision_to_remove_totp/) - *(Reddit r/cybersecurity)*
+
 
