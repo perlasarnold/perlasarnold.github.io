@@ -1,6 +1,20 @@
 {
-    "count": 830,
+    "count": 863,
     "data": [
+        {
+            "id": "dOqkKf__TjSqCv6HFE25qg",
+            "name": "AMP03023.JPG",
+            "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/dOqkKf__TjSqCv6HFE25qg?viewBox=512&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
+            "contentProperties": {
+                "image": {
+                    "make": "SONY",
+                    "model": "ILCE-6700",
+                    "focalLength": "30.2",
+                    "exposureTime": "1/640",
+                    "dateTimeOriginal": "2026-07-20T11:17:14.000Z"
+                }
+            }
+        },
         {
             "id": "CxQwLrEYRdSV0wcEZ1RnYg",
             "name": "AMP03021.jpg",
@@ -13,6 +27,418 @@
                     "apertureValue": "4.0",
                     "exposureTime": "1/800",
                     "dateTimeOriginal": "2026-07-20T11:17:11.000Z"
+                }
+            }
+        },
+        {
+            "id": "3huxXO_VTr-OefZtpcbtsw",
+            "name": "AMP02879.ARW",
+            "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/3huxXO_VTr-OefZtpcbtsw?viewBox=512&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
+            "contentProperties": {
+                "image": {
+                    "make": "SONY",
+                    "model": "ILCE-6700",
+                    "focalLength": "18",
+                    "exposureTime": "1/40",
+                    "dateTimeOriginal": "2026-07-20T10:57:58.000Z"
+                }
+            }
+        },
+        {
+            "id": "N0dBhZxASCeI2CWG7hNw-w",
+            "name": "AMP02818.JPG",
+            "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/N0dBhZxASCeI2CWG7hNw-w?viewBox=512&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
+            "contentProperties": {
+                "image": {
+                    "make": "SONY",
+                    "model": "ILCE-6700",
+                    "focalLength": "18",
+                    "exposureTime": "1/640",
+                    "dateTimeOriginal": "2026-07-20T10:38:41.000Z"
+                }
+            }
+        },
+        {
+            "id": "upvNbJNxSDyPke0Lpl3OVg",
+            "name": "AMP02817.JPG",
+            "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/upvNbJNxSDyPke0Lpl3OVg?viewBox=512&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
+            "contentProperties": {
+                "image": {
+                    "make": "SONY",
+                    "model": "ILCE-6700",
+                    "focalLength": "18",
+                    "exposureTime": "1/30",
+                    "dateTimeOriginal": "2026-07-20T10:36:34.000Z"
+                }
+            }
+        },
+        {
+            "id": "nAXZNDoGSRS0Whxhg559Rw",
+            "name": "AMP02810.JPG",
+            "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/nAXZNDoGSRS0Whxhg559Rw?viewBox=512&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
+            "contentProperties": {
+                "image": {
+                    "make": "SONY",
+                    "model": "ILCE-6700",
+                    "focalLength": "18",
+                    "exposureTime": "1/2000",
+                    "dateTimeOriginal": "2026-07-20T09:01:53.000Z"
+                }
+            }
+        },
+        {
+            "id": "yfcqt43qT1WlU_r9ETicUg",
+            "name": "AMP02809.JPG",
+            "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/yfcqt43qT1WlU_r9ETicUg?viewBox=512&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
+            "contentProperties": {
+                "image": {
+                    "make": "SONY",
+                    "model": "ILCE-6700",
+                    "focalLength": "50",
+                    "exposureTime": "1/3200",
+                    "dateTimeOriginal": "2026-07-20T09:01:50.000Z"
+                }
+            }
+        },
+        {
+            "id": "vJql8C70QtaaTd4TsjwghA",
+            "name": "IMG20260719182823.jpg",
+            "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/vJql8C70QtaaTd4TsjwghA?viewBox=512&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
+            "contentProperties": {
+                "image": {
+                    "make": "OnePlus",
+                    "model": "OnePlus 15",
+                    "focalLength": "5.59",
+                    "apertureValue": "1.9",
+                    "exposureTime": "1/124",
+                    "dateTimeOriginal": "2026-07-19T18:28:23.000Z"
+                }
+            }
+        },
+        {
+            "id": "Le_4J_HAQbyV_nFUj4aIKg",
+            "name": "IMG20260719182619.jpg",
+            "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/Le_4J_HAQbyV_nFUj4aIKg?viewBox=512&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
+            "contentProperties": {
+                "image": {
+                    "make": "OnePlus",
+                    "model": "OnePlus 15",
+                    "focalLength": "5.59",
+                    "apertureValue": "1.9",
+                    "exposureTime": "1/120",
+                    "dateTimeOriginal": "2026-07-19T18:26:19.000Z"
+                }
+            }
+        },
+        {
+            "id": "5VAAeB7bQbW7AGrmh2E0Zw",
+            "name": "IMG20260719172431.jpg",
+            "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/5VAAeB7bQbW7AGrmh2E0Zw?viewBox=512&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
+            "contentProperties": {
+                "image": {
+                    "make": "OnePlus",
+                    "model": "OnePlus 15",
+                    "focalLength": "5.59",
+                    "apertureValue": "1.9",
+                    "exposureTime": "1/198",
+                    "dateTimeOriginal": "2026-07-19T17:24:31.000Z"
+                }
+            }
+        },
+        {
+            "id": "p7-gdXJXSzKm08axkHrLuQ",
+            "name": "IMG20260719141302.jpg",
+            "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/p7-gdXJXSzKm08axkHrLuQ?viewBox=512&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
+            "contentProperties": {
+                "image": {
+                    "make": "OnePlus",
+                    "model": "OnePlus 15",
+                    "focalLength": "5.59",
+                    "apertureValue": "1.9",
+                    "exposureTime": "1/120",
+                    "dateTimeOriginal": "2026-07-19T14:13:02.000Z"
+                }
+            }
+        },
+        {
+            "id": "njD8PQDPS5K2eg3xmiwvQA",
+            "name": "IMG20260719141213.jpg",
+            "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/njD8PQDPS5K2eg3xmiwvQA?viewBox=512&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
+            "contentProperties": {
+                "image": {
+                    "make": "OnePlus",
+                    "model": "OnePlus 15",
+                    "focalLength": "5.59",
+                    "apertureValue": "1.9",
+                    "exposureTime": "1/120",
+                    "dateTimeOriginal": "2026-07-19T14:12:13.000Z"
+                }
+            }
+        },
+        {
+            "id": "ZTxqkWQFSaqa2i-l_gPYgw",
+            "name": "IMG20260719140541.jpg",
+            "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/ZTxqkWQFSaqa2i-l_gPYgw?viewBox=512&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
+            "contentProperties": {
+                "image": {
+                    "make": "OnePlus",
+                    "model": "OnePlus 15",
+                    "focalLength": "5.59",
+                    "apertureValue": "1.9",
+                    "exposureTime": "1/120",
+                    "dateTimeOriginal": "2026-07-19T14:05:41.000Z"
+                }
+            }
+        },
+        {
+            "id": "sh9mythNRE2gSOBGd85eqw",
+            "name": "IMG20260719140303.jpg",
+            "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/sh9mythNRE2gSOBGd85eqw?viewBox=512&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
+            "contentProperties": {
+                "image": {
+                    "make": "OnePlus",
+                    "model": "OnePlus 15",
+                    "focalLength": "5.59",
+                    "apertureValue": "1.9",
+                    "exposureTime": "1/395",
+                    "dateTimeOriginal": "2026-07-19T14:03:03.000Z"
+                }
+            }
+        },
+        {
+            "id": "56gqCZlCSDGTX2kLr2JqsA",
+            "name": "IMG20260719135408.jpg",
+            "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/56gqCZlCSDGTX2kLr2JqsA?viewBox=512&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
+            "contentProperties": {
+                "image": {
+                    "make": "OnePlus",
+                    "model": "OnePlus 15",
+                    "focalLength": "5.59",
+                    "apertureValue": "1.9",
+                    "exposureTime": "1/1711",
+                    "dateTimeOriginal": "2026-07-19T13:54:08.000Z"
+                }
+            }
+        },
+        {
+            "id": "99bqLiQ9T0OwTdpb6USXAg",
+            "name": "IMG20260719135402.jpg",
+            "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/99bqLiQ9T0OwTdpb6USXAg?viewBox=512&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
+            "contentProperties": {
+                "image": {
+                    "make": "OnePlus",
+                    "model": "OnePlus 15",
+                    "focalLength": "5.59",
+                    "apertureValue": "1.9",
+                    "exposureTime": "1/664",
+                    "dateTimeOriginal": "2026-07-19T13:54:02.000Z"
+                }
+            }
+        },
+        {
+            "id": "VWsZ1HShQl6NmhFX_JMvjQ",
+            "name": "IMG20260719133704.jpg",
+            "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/VWsZ1HShQl6NmhFX_JMvjQ?viewBox=512&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
+            "contentProperties": {
+                "image": {
+                    "make": "OnePlus",
+                    "model": "OnePlus 15",
+                    "focalLength": "5.59",
+                    "apertureValue": "1.9",
+                    "exposureTime": "1/120",
+                    "dateTimeOriginal": "2026-07-19T13:37:04.000Z"
+                }
+            }
+        },
+        {
+            "id": "eiPGtsRFRfWjydHHk3ybRw",
+            "name": "IMG20260719133700.jpg",
+            "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/eiPGtsRFRfWjydHHk3ybRw?viewBox=512&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
+            "contentProperties": {
+                "image": {
+                    "make": "OnePlus",
+                    "model": "OnePlus 15",
+                    "focalLength": "5.59",
+                    "apertureValue": "1.9",
+                    "exposureTime": "1/120",
+                    "dateTimeOriginal": "2026-07-19T13:37:00.000Z"
+                }
+            }
+        },
+        {
+            "id": "49ooiz0fTemZIsux95ABmw",
+            "name": "IMG20260719133652.jpg",
+            "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/49ooiz0fTemZIsux95ABmw?viewBox=512&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
+            "contentProperties": {
+                "image": {
+                    "make": "OnePlus",
+                    "model": "OnePlus 15",
+                    "focalLength": "5.59",
+                    "apertureValue": "1.9",
+                    "exposureTime": "1/120",
+                    "dateTimeOriginal": "2026-07-19T13:36:52.000Z"
+                }
+            }
+        },
+        {
+            "id": "A_Vot5RJQoyNL-tufw_amw",
+            "name": "IMG20260719133040.jpg",
+            "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/A_Vot5RJQoyNL-tufw_amw?viewBox=512&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
+            "contentProperties": {
+                "image": {
+                    "make": "OnePlus",
+                    "model": "OnePlus 15",
+                    "focalLength": "5.59",
+                    "apertureValue": "1.9",
+                    "exposureTime": "1/120",
+                    "dateTimeOriginal": "2026-07-19T13:30:40.000Z"
+                }
+            }
+        },
+        {
+            "id": "HVrsZdCpSRa-5GXaF8msPQ",
+            "name": "IMG20260719131258.jpg",
+            "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/HVrsZdCpSRa-5GXaF8msPQ?viewBox=512&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
+            "contentProperties": {
+                "image": {
+                    "make": "OnePlus",
+                    "model": "OnePlus 15",
+                    "focalLength": "5.59",
+                    "apertureValue": "1.9",
+                    "exposureTime": "1/120",
+                    "dateTimeOriginal": "2026-07-19T13:12:58.000Z"
+                }
+            }
+        },
+        {
+            "id": "8TqO0crPSo-aLDpTzyxlmA",
+            "name": "AMP02696.ARW",
+            "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/8TqO0crPSo-aLDpTzyxlmA?viewBox=512&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
+            "contentProperties": {
+                "image": {
+                    "make": "SONY",
+                    "model": "ILCE-6700",
+                    "focalLength": "18.7",
+                    "exposureTime": "1/30",
+                    "dateTimeOriginal": "2026-07-19T12:33:47.000Z"
+                }
+            }
+        },
+        {
+            "id": "lNaGaqLpQOmHmjHVQh_GIw",
+            "name": "AMP02694.JPG",
+            "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/lNaGaqLpQOmHmjHVQh_GIw?viewBox=512&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
+            "contentProperties": {
+                "image": {
+                    "make": "SONY",
+                    "model": "ILCE-6700",
+                    "focalLength": "50",
+                    "exposureTime": "1/80",
+                    "dateTimeOriginal": "2026-07-19T12:33:35.000Z"
+                }
+            }
+        },
+        {
+            "id": "7wKhXTD1TJ-Co6n1UUT1fw",
+            "name": "AMP02687.JPG",
+            "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/7wKhXTD1TJ-Co6n1UUT1fw?viewBox=512&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
+            "contentProperties": {
+                "image": {
+                    "make": "SONY",
+                    "model": "ILCE-6700",
+                    "focalLength": "18",
+                    "exposureTime": "1/30",
+                    "dateTimeOriginal": "2026-07-19T12:32:22.000Z"
+                }
+            }
+        },
+        {
+            "id": "WI-mdc2KSs6NZaIhBEF9Bg",
+            "name": "AMP02680.jpg",
+            "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/WI-mdc2KSs6NZaIhBEF9Bg?viewBox=512&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
+            "contentProperties": {
+                "image": {
+                    "make": "SONY",
+                    "model": "ILCE-6700",
+                    "focalLength": "19.1",
+                    "apertureValue": "4.0",
+                    "exposureTime": "1/30",
+                    "dateTimeOriginal": "2026-07-19T12:11:57.000Z"
+                }
+            }
+        },
+        {
+            "id": "3nV4TNTnQnKJdwbFFovVpA",
+            "name": "IMG20260719115006.jpg",
+            "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/3nV4TNTnQnKJdwbFFovVpA?viewBox=512&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
+            "contentProperties": {
+                "image": {
+                    "make": "OnePlus",
+                    "model": "OnePlus 15",
+                    "focalLength": "5.59",
+                    "apertureValue": "1.9",
+                    "exposureTime": "1/941",
+                    "dateTimeOriginal": "2026-07-19T11:50:06.000Z"
+                }
+            }
+        },
+        {
+            "id": "iI2i2dHcROWFHDu-cg2B2A",
+            "name": "IMG20260719114644.jpg",
+            "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/iI2i2dHcROWFHDu-cg2B2A?viewBox=512&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
+            "contentProperties": {
+                "image": {
+                    "make": "OnePlus",
+                    "model": "OnePlus 15",
+                    "focalLength": "5.59",
+                    "apertureValue": "1.9",
+                    "exposureTime": "1/724",
+                    "dateTimeOriginal": "2026-07-19T11:46:44.000Z"
+                }
+            }
+        },
+        {
+            "id": "WwSHnFqzT5eoE-mRtkNGDw",
+            "name": "IMG20260719095215.jpg",
+            "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/WwSHnFqzT5eoE-mRtkNGDw?viewBox=512&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
+            "contentProperties": {
+                "image": {
+                    "make": "OnePlus",
+                    "model": "OnePlus 15",
+                    "focalLength": "5.59",
+                    "apertureValue": "1.9",
+                    "exposureTime": "1/1486",
+                    "dateTimeOriginal": "2026-07-19T09:52:15.000Z"
+                }
+            }
+        },
+        {
+            "id": "fDKZVqlfR5eB-P85HL6qaQ",
+            "name": "IMG20260719092709.jpg",
+            "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/fDKZVqlfR5eB-P85HL6qaQ?viewBox=512&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
+            "contentProperties": {
+                "image": {
+                    "make": "OnePlus",
+                    "model": "OnePlus 15",
+                    "focalLength": "5.59",
+                    "apertureValue": "1.9",
+                    "exposureTime": "1/1711",
+                    "dateTimeOriginal": "2026-07-19T09:27:09.000Z"
+                }
+            }
+        },
+        {
+            "id": "sA3d70VwT0u6Ye40TuH6YA",
+            "name": "IMG20260719092356.jpg",
+            "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/sA3d70VwT0u6Ye40TuH6YA?viewBox=512&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
+            "contentProperties": {
+                "image": {
+                    "make": "OnePlus",
+                    "model": "OnePlus 15",
+                    "focalLength": "5.59",
+                    "apertureValue": "1.9",
+                    "exposureTime": "1/1661",
+                    "dateTimeOriginal": "2026-07-19T09:23:56.000Z"
                 }
             }
         },
@@ -118,6 +544,66 @@
                     "apertureValue": "4.0",
                     "exposureTime": "1/125",
                     "dateTimeOriginal": "2026-07-18T08:49:22.000Z"
+                }
+            }
+        },
+        {
+            "id": "yMLp_RNhQBOw2SRX3KiEcQ",
+            "name": "AMP02234 (2026-06-28T17_03_46.307).jpg",
+            "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/yMLp_RNhQBOw2SRX3KiEcQ?viewBox=512&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
+            "contentProperties": {
+                "image": {
+                    "make": "SONY",
+                    "model": "ILCE-6700",
+                    "focalLength": "18",
+                    "apertureValue": "2.8",
+                    "exposureTime": "1/30",
+                    "dateTimeOriginal": "2026-06-27T13:58:43.000Z"
+                }
+            }
+        },
+        {
+            "id": "MKMMs1sOSamNUSsBrKCMNw",
+            "name": "AMP02233 (2026-06-28T17_03_44.959).jpg",
+            "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/MKMMs1sOSamNUSsBrKCMNw?viewBox=512&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
+            "contentProperties": {
+                "image": {
+                    "make": "SONY",
+                    "model": "ILCE-6700",
+                    "focalLength": "26.4",
+                    "apertureValue": "2.8",
+                    "exposureTime": "1/50",
+                    "dateTimeOriginal": "2026-06-27T13:57:16.000Z"
+                }
+            }
+        },
+        {
+            "id": "UYLRvQfYSP2XKRV9qOVn6A",
+            "name": "AMP02202 (2026-06-28T17_02_47.435).jpg",
+            "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/UYLRvQfYSP2XKRV9qOVn6A?viewBox=512&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
+            "contentProperties": {
+                "image": {
+                    "make": "SONY",
+                    "model": "ILCE-6700",
+                    "focalLength": "18",
+                    "apertureValue": "2.8",
+                    "exposureTime": "1/30",
+                    "dateTimeOriginal": "2026-06-27T13:51:26.000Z"
+                }
+            }
+        },
+        {
+            "id": "Q9b88P_6SC2weUOYU6wx5g",
+            "name": "AMP02187 (2026-06-28T17_02_17.677).jpg",
+            "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/Q9b88P_6SC2weUOYU6wx5g?viewBox=512&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
+            "contentProperties": {
+                "image": {
+                    "make": "SONY",
+                    "model": "ILCE-6700",
+                    "focalLength": "18",
+                    "apertureValue": "2.8",
+                    "exposureTime": "1/30",
+                    "dateTimeOriginal": "2026-06-27T13:45:12.000Z"
                 }
             }
         },
@@ -1892,9 +2378,9 @@
             }
         },
         {
-            "id": "DanJtEe0T8O6auUX2KgpOw",
-            "name": "AMP02096.jpg",
-            "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/DanJtEe0T8O6auUX2KgpOw?viewBox=512&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
+            "id": "gG4P8QcdRL-SWEgfwtrYJg",
+            "name": "Showcase-Square-02096.jpg",
+            "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/gG4P8QcdRL-SWEgfwtrYJg?viewBox=512&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
             "contentProperties": {
                 "image": {
                     "make": "SONY",
@@ -1907,9 +2393,9 @@
             }
         },
         {
-            "id": "gG4P8QcdRL-SWEgfwtrYJg",
-            "name": "Showcase-Square-02096.jpg",
-            "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/gG4P8QcdRL-SWEgfwtrYJg?viewBox=512&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
+            "id": "DanJtEe0T8O6auUX2KgpOw",
+            "name": "AMP02096.jpg",
+            "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/DanJtEe0T8O6auUX2KgpOw?viewBox=512&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
             "contentProperties": {
                 "image": {
                     "make": "SONY",
@@ -2807,9 +3293,9 @@
             }
         },
         {
-            "id": "pE4PNjQhTmS-qMPXfY7AxA",
-            "name": "AMP00489.jpg",
-            "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/pE4PNjQhTmS-qMPXfY7AxA?viewBox=512&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
+            "id": "yFC6OGHsSxyYdqj4OZdwLw",
+            "name": "Showcase-Square-00489.jpg",
+            "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/yFC6OGHsSxyYdqj4OZdwLw?viewBox=512&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
             "contentProperties": {
                 "image": {
                     "make": "SONY",
@@ -2822,9 +3308,9 @@
             }
         },
         {
-            "id": "yFC6OGHsSxyYdqj4OZdwLw",
-            "name": "Showcase-Square-00489.jpg",
-            "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/yFC6OGHsSxyYdqj4OZdwLw?viewBox=512&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
+            "id": "pE4PNjQhTmS-qMPXfY7AxA",
+            "name": "AMP00489.jpg",
+            "imageUrl": "https://thumbnails-photos.amazon.com/v1/thumbnail/pE4PNjQhTmS-qMPXfY7AxA?viewBox=512&ownerId=A3J92KC8JH1BB4&groupShareToken=c0DUWYbiQp-l29Y1XNeONw.Y0iSRUBZHsJhWSOUngm5OB",
             "contentProperties": {
                 "image": {
                     "make": "SONY",
