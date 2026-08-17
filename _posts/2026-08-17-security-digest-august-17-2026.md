@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - August 17, 2026"
+date: 2026-08-17 14:19:20 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - August 17, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -54,4 +62,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [GeoServer’s Unauthenticated SQL injection Vulnerability Enables RCE Attacks](https://cybersecuritynews.com/geoservers-unauthenticated-sql-injection-vulnerability/) - *(CybersecurityNews)*
 - [How widespread is the recent Metabase SQL injection attack?](https://www.reddit.com/r/cybersecurity/comments/1vqdo0o/how_widespread_is_the_recent_metabase_sql/) - *(Reddit r/cybersecurity)*
 - [CVE-2026-6837: Root Command Injection Affecting 18 Zyxel Access Point Models](https://www.reddit.com/r/cybersecurity/comments/1vq55rw/cve20266837_root_command_injection_affecting_18/) - *(Reddit r/cybersecurity)*
+
 
