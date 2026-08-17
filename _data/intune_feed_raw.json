@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-14T11:41:41.548197+00:00",
-  "date": "2026-08-14",
+  "generated_utc": "2026-08-17T11:21:11.598041+00:00",
+  "date": "2026-08-17",
   "lookback_hours": 25,
   "source_status": [
     {
@@ -12,7 +12,7 @@
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 1
+      "count": 0
     },
     {
       "name": "Microsoft Intune What's New",
@@ -37,17 +37,17 @@
     {
       "name": "BleepingComputer",
       "status": "OK",
-      "count": 3
+      "count": 2
     },
     {
       "name": "Neowin",
       "status": "OK",
-      "count": 4
+      "count": 0
     },
     {
       "name": "The Hacker News",
       "status": "OK",
-      "count": 0
+      "count": 2
     },
     {
       "name": "Krebs on Security",
@@ -99,83 +99,45 @@
   "items": {
     "high_alert": [
       {
-        "fingerprint": "ad91e1630e92",
-        "title": "Akira hackers disable EDR with Safe Mode, steal data but fail to encrypt",
-        "link": "https://www.bleepingcomputer.com/news/security/akira-hackers-disable-edr-with-safe-mode-steal-data-but-fail-to-encrypt/",
+        "fingerprint": "d8d531c84a57",
+        "title": "Evooo1Bot Linux Botnet Exploits Known Flaws to Turn Edge Devices Into SOCKS5 Proxies",
+        "link": "https://thehackernews.com/2026/08/evooo1bot-linux-botnet-exploits-known.html",
+        "source": "The Hacker News",
+        "published": "2026-08-17T09:29:55+00:00",
+        "summary": "Cybersecurity researchers have flagged a previously undocumented Linux botnet family dubbed Evooo1Bot that derives its core functionality from the Mirai botnet source code and is equipped to turn internet-facing devices into SOCKS proxies. \"While the malware reuses the DDoS engine from the publicly leaked Mirai source code, it extends the original framework with numerous capabilities, including",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "031f4204d2e7",
+        "title": "Microsoft working on Defender patch for ShieldBreak zero-day",
+        "link": "https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/",
         "source": "BleepingComputer",
-        "published": "2026-08-13T20:47:02+00:00",
-        "summary": "An Akira ransomware affiliate disabled the endpoint detection and response (EDR) solution on a compromised system by restarting the machine into Safe Mode with Networking. [...]",
+        "published": "2026-08-17T09:05:33+00:00",
+        "summary": "Microsoft is working on a security patch for the \"ShieldBreak\" zero-day vulnerability disclosed last week by security researcher \"Nightmare Eclipse\" and now tracked as CVE-2026-69414. [...]",
         "category": "high_alert"
       },
       {
-        "fingerprint": "982b902f3559",
-        "title": "Microsoft patches LegacyHive Windows zero-day vulnerability",
-        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-legacyhive-windows-zero-day-vulnerability/",
+        "fingerprint": "c1d1456c344c",
+        "title": "Suspected China-Nexus Actor Exploits VMware vCenter Flaw, Deploys Babuk-Derived Ransomware",
+        "link": "https://thehackernews.com/2026/08/suspected-china-nexus-actor-exploits.html",
+        "source": "The Hacker News",
+        "published": "2026-08-17T07:36:19+00:00",
+        "summary": "Cybersecurity researchers have attributed the exploitation of a newly patched security flaw in Broadcom VMware vCenter to a suspected China-nexus advanced persistent threat (APT). The attacks involve the exploitation of CVE-2026-59310 (CVSS score: 9.8), a severe directory-traversal vulnerability in the VMware vCenter server that could be weaponized by a malicious actor to execute arbitrary code",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "b7088932374e",
+        "title": "New AmnesiaStealer macOS malware hijacks browser sessions via remote control",
+        "link": "https://www.bleepingcomputer.com/news/security/new-amnesiastealer-macos-malware-hijacks-browser-sessions-via-remote-control/",
         "source": "BleepingComputer",
-        "published": "2026-08-13T17:46:20+00:00",
-        "summary": "Microsoft has released security patches to address a Windows zero-day vulnerability known as \"LegacyHive,\" disclosed after the July 2026 Patch Tuesday. [...]",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "61b99c4e7a5b",
-        "title": "Critical VMware vCenter RCE flaw exploited for reverse SSH access",
-        "link": "https://www.bleepingcomputer.com/news/security/critical-vmware-vcenter-rce-flaw-exploited-for-reverse-ssh-access/",
-        "source": "BleepingComputer",
-        "published": "2026-08-13T16:40:23+00:00",
-        "summary": "A recently patched critical vulnerability (CVE-2026-59310) in VMware vCenter Syslog Server is being exploited in an active campaign to deploy a reverse SSH tool for persistence and remote access. [...]",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "397fcc1f9b82",
-        "title": "Patched SharePoint vulnerability now being exploited in the wild, here's why",
-        "link": "https://www.neowin.net/news/patched-sharepoint-vulnerability-now-being-exploited-in-the-wild-heres-why/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-08-13T12:20:02+00:00",
-        "summary": "With attacks ongoing, admins are urged to apply the July 2026 Patch Tuesday updates if they've not done so already. Read more...",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "b0d8d489a18d",
-        "title": "NightmareEclipse strikes again at Windows 11 exploit with ShieldBreak proof of concept",
-        "link": "https://www.neowin.net/news/nightmareeclipse-strikes-again-at-windows-11-exploit-with-shieldbreak-proof-of-concept/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-08-13T10:48:02+00:00",
-        "summary": "This is a zero-day bug being exploited so Microsoft has not patched the issue yet. Admins need to be on the lookout for a fix from Microsoft and apply it ASAP. Read more...",
+        "published": "2026-08-16T15:07:44+00:00",
+        "summary": "A new information-stealing malware called AmnesiaStealer, which targets macOS users via ClickFix attacks, includes a streaming module that allows the attacker to interactively control the victim's web browser. [...]",
         "category": "high_alert"
       }
     ],
     "bad_updates": [],
-    "upcoming_changes": [
-      {
-        "fingerprint": "f0891108e8c9",
-        "title": "Microsoft Teams: Calls popout into a new window on the browser to support multi-tasking and collaboration during a meeting!",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569206",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-08-13T22:42:07+00:00",
-        "summary": "Microsoft Teams browser app users will now be able to have their a simplified call window persist on top of other content when they navigate or hide the tab or PWA hosting the call! GA date: September CY2026",
-        "category": "upcoming_changes"
-      }
-    ],
+    "upcoming_changes": [],
     "official_news": [],
-    "community_buzz": [
-      {
-        "fingerprint": "7fff99e8922f",
-        "title": "Microsoft urges IT admins to consider using Entra ID instead of Active Directory",
-        "link": "https://www.neowin.net/news/microsoft-urges-it-admins-to-consider-using-entra-id-instead-of-active-directory/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-08-14T05:50:02+00:00",
-        "summary": "Still relying on Active Directory? Microsoft says these warning signs could mean your organization is ready for a major identity shift. Read more...",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "a012abce7eae",
-        "title": "As passkeys become default in Entra ID, IT admins may have to worry more about security",
-        "link": "https://www.neowin.net/news/as-passkeys-become-default-in-entra-id-it-admins-may-have-to-worry-more-about-security/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-08-13T11:56:01+00:00",
-        "summary": "Microsoft is preparing a major Entra ID authentication change, but security experts warn the rollout could create new problems for IT teams. Read more...",
-        "category": "community_buzz"
-      }
-    ]
+    "community_buzz": []
   }
 }
