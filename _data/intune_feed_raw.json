@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-17T11:21:11.598041+00:00",
-  "date": "2026-08-17",
+  "generated_utc": "2026-08-18T11:21:28.692217+00:00",
+  "date": "2026-08-18",
   "lookback_hours": 25,
   "source_status": [
     {
@@ -12,7 +12,7 @@
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 0
+      "count": 6
     },
     {
       "name": "Microsoft Intune What's New",
@@ -37,17 +37,17 @@
     {
       "name": "BleepingComputer",
       "status": "OK",
-      "count": 2
+      "count": 3
     },
     {
       "name": "Neowin",
       "status": "OK",
-      "count": 0
+      "count": 1
     },
     {
       "name": "The Hacker News",
       "status": "OK",
-      "count": 2
+      "count": 7
     },
     {
       "name": "Krebs on Security",
@@ -99,45 +99,164 @@
   "items": {
     "high_alert": [
       {
-        "fingerprint": "d8d531c84a57",
-        "title": "Evooo1Bot Linux Botnet Exploits Known Flaws to Turn Edge Devices Into SOCKS5 Proxies",
-        "link": "https://thehackernews.com/2026/08/evooo1bot-linux-botnet-exploits-known.html",
-        "source": "The Hacker News",
-        "published": "2026-08-17T09:29:55+00:00",
-        "summary": "Cybersecurity researchers have flagged a previously undocumented Linux botnet family dubbed Evooo1Bot that derives its core functionality from the Mirai botnet source code and is equipped to turn internet-facing devices into SOCKS proxies. \"While the malware reuses the DDoS engine from the publicly leaked Mirai source code, it extends the original framework with numerous capabilities, including",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "031f4204d2e7",
-        "title": "Microsoft working on Defender patch for ShieldBreak zero-day",
-        "link": "https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/",
+        "fingerprint": "edab1224d64d",
+        "title": "CISA: Windows Task Host flaw now exploited by ransomware gangs",
+        "link": "https://www.bleepingcomputer.com/news/security/cisa-windows-task-host-flaw-now-exploited-by-ransomware-gangs/",
         "source": "BleepingComputer",
-        "published": "2026-08-17T09:05:33+00:00",
-        "summary": "Microsoft is working on a security patch for the \"ShieldBreak\" zero-day vulnerability disclosed last week by security researcher \"Nightmare Eclipse\" and now tracked as CVE-2026-69414. [...]",
+        "published": "2026-08-18T10:32:16+00:00",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has confirmed that ransomware gangs are also exploiting a high-severity Windows Task Host vulnerability that was flagged as actively exploited in April. [...]",
         "category": "high_alert"
       },
       {
-        "fingerprint": "c1d1456c344c",
-        "title": "Suspected China-Nexus Actor Exploits VMware vCenter Flaw, Deploys Babuk-Derived Ransomware",
-        "link": "https://thehackernews.com/2026/08/suspected-china-nexus-actor-exploits.html",
+        "fingerprint": "4cefac118ff2",
+        "title": "CISA Flags Actively Exploited Ray Flaw That Can Trigger Browser-Based RCE",
+        "link": "https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html",
         "source": "The Hacker News",
-        "published": "2026-08-17T07:36:19+00:00",
-        "summary": "Cybersecurity researchers have attributed the exploitation of a newly patched security flaw in Broadcom VMware vCenter to a suspected China-nexus advanced persistent threat (APT). The attacks involve the exploitation of CVE-2026-59310 (CVSS score: 9.8), a severe directory-traversal vulnerability in the VMware vCenter server that could be weaponized by a malicious actor to execute arbitrary code",
+        "published": "2026-08-18T06:34:20+00:00",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a critical flaw impacting Ray to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. Ray is an open-source, Python-native distributed computing framework designed to scale artificial intelligence and machine learning workloads. As of writing, the GitHub project has more than",
         "category": "high_alert"
       },
       {
-        "fingerprint": "b7088932374e",
-        "title": "New AmnesiaStealer macOS malware hijacks browser sessions via remote control",
-        "link": "https://www.bleepingcomputer.com/news/security/new-amnesiastealer-macos-malware-hijacks-browser-sessions-via-remote-control/",
+        "fingerprint": "6444b6247650",
+        "title": "Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects",
+        "link": "https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html",
+        "source": "The Hacker News",
+        "published": "2026-08-17T21:03:04+00:00",
+        "summary": "GitLab has released security updates to address a critical vulnerability impacting its Community Edition (CE) and Enterprise Edition (EE) software that, under certain conditions, could allow an unauthenticated attacker to remotely modify or delete public projects and user data. The flaw, tracked as CVE-2026-19478, has been rated Critical by GitLab and assigned a CVSS score of 9.4. Released on",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "cdd1e352e78b",
+        "title": "Forminator WordPress Flaw Can Enable Unauthenticated RCE via Malicious PHP Uploads",
+        "link": "https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html",
+        "source": "The Hacker News",
+        "published": "2026-08-17T18:22:09+00:00",
+        "summary": "A critical security flaw has been disclosed in Forminator Forms, a WordPress plugin with more than 600,000 active installations, that could be exploited to achieve arbitrary code execution on susceptible sites. The vulnerability, tracked as CVE-2026-15748, is rated 9.8 out of 10.0 on the CVSS scoring system. It was discovered and reported by a security researcher who goes by the online alias \"",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "aaa1e2cb3499",
+        "title": "Certighost and the Privilege Hiding in Your Certificate Authority",
+        "link": "https://www.bleepingcomputer.com/news/security/certighost-and-the-privilege-hiding-in-your-certificate-authority/",
         "source": "BleepingComputer",
-        "published": "2026-08-16T15:07:44+00:00",
-        "summary": "A new information-stealing malware called AmnesiaStealer, which targets macOS users via ClickFix attacks, includes a streaming module that allows the attacker to interactively control the victim's web browser. [...]",
+        "published": "2026-08-17T14:00:10+00:00",
+        "summary": "CVE-2026-54121 lets a standard domain user turn your Enterprise CA into a Domain Controller. The patch is the easy part. The lesson is standing privilege, implicit trust, and treating PKI as the Tier 0 identity infrastructure it has always been. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "ec37d61c9aaa",
+        "title": "⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks and More",
+        "link": "https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html",
+        "source": "The Hacker News",
+        "published": "2026-08-17T13:23:51+00:00",
+        "summary": "The expensive attacks are not always the clever ones. This week had plenty of proof. Exposed services got hit, old bugs found fresh use, browser sessions became attack paths, and supply-chain problems kept spreading farther than the original compromise. A lot of it came down to access that was already there and defenses that assumed nobody would look too closely. So, nothing magical. Just a",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "3a6d31f8d258",
+        "title": "Philips and GE investigating Clop ransomware data theft claims",
+        "link": "https://www.bleepingcomputer.com/news/security/philips-and-ge-investigating-clop-ransomware-data-theft-claims/",
+        "source": "BleepingComputer",
+        "published": "2026-08-17T11:25:02+00:00",
+        "summary": "Tech giants General Electric (GE) and Philips have also confirmed they're investigating claims that the Clop ransomware gang breached their systems and stole data. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "e98c804b9819",
+        "title": "Unisoc VoLTE Video Call Exploit Chain Can Give Attackers Full Android Kernel Access",
+        "link": "https://thehackernews.com/2026/08/unisoc-volte-video-call-exploit-chain.html",
+        "source": "The Hacker News",
+        "published": "2026-08-17T10:52:34+00:00",
+        "summary": "Security researchers at SSD Secure Disclosure have published a two-stage exploit chain that achieves full Android kernel access on devices running Unisoc modem firmware through a VoLTE video call, with no fix from the chipset maker. The advisory, published August 17, 2026, is the second stage of a chain that began in March 2026, when SSD disclosed remote code execution in the",
         "category": "high_alert"
       }
     ],
     "bad_updates": [],
-    "upcoming_changes": [],
+    "upcoming_changes": [
+      {
+        "fingerprint": "f6f96feeab7b",
+        "title": "Outlook: Change the organizer of a meeting",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569431",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-08-17T22:52:47+00:00",
+        "summary": "Transfer ownership of a meeting or recurring meeting series to another person in your organization. The new organizer must accept the transfer before it is completed. This helps maintain continuity for long-running meetings while preserving the existing event for attendees. Available in Outlook for Windows and web and Teams calendar. GA date: September CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "7479971f0f2f",
+        "title": "Planner: Private tasks now stored in your private plan",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569426",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-08-17T22:52:47+00:00",
+        "summary": "Private tasks created in Planner and Planner-powered experiences are stored in the user’s private plan, providing a single place for tasks visible only to that user. Private tasks cannot be shared or assigned to others, and existing tasks continue to work and appear alongside them. GA date: September CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "5a250764795f",
+        "title": "Microsoft Purview: eDiscovery- Select user-owned SharePoint embedded container as a data source",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569364",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-08-17T22:52:47+00:00",
+        "summary": "eDiscovery users will be able to view and select SharePoint Embedded content containers owned or created by a selected person. These containers store content from apps such as Microsoft Loop, Copilot Pages, and Copilot Notebooks. GA date: October CY2026 Preview date: September CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "c2e123f60242",
+        "title": "Microsoft Purview: Permissions audit log improvements",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569363",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-08-17T22:52:47+00:00",
+        "summary": "Improving permission checks when users access the Microsoft Purview portal. Enhanced audit logs will provide clearer visibility into role and scoped-role access decisions, helping administrators troubleshoot access issues and monitor authorization outcomes. GA date: September CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "30bbe016e25f",
+        "title": "OneDrive: Improved capabilities for files with Copilot in OneDrive Web",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569215",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-08-17T22:52:47+00:00",
+        "summary": "With improved Copilot file skills in OneDrive, you can go from files to finished work directly from chat. Copilot helps you find the right content, analyze files and data, create polished outputs like summaries, dashboards, and presentations, and collaborate by saving or sharing the results from OneDrive. GA date: December CY2026 Preview date: August CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "8ab74c6d0e42",
+        "title": "Microsoft Teams: Temporarily pause all notifications",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569205",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-08-17T22:52:47+00:00",
+        "summary": "Users are now able to temporarily pause all notifications. GA date: September CY2026",
+        "category": "upcoming_changes"
+      }
+    ],
     "official_news": [],
-    "community_buzz": []
+    "community_buzz": [
+      {
+        "fingerprint": "5dffd59b63fd",
+        "title": "Snowflake GitHub Actions Flaw Lets Crafted Issues Trigger Command Injection",
+        "link": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets_0330881554.html",
+        "source": "The Hacker News",
+        "published": "2026-08-17T18:44:17+00:00",
+        "summary": "Cybersecurity researchers at Wiz have disclosed a new GitHub Actions workflow injection vulnerability in Snowflake's public snowflakedb/snowflake-connector-net repository that it said could be exploited through a crafted GitHub issue to execute commands in a workflow containing internal Jira credentials. The issue was present in .github/workflows/jira_issue.yml, which ran when a",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "d1b70a96282a",
+        "title": "Cavern C2 Uses DNS and Google Apps Script to Blend Into Legitimate Traffic",
+        "link": "https://thehackernews.com/2026/08/cavern-c2-uses-dns-and-google-apps.html",
+        "source": "The Hacker News",
+        "published": "2026-08-17T17:41:06+00:00",
+        "summary": "Cybersecurity researchers have traced the continued evolution of the Cavern (aka Cav3rn) command-and-control (C2) framework used by Iranian nation-state hackers in attacks targeting entities in Israel. Russian cybersecurity company Kaspersky said its ongoing monitoring of the threat activity cluster since December 2025 has led to the discovery of previously unreported components that expand the",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "25505b5a7e1d",
+        "title": "Free eBook: Artificial Intelligence, Cybersecurity and Cyber Defense (was $30)",
+        "link": "https://www.neowin.net/sponsored/free-ebook-artificial-intelligence-cybersecurity-and-cyber-defense-was-30/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-08-17T15:00:01+00:00",
+        "summary": "Is the prospect of machines that can make their own decisions, formulate their own plans and “think” something that army commanders can dream of at the beginning of this 21st Century? Read more...",
+        "category": "community_buzz"
+      }
+    ]
   }
 }
