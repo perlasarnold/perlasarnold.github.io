@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - August 18, 2026"
+date: 2026-08-18 14:24:16 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - August 18, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -57,4 +65,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [A CISO Mental Model - how do you express yours?](https://www.reddit.com/r/cybersecurity/comments/1vrjbq8/a_ciso_mental_model_how_do_you_express_yours/) - *(Reddit r/cybersecurity)*
 - [Microsoft working on Defender patch for ShieldBreak zero-day](https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/) - *(BleepingComputer)*
 - [CVE-2026-11736](https://www.cve.org/CVERecord?id=CVE-2026-11736) - *(CVE.org)*
+
 
