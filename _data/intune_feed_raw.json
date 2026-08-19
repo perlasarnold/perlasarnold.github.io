@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-18T11:21:28.692217+00:00",
-  "date": "2026-08-18",
+  "generated_utc": "2026-08-19T11:21:33.354540+00:00",
+  "date": "2026-08-19",
   "lookback_hours": 25,
   "source_status": [
     {
@@ -12,7 +12,7 @@
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 6
+      "count": 3
     },
     {
       "name": "Microsoft Intune What's New",
@@ -27,7 +27,7 @@
     {
       "name": "Microsoft Security Blog",
       "status": "OK",
-      "count": 0
+      "count": 1
     },
     {
       "name": "Microsoft Entra Blog",
@@ -37,17 +37,17 @@
     {
       "name": "BleepingComputer",
       "status": "OK",
-      "count": 3
+      "count": 4
     },
     {
       "name": "Neowin",
       "status": "OK",
-      "count": 1
+      "count": 2
     },
     {
       "name": "The Hacker News",
       "status": "OK",
-      "count": 7
+      "count": 6
     },
     {
       "name": "Krebs on Security",
@@ -99,6 +99,69 @@
   "items": {
     "high_alert": [
       {
+        "fingerprint": "b1ffea1b7e7a",
+        "title": "Critical RCE flaw in Windows IKE Extension now actively exploited",
+        "link": "https://www.bleepingcomputer.com/news/security/cisa-critical-windows-ike-extension-flaw-now-exploited-in-attacks/",
+        "source": "BleepingComputer",
+        "published": "2026-08-19T10:12:24+00:00",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned that hackers are exploiting a critical-severity remote code execution (RCE) flaw in the Windows Internet Key Exchange (IKE) Service Extensions component. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "cdf4b29252eb",
+        "title": "CISA: Medusa ransomware hit over 500 critical infrastructure orgs",
+        "link": "https://www.bleepingcomputer.com/news/security/cisa-medusa-ransomware-hit-over-500-critical-infrastructure-orgs/",
+        "source": "BleepingComputer",
+        "published": "2026-08-19T08:00:48+00:00",
+        "summary": "The FBI said Tuesday that the Medusa ransomware gang has breached more than 500 critical infrastructure organizations in the United States since June 2021. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "e53c9226cf27",
+        "title": "Microsoft totally breaks Windows Defender virus scans in trying to fix a 0-day flaw",
+        "link": "https://www.neowin.net/news/microsoft-totally-breaks-windows-defender-virus-scans-in-trying-to-fix-a-0-day-flaw/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-08-19T06:42:02+00:00",
+        "summary": "Windows Defender can't finish quick virus scans, full scans, or even offline scans, according to many reports online. Here's what could be happening. Read more...",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "cee6ec54ffc6",
+        "title": "Microsoft Links 30+ Rotating Domains to MacSync Stealer Infrastructure",
+        "link": "https://thehackernews.com/2026/08/microsoft-links-30-rotating-domains-to.html",
+        "source": "The Hacker News",
+        "published": "2026-08-19T06:01:53+00:00",
+        "summary": "Microsoft Defender Experts have linked more than 30 web domains to MacSync Stealer, a macOS-focused information stealer, after correlating recurring endpoint and network behaviors across changing infrastructure, tracing the malware from payload retrieval through data collection, staging, and exfiltration. The tech giant said it required multiple endpoint and network behaviors to align before",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "83630b71f995",
+        "title": "Clop-Linked Windchill Web Shell Decrypts Credentials and Maps Engineering Data",
+        "link": "https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html",
+        "source": "The Hacker News",
+        "published": "2026-08-19T05:39:25+00:00",
+        "summary": "A JavaServer Pages (JSP) web shell deployed following the exploitation of a critical security flaw in PTC Windchill and FlexPLM servers is specifically designed for the enterprise Product Lifecycle Management (PLM) software, according to new findings from ReliaQuest. The cybersecurity company characterized the web shell as a fully equipped extortion platform capable of mapping sensitive vault",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "c6541cd8edfe",
+        "title": "Clop created custom web shell for Windchill data theft attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/clop-created-custom-web-shell-for-windchill-data-theft-attacks/",
+        "source": "BleepingComputer",
+        "published": "2026-08-18T17:29:51+00:00",
+        "summary": "A custom Java web shell likely linked to the Clop ransomware gang was designed specifically for PTC Windchill and FlexPLM servers, with built-in features to decrypt credentials, enumerate file repositories, and steal files. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "89ca5e7fc337",
+        "title": "Ransom Busters Claims It Hacked Ransomware Servers, Asks Victims for Up to $60,000",
+        "link": "https://thehackernews.com/2026/08/ransom-busters-claims-it-hacked.html",
+        "source": "The Hacker News",
+        "published": "2026-08-18T16:58:16+00:00",
+        "summary": "A ransomware affiliate calling itself Ransom Busters has been spotted proactively sending emails to victim organizations and claims to delete stolen data from ransomware groups' servers in exchange for a fee ranging from $20,000 to $60,000. \"In these messages, the third-party offers to help the victim recover from ransomware attack. This immediately stands out as anomalous,\" GuidePoint Research",
+        "category": "high_alert"
+      },
+      {
         "fingerprint": "edab1224d64d",
         "title": "CISA: Windows Task Host flaw now exploited by ransomware gangs",
         "link": "https://www.bleepingcomputer.com/news/security/cisa-windows-task-host-flaw-now-exploited-by-ransomware-gangs/",
@@ -106,155 +169,84 @@
         "published": "2026-08-18T10:32:16+00:00",
         "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has confirmed that ransomware gangs are also exploiting a high-severity Windows Task Host vulnerability that was flagged as actively exploited in April. [...]",
         "category": "high_alert"
-      },
-      {
-        "fingerprint": "4cefac118ff2",
-        "title": "CISA Flags Actively Exploited Ray Flaw That Can Trigger Browser-Based RCE",
-        "link": "https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html",
-        "source": "The Hacker News",
-        "published": "2026-08-18T06:34:20+00:00",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a critical flaw impacting Ray to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. Ray is an open-source, Python-native distributed computing framework designed to scale artificial intelligence and machine learning workloads. As of writing, the GitHub project has more than",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "6444b6247650",
-        "title": "Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects",
-        "link": "https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html",
-        "source": "The Hacker News",
-        "published": "2026-08-17T21:03:04+00:00",
-        "summary": "GitLab has released security updates to address a critical vulnerability impacting its Community Edition (CE) and Enterprise Edition (EE) software that, under certain conditions, could allow an unauthenticated attacker to remotely modify or delete public projects and user data. The flaw, tracked as CVE-2026-19478, has been rated Critical by GitLab and assigned a CVSS score of 9.4. Released on",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "cdd1e352e78b",
-        "title": "Forminator WordPress Flaw Can Enable Unauthenticated RCE via Malicious PHP Uploads",
-        "link": "https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html",
-        "source": "The Hacker News",
-        "published": "2026-08-17T18:22:09+00:00",
-        "summary": "A critical security flaw has been disclosed in Forminator Forms, a WordPress plugin with more than 600,000 active installations, that could be exploited to achieve arbitrary code execution on susceptible sites. The vulnerability, tracked as CVE-2026-15748, is rated 9.8 out of 10.0 on the CVSS scoring system. It was discovered and reported by a security researcher who goes by the online alias \"",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "aaa1e2cb3499",
-        "title": "Certighost and the Privilege Hiding in Your Certificate Authority",
-        "link": "https://www.bleepingcomputer.com/news/security/certighost-and-the-privilege-hiding-in-your-certificate-authority/",
-        "source": "BleepingComputer",
-        "published": "2026-08-17T14:00:10+00:00",
-        "summary": "CVE-2026-54121 lets a standard domain user turn your Enterprise CA into a Domain Controller. The patch is the easy part. The lesson is standing privilege, implicit trust, and treating PKI as the Tier 0 identity infrastructure it has always been. [...]",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "ec37d61c9aaa",
-        "title": "⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks and More",
-        "link": "https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html",
-        "source": "The Hacker News",
-        "published": "2026-08-17T13:23:51+00:00",
-        "summary": "The expensive attacks are not always the clever ones. This week had plenty of proof. Exposed services got hit, old bugs found fresh use, browser sessions became attack paths, and supply-chain problems kept spreading farther than the original compromise. A lot of it came down to access that was already there and defenses that assumed nobody would look too closely. So, nothing magical. Just a",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "3a6d31f8d258",
-        "title": "Philips and GE investigating Clop ransomware data theft claims",
-        "link": "https://www.bleepingcomputer.com/news/security/philips-and-ge-investigating-clop-ransomware-data-theft-claims/",
-        "source": "BleepingComputer",
-        "published": "2026-08-17T11:25:02+00:00",
-        "summary": "Tech giants General Electric (GE) and Philips have also confirmed they're investigating claims that the Clop ransomware gang breached their systems and stole data. [...]",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "e98c804b9819",
-        "title": "Unisoc VoLTE Video Call Exploit Chain Can Give Attackers Full Android Kernel Access",
-        "link": "https://thehackernews.com/2026/08/unisoc-volte-video-call-exploit-chain.html",
-        "source": "The Hacker News",
-        "published": "2026-08-17T10:52:34+00:00",
-        "summary": "Security researchers at SSD Secure Disclosure have published a two-stage exploit chain that achieves full Android kernel access on devices running Unisoc modem firmware through a VoLTE video call, with no fix from the chipset maker. The advisory, published August 17, 2026, is the second stage of a chain that began in March 2026, when SSD disclosed remote code execution in the",
-        "category": "high_alert"
       }
     ],
     "bad_updates": [],
     "upcoming_changes": [
       {
-        "fingerprint": "f6f96feeab7b",
-        "title": "Outlook: Change the organizer of a meeting",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569431",
+        "fingerprint": "06792bc374ce",
+        "title": "Microsoft Copilot (Microsoft M365): Delegated prompt publishing for organization prompts",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569425",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-08-17T22:52:47+00:00",
-        "summary": "Transfer ownership of a meeting or recurring meeting series to another person in your organization. The new organizer must accept the transfer before it is completed. This helps maintain continuity for long-running meetings while preserving the existing event for attendees. Available in Outlook for Windows and web and Teams calendar. GA date: September CY2026",
+        "published": "2026-08-18T23:05:00+00:00",
+        "summary": "This release follows the availability of organization prompts, providing admins the ability to upload custom prompts for their organization in the Copilot app home screen. Now, admins can delegate organization prompt publishing to users, AAD security groups, and distribution groups. These delegated users and groups will be able to create, edit and delete organization prompts at the tenant level...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "7479971f0f2f",
-        "title": "Planner: Private tasks now stored in your private plan",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569426",
+        "fingerprint": "a59ea29c5f6d",
+        "title": "Microsoft Copilot (Microsoft 365): Federated Copilot Connectors in Microsoft 365 Copilot",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569212",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-08-17T22:52:47+00:00",
-        "summary": "Private tasks created in Planner and Planner-powered experiences are stored in the user’s private plan, providing a single place for tasks visible only to that user. Private tasks cannot be shared or assigned to others, and existing tasks continue to work and appear alongside them. GA date: September CY2026",
+        "published": "2026-08-18T23:05:00+00:00",
+        "summary": "Federated Copilot connectors enable users to securely connect Microsoft Copilot to their favorite third party sources, retrieving data in real-time using the Model Context Protocol (MCP). Federated Copilot connectors do not store or index customer data in Microsoft - access happens in real time using the user’s own identity, while administrators retain full governance and control through the Mi...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "5a250764795f",
-        "title": "Microsoft Purview: eDiscovery- Select user-owned SharePoint embedded container as a data source",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569364",
+        "fingerprint": "913344592da2",
+        "title": "Microsoft Teams: Report a Security Concern in Meetings",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569207",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-08-17T22:52:47+00:00",
-        "summary": "eDiscovery users will be able to view and select SharePoint Embedded content containers owned or created by a selected person. These containers store content from apps such as Microsoft Loop, Copilot Pages, and Copilot Notebooks. GA date: October CY2026 Preview date: September CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "c2e123f60242",
-        "title": "Microsoft Purview: Permissions audit log improvements",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569363",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-08-17T22:52:47+00:00",
-        "summary": "Improving permission checks when users access the Microsoft Purview portal. Enhanced audit logs will provide clearer visibility into role and scoped-role access decisions, helping administrators troubleshoot access issues and monitor authorization outcomes. GA date: September CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "30bbe016e25f",
-        "title": "OneDrive: Improved capabilities for files with Copilot in OneDrive Web",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569215",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-08-17T22:52:47+00:00",
-        "summary": "With improved Copilot file skills in OneDrive, you can go from files to finished work directly from chat. Copilot helps you find the right content, analyze files and data, create polished outputs like summaries, dashboards, and presentations, and collaborate by saving or sharing the results from OneDrive. GA date: December CY2026 Preview date: August CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "8ab74c6d0e42",
-        "title": "Microsoft Teams: Temporarily pause all notifications",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569205",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-08-17T22:52:47+00:00",
-        "summary": "Users are now able to temporarily pause all notifications. GA date: September CY2026",
+        "published": "2026-08-18T23:05:00+00:00",
+        "summary": "Microsoft Teams will enable meeting organizers and attendees to report suspicious, malicious, or potentially fraudulent activity directly from meetings. Users can submit reports during or after a meeting, helping organizations identify potential threats such as impersonation, phishing, scams, and other suspicious behavior. Reports are integrated with Microsoft security and administrative workfl...",
         "category": "upcoming_changes"
       }
     ],
-    "official_news": [],
+    "official_news": [
+      {
+        "fingerprint": "e9a5ec067ea4",
+        "title": "Microsoft's warning mail for unsupported Entra voice and SMS auth misses key info",
+        "link": "https://www.neowin.net/news/microsofts-warning-mail-for-unsupported-entra-voice-and-sms-auth-misses-key-info/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-08-19T08:48:01+00:00",
+        "summary": "Microsoft has begun cautioning about Entra voice and SMS authentication retirement, but its email leaves out one useful piece of information. Read more...",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "365fcaf69453",
+        "title": "Hunting MacSync Stealer infrastructure through behavioral pivots",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/08/18/hunting-macsync-stealer-infrastructure-through-behavioral-pivots/",
+        "source": "Microsoft Security Blog",
+        "published": "2026-08-18T17:08:28+00:00",
+        "summary": "MacSync Stealer rapidly rotates domains to evade detection, but its behavior remains consistent. Learn how Microsoft uncovered 30+ related domains using durable hunting pivots. The post Hunting MacSync Stealer infrastructure through behavioral pivots appeared first on Microsoft Security Blog .",
+        "category": "official_news"
+      }
+    ],
     "community_buzz": [
       {
-        "fingerprint": "5dffd59b63fd",
-        "title": "Snowflake GitHub Actions Flaw Lets Crafted Issues Trigger Command Injection",
-        "link": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets_0330881554.html",
+        "fingerprint": "d226f80b3504",
+        "title": "Attackers Exploit MLflow SSRF Flaw to Steal Cloud Credentials and Secrets",
+        "link": "https://thehackernews.com/2026/08/attackers-exploit-mlflow-ssrf-flaw-to.html",
         "source": "The Hacker News",
-        "published": "2026-08-17T18:44:17+00:00",
-        "summary": "Cybersecurity researchers at Wiz have disclosed a new GitHub Actions workflow injection vulnerability in Snowflake's public snowflakedb/snowflake-connector-net repository that it said could be exploited through a crafted GitHub issue to execute commands in a workflow containing internal Jira credentials. The issue was present in .github/workflows/jira_issue.yml, which ran when a",
+        "published": "2026-08-18T17:44:05+00:00",
+        "summary": "Two critical vulnerabilities impacting MLflow, an open-source artificial intelligence (AI) platform, and FUXA, an open-source, web-based SCADA / HMI software built for operational technology (OT) and industrial automation, are witnessing malicious scanning and exploitation efforts. According to independent reports from watchTowr and VulnCheck, the vulnerabilities in question are as follows -",
         "category": "community_buzz"
       },
       {
-        "fingerprint": "d1b70a96282a",
-        "title": "Cavern C2 Uses DNS and Google Apps Script to Blend Into Legitimate Traffic",
-        "link": "https://thehackernews.com/2026/08/cavern-c2-uses-dns-and-google-apps.html",
+        "fingerprint": "55795bb34069",
+        "title": "TWINLOOT Abuses SharePoint and Teams to Steal Credentials and Move Across Networks",
+        "link": "https://thehackernews.com/2026/08/twinloot-abuses-sharepoint-and-teams-to.html",
         "source": "The Hacker News",
-        "published": "2026-08-17T17:41:06+00:00",
-        "summary": "Cybersecurity researchers have traced the continued evolution of the Cavern (aka Cav3rn) command-and-control (C2) framework used by Iranian nation-state hackers in attacks targeting entities in Israel. Russian cybersecurity company Kaspersky said its ongoing monitoring of the threat activity cluster since December 2025 has led to the discovery of previously unreported components that expand the",
+        "published": "2026-08-18T12:38:20+00:00",
+        "summary": "Cybersecurity researchers have disclosed details of a previously undocumented Python implant framework dubbed TWINLOOT. \"TWINLOOT is a modular, PyArmor-hardened Python implant designed to operate its entire command-and-control infrastructure inside trusted Microsoft services,\" Ontinue said in a technical report shared with The Hacker News. \"Tasking flows through SharePoint Online file",
         "category": "community_buzz"
       },
       {
-        "fingerprint": "25505b5a7e1d",
-        "title": "Free eBook: Artificial Intelligence, Cybersecurity and Cyber Defense (was $30)",
-        "link": "https://www.neowin.net/sponsored/free-ebook-artificial-intelligence-cybersecurity-and-cyber-defense-was-30/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-08-17T15:00:01+00:00",
-        "summary": "Is the prospect of machines that can make their own decisions, formulate their own plans and “think” something that army commanders can dream of at the beginning of this 21st Century? Read more...",
+        "fingerprint": "adca4c3cee87",
+        "title": "16 Typosquatted RubyGems Packages Steal Browser Credentials and Crypto Wallets",
+        "link": "https://thehackernews.com/2026/08/16-typosquatted-rubygems-packages-steal.html",
+        "source": "The Hacker News",
+        "published": "2026-08-18T11:20:00+00:00",
+        "summary": "Cybersecurity researchers have flagged a new typosquatting campaign targeting RubyGems users with a Windows-based information stealer. OpenSourceMalware, which discovered the activity on August 15, 2026, is tracking the threat under the moniker StubMaker. The complete list of packages published as part of the campaign is below - ubnuler ubnlder ri18nr reaker rakier orakw joxn",
         "category": "community_buzz"
       }
     ]
