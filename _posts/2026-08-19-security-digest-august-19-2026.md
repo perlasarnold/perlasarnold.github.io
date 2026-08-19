@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - August 19, 2026"
+date: 2026-08-19 14:24:33 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - August 19, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -87,4 +95,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [i have serious concern about corporate cybersecurity](https://www.reddit.com/r/cybersecurity/comments/1vsij61/i_have_serious_concern_about_corporate/) - *(Reddit r/cybersecurity)*
 - [PixelReel Minecraft mod exposes Plex server API keys](https://www.neowin.net/news/pixelreel-minecraft-mod-exposes-plex-server-api-keys/?utm_source=rss) - *(Neowin)*
 - [[Price Dropped] Get Microsoft Office Classic and Windows 11 Pro at 92% off](https://www.neowin.net/deals/price-dropped-get-microsoft-office-classic-and-windows-11-pro-at-92-off/?utm_source=rss) - *(Neowin)*
+
 
