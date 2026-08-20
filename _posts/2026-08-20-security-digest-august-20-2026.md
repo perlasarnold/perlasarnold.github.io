@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - August 20, 2026"
+date: 2026-08-20 14:27:12 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - August 20, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -54,4 +62,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [General question to all my fellow cyber security researchers](https://www.reddit.com/r/cybersecurity/comments/1vtc1n4/general_question_to_all_my_fellow_cyber_security/) - *(Reddit r/cybersecurity)*
 - [Microsoft investigating if Windows 11 KB5121003 update breaks games](https://www.neowin.net/news/microsoft-investigating-if-windows-11-kb5121003-update-breaks-games/?utm_source=rss) - *(Neowin)*
 - [Need advice - MSP partnerships](https://www.reddit.com/r/cybersecurity/comments/1vt8ujh/need_advice_msp_partnerships/) - *(Reddit r/cybersecurity)*
+
 
