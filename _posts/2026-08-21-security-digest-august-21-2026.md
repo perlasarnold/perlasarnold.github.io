@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - August 21, 2026"
+date: 2026-08-21 14:26:01 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - August 21, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -42,4 +50,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Citrix urges admins to patch new NetScaler flaws as soon as possible](https://www.bleepingcomputer.com/news/security/citrix-urges-admins-to-patch-new-netscaler-flaws-as-soon-as-possible/) - *(BleepingComputer)*
 - [CISA warns of hackers exploiting critical MLflow vulnerability](https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-mlflow-vulnerability/) - *(BleepingComputer)*
 - [CVE-2026-63701](https://nvd.nist.gov/vuln/detail/CVE-2026-63701) - *(NVD)*
+
 
