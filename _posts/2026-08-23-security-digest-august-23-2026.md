@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - August 23, 2026"
+date: 2026-08-23 14:15:22 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - August 23, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -56,4 +64,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Chinese Hackers Use AI Agents to Exploit Web Servers and Automate Attacks](https://cybersecuritynews.com/chinese-hackers-use-ai-agents/) - *(CybersecurityNews)*
 - [CISA orders feds to patch actively exploited TrueConf Server flaws](https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-trueconf-server-flaws/) - *(BleepingComputer)*
 - [Citrix urges admins to patch new NetScaler flaws as soon as possible](https://www.bleepingcomputer.com/news/security/citrix-urges-admins-to-patch-new-netscaler-flaws-as-soon-as-possible/) - *(BleepingComputer)*
+
 
