@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - August 24, 2026"
+date: 2026-08-24 14:33:33 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - August 24, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -58,4 +66,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [AppSec Engineer with 4+ YOE — which certifications are actually worth getting for a job switch?](https://www.reddit.com/r/cybersecurity/comments/1vwi9tw/appsec_engineer_with_4_yoe_which_certifications/) - *(Reddit r/cybersecurity)*
 - [Does Good Engineering Go Unnoticed?](https://www.reddit.com/r/cybersecurity/comments/1vwhhie/does_good_engineering_go_unnoticed/) - *(Reddit r/cybersecurity)*
 - [Microsoft Edge is ending support for MDAG and WIP in Windows 10](https://www.neowin.net/news/microsoft-edge-is-ending-support-for-mdag-and-wip-in-windows-10/?utm_source=rss) - *(Neowin)*
+
 
