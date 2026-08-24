@@ -76,8 +76,8 @@ permalink: /work/
         <ul style="padding-left: 1.2rem; line-height: 1.7; margin-bottom: 0;">
           <li><strong>Location</strong>: Santa Ana, California</li>
           <li><strong>Experience</strong>: 13+ Years Systems & SecOps</li>
-          <li><strong>Core Tech</strong>: Azure, AWS, Entra ID, Intune, CrowdStrike, Qualys, PowerShell, Python, Terraform</li>
-          <li><strong>Interests</strong>: Homelabbing, AI Tooling, FOSS, Photography, Tennis</li>
+          <li><strong>Core Tech</strong>: Azure, AWS, Proxmox VE (Clustering/ZFS), Wazuh SIEM, Authentik SSO, Intune, CrowdStrike, Qualys, PowerShell, Python, Terraform, Ansible</li>
+          <li><strong>Interests</strong>: Homelabbing, GitOps & IaC, AI Tooling, FOSS, Photography, Tennis</li>
         </ul>
       </aside>
     </div>
@@ -86,85 +86,88 @@ permalink: /work/
   <!-- Technical Stack Ecosystem -->
   <section>
     <h2 class="section-title">Technical Stack & Tools</h2>
-    <p class="section-subtitle">Core platforms, languages, frameworks, and security suites engineered in production environments.</p>
+    <p class="section-subtitle">Core platforms, languages, frameworks, and security suites engineered across enterprise and self-hosted production environments.</p>
 
     <div class="stack-grid">
 
-      <!-- Category 1: Security & Compliance -->
+      <!-- Category 1: Security, SIEM & IAM -->
       <div class="stack-card">
         <div>
           <div class="stack-card-header">
             <div class="stack-icon">🛡️</div>
-            <h3>Security & Compliance</h3>
+            <h3>Security, SIEM & Identity</h3>
           </div>
           <p class="stack-card-desc">
-            Vulnerability management engines, endpoint security governance, incident response, penetration testing, system hardening, and audit compliance.
+            Vulnerability management engines, SIEM/XDR threat detection, endpoint security governance, SAML/OIDC SSO federation, system hardening, and audit compliance.
           </p>
         </div>
         <div class="tag-cloud">
           <span class="tag-pill highlight">CrowdStrike</span>
           <span class="tag-pill highlight">Qualys</span>
-          <span class="tag-pill highlight">Arctic Wolf</span>
-          <span class="tag-pill">Automox</span>
-          <span class="tag-pill">Lucidum</span>
+          <span class="tag-pill highlight">Wazuh SIEM / XDR</span>
+          <span class="tag-pill highlight">Authentik SSO & MFA</span>
           <span class="tag-pill">Microsoft Defender</span>
+          <span class="tag-pill">Arctic Wolf</span>
+          <span class="tag-pill">Tanium</span>
           <span class="tag-pill">NIST CSF 2.0</span>
           <span class="tag-pill">PCI DSS & SOX</span>
+          <span class="tag-pill">Zero-Trust Controls</span>
           <span class="tag-pill">Penetration Testing</span>
-          <span class="tag-pill">Check Point</span>
-          <span class="tag-pill">Mimecast</span>
           <span class="tag-pill">System Hardening</span>
         </div>
       </div>
 
-      <!-- Category 2: Cloud & Infrastructure -->
+      <!-- Category 2: Cloud, Hypervisors & Storage -->
       <div class="stack-card">
         <div>
           <div class="stack-card-header">
             <div class="stack-icon">☁️</div>
-            <h3>Cloud & Infrastructure</h3>
+            <h3>Cloud, Hypervisors & Storage</h3>
           </div>
           <p class="stack-card-desc">
-            Architecting hybrid cloud workloads, cloud identity, virtualization hypervisors, disaster recovery, and high-availability enterprise services.
+            Architecting hybrid cloud workloads, multi-node hypervisor clustering, enterprise ZFS storage tiering, container microservices, and disaster recovery.
           </p>
         </div>
         <div class="tag-cloud">
           <span class="tag-pill highlight">Microsoft Azure</span>
-          <span class="tag-pill highlight">Entra ID</span>
-          <span class="tag-pill highlight">Active Directory</span>
-          <span class="tag-pill">AWS</span>
+          <span class="tag-pill highlight">Proxmox VE Cluster</span>
+          <span class="tag-pill highlight">ZFS Storage & Datasets</span>
+          <span class="tag-pill highlight">Synology Enterprise NAS</span>
+          <span class="tag-pill">AWS (EC2/VPC/S3)</span>
           <span class="tag-pill">VMware ESXi / vCenter</span>
-          <span class="tag-pill">Hyper-V</span>
-          <span class="tag-pill">Proxmox VE</span>
+          <span class="tag-pill">Linux (Debian/Ubuntu/RHEL)</span>
           <span class="tag-pill">Windows Server</span>
-          <span class="tag-pill">Linux</span>
-          <span class="tag-pill">Cloudflare</span>
-          <span class="tag-pill">Disaster Recovery</span>
+          <span class="tag-pill">LXC Containers</span>
+          <span class="tag-pill">Docker & Compose</span>
+          <span class="tag-pill">CIFS / NFS Storage</span>
+          <span class="tag-pill">GPU Passthrough (Intel QSV)</span>
         </div>
       </div>
 
-      <!-- Category 3: Automation & IaC -->
+      <!-- Category 3: Automation, IaC & DevOps -->
       <div class="stack-card">
         <div>
           <div class="stack-card-header">
             <div class="stack-icon">⚡</div>
-            <h3>Automation & IaC</h3>
+            <h3>Automation, IaC & DevOps</h3>
           </div>
           <p class="stack-card-desc">
-            Trigger-based automated remediation, infrastructure as code, API-driven workflows, self-healing deployments, and sandbox testing.
+            Declarative infrastructure as code, automated rolling update orchestration, API-driven workflows, self-healing deployments, and automated testing.
           </p>
         </div>
         <div class="tag-cloud">
           <span class="tag-pill highlight">PowerShell</span>
           <span class="tag-pill highlight">Python</span>
           <span class="tag-pill highlight">Terraform</span>
+          <span class="tag-pill highlight">Ansible Playbooks</span>
           <span class="tag-pill">Bash</span>
           <span class="tag-pill">REST APIs</span>
-          <span class="tag-pill">Ansible</span>
-          <span class="tag-pill">n8n</span>
-          <span class="tag-pill">Git</span>
-          <span class="tag-pill">Automated Testing</span>
-          <span class="tag-pill">CI/CD Practices</span>
+          <span class="tag-pill">n8n Automation</span>
+          <span class="tag-pill">Git & GitHub Actions</span>
+          <span class="tag-pill">Rolling Updates</span>
+          <span class="tag-pill">Snapshot Rollbacks</span>
+          <span class="tag-pill">UEFI PXE Netboot</span>
+          <span class="tag-pill">Systemd Timers</span>
         </div>
       </div>
 
@@ -173,46 +176,49 @@ permalink: /work/
         <div>
           <div class="stack-card-header">
             <div class="stack-icon">💻</div>
-            <h3>Endpoint Engineering & IAM</h3>
+            <h3>Endpoint Engineering & MDM</h3>
           </div>
           <p class="stack-card-desc">
-            Zero-touch MDM provisioning, centralized patching, SAML/SSO authentication, RBAC, PIM, zero-trust controls, and OS upgrades.
+            Zero-touch MDM provisioning, centralized fleet patching, SAML/SSO authentication, RBAC, PIM, zero-trust conditional access, and automated migrations.
           </p>
         </div>
         <div class="tag-cloud">
           <span class="tag-pill highlight">Microsoft Intune</span>
           <span class="tag-pill highlight">Autopilot / V2</span>
-          <span class="tag-pill highlight">Tanium</span>
-          <span class="tag-pill">SAML & SSO</span>
-          <span class="tag-pill">Zero-Trust Controls</span>
+          <span class="tag-pill highlight">Entra ID (Azure AD)</span>
+          <span class="tag-pill">Tanium</span>
+          <span class="tag-pill">Automox</span>
           <span class="tag-pill">RBAC & PIM</span>
           <span class="tag-pill">Windows 11 Migration</span>
           <span class="tag-pill">RMM Tooling</span>
           <span class="tag-pill">Rubrik</span>
+          <span class="tag-pill">Active Directory & GPO</span>
         </div>
       </div>
 
-      <!-- Category 5: Networking & Defense -->
+      <!-- Category 5: Networking, Ingress & Defense -->
       <div class="stack-card">
         <div>
           <div class="stack-card-header">
             <div class="stack-icon">🌐</div>
-            <h3>Networking & Defense</h3>
+            <h3>Networking, Ingress & Defense</h3>
           </div>
           <p class="stack-card-desc">
-            Enterprise firewall policies, SD-WAN routing, perimeter security, switching infrastructure, SSL certificate management, and secure VPNs.
+            Enterprise firewall policies, 802.1Q VLAN segmentation, zero-inbound edge tunnels, reverse proxy SSL termination, and split-horizon high-availability DNS.
           </p>
         </div>
         <div class="tag-cloud">
-          <span class="tag-pill highlight">Palo Alto Networks</span>
-          <span class="tag-pill highlight">SonicWall</span>
-          <span class="tag-pill highlight">Cisco Meraki</span>
-          <span class="tag-pill">Ubiquiti</span>
-          <span class="tag-pill">Firewall Policy</span>
-          <span class="tag-pill">SD-WAN</span>
-          <span class="tag-pill">Switching & Routing</span>
-          <span class="tag-pill">VPN Tunnels</span>
-          <span class="tag-pill">SSL / TLS Certs</span>
+          <span class="tag-pill highlight">802.1Q VLANs</span>
+          <span class="tag-pill highlight">Cloudflare Tunnels</span>
+          <span class="tag-pill highlight">UniFi Cloud Gateway Max</span>
+          <span class="tag-pill highlight">Nginx Proxy Manager</span>
+          <span class="tag-pill">Palo Alto Networks</span>
+          <span class="tag-pill">SonicWall</span>
+          <span class="tag-pill">Cisco Meraki</span>
+          <span class="tag-pill">Split-Horizon DNS (Pi-hole HA)</span>
+          <span class="tag-pill">WireGuard / Gluetun</span>
+          <span class="tag-pill">Let's Encrypt Wildcard SSL</span>
+          <span class="tag-pill">NIC Bonding</span>
         </div>
       </div>
 
@@ -224,7 +230,7 @@ permalink: /work/
             <h3>AI Tools & AI Governance</h3>
           </div>
           <p class="stack-card-desc">
-            Integrating AI development workflows, local LLM evaluation, prompt engineering, and organizational AI security policy governance.
+            Integrating AI development workflows, local LLM evaluation, prompt engineering, vector database embeddings, and organizational AI security governance.
           </p>
         </div>
         <div class="tag-cloud">
@@ -232,7 +238,8 @@ permalink: /work/
           <span class="tag-pill highlight">Gemini</span>
           <span class="tag-pill highlight">Claude</span>
           <span class="tag-pill">Kimi</span>
-          <span class="tag-pill">Ollama</span>
+          <span class="tag-pill">Ollama (Local LLMs)</span>
+          <span class="tag-pill">Vector Embeddings (VectorChord/pgvector)</span>
           <span class="tag-pill">OpenClaw</span>
           <span class="tag-pill">Hermes</span>
           <span class="tag-pill">AI Usage Governance</span>
@@ -325,6 +332,26 @@ permalink: /work/
           <span class="tag-pill">Server Maintenance</span>
           <span class="tag-pill">OS Upgrades</span>
           <span class="tag-pill">Azure Monitor & CloudWatch</span>
+        </div>
+      </div>
+
+      <!-- Capability 5: Virtualization, ZFS Storage & GitOps Automation -->
+      <div class="capability-card">
+        <span class="capability-badge">Virtualization & GitOps</span>
+        <h3>Hypervisor Clustering, ZFS Tiering & Zero-Trust Ingress</h3>
+        <ul class="capability-bullets">
+          <li>Engineered a 3-node <strong>Proxmox VE hypervisor cluster</strong> utilizing active-backup bonded NICs, QEMU/KVM virtual machines, LXC containers, and hardware GPU passthrough (Intel QuickSync).</li>
+          <li>Architected tiered enterprise storage featuring direct-attached <strong>18TB ZFS IronWolf storage pools</strong>, RAM transcoding disks, and 23TB Synology NAS shared CIFS/NFS clusters with automated Rsync replication.</li>
+          <li>Orchestrated zero-downtime rolling hypervisor and container maintenance using <strong>Ansible automation playbooks</strong> with pre-update snapshotting (`pct snapshot`) and automatic rollback triggers.</li>
+          <li>Enforced a defense-in-depth perimeter with <strong>802.1Q VLAN matrix</strong>, Authentik SSO/MFA federation, Wazuh SIEM threat monitoring, and zero-inbound Cloudflare Tunnels.</li>
+        </ul>
+        <div class="tag-cloud">
+          <span class="tag-pill highlight">Proxmox Cluster</span>
+          <span class="tag-pill highlight">ZFS Storage Pools</span>
+          <span class="tag-pill">Ansible Automation</span>
+          <span class="tag-pill">Authentik SSO & MFA</span>
+          <span class="tag-pill">Wazuh SIEM</span>
+          <span class="tag-pill">802.1Q VLANs</span>
         </div>
       </div>
 
