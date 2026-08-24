@@ -334,15 +334,15 @@ permalink: /work/
   <!-- Homelab & R&D Engineering Sandbox Showcase -->
   <section>
     <h2 class="section-title">Homelab & R&D Sandbox</h2>
-    <p class="section-subtitle">Continuous self-driven experimentation, enterprise-grade virtual labs, and open-source infrastructure testing.</p>
+    <p class="section-subtitle">Continuous self-driven experimentation, enterprise-grade GitOps architecture, multi-node clustering, and open-source infrastructure testing.</p>
 
     <div class="homelab-panel">
       <div class="homelab-badge-header">
-        <span class="homelab-chip">R&D Lab</span>
-        <span style="font-size: 0.9rem; font-weight: 600; color: var(--muted);">Self-Hosted Enterprise Architecture & DR Sandbox</span>
+        <span class="homelab-chip">GitOps Architecture</span>
+        <span style="font-size: 0.9rem; font-weight: 600; color: var(--muted);">Multi-Node Proxmox VE Cluster & Enterprise-Grade R&D Sandbox</span>
       </div>
       <p class="homelab-intro-text">
-        A private, sanitized home lab built to prototype enterprise production concepts, test infrastructure-as-code manifests, validate disaster recovery playbooks, benchmark local open-source AI models, and enforce zero-trust security controls.
+        A fully modular, sanitized GitOps infrastructure project modeling enterprise infrastructure concepts: multi-node hypervisor clustering, declarative Terraform & Ansible automation, 802.1Q VLAN isolation, split-horizon DNS, machine learning vaults, hardware GPU acceleration, and automated disaster recovery.
       </p>
 
       <div class="homelab-pillars-grid">
@@ -352,69 +352,79 @@ permalink: /work/
           <div>
             <div class="pillar-icon-header">
               <span class="pillar-icon">🖥️</span>
-              <h4>Virtualization & Cluster Nodes</h4>
+              <h4>Multi-Node Proxmox Cluster</h4>
             </div>
-            <p>Multi-node Proxmox VE hypervisor cluster, containerized LXC microservices, and virtual machine isolation.</p>
+            <p>3-node clustered Proxmox VE hypervisors with active-backup bonded NICs, LXC microservices, GPU passthrough (Intel QuickSync), and isolated VM workloads.</p>
           </div>
           <div class="tag-cloud">
             <span class="tag-pill highlight">Proxmox VE Cluster</span>
-            <span class="tag-pill">LXC Containers</span>
-            <span class="tag-pill">Docker</span>
-            <span class="tag-pill">Virtual Bridges</span>
+            <span class="tag-pill highlight">LXC & Docker Stacks</span>
+            <span class="tag-pill">NIC Bonding</span>
+            <span class="tag-pill">Intel QSV GPU</span>
           </div>
         </div>
 
-        <!-- Pillar 2: Storage Architecture & DAS/NAS -->
+        <!-- Pillar 2: Storage Architecture & ZFS Tiering -->
         <div class="pillar-card">
           <div>
             <div class="pillar-icon-header">
               <span class="pillar-icon">💾</span>
-              <h4>Storage Architecture & NAS/DAS</h4>
+              <h4>Tiered Storage & Direct ZFS</h4>
             </div>
-            <p>Centralized Synology NAS & TrueNAS DAS storage pools, ZFS datasets, and NFS/SMB network mounts.</p>
+            <p>Direct-attached 18TB ZFS IronWolf storage arrays, 23TB Synology NAS shared cluster storage (CIFS/NFS), and automated cross-node backup replication.</p>
           </div>
           <div class="tag-cloud">
-            <span class="tag-pill highlight">Synology NAS</span>
-            <span class="tag-pill highlight">TrueNAS ZFS</span>
-            <span class="tag-pill">NFS / SMB Mounts</span>
-            <span class="tag-pill">DAS Storage</span>
+            <span class="tag-pill highlight">18TB ZFS Pools</span>
+            <span class="tag-pill highlight">Synology CIFS/NFS</span>
+            <span class="tag-pill">RAM Transcoding</span>
+            <span class="tag-pill">Rsync Replication</span>
           </div>
         </div>
 
-        <!-- Pillar 3: Cloudflare Zero Trust & HA Redundancy -->
+        <!-- Pillar 3: Network Segmentation & Security Ingress -->
         <div class="pillar-card">
           <div>
             <div class="pillar-icon-header">
               <span class="pillar-icon">🛡️</span>
-              <h4>Cloudflare Ingress & HA Redundancy</h4>
+              <h4>VLAN Matrix & Zero-Trust Ingress</h4>
             </div>
-            <p>Encrypted Cloudflare Tunnels (no open inbound ports), dual redundant Pi-hole DNS, and DMZ VLAN segmentation.</p>
+            <p>Standardized 802.1Q VLAN isolation (Management, SecOps, DMZ, Services, IoT), Authentik SSO/MFA, Wazuh SIEM/XDR, and dual zero-inbound Cloudflare Tunnels.</p>
           </div>
           <div class="tag-cloud">
-            <span class="tag-pill highlight">Cloudflare Tunnels</span>
-            <span class="tag-pill highlight">Dual Pi-hole HA</span>
-            <span class="tag-pill">DMZ VLAN Isolation</span>
-            <span class="tag-pill">Authentik SSO</span>
+            <span class="tag-pill highlight">802.1Q VLANs</span>
+            <span class="tag-pill highlight">Authentik SSO & MFA</span>
+            <span class="tag-pill">Wazuh SIEM</span>
+            <span class="tag-pill">Cloudflare Tunnels</span>
           </div>
         </div>
 
-        <!-- Pillar 4: Disaster Recovery & IaC Automation -->
+        <!-- Pillar 4: GitOps, IaC & Rolling Update Automation -->
         <div class="pillar-card">
           <div>
             <div class="pillar-icon-header">
-              <span class="pillar-icon">🔄</span>
-              <h4>Disaster Recovery & IaC Automation</h4>
+              <span class="pillar-icon">⚡</span>
+              <h4>GitOps, IaC & Rolling Updates</h4>
             </div>
-            <p>Automated rsync data replication, cluster node replication, Terraform IaC, and Netboot.xyz PXE provisioning.</p>
+            <p>Declarative Terraform modules, Ansible rolling update playbooks with automated pre-update snapshots & QA rollbacks, and UEFI PXE automated OS deployment.</p>
           </div>
           <div class="tag-cloud">
-            <span class="tag-pill highlight">DR Replication</span>
-            <span class="tag-pill highlight">Terraform & Ansible</span>
-            <span class="tag-pill">Rsync Backups</span>
-            <span class="tag-pill">PXE Netboot</span>
+            <span class="tag-pill highlight">Ansible Playbooks</span>
+            <span class="tag-pill highlight">Terraform Modules</span>
+            <span class="tag-pill">Snapshot Rollbacks</span>
+            <span class="tag-pill">UEFI PXE Boot</span>
           </div>
         </div>
 
+      </div>
+
+      <!-- Public Repository Showcase Link -->
+      <div style="margin-top: 1.5rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem; padding-top: 1.2rem; border-top: 1px solid var(--border, #e5e7eb);">
+        <span style="font-size: 0.95rem; color: var(--text-muted, #6b7280);">
+          Explore 70+ categorized runbooks, Terraform modules, Ansible playbooks, and architecture blueprints:
+        </span>
+        <a href="https://github.com/perlasarnold/homelab-infrastructure" class="button" target="_blank" rel="noopener" style="font-size: 0.9rem; padding: 0.6rem 1.2rem; display: inline-flex; align-items: center; gap: 0.5rem;">
+          <span>📦</span> View Infrastructure on GitHub ↗
+        </a>
       </div>
     </div>
   </section>
