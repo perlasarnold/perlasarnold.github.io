@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-24T11:24:06.284122+00:00",
-  "date": "2026-08-24",
+  "generated_utc": "2026-08-25T11:23:20.485602+00:00",
+  "date": "2026-08-25",
   "lookback_hours": 25,
   "source_status": [
     {
@@ -12,7 +12,7 @@
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 0
+      "count": 4
     },
     {
       "name": "Microsoft Intune What's New",
@@ -37,7 +37,7 @@
     {
       "name": "BleepingComputer",
       "status": "OK",
-      "count": 3
+      "count": 4
     },
     {
       "name": "Neowin",
@@ -47,7 +47,7 @@
     {
       "name": "The Hacker News",
       "status": "OK",
-      "count": 1
+      "count": 7
     },
     {
       "name": "Krebs on Security",
@@ -99,36 +99,118 @@
   "items": {
     "high_alert": [
       {
-        "fingerprint": "ff2601f2c3c7",
-        "title": "ToxicPanda Android malware uses VPN permissions to block Google Play",
-        "link": "https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/",
+        "fingerprint": "eedfc9d9c5bc",
+        "title": "Attackers Target miniOrange SAML Flaws That Can Grant WordPress Admin Access",
+        "link": "https://thehackernews.com/2026/08/attackers-target-miniorange-saml-flaws.html",
+        "source": "The Hacker News",
+        "published": "2026-08-25T08:34:07+00:00",
+        "summary": "Bad actors are attempting to exploit two severe unauthenticated authentication bypasses in the Xecurify miniOrange SAML 2.0 Single Sign On plugin that make it possible for an attacker to sign in as any WordPress user, including administrators. The vulnerabilities, as disclosed by Patchstack, are listed below - CVE-2026-61979 (CVSS score: 8.1) - An unauthenticated privilege escalation",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "402ce0bcee35",
+        "title": "Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data",
+        "link": "https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html",
+        "source": "The Hacker News",
+        "published": "2026-08-25T06:12:35+00:00",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a maximum-severity security flaw impacting Oracle HTTP Server and Oracle WebLogic Server to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerability, tracked as CVE-2026-21962 (CVSS score: 10.0), allows an unauthenticated attacker with network access via HTTP to",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "7db0707a49bd",
+        "title": "Hackers target WordPress sites in miniOrange auth bypass attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-in-miniorange-auth-bypass-attacks/",
         "source": "BleepingComputer",
-        "published": "2026-08-23T14:23:46+00:00",
-        "summary": "The ToxicPanda Android malware has evolved with new malicious functionality, expanding its targeting to 349 applications and adding support for 167 remote commands. [...]",
+        "published": "2026-08-24T19:26:32+00:00",
+        "summary": "Hackers are attempting to exploit two critical authentication bypass vulnerabilities in the miniOrange SAML 2.0 Single Sign On plugin for WordPress that can be used to forge SAML responses and log in as administrators. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "7e53db1597c6",
+        "title": "Weedhack Malware Spreads via Fake Minecraft Clients and SEO Poisoning",
+        "link": "https://thehackernews.com/2026/08/weedhack-malware-spreads-via-fake.html",
+        "source": "The Hacker News",
+        "published": "2026-08-24T17:41:11+00:00",
+        "summary": "Cybersecurity researchers have found that several websites are still actively distributing a malware family known as Weedhack to gamers by masquerading as Minecraft clients. McAfee Labs said it detected and blocked more than 6,300 attempts to access malicious sites, adding that it found lookalike gaming websites designed to mimic legitimate projects, including branding, feature lists, FAQs,",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "e0d1c4429c06",
+        "title": "WordlistLoader Delivers Amatera via ClickFix, SynkLoader Phishes Windows Passwords",
+        "link": "https://thehackernews.com/2026/08/wordlistloader-delivers-amatera-via.html",
+        "source": "The Hacker News",
+        "published": "2026-08-24T12:35:36+00:00",
+        "summary": "Cybersecurity researchers have flagged two new malware families called WordlistLoader and SynkLoader that's used to deliver next-stage payloads and likely sell access to ransomware groups. According to findings from Gen Digital, WordlistLoader is being used to deliver Amatera Stealer (aka ACR Stealer or AcridRain Stealer) via ClearFake campaigns, which employ the ClickFix (aka FakeCaptcha)",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "c6cc16c20c18",
+        "title": "Critical Keycloak Password Reset Flaw Could Let Unauthenticated Attackers Take Over Any Account",
+        "link": "https://thehackernews.com/2026/08/critical-keycloak-password-reset-flaw.html",
+        "source": "The Hacker News",
+        "published": "2026-08-24T11:56:34+00:00",
+        "summary": "Red Hat and the Keycloak project have released patches to address a critical security flaw in the open-source identity and access management server that could allow an unauthenticated remote attacker to take over any user account by forcing a password reset. The vulnerability, assigned the CVE identifier CVE-2026-18963, is rated 9.1 on the CVSS scoring system by Red Hat, which acts as",
         "category": "high_alert"
       }
     ],
     "bad_updates": [
       {
-        "fingerprint": "41b3cb4ae3de",
-        "title": "Microsoft shares temporary fix for Windows 11 gaming issues",
-        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-temporary-fix-for-windows-11-gaming-issues/",
-        "source": "BleepingComputer",
-        "published": "2026-08-24T09:42:05+00:00",
-        "summary": "Microsoft has shared a temporary fix for ongoing gaming issues caused by Windows 11 updates released during the August 2026 Patch Tuesday. [...]",
+        "fingerprint": "02afe9d15312",
+        "title": "Microsoft shares workaround after Windows KB5120708, KB5120705, KB5120710 break printing",
+        "link": "https://www.neowin.net/news/microsoft-shares-workaround-after-windows-kb5120708-kb5120705-kb5120710-break-printing/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-08-24T15:28:01+00:00",
+        "summary": "Microsoft's latest Windows updates are breaking print jobs. The company has acknowledged the bug and has shared a workaround. Read more...",
         "category": "bad_updates"
       },
       {
-        "fingerprint": "133f6f183aca",
-        "title": "Microsoft Weekly: New Windows 11 context menu, broken Defender scans, GTA 6 leaks, and more",
-        "link": "https://www.neowin.net/news/microsoft-weekly-new-windows-11-context-menu-broken-defender-scans-gta-6-leaks-and-more/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-08-23T12:00:01+00:00",
-        "summary": "Catch up with this week's Microsoft stories in our latest recap. See what was broken by the last Patch Tuesday update, the new Windows 11 context menu, GTA VI leaks, and more. Read more...",
+        "fingerprint": "f897fea0e378",
+        "title": "Microsoft: August updates break printing, PDF export in WPF apps",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-august-updates-break-printing-pdf-export-in-wpf-apps/",
+        "source": "BleepingComputer",
+        "published": "2026-08-24T12:40:21+00:00",
+        "summary": "Microsoft has confirmed that .NET Framework updates released as part of the August 2026 Patch Tuesday are breaking printing and PDF export in WPF applications. [...]",
         "category": "bad_updates"
       }
     ],
-    "upcoming_changes": [],
+    "upcoming_changes": [
+      {
+        "fingerprint": "fbd77e841210",
+        "title": "Outlook: Purview DLP Wait-on-Send Support for Mac",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569719",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-08-24T22:41:12+00:00",
+        "summary": "Outlook for Mac will support Microsoft Purview Data Loss Prevention (DLP) wait-on-send policies. Organizations can require a DLP evaluation before an email is sent and configure how long users must wait for policy evaluation to complete. This helps ensure sensitive information is inspected against organizational policies before messages leave the organization while providing administrators with...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "24b3c5c34363",
+        "title": "Outlook: Purview DLP Wait-on-Send Support for Outlook mobile apps",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569718",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-08-24T22:41:12+00:00",
+        "summary": "Outlook for iOS and Android will support Microsoft Purview Data Loss Prevention (DLP) wait-on-send policies. Organizations can require a DLP evaluation before an email is sent and configure how long users must wait for policy evaluation to complete. This helps ensure sensitive information is inspected against organizational policies before messages leave the organization while providing adminis...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "1cce39081a93",
+        "title": "Outlook: Purview Data Loss Prevention support for Calendar Events in Outlook mobile apps",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569716",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-08-24T22:41:12+00:00",
+        "summary": "Outlook for iOS and Android will support Microsoft Purview Data Loss Prevention (DLP) policies for calendar events. Organizations can detect and help prevent the sharing of sensitive information in meeting subjects, descriptions, and invite content through policy tips, user remediation, and policy enforcement. This provides consistent compliance protection across email and calendar experiences ...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "07441d64ee99",
+        "title": "Outlook: Manage Multiple Inbox Rules at Once",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569430",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-08-24T22:41:12+00:00",
+        "summary": "You will soon be able to manage multiple inbox rules at the same time. Select every rule or choose only the ones you want to update. You can then delete, enable, or disable the selected rules in one action. This makes it faster and easier to keep your rules organized. #newoutlookforwindows GA date: November CY2026",
+        "category": "upcoming_changes"
+      }
+    ],
     "official_news": [
       {
         "fingerprint": "765159973839",
@@ -142,12 +224,30 @@
     ],
     "community_buzz": [
       {
-        "fingerprint": "b987dfdf8f0b",
-        "title": "UAT-10147 Uses AI to Scale Server Attacks, Deploys SPECTRE With EDR Bypass and Linux Rootkit",
-        "link": "https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html",
+        "fingerprint": "c25bd22832a9",
+        "title": "ReliaQuest confirms failed data-theft attack after ShinyHunters breach",
+        "link": "https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/",
+        "source": "BleepingComputer",
+        "published": "2026-08-24T15:17:16+00:00",
+        "summary": "Cybersecurity company ReliaQuest has confirmed that one of its employees was targeted in a social engineering attack after hackers impersonated a member of the security team. [...]",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "5689371b8979",
+        "title": "⚡ Weekly Recap: AI-Powered PLC Attacks, GitLab Attacks, Stripe Key Leaks and More",
+        "link": "https://thehackernews.com/2026/08/weekly-recap-ai-powered-plc-attacks.html",
         "source": "The Hacker News",
-        "published": "2026-08-24T08:08:31+00:00",
-        "summary": "Cybersecurity researchers have disclosed details of a Chinese-speaking cybercrime group dubbed UAT-10147 that's targeting Windows and Linux web servers globally across the education, media, technology, and gaming sectors. The vast majority of the targets are located in Brazil, Bolivia, China, Canada, and Vietnam. Details of the threat activity came to light following the discovery of an open",
+        "published": "2026-08-24T14:32:10+00:00",
+        "summary": "A package gets installed. A login prompt opens. A box sits exposed to the internet. Nothing looks unusual yet. That’s roughly the mood this week. Trusted tools turn hostile, old weak spots get fresh attention, AI makes exploit work cheaper, and researchers keep finding attacks that sound harder than they actually are. Plenty to clean up. Here’s the short version. ⚡ Threat of the Week U.S.",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "3f4b31de5bb6",
+        "title": "Operation QUICSILVER Targets Myanmar Government and IT with QUICAgent Backdoor",
+        "link": "https://thehackernews.com/2026/08/operation-quicsilver-targets-myanmar.html",
+        "source": "The Hacker News",
+        "published": "2026-08-24T11:51:36+00:00",
+        "summary": "Cybersecurity researchers have flagged a cyber espionage campaign targeting Myanmar that uses graduation ceremony invitation lures to deliver a Go backdoor called QUICAgent. The campaign, codenamed Operation QUICSILVER, has been found to target government and information technology sectors, per Seqrite Labs. The activity is assessed to be the work of a China-nexus threat actor with moderate",
         "category": "community_buzz"
       }
     ]
