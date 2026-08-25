@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - August 25, 2026"
+date: 2026-08-25 14:36:20 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - August 25, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -97,4 +105,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Can running local LLMs be a security threat?](https://www.reddit.com/r/cybersecurity/comments/1vx9i0l/can_running_local_llms_be_a_security_threat/) - *(Reddit r/cybersecurity)*
 - [CVE-2026-63632](https://www.cve.org/CVERecord?id=CVE-2026-63632) - *(CVE.org)*
 - [CVE-2026-63632](https://nvd.nist.gov/vuln/detail/CVE-2026-63632) - *(NVD)*
+
 
