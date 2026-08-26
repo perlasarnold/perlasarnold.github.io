@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-25T11:23:20.485602+00:00",
-  "date": "2026-08-25",
+  "generated_utc": "2026-08-26T11:25:53.786901+00:00",
+  "date": "2026-08-26",
   "lookback_hours": 25,
   "source_status": [
     {
@@ -12,12 +12,12 @@
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 4
+      "count": 2
     },
     {
       "name": "Microsoft Intune What's New",
       "status": "OK",
-      "count": 0
+      "count": 3
     },
     {
       "name": "Windows IT Pro Blog",
@@ -26,8 +26,9 @@
     },
     {
       "name": "Microsoft Security Blog",
-      "status": "OK",
-      "count": 0
+      "status": "Error",
+      "count": 0,
+      "message": "403 Client Error: Forbidden for url: https://www.microsoft.com/en-us/security/blog/feed/"
     },
     {
       "name": "Microsoft Entra Blog",
@@ -37,17 +38,17 @@
     {
       "name": "BleepingComputer",
       "status": "OK",
-      "count": 4
+      "count": 1
     },
     {
       "name": "Neowin",
       "status": "OK",
-      "count": 1
+      "count": 0
     },
     {
       "name": "The Hacker News",
       "status": "OK",
-      "count": 7
+      "count": 6
     },
     {
       "name": "Krebs on Security",
@@ -99,155 +100,118 @@
   "items": {
     "high_alert": [
       {
-        "fingerprint": "eedfc9d9c5bc",
-        "title": "Attackers Target miniOrange SAML Flaws That Can Grant WordPress Admin Access",
-        "link": "https://thehackernews.com/2026/08/attackers-target-miniorange-saml-flaws.html",
+        "fingerprint": "83b0c47a8b26",
+        "title": "Newly SLEEPWALKER Backdoor Waits for One Crafted Packet, Then Runs Its Own Bytecode",
+        "link": "https://thehackernews.com/2026/08/newly-sleepwalker-backdoor-waits-for.html",
         "source": "The Hacker News",
-        "published": "2026-08-25T08:34:07+00:00",
-        "summary": "Bad actors are attempting to exploit two severe unauthenticated authentication bypasses in the Xecurify miniOrange SAML 2.0 Single Sign On plugin that make it possible for an attacker to sign in as any WordPress user, including administrators. The vulnerabilities, as disclosed by Patchstack, are listed below - CVE-2026-61979 (CVSS score: 8.1) - An unauthenticated privilege escalation",
+        "published": "2026-08-26T07:12:55+00:00",
+        "summary": "An independent malware researcher has documented a previously unreported Windows backdoor, dubbed SLEEPWALKER, that stays inert in memory until a specifically crafted network packet reaches the machine and then runs commands written in a 23-instruction language of its own design. The sample is an unsigned 64-bit Windows dynamic-link library (DLL) of 59,904 bytes, built to be side-loaded into&",
         "category": "high_alert"
       },
       {
-        "fingerprint": "402ce0bcee35",
-        "title": "Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data",
-        "link": "https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html",
+        "fingerprint": "fd3213e4c862",
+        "title": "Critical Gitea RCE Actively Exploited as Reported Attack Drops Miner-Like Payload",
+        "link": "https://thehackernews.com/2026/08/critical-gitea-rce-actively-exploited.html",
         "source": "The Hacker News",
-        "published": "2026-08-25T06:12:35+00:00",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a maximum-severity security flaw impacting Oracle HTTP Server and Oracle WebLogic Server to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerability, tracked as CVE-2026-21962 (CVSS score: 10.0), allows an unauthenticated attacker with network access via HTTP to",
+        "published": "2026-08-26T06:27:07+00:00",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday warned of active exploitation efforts targeting a recently patched critical security flaw impacting Gitea. The vulnerability in question is CVE-2026-60004 (CVSS score: 9.8), a case of remote code execution that allows an attacker with ordinary write access to a repository to execute arbitrary shell commands as the",
         "category": "high_alert"
       },
       {
-        "fingerprint": "7db0707a49bd",
-        "title": "Hackers target WordPress sites in miniOrange auth bypass attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-in-miniorange-auth-bypass-attacks/",
-        "source": "BleepingComputer",
-        "published": "2026-08-24T19:26:32+00:00",
-        "summary": "Hackers are attempting to exploit two critical authentication bypass vulnerabilities in the miniOrange SAML 2.0 Single Sign On plugin for WordPress that can be used to forge SAML responses and log in as administrators. [...]",
+        "fingerprint": "35b018084973",
+        "title": "24 npm Packages Abuse unpkg Mirrors to Host Fake Cloudflare CAPTCHA Pages",
+        "link": "https://thehackernews.com/2026/08/24-npm-packages-abuse-unpkg-mirrors-to.html",
+        "source": "The Hacker News",
+        "published": "2026-08-25T11:52:43+00:00",
+        "summary": "Cybersecurity researchers have disclosed details of a new campaign that uses a cluster of 24 npm packages as free phishing infrastructure for redirecting to ClickFix-style fake CAPTCHA pages. \"While the malware is simply a single HTML page inside the npm package, and while downloading it wouldn't do harm, the threat actor’s use of npm isn't to infect developers who install it, but to use the",
         "category": "high_alert"
       },
       {
-        "fingerprint": "7e53db1597c6",
-        "title": "Weedhack Malware Spreads via Fake Minecraft Clients and SEO Poisoning",
-        "link": "https://thehackernews.com/2026/08/weedhack-malware-spreads-via-fake.html",
+        "fingerprint": "c8dbe93b80e0",
+        "title": "E4del and PINHOLE RATs Turn FTP Banners Into Dead Drops for Malware Commands",
+        "link": "https://thehackernews.com/2026/08/e4del-and-pinhole-rats-turn-ftp-banners.html",
         "source": "The Hacker News",
-        "published": "2026-08-24T17:41:11+00:00",
-        "summary": "Cybersecurity researchers have found that several websites are still actively distributing a malware family known as Weedhack to gamers by masquerading as Minecraft clients. McAfee Labs said it detected and blocked more than 6,300 attempts to access malicious sites, adding that it found lookalike gaming websites designed to mimic legitimate projects, including branding, feature lists, FAQs,",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "e0d1c4429c06",
-        "title": "WordlistLoader Delivers Amatera via ClickFix, SynkLoader Phishes Windows Passwords",
-        "link": "https://thehackernews.com/2026/08/wordlistloader-delivers-amatera-via.html",
-        "source": "The Hacker News",
-        "published": "2026-08-24T12:35:36+00:00",
-        "summary": "Cybersecurity researchers have flagged two new malware families called WordlistLoader and SynkLoader that's used to deliver next-stage payloads and likely sell access to ransomware groups. According to findings from Gen Digital, WordlistLoader is being used to deliver Amatera Stealer (aka ACR Stealer or AcridRain Stealer) via ClearFake campaigns, which employ the ClickFix (aka FakeCaptcha)",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "c6cc16c20c18",
-        "title": "Critical Keycloak Password Reset Flaw Could Let Unauthenticated Attackers Take Over Any Account",
-        "link": "https://thehackernews.com/2026/08/critical-keycloak-password-reset-flaw.html",
-        "source": "The Hacker News",
-        "published": "2026-08-24T11:56:34+00:00",
-        "summary": "Red Hat and the Keycloak project have released patches to address a critical security flaw in the open-source identity and access management server that could allow an unauthenticated remote attacker to take over any user account by forcing a password reset. The vulnerability, assigned the CVE identifier CVE-2026-18963, is rated 9.1 on the CVSS scoring system by Red Hat, which acts as",
+        "published": "2026-08-25T11:33:44+00:00",
+        "summary": "Cybersecurity researchers are calling attention to a new campaign that employs FTP banners as dead drop resolvers (DDRs) to deliver two previously unreported remote access trojans (RATs) tracked as E4del and PINHOLE. While threat actors are known to abuse legitimate services to point to additional command-and-control (C2) infrastructure and blend in with regular network traffic, the development",
         "category": "high_alert"
       }
     ],
-    "bad_updates": [
-      {
-        "fingerprint": "02afe9d15312",
-        "title": "Microsoft shares workaround after Windows KB5120708, KB5120705, KB5120710 break printing",
-        "link": "https://www.neowin.net/news/microsoft-shares-workaround-after-windows-kb5120708-kb5120705-kb5120710-break-printing/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-08-24T15:28:01+00:00",
-        "summary": "Microsoft's latest Windows updates are breaking print jobs. The company has acknowledged the bug and has shared a workaround. Read more...",
-        "category": "bad_updates"
-      },
-      {
-        "fingerprint": "f897fea0e378",
-        "title": "Microsoft: August updates break printing, PDF export in WPF apps",
-        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-august-updates-break-printing-pdf-export-in-wpf-apps/",
-        "source": "BleepingComputer",
-        "published": "2026-08-24T12:40:21+00:00",
-        "summary": "Microsoft has confirmed that .NET Framework updates released as part of the August 2026 Patch Tuesday are breaking printing and PDF export in WPF applications. [...]",
-        "category": "bad_updates"
-      }
-    ],
+    "bad_updates": [],
     "upcoming_changes": [
       {
-        "fingerprint": "fbd77e841210",
-        "title": "Outlook: Purview DLP Wait-on-Send Support for Mac",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569719",
+        "fingerprint": "2727e6826353",
+        "title": "Planner: Connected Plans",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569929",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-08-24T22:41:12+00:00",
-        "summary": "Outlook for Mac will support Microsoft Purview Data Loss Prevention (DLP) wait-on-send policies. Organizations can require a DLP evaluation before an email is sent and configure how long users must wait for policy evaluation to complete. This helps ensure sensitive information is inspected against organizational policies before messages leave the organization while providing administrators with...",
+        "published": "2026-08-25T23:13:41+00:00",
+        "summary": "Connected Plans let teams link related plans together to organize work across projects and initiatives. Navigate between connected plans and make related work easier to find and manage. GA date: September CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "24b3c5c34363",
-        "title": "Outlook: Purview DLP Wait-on-Send Support for Outlook mobile apps",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569718",
+        "fingerprint": "6ad2b9e89548",
+        "title": "Microsoft Copilot (Microsoft 365): Power BI reports as references in Copilot Notebooks",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569928",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-08-24T22:41:12+00:00",
-        "summary": "Outlook for iOS and Android will support Microsoft Purview Data Loss Prevention (DLP) wait-on-send policies. Organizations can require a DLP evaluation before an email is sent and configure how long users must wait for policy evaluation to complete. This helps ensure sensitive information is inspected against organizational policies before messages leave the organization while providing adminis...",
+        "published": "2026-08-25T23:13:41+00:00",
+        "summary": "Copilot Notebooks now lets users add Power BI reports as references, bringing report data directly into their notebooks alongside files. Copilot uses this information to help generate more relevant summaries, presentations, and briefs grounded in the organization's data. GA date: September CY2026 Preview date: August CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "1cce39081a93",
-        "title": "Outlook: Purview Data Loss Prevention support for Calendar Events in Outlook mobile apps",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569716",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-08-24T22:41:12+00:00",
-        "summary": "Outlook for iOS and Android will support Microsoft Purview Data Loss Prevention (DLP) policies for calendar events. Organizations can detect and help prevent the sharing of sensitive information in meeting subjects, descriptions, and invite content through policy tips, user remediation, and policy enforcement. This provides consistent compliance protection across email and calendar experiences ...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "07441d64ee99",
-        "title": "Outlook: Manage Multiple Inbox Rules at Once",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569430",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-08-24T22:41:12+00:00",
-        "summary": "You will soon be able to manage multiple inbox rules at the same time. Select every rule or choose only the ones you want to update. You can then delete, enable, or disable the selected rules in one action. This makes it faster and easier to keep your rules organized. #newoutlookforwindows GA date: November CY2026",
+        "fingerprint": "71363aab014e",
+        "title": "In development - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/whats-new/in-development",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-08-25T22:33:00+00:00",
+        "summary": "In development for Microsoft Intune Summarize this article for me In this article To help in your readiness and planning, this article lists Intune UI updates and features that are in development but not yet released. When a feature enters production, whether it's in preview or generally available, the feature description moves from this article.",
         "category": "upcoming_changes"
       }
     ],
     "official_news": [
       {
-        "fingerprint": "765159973839",
-        "title": "CISA orders urgent patching of actively exploited Zimbra flaw",
-        "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-urgent-patching-of-actively-exploited-zimbra-flaw/",
+        "fingerprint": "b9d873dfd107",
+        "title": "Hackers now exploit critical Gitea flaw in code injection attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-gitea-flaw-in-code-injection-attacks/",
         "source": "BleepingComputer",
-        "published": "2026-08-24T10:45:12+00:00",
-        "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has ordered U.S. government agencies to patch an actively exploited vulnerability in Zimbra Collaboration Suite (ZCS) within three days. [...]",
+        "published": "2026-08-26T11:07:48+00:00",
+        "summary": "Attackers are now exploiting a critical-severity vulnerability in the Gitea self-hosted Git service, according to the U.S. Cybersecurity and Infrastructure Security Agency (CISA). [...]",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "a8949441246e",
+        "title": "Deploy Remote Help with Microsoft Intune - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/remote-help/deploy",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-08-25T22:33:00+00:00",
+        "summary": "Deploying Remote Help with Microsoft Intune Summarize this article for me In this article This article describes the steps to deploy Remote Help with Microsoft Intune. ⚙️Set up your tenant ⬇️Download Remote Help 🛠️Install Remote Help ⚙️Configure Remote Help 🔄️Update Remote Help 🔒Configure Conditional Access When planning ... Updates and new.",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "25f12c346384",
+        "title": "Plan for Remote Help with Microsoft Intune - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/remote-help/plan",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-08-25T22:33:00+00:00",
+        "summary": "Planning for Remote Help with Microsoft Intune Summarize this article for me In this article In this article, users who provide help are referred to as helpers, and users that receive help are referred to as sharers, as they share their session with the helper. Keep the Remote Help apps up to date: New versions of Windows and macOS bring.",
         "category": "official_news"
       }
     ],
     "community_buzz": [
       {
-        "fingerprint": "c25bd22832a9",
-        "title": "ReliaQuest confirms failed data-theft attack after ShinyHunters breach",
-        "link": "https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/",
-        "source": "BleepingComputer",
-        "published": "2026-08-24T15:17:16+00:00",
-        "summary": "Cybersecurity company ReliaQuest has confirmed that one of its employees was targeted in a social engineering attack after hackers impersonated a member of the security team. [...]",
+        "fingerprint": "204def8e81f9",
+        "title": "Fake Apple Support AI Calls Target Stolen-Device Owners for Passcodes and 2FA Codes",
+        "link": "https://thehackernews.com/2026/08/fake-apple-support-ai-calls-target.html",
+        "source": "The Hacker News",
+        "published": "2026-08-26T05:47:28+00:00",
+        "summary": "Cybersecurity researchers have disclosed details of a phishing-as-a-service (PhaaS) platform built to strip Apple's Activation Lock from stolen devices, using rented AI voice agents that call theft victims posing as Apple Support and ask for their device passcode. SOCRadar Threat Research Unit (STRU) said the platform, which it tracks as AnonyMousKIT, is credit-metered and drives lures across",
         "category": "community_buzz"
       },
       {
-        "fingerprint": "5689371b8979",
-        "title": "⚡ Weekly Recap: AI-Powered PLC Attacks, GitLab Attacks, Stripe Key Leaks and More",
-        "link": "https://thehackernews.com/2026/08/weekly-recap-ai-powered-plc-attacks.html",
+        "fingerprint": "e8a78bcb9658",
+        "title": "Frontier AI: Vulnerability Management's Systemic Revolution",
+        "link": "https://thehackernews.com/2026/08/frontier-ai-vulnerability-managements.html",
         "source": "The Hacker News",
-        "published": "2026-08-24T14:32:10+00:00",
-        "summary": "A package gets installed. A login prompt opens. A box sits exposed to the internet. Nothing looks unusual yet. That’s roughly the mood this week. Trusted tools turn hostile, old weak spots get fresh attention, AI makes exploit work cheaper, and researchers keep finding attacks that sound harder than they actually are. Plenty to clean up. Here’s the short version. ⚡ Threat of the Week U.S.",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "3f4b31de5bb6",
-        "title": "Operation QUICSILVER Targets Myanmar Government and IT with QUICAgent Backdoor",
-        "link": "https://thehackernews.com/2026/08/operation-quicsilver-targets-myanmar.html",
-        "source": "The Hacker News",
-        "published": "2026-08-24T11:51:36+00:00",
-        "summary": "Cybersecurity researchers have flagged a cyber espionage campaign targeting Myanmar that uses graduation ceremony invitation lures to deliver a Go backdoor called QUICAgent. The campaign, codenamed Operation QUICSILVER, has been found to target government and information technology sectors, per Seqrite Labs. The activity is assessed to be the work of a China-nexus threat actor with moderate",
+        "published": "2026-08-25T11:14:07+00:00",
+        "summary": "Vulnerability management has been a staple of security programs since the dawn of the cybersecurity discipline. The symbiotic relationship between vulnerability and patch management teams has also existed for that time and has gone through waves of contention and thankfulness. While this relationship required thoughtful care and feeding from both sides, both sides were aiming to work toward a",
         "category": "community_buzz"
       }
     ]
