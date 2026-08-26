@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - August 26, 2026"
+date: 2026-08-26 14:36:24 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - August 26, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -36,4 +44,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Frustrated with the Cybersecurity Job Market](https://www.reddit.com/r/cybersecurity/comments/1vyib8j/frustrated_with_the_cybersecurity_job_market/) - *(Reddit r/cybersecurity)*
 - [Google Staff Security Engineer (Cloud CISO / Product Security) Interview - What should I expect?](https://www.reddit.com/r/cybersecurity/comments/1vyhvwh/google_staff_security_engineer_cloud_ciso_product/) - *(Reddit r/cybersecurity)*
 - [open source security keys?](https://www.reddit.com/r/cybersecurity/comments/1vyhbb5/open_source_security_keys/) - *(Reddit r/cybersecurity)*
+
 
