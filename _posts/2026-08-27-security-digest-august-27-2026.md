@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - August 27, 2026"
+date: 2026-08-27 23:25:23 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - August 27, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -48,4 +56,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [CISA orders feds to patch Citrix NetScaler RCE flaw by Saturday](https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploiting-citrix-netscaler-rce-flaw-in-attacks/) - *(BleepingComputer)*
 - [CVE-2026-65644](https://nvd.nist.gov/vuln/detail/CVE-2026-65644) - *(NVD)*
 - [CVE-2026-65644](https://www.cve.org/CVERecord?id=CVE-2026-65644) - *(CVE.org)*
+
 
