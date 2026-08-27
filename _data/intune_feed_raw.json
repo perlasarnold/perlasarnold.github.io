@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-26T11:25:53.786901+00:00",
-  "date": "2026-08-26",
+  "generated_utc": "2026-08-27T20:53:28.713506+00:00",
+  "date": "2026-08-27",
   "lookback_hours": 25,
   "source_status": [
     {
@@ -12,12 +12,12 @@
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 2
+      "count": 5
     },
     {
       "name": "Microsoft Intune What's New",
       "status": "OK",
-      "count": 3
+      "count": 0
     },
     {
       "name": "Windows IT Pro Blog",
@@ -26,9 +26,8 @@
     },
     {
       "name": "Microsoft Security Blog",
-      "status": "Error",
-      "count": 0,
-      "message": "403 Client Error: Forbidden for url: https://www.microsoft.com/en-us/security/blog/feed/"
+      "status": "OK",
+      "count": 1
     },
     {
       "name": "Microsoft Entra Blog",
@@ -38,17 +37,17 @@
     {
       "name": "BleepingComputer",
       "status": "OK",
-      "count": 1
+      "count": 3
     },
     {
       "name": "Neowin",
       "status": "OK",
-      "count": 0
+      "count": 2
     },
     {
       "name": "The Hacker News",
       "status": "OK",
-      "count": 6
+      "count": 8
     },
     {
       "name": "Krebs on Security",
@@ -100,118 +99,181 @@
   "items": {
     "high_alert": [
       {
-        "fingerprint": "83b0c47a8b26",
-        "title": "Newly SLEEPWALKER Backdoor Waits for One Crafted Packet, Then Runs Its Own Bytecode",
-        "link": "https://thehackernews.com/2026/08/newly-sleepwalker-backdoor-waits-for.html",
-        "source": "The Hacker News",
-        "published": "2026-08-26T07:12:55+00:00",
-        "summary": "An independent malware researcher has documented a previously unreported Windows backdoor, dubbed SLEEPWALKER, that stays inert in memory until a specifically crafted network packet reaches the machine and then runs commands written in a 23-instruction language of its own design. The sample is an unsigned 64-bit Windows dynamic-link library (DLL) of 59,904 bytes, built to be side-loaded into&",
+        "fingerprint": "4b30c993bc64",
+        "title": "PaperCut warns of NG, MF flaw exploited in zero-day attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/papercut-warns-of-ng-mf-flaw-exploited-in-zero-day-attacks/",
+        "source": "BleepingComputer",
+        "published": "2026-08-27T16:31:53+00:00",
+        "summary": "PaperCut is warning that hackers are actively exploiting a vulnerability in all versions of its PaperCut NG and PaperCut MF print management software in zero-day attacks. [...]",
         "category": "high_alert"
       },
       {
-        "fingerprint": "fd3213e4c862",
-        "title": "Critical Gitea RCE Actively Exploited as Reported Attack Drops Miner-Like Payload",
-        "link": "https://thehackernews.com/2026/08/critical-gitea-rce-actively-exploited.html",
+        "fingerprint": "79a973e8f541",
+        "title": "Next.js Patches Critical AVIF and Windows Flaws Enabling Unauthenticated RCE",
+        "link": "https://thehackernews.com/2026/08/nextjs-patches-critical-avif-and.html",
         "source": "The Hacker News",
-        "published": "2026-08-26T06:27:07+00:00",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday warned of active exploitation efforts targeting a recently patched critical security flaw impacting Gitea. The vulnerability in question is CVE-2026-60004 (CVSS score: 9.8), a case of remote code execution that allows an attacker with ordinary write access to a repository to execute arbitrary shell commands as the",
+        "published": "2026-08-27T15:13:00+00:00",
+        "summary": "Credit: Hacktron Vercel has released security patches for two critical-severity vulnerabilities in the Next.js web framework, both of which allow unauthenticated remote code execution, one exploitable via specially crafted AVIF image files and the other through a path traversal flaw affecting servers that use a Windows filesystem. The Windows path traversal, tracked as CVE-2026-75604&",
         "category": "high_alert"
       },
       {
-        "fingerprint": "35b018084973",
-        "title": "24 npm Packages Abuse unpkg Mirrors to Host Fake Cloudflare CAPTCHA Pages",
-        "link": "https://thehackernews.com/2026/08/24-npm-packages-abuse-unpkg-mirrors-to.html",
+        "fingerprint": "23b0a1fd7563",
+        "title": "ThreatsDay: 296K IoT Botnet, 100+ Water Systems Targeted, SharePoint RCE Chain + 27 New Stories",
+        "link": "https://thehackernews.com/2026/08/threatsday-296k-iot-botnet-100-water.html",
         "source": "The Hacker News",
-        "published": "2026-08-25T11:52:43+00:00",
-        "summary": "Cybersecurity researchers have disclosed details of a new campaign that uses a cluster of 24 npm packages as free phishing infrastructure for redirecting to ClickFix-style fake CAPTCHA pages. \"While the malware is simply a single HTML page inside the npm package, and while downloading it wouldn't do harm, the threat actor’s use of npm isn't to infect developers who install it, but to use the",
+        "published": "2026-08-27T15:12:16+00:00",
+        "summary": "A fake login page. A fake security scan. A fake productivity app. Apparently, pretending to be useful is still one of the easier ways into a machine. The rest of the week gets stranger: botnets borrowing AI, command traffic hiding in public infrastructure, malicious tools waiting before showing their real behavior, exposed systems getting scanned, and exploit windows shrinking again. Different",
         "category": "high_alert"
       },
       {
-        "fingerprint": "c8dbe93b80e0",
-        "title": "E4del and PINHOLE RATs Turn FTP Banners Into Dead Drops for Malware Commands",
-        "link": "https://thehackernews.com/2026/08/e4del-and-pinhole-rats-turn-ftp-banners.html",
+        "fingerprint": "f338e290087e",
+        "title": "GoCaracal Malware Uses Ethereum Smart Contract to Fetch Replacement C2 Address",
+        "link": "https://thehackernews.com/2026/08/gocaracal-malware-uses-ethereum-smart.html",
         "source": "The Hacker News",
-        "published": "2026-08-25T11:33:44+00:00",
-        "summary": "Cybersecurity researchers are calling attention to a new campaign that employs FTP banners as dead drop resolvers (DDRs) to deliver two previously unreported remote access trojans (RATs) tracked as E4del and PINHOLE. While threat actors are known to abuse legitimate services to point to additional command-and-control (C2) infrastructure and blend in with regular network traffic, the development",
+        "published": "2026-08-27T09:33:38+00:00",
+        "summary": "Threat actors linked by Arctic Wolf to Dark Caracal with medium confidence deployed a previously undocumented Go-based malware framework, GoCaracal, during a June 2026 intrusion at an unnamed communications organization in Venezuela. GoCaracal provides operators with remote shell access and payload execution, while the extended profile adds browser data theft, keylogging, remote desktop control",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "cecd1bfb10a8",
+        "title": "CISA orders feds to patch Citrix NetScaler RCE flaw by Saturday",
+        "link": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploiting-citrix-netscaler-rce-flaw-in-attacks/",
+        "source": "BleepingComputer",
+        "published": "2026-08-27T09:16:50+00:00",
+        "summary": "CISA has ordered U.S. government agencies to patch their Citrix NetScaler appliances against an actively exploited remote code execution vulnerability by Saturday. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "29e773368397",
+        "title": "ATF confirms “major incident” after recent Qilin breach claims",
+        "link": "https://www.bleepingcomputer.com/news/security/atf-confirms-major-incident-after-recent-qilin-breach-claims/",
+        "source": "BleepingComputer",
+        "published": "2026-08-27T08:13:50+00:00",
+        "summary": "ATF, the regulatory agency that enforces federal laws governing firearms and explosives in the United States, has confirmed that one of its systems was compromised after breach claims made by the Qilin ransomware gang. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "6e4de032158e",
+        "title": "CISA Adds Six Exploited Flaws to KEV, Including NetScaler, Linux, and SQL Server Bugs",
+        "link": "https://thehackernews.com/2026/08/cisa-adds-six-exploited-flaws-to-kev.html",
+        "source": "The Hacker News",
+        "published": "2026-08-27T07:05:28+00:00",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added six flaws to its Known Exploited Vulnerabilities (KEV) catalog, including a high-severity security vulnerability impacting Citrix NetScaler ADC and NetScaler Gateway, citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2019-1068 - A remote code execution vulnerability in",
         "category": "high_alert"
       }
     ],
     "bad_updates": [],
     "upcoming_changes": [
       {
-        "fingerprint": "2727e6826353",
-        "title": "Planner: Connected Plans",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569929",
+        "fingerprint": "4740be7023a9",
+        "title": "Microsoft Teams: Events in Meet app in Teams in GCC",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569934",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-08-25T23:13:41+00:00",
-        "summary": "Connected Plans let teams link related plans together to organize work across projects and initiatives. Navigate between connected plans and make related work easier to find and manage. GA date: September CY2026",
+        "published": "2026-08-26T22:50:58+00:00",
+        "summary": "Users can now use the Teams Meet app to discover events across their organization, track what important events are upcoming, and plan and organize their own professional events. With this release, Meet app will be renamed to Events app. GA date: October CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "6ad2b9e89548",
-        "title": "Microsoft Copilot (Microsoft 365): Power BI reports as references in Copilot Notebooks",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569928",
+        "fingerprint": "e8a7d00a4b20",
+        "title": "Microsoft Copilot Studio: Conversational configuration of connectors in Copilot Studio",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569930",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-08-25T23:13:41+00:00",
-        "summary": "Copilot Notebooks now lets users add Power BI reports as references, bringing report data directly into their notebooks alongside files. Copilot uses this information to help generate more relevant summaries, presentations, and briefs grounded in the organization's data. GA date: September CY2026 Preview date: August CY2026",
+        "published": "2026-08-26T22:50:58+00:00",
+        "summary": "Configure the connectors your agent needs, with a simple in-chat sign-in instead of a full settings experience. GA date: September CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "71363aab014e",
-        "title": "In development - Microsoft Intune",
-        "link": "https://learn.microsoft.com/en-us/intune/whats-new/in-development",
-        "source": "Microsoft Intune What's New",
-        "published": "2026-08-25T22:33:00+00:00",
-        "summary": "In development for Microsoft Intune Summarize this article for me In this article To help in your readiness and planning, this article lists Intune UI updates and features that are in development but not yet released. When a feature enters production, whether it's in preview or generally available, the feature description moves from this article.",
+        "fingerprint": "85642e7f3620",
+        "title": "Planner: Track task progress with the Completion (%) field",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569610",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-08-26T22:50:58+00:00",
+        "summary": "The new Completion (%) column in Microsoft Planner provides a more precise view of task progress. Users can view and update completion as a percentage, helping teams communicate incremental progress and quickly understand how far work has advanced. GA date: October CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "15ec52349ce9",
+        "title": "Microsoft Teams: Hide Organizer Name in Calendar View on Teams Panels and MTR-A.",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569423",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-08-26T22:50:58+00:00",
+        "summary": "Admins can now choose whether the organizer name will show up in the calendar view on Teams panels and MTR-Android. In Pro Management Portal, admins can toggle the \"Show Organizer Name\" setting ON or OFF. On the panel device, admins can toggle the \"Show organizer names\" setting ON or OFF. On the MTRA console device and All In One Display device, admins can toggle the \"Show organizer names on ca...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "49feb2017ad2",
+        "title": "Microsoft Edge: Inline Switching for Workspaces",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=568786",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-08-26T22:50:58+00:00",
+        "summary": "Workspaces Inline Switching manages multiple Workspaces in a single window. Selecting a Workspace swaps in its tabs, theme, and context, with an easy return to the default space. GA date: September CY2026",
         "category": "upcoming_changes"
       }
     ],
     "official_news": [
       {
-        "fingerprint": "b9d873dfd107",
-        "title": "Hackers now exploit critical Gitea flaw in code injection attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-gitea-flaw-in-code-injection-attacks/",
-        "source": "BleepingComputer",
-        "published": "2026-08-26T11:07:48+00:00",
-        "summary": "Attackers are now exploiting a critical-severity vulnerability in the Gitea self-hosted Git service, according to the U.S. Cybersecurity and Infrastructure Security Agency (CISA). [...]",
+        "fingerprint": "883602fa2ac0",
+        "title": "Microsoft releases Windows 11 KB5120998 with long list of improvements and fixes",
+        "link": "https://www.neowin.net/news/microsoft-releases-windows-11-kb5120998-with-long-list-of-improvements-and-fixes/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-08-27T17:58:01+00:00",
+        "summary": "Microsoft has released the August 2025 preview update under KB5120998 for Windows 11 25H2 and 24H2. Here's the changelog. Read more...",
         "category": "official_news"
       },
       {
-        "fingerprint": "a8949441246e",
-        "title": "Deploy Remote Help with Microsoft Intune - Microsoft Intune",
-        "link": "https://learn.microsoft.com/en-us/intune/remote-help/deploy",
-        "source": "Microsoft Intune What's New",
-        "published": "2026-08-25T22:33:00+00:00",
-        "summary": "Deploying Remote Help with Microsoft Intune Summarize this article for me In this article This article describes the steps to deploy Remote Help with Microsoft Intune. ⚙️Set up your tenant ⬇️Download Remote Help 🛠️Install Remote Help ⚙️Configure Remote Help 🔄️Update Remote Help 🔒Configure Conditional Access When planning ... Updates and new.",
-        "category": "official_news"
-      },
-      {
-        "fingerprint": "25f12c346384",
-        "title": "Plan for Remote Help with Microsoft Intune - Microsoft Intune",
-        "link": "https://learn.microsoft.com/en-us/intune/remote-help/plan",
-        "source": "Microsoft Intune What's New",
-        "published": "2026-08-25T22:33:00+00:00",
-        "summary": "Planning for Remote Help with Microsoft Intune Summarize this article for me In this article In this article, users who provide help are referred to as helpers, and users that receive help are referred to as sharers, as they share their session with the helper. Keep the Remote Help apps up to date: New versions of Windows and macOS bring.",
+        "fingerprint": "11ffb9fb5a02",
+        "title": "​​​​​​What’s new in Microsoft Security: August 2026",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/08/27/whats-new-in-microsoft-security-august-2026/",
+        "source": "Microsoft Security Blog",
+        "published": "2026-08-27T16:00:00+00:00",
+        "summary": "This month’s updates provide new capabilities to help organizations gain insights into agent activity, expand security coverage across supported environments, and enhance security management across their environments. The post ​​​​​​What’s new in Microsoft Security: August 2026 appeared first on Microsoft Security Blog .",
         "category": "official_news"
       }
     ],
     "community_buzz": [
       {
-        "fingerprint": "204def8e81f9",
-        "title": "Fake Apple Support AI Calls Target Stolen-Device Owners for Passcodes and 2FA Codes",
-        "link": "https://thehackernews.com/2026/08/fake-apple-support-ai-calls-target.html",
+        "fingerprint": "7da49634a532",
+        "title": "OpenAI Says Reward Hacking Drove AI Agents to Exploit Zero-Days and Breach Hugging Face",
+        "link": "https://thehackernews.com/2026/08/openai-says-reward-hacking-drove-ai.html",
         "source": "The Hacker News",
-        "published": "2026-08-26T05:47:28+00:00",
-        "summary": "Cybersecurity researchers have disclosed details of a phishing-as-a-service (PhaaS) platform built to strip Apple's Activation Lock from stolen devices, using rented AI voice agents that call theft victims posing as Apple Support and ask for their device passcode. SOCRadar Threat Research Unit (STRU) said the platform, which it tracks as AnonyMousKIT, is credit-metered and drives lures across",
+        "published": "2026-08-27T18:36:19+00:00",
+        "summary": "OpenAI on Wednesday revealed that reward hacking was a key driver behind the artificial intelligence (AI)-powered hack of Hugging Face last month, adding that it found evidence of misaligned behavior as early as late May. The incident, the company said, took place during cybersecurity evaluations of several OpenAI models, and that it was mainly fueled by what it described as a \"highly capable",
         "category": "community_buzz"
       },
       {
-        "fingerprint": "e8a78bcb9658",
-        "title": "Frontier AI: Vulnerability Management's Systemic Revolution",
-        "link": "https://thehackernews.com/2026/08/frontier-ai-vulnerability-managements.html",
+        "fingerprint": "c54578da26b9",
+        "title": "Amazon Kiro Prompt Injection Can Exfiltrate Sensitive Data Through Kiro Powers",
+        "link": "https://thehackernews.com/2026/08/amazon-kiro-prompt-injection-can.html",
         "source": "The Hacker News",
-        "published": "2026-08-25T11:14:07+00:00",
-        "summary": "Vulnerability management has been a staple of security programs since the dawn of the cybersecurity discipline. The symbiotic relationship between vulnerability and patch management teams has also existed for that time and has gone through waves of contention and thankfulness. While this relationship required thoughtful care and feeding from both sides, both sides were aiming to work toward a",
+        "published": "2026-08-27T13:39:56+00:00",
+        "summary": "Cybersecurity researchers have disclosed details of a vulnerability in Amazon Kiro, an artificial intelligence (AI)-powered, agentic integrated development environment (IDE), that could facilitate data exfiltration via prompt injection and Kiro Powers. The security flaw, which does not have a CVE identifier, works against Kiro IDE 0.7.45 on Windows, according to Mindguard. The latest version of",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "4c30ea875eca",
+        "title": "Learn How to Build Security Operations Ready for AI-Powered Attacks",
+        "link": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
+        "source": "The Hacker News",
+        "published": "2026-08-27T11:56:30+00:00",
+        "summary": "Security teams have spent years trying to detect threats faster. AI is changing the harder part: how much time defenders have left to act. Advanced AI models can now help attackers discover vulnerabilities, generate exploit code, and move through weaknesses faster than traditional security processes were built to handle. The challenge is no longer just finding another vulnerability or",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "71ec78383d28",
+        "title": "What the Data Says About AI in Security Operations in 2026",
+        "link": "https://thehackernews.com/2026/08/what-data-says-about-ai-in-security.html",
+        "source": "The Hacker News",
+        "published": "2026-08-27T11:30:00+00:00",
+        "summary": "AI is officially mainstream in security operations. According to Prophet Security's State of AI in Security Operations 2026 report (produced from ViB’s survey of 250+ cybersecurity pros), 40% of security teams now use AI daily. Another 56% are currently testing it out, and only 4% have no plans to adopt it. For the teams already using AI, what is actually changing? Here are the ten biggest",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "f212758082f2",
+        "title": "Microsoft is blocking the problem to fix Windows 11 KB5121003 restarts, crashes",
+        "link": "https://www.neowin.net/news/microsoft-is-blocking-the-problem-to-fix-windows-11-kb5121003-restarts-crashes/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-08-27T09:00:01+00:00",
+        "summary": "Microsoft has concluded its investigation into Windows 11's restarts and app crashes after the KB5121003 update. A fix has been shared. Read more...",
         "category": "community_buzz"
       }
     ]
