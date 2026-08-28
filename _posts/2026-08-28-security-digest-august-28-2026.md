@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - August 28, 2026"
+date: 2026-08-28 23:20:40 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - August 28, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -42,4 +50,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [ServiceNow warns of three max severity security vulnerabilities](https://www.bleepingcomputer.com/news/security/servicenow-warns-of-three-max-severity-security-vulnerabilities/) - *(BleepingComputer)*
 - [How come shinyhunters has been able to get into so many different businesses?](https://www.reddit.com/r/cybersecurity/comments/1w0mge4/how_come_shinyhunters_has_been_able_to_get_into/) - *(Reddit r/cybersecurity)*
 - [How to break into hedge fund?](https://www.reddit.com/r/cybersecurity/comments/1w0li7o/how_to_break_into_hedge_fund/) - *(Reddit r/cybersecurity)*
+
 
