@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - August 29, 2026"
+date: 2026-08-29 17:27:27 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - August 29, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -60,4 +68,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [You will now get major Edge updates every two weeks](https://www.neowin.net/news/you-will-now-get-major-edge-updates-every-two-weeks/?utm_source=rss) - *(Neowin)*
 - [Trying to Breakout in IT but unsure how](https://www.reddit.com/r/cybersecurity/comments/1w198wj/trying_to_breakout_in_it_but_unsure_how/) - *(Reddit r/cybersecurity)*
 - [Microsoft: Hotpatch PCs will force-restart to apply Windows updates for the next two months](https://www.neowin.net/news/microsoft-hotpatch-pcs-will-force-restart-to-apply-windows-updates-for-the-next-two-months/?utm_source=rss) - *(Neowin)*
+
 
