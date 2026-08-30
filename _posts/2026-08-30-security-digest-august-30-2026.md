@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - August 30, 2026"
+date: 2026-08-30 17:51:14 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - August 30, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -53,4 +61,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [CISSP Security & Risk Management Training Bundle is still 95% off](https://www.neowin.net/deals/cissp-security--risk-management-training-bundle-is-still-95-off/?utm_source=rss) - *(Neowin)*
 - [You will now get major Edge updates every two weeks](https://www.neowin.net/news/you-will-now-get-major-edge-updates-every-two-weeks/?utm_source=rss) - *(Neowin)*
 - [PaperCut releases second emergency patch for exploited flaws](https://www.bleepingcomputer.com/news/security/papercut-releases-second-emergency-patch-for-exploited-flaws/) - *(BleepingComputer)*
+
 
