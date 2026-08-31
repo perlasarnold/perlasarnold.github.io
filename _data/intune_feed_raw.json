@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-28T21:18:40.619356+00:00",
-  "date": "2026-08-28",
+  "generated_utc": "2026-08-31T17:50:06.482012+00:00",
+  "date": "2026-08-31",
   "lookback_hours": 25,
   "source_status": [
     {
@@ -12,7 +12,7 @@
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 5
+      "count": 0
     },
     {
       "name": "Microsoft Intune What's New",
@@ -37,17 +37,17 @@
     {
       "name": "BleepingComputer",
       "status": "OK",
-      "count": 3
+      "count": 2
     },
     {
       "name": "Neowin",
       "status": "OK",
-      "count": 2
+      "count": 0
     },
     {
       "name": "The Hacker News",
       "status": "OK",
-      "count": 7
+      "count": 2
     },
     {
       "name": "Krebs on Security",
@@ -99,162 +99,44 @@
   "items": {
     "high_alert": [
       {
-        "fingerprint": "e84a32e90472",
-        "title": "PaperCut releases second emergency patch for exploited flaws",
-        "link": "https://www.bleepingcomputer.com/news/security/papercut-releases-second-emergency-patch-for-exploited-flaws/",
+        "fingerprint": "dabc6f355be1",
+        "title": "Berlin confirms data theft after Rhysida ransomware attack claims",
+        "link": "https://www.bleepingcomputer.com/news/security/berlin-confirms-data-theft-after-rhysida-ransomware-attack-claims/",
         "source": "BleepingComputer",
-        "published": "2026-08-28T19:08:26+00:00",
-        "summary": "PaperCut has released a second emergency security update for two actively exploited vulnerabilities in its PaperCut NG and MF print management software after researchers discovered multiple ways to bypass the initial fixes. [...]",
+        "published": "2026-08-31T13:30:01+00:00",
+        "summary": "Berlin's city administration has confirmed that cybercriminals are attempting to extort the city after the Rhysida ransomware gang listed it on their data leak site. [...]",
         "category": "high_alert"
       },
       {
-        "fingerprint": "eb4751970c38",
-        "title": "ownCloud Flaw Exploited to Steal Nuclear Records From Philippine Research Body",
-        "link": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets.html",
+        "fingerprint": "1a5eadcc17e9",
+        "title": "ValleyRAT Backdoor Hides in Signed Adware That Users Add to Antivirus Exclusions",
+        "link": "https://thehackernews.com/2026/08/valleyrat-backdoor-hides-in-signed.html",
         "source": "The Hacker News",
-        "published": "2026-08-28T15:56:55+00:00",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a critical security flaw impacting ownCloud to its Known Exploited Vulnerabilities (KEV) catalog following reports that a Chinese-speaking threat actor weaponized the vulnerability to target a nuclear research body in the Philippines. The vulnerability, tracked as CVE-2023-49105 (CVSS score: 9.8), is a case of",
+        "published": "2026-08-31T12:14:00+00:00",
+        "summary": "The threat actor known as Silver Fox has been observed distributing the ValleyRAT backdoor disguised as a signed Chinese adware application, running the malware under a trusted process to slip past users who add such software to their antivirus exclusions. Russian cybersecurity vendor Kaspersky said the attackers built the disguise around QN Wallpaper, a genuine Chinese desktop-wallpaper tool",
         "category": "high_alert"
       },
       {
-        "fingerprint": "885723c85ccc",
-        "title": "Over 8,300 Gitea servers vulnerable to code execution attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/over-8-300-gitea-servers-vulnerable-to-code-execution-attacks/",
-        "source": "BleepingComputer",
-        "published": "2026-08-28T12:58:43+00:00",
-        "summary": "Over 8,300 Internet-exposed Gitea instances are still unpatched against a critical security flaw exploited in ongoing remote code execution attacks, according to cybersecurity watchdog Shadowserver. [...]",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "a47ca81a5a6b",
-        "title": "Two Unitree G1 EDU Humanoid Robot Flaws Enable Root RCE, One Starts Over Bluetooth",
-        "link": "https://thehackernews.com/2026/08/two-unitree-g1-edu-humanoid-robot-flaws.html",
+        "fingerprint": "8bd98fe9146f",
+        "title": "Aurora Ransomware Operators Use Cursor AI in Attacks Against 10 Targets",
+        "link": "https://thehackernews.com/2026/08/aurora-ransomware-operators-use-cursor.html",
         "source": "The Hacker News",
-        "published": "2026-08-28T12:07:24+00:00",
-        "summary": "Security researcher Olivier Laflamme has disclosed two independent root remote code execution (RCE) chains affecting the Unitree G1 EDU, including a Bluetooth Low Energy (BLE) path that can reach root on the robot's Locomotion PC. The flaws are tracked as CVE-2026-76639 and CVE-2026-76640, with the first involving a network-adjacent path through chat_go and bashrunner and the",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "0361c3aeddbc",
-        "title": "China-Made ZBT Routers Ship With Two Implants Giving Unauthenticated Attackers Root Access",
-        "link": "https://thehackernews.com/2026/08/china-made-zbt-routers-ship-with-two.html",
-        "source": "The Hacker News",
-        "published": "2026-08-28T10:58:29+00:00",
-        "summary": "VulnCheck has disclosed two previously undocumented factory implants in firmware for routers built by Shenzhen Zhibotong Electronics (ZBT), each of which gives an unauthenticated remote attacker the ability to run commands as root on affected devices. The implants, named SPEAKINGSTONE and DARKLANTERN by the company's zero-day research team, are tracked as CVE-2026-74232 and CVE-2026-74233.",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "3d76671a185c",
-        "title": "Critical cPanel Flaw Could Let One Hosting Customer Take Root Control of a Whole Server",
-        "link": "https://thehackernews.com/2026/08/critical-cpanel-flaw-could-let-one.html",
-        "source": "The Hacker News",
-        "published": "2026-08-28T09:45:15+00:00",
-        "summary": "cPanel has released patches for a security flaw affecting domain parking and addon domain functionality in cPanel and WebHost Manager (WHM), which could allow code execution as the root user. The vulnerability, assigned the CVE identifier CVE-2026-65643, impacts all supported versions of cPanel & WHM. cPanel described the issue as a critical security vulnerability and said that an",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "894d31cc51d9",
-        "title": "PaperCut Zero-Day Exploited in Attacks, Affecting All NG and MF Versions",
-        "link": "https://thehackernews.com/2026/08/papercut-zero-day-exploited-in-attacks.html",
-        "source": "The Hacker News",
-        "published": "2026-08-28T08:25:36+00:00",
-        "summary": "PaperCut has alerted customers that bad actors are actively exploiting a vulnerability impacting all versions of its PaperCut NG and PaperCut MF print management software in zero-day attacks. The company has released an emergency patch for v25 and v26 to address the issue. It said it's \"aware of confirmed customer incidents and is treating this matter with the highest priority.\" An",
+        "published": "2026-08-31T11:47:24+00:00",
+        "summary": "Threat actors associated with Aurora (aka Aur0ra) ransomware have been observed using SpaceX's artificial intelligence (AI)-powered coding assistant Cursor to break into target networks, according to findings from CloudSEK and Gambit Security. The two independent analyses are based on exposed infrastructure associated with the Russian-speaking cybercrime group, leading to the discovery of its",
         "category": "high_alert"
       }
     ],
     "bad_updates": [],
-    "upcoming_changes": [
-      {
-        "fingerprint": "7f7644c805d3",
-        "title": "Microsoft Copilot Studio: Agent Sharing amongst makers",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569475",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-08-27T22:38:48+00:00",
-        "summary": "Enables sharing of agents with other makers in the new GHCP harness. Makers can grant other makers Agent Viewer (view analytics/evaluations only) or Editor (view, edit, configure, share, publish) access to an agent, with auto-assigned security roles. GA date: October CY2026 Preview date: September CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "a89e2267d2e2",
-        "title": "Microsoft Viva: Campaigns Hub in Engage and Engage in Teams mobile",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570157",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-08-27T22:38:48+00:00",
-        "summary": "The Campaigns Hub in Viva Engage provides a centralized mobile destination where employees can discover and participate in organizational campaigns. Available in the Viva Engage app and Viva Engage in Teams mobile, the hub highlights top and sponsored campaigns, enables users to browse active and completed campaigns, and makes it easy to view campaign details and follow the campaigns that matte...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "ad396a0ab6ad",
-        "title": "Outlook: Offline settings \"Days of email to save\" admin policy",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570069",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-08-27T22:38:48+00:00",
-        "summary": "Tenant admins will be able to define the default value for \"Days of email to save\" in Offline settings and designate whether end users can change the setting. This policy will set and enforce the \"Days of email to save\" setting found under Settings > General > Offline. #newoutlookforwindows GA date: November CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "2c2a4518c063",
-        "title": "Planner: Conditional Coloring",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569476",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-08-27T22:38:48+00:00",
-        "summary": "Conditional Coloring highlight tasks based on selected criteria, making priorities, status, and important task details easier to spot. GA date: September CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "9dd61a92b7c4",
-        "title": "Microsoft 365 admin center: Data Quality Report for Profile Data",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=568937",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-08-27T22:38:48+00:00",
-        "summary": "Microsoft 365 Organizational Data Services is introducing a new data quality report that helps administrators assess the coverage and health of people data used across Microsoft 365 experiences. High-quality people data enables users to more effectively discover and learn about colleagues through experiences such as the People Card, Org Explorer, Microsoft 365 Copilot, and Microsoft 365 Cowork....",
-        "category": "upcoming_changes"
-      }
-    ],
+    "upcoming_changes": [],
     "official_news": [],
     "community_buzz": [
       {
-        "fingerprint": "a69c718606a9",
-        "title": "19 Chrome and Edge Extensions Found With Wallet-Stealing and Crypto-Draining Code",
-        "link": "https://thehackernews.com/2026/08/19-chrome-and-edge-extensions-found.html",
-        "source": "The Hacker News",
-        "published": "2026-08-28T15:27:26+00:00",
-        "summary": "Cybersecurity researchers have discovered a cluster of 18 Google Chrome and one Microsoft Edge extensions that were published over the last six months and harbored wallet secret stealing and cryptocurrency draining capabilities. The extensions, per Socket security researcher Karlo Zanki, share similarities in code and tradecraft, with evidence indicating that the campaign may have been active",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "98418e785fce",
-        "title": "Windows 11 KB5120998 update released with 35 changes and fixes",
-        "link": "https://www.bleepingcomputer.com/news/security/windows-11-kb5120998-update-released-with-35-changes-and-fixes/",
+        "fingerprint": "79cf38eafeee",
+        "title": "Microsoft says Windows 11 KB5120998 update resets mouse settings",
+        "link": "https://www.bleepingcomputer.com/news/security/microsoft-says-windows-11-kb5120998-update-resets-mouse-settings/",
         "source": "BleepingComputer",
-        "published": "2026-08-28T09:10:13+00:00",
-        "summary": "Microsoft released the KB5120998 preview cumulative update for Windows 11 versions 25H2 and 24H2, which comes with 35 changes, including improvements to the Start menu, taskbar, and Windows search. [...]",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "e5fc77cca0fc",
-        "title": "APT28-Linked HOOKEDGE Backdoor Targets European Government and Diplomatic Organizations",
-        "link": "https://thehackernews.com/2026/08/apt28-linked-hookedge-backdoor-targets.html",
-        "source": "The Hacker News",
-        "published": "2026-08-28T08:20:59+00:00",
-        "summary": "Cybersecurity researchers have flagged a fresh set of campaigns targeting government and diplomatic organizations in Romania, Spain, and Türkiye between late September 2025 and early April 2026. These campaigns, per Recorded Future Insikt Group, have led to the deployment of a previously undocumented backdoor dubbed HOOKEDGE, a lightweight Windows batch script that's distributed via",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "0d9305533243",
-        "title": "Here are all the new features Microsoft added to Intune in August 2026",
-        "link": "https://www.neowin.net/news/here-are-all-the-new-features-microsoft-added-to-intune-in-august-2026/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-08-28T05:42:02+00:00",
-        "summary": "Microsoft's latest Intune updates brings several useful improvements aimed at simplifying device management and troubleshooting for IT admins. Read more...",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "e48f6feb2674",
-        "title": "OpenAI, Microsoft, Anthropic and over 100 companies call for urgent cyber defense push",
-        "link": "https://www.neowin.net/news/openai-microsoft-anthropic-and-over-100-companies-call-for-urgent-cyber-defense-push/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-08-28T04:10:03+00:00",
-        "summary": "Leading tech firms including OpenAI, Microsoft, Google, Anthropic have signed an open letter calling for an urgent global push to reinforce cybersecurity defenses. Read more...",
+        "published": "2026-08-31T10:23:46+00:00",
+        "summary": "Microsoft has confirmed that mouse settings are being reverted on Windows 11 systems after installing the KB5120998 August 2026 non-security preview update. [...]",
         "category": "community_buzz"
       }
     ]
