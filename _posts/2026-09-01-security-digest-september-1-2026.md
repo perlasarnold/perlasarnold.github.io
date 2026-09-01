@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Security Digest - September 1, 2026"
-date: 2026-09-01 17:30:52 +00:00
+date: 2026-09-01 22:28:33 +00:00
 categories: [security-digest]
 tags: [security, tldr, situational-awareness, endpoint-management]
 author: Arnold
@@ -10,7 +10,7 @@ author: Arnold
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
 
-- **Generated (UTC):** 2026-09-01 17:30:52 +00:00
+- **Generated (UTC):** 2026-09-01 22:28:33 +00:00
 - **Lookback window:** 7 days
 
 ## 🚀 Top Research & Advisories
@@ -26,31 +26,25 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - **[Microsoft brings much needed Copilot feature to collaborative Excel workbooks](https://www.neowin.net/news/microsoft-brings-much-needed-copilot-feature-to-collaborative-excel-workbooks/?utm_source=rss)** - *(Neowin)*
   Review Office update channel health and security baseline compliance.
 
-- **[Microsoft finally brings "official" Edge support to Linux years after Google Chrome did it](https://www.neowin.net/news/microsoft-finally-brings-official-edge-support-to-linux-years-after-google-chrome-did-it/?utm_source=rss)** - *(Neowin)*
-  Validate Chrome coverage; update managed package if needed. Validate Edge/WebView2 coverage; refresh managed package.
-
-- **[Microsoft Office, Teams, and Outlook head just realized why users hate "AI slop"](https://www.neowin.net/news/microsoft-office-teams-and-outlook-head-just-realized-why-users-hate-ai-slop/?utm_source=rss)** - *(Neowin)*
+- **[Microsoft is turning off text predictions by default in Word and Outlook](https://www.neowin.net/news/microsoft-is-turning-off-text-predictions-by-default-in-word-and-outlook/?utm_source=rss)** - *(Neowin)*
   Review Office update channel health and security baseline compliance.
-
-- **[Microsoft says Windows 11 KB5120998 update resets mouse settings](https://www.bleepingcomputer.com/news/security/microsoft-says-windows-11-kb5120998-update-resets-mouse-settings/)** - *(BleepingComputer)*
-  Validate workstation security baseline and update compliance.
-
-- **[Microsoft shares simple bypass to fix some common Windows update download, install errors](https://www.neowin.net/news/microsoft-shares-simple-bypass-to-fix-some-common-windows-update-download-install-errors/?utm_source=rss)** - *(Neowin)*
-  Evaluate update rings and expedite actions if needed.
 
 - **[Why Even the Best Edge Security Still Misses High-Risk Sessions](https://www.bleepingcomputer.com/news/security/why-even-the-best-edge-security-still-misses-high-risk-sessions/)** - *(BleepingComputer)*
   Validate Edge/WebView2 coverage; refresh managed package.
 
+- **[Windows 11 is getting stronger kernel protection by default in October 2026](https://www.neowin.net/news/windows-11-is-getting-stronger-kernel-protection-by-default-in-october-2026/?utm_source=rss)** - *(Neowin)*
+  Validate workstation security baseline and update compliance.
+
 ## 🔍 Quick Links (Watch Items)
+- [Graduating in December — internship ended after 10 months, what should I do next](https://www.reddit.com/r/cybersecurity/comments/1w4qx6m/graduating_in_december_internship_ended_after_10/) - *(Reddit r/cybersecurity)*
+- [What would make a dedicated DFIR and authorized security-testing Linux distribution worth using in 2026?](https://www.reddit.com/r/cybersecurity/comments/1w4pwc5/what_would_make_a_dedicated_dfir_and_authorized/) - *(Reddit r/cybersecurity)*
+- [Breaking Down Appsec](https://www.reddit.com/r/cybersecurity/comments/1w4o56u/breaking_down_appsec/) - *(Reddit r/cybersecurity)*
+- [Does FedRAMP strengthen job security for an existing SOC Team?](https://www.reddit.com/r/cybersecurity/comments/1w4mqq7/does_fedramp_strengthen_job_security_for_an/) - *(Reddit r/cybersecurity)*
 - [Tech Internships - CS Sophomore / Interested in Networking/Cybersecurity](https://www.reddit.com/r/cybersecurity/comments/1w4hfx5/tech_internships_cs_sophomore_interested_in/) - *(Reddit r/cybersecurity)*
 - [Why Even the Best Edge Security Still Misses High-Risk Sessions](https://www.bleepingcomputer.com/news/security/why-even-the-best-edge-security-still-misses-high-risk-sessions/) - *(BleepingComputer)*
 - [Tired and Feel Stuck](https://www.reddit.com/r/cybersecurity/comments/1w4cp4n/tired_and_feel_stuck/) - *(Reddit r/cybersecurity)*
-- [Hackers Actively Exploiting Critical Langflow RCE and Rails Vulnerability](https://cybersecuritynews.com/langflow-rce-and-rails-vulnerability-exploited/) - *(CybersecurityNews)*
 - [Is docusign sufficiently secure? Does this example raise any security concerns?](https://www.reddit.com/r/cybersecurity/comments/1w4biwl/is_docusign_sufficiently_secure_does_this_example/) - *(Reddit r/cybersecurity)*
-- [21,000+ Microsoft Exchange Servers Remain Exposed to Active CVE-2026-62911 Exploitation](https://cybersecuritynews.com/exchange-servers-remain-exposed-2026-62911/) - *(CybersecurityNews)*
-- [Will the rush into security ever slow down or is this the new normal?](https://www.reddit.com/r/cybersecurity/comments/1w4aghz/will_the_rush_into_security_ever_slow_down_or_is/) - *(Reddit r/cybersecurity)*
-- [As a Security pro, would you like to play cyber security management pc game?](https://www.reddit.com/r/cybersecurity/comments/1w48ggq/as_a_security_pro_would_you_like_to_play_cyber/) - *(Reddit r/cybersecurity)*
 - [Cronos blockchain restarts after $74 million Tectonic exploit](https://www.bleepingcomputer.com/news/security/cronos-blockchain-restarts-after-74-million-tectonic-exploit/) - *(BleepingComputer)*
-- [CVE-2026-55637](https://nvd.nist.gov/vuln/detail/CVE-2026-55637) - *(NVD)*
+- [CVE-2026-55805](https://nvd.nist.gov/vuln/detail/CVE-2026-55805) - *(NVD)*
 
 
