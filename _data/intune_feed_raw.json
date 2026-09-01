@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-08-31T17:50:06.482012+00:00",
-  "date": "2026-08-31",
+  "generated_utc": "2026-09-01T15:22:11.420609+00:00",
+  "date": "2026-09-01",
   "lookback_hours": 25,
   "source_status": [
     {
@@ -12,7 +12,7 @@
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 0
+      "count": 1
     },
     {
       "name": "Microsoft Intune What's New",
@@ -42,12 +42,12 @@
     {
       "name": "Neowin",
       "status": "OK",
-      "count": 0
+      "count": 1
     },
     {
       "name": "The Hacker News",
       "status": "OK",
-      "count": 2
+      "count": 4
     },
     {
       "name": "Krebs on Security",
@@ -99,44 +99,81 @@
   "items": {
     "high_alert": [
       {
-        "fingerprint": "dabc6f355be1",
-        "title": "Berlin confirms data theft after Rhysida ransomware attack claims",
-        "link": "https://www.bleepingcomputer.com/news/security/berlin-confirms-data-theft-after-rhysida-ransomware-attack-claims/",
+        "fingerprint": "f1697901092d",
+        "title": "Iranian Hackers Pose as Recruiters to Deliver Cross-Platform RATs Through Coding Tests",
+        "link": "https://thehackernews.com/2026/09/iranian-hackers-pose-as-recruiters-to.html",
+        "source": "The Hacker News",
+        "published": "2026-09-01T13:08:58+00:00",
+        "summary": "The Iranian Nimbus Manticore hacking group has been attributed to two previously undocumented malware families that highlight the continued evolution of its toolset and likely expand its targeting footprint to infect Linux and Apple macOS systems using cross-platform remote access trojans (RATs) developed using Node.js and JavaScript. Russian cybersecurity company Kaspersky is tracking the",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "c23ad7199b7a",
+        "title": "Five Venezuelans plead guilty to ATM jackpotting attacks in US",
+        "link": "https://www.bleepingcomputer.com/news/security/five-venezuelans-plead-guilty-to-atm-jackpotting-attacks-in-us/",
         "source": "BleepingComputer",
-        "published": "2026-08-31T13:30:01+00:00",
-        "summary": "Berlin's city administration has confirmed that cybercriminals are attempting to extort the city after the Rhysida ransomware gang listed it on their data leak site. [...]",
+        "published": "2026-09-01T09:15:07+00:00",
+        "summary": "Five Venezuelan nationals pleaded guilty to attempting to empty automated teller machines (ATMs) using malware in a series of ATM jackpotting attacks. [...]",
         "category": "high_alert"
       },
       {
-        "fingerprint": "1a5eadcc17e9",
-        "title": "ValleyRAT Backdoor Hides in Signed Adware That Users Add to Antivirus Exclusions",
-        "link": "https://thehackernews.com/2026/08/valleyrat-backdoor-hides-in-signed.html",
+        "fingerprint": "35f6fb7cae70",
+        "title": "Russia-Aligned UAC-0099 Plants Nuclear Weapon Prompt in Malware to Disrupt AI Analysis",
+        "link": "https://thehackernews.com/2026/09/russia-aligned-uac-0099-plants-nuclear.html",
         "source": "The Hacker News",
-        "published": "2026-08-31T12:14:00+00:00",
-        "summary": "The threat actor known as Silver Fox has been observed distributing the ValleyRAT backdoor disguised as a signed Chinese adware application, running the malware under a trusted process to slip past users who add such software to their antivirus exclusions. Russian cybersecurity vendor Kaspersky said the attackers built the disguise around QN Wallpaper, a genuine Chinese desktop-wallpaper tool",
+        "published": "2026-09-01T08:26:24+00:00",
+        "summary": "Cybersecurity researchers have disclosed a new technique dubbed GuardBreaker that's been put to use by a Russia-aligned threat actor known as UAC-0099 against a target in Ukraine with an aim to interfere with artificial intelligence (AI)-assisted analysis. The idea, ESET said in a series of posts on X, is to deliberately trip a large language model's (LLM) safety mechanisms and prevent its",
         "category": "high_alert"
       },
       {
-        "fingerprint": "8bd98fe9146f",
-        "title": "Aurora Ransomware Operators Use Cursor AI in Attacks Against 10 Targets",
-        "link": "https://thehackernews.com/2026/08/aurora-ransomware-operators-use-cursor.html",
+        "fingerprint": "472690ff42a9",
+        "title": "Attackers Exploit Critical Langflow and Rails Flaws in Credential-Probing and C2 Activity",
+        "link": "https://thehackernews.com/2026/09/attackers-exploit-critical-langflow-and.html",
         "source": "The Hacker News",
-        "published": "2026-08-31T11:47:24+00:00",
-        "summary": "Threat actors associated with Aurora (aka Aur0ra) ransomware have been observed using SpaceX's artificial intelligence (AI)-powered coding assistant Cursor to break into target networks, according to findings from CloudSEK and Gambit Security. The two independent analyses are based on exposed infrastructure associated with the Russian-speaking cybercrime group, leading to the discovery of its",
+        "published": "2026-09-01T07:22:30+00:00",
+        "summary": "Threat actors are exploiting two critical flaws impacting Langflow and Ruby on Rails, according to new findings from VulnCheck. The vulnerabilities in question are listed below - CVE-2026-0768 (CVSS score: 9.8) - A lack of proper validation of a user-supplied input vulnerability that could be exploited to execute arbitrary Python code in the context of the root user. CVE-2026-66066 aka",
         "category": "high_alert"
       }
     ],
     "bad_updates": [],
-    "upcoming_changes": [],
+    "upcoming_changes": [
+      {
+        "fingerprint": "ea8f038c22b5",
+        "title": "SharePoint: Site Skills in Copilot in SharePoint",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570155",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-08-31T23:13:25+00:00",
+        "summary": "The feature introduces enhanced Site Skills management capabilities, including skill editing, version control, publishing, restoration, and cross-site duplication, enabling organizations to govern and reuse skills more effectively across SharePoint sites. GA date: September CY2026",
+        "category": "upcoming_changes"
+      }
+    ],
     "official_news": [],
     "community_buzz": [
       {
-        "fingerprint": "79cf38eafeee",
-        "title": "Microsoft says Windows 11 KB5120998 update resets mouse settings",
-        "link": "https://www.bleepingcomputer.com/news/security/microsoft-says-windows-11-kb5120998-update-resets-mouse-settings/",
+        "fingerprint": "d4ecb640858e",
+        "title": "13 Malicious Packagist Packages Target Unpatched iPhones to Steal Crypto Wallet Seeds",
+        "link": "https://thehackernews.com/2026/09/13-malicious-packagist-packages-target.html",
+        "source": "The Hacker News",
+        "published": "2026-09-01T14:07:20+00:00",
+        "summary": "Cybersecurity researchers have identified a set of 13 malicious Composer theme packages on Packagist that are designed to inject JavaScript into Vietnamese movie and comic streaming sites that install those libraries and initiate the deployment of spyware aimed at unpatched iOS devices. \"The injected code runs two operations against a site's visitors: a mobile ad-fraud and gambling-redirect",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "7267fbc873d8",
+        "title": "Microsoft shares simple bypass to fix some common Windows update download, install errors",
+        "link": "https://www.neowin.net/news/microsoft-shares-simple-bypass-to-fix-some-common-windows-update-download-install-errors/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-09-01T10:00:03+00:00",
+        "summary": "Microsoft has reminded of clever ways to tackle some of the frustrating Windows Update download and installation errors admins face. Read more...",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "298bd351be23",
+        "title": "Cronos blockchain restarts after $74 million Tectonic exploit",
+        "link": "https://www.bleepingcomputer.com/news/security/cronos-blockchain-restarts-after-74-million-tectonic-exploit/",
         "source": "BleepingComputer",
-        "published": "2026-08-31T10:23:46+00:00",
-        "summary": "Microsoft has confirmed that mouse settings are being reverted on Windows 11 systems after installing the KB5120998 August 2026 non-security preview update. [...]",
+        "published": "2026-08-31T20:47:54+00:00",
+        "summary": "The Cronos blockchain network has resumed trading activity after a price-manipulation attack on the Tectonic cryptocurrency lending platform allowed an attacker to borrow $74 million. [...]",
         "category": "community_buzz"
       }
     ]
