@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - September 1, 2026"
+date: 2026-09-01 17:30:52 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - September 1, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -44,4 +52,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [As a Security pro, would you like to play cyber security management pc game?](https://www.reddit.com/r/cybersecurity/comments/1w48ggq/as_a_security_pro_would_you_like_to_play_cyber/) - *(Reddit r/cybersecurity)*
 - [Cronos blockchain restarts after $74 million Tectonic exploit](https://www.bleepingcomputer.com/news/security/cronos-blockchain-restarts-after-74-million-tectonic-exploit/) - *(BleepingComputer)*
 - [CVE-2026-55637](https://nvd.nist.gov/vuln/detail/CVE-2026-55637) - *(NVD)*
+
 
