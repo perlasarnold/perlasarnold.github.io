@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - September 2, 2026"
+date: 2026-09-02 17:31:57 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - September 2, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -50,4 +58,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Graduating in December — internship ended after 10 months, what should I do next](https://www.reddit.com/r/cybersecurity/comments/1w4qx6m/graduating_in_december_internship_ended_after_10/) - *(Reddit r/cybersecurity)*
 - [What would make a dedicated DFIR and authorized security-testing Linux distribution worth using in 2026?](https://www.reddit.com/r/cybersecurity/comments/1w4pwc5/what_would_make_a_dedicated_dfir_and_authorized/) - *(Reddit r/cybersecurity)*
 - [Breaking Down Appsec](https://www.reddit.com/r/cybersecurity/comments/1w4o56u/breaking_down_appsec/) - *(Reddit r/cybersecurity)*
+
 
