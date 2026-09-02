@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-01T15:22:11.420609+00:00",
-  "date": "2026-09-01",
+  "generated_utc": "2026-09-02T14:56:16.896009+00:00",
+  "date": "2026-09-02",
   "lookback_hours": 25,
   "source_status": [
     {
@@ -12,12 +12,12 @@
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 1
+      "count": 0
     },
     {
       "name": "Microsoft Intune What's New",
       "status": "OK",
-      "count": 0
+      "count": 2
     },
     {
       "name": "Windows IT Pro Blog",
@@ -27,7 +27,7 @@
     {
       "name": "Microsoft Security Blog",
       "status": "OK",
-      "count": 0
+      "count": 2
     },
     {
       "name": "Microsoft Entra Blog",
@@ -37,17 +37,17 @@
     {
       "name": "BleepingComputer",
       "status": "OK",
-      "count": 2
+      "count": 6
     },
     {
       "name": "Neowin",
       "status": "OK",
-      "count": 1
+      "count": 2
     },
     {
       "name": "The Hacker News",
       "status": "OK",
-      "count": 4
+      "count": 8
     },
     {
       "name": "Krebs on Security",
@@ -99,56 +99,183 @@
   "items": {
     "high_alert": [
       {
-        "fingerprint": "f1697901092d",
-        "title": "Iranian Hackers Pose as Recruiters to Deliver Cross-Platform RATs Through Coding Tests",
-        "link": "https://thehackernews.com/2026/09/iranian-hackers-pose-as-recruiters-to.html",
-        "source": "The Hacker News",
-        "published": "2026-09-01T13:08:58+00:00",
-        "summary": "The Iranian Nimbus Manticore hacking group has been attributed to two previously undocumented malware families that highlight the continued evolution of its toolset and likely expand its targeting footprint to infect Linux and Apple macOS systems using cross-platform remote access trojans (RATs) developed using Node.js and JavaScript. Russian cybersecurity company Kaspersky is tracking the",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "c23ad7199b7a",
-        "title": "Five Venezuelans plead guilty to ATM jackpotting attacks in US",
-        "link": "https://www.bleepingcomputer.com/news/security/five-venezuelans-plead-guilty-to-atm-jackpotting-attacks-in-us/",
+        "fingerprint": "a843e1789680",
+        "title": "Ransomware protection for MSPs: A 6-point checklist for faster recovery",
+        "link": "https://www.bleepingcomputer.com/news/security/ransomware-protection-for-msps-a-6-point-checklist-for-faster-recovery/",
         "source": "BleepingComputer",
-        "published": "2026-09-01T09:15:07+00:00",
-        "summary": "Five Venezuelan nationals pleaded guilty to attempting to empty automated teller machines (ATMs) using malware in a series of ATM jackpotting attacks. [...]",
+        "published": "2026-09-02T14:02:12+00:00",
+        "summary": "Ransomware resilience requires more than backups or endpoint detection alone. Acronis outlines six capabilities MSPs should test across client environments, from reducing exposure and detecting attacks to preserving recovery points and restoring operations quickly. [...]",
         "category": "high_alert"
       },
       {
-        "fingerprint": "35f6fb7cae70",
-        "title": "Russia-Aligned UAC-0099 Plants Nuclear Weapon Prompt in Malware to Disrupt AI Analysis",
-        "link": "https://thehackernews.com/2026/09/russia-aligned-uac-0099-plants-nuclear.html",
-        "source": "The Hacker News",
-        "published": "2026-09-01T08:26:24+00:00",
-        "summary": "Cybersecurity researchers have disclosed a new technique dubbed GuardBreaker that's been put to use by a Russia-aligned threat actor known as UAC-0099 against a target in Ukraine with an aim to interfere with artificial intelligence (AI)-assisted analysis. The idea, ESET said in a series of posts on X, is to deliberately trip a large language model's (LLM) safety mechanisms and prevent its",
+        "fingerprint": "b5dfedcd547b",
+        "title": "Fake Edge and Razer download sites push malware, Microsoft warns",
+        "link": "https://www.neowin.net/news/fake-edge-and-razer-download-sites-push-malware-microsoft-warns/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-09-02T13:02:01+00:00",
+        "summary": "Microsoft uncovered a malicious campaign that creates counterfit Edge, Razer, Kaspersky and other download sites to push malware. Read more...",
         "category": "high_alert"
       },
       {
-        "fingerprint": "472690ff42a9",
-        "title": "Attackers Exploit Critical Langflow and Rails Flaws in Credential-Probing and C2 Activity",
-        "link": "https://thehackernews.com/2026/09/attackers-exploit-critical-langflow-and.html",
+        "fingerprint": "41e27034d4fb",
+        "title": "Bug causes Microsoft Defender to flag actual Google links as malware",
+        "link": "https://www.neowin.net/news/bug-causes-microsoft-defender-to-flag-actual-google-links-as-malware/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-09-02T12:46:01+00:00",
+        "summary": "Defender could be messing up once again as Microsoft has confirmed it could be falsely flagging legitimate Google links as malware. Read more...",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "fa6607ca75ab",
+        "title": "Attackers Exploit Two SonicWall SMA 1000 Zero-Days That May Form an Attack Chain",
+        "link": "https://thehackernews.com/2026/09/attackers-exploit-two-sonicwall-sma.html",
         "source": "The Hacker News",
-        "published": "2026-09-01T07:22:30+00:00",
-        "summary": "Threat actors are exploiting two critical flaws impacting Langflow and Ruby on Rails, according to new findings from VulnCheck. The vulnerabilities in question are listed below - CVE-2026-0768 (CVSS score: 9.8) - A lack of proper validation of a user-supplied input vulnerability that could be exploited to execute arbitrary Python code in the context of the root user. CVE-2026-66066 aka",
+        "published": "2026-09-02T10:53:49+00:00",
+        "summary": "SonicWall has released security updates to address two security flaws impacting its Secure Mobile Access (SMA) 1000 series VPN appliances that have been exploited in zero-day attacks. The vulnerabilities, discovered internally by SonicWall's William Perry and Adam Babis, are listed below - CVE-2026-83548 (CVSS score: 10.0) - A pre-authentication SSRF vulnerability in the Appliance",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "95218176021c",
+        "title": "Extradited Russian Hacker Faces Charges Over Excel Malware Campaign That Infected Thousands",
+        "link": "https://thehackernews.com/2026/09/extradited-russian-hacker-faces-charges.html",
+        "source": "The Hacker News",
+        "published": "2026-09-02T09:10:23+00:00",
+        "summary": "The U.S. Department of Justice (DoJ) has charged a Russian national, extradited from Cyprus on August 28, with using roughly 255 fake accounts on a freelance platform to send malware-laced Excel attachments to about 80,000 of its users in 2016 and 2017. Searzhudin Tamirlanovich Aktulaev, 40, was arrested in Cyprus in May 2025, the U.S. Attorney's Office for the Northern District of California",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "b56af03634bc",
+        "title": "US charges Russian for infecting 80,000 freelancers with malware",
+        "link": "https://www.bleepingcomputer.com/news/security/us-charges-russian-for-infecting-80-000-freelancers-with-malware/",
+        "source": "BleepingComputer",
+        "published": "2026-09-02T09:06:48+00:00",
+        "summary": "A California federal grand jury has indicted a Russian national for his role in a phishing campaign that infected thousands of freelancers with TVRAT and DarkVNC malware. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "bda333e88bd5",
+        "title": "Sality botnet infrastructure dismantled in joint global takedown",
+        "link": "https://www.bleepingcomputer.com/news/security/sality-botnet-infrastructure-dismantled-in-joint-global-takedown/",
+        "source": "BleepingComputer",
+        "published": "2026-09-02T08:00:43+00:00",
+        "summary": "International law enforcement agencies and private partners have seized Sality malware infrastructure in a joint action aiming to disrupt and take down the peer-to-peer (P2P) botnet. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "9d258ff9eed8",
+        "title": "Researchers Use Claude to Port Pre-Auth RCE Exploit From One PLC Model to Another",
+        "link": "https://thehackernews.com/2026/09/researchers-use-claude-to-port-pre-auth.html",
+        "source": "The Hacker News",
+        "published": "2026-09-02T07:47:13+00:00",
+        "summary": "Forescout Research - Vedere Labs said it used Anthropic's Claude to port a working pre-authentication remote code execution (RCE) exploit from one WAGO programmable logic controller (PLC) to another, executing attacker-supplied ARM shellcode on live hardware. The exploit targets CVE-2021-31886, a stack-based buffer overflow in the Nucleus FTP server's handling of the USER command",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "723c9a984cbe",
+        "title": "Attackers Exploit Critical Switchvox Flaw to Deploy Reverse Shells Without Credentials",
+        "link": "https://thehackernews.com/2026/09/attackers-exploit-critical-switchvox.html",
+        "source": "The Hacker News",
+        "published": "2026-09-02T07:08:50+00:00",
+        "summary": "Threat actors are exploiting a severe security vulnerability in Sangoma Switchvox, an enterprise VoIP platform, that could allow unauthenticated remote code execution. The vulnerability in question is CVE-2026-9586 (CVSS score: 9.3), a critical unauthenticated SQL injection vulnerability in Sangoma Switchvox SMB Edition 8.3 (104997) that can allow attackers to remotely execute arbitrary code as",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "0f1c19d8cd9a",
+        "title": "Authorities Turn Sality's P2P Network Against Itself, Cutting Off New Malware Payloads",
+        "link": "https://thehackernews.com/2026/09/authorities-turn-salitys-p2p-network.html",
+        "source": "The Hacker News",
+        "published": "2026-09-02T06:56:30+00:00",
+        "summary": "The U.S. Department of Justice (DoJ) on Tuesday announced the takedown of a long-standing peer-to-peer (P2P) botnet known as Sality as part of a coordinated law enforcement operation. The effort was undertaken on August 31, 2026, by authorities from the U.S., Bulgaria, Hungary, and Romania, in collaboration with private industry partners CrowdStrike and the Shadowserver Foundation. To that",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "da13fc6dc147",
+        "title": "SonicWall warns of actively exploited SMA1000 zero-day flaws",
+        "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-actively-exploited-sma1000-zero-day-flaws/",
+        "source": "BleepingComputer",
+        "published": "2026-09-02T06:39:29+00:00",
+        "summary": "SonicWall warned customers that threat actors are chaining two new SMA1000 zero-day vulnerabilities in remote code execution attacks. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "3fbc3068622d",
+        "title": "Counterfeit installers to system compromise: Tracking a deceptive software download campaign",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/09/01/counterfeit-installers-system-compromise-tracking-deceptive-software-download-campaign/",
+        "source": "Microsoft Security Blog",
+        "published": "2026-09-01T22:48:28+00:00",
+        "summary": "An active campaign is impersonating legitimate software vendors to deliver malware through look-alike download pages and regenerated installer archives. Microsoft Defender Experts shares observed attack techniques, Defender XDR detections, indicators of compromise, and practical mitigations to help organizations identify, block, and respond to this threat. The post Counterfeit installers to sys...",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "8153de026a35",
+        "title": "Critical Langflow flaw exploited to steal OpenAI and AWS keys",
+        "link": "https://www.bleepingcomputer.com/news/security/critical-langflow-flaw-exploited-to-steal-openai-and-aws-keys/",
+        "source": "BleepingComputer",
+        "published": "2026-09-01T17:54:22+00:00",
+        "summary": "Threat actors are exploiting an unauthenticated remote code execution vulnerability (CVE-2026-0768) in Langflow, an open-source framework for building AI applications, to steal credentials, tokens, and keys. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "40a4db8e714d",
+        "title": "Attackers Exploit Critical JFrog Artifactory Flaw to Mint Admin Tokens Days After Disclosure",
+        "link": "https://thehackernews.com/2026/09/attackers-exploit-critical-jfrog.html",
+        "source": "The Hacker News",
+        "published": "2026-09-01T17:53:11+00:00",
+        "summary": "Threat actors are exploiting a newly patched critical security flaw impacting JFrog Artifactory merely days after public disclosure, according to watchTowr. The vulnerability in question is CVE-2026-82329 (CVSS score: 9.8), a case of authentication bypass that could lead to administrative access in Artifactory. \"JFrog Artifactory contains an authentication weakness that, under default",
         "category": "high_alert"
       }
     ],
     "bad_updates": [],
     "upcoming_changes": [
       {
-        "fingerprint": "ea8f038c22b5",
-        "title": "SharePoint: Site Skills in Copilot in SharePoint",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570155",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-08-31T23:13:25+00:00",
-        "summary": "The feature introduces enhanced Site Skills management capabilities, including skill editing, version control, publishing, restoration, and cross-site duplication, enabling organizations to govern and reuse skills more effectively across SharePoint sites. GA date: September CY2026",
+        "fingerprint": "71363aab014e",
+        "title": "In development - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/whats-new/in-development",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-09-01T22:34:00+00:00",
+        "summary": "In development for Microsoft Intune Summarize this article for me In this article To help in your readiness and planning, this article lists Intune UI updates and features that are in devel... Applies to: iOS/iPadOS New single device page becomes the default experience in the Intune admin center Starting with Intune's September (2609) release, the.",
         "category": "upcoming_changes"
       }
     ],
-    "official_news": [],
+    "official_news": [
+      {
+        "fingerprint": "25f12c346384",
+        "title": "Plan for Remote Help with Microsoft Intune - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/remote-help/plan",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-09-01T22:34:00+00:00",
+        "summary": "Planning for Remote Help with Microsoft Intune Summarize this article for me In this article In this article, users who provide help are referred to as helpers, and users that receive help are referred to as sharers, as they share their session with the helper. Keep the Remote Help apps up to date: New versions of Windows and macOS bring.",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "9f9ff6d43ae6",
+        "title": "Cybersecurity IR Workshop: The workshop you shouldn’t miss",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/09/01/cybersecurity-ir-workshop-you-shouldnt-miss/",
+        "source": "Microsoft Security Blog",
+        "published": "2026-09-01T18:55:35+00:00",
+        "summary": "Cyber resilience starts before a crisis. Gain practical insights from DART to strengthen readiness and response. The post Cybersecurity IR Workshop: The workshop you shouldn’t miss appeared first on Microsoft Security Blog .",
+        "category": "official_news"
+      }
+    ],
     "community_buzz": [
+      {
+        "fingerprint": "90fde3780666",
+        "title": "Meta Ads Push StreamRat Android Trojan That Can Gain Near-Complete Device Control",
+        "link": "https://thehackernews.com/2026/09/meta-ads-push-streamrat-android-trojan.html",
+        "source": "The Hacker News",
+        "published": "2026-09-02T12:22:02+00:00",
+        "summary": "Cybersecurity researchers have disclosed details of a new Android banking trojan called StreamRat that was promoted to Spanish-speaking users through a fake television-streaming campaign on Meta and can give operators near-complete control of infected devices. ThreatFabric said the campaign's advertisement focused on Spain and reached an estimated 570,950 Meta accounts in the European Union",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "66a7c8091b96",
+        "title": "Microsoft Defender flags legitimate Google search links as malicious",
+        "link": "https://www.bleepingcomputer.com/news/security/microsoft-defender-flags-legitimate-google-search-links-as-malicious/",
+        "source": "BleepingComputer",
+        "published": "2026-09-02T10:29:39+00:00",
+        "summary": "Microsoft is investigating an issue causing the Defender for Office 365 security software to mistakenly block access to legitimate Google search links. [...]",
+        "category": "community_buzz"
+      },
       {
         "fingerprint": "d4ecb640858e",
         "title": "13 Malicious Packagist Packages Target Unpatched iPhones to Steal Crypto Wallet Seeds",
@@ -156,24 +283,6 @@
         "source": "The Hacker News",
         "published": "2026-09-01T14:07:20+00:00",
         "summary": "Cybersecurity researchers have identified a set of 13 malicious Composer theme packages on Packagist that are designed to inject JavaScript into Vietnamese movie and comic streaming sites that install those libraries and initiate the deployment of spyware aimed at unpatched iOS devices. \"The injected code runs two operations against a site's visitors: a mobile ad-fraud and gambling-redirect",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "7267fbc873d8",
-        "title": "Microsoft shares simple bypass to fix some common Windows update download, install errors",
-        "link": "https://www.neowin.net/news/microsoft-shares-simple-bypass-to-fix-some-common-windows-update-download-install-errors/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-09-01T10:00:03+00:00",
-        "summary": "Microsoft has reminded of clever ways to tackle some of the frustrating Windows Update download and installation errors admins face. Read more...",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "298bd351be23",
-        "title": "Cronos blockchain restarts after $74 million Tectonic exploit",
-        "link": "https://www.bleepingcomputer.com/news/security/cronos-blockchain-restarts-after-74-million-tectonic-exploit/",
-        "source": "BleepingComputer",
-        "published": "2026-08-31T20:47:54+00:00",
-        "summary": "The Cronos blockchain network has resumed trading activity after a price-manipulation attack on the Tectonic cryptocurrency lending platform allowed an attacker to borrow $74 million. [...]",
         "category": "community_buzz"
       }
     ]
