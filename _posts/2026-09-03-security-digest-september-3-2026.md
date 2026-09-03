@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - September 3, 2026"
+date: 2026-09-03 17:24:48 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - September 3, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -44,4 +52,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Matrix/Element preferred by governments vs. using Signal](https://www.reddit.com/r/cybersecurity/comments/1w60pj7/matrixelement_preferred_by_governments_vs_using/) - *(Reddit r/cybersecurity)*
 - [How do you manage production linux updates?](https://www.reddit.com/r/cybersecurity/comments/1w5yrot/how_do_you_manage_production_linux_updates/) - *(Reddit r/cybersecurity)*
 - [Hackers exploit Sangoma Switchvox flaw to deploy reverse shells](https://www.bleepingcomputer.com/news/security/hackers-exploit-sangoma-switchvox-flaw-to-deploy-reverse-shells/) - *(BleepingComputer)*
+
 
