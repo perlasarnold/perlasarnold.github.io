@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - September 6, 2026"
+date: 2026-09-06 16:37:00 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - September 6, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -63,4 +71,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [So, who are all those whitepapers actually written for?](https://www.reddit.com/r/cybersecurity/comments/1w8cb4x/so_who_are_all_those_whitepapers_actually_written/) - *(Reddit r/cybersecurity)*
 - [[Price Drop] Get Microsoft Office Classic and Windows 11 Pro at 92% off](https://www.neowin.net/deals/price-drop-get-microsoft-office-classic-and-windows-11-pro-at-92-off/?utm_source=rss) - *(Neowin)*
 - [CVE-2026-82591](https://nvd.nist.gov/vuln/detail/CVE-2026-82591) - *(NVD)*
+
 
