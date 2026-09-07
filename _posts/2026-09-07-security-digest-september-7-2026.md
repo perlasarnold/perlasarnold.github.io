@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - September 7, 2026"
+date: 2026-09-07 18:30:50 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - September 7, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -57,4 +65,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Would a cloud environment that continuously generates realistic security activity be useful to you?](https://www.reddit.com/r/cybersecurity/comments/1w9ouzu/would_a_cloud_environment_that_continuously/) - *(Reddit r/cybersecurity)*
 - [Looking for ideas: How would you run Cybersecurity Awareness Month with almost no budget and an uninterested workforce?](https://www.reddit.com/r/cybersecurity/comments/1w9or8n/looking_for_ideas_how_would_you_run_cybersecurity/) - *(Reddit r/cybersecurity)*
 - [Hackers exploit new MikroTik RouterOS flaws to hijack routers](https://www.bleepingcomputer.com/news/security/hackers-exploit-new-mikrotik-routeros-flaws-to-hijack-routers/) - *(BleepingComputer)*
+
 
