@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-04T14:44:53.043349+00:00",
-  "date": "2026-09-04",
+  "generated_utc": "2026-09-07T16:15:50.235946+00:00",
+  "date": "2026-09-07",
   "lookback_hours": 25,
   "source_status": [
     {
@@ -12,7 +12,7 @@
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 3
+      "count": 0
     },
     {
       "name": "Microsoft Intune What's New",
@@ -27,7 +27,7 @@
     {
       "name": "Microsoft Security Blog",
       "status": "OK",
-      "count": 1
+      "count": 0
     },
     {
       "name": "Microsoft Entra Blog",
@@ -37,17 +37,17 @@
     {
       "name": "BleepingComputer",
       "status": "OK",
-      "count": 4
+      "count": 2
     },
     {
       "name": "Neowin",
       "status": "OK",
-      "count": 0
+      "count": 2
     },
     {
       "name": "The Hacker News",
       "status": "OK",
-      "count": 6
+      "count": 4
     },
     {
       "name": "Krebs on Security",
@@ -99,137 +99,80 @@
   "items": {
     "high_alert": [
       {
-        "fingerprint": "135a5ca05142",
-        "title": "New CrowdStrike 'FalconFlank' zero-day grants SYSTEM privileges",
-        "link": "https://www.bleepingcomputer.com/news/security/new-crowdstrike-falconflank-zero-day-grants-system-privileges/",
-        "source": "BleepingComputer",
-        "published": "2026-09-04T13:22:01+00:00",
-        "summary": "An anonymous security researcher who uses the \"Nightmare Eclipse\" handle released a CrowdStrike Falcon zero-day exploit named \"FalconFlank\" that lets attackers escalate privileges on up-to-date Windows systems. [...]",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "a7296d06b4f7",
-        "title": "Google warns of new Chrome zero-day flaw exploited in attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/google-warns-of-new-chrome-zero-day-flaw-exploited-in-attacks/",
-        "source": "BleepingComputer",
-        "published": "2026-09-04T11:48:17+00:00",
-        "summary": "Google has updated the Chrome browser to address an actively exploited high-severity zero-day flaw in the V8 engine and 11 other vulnerabilities. [...]",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "dfd24916068e",
-        "title": "Over 440,000 Exploit Attempts Target Super Forms and Elementor Pro RCE Flaws",
-        "link": "https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html",
+        "fingerprint": "586c59f776cd",
+        "title": "⚡ Weekly Recap: Chrome 0-Day, Router Hijacks, Coder Supply Chain Attack and More",
+        "link": "https://thehackernews.com/2026/09/weekly-recap-chrome-0-day-router.html",
         "source": "The Hacker News",
-        "published": "2026-09-04T08:48:45+00:00",
-        "summary": "Threat actors are exploiting two critical security flaws in WordPress plugins Super Forms and Elementor Pro, according to findings from Wordfence. The vulnerabilities in question are - CVE-2026-14894 (CVSS score: 9.8) - A missing file type validation vulnerability in Super Forms – Drag & Drop Form Builder that allows unauthenticated attackers to upload files of any type, including",
+        "published": "2026-09-07T14:36:07+00:00",
+        "summary": "Turning off email images should at least stop the pictures. This week, attackers had a workaround: a scannable QR code built out of text. It still appears, even with images blocked. A small detail, but an annoying one if that was a precaution you were counting on. Elsewhere, a trusted software source delivered code that stole credentials, and a protocol designed for secure network management",
         "category": "high_alert"
       },
       {
-        "fingerprint": "7ffb864d1bc3",
-        "title": "Google Releases Chrome Update to Patch Actively Exploited V8 Zero-Day",
-        "link": "https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html",
+        "fingerprint": "17a98d94e272",
+        "title": "Telerik UI Padding-Oracle Bug Chained to Unauthenticated RCE — Public Exploit Released",
+        "link": "https://thehackernews.com/2026/09/telerik-ui-padding-oracle-bug-chained.html",
         "source": "The Hacker News",
-        "published": "2026-09-04T07:18:47+00:00",
-        "summary": "Google on Thursday released security updates to patch 12 vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability, tracked as CVE-2026-85046 (CVSS score: 8.8), has been described as a type confusion bug in V8, Chrome's JavaScript and WebAssembly engine. \"Type confusion in V8 in Google Chrome prior to 152.0.7977.82 allowed a remote",
+        "published": "2026-09-07T11:20:14+00:00",
+        "summary": "A TantoSec proof-of-concept turns an AES-CBC \"padding oracle\" in Telerik UI for ASP.NET AJAX into unauthenticated remote code execution — but only against applications in a specific non-default configuration, and Progress patched the chain in July. There are no confirmed reports of exploitation in the wild. Security firm TantoSec has published a working exploit chain targeting vulnerabilities",
         "category": "high_alert"
       },
       {
-        "fingerprint": "51e0339f2ae9",
-        "title": "Critical Cisco Nexus 9000 Flaw Lets Unauthenticated Remote Attackers Run Code as Root",
-        "link": "https://thehackernews.com/2026/09/critical-cisco-nexus-9000-flaw-lets.html",
+        "fingerprint": "d9eb2b8fb181",
+        "title": "JSCeal Malware Can Bypass Google Authentication Using Stolen Session Cookies",
+        "link": "https://thehackernews.com/2026/09/jsceal-malware-can-bypass-google.html",
         "source": "The Hacker News",
-        "published": "2026-09-03T15:52:07+00:00",
-        "summary": "Cisco has released patches to address a critical security flaw affecting 10 Silicon One-based Nexus 9000 switches that could allow an unauthenticated, remote attacker to execute code as root, alongside an IOS XR hardening release bundling 7 umbrella CVEs, 2 of which are rated 9.8, with no workaround for any IOS XR version. The Nexus vulnerability, tracked as CVE-2026-20212 (CVSS score: 9.8), is",
+        "published": "2026-09-07T07:53:04+00:00",
+        "summary": "Cybersecurity researchers have unpacked JSCeal, a sophisticated compiled V8 JavaScript (JSC) malware with credential harvesting, surveillance, and traffic-interception capabilities. \"The payloads are protected with javascript-obfuscator, using multiple techniques including RC4-protected strings, control-flow flattening, proxy functions, and operation wrappers,\" Check Point Research said in a",
         "category": "high_alert"
       },
       {
-        "fingerprint": "539759a70a1b",
-        "title": "BraZetsu Malware Turns Compromised Windows Hosts Into Criminal Marketplace Inventory",
-        "link": "https://thehackernews.com/2026/09/brazetsu-malware-turns-compromised.html",
-        "source": "The Hacker News",
-        "published": "2026-09-03T15:26:47+00:00",
-        "summary": "Cybersecurity researchers have disclosed details of a sophisticated Python-based Windows malware framework called BraZetsu that fuels an underground marketplace commercializing access to compromised hosts. \"Unlike the standard infostealer model, BraZetsu is a comprehensive master toolkit that empowers Initial Access Brokers (IABs) by turning compromised systems into highly valuable commercial",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "401bacf61311",
-        "title": "Critical Elementor Pro flaw exploited to take over WordPress sites",
-        "link": "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-flaw-exploited-to-take-over-wordpress-sites/",
-        "source": "BleepingComputer",
-        "published": "2026-09-03T14:52:20+00:00",
-        "summary": "A recently patched critical vulnerability (CVE-2026-32475) in the Elementor Pro plugin for WordPress is being exploited in attacks that deliver a webshell payload and execute arbitrary commands on the server. [...]",
+        "fingerprint": "2ed839d54ea2",
+        "title": "The lifetime AdGuard Family Plan is still only $11",
+        "link": "https://www.neowin.net/deals/the-lifetime-adguard-family-plan-is-still-only-11/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-09-06T17:00:01+00:00",
+        "summary": "Get rid of annoying ads and protect your device from malware with this AdGuard Family Plan lifetime deal, which is available for a limited time only. Read more...",
         "category": "high_alert"
       }
     ],
-    "bad_updates": [
-      {
-        "fingerprint": "7dd0069710c3",
-        "title": "Microsoft: KB5120998 mouse reset bug affects only non-English PCs",
-        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-kb5120998-mouse-reset-bug-affects-only-non-english-pcs/",
-        "source": "BleepingComputer",
-        "published": "2026-09-03T15:22:33+00:00",
-        "summary": "Microsoft says a known issue that reverts mouse settings after installing the KB5120998 August 2026 preview update affects only non-English Windows 11 systems. [...]",
-        "category": "bad_updates"
-      }
-    ],
-    "upcoming_changes": [
-      {
-        "fingerprint": "8ba84e64e970",
-        "title": "Microsoft Purview: Auto-labeling scalability, policy management, and reporting enhancements",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570445",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-03T22:50:06+00:00",
-        "summary": "Microsoft Purview is improving auto-labeling capabilities to help organizations manage and validate labeling policies at enterprise scale. These enhancements expand support for larger SharePoint scopes, improve policy management flexibility, and provide richer visibility into auto-labeling activity. GA date: October CY2026 Preview date: September CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "500f6b34afe5",
-        "title": "Microsoft Edge: Tab organization enhancements",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570443",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-03T22:50:06+00:00",
-        "summary": "Microsoft Edge is expanding tab and Workspace organization capabilities to suggest groupings, names, visuals, and labels. Users can manage these experiences through the proposed “Let Microsoft Edge help keep your tabs organized” setting under Privacy, search, and services > Search and connected experiences; administrators can control them using the TabServicesEnabled policy. GA date: October CY...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "435469b595d6",
-        "title": "Microsoft Teams: QR code protection in Teams messaging",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570439",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-03T22:50:06+00:00",
-        "summary": "Microsoft Teams will provide additional protection for QR codes shared by external users in messages. Images containing QR codes from external senders will be obscured by default and require users to reveal them before viewing or scanning. This helps reduce the risk of phishing and fraud by encouraging more deliberate interaction with QR code content. GA date: October CY2026",
-        "category": "upcoming_changes"
-      }
-    ],
-    "official_news": [
-      {
-        "fingerprint": "1e6d1de66332",
-        "title": "ASCII smuggling crosses over from AI prompt injection to phishing evasion",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/09/03/ascii-smuggling-crosses-over-from-ai-prompt-injection-to-phishing-evasion/",
-        "source": "Microsoft Security Blog",
-        "published": "2026-09-03T16:00:00+00:00",
-        "summary": "Invisible Unicode characters popularized for hiding instructions from AI models are now being used to obfuscate words before email filters parse them. The post ASCII smuggling crosses over from AI prompt injection to phishing evasion appeared first on Microsoft Security Blog .",
-        "category": "official_news"
-      }
-    ],
+    "bad_updates": [],
+    "upcoming_changes": [],
+    "official_news": [],
     "community_buzz": [
       {
-        "fingerprint": "de7c5336f7b4",
-        "title": "Plex Urges Immediate Updates After Patching Multiple Undisclosed Security Flaws",
-        "link": "https://thehackernews.com/2026/09/plex-urges-immediate-updates-after.html",
+        "fingerprint": "4bff86653870",
+        "title": "Rogue ScreenConnect Clients Spread Four-Stage VBScript Chain to Newly Connected Hosts",
+        "link": "https://thehackernews.com/2026/09/rogue-screenconnect-clients-spread-four.html",
         "source": "The Hacker News",
-        "published": "2026-09-04T07:35:14+00:00",
-        "summary": "Plex is urging users to update their instances to the latest version following the release of an update that patches multiple security flaws. The fixes are available in Plex Media Server 1.43.3 and Plex Desktop 1.115.0. The streaming media service did not elaborate on what those issues are, but said CVE identifiers have been requested for them. \"We recommend all server owners and Desktop users",
+        "published": "2026-09-07T11:36:39+00:00",
+        "summary": "Cybersecurity researchers have disclosed details of worm-like activity that abuses ConnectWise ScreenConnect to distribute a malicious Visual Basic Script (VBScript) payload to newly connected systems. According to Huntress, three unrelated incidents have been found to use diverse initial access methods, namely a Quick Assist tech-support scam, a phishing-delivered MSI installer, and a fake",
         "category": "community_buzz"
       },
       {
-        "fingerprint": "ee48589575f3",
-        "title": "GPT-6 Astra Scores 100% on ExploitBench as OpenAI Blocks PoC Exploit Requests",
-        "link": "https://thehackernews.com/2026/09/gpt-6-astra-scores-100-on-exploitbench.html",
-        "source": "The Hacker News",
-        "published": "2026-09-04T06:47:52+00:00",
-        "summary": "OpenAI on Thursday officially unveiled GPT‑6 Astra, which it described as the \"world's most intelligent and aligned model.\" The development comes days after the artificial intelligence (AI) company said the model had reached the \"Critical\" cybersecurity capability threshold under its Preparedness Framework. \"Astra is state-of-the-art on computer use, browsing, software engineering,",
+        "fingerprint": "93b6285ddcde",
+        "title": "Hackers exploit new MikroTik RouterOS flaws to hijack routers",
+        "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-new-mikrotik-routeros-flaws-to-hijack-routers/",
+        "source": "BleepingComputer",
+        "published": "2026-09-07T10:32:40+00:00",
+        "summary": "Hackers are exploiting a chain of two recently disclosed vulnerabilities in MikroTik routers to take control of devices with SSH services exposed to the internet. [...]",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "42d24a3ed095",
+        "title": "ConnectWise warns of new ScreenConnect flaw without patch",
+        "link": "https://www.bleepingcomputer.com/news/security/connectwise-warns-of-new-screenconnect-flaw-without-patch/",
+        "source": "BleepingComputer",
+        "published": "2026-09-07T10:06:38+00:00",
+        "summary": "ConnectWise has shared temporary mitigation measures for a new ScreenConnect Remote Access vulnerability that it plans to patch later this week. [...]",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "d9b50e66b449",
+        "title": "Linus Torvalds releases Linux 7.3-rc2 with heavy fix volume",
+        "link": "https://www.neowin.net/news/linus-torvalds-releases-linux-73-rc2-with-heavy-fix-volume/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-09-07T05:06:01+00:00",
+        "summary": "Higher-than-usual patch volume across networking, file systems, and graphics drivers could lead to an extended release cycle if activity does not normalize soon. Read more...",
         "category": "community_buzz"
       }
     ]
