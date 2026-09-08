@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-07T16:15:50.235946+00:00",
-  "date": "2026-09-07",
+  "generated_utc": "2026-09-08T14:51:59.170817+00:00",
+  "date": "2026-09-08",
   "lookback_hours": 25,
   "source_status": [
     {
@@ -37,12 +37,12 @@
     {
       "name": "BleepingComputer",
       "status": "OK",
-      "count": 2
+      "count": 3
     },
     {
       "name": "Neowin",
       "status": "OK",
-      "count": 2
+      "count": 0
     },
     {
       "name": "The Hacker News",
@@ -99,39 +99,48 @@
   "items": {
     "high_alert": [
       {
+        "fingerprint": "9009ab35e639",
+        "title": "Adobe fixes critical Magento zero-day exploited to backdoor servers",
+        "link": "https://www.bleepingcomputer.com/news/security/adobe-fixes-critical-magento-zero-day-exploited-to-backdoor-servers/",
+        "source": "BleepingComputer",
+        "published": "2026-09-08T13:34:47+00:00",
+        "summary": "Adobe has released an emergency fix for CVE-2026-75650, an actively exploited max-severity zero-day vulnerability dubbed StyleSmuggler, that impacts multiple versions of Magento and Adobe Commerce. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "9c6187f41788",
+        "title": "Adobe Patches Magento Zero-Day Exploited to Deploy Rust Backdoor and PHP Web Shell",
+        "link": "https://thehackernews.com/2026/09/adobe-patches-magento-zero-day.html",
+        "source": "The Hacker News",
+        "published": "2026-09-08T09:13:47+00:00",
+        "summary": "Adobe on Monday released security patches to address a maximum-severity flaw impacting Adobe Commerce and Magento Open Source that has come under active exploitation in the wild. The vulnerability, now tracked as CVE-2026-75650 (CVSS score: 10.0), has been codenamed StyleSmuggler by Sansec, which discovered zero-day exploitation starting September 4, 2026. \"This update resolves a critical",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "6c26471706f6",
+        "title": "BengalSEO Poisons Bing Search Results to Deliver MayaBot and Tech Support Scams",
+        "link": "https://thehackernews.com/2026/09/bengalseo-poisons-bing-search-results.html",
+        "source": "The Hacker News",
+        "published": "2026-09-08T08:43:51+00:00",
+        "summary": "Cybersecurity researchers have disclosed details of a sprawling search engine optimization (SEO) poisoning campaign that paves the way for malware deployment and tech support scams. The campaign, discovered by the DFIR Report in March 2026, has been codenamed BengalSEO. It has operated out of the Indian state of Rajasthan since at least 2015, driven by two IT service providers named WeConnect",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "beb7fd32681f",
+        "title": "Magento StyleSmuggler zero-day exploited to deploy Linux backdoor",
+        "link": "https://www.bleepingcomputer.com/news/security/magento-stylesmuggler-zero-day-exploited-to-deploy-linux-backdoor/",
+        "source": "BleepingComputer",
+        "published": "2026-09-07T16:50:29+00:00",
+        "summary": "A zero-day vulnerability dubbed \"StyleSmuggler\" affecting all versions of Magento and Adobe Commerce is being exploited in attacks to deploy a backdoor. [...]",
+        "category": "high_alert"
+      },
+      {
         "fingerprint": "586c59f776cd",
         "title": "⚡ Weekly Recap: Chrome 0-Day, Router Hijacks, Coder Supply Chain Attack and More",
         "link": "https://thehackernews.com/2026/09/weekly-recap-chrome-0-day-router.html",
         "source": "The Hacker News",
         "published": "2026-09-07T14:36:07+00:00",
         "summary": "Turning off email images should at least stop the pictures. This week, attackers had a workaround: a scannable QR code built out of text. It still appears, even with images blocked. A small detail, but an annoying one if that was a precaution you were counting on. Elsewhere, a trusted software source delivered code that stole credentials, and a protocol designed for secure network management",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "17a98d94e272",
-        "title": "Telerik UI Padding-Oracle Bug Chained to Unauthenticated RCE — Public Exploit Released",
-        "link": "https://thehackernews.com/2026/09/telerik-ui-padding-oracle-bug-chained.html",
-        "source": "The Hacker News",
-        "published": "2026-09-07T11:20:14+00:00",
-        "summary": "A TantoSec proof-of-concept turns an AES-CBC \"padding oracle\" in Telerik UI for ASP.NET AJAX into unauthenticated remote code execution — but only against applications in a specific non-default configuration, and Progress patched the chain in July. There are no confirmed reports of exploitation in the wild. Security firm TantoSec has published a working exploit chain targeting vulnerabilities",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "d9eb2b8fb181",
-        "title": "JSCeal Malware Can Bypass Google Authentication Using Stolen Session Cookies",
-        "link": "https://thehackernews.com/2026/09/jsceal-malware-can-bypass-google.html",
-        "source": "The Hacker News",
-        "published": "2026-09-07T07:53:04+00:00",
-        "summary": "Cybersecurity researchers have unpacked JSCeal, a sophisticated compiled V8 JavaScript (JSC) malware with credential harvesting, surveillance, and traffic-interception capabilities. \"The payloads are protected with javascript-obfuscator, using multiple techniques including RC4-protected strings, control-flow flattening, proxy functions, and operation wrappers,\" Check Point Research said in a",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "2ed839d54ea2",
-        "title": "The lifetime AdGuard Family Plan is still only $11",
-        "link": "https://www.neowin.net/deals/the-lifetime-adguard-family-plan-is-still-only-11/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-09-06T17:00:01+00:00",
-        "summary": "Get rid of annoying ads and protect your device from malware with this AdGuard Family Plan lifetime deal, which is available for a limited time only. Read more...",
         "category": "high_alert"
       }
     ],
@@ -140,39 +149,21 @@
     "official_news": [],
     "community_buzz": [
       {
-        "fingerprint": "4bff86653870",
-        "title": "Rogue ScreenConnect Clients Spread Four-Stage VBScript Chain to Newly Connected Hosts",
-        "link": "https://thehackernews.com/2026/09/rogue-screenconnect-clients-spread-four.html",
+        "fingerprint": "329b44f89e5a",
+        "title": "OpenAI says GPT-6 Astra can find zero-days, but is also harder to monitor",
+        "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-6-astra-can-find-zero-days-but-is-also-harder-to-monitor/",
+        "source": "BleepingComputer",
+        "published": "2026-09-08T14:40:32+00:00",
+        "summary": "OpenAI confirmed that GPT-6 Astra is the first model it has broadly deployed to reach the \"Critical level\" for cybersecurity capabilities. [...]",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "1ca23b9b19ea",
+        "title": "PEEP Turns Chrome and Edge Into Post-Compromise Backdoors for Host Command Execution",
+        "link": "https://thehackernews.com/2026/09/peep-turns-chrome-and-edge-into-post.html",
         "source": "The Hacker News",
-        "published": "2026-09-07T11:36:39+00:00",
-        "summary": "Cybersecurity researchers have disclosed details of worm-like activity that abuses ConnectWise ScreenConnect to distribute a malicious Visual Basic Script (VBScript) payload to newly connected systems. According to Huntress, three unrelated incidents have been found to use diverse initial access methods, namely a Quick Assist tech-support scam, a phishing-delivered MSI installer, and a fake",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "93b6285ddcde",
-        "title": "Hackers exploit new MikroTik RouterOS flaws to hijack routers",
-        "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-new-mikrotik-routeros-flaws-to-hijack-routers/",
-        "source": "BleepingComputer",
-        "published": "2026-09-07T10:32:40+00:00",
-        "summary": "Hackers are exploiting a chain of two recently disclosed vulnerabilities in MikroTik routers to take control of devices with SSH services exposed to the internet. [...]",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "42d24a3ed095",
-        "title": "ConnectWise warns of new ScreenConnect flaw without patch",
-        "link": "https://www.bleepingcomputer.com/news/security/connectwise-warns-of-new-screenconnect-flaw-without-patch/",
-        "source": "BleepingComputer",
-        "published": "2026-09-07T10:06:38+00:00",
-        "summary": "ConnectWise has shared temporary mitigation measures for a new ScreenConnect Remote Access vulnerability that it plans to patch later this week. [...]",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "d9b50e66b449",
-        "title": "Linus Torvalds releases Linux 7.3-rc2 with heavy fix volume",
-        "link": "https://www.neowin.net/news/linus-torvalds-releases-linux-73-rc2-with-heavy-fix-volume/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-09-07T05:06:01+00:00",
-        "summary": "Higher-than-usual patch volume across networking, file systems, and graphics drivers could lead to an extended release cycle if activity does not normalize soon. Read more...",
+        "published": "2026-09-07T18:12:09+00:00",
+        "summary": "Cybersecurity researchers have disclosed details of a complex Chromium-based post-exploitation toolkit called PEEP that masquerades as a bookmarks extension for the web browser. \"Requiring prior administrative or code execution access, its installer injects the extension directly into Chrome/Edge profiles, bypassing Web Store checks and user prompts by forging Chromium's own Secure Preferences",
         "category": "community_buzz"
       }
     ]
