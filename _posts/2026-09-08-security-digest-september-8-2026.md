@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Security Digest - September 8, 2026"
-date: 2026-09-08 17:40:55 +00:00
+date: 2026-09-08 22:27:58 +00:00
 categories: [security-digest]
 tags: [security, tldr, situational-awareness, endpoint-management]
 author: Arnold
@@ -10,7 +10,7 @@ author: Arnold
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
 
-- **Generated (UTC):** 2026-09-08 17:40:55 +00:00
+- **Generated (UTC):** 2026-09-08 22:27:58 +00:00
 - **Lookback window:** 7 days
 
 ## 🚀 Top Research & Advisories
@@ -22,18 +22,9 @@ Daily security intelligence briefing for infrastructure and endpoint management 
   System.Xml.XmlElement
   > **Action:** Confirm Adobe exposure; push updated deployment.
 
-## 💻 AppSec
-- **[CVE-2026-19590](https://www.cve.org/CVERecord?id=CVE-2026-19590)** - *(CVE.org)*
-  Monitor developer tool vulnerabilities and supply chain risks.
-
-- **[CVE-2026-19591](https://www.cve.org/CVERecord?id=CVE-2026-19591)** - *(CVE.org)*
-  Monitor developer tool vulnerabilities and supply chain risks.
-
-- **[CVE-2026-19592](https://nvd.nist.gov/vuln/detail/CVE-2026-19592)** - *(NVD)*
-  Monitor developer tool vulnerabilities and supply chain risks.
-
-- **[CVE-2026-19593](https://nvd.nist.gov/vuln/detail/CVE-2026-19593)** - *(NVD)*
-  Monitor developer tool vulnerabilities and supply chain risks.
+- **[CISA Warns of Chromium Type Confusion 0-Day Vulnerability Actively Exploited in Attacks](https://cybersecuritynews.com/chromium-type-confusion-0-day-vulnerability/)** - *(CybersecurityNews)*
+  System.Xml.XmlElement
+  > **Action:** Validate Chrome coverage; update managed package if needed.
 
 ## 🏗 Infrastructure
 - **[August updates trigger 0xc0000409 errors on Windows Server 2016](https://www.bleepingcomputer.com/news/microsoft/august-updates-trigger-0xc0000409-errors-on-windows-server-2016/)** - *(BleepingComputer)*
@@ -45,14 +36,40 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - **[What Certificate should I pick? I need some education advice..](https://www.reddit.com/r/cybersecurity/comments/1wapmhs/what_certificate_should_i_pick_i_need_some/)** - *(Reddit r/cybersecurity)*
   Review server hardening and AD security posture.
 
-## 🛡 Security Ops
-- **[BigBear Microsoft 365 phishing service bypassed MFA at 258 organizations](https://www.bleepingcomputer.com/news/security/bigbear-microsoft-365-phishing-service-bypassed-mfa-at-258-organizations/)** - *(BleepingComputer)*
-  Review CA/MFA settings for tightening opportunities.
-
-- **[CVE-2026-84306](https://nvd.nist.gov/vuln/detail/CVE-2026-84306)** - *(NVD)*
-  Review CA/MFA settings for tightening opportunities.
-
 ## 🛠 Infrastructure & Endpoint Control
+- **[Bugs related to Windows 11 mouse, desktop, and Teams fixed in latest Patch Tuesday](https://www.neowin.net/news/bugs-related-to-windows-11-mouse-desktop-and-teams-fixed-in-latest-patch-tuesday/?utm_source=rss)** - *(Neowin)*
+  Evaluate update rings and expedite actions if needed. Validate workstation security baseline and update compliance.
+
+- **[CVE-2026-84323](https://nvd.nist.gov/vuln/detail/CVE-2026-84323)** - *(NVD)*
+  Validate Chrome coverage; update managed package if needed.
+
+- **[CVE-2026-84324](https://nvd.nist.gov/vuln/detail/CVE-2026-84324)** - *(NVD)*
+  Validate Chrome coverage; update managed package if needed.
+
+- **[CVE-2026-84325](https://nvd.nist.gov/vuln/detail/CVE-2026-84325)** - *(NVD)*
+  Validate Chrome coverage; update managed package if needed.
+
+- **[CVE-2026-84326](https://nvd.nist.gov/vuln/detail/CVE-2026-84326)** - *(NVD)*
+  Validate Chrome coverage; update managed package if needed.
+
+- **[CVE-2026-84327](https://nvd.nist.gov/vuln/detail/CVE-2026-84327)** - *(NVD)*
+  Validate Chrome coverage; update managed package if needed.
+
+- **[CVE-2026-84328](https://www.cve.org/CVERecord?id=CVE-2026-84328)** - *(CVE.org)*
+  Validate Chrome coverage; update managed package if needed.
+
+- **[CVE-2026-84329](https://www.cve.org/CVERecord?id=CVE-2026-84329)** - *(CVE.org)*
+  Validate Chrome coverage; update managed package if needed.
+
+- **[CVE-2026-84330](https://nvd.nist.gov/vuln/detail/CVE-2026-84330)** - *(NVD)*
+  Validate Chrome coverage; update managed package if needed.
+
+- **[CVE-2026-84331](https://www.cve.org/CVERecord?id=CVE-2026-84331)** - *(CVE.org)*
+  Validate Chrome coverage; update managed package if needed.
+
+- **[Google Chrome is on a two-week release schedule starting today, version 153 rolling out now](https://www.neowin.net/news/google-chrome-is-on-a-two-week-release-schedule-starting-today-version-153-rolling-out-now/?utm_source=rss)** - *(Neowin)*
+  Validate Chrome coverage; update managed package if needed.
+
 - **[Huntress? How to show software inventory like Chrome.xe version information?](https://www.reddit.com/r/cybersecurity/comments/1waub6r/huntress_how_to_show_software_inventory_like/)** - *(Reddit r/cybersecurity)*
   Review security controls and policy updates. Validate Chrome coverage; update managed package if needed.
 
@@ -62,8 +79,14 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - **[Intel releases new Wi-Fi and Bluetooth drivers for Windows 11 and 10](https://www.neowin.net/news/intel-releases-new-wi-fi-and-bluetooth-drivers-for-windows-11-and-10/?utm_source=rss)** - *(Neowin)*
   Validate workstation security baseline and update compliance.
 
-- **[Is this fair to say? The defender’s dilemma or defender–attacker asymmetry in cybersecurity. The classic formulation is: The defender must protect every potential avenue of attack; the attacker only needs to find one successful avenue. Thoughts?](https://www.reddit.com/r/cybersecurity/comments/1wagdbg/is_this_fair_to_say_the_defenders_dilemma_or/)** - *(Reddit r/cybersecurity)*
-  Review security controls and policy updates.
+- **[Massive Microsoft Patch Tuesday September 2026 – 973 Vulnerabilities Fixed, Including 2 Zero-Days](https://cybersecuritynews.com/microsoft-patch-tuesday-update-september-2026/)** - *(CybersecurityNews)*
+  Evaluate update rings and expedite actions if needed.
+
+- **[Microsoft releases Windows 10 KB5122878 extended security update](https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5122878-extended-security-update/)** - *(BleepingComputer)*
+  Validate workstation security baseline and update compliance.
+
+- **[Microsoft September 2026 Patch Tuesday fixes 966 flaws, 2 zero-days](https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-patch-tuesday-fixes-966-flaws-2-zero-days/)** - *(BleepingComputer)*
+  Evaluate update rings and expedite actions if needed.
 
 - **[New Windows 11 Insider builds bring cross-device, accessibility and Settings improvements](https://www.neowin.net/news/new-windows-11-insider-builds-bring-cross-device-accessibility-and-settings-improvements/?utm_source=rss)** - *(Neowin)*
   Validate workstation security baseline and update compliance.
@@ -74,28 +97,28 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - **[Windows 11 26220.9343 brings new Autoplay, upgraded recovery, improved personalization](https://www.neowin.net/news/windows-11-262209343-brings-new-autoplay-upgraded-recovery-improved-personalization/?utm_source=rss)** - *(Neowin)*
   Validate workstation security baseline and update compliance.
 
-- **[Windows 11 Future Platforms build 29661 enables IAKerb by default](https://www.neowin.net/news/windows-11-future-platforms-build-29661-enables-iakerb-by-default/?utm_source=rss)** - *(Neowin)*
+- **[Windows 11 could be getting auto dark mode that works on a schedule](https://www.neowin.net/news/windows-11-could-be-getting-auto-dark-mode-that-works-on-a-schedule/?utm_source=rss)** - *(Neowin)*
   Validate workstation security baseline and update compliance.
 
-- **[Windows 11 is getting a fancy, native battery widget](https://www.neowin.net/news/windows-11-is-getting-a-fancy-native-battery-widget/?utm_source=rss)** - *(Neowin)*
+- **[Windows 11 cumulative updates KB5124008 & KB5122880 released](https://www.bleepingcomputer.com/news/microsoft/windows-11-cumulative-updates-kb5124008-and-kb5122880-released/)** - *(BleepingComputer)*
+  Validate workstation security baseline and update compliance.
+
+- **[Windows 11 Future Platforms build 29661 enables IAKerb by default](https://www.neowin.net/news/windows-11-future-platforms-build-29661-enables-iakerb-by-default/?utm_source=rss)** - *(Neowin)*
   Validate workstation security baseline and update compliance.
 
 - **[Windows 11 KB5124008, KB5122880 September 2026 Patch Tuesday now available to download](https://www.neowin.net/news/windows-11-kb5124008-kb5122880-september-2026-patch-tuesday-now-available-to-download/?utm_source=rss)** - *(Neowin)*
   Evaluate update rings and expedite actions if needed. Validate workstation security baseline and update compliance.
 
-- **[Windows 11 users are getting full-desktop ads as wallpapers from Microsoft](https://www.neowin.net/news/windows-11-users-are-getting-full-desktop-ads-as-wallpapers-from-microsoft/?utm_source=rss)** - *(Neowin)*
-  Validate workstation security baseline and update compliance.
-
 ## 🔍 Quick Links (Watch Items)
+- [Vulnerability Summary for the Week of August 31, 2026](https://www.reddit.com/r/cybersecurity/comments/1wb0rhs/vulnerability_summary_for_the_week_of_august_31/) - *(Reddit r/cybersecurity)*
+- [Bugs related to Windows 11 mouse, desktop, and Teams fixed in latest Patch Tuesday](https://www.neowin.net/news/bugs-related-to-windows-11-mouse-desktop-and-teams-fixed-in-latest-patch-tuesday/?utm_source=rss) - *(Neowin)*
+- [Microsoft releases Windows 10 KB5122878 extended security update](https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5122878-extended-security-update/) - *(BleepingComputer)*
+- [Microsoft September 2026 Patch Tuesday fixes 966 flaws, 2 zero-days](https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-patch-tuesday-fixes-966-flaws-2-zero-days/) - *(BleepingComputer)*
+- [Redis Cryptomining Botnet Compromised 3,562 Servers, Exposed by the Operator's Own Files](https://www.reddit.com/r/cybersecurity/comments/1wavyi2/redis_cryptomining_botnet_compromised_3562/) - *(Reddit r/cybersecurity)*
+- [Massive Microsoft Patch Tuesday September 2026 – 973 Vulnerabilities Fixed, Including 2 Zero-Days](https://cybersecuritynews.com/microsoft-patch-tuesday-update-september-2026/) - *(CybersecurityNews)*
+- [FortiOS and FortiProxy ZTNA Validation Vulnerability Allows Attacker to Perform a Man-in-the-Middle Attack](https://cybersecuritynews.com/fortios-and-fortiproxy-ztna-validation-vulnerability/) - *(CybersecurityNews)*
 - [Windows 10 KB5122878 September 2026 Patch Tuesday update released by Microsoft](https://www.neowin.net/news/windows-10-kb5122878-september-2026-patch-tuesday-update-released-by-microsoft/?utm_source=rss) - *(Neowin)*
 - [Windows 11 KB5124008, KB5122880 September 2026 Patch Tuesday now available to download](https://www.neowin.net/news/windows-11-kb5124008-kb5122880-september-2026-patch-tuesday-now-available-to-download/?utm_source=rss) - *(Neowin)*
-- [Do We Still Need Burp Suite for Web Security Testing?](https://www.reddit.com/r/cybersecurity/comments/1waqvjp/do_we_still_need_burp_suite_for_web_security/) - *(Reddit r/cybersecurity)*
-- [SAP warns of maximum severity 'OVERPASS' kernel vulnerability](https://www.bleepingcomputer.com/news/security/sap-warns-of-maximum-severity-overpass-kernel-vulnerability/) - *(BleepingComputer)*
-- [Breaking Down Appsec Part 2: Identity](https://www.reddit.com/r/cybersecurity/comments/1waprv0/breaking_down_appsec_part_2_identity/) - *(Reddit r/cybersecurity)*
-- [What Certificate should I pick? I need some education advice..](https://www.reddit.com/r/cybersecurity/comments/1wapmhs/what_certificate_should_i_pick_i_need_some/) - *(Reddit r/cybersecurity)*
-- [AMA: I'm Larry Pesce. 20+ years of IoT and wireless hacking, software supply chain security, SANS course author, and Paul's Security Weekly. Ask me anything!](https://www.reddit.com/r/cybersecurity/comments/1wanu96/ama_im_larry_pesce_20_years_of_iot_and_wireless/) - *(Reddit r/cybersecurity)*
-- [2 weeks into my first security role at an MSP and feeling pretty overwhelmed, is this normal?](https://www.reddit.com/r/cybersecurity/comments/1wajc2n/2_weeks_into_my_first_security_role_at_an_msp_and/) - *(Reddit r/cybersecurity)*
-- [Is this fair to say? The defender’s dilemma or defender–attacker asymmetry in cybersecurity. The classic formulation is: The defender must protect every potential avenue of attack; the attacker only needs to find one successful avenue. Thoughts?](https://www.reddit.com/r/cybersecurity/comments/1wagdbg/is_this_fair_to_say_the_defenders_dilemma_or/) - *(Reddit r/cybersecurity)*
-- [CVE-2026-84306](https://nvd.nist.gov/vuln/detail/CVE-2026-84306) - *(NVD)*
+- [CISA Warns of Chromium Type Confusion 0-Day Vulnerability Actively Exploited in Attacks](https://cybersecuritynews.com/chromium-type-confusion-0-day-vulnerability/) - *(CybersecurityNews)*
 
 
