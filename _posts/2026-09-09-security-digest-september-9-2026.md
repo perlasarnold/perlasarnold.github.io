@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - September 9, 2026"
+date: 2026-09-09 17:26:56 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - September 9, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -57,4 +65,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [ClearFake Deploys Crypto Stealer That Uses Vulnerable Driver to Kill EDR Security Tools](https://cybersecuritynews.com/clearfake-deploys-crypto-stealer/) - *(CybersecurityNews)*
 - [MapLibre Vulnerability Exposes 2.7M Users to Zero-Click Attacks](https://cybersecuritynews.com/maplibre-zero-click-vulnerability/) - *(CybersecurityNews)*
 - [Android Security Update September 2026 – Fix for Critical Flaws that Enable RCE Attacks](https://cybersecuritynews.com/android-security-update-september-2026/) - *(CybersecurityNews)*
+
 
