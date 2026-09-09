@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-08T14:51:59.170817+00:00",
-  "date": "2026-09-08",
+  "generated_utc": "2026-09-09T15:00:09.583212+00:00",
+  "date": "2026-09-09",
   "lookback_hours": 25,
   "source_status": [
     {
@@ -12,12 +12,12 @@
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 0
+      "count": 9
     },
     {
       "name": "Microsoft Intune What's New",
       "status": "OK",
-      "count": 0
+      "count": 1
     },
     {
       "name": "Windows IT Pro Blog",
@@ -37,22 +37,22 @@
     {
       "name": "BleepingComputer",
       "status": "OK",
-      "count": 3
+      "count": 5
     },
     {
       "name": "Neowin",
       "status": "OK",
-      "count": 0
+      "count": 3
     },
     {
       "name": "The Hacker News",
       "status": "OK",
-      "count": 4
+      "count": 8
     },
     {
       "name": "Krebs on Security",
       "status": "OK",
-      "count": 0
+      "count": 1
     },
     {
       "name": "The Old New Thing",
@@ -99,71 +99,254 @@
   "items": {
     "high_alert": [
       {
-        "fingerprint": "9009ab35e639",
-        "title": "Adobe fixes critical Magento zero-day exploited to backdoor servers",
-        "link": "https://www.bleepingcomputer.com/news/security/adobe-fixes-critical-magento-zero-day-exploited-to-backdoor-servers/",
+        "fingerprint": "28377c313375",
+        "title": "Chrome V8 Zero-Day Exploited in the Wild Enables Code Execution Inside Sandbox",
+        "link": "https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html",
+        "source": "The Hacker News",
+        "published": "2026-09-09T09:11:03+00:00",
+        "summary": "Google on Thursday released updates to patch 230 security vulnerabilities, including one that has come under active exploitation in the wild. The medium-severity vulnerability, assigned the CVE identifier CVE-2026-87491 (CVSS score: N/A), has been described as an out-of-bounds bug in V8, Chrome's JavaScript and WebAssembly engine. \"Out-of-bounds write in V8 in Google Chrome prior to",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "ea3ca787257e",
+        "title": "F5 BIG-IP APM Malware Injects a PHP Web Shell Into Memory, Evading Disk Scans",
+        "link": "https://thehackernews.com/2026/09/f5-big-ip-apm-malware-injects-php-web.html",
+        "source": "The Hacker News",
+        "published": "2026-09-09T07:36:49+00:00",
+        "summary": "Malware linked to break-ins at F5 BIG-IP Access Policy Manager appliances hides a PHP web shell in memory instead of in a file on disk, Sophos said in an analysis published on September 7. When Apache loads any of the three appliances' own PHP scripts, the malware adds the web shell to the copy held in memory, so a check of the file on disk can come back clean. Those three scripts are",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "0857638a536a",
+        "title": "New Microsoft Defender 'ShieldCrash' zero-day grants SYSTEM access",
+        "link": "https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldcrash-zero-day-grants-system-access/",
         "source": "BleepingComputer",
-        "published": "2026-09-08T13:34:47+00:00",
-        "summary": "Adobe has released an emergency fix for CVE-2026-75650, an actively exploited max-severity zero-day vulnerability dubbed StyleSmuggler, that impacts multiple versions of Magento and Adobe Commerce. [...]",
+        "published": "2026-09-09T07:30:15+00:00",
+        "summary": "An anonymous security researcher known as Nightmare Eclipse has released a new Microsoft Defender zero-day exploit named \"ShieldCrash\" right after Microsoft rolled out its September 2026 Patch Tuesday security updates. [...]",
         "category": "high_alert"
       },
       {
-        "fingerprint": "9c6187f41788",
-        "title": "Adobe Patches Magento Zero-Day Exploited to Deploy Rust Backdoor and PHP Web Shell",
-        "link": "https://thehackernews.com/2026/09/adobe-patches-magento-zero-day.html",
+        "fingerprint": "47e35603e988",
+        "title": "Researcher Drops New Microsoft Defender PoC Showing ShieldBreak Patch Can Be Bypassed",
+        "link": "https://thehackernews.com/2026/09/researcher-drops-new-microsoft-defender.html",
         "source": "The Hacker News",
-        "published": "2026-09-08T09:13:47+00:00",
-        "summary": "Adobe on Monday released security patches to address a maximum-severity flaw impacting Adobe Commerce and Magento Open Source that has come under active exploitation in the wild. The vulnerability, now tracked as CVE-2026-75650 (CVSS score: 10.0), has been codenamed StyleSmuggler by Sansec, which discovered zero-day exploitation starting September 4, 2026. \"This update resolves a critical",
+        "published": "2026-09-09T06:47:27+00:00",
+        "summary": "The security researcher known as Chaotic Eclipse has dropped a proof-of-concept (PoC) for yet another zero-day in Microsoft Defender. The vulnerability, codenamed ShieldCrash, is assessed to be a patch bypass for CVE-2026-69414 (CVSS score: 7.8), also called ShieldBreak, which the researcher reported last month. \"Microsoft has failed to properly patch ShieldBreak CVE-2026-69414,\" Chaotic",
         "category": "high_alert"
       },
       {
-        "fingerprint": "6c26471706f6",
-        "title": "BengalSEO Poisons Bing Search Results to Deliver MayaBot and Tech Support Scams",
-        "link": "https://thehackernews.com/2026/09/bengalseo-poisons-bing-search-results.html",
-        "source": "The Hacker News",
-        "published": "2026-09-08T08:43:51+00:00",
-        "summary": "Cybersecurity researchers have disclosed details of a sprawling search engine optimization (SEO) poisoning campaign that paves the way for malware deployment and tech support scams. The campaign, discovered by the DFIR Report in March 2026, has been codenamed BengalSEO. It has operated out of the Indian state of Rajasthan since at least 2015, driven by two IT service providers named WeConnect",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "beb7fd32681f",
-        "title": "Magento StyleSmuggler zero-day exploited to deploy Linux backdoor",
-        "link": "https://www.bleepingcomputer.com/news/security/magento-stylesmuggler-zero-day-exploited-to-deploy-linux-backdoor/",
+        "fingerprint": "6b3ae53a3cdd",
+        "title": "Google warns of new Chrome zero-day bug exploited in attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/google-patches-seventh-chrome-zero-day-exploited-in-attacks-this-year/",
         "source": "BleepingComputer",
-        "published": "2026-09-07T16:50:29+00:00",
-        "summary": "A zero-day vulnerability dubbed \"StyleSmuggler\" affecting all versions of Magento and Adobe Commerce is being exploited in attacks to deploy a backdoor. [...]",
+        "published": "2026-09-09T06:25:48+00:00",
+        "summary": "Google has patched 230 vulnerabilities on Tuesday, including another actively exploited Chrome zero-day bug, the seventh such vulnerability patched since the start of the year. [...]",
         "category": "high_alert"
       },
       {
-        "fingerprint": "586c59f776cd",
-        "title": "⚡ Weekly Recap: Chrome 0-Day, Router Hijacks, Coder Supply Chain Attack and More",
-        "link": "https://thehackernews.com/2026/09/weekly-recap-chrome-0-day-router.html",
+        "fingerprint": "1ef43ceff9d4",
+        "title": "SAP Patches CVSS 10.0 Kernel Flaw Enabling Unauthenticated Remote Code Execution",
+        "link": "https://thehackernews.com/2026/09/sap-patches-cvss-100-kernel-flaw.html",
         "source": "The Hacker News",
-        "published": "2026-09-07T14:36:07+00:00",
-        "summary": "Turning off email images should at least stop the pictures. This week, attackers had a workaround: a scannable QR code built out of text. It still appears, even with images blocked. A small detail, but an annoying one if that was a precaution you were counting on. Elsewhere, a trusted software source delivered code that stole credentials, and a protocol designed for secure network management",
+        "published": "2026-09-09T06:25:45+00:00",
+        "summary": "SAP has released security updates to address multiple vulnerabilities, including a maximum-severity flaw in SAP Extended Passport (EPP) Processing that could have a severe impact on the confidentiality, integrity, and availability of the application The vulnerability, tracked as CVE-2026-44756 (CVSS score: 10.0), has been described as a case of memory corruption. Discovered and reported by SAP",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "12e40bd34623",
+        "title": "Microsoft Patches Record 974 Flaws, Including Two Exploited Windows Zero-Days",
+        "link": "https://thehackernews.com/2026/09/microsoft-patches-record-974-flaws.html",
+        "source": "The Hacker News",
+        "published": "2026-09-09T04:41:29+00:00",
+        "summary": "Microsoft on Tuesday broke Patch Tuesday records by addressing an earth-shattering 974 vulnerabilities spanning its software portfolio, including two flaws that it said have been actively exploited in the wild. These include 723 flaws in Windows, 111 in Office and Office 2016, 62 in SQL, and 22 in Developer Tools. Of these, over 110 shortcomings have been assigned a critical severity rating.",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "6b7cf7cb0b10",
+        "title": "N-able N-central Pre-Auth RCE Flaw Exploited in the Wild",
+        "link": "https://thehackernews.com/2026/09/n-able-n-central-pre-auth-rce-flaw.html",
+        "source": "The Hacker News",
+        "published": "2026-09-09T04:27:51+00:00",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a maximum-severity security flaw impacting N-able N-central to its Known Exploited Vulnerabilities (KEV) catalog, requiring Federal Civilian Executive Branch (FCEB) agencies to apply the fixes by September 11, 2026. The vulnerability in question is CVE-2026-86218 (CVSS score: 10.0), which has been described as a",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "255a40574d0f",
+        "title": "Microsoft September 2026 Patch Tuesday fixes 966 flaws, 2 zero-days",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-patch-tuesday-fixes-966-flaws-2-zero-days/",
+        "source": "BleepingComputer",
+        "published": "2026-09-08T18:18:05+00:00",
+        "summary": "Today is Microsoft's September 2026 Patch Tuesday, with security updates released for a record-breaking 966 flaws, including two actively exploited zero-day vulnerabilities. [...]",
         "category": "high_alert"
       }
     ],
-    "bad_updates": [],
-    "upcoming_changes": [],
-    "official_news": [],
+    "bad_updates": [
+      {
+        "fingerprint": "9a20d8d17d1c",
+        "title": "Bugs related to Windows 11 mouse, desktop, and Teams fixed in latest Patch Tuesday",
+        "link": "https://www.neowin.net/news/bugs-related-to-windows-11-mouse-desktop-and-teams-fixed-in-latest-patch-tuesday/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-09-08T19:44:01+00:00",
+        "summary": "Windows 11 users have faced several frustrating issues lately, but Microsoft's latest updates bring fixes for all tracked bugs. Read more...",
+        "category": "bad_updates"
+      },
+      {
+        "fingerprint": "8c11fbd09f85",
+        "title": "Microsoft releases Windows 10 KB5122878 extended security update",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5122878-extended-security-update/",
+        "source": "BleepingComputer",
+        "published": "2026-09-08T18:49:19+00:00",
+        "summary": "Microsoft has released the Windows 10 KB5122878 extended security update, which includes this month's record-breaking September 2026 Patch Tuesday fixes, along with a few bug fixes. [...]",
+        "category": "bad_updates"
+      }
+    ],
+    "upcoming_changes": [
+      {
+        "fingerprint": "b597733a6a13",
+        "title": "Microsoft Viva: Copilot Analytics - Agent value insights in Agent 365 Dashboard",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570847",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-08T22:57:21+00:00",
+        "summary": "Customers can now view value insights in the Agent 365 Dashboard in Microsoft Viva Insights (Copilot Analytics). These insights help business leaders and change and adoption specialists understand not only whether agents are being used, but also the estimated assisted hours agents provide and the types of work contributing to that value. This update builds on the existing Agent 365 Dashboard ad...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "c662ad2da567",
+        "title": "Microsoft Purview: Data Loss Prevention for Microsoft Cowork",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570845",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-08T22:57:21+00:00",
+        "summary": "Microsoft Purview Data Loss Prevention (DLP) is expanding to Microsoft Cowork, enabling data security admins to use a single policy across Microsoft 365 Copilot and Cowork. The integration helps protect sensitive AI interactions by preventing the use of labeled knowledge sources, blocking prompts that contain supported sensitive information types, and restricting sensitive prompts from being se...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "0b61fe8847f4",
+        "title": "Microsoft 365: Teams Channel Backup",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570668",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-08T22:57:21+00:00",
+        "summary": "A backup and recovery feature that lets you recover team & channel data (like files, messages exchanged over channels) in Microsoft Teams to a previously known good state after accidental changes or security compromises. Supported items include Team, Channels (Standard, Private, Public) and underlying data. Retention period supported is 30 days. GA date: December CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "1a221fb71308",
+        "title": "OneDrive: Sync support for up to 1 million items on macOS",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570448",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-08T22:57:21+00:00",
+        "summary": "OneDrive Sync supports syncing up to 1 million items on macOS devices, helping teams manage large document libraries and shared content at scale without compromising access across devices. This preview requires the Insiders ring and that devices meet minimum hardware and configuration requirements. Devices that don't meet these requirements continue to sync at the existing 300,000-item supporte...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "4c33a38c6e69",
+        "title": "Microsoft Viva: Viva Glint - Survey taking experience refinements",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570429",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-08T22:57:21+00:00",
+        "summary": "This feature is a collection of improvements including updates to the auto-save experience for comments, simplifying survey navigation through buttons by consolidating the \"Skip\" and \"Done\" buttons into a single \"Next\" button, and to give the survey taker greater control over question progression by refining the auto-scroll behavior when updating answers to questions. GA date: September CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "a9fd93b69cb4",
+        "title": "Microsoft Teams: Meeting Shared Files",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570427",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-08T22:57:21+00:00",
+        "summary": "The new Meeting Shared Files feature allows users to add relevant files and links to their meeting for easy access and to automatically share that content with all meeting participants. AI in the meeting, like the Facilitator agent, uses these files for targeted grounding to answer questions and enhance skill functionality. GA date: October CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "e967277f87c2",
+        "title": "Planner: Add times to task start, finish, and due dates",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570153",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-08T22:57:21+00:00",
+        "summary": "Add specific times to task start, finish, and due dates. Define a plan’s time zone and working hours to automatically provide default task times and choose whether to view times in the plan’s time zone or your local time zone. This helps distributed teams coordinate effectively across time zones and keep deadlines clear. GA date: November CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "54dd07196b9f",
+        "title": "Planner: Task History",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569933",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-08T22:57:21+00:00",
+        "summary": "Task History helps keep teams up to date on changes made to a task. View recent activity to see what changed, when it changed, and track progress over time. GA date: October CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "f1aefb93e6f6",
+        "title": "Dynamics 365 Finance: Support requirements of tax reform in Brazil in 2027",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570842",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-08T20:38:18+00:00",
+        "summary": "Microsoft plans to introduce additional Globalization Studio capabilities to help support Brazil tax reform requirements, including the new IS tax type, tax assessment capabilities for reformed taxes, expanded fiscal note functionality for additional business scenarios, enhanced tax posting processes, and further updates to CNPJ-related processes. Additional capabilities will continue to be int...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "71363aab014e",
+        "title": "In development - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/whats-new/in-development",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-09-08T17:34:00+00:00",
+        "summary": "In development for Microsoft Intune Summarize this article for me In this article To help in your readiness and planning, this article lists Intune UI updates and features that are in devel... Applies to: iOS/iPadOS New single device page becomes the default experience in the Intune admin center Starting with Intune's September (2609) release, the.",
+        "category": "upcoming_changes"
+      }
+    ],
+    "official_news": [
+      {
+        "fingerprint": "2d726ce8579a",
+        "title": "Windows 11 KB5124008, KB5122880 September 2026 Patch Tuesday now available to download",
+        "link": "https://www.neowin.net/news/windows-11-kb5124008-kb5122880-september-2026-patch-tuesday-now-available-to-download/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-09-08T17:06:59+00:00",
+        "summary": "Microsoft has released Patch Tuesday updates for Windows 11 KB5124008 and KB5122880 for September 2026. Here's what's included. Read more...",
+        "category": "official_news"
+      }
+    ],
     "community_buzz": [
       {
-        "fingerprint": "329b44f89e5a",
-        "title": "OpenAI says GPT-6 Astra can find zero-days, but is also harder to monitor",
-        "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-6-astra-can-find-zero-days-but-is-also-harder-to-monitor/",
-        "source": "BleepingComputer",
-        "published": "2026-09-08T14:40:32+00:00",
-        "summary": "OpenAI confirmed that GPT-6 Astra is the first model it has broadly deployed to reach the \"Critical level\" for cybersecurity capabilities. [...]",
+        "fingerprint": "f1ebd557a04b",
+        "title": "U.S. Agencies Accuse China AI Firms of Distilling Claude, GPT, Gemini, and Grok",
+        "link": "https://thehackernews.com/2026/09/us-agencies-accuse-china-ai-firms-of.html",
+        "source": "The Hacker News",
+        "published": "2026-09-09T09:32:26+00:00",
+        "summary": "U.S. cybersecurity and intelligence agencies have accused China-based artificial intelligence (AI) companies of conducting \"systematic extraction\" of proprietary functionalities and capabilities of American frontier models through distillation attacks. The activity has been described as occurring at an industrial-scale and one that forms the \"core\" of their AI development strategy, according to",
         "category": "community_buzz"
       },
       {
-        "fingerprint": "1ca23b9b19ea",
-        "title": "PEEP Turns Chrome and Edge Into Post-Compromise Backdoors for Host Command Execution",
-        "link": "https://thehackernews.com/2026/09/peep-turns-chrome-and-edge-into-post.html",
+        "fingerprint": "2cc86ae9e353",
+        "title": "Microsoft Plugs Nearly 1,000 Security Holes",
+        "link": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
+        "source": "Krebs on Security",
+        "published": "2026-09-08T21:44:22+00:00",
+        "summary": "Microsoft Corp. today issued updates to plug at least 974 security holes in its Windows operating systems and other software, by far its biggest single patch batch ever. Microsoft says artificial intelligence is helping to speed the discovery of vulnerabilities, but security experts warn that many organizations already are struggling to prioritize the more human-intensive endeavor of testing an...",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "30ea576e744f",
+        "title": "Windows 11 cumulative updates KB5124008 & KB5122880 released",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-cumulative-updates-kb5124008-and-kb5122880-released/",
+        "source": "BleepingComputer",
+        "published": "2026-09-08T17:57:03+00:00",
+        "summary": "Microsoft has released Windows 11 KB5124008 and KB5122880 cumulative updates for versions 25H2/24H2 and 23H2 to fix security vulnerabilities, bugs, and add new features. [...]",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "b324dbc113a3",
+        "title": "Windows 10 KB5122878 September 2026 Patch Tuesday update released by Microsoft",
+        "link": "https://www.neowin.net/news/windows-10-kb5122878-september-2026-patch-tuesday-update-released-by-microsoft/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-09-08T17:08:32+00:00",
+        "summary": "Microsoft just released update KB5122878 for various Windows 10 as part of this month's Patch Tuesday. See what's included: Read more...",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "e589ab76bcd1",
+        "title": "Slim Spider Steals Crypto Custody Secrets From Brazilian Financial Institution",
+        "link": "https://thehackernews.com/2026/09/slim-spider-steals-crypto-custody.html",
         "source": "The Hacker News",
-        "published": "2026-09-07T18:12:09+00:00",
-        "summary": "Cybersecurity researchers have disclosed details of a complex Chromium-based post-exploitation toolkit called PEEP that masquerades as a bookmarks extension for the web browser. \"Requiring prior administrative or code execution access, its installer injects the extension directly into Chrome/Edge profiles, bypassing Web Store checks and user prompts by forging Chromium's own Secure Preferences",
+        "published": "2026-09-08T16:20:23+00:00",
+        "summary": "A previously undocumented financially motivated threat actor has been linked to attacks targeting Brazilian financial institutions since at least March 2026. Cybersecurity company CrowdStrike is tracking the Brazil-based activity cluster under the name Slim Spider. \"The adversary demonstrates deep operational knowledge of Brazilian financial infrastructure, including the instant payment",
         "category": "community_buzz"
       }
     ]
