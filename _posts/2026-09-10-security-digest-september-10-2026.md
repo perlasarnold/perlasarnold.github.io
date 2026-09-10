@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - September 10, 2026"
+date: 2026-09-10 17:25:14 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - September 10, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -60,4 +68,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Cisco confirms CVE-2026-20079 Secure FMC flaw exploited in attacks](https://www.bleepingcomputer.com/news/security/cisco-confirms-cve-2026-20079-secure-fmc-flaw-exploited-in-attacks/) - *(BleepingComputer)*
 - [CVE-2026-82526](https://www.cve.org/CVERecord?id=CVE-2026-82526) - *(CVE.org)*
 - [CVE-2026-82526](https://nvd.nist.gov/vuln/detail/CVE-2026-82526) - *(NVD)*
+
 
