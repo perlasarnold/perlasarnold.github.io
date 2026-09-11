@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - September 11, 2026"
+date: 2026-09-11 17:26:42 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - September 11, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -66,4 +74,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Breaking Down Appsec Part 3: Securing the Perimeter (Authority/Authorization)](https://www.reddit.com/r/cybersecurity/comments/1wdfrpn/breaking_down_appsec_part_3_securing_the/) - *(Reddit r/cybersecurity)*
 - [Ubuntu 24.04.5 LTS Released With Linux 7.0 Kernel and Latest Security Updates](https://cybersecuritynews.com/ubuntu-24-04-5-lts-linux-7/) - *(CybersecurityNews)*
 - [cPanel ConfigServer Security & Firewall Vulnerability Allows Remote Attacker to Execute Arbitrary Commands](https://cybersecuritynews.com/cpanel-configserver-security-firewall-vulnerability/) - *(CybersecurityNews)*
+
 
