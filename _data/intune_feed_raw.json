@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-10T14:46:40.198037+00:00",
-  "date": "2026-09-10",
+  "generated_utc": "2026-09-11T14:49:26.707098+00:00",
+  "date": "2026-09-11",
   "lookback_hours": 25,
   "source_status": [
     {
@@ -12,7 +12,7 @@
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 7
+      "count": 2
     },
     {
       "name": "Microsoft Intune What's New",
@@ -37,17 +37,17 @@
     {
       "name": "BleepingComputer",
       "status": "OK",
-      "count": 7
+      "count": 8
     },
     {
       "name": "Neowin",
       "status": "OK",
-      "count": 2
+      "count": 3
     },
     {
       "name": "The Hacker News",
       "status": "OK",
-      "count": 3
+      "count": 1
     },
     {
       "name": "Krebs on Security",
@@ -99,6 +99,69 @@
   "items": {
     "high_alert": [
       {
+        "fingerprint": "46a2ab4bbefa",
+        "title": "How Threat Actors Are Turning Trusted AI Platforms Into an Attack Surface",
+        "link": "https://www.bleepingcomputer.com/news/security/how-threat-actors-are-turning-trusted-ai-platforms-into-an-attack-surface/",
+        "source": "BleepingComputer",
+        "published": "2026-09-11T14:01:11+00:00",
+        "summary": "Threat actors are abusing trusted AI platforms to host malicious content, poison search results, and trick users into installing malware. Huntress examines campaigns targeting AI users through weaponized Claude Artifacts, shared AI conversations, sponsored search results, and ClickFix-style lures. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "5a095e2c85a0",
+        "title": "GitLab urges users to patch max severity path traversal flaw",
+        "link": "https://www.bleepingcomputer.com/news/security/gitlab-urges-users-to-patch-max-severity-path-traversal-flaw/",
+        "source": "BleepingComputer",
+        "published": "2026-09-11T11:15:22+00:00",
+        "summary": "GitLab urged users on Thursday to patch their servers immediately against a maximum-severity path traversal vulnerability tracked as CVE-2026-85706. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "67fad95a3834",
+        "title": "Conti ransomware gang member sentenced to 4 years in prison",
+        "link": "https://www.bleepingcomputer.com/news/security/conti-ransomware-gang-member-sentenced-to-four-years-in-prison/",
+        "source": "BleepingComputer",
+        "published": "2026-09-11T06:48:37+00:00",
+        "summary": "A Ukrainian national has been sentenced to four years in prison for his role in Conti ransomware attacks between 2021 and 2022. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "b7ec2313007b",
+        "title": "Cisco FMC Flaws Exploited to Steal Credentials and Deploy Qilin Ransomware",
+        "link": "https://thehackernews.com/2026/09/cisco-fmc-flaws-exploited-to-steal.html",
+        "source": "The Hacker News",
+        "published": "2026-09-11T06:19:59+00:00",
+        "summary": "Cisco has revealed that three distinct threat clusters linked to ransomware and state-sponsored attacks have been exploiting two recently patched Secure Firewall Management Center (FMC) vulnerabilities. The attacks leverage CVE-2026-20079 (CVSS score: 10.0), an authentication bypass vulnerability in the web interface of FMC software that could allow an unauthenticated, remote attacker to bypass",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "8c65bf1e9a50",
+        "title": "New Android malware encrypts files, steals data, and harasses victims",
+        "link": "https://www.bleepingcomputer.com/news/security/new-android-malware-encrypts-files-steals-data-and-harasses-victims/",
+        "source": "BleepingComputer",
+        "published": "2026-09-10T21:40:43+00:00",
+        "summary": "A new Android malware strain called Mantax Otax combines ransomware and spyware capabilities to encrypt files, steal sensitive data, and spam and harass victims. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "70686a689550",
+        "title": "Detect and disrupt AI-themed attacks with Microsoft Defender",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/09/10/detect-and-disrupt-ai-themed-attacks-with-microsoft-defender/",
+        "source": "Microsoft Security Blog",
+        "published": "2026-09-10T16:00:00+00:00",
+        "summary": "See how Microsoft Defender detects and disrupts AI-themed phishing, malware, and multi-stage attacks across the attack chain. The post Detect and disrupt AI-themed attacks with Microsoft Defender appeared first on Microsoft Security Blog .",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "5a0efa42331d",
+        "title": "Cisco FMC flaws exploited by ransomware gang, state-sponsored hackers",
+        "link": "https://www.bleepingcomputer.com/news/security/cisco-fmc-flaws-exploited-by-ransomware-gang-state-sponsored-hackers/",
+        "source": "BleepingComputer",
+        "published": "2026-09-10T15:43:58+00:00",
+        "summary": "Cisco Talos says two recently patched Secure Firewall Management Center (FMC) vulnerabilities have been exploited by three separate threat clusters linked to ransomware and state-sponsored attacks. [...]",
+        "category": "high_alert"
+      },
+      {
         "fingerprint": "38cd680b9908",
         "title": "New 'BlueMoon' kit exploited Windows and Chrome zero-day flaws",
         "link": "https://www.bleepingcomputer.com/news/security/new-bluemoon-kit-exploited-windows-and-chrome-zero-day-flaws/",
@@ -106,193 +169,85 @@
         "published": "2026-09-10T14:11:34+00:00",
         "summary": "Multiple cyber-espionage groups deployed an exploit kit dubbed \"BlueMoon\" that leveraged zero-day vulnerabilities in Microsoft Windows and Google Chrome. [...]",
         "category": "high_alert"
-      },
-      {
-        "fingerprint": "d1561e4a7de3",
-        "title": "Chrome users urged to update to v153 for 230 security patches",
-        "link": "https://www.neowin.net/news/chrome-users-urged-to-update-to-v153-for-230-security-patches/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-09-10T13:20:01+00:00",
-        "summary": "Users must immediately update to version 153 to secure browsers against an actively exploited zero-day flaw and critical WebGL bugs. Read more...",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "e45f33936f93",
-        "title": "Gigabud Creates Android Work Profiles to Hide From Banking App Malware Checks",
-        "link": "https://thehackernews.com/2026/09/gigabud-creates-android-work-profiles.html",
-        "source": "The Hacker News",
-        "published": "2026-09-10T11:33:43+00:00",
-        "summary": "The Gigabud banking trojan now installs a second Android app that creates a work profile on an infected phone and drops a tampered banking app inside it, security firm Group-IB said in a report published on September 9. A work profile is a separate space that Android typically reserves for employer apps, and what's inside it is kept separate from everything in the personal space. That",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "2ad94592ea06",
-        "title": "MSNightmare drops ShieldCrash zero-day after Windows 11 patch",
-        "link": "https://www.neowin.net/news/msnightmare-drops-shieldcrash-zero-day-after-windows-11-patch/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-09-10T10:44:01+00:00",
-        "summary": "A new skeleton proof-of-concept demonstrates an arbitrary file read as SYSTEM on fully updated Windows systems, highlighting recurring flaws in Microsoft's patching process. Read more...",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "c44ed8157444",
-        "title": "CISA Flags Exploited Cisco, Citrix, Fortinet Flaws, Sets Sept. 12 Federal Patch Deadline",
-        "link": "https://thehackernews.com/2026/09/cisa-flags-exploited-cisco-citrix.html",
-        "source": "The Hacker News",
-        "published": "2026-09-10T10:36:46+00:00",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added three flaws, each impacting Cisco, Citrix, and Fortinet, to its Known Exploited Vulnerabilities (KEV) catalog, requiring Federal Civilian Executive Branch (FCEB) agencies to apply the patches by September 12, 2026. The vulnerabilities are listed below - CVE-2026-20079 (CVSS score: 10.0) - An authentication",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "eb49449faed7",
-        "title": "CISA: WatchGuard RCE flaw now exploited in ransomware attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/cisa-watchguard-rce-flaw-now-exploited-in-ransomware-attacks/",
-        "source": "BleepingComputer",
-        "published": "2026-09-10T09:10:20+00:00",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has confirmed that ransomware gangs are also exploiting a critical WatchGuard Firebox firewall vulnerability, which it flagged as actively exploited in December. [...]",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "610802872509",
-        "title": "Cisco confirms CVE-2026-20079 Secure FMC flaw exploited in attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/cisco-confirms-cve-2026-20079-secure-fmc-flaw-exploited-in-attacks/",
-        "source": "BleepingComputer",
-        "published": "2026-09-09T21:40:44+00:00",
-        "summary": "Cisco has confirmed that a maximum-severity authentication bypass vulnerability tracked as CVE-2026-20079 in its Secure Firewall Management Center (FMC) software is being actively exploited in attacks. [...]",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "e2d810686800",
-        "title": "Veradigm warns of patient data breach after ransomware gang claims attack",
-        "link": "https://www.bleepingcomputer.com/news/security/veradigm-discloses-patient-data-breach-after-gentlemen-gang-claims-attack/",
-        "source": "BleepingComputer",
-        "published": "2026-09-09T15:31:23+00:00",
-        "summary": "Healthcare technology company Veradigm disclosed a data breach after a cybersecurity incident at one of its third-party vendors exposed patients' personal data. [...]",
-        "category": "high_alert"
       }
     ],
     "bad_updates": [
       {
-        "fingerprint": "ff1da3242a96",
-        "title": "Microsoft says September updates fix mouse settings reset issues",
-        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-resolves-mouse-settings-reset-bug-windows-11-update/",
+        "fingerprint": "2fa6222272a2",
+        "title": "Microsoft fixes Teams, Outlook launch failures on ARM Windows PCs",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-teams-outlook-launch-failures-on-arm-windows-pcs/",
         "source": "BleepingComputer",
-        "published": "2026-09-10T11:14:28+00:00",
-        "summary": "Microsoft has fixed a known issue that wiped mouse settings on some Windows 11 systems after installing the KB5120998 August 2026 preview update. [...]",
+        "published": "2026-09-11T09:39:37+00:00",
+        "summary": "Microsoft has fixed a bug that prevented Teams and Outlook from launching on ARM-based Windows devices after installing updates released since the August 2026 Patch Tuesday. [...]",
         "category": "bad_updates"
       },
       {
-        "fingerprint": "12fa5919eedf",
-        "title": "Microsoft fixes bug that wiped Windows desktop settings",
-        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-wiped-windows-desktop-settings/",
-        "source": "BleepingComputer",
-        "published": "2026-09-10T08:08:16+00:00",
-        "summary": "Microsoft says the September 2026 Patch Tuesday updates fix a known issue causing desktop settings to be lost or reset on some Windows devices. [...]",
+        "fingerprint": "305bb0a90624",
+        "title": "Windows 11 update KB5124008 breaks Always On VPN connections",
+        "link": "https://www.neowin.net/news/windows-11-update-kb5124008-breaks-always-on-vpn-connections/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-09-11T09:00:01+00:00",
+        "summary": "A newly discovered bug in the September Patch Tuesday rollout interferes with handshake authentication, forcing IT admins to halt deployments. Read more...",
         "category": "bad_updates"
       }
     ],
     "upcoming_changes": [
       {
-        "fingerprint": "7ab3cfc50e07",
-        "title": "Microsoft Purview: Endpoint Data Loss Prevention-Archive File Classification Behavior Change for Windows Endpoints",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570965",
+        "fingerprint": "6071dab207c3",
+        "title": "Dynamics 365 Field Service: Streamline mobile work with an optimized Subgrid control",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570641",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-09T22:36:54+00:00",
-        "summary": "We are updating archive file classification behavior on Windows endpoints to align with cloud workloads. This change improves consistency, reduces noise in event reporting, and enhances performance when processing archive files. GA date: December CY2026 Preview date: November CY2026",
+        "published": "2026-09-10T23:01:27+00:00",
+        "summary": "Business Value With a Subgrid optimized for mobile, frontline workers will experience click reduction and faster field workflows. Enhancements to the Subgrid control include a top‑level Add New action button, bulk‑add functionality, barcode scanning, and inline editing to speed record management on the go. Feature Details Field Service Mobile is improving the existing Service Task View, Service...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "dcb519617c1f",
-        "title": "Microsoft Teams: Multi-line call history tabs in the Calls app",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570962",
+        "fingerprint": "60e130c67da1",
+        "title": "Microsoft Copilot (Microsoft M365): Copilot Chat can now better match search results from text that appears inside images embedded in Word, Excel, and PowerPoint file",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570469",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-09T22:36:54+00:00",
-        "summary": "Multi-line users get a redesigned call history experience that organizes activity by phone line. Call activity is organized into dedicated tabs for each line, so history, voicemails, and recordings appear under the line they belong to, making navigation and call management simpler and more intuitive. GA date: October CY2025",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "0c75bfe1019a",
-        "title": "Microsoft Teams: Upgraded call history in Teams Calls app",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570843",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-09T22:36:54+00:00",
-        "summary": "Call history in the Teams Calls app is being upgraded to make it easier to find and act on past call activity. Missed calls and associated voicemails will be consolidated into a single call history entry, reducing clutter and simplifying follow-up. Call history will also expand from 100 records to up to 3,000 records or 6 months of history, whichever limit is reached first, giving users more co...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "be598cf4d135",
-        "title": "Microsoft Teams: Analytics for desk utilization on Teams Pro Management portal",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570648",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-09T22:36:54+00:00",
-        "summary": "Teams admins can access utilization analytics for Teams bookable desks on Teams Pro Management portal, similar to analytics provided for meeting rooms on the portal today. For utilization analytics to be enabled, a desk needs to have one or more peripheral device associated, and the desk needs to be licensed with Teams Shared Space license or Teams Shared Space - Single Space license. GA date: ...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "ae9092d123f6",
-        "title": "SharePoint: Changes to the FAQ web part authoring experience",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570647",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-09T22:36:54+00:00",
-        "summary": "The SharePoint FAQ web part will provide a standard, non-AI experience for manually creating, editing, and managing FAQs. The AI-assisted FAQ creation and import will move to the Copilot in SharePoint authoring experience, where authors can use natural-language prompts and selected grounding sources to generate FAQ content that is saved to the compatible FAQ web part. Existing FAQ web parts and...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "4cab07237616",
-        "title": "Microsoft Teams: Organize important resources in chats and channels",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570646",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-09T22:36:54+00:00",
-        "summary": "Microsoft Teams is introducing a new way to organize and access important resources in chats and channels. Users will be able to pin key content, including links, files, and messages, directly beneath the chat or channel header for quick access. Resources can also be organized into folders, making it easier to keep important information visible and discoverable in active conversations. This upd...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "0d1b16eae758",
-        "title": "Outlook: Inline chat for email drafting",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570440",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-09T22:36:54+00:00",
-        "summary": "Instead of opening Copilot Chat every time you want to use Copilot to draft a message, this change introduces an inline chat component that streamlines the process and lets you interact with Copilot without opening the sidebar. GA date: October CY2026",
+        "published": "2026-09-10T23:01:27+00:00",
+        "summary": "Copilot Chat can now better match search results from text that appears inside images embedded in Word, Excel, and PowerPoint files is user's working files — such as scanned contracts in Word, screenshots of tables in Excel, or whiteboard photos in PowerPoint — content that was previously difficult to search and find. GA date: October CY2026",
         "category": "upcoming_changes"
       }
     ],
     "official_news": [
       {
-        "fingerprint": "f375da841d87",
-        "title": "Threat matrix: Mapping threats across cloud web applications",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/09/09/threat-matrix-mapping-threats-across-cloud-web-applications/",
-        "source": "Microsoft Security Blog",
-        "published": "2026-09-09T21:30:00+00:00",
-        "summary": "Microsoft introduces the Cloud Web Applications Threat Matrix, a MITRE ATT&CK-aligned framework that helps defenders understand, prioritize, and mitigate threats to cloud-hosted web apps and serverless platforms. The post Threat matrix: Mapping threats across cloud web applications appeared first on Microsoft Security Blog .",
+        "fingerprint": "b7ff54a06fdc",
+        "title": "Windows 11 KB5124010 reaches Release Preview with Emoji 17.0 and File Explorer changes",
+        "link": "https://www.neowin.net/news/windows-11-kb5124010-reaches-release-preview-with-emoji-170-and-file-explorer-changes/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-09-10T17:26:13+00:00",
+        "summary": "Windows 11 Insider Release Preview build 26100.9539/26200.9539 (KB5124010) for versions 24H2 and 25H2 is now available. See what's included: Read more...",
         "category": "official_news"
       },
       {
-        "fingerprint": "16b64abe7e09",
-        "title": "Passkey-themed social engineering leads to identity and cloud compromise",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/09/09/passkey-themed-social-engineering-leads-identity-cloud-compromise/",
+        "fingerprint": "7be1a29b12d9",
+        "title": "Protecting organizations from AI-assisted executive impersonation and invoice fraud",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/09/10/protecting-organizations-ai-assisted-executive-impersonation-invoice-fraud/",
         "source": "Microsoft Security Blog",
-        "published": "2026-09-09T17:41:18+00:00",
-        "summary": "Passkey-themed social engineering is being used to compromise identities and enable broader cloud attacks. Learn how threat actors establish MFA persistence, abuse Microsoft Graph for reconnaissance, and access SharePoint, OneDrive, and email data, along with key detection and mitigation guidance. The post Passkey-themed social engineering leads to identity and cloud compromise appeared first o...",
+        "published": "2026-09-10T17:23:05+00:00",
+        "summary": "Microsoft examines an AI-assisted business email compromise campaign that used executive impersonation and fake invoices to target finance teams with ACH payment fraud. The post Protecting organizations from AI-assisted executive impersonation and invoice fraud appeared first on Microsoft Security Blog .",
         "category": "official_news"
       }
     ],
     "community_buzz": [
       {
-        "fingerprint": "62e9257dcd0c",
-        "title": "US says Chinese firms extracted billions of tokens from frontier AI models",
-        "link": "https://www.bleepingcomputer.com/news/security/us-says-chinese-firms-extracted-billions-of-tokens-from-frontier-ai-models/",
-        "source": "BleepingComputer",
-        "published": "2026-09-09T16:48:33+00:00",
-        "summary": "U.S. cybersecurity and intelligence agencies say that six Chinese AI companies conducted industrial-scale distillation attacks on American frontier AI models since at least late 2024. [...]",
+        "fingerprint": "070ce40d8a2d",
+        "title": "European Union forces strict exploit reporting under new law",
+        "link": "https://www.neowin.net/news/european-union-forces-strict-exploit-reporting-under-new-law/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-09-11T10:20:01+00:00",
+        "summary": "Article 14 mandates rapid disclosures to ENISA for connected products in the bloc, introducing severe regulatory pressure for global manufacturers. Read more...",
         "category": "community_buzz"
       },
       {
-        "fingerprint": "a70802497579",
-        "title": "Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week",
-        "link": "https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html",
-        "source": "The Hacker News",
-        "published": "2026-09-09T16:34:05+00:00",
-        "summary": "Multiple espionage-motivated threat activity clusters have been found deploying a previously undocumented exploit kit called BlueMoon that chains together multiple vulnerabilities in Microsoft Windows and Google Chrome. The first in-the-wild use of BlueMoon has been attributed to the China-aligned state-sponsored group tracked as APT31 (aka Bronze Vinewood, Judgement Panda, JungleBamboo,",
+        "fingerprint": "3ee9e2612b18",
+        "title": "Microsoft Excel KB5002914 update breaks copy and paste for some users",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-excel-kb5002914-update-breaks-copy-and-paste-for-some-users/",
+        "source": "BleepingComputer",
+        "published": "2026-09-10T19:07:33+00:00",
+        "summary": "Microsoft Excel users report that this week's KB5002914 Office security update is breaking copy-and-paste operations and formula dragging, with affected users saying that removing or rolling back the update restores normal functionality. [...]",
         "category": "community_buzz"
       }
     ]
