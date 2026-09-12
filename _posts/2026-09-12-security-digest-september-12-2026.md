@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - September 12, 2026"
+date: 2026-09-12 16:39:51 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - September 12, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -64,4 +72,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [SSE (Zero Trust) vendor trial](https://www.reddit.com/r/cybersecurity/comments/1wdvu8d/sse_zero_trust_vendor_trial/) - *(Reddit r/cybersecurity)*
 - [How to get good at blackbox Pentesting](https://www.reddit.com/r/cybersecurity/comments/1wdsayg/how_to_get_good_at_blackbox_pentesting/) - *(Reddit r/cybersecurity)*
 - [Patch Tuesday update breaks Remote Desktop and causes other problems in Windows 11/Server](https://www.neowin.net/news/patch-tuesday-update-breaks-remote-desktop-and-causes-other-problems-in-windows-11server/?utm_source=rss) - *(Neowin)*
+
 
