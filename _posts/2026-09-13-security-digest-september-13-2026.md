@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - September 13, 2026"
+date: 2026-09-13 17:09:29 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - September 13, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -64,4 +72,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Architecture question: Best client-side encryption mechanism for an offline-first PWA?](https://www.reddit.com/r/cybersecurity/comments/1wedkd0/architecture_question_best_clientside_encryption/) - *(Reddit r/cybersecurity)*
 - [Comfortable job on a night shift vs a demanding one on days for more money. what would you do?](https://www.reddit.com/r/cybersecurity/comments/1webdoq/comfortable_job_on_a_night_shift_vs_a_demanding/) - *(Reddit r/cybersecurity)*
 - [CISA Warns of GitLab Path Traversal Vulnerability Exploited in Attacks](https://cybersecuritynews.com/cisa-gitlab-path-traversal/) - *(CybersecurityNews)*
+
 
