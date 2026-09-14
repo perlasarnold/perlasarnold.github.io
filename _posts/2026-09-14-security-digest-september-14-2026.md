@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - September 14, 2026"
+date: 2026-09-14 18:58:00 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - September 14, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -52,4 +60,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Off-by-1 Labs: AI-Generated Vulnerability Patches & Human Review](https://www.reddit.com/r/cybersecurity/comments/1wfe07y/offby1_labs_aigenerated_vulnerability_patches/) - *(Reddit r/cybersecurity)*
 - [Hackers exploit Tencent app flaw to deploy GrayRabbit malware](https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware/) - *(BleepingComputer)*
 - [I actually feel stuck!](https://www.reddit.com/r/cybersecurity/comments/1wf3dyu/i_actually_feel_stuck/) - *(Reddit r/cybersecurity)*
+
 
