@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-11T14:49:26.707098+00:00",
-  "date": "2026-09-11",
+  "generated_utc": "2026-09-14T16:45:28.181054+00:00",
+  "date": "2026-09-14",
   "lookback_hours": 25,
   "source_status": [
     {
@@ -12,7 +12,7 @@
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 2
+      "count": 0
     },
     {
       "name": "Microsoft Intune What's New",
@@ -27,7 +27,7 @@
     {
       "name": "Microsoft Security Blog",
       "status": "OK",
-      "count": 2
+      "count": 0
     },
     {
       "name": "Microsoft Entra Blog",
@@ -37,17 +37,17 @@
     {
       "name": "BleepingComputer",
       "status": "OK",
-      "count": 8
+      "count": 3
     },
     {
       "name": "Neowin",
       "status": "OK",
-      "count": 3
+      "count": 2
     },
     {
       "name": "The Hacker News",
       "status": "OK",
-      "count": 1
+      "count": 2
     },
     {
       "name": "Krebs on Security",
@@ -97,157 +97,73 @@
     }
   ],
   "items": {
-    "high_alert": [
-      {
-        "fingerprint": "46a2ab4bbefa",
-        "title": "How Threat Actors Are Turning Trusted AI Platforms Into an Attack Surface",
-        "link": "https://www.bleepingcomputer.com/news/security/how-threat-actors-are-turning-trusted-ai-platforms-into-an-attack-surface/",
-        "source": "BleepingComputer",
-        "published": "2026-09-11T14:01:11+00:00",
-        "summary": "Threat actors are abusing trusted AI platforms to host malicious content, poison search results, and trick users into installing malware. Huntress examines campaigns targeting AI users through weaponized Claude Artifacts, shared AI conversations, sponsored search results, and ClickFix-style lures. [...]",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "5a095e2c85a0",
-        "title": "GitLab urges users to patch max severity path traversal flaw",
-        "link": "https://www.bleepingcomputer.com/news/security/gitlab-urges-users-to-patch-max-severity-path-traversal-flaw/",
-        "source": "BleepingComputer",
-        "published": "2026-09-11T11:15:22+00:00",
-        "summary": "GitLab urged users on Thursday to patch their servers immediately against a maximum-severity path traversal vulnerability tracked as CVE-2026-85706. [...]",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "67fad95a3834",
-        "title": "Conti ransomware gang member sentenced to 4 years in prison",
-        "link": "https://www.bleepingcomputer.com/news/security/conti-ransomware-gang-member-sentenced-to-four-years-in-prison/",
-        "source": "BleepingComputer",
-        "published": "2026-09-11T06:48:37+00:00",
-        "summary": "A Ukrainian national has been sentenced to four years in prison for his role in Conti ransomware attacks between 2021 and 2022. [...]",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "b7ec2313007b",
-        "title": "Cisco FMC Flaws Exploited to Steal Credentials and Deploy Qilin Ransomware",
-        "link": "https://thehackernews.com/2026/09/cisco-fmc-flaws-exploited-to-steal.html",
-        "source": "The Hacker News",
-        "published": "2026-09-11T06:19:59+00:00",
-        "summary": "Cisco has revealed that three distinct threat clusters linked to ransomware and state-sponsored attacks have been exploiting two recently patched Secure Firewall Management Center (FMC) vulnerabilities. The attacks leverage CVE-2026-20079 (CVSS score: 10.0), an authentication bypass vulnerability in the web interface of FMC software that could allow an unauthenticated, remote attacker to bypass",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "8c65bf1e9a50",
-        "title": "New Android malware encrypts files, steals data, and harasses victims",
-        "link": "https://www.bleepingcomputer.com/news/security/new-android-malware-encrypts-files-steals-data-and-harasses-victims/",
-        "source": "BleepingComputer",
-        "published": "2026-09-10T21:40:43+00:00",
-        "summary": "A new Android malware strain called Mantax Otax combines ransomware and spyware capabilities to encrypt files, steal sensitive data, and spam and harass victims. [...]",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "70686a689550",
-        "title": "Detect and disrupt AI-themed attacks with Microsoft Defender",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/09/10/detect-and-disrupt-ai-themed-attacks-with-microsoft-defender/",
-        "source": "Microsoft Security Blog",
-        "published": "2026-09-10T16:00:00+00:00",
-        "summary": "See how Microsoft Defender detects and disrupts AI-themed phishing, malware, and multi-stage attacks across the attack chain. The post Detect and disrupt AI-themed attacks with Microsoft Defender appeared first on Microsoft Security Blog .",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "5a0efa42331d",
-        "title": "Cisco FMC flaws exploited by ransomware gang, state-sponsored hackers",
-        "link": "https://www.bleepingcomputer.com/news/security/cisco-fmc-flaws-exploited-by-ransomware-gang-state-sponsored-hackers/",
-        "source": "BleepingComputer",
-        "published": "2026-09-10T15:43:58+00:00",
-        "summary": "Cisco Talos says two recently patched Secure Firewall Management Center (FMC) vulnerabilities have been exploited by three separate threat clusters linked to ransomware and state-sponsored attacks. [...]",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "38cd680b9908",
-        "title": "New 'BlueMoon' kit exploited Windows and Chrome zero-day flaws",
-        "link": "https://www.bleepingcomputer.com/news/security/new-bluemoon-kit-exploited-windows-and-chrome-zero-day-flaws/",
-        "source": "BleepingComputer",
-        "published": "2026-09-10T14:11:34+00:00",
-        "summary": "Multiple cyber-espionage groups deployed an exploit kit dubbed \"BlueMoon\" that leveraged zero-day vulnerabilities in Microsoft Windows and Google Chrome. [...]",
-        "category": "high_alert"
-      }
-    ],
-    "bad_updates": [
-      {
-        "fingerprint": "2fa6222272a2",
-        "title": "Microsoft fixes Teams, Outlook launch failures on ARM Windows PCs",
-        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-teams-outlook-launch-failures-on-arm-windows-pcs/",
-        "source": "BleepingComputer",
-        "published": "2026-09-11T09:39:37+00:00",
-        "summary": "Microsoft has fixed a bug that prevented Teams and Outlook from launching on ARM-based Windows devices after installing updates released since the August 2026 Patch Tuesday. [...]",
-        "category": "bad_updates"
-      },
-      {
-        "fingerprint": "305bb0a90624",
-        "title": "Windows 11 update KB5124008 breaks Always On VPN connections",
-        "link": "https://www.neowin.net/news/windows-11-update-kb5124008-breaks-always-on-vpn-connections/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-09-11T09:00:01+00:00",
-        "summary": "A newly discovered bug in the September Patch Tuesday rollout interferes with handshake authentication, forcing IT admins to halt deployments. Read more...",
-        "category": "bad_updates"
-      }
-    ],
-    "upcoming_changes": [
-      {
-        "fingerprint": "6071dab207c3",
-        "title": "Dynamics 365 Field Service: Streamline mobile work with an optimized Subgrid control",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570641",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-10T23:01:27+00:00",
-        "summary": "Business Value With a Subgrid optimized for mobile, frontline workers will experience click reduction and faster field workflows. Enhancements to the Subgrid control include a top‑level Add New action button, bulk‑add functionality, barcode scanning, and inline editing to speed record management on the go. Feature Details Field Service Mobile is improving the existing Service Task View, Service...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "60e130c67da1",
-        "title": "Microsoft Copilot (Microsoft M365): Copilot Chat can now better match search results from text that appears inside images embedded in Word, Excel, and PowerPoint file",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570469",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-10T23:01:27+00:00",
-        "summary": "Copilot Chat can now better match search results from text that appears inside images embedded in Word, Excel, and PowerPoint files is user's working files — such as scanned contracts in Word, screenshots of tables in Excel, or whiteboard photos in PowerPoint — content that was previously difficult to search and find. GA date: October CY2026",
-        "category": "upcoming_changes"
-      }
-    ],
+    "high_alert": [],
+    "bad_updates": [],
+    "upcoming_changes": [],
     "official_news": [
       {
-        "fingerprint": "b7ff54a06fdc",
-        "title": "Windows 11 KB5124010 reaches Release Preview with Emoji 17.0 and File Explorer changes",
-        "link": "https://www.neowin.net/news/windows-11-kb5124010-reaches-release-preview-with-emoji-170-and-file-explorer-changes/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-09-10T17:26:13+00:00",
-        "summary": "Windows 11 Insider Release Preview build 26100.9539/26200.9539 (KB5124010) for versions 24H2 and 25H2 is now available. See what's included: Read more...",
-        "category": "official_news"
-      },
-      {
-        "fingerprint": "7be1a29b12d9",
-        "title": "Protecting organizations from AI-assisted executive impersonation and invoice fraud",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/09/10/protecting-organizations-ai-assisted-executive-impersonation-invoice-fraud/",
-        "source": "Microsoft Security Blog",
-        "published": "2026-09-10T17:23:05+00:00",
-        "summary": "Microsoft examines an AI-assisted business email compromise campaign that used executive impersonation and fake invoices to target finance teams with ACH payment fraud. The post Protecting organizations from AI-assisted executive impersonation and invoice fraud appeared first on Microsoft Security Blog .",
+        "fingerprint": "2f7b17e01c64",
+        "title": "CISA: Hackers now exploit max severity GitLab flaw in attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-max-severity-gitlab-flaw-in-attacks/",
+        "source": "BleepingComputer",
+        "published": "2026-09-14T07:06:27+00:00",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned that hackers are now exploiting a maximum-severity GitLab vulnerability in attacks. [...]",
         "category": "official_news"
       }
     ],
     "community_buzz": [
       {
-        "fingerprint": "070ce40d8a2d",
-        "title": "European Union forces strict exploit reporting under new law",
-        "link": "https://www.neowin.net/news/european-union-forces-strict-exploit-reporting-under-new-law/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-09-11T10:20:01+00:00",
-        "summary": "Article 14 mandates rapid disclosures to ENISA for connected products in the bloc, introducing severe regulatory pressure for global manufacturers. Read more...",
+        "fingerprint": "20e716323760",
+        "title": "⚡ Weekly Recap: Rogue AI Agents, WeChat Worm, PaperCut Attacks, AI Espionage, and Rootkits",
+        "link": "https://thehackernews.com/2026/09/weekly-recap-rogue-ai-agents-wechat.html",
+        "source": "The Hacker News",
+        "published": "2026-09-14T14:40:34+00:00",
+        "summary": "AI keeps showing up in the wrong places. Attackers are using it to speed up exploits, test defenses, and automate more of the job. Some models are also crossing lines on their own. That is not a great combination. The rest of the week is more familiar: old bugs still working, fresh exploit chains, exposed systems, weak defaults, and simple paths that should have been harder to abuse. A few of",
         "category": "community_buzz"
       },
       {
-        "fingerprint": "3ee9e2612b18",
-        "title": "Microsoft Excel KB5002914 update breaks copy and paste for some users",
-        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-excel-kb5002914-update-breaks-copy-and-paste-for-some-users/",
+        "fingerprint": "44c3200e7e17",
+        "title": "Why Patch Automation Needs Brakes, Not Just an Accelerator",
+        "link": "https://www.bleepingcomputer.com/news/security/why-patch-automation-needs-brakes-not-just-an-accelerator/",
         "source": "BleepingComputer",
-        "published": "2026-09-10T19:07:33+00:00",
-        "summary": "Microsoft Excel users report that this week's KB5002914 Office security update is breaking copy-and-paste operations and formula dragging, with affected users saying that removing or rolling back the update restores normal functionality. [...]",
+        "published": "2026-09-14T14:01:11+00:00",
+        "summary": "Patch automation can help IT teams keep pace with growing update volumes, but deploying faster also means bad updates can spread faster. Action1 explains how update rings, predefined success criteria, and human oversight can make automated patching faster without sacrificing control. [...]",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "44978eda8eb9",
+        "title": "AI Changed the Exposure Problem. Validation Needs to Change With It.",
+        "link": "https://thehackernews.com/2026/09/ai-changed-exposure-problem-validation.html",
+        "source": "The Hacker News",
+        "published": "2026-09-14T11:58:00+00:00",
+        "summary": "There's a lot of noise around AI and cybersecurity right now. What’s actually important is far simpler, if often lost in the hubbub. Vulnerability discovery is getting faster and happening at a much greater scale, while defenders still have to work out which findings actually deserve their action. In the first half of 2026, a whopping 35,853 CVEs were published, roughly 49% more than in the",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "a96afd4225aa",
+        "title": "Windows 11 KB5121003 allegedly corrupts BIOS leading to installation fails on HP systems",
+        "link": "https://www.neowin.net/news/windows-11-kb5121003-allegedly-corrupts-bios-leading-to-installation-fails-on-hp-systems/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-09-14T08:44:01+00:00",
+        "summary": "Windows 11's KB5121003 update may be bricking HP BIOS settings, leading to installation failures, among other issues. Read more...",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "297104af91bb",
+        "title": "Microsoft: September updates break audio on some Windows PCs",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-break-audio-on-some-windows-pcs/",
+        "source": "BleepingComputer",
+        "published": "2026-09-14T08:08:16+00:00",
+        "summary": "Microsoft has confirmed that USB audio devices may fail on some Windows systems after installing the KB5124008and KB5124012 September 2026 security updates. [...]",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "7885b8eebbb4",
+        "title": "User finds why Windows 11 KB5121003 may automatically cut power on Lenovo PCs",
+        "link": "https://www.neowin.net/news/user-finds-why-windows-11-kb5121003-may-automatically-cut-power-on-lenovo-pcs/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-09-14T06:40:02+00:00",
+        "summary": "Windows 11 KB5121003 is unexpectedly disconnecting the AC power on Lenovo PCs. A frustrated user decided to dig deep to know what's causing the mysterious and random power cuts. Read more...",
         "category": "community_buzz"
       }
     ]
