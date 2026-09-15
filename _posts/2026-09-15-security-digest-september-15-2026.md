@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - September 15, 2026"
+date: 2026-09-15 17:51:01 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - September 15, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -59,4 +67,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [cPanel LiteSpeed Web Server Vulnerability Allows Shared Server Users to Gain Root-Level Access](https://cybersecuritynews.com/cpanel-litespeed-web-server-vulnerability/) - *(CybersecurityNews)*
 - [With everything going on with AI, I would like to know what we should do to prepare.](https://www.reddit.com/r/cybersecurity/comments/1wgzexb/with_everything_going_on_with_ai_i_would_like_to/) - *(Reddit r/cybersecurity)*
 - [A problem with a shared hosting account](https://www.reddit.com/r/cybersecurity/comments/1wgynip/a_problem_with_a_shared_hosting_account/) - *(Reddit r/cybersecurity)*
+
 
