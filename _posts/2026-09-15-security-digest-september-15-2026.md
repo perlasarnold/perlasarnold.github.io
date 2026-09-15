@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Security Digest - September 15, 2026"
-date: 2026-09-15 17:51:01 +00:00
+date: 2026-09-15 22:45:58 +00:00
 categories: [security-digest]
 tags: [security, tldr, situational-awareness, endpoint-management]
 author: Arnold
@@ -10,62 +10,101 @@ author: Arnold
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
 
-- **Generated (UTC):** 2026-09-15 17:51:01 +00:00
+- **Generated (UTC):** 2026-09-15 22:45:58 +00:00
 - **Lookback window:** 7 days
 
 ## 🚀 Top Research & Advisories
 - *No high-priority security research detected in this window.*
 ## 💻 AppSec
-- **[CVE-2026-57099](https://nvd.nist.gov/vuln/detail/CVE-2026-57099)** - *(NVD)*
-  Review .NET runtime vulnerabilities and apply patches.
+- **[CVE-2026-47680](https://nvd.nist.gov/vuln/detail/CVE-2026-47680)** - *(NVD)*
+  Monitor developer tool vulnerabilities and supply chain risks.
 
 ## 🏗 Infrastructure
-- **[CISA Shares 17 Techniques Used by Hackers to Compromise Active Directory Environments](https://cybersecuritynews.com/cisa-active-directory-attack-techniques/)** - *(CybersecurityNews)*
-  Review server hardening and AD security posture.
+- **[Cybersecurity professionals: What problem still exists between detection and response?](https://www.reddit.com/r/cybersecurity/comments/1wgn0eh/cybersecurity_professionals_what_problem_still/)** - *(Reddit r/cybersecurity)*
+  Review security controls and policy updates. Review sensor guidance and deployment posture. Review VPN client version and deployment.
 
-- **[CVE-2026-56177](https://www.cve.org/CVERecord?id=CVE-2026-56177)** - *(CVE.org)*
-  Review server hardening and AD security posture.
-
-- **[CVE-2026-62762](https://nvd.nist.gov/vuln/detail/CVE-2026-62762)** - *(NVD)*
-  Review server hardening and AD security posture.
+- **[wtf did I get into...standing up shadow AI detection from nothing...anyone else doing this?](https://www.reddit.com/r/cybersecurity/comments/1wghgug/wtf_did_i_get_intostanding_up_shadow_ai_detection/)** - *(Reddit r/cybersecurity)*
+  Review Office update channel health and security baseline compliance. Review sensor guidance and deployment posture. Review server hardening and AD security posture.
 
 ## 🛡 Security Ops
-- **[CrowdStrike CEO pushes back against AI slowdown calls](https://www.neowin.net/news/crowdstrike-ceo-pushes-back-against-ai-slowdown-calls/?utm_source=rss)** - *(Neowin)*
-  Review sensor guidance and deployment posture.
+- **[Cybersecurity professionals: What problem still exists between detection and response?](https://www.reddit.com/r/cybersecurity/comments/1wgn0eh/cybersecurity_professionals_what_problem_still/)** - *(Reddit r/cybersecurity)*
+  Review security controls and policy updates. Review sensor guidance and deployment posture. Review VPN client version and deployment.
+
+- **[wtf did I get into...standing up shadow AI detection from nothing...anyone else doing this?](https://www.reddit.com/r/cybersecurity/comments/1wghgug/wtf_did_i_get_intostanding_up_shadow_ai_detection/)** - *(Reddit r/cybersecurity)*
+  Review Office update channel health and security baseline compliance. Review sensor guidance and deployment posture. Review server hardening and AD security posture.
 
 ## 🛠 Infrastructure & Endpoint Control
-- **[How are attackers actually using AI to attack websites?](https://www.reddit.com/r/cybersecurity/comments/1wgr1bw/how_are_attackers_actually_using_ai_to_attack/)** - *(Reddit r/cybersecurity)*
+- **[CVE-2026-53581](https://nvd.nist.gov/vuln/detail/CVE-2026-53581)** - *(NVD)*
   Review security controls and policy updates.
 
-- **[KB5129195 fails to fix secure domain logins broken by Windows 11 KB5124008](https://www.neowin.net/news/kb5129195-fails-to-fix-secure-domain-logins-broken-by-windows-11-kb5124008/?utm_source=rss)** - *(Neowin)*
-  Validate workstation security baseline and update compliance.
+- **[CVE-2026-53639](https://nvd.nist.gov/vuln/detail/CVE-2026-53639)** - *(NVD)*
+  Evaluate update rings and expedite actions if needed.
+
+- **[CVE-2026-87429](https://nvd.nist.gov/vuln/detail/CVE-2026-87429)** - *(NVD)*
+  Validate Chrome coverage; update managed package if needed.
+
+- **[CVE-2026-87430](https://nvd.nist.gov/vuln/detail/CVE-2026-87430)** - *(NVD)*
+  Validate Chrome coverage; update managed package if needed.
+
+- **[CVE-2026-87431](https://nvd.nist.gov/vuln/detail/CVE-2026-87431)** - *(NVD)*
+  Validate Chrome coverage; update managed package if needed.
+
+- **[CVE-2026-87432](https://nvd.nist.gov/vuln/detail/CVE-2026-87432)** - *(NVD)*
+  Validate Chrome coverage; update managed package if needed.
+
+- **[CVE-2026-87433](https://nvd.nist.gov/vuln/detail/CVE-2026-87433)** - *(NVD)*
+  Validate Chrome coverage; update managed package if needed.
+
+- **[CVE-2026-87434](https://www.cve.org/CVERecord?id=CVE-2026-87434)** - *(CVE.org)*
+  Validate Chrome coverage; update managed package if needed.
+
+- **[CVE-2026-87435](https://www.cve.org/CVERecord?id=CVE-2026-87435)** - *(CVE.org)*
+  Validate Chrome coverage; update managed package if needed.
+
+- **[CVE-2026-87436](https://www.cve.org/CVERecord?id=CVE-2026-87436)** - *(CVE.org)*
+  Validate Chrome coverage; update managed package if needed.
+
+- **[Cybersecurity professionals: What problem still exists between detection and response?](https://www.reddit.com/r/cybersecurity/comments/1wgn0eh/cybersecurity_professionals_what_problem_still/)** - *(Reddit r/cybersecurity)*
+  Review security controls and policy updates. Review sensor guidance and deployment posture. Review VPN client version and deployment.
 
 - **[Microsoft confirms KB5002914 Excel update breaks copy and paste](https://www.bleepingcomputer.com/news/microsoft/microsoft-september-kb5002914-security-update-breaks-excel-copy-and-paste/)** - *(BleepingComputer)*
+  Review Office update channel health and security baseline compliance.
+
+- **[Microsoft confirms Word can crash with some third-party apps](https://www.neowin.net/news/microsoft-confirms-word-can-crash-with-some-third-party-apps/?utm_source=rss)** - *(Neowin)*
   Review Office update channel health and security baseline compliance.
 
 - **[Microsoft has decided against killing an Outlook Classic feature after all](https://www.neowin.net/news/microsoft-has-decided-against-killing-an-outlook-classic-feature-after-all/?utm_source=rss)** - *(Neowin)*
   Review Office update channel health and security baseline compliance.
 
+- **[Microsoft is ending support for Windows 11 23H2 Education and Enterprise soon](https://www.neowin.net/news/microsoft-is-ending-support-for-windows-11-23h2-education-and-enterprise-soon/?utm_source=rss)** - *(Neowin)*
+  Validate workstation security baseline and update compliance.
+
+- **[Microsoft is letting Windows 11 users reclaim keys lost to the Copilot key](https://www.neowin.net/reports/microsoft-is-letting-windows-11-users-reclaim-keys-lost-to-the-copilot-key/?utm_source=rss)** - *(Neowin)*
+  Validate workstation security baseline and update compliance.
+
 - **[New Outlook and Teams are getting a crucial feature, but Classic Outlook is being skipped](https://www.neowin.net/opinions/new-outlook-and-teams-are-getting-a-crucial-feature-but-classic-outlook-is-being-skipped/?utm_source=rss)** - *(Neowin)*
   Review Office update channel health and security baseline compliance.
 
-- **[Steam Vulnerability Found](https://www.reddit.com/r/cybersecurity/comments/1wh7a9z/steam_vulnerability_found/)** - *(Reddit r/cybersecurity)*
-  Review security controls and policy updates.
+- **[Steam vulnerability on Windows lets any normal user silently escalate to SYSTEM](https://www.reddit.com/r/cybersecurity/comments/1wgld39/steam_vulnerability_on_windows_lets_any_normal/)** - *(Reddit r/cybersecurity)*
+  Validate workstation security baseline and update compliance.
+
+- **[wtf did I get into...standing up shadow AI detection from nothing...anyone else doing this?](https://www.reddit.com/r/cybersecurity/comments/1wghgug/wtf_did_i_get_intostanding_up_shadow_ai_detection/)** - *(Reddit r/cybersecurity)*
+  Review Office update channel health and security baseline compliance. Review sensor guidance and deployment posture. Review server hardening and AD security posture.
 
 ## 🩹 Patch Tuesday & Update Experience
-- **[KB5129195 fails to fix secure domain logins broken by Windows 11 KB5124008](https://www.neowin.net/news/kb5129195-fails-to-fix-secure-domain-logins-broken-by-windows-11-kb5124008/?utm_source=rss)** - *(Neowin)*
-  Admins have confirmed KB5129195 emergency update doesn&#039;t fix secure domain logins that were broken after Windows 11&#039;s KB5124008 update. Read more...
+- **[CVE-2026-53639](https://nvd.nist.gov/vuln/detail/CVE-2026-53639)** - *(NVD)*
+  Sylius is an Open Source eCommerce Framework on Symfony. Starting in version 2.0.0 and prior to version 2.0.18, 2.1.15, and 2.2.6, the `GET /api/v2/shop/payment-requests/{hash}` and `PUT /api/v2/shop/...
 
 ## 🔍 Quick Links (Watch Items)
-- [Steam Vulnerability Found](https://www.reddit.com/r/cybersecurity/comments/1wh7a9z/steam_vulnerability_found/) - *(Reddit r/cybersecurity)*
-- [How to decide what career path I want ?](https://www.reddit.com/r/cybersecurity/comments/1wh6l2g/how_to_decide_what_career_path_i_want/) - *(Reddit r/cybersecurity)*
-- [A very fun new game that teaches network intrusion methodology!! [AMA] I’m happy to chat!!](https://www.reddit.com/r/cybersecurity/comments/1wh6f6d/a_very_fun_new_game_that_teaches_network/) - *(Reddit r/cybersecurity)*
-- [Apple Rolls Out Massive Security Update Fixing 273 Vulnerabilities Across Its Devices](https://cybersecuritynews.com/apple-security-update-273-vulnerabilities/) - *(CybersecurityNews)*
 - [Public cve's](https://www.reddit.com/r/cybersecurity/comments/1wh39yw/public_cves/) - *(Reddit r/cybersecurity)*
-- [CISA Warns of Cisco Secure Email Gateway 0-Day Vulnerability Actively Exploited in Attacks](https://cybersecuritynews.com/cisco-secure-email-gateway-0-day-vulnerability-exploited/) - *(CybersecurityNews)*
-- [Homebrew 7.0.0 Adds Built-In Vulnerability Scanner and Stronger Package Sandboxing](https://cybersecuritynews.com/homebrew-7-0-0-adds-vulnerability-scanner/) - *(CybersecurityNews)*
-- [cPanel LiteSpeed Web Server Vulnerability Allows Shared Server Users to Gain Root-Level Access](https://cybersecuritynews.com/cpanel-litespeed-web-server-vulnerability/) - *(CybersecurityNews)*
 - [With everything going on with AI, I would like to know what we should do to prepare.](https://www.reddit.com/r/cybersecurity/comments/1wgzexb/with_everything_going_on_with_ai_i_would_like_to/) - *(Reddit r/cybersecurity)*
 - [A problem with a shared hosting account](https://www.reddit.com/r/cybersecurity/comments/1wgynip/a_problem_with_a_shared_hosting_account/) - *(Reddit r/cybersecurity)*
+- [Cybersecurity professionals: What problem still exists between detection and response?](https://www.reddit.com/r/cybersecurity/comments/1wgn0eh/cybersecurity_professionals_what_problem_still/) - *(Reddit r/cybersecurity)*
+- [Steam vulnerability on Windows lets any normal user silently escalate to SYSTEM](https://www.reddit.com/r/cybersecurity/comments/1wgld39/steam_vulnerability_on_windows_lets_any_normal/) - *(Reddit r/cybersecurity)*
+- [wtf did I get into...standing up shadow AI detection from nothing...anyone else doing this?](https://www.reddit.com/r/cybersecurity/comments/1wghgug/wtf_did_i_get_intostanding_up_shadow_ai_detection/) - *(Reddit r/cybersecurity)*
+- [Red Heron exploits Gitea n-day flaw in multinational campaign, exposing new Linux rootkit](https://www.reddit.com/r/cybersecurity/comments/1wgh4hr/red_heron_exploits_gitea_nday_flaw_in/) - *(Reddit r/cybersecurity)*
+- [Homebrew 7.0.0 gets built-in GUI, better security controls](https://www.bleepingcomputer.com/news/security/homebrew-700-gets-built-in-gui-better-security-controls/) - *(BleepingComputer)*
+- [CVE-2026-87436](https://www.cve.org/CVERecord?id=CVE-2026-87436) - *(CVE.org)*
+- [CVE-2026-87436](https://nvd.nist.gov/vuln/detail/CVE-2026-87436) - *(NVD)*
 
 
