@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-14T16:45:28.181054+00:00",
-  "date": "2026-09-14",
+  "generated_utc": "2026-09-15T15:26:06.918544+00:00",
+  "date": "2026-09-15",
   "lookback_hours": 25,
   "source_status": [
     {
@@ -12,7 +12,7 @@
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 0
+      "count": 2
     },
     {
       "name": "Microsoft Intune What's New",
@@ -37,17 +37,17 @@
     {
       "name": "BleepingComputer",
       "status": "OK",
-      "count": 3
+      "count": 6
     },
     {
       "name": "Neowin",
       "status": "OK",
-      "count": 2
+      "count": 5
     },
     {
       "name": "The Hacker News",
       "status": "OK",
-      "count": 2
+      "count": 5
     },
     {
       "name": "Krebs on Security",
@@ -97,21 +97,166 @@
     }
   ],
   "items": {
-    "high_alert": [],
-    "bad_updates": [],
-    "upcoming_changes": [],
-    "official_news": [
+    "high_alert": [
       {
-        "fingerprint": "2f7b17e01c64",
-        "title": "CISA: Hackers now exploit max severity GitLab flaw in attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-max-severity-gitlab-flaw-in-attacks/",
+        "fingerprint": "4e46c75fec73",
+        "title": "BambooToken malware controls Windows and Linux systems via MQTT",
+        "link": "https://www.bleepingcomputer.com/news/security/bambootoken-malware-controls-windows-and-linux-systems-via-mqtt/",
         "source": "BleepingComputer",
-        "published": "2026-09-14T07:06:27+00:00",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned that hackers are now exploiting a maximum-severity GitLab vulnerability in attacks. [...]",
-        "category": "official_news"
+        "published": "2026-09-15T15:00:00+00:00",
+        "summary": "A previously unknown malware framework called BambooToken, active since at least 2023, is now using the Message Queuing Telemetry Transport (MQTT) protocol to communicate with Windows and Linux systems. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "e98f029342e1",
+        "title": "What Zero-Day Response Should Be in the Post-Mythos Era",
+        "link": "https://www.bleepingcomputer.com/news/security/what-zero-day-response-should-be-in-the-post-mythos-era/",
+        "source": "BleepingComputer",
+        "published": "2026-09-15T13:45:54+00:00",
+        "summary": "AI is shrinking the time between vulnerability disclosure and exploitation, leaving defenders less time to wait for patches or public exploits. Picus Security explains how exploitability validation, security control testing, and autonomous pentesting can help teams close exposure gaps before attackers arrive. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "ff6c77bca657",
+        "title": "CISA: Critical VMware RCE flaw now exploited by ransomware gangs",
+        "link": "https://www.bleepingcomputer.com/news/security/cisa-critical-vmware-vcenter-rce-flaw-now-exploited-by-ransomware-gangs/",
+        "source": "BleepingComputer",
+        "published": "2026-09-15T12:16:32+00:00",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned security teams that ransomware gangs have now joined ongoing attacks exploiting a critical VMware vCenter vulnerability patched in July. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "93f003a6670c",
+        "title": "Cisco patches Secure Email Gateway zero-day exploited in attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/new-cisco-secure-email-zero-day-exploited-to-execute-commands-as-root/",
+        "source": "BleepingComputer",
+        "published": "2026-09-15T07:31:09+00:00",
+        "summary": "Cisco warned customers to patch a critical Secure Email Gateway zero-day security flaw that threat actors have been exploiting in attacks. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "e1b071813dac",
+        "title": "Cisco Secure Email Gateway Flaw Exploited in the Wild, Enables Root Command Execution",
+        "link": "https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html",
+        "source": "The Hacker News",
+        "published": "2026-09-15T06:11:11+00:00",
+        "summary": "Cisco has warned that a new critical vulnerability impacting AsyncOS Software for Cisco Secure Email Gateway has come under active exploitation in the wild. The vulnerability, tracked as CVE-2026-76461, carries a CVSS score of 9.8 out of a maximum of 10.0. It has been described as a case of insufficient validation in the email parsing logic that could allow an unauthenticated, remote attacker",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "ec3e8f6efcc7",
+        "title": "China-Linked Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy GRIMWEDGE",
+        "link": "https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html",
+        "source": "The Hacker News",
+        "published": "2026-09-15T05:31:05+00:00",
+        "summary": "A Chinese threat actor has been attributed to a spear-phishing campaign that exploits recently patched security flaws in Google Chrome and Microsoft Windows to deliver a malicious JavaScript backdoor called GRIMWEDGE. Volexity, which is tracking the threat cluster under the moniker UTA0560, said the activity targeted multiple non-governmental organizations (NGOs) on September 1, 2026. \"The",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "9f7ac4d10f1c",
+        "title": "Hackers hijack HBO Max Reddit account to push malware in ClickFix ads",
+        "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-hbo-max-reddit-account-to-push-malware-in-clickfix-ads/",
+        "source": "BleepingComputer",
+        "published": "2026-09-14T18:34:16+00:00",
+        "summary": "Hackers compromised HBO Max's official Reddit account and used it to push malicious ads that launched ClickFix attacks to infect Windows and macOS devices with information-stealing malware. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "793237433544",
+        "title": "Microsoft releases emergency out-of-band Windows update to fix Patch Tuesday bugs",
+        "link": "https://www.neowin.net/news/microsoft-releases-emergency-out-of-band-windows-update-to-fix-patch-tuesday-bugs/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-09-14T18:20:01+00:00",
+        "summary": "Microsoft has released emergency updates for Windows 11 and other versions of Windows to fix major issues caused by September 2026 Patch Tuesday. Read more...",
+        "category": "high_alert"
       }
     ],
+    "bad_updates": [],
+    "upcoming_changes": [
+      {
+        "fingerprint": "451441b303be",
+        "title": "Microsoft Teams: Report suspicious guest invitations",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571297",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-14T23:03:47+00:00",
+        "summary": "Microsoft Teams will enable users to report suspicious guest invitations directly from Teams. When users receive an unexpected or potentially malicious guest invitation, they can report it to their IT admin for review, helping identify and mitigate phishing and other abuse through guest invitations. GA date: November CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "059896920dd1",
+        "title": "Outlook: New Cloud Policy controls",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571199",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-14T23:03:47+00:00",
+        "summary": "We’re introducing Cloud Policy service support for Outlook on the web and new Outlook for Windows. Admins can set default values for supported Outlook settings and choose whether users can change them, providing consistent cloud-based control across their organization GA date: October CY2026",
+        "category": "upcoming_changes"
+      }
+    ],
+    "official_news": [],
     "community_buzz": [
+      {
+        "fingerprint": "2af5e9945ac5",
+        "title": "Mass-Scanning Campaign Exploits Vite Flaw to Extract Cloud Credentials From Exposed Dev Servers",
+        "link": "https://thehackernews.com/2026/09/mass-scanning-campaign-exploits-vite.html",
+        "source": "The Hacker News",
+        "published": "2026-09-15T11:12:32+00:00",
+        "summary": "Cybersecurity researchers have disclosed details of a mass-scanning campaign that has targeted Vite deployments siphon sensitive data. The first is an automated effort aimed at internet-exposed Vite development servers that's designed to steal cloud credentials, configurations from Amazon Web Services (AWS) and Microsoft Azure instances, and infrastructure state files, per F5 Labs. The",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "2abf1b60712c",
+        "title": "Microsoft confirms KB5002914 Excel update breaks copy and paste",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-kb5002914-security-update-breaks-excel-copy-and-paste/",
+        "source": "BleepingComputer",
+        "published": "2026-09-15T08:40:20+00:00",
+        "summary": "Microsoft has confirmed that copy and paste may silently fail for some Excel users after installing the September 2026 KB5002914 security update. [...]",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "6b47448588fd",
+        "title": "CrowdStrike CEO pushes back against AI slowdown calls",
+        "link": "https://www.neowin.net/news/crowdstrike-ceo-pushes-back-against-ai-slowdown-calls/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-09-15T07:34:01+00:00",
+        "summary": "The cybersecurity executive highlights ongoing risks from Hugging Face and RubyGems attacks, advocating for runtime guardrails over regulation. Read more...",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "b586affb8882",
+        "title": "LiteSpeed Enterprise Flaw Could Let One Hosting Account Gain Root Access on a Shared Server",
+        "link": "https://thehackernews.com/2026/09/litespeed-enterprise-flaw-could-let-one.html",
+        "source": "The Hacker News",
+        "published": "2026-09-15T06:52:16+00:00",
+        "summary": "A critical vulnerability in LiteSpeed Web Server Enterprise could let a low-privilege website user gain root access on a shared-hosting server, cPanel warned in an advisory published on September 14. On such servers, many customers' sites run on a single machine, and an attacker with one of those hosting accounts could exploit the flaw to access or alter other sites and the server itself,",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "f2e530336ee2",
+        "title": "ENISA warns frontier AI compresses exploit windows",
+        "link": "https://www.neowin.net/news/enisa-warns-frontier-ai-compresses-exploit-windows/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-09-15T05:02:01+00:00",
+        "summary": "Advanced AI is automating reconnaissance and chaining low severity bugs, overwhelming human patch management and forcing a shift to automated triage. Read more...",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "3874c972fdf6",
+        "title": "KB5129195 fails to fix secure domain logins broken by Windows 11 KB5124008",
+        "link": "https://www.neowin.net/news/kb5129195-fails-to-fix-secure-domain-logins-broken-by-windows-11-kb5124008/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-09-15T04:30:01+00:00",
+        "summary": "Admins have confirmed KB5129195 emergency update doesn't fix secure domain logins that were broken after Windows 11's KB5124008 update. Read more...",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "63f661f644af",
+        "title": "Microsoft confirms September 2026 KB5002914 update \"silently\" break Excel copy-paste",
+        "link": "https://www.neowin.net/news/microsoft-confirms-september-2026-kb5002914-update-silently-break-excel-copy-paste/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-09-14T22:00:01+00:00",
+        "summary": "Microsoft has acknowledged that its latest Excel update, KB5002914, is indeed breaking copy-paste functionality. Read more...",
+        "category": "community_buzz"
+      },
       {
         "fingerprint": "20e716323760",
         "title": "⚡ Weekly Recap: Rogue AI Agents, WeChat Worm, PaperCut Attacks, AI Espionage, and Rootkits",
@@ -119,51 +264,6 @@
         "source": "The Hacker News",
         "published": "2026-09-14T14:40:34+00:00",
         "summary": "AI keeps showing up in the wrong places. Attackers are using it to speed up exploits, test defenses, and automate more of the job. Some models are also crossing lines on their own. That is not a great combination. The rest of the week is more familiar: old bugs still working, fresh exploit chains, exposed systems, weak defaults, and simple paths that should have been harder to abuse. A few of",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "44c3200e7e17",
-        "title": "Why Patch Automation Needs Brakes, Not Just an Accelerator",
-        "link": "https://www.bleepingcomputer.com/news/security/why-patch-automation-needs-brakes-not-just-an-accelerator/",
-        "source": "BleepingComputer",
-        "published": "2026-09-14T14:01:11+00:00",
-        "summary": "Patch automation can help IT teams keep pace with growing update volumes, but deploying faster also means bad updates can spread faster. Action1 explains how update rings, predefined success criteria, and human oversight can make automated patching faster without sacrificing control. [...]",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "44978eda8eb9",
-        "title": "AI Changed the Exposure Problem. Validation Needs to Change With It.",
-        "link": "https://thehackernews.com/2026/09/ai-changed-exposure-problem-validation.html",
-        "source": "The Hacker News",
-        "published": "2026-09-14T11:58:00+00:00",
-        "summary": "There's a lot of noise around AI and cybersecurity right now. What’s actually important is far simpler, if often lost in the hubbub. Vulnerability discovery is getting faster and happening at a much greater scale, while defenders still have to work out which findings actually deserve their action. In the first half of 2026, a whopping 35,853 CVEs were published, roughly 49% more than in the",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "a96afd4225aa",
-        "title": "Windows 11 KB5121003 allegedly corrupts BIOS leading to installation fails on HP systems",
-        "link": "https://www.neowin.net/news/windows-11-kb5121003-allegedly-corrupts-bios-leading-to-installation-fails-on-hp-systems/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-09-14T08:44:01+00:00",
-        "summary": "Windows 11's KB5121003 update may be bricking HP BIOS settings, leading to installation failures, among other issues. Read more...",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "297104af91bb",
-        "title": "Microsoft: September updates break audio on some Windows PCs",
-        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-break-audio-on-some-windows-pcs/",
-        "source": "BleepingComputer",
-        "published": "2026-09-14T08:08:16+00:00",
-        "summary": "Microsoft has confirmed that USB audio devices may fail on some Windows systems after installing the KB5124008and KB5124012 September 2026 security updates. [...]",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "7885b8eebbb4",
-        "title": "User finds why Windows 11 KB5121003 may automatically cut power on Lenovo PCs",
-        "link": "https://www.neowin.net/news/user-finds-why-windows-11-kb5121003-may-automatically-cut-power-on-lenovo-pcs/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-09-14T06:40:02+00:00",
-        "summary": "Windows 11 KB5121003 is unexpectedly disconnecting the AC power on Lenovo PCs. A frustrated user decided to dig deep to know what's causing the mysterious and random power cuts. Read more...",
         "category": "community_buzz"
       }
     ]
