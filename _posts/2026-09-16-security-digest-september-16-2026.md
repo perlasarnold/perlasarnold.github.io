@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - September 16, 2026"
+date: 2026-09-16 17:52:42 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - September 16, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -59,4 +67,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Looking for Advice on OffSec](https://www.reddit.com/r/cybersecurity/comments/1whq4bl/looking_for_advice_on_offsec/) - *(Reddit r/cybersecurity)*
 - [CVE-2026-73787](https://nvd.nist.gov/vuln/detail/CVE-2026-73787) - *(NVD)*
 - [CVE-2026-73787](https://www.cve.org/CVERecord?id=CVE-2026-73787) - *(CVE.org)*
+
 
