@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - September 17, 2026"
+date: 2026-09-17 17:52:29 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - September 17, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -65,4 +73,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [OT Security Consulting Questions](https://www.reddit.com/r/cybersecurity/comments/1wis6xi/ot_security_consulting_questions/) - *(Reddit r/cybersecurity)*
 - [Active Exploitation Triggers Emergency Patch for Cisco ISE Zero-Day](https://www.reddit.com/r/cybersecurity/comments/1wirrcp/active_exploitation_triggers_emergency_patch_for/) - *(Reddit r/cybersecurity)*
 - [How are you testing indirect prompt injection in RAG systems?](https://www.reddit.com/r/cybersecurity/comments/1wiqcji/how_are_you_testing_indirect_prompt_injection_in/) - *(Reddit r/cybersecurity)*
+
 
