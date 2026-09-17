@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-16T15:18:58.525374+00:00",
-  "date": "2026-09-16",
+  "generated_utc": "2026-09-17T15:25:03.089661+00:00",
+  "date": "2026-09-17",
   "lookback_hours": 25,
   "source_status": [
     {
@@ -12,7 +12,7 @@
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 13
+      "count": 5
     },
     {
       "name": "Microsoft Intune What's New",
@@ -37,17 +37,17 @@
     {
       "name": "BleepingComputer",
       "status": "OK",
-      "count": 4
+      "count": 5
     },
     {
       "name": "Neowin",
       "status": "OK",
-      "count": 2
+      "count": 4
     },
     {
       "name": "The Hacker News",
       "status": "OK",
-      "count": 8
+      "count": 5
     },
     {
       "name": "Krebs on Security",
@@ -99,253 +99,180 @@
   "items": {
     "high_alert": [
       {
-        "fingerprint": "c6c4397e55d5",
-        "title": "The true cost of a ransomware attack, with and without BCDR",
-        "link": "https://www.bleepingcomputer.com/news/security/the-true-cost-of-a-ransomware-attack-with-and-without-bcdr/",
+        "fingerprint": "b2e9ffff45b5",
+        "title": "Critical Unbound DNSSEC Validator Flaw Could Allow RCE via a Malicious DNS Zone",
+        "link": "https://thehackernews.com/2026/09/critical-unbound-dnssec-validator-flaw.html",
+        "source": "The Hacker News",
+        "published": "2026-09-17T12:30:00+00:00",
+        "summary": "Every release of the Unbound DNS resolver before 1.26.1 has a critical heap overflow in its DNSSEC validator, maintainer NLnet Labs said in an advisory on Wednesday. An attacker who controls a malicious zone and queries a vulnerable resolver can trigger it, enabling remote code execution. Unbound 1.26.1, released the same day, fixes the bug, tracked as CVE-2026-81642, along with",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "159233d0edcd",
+        "title": "Chinese hackers use SparroWocky malware in govt espionage attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-sparrowocky-malware-in-govt-espionage-attacks/",
         "source": "BleepingComputer",
-        "published": "2026-09-16T14:00:10+00:00",
-        "summary": "The ransom itself can be only a fraction of the total cost of a ransomware attack, with downtime, recovery, remediation, and legal obligations adding millions to the bill. Datto explains how a mature BCDR strategy can reduce downtime and provide a faster, more predictable path to recovery. [...]",
+        "published": "2026-09-17T09:00:00+00:00",
+        "summary": "The China-linked espionage group FamousSparrow has been using a new backdoor named SparroWocky in attacks on government organizations in Latin America. [...]",
         "category": "high_alert"
       },
       {
-        "fingerprint": "7073a2ce9471",
-        "title": "N0va Phishkit Targets US and EU Businesses: A New Challenge for Identity Security",
-        "link": "https://thehackernews.com/2026/09/n0va-phishkit-targets-us-and-eu.html",
-        "source": "The Hacker News",
-        "published": "2026-09-16T11:58:00+00:00",
-        "summary": "N0va is targeting organizations across North America and Europe with phishing campaigns that impersonate trusted services and abuse legitimate authentication flows. Successful attacks can give threat actors access to valid accounts without relying on obvious malware activity. From there, a single compromised identity can open the door to sensitive data, business systems, and additional cloud",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "4793833006cc",
-        "title": "Google Patches Pixel Modem Flaw Amid Signs of Limited Targeted Exploitation",
-        "link": "https://thehackernews.com/2026/09/google-patches-pixel-modem-flaw-amid.html",
-        "source": "The Hacker News",
-        "published": "2026-09-16T11:15:58+00:00",
-        "summary": "Google has disclosed that a high-severity security flaw in its Pixel Cellular Modem has come under exploitation in the wild. The vulnerability, tracked as CVE-2026-58704 (CVSS score: 8.0), is a privilege escalation flaw. \"In Cellular Modem, there is a possible permission bypass due to a logic error in the code,\" according to a description of the bug in the NIST National Vulnerability Database",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "560a7e4ac037",
-        "title": "Acronis cPanel Backup Plugin Vulnerability Exploited in Targeted Attacks",
-        "link": "https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html",
-        "source": "The Hacker News",
-        "published": "2026-09-16T11:08:54+00:00",
-        "summary": "Acronis has warned that a high-severity security flaw in its Backup plugin for cPanel and Web Host Manager (WHM) deployments has been exploited in the wild. The vulnerability, tracked as CVE-2026-87886 (CVSS score: 7.8), is described as a case of local privilege escalation due to insecure file permissions. It affects the following versions - Acronis Backup plugin for cPanel & WHM (Linux",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "46edcc76aecd",
-        "title": "Google fixes actively exploited Android zero-day on Pixel devices",
-        "link": "https://www.bleepingcomputer.com/news/security/google-fixes-actively-exploited-android-zero-day-on-pixel-devices/",
+        "fingerprint": "c9903d8b2afb",
+        "title": "Cisco warns of max severity ISE zero-day exploited in attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-identity-service-engine-zero-day-exploited-in-attacks/",
         "source": "BleepingComputer",
-        "published": "2026-09-16T07:00:19+00:00",
-        "summary": "Google has released the September 2026 security patches to address 110 vulnerabilities affecting its Pixel devices, including one zero-day flaw actively exploited in targeted attacks. [...]",
+        "published": "2026-09-17T07:20:54+00:00",
+        "summary": "Cisco has released security updates to address a maximum-severity Identity Services Engine vulnerability that attackers are actively exploiting in the wild. [...]",
         "category": "high_alert"
       },
       {
-        "fingerprint": "aee6060c7f70",
-        "title": "Attackers Exploit WooCommerce Wholesale Lead Capture Flaw to Plant PHP Web Shells",
-        "link": "https://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html",
+        "fingerprint": "1d4fdf4cd34b",
+        "title": "Cisco Warns of New Zero-Day ISE Auth Bypass (CVSS 10.0) Exploited in Active Attacks",
+        "link": "https://thehackernews.com/2026/09/cisco-warns-of-new-zero-day-ise-auth.html",
         "source": "The Hacker News",
-        "published": "2026-09-16T05:48:28+00:00",
-        "summary": "Threat actors are exploiting a critical security flaw in WooCommerce Wholesale Lead Capture, a premium WordPress plugin that has more than 6,000 active installs. \"This vulnerability can be leveraged by unauthenticated attackers to upload arbitrary files, including PHP backdoors, and achieve remote code execution,\" Wordfence said. The WordPress security company said it has blocked over",
+        "published": "2026-09-17T06:39:40+00:00",
+        "summary": "Cisco has warned of a fresh maximum-severity security flaw impacting Identity Services Engine (ISE) that has come under active exploitation. The vulnerability, tracked as CVE-2026-76460 (CVSS score: 10.0), could allow an unauthenticated, remote attacker to bypass authentication. \"This vulnerability is due to insufficient authentication control on an API endpoint,\" Cisco said. \"An attacker",
         "category": "high_alert"
       },
       {
-        "fingerprint": "5127b348101c",
-        "title": "Active Exploitation Attempts Target WSO2 API Manager JWT Bypass With Forged Admin Tokens",
-        "link": "https://thehackernews.com/2026/09/active-exploitation-attempts-target.html",
-        "source": "The Hacker News",
-        "published": "2026-09-16T05:18:06+00:00",
-        "summary": "A critical security flaw in WSO2 API Manager has come under active exploitation in the wild, according to findings from watchTowr. The vulnerability, tracked as CVE-2026-5430 (CVSS score: 9.8/10.0), is a case of improper verification of a cryptographic signature that could result in account takeover. Hacktron Team has been credited with discovering and reporting the flaw. \"JWT authentication",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "8a3f614a5dc1",
-        "title": "KREMLIN Banking Malware Hijacks Chrome and Edge to Steal Credentials and Session Tokens",
-        "link": "https://thehackernews.com/2026/09/kremlin-banking-malware-hijacks-chrome.html",
-        "source": "The Hacker News",
-        "published": "2026-09-15T18:54:14+00:00",
-        "summary": "Cybersecurity researchers have shed light on a previously undocumented Brazilian banking malware operation that delivers a toolkit called KREMLIN. Elastic Security Labs is tracking the activity under the moniker REF9334. Active since at least May 2025, the threat actor has used lures that impersonate a dozen Brazilian banks and install a malicious browser extension on Google Chrome and",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "b033573e84cf",
-        "title": "Iranian Hackers Use Telegram-Controlled Malware to Spy on Dissidents and Journalists",
-        "link": "https://thehackernews.com/2026/09/iranian-hackers-use-telegram-controlled.html",
-        "source": "The Hacker News",
-        "published": "2026-09-15T16:29:51+00:00",
-        "summary": "Cybersecurity agencies in the United States, the United Kingdom, and the Netherlands have detailed a Windows malware that they say Iran's intelligence service uses to spy on dissidents, journalists, and activists around the world. The malware is controlled via the Telegram messaging app and can copy a target's emails and chat messages, take screenshots, and activate the microphone to record",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "bc703e6e36a5",
-        "title": "BambooToken Malware Uses MQTT to Control Windows and Linux Systems",
-        "link": "https://thehackernews.com/2026/09/bambootoken-malware-uses-mqtt-to.html",
-        "source": "The Hacker News",
-        "published": "2026-09-15T15:23:19+00:00",
-        "summary": "Cybersecurity researchers have disclosed details of a multi-platform campaign that uses the Message Queueing Telemetry Transport (MQTT) protocol as a communication channel to control Windows and Linux systems. The emerging malware family, codenamed BambooToken, is assessed to be active since at least February 2023 and put to use in attacks targeting organizations across Asia and South America.",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "4e46c75fec73",
-        "title": "BambooToken malware controls Windows and Linux systems via MQTT",
-        "link": "https://www.bleepingcomputer.com/news/security/bambootoken-malware-controls-windows-and-linux-systems-via-mqtt/",
+        "fingerprint": "d4315093485f",
+        "title": "Iranian hackers use CHOSEN BRICK Windows malware to spy on targets",
+        "link": "https://www.bleepingcomputer.com/news/security/iranian-hackers-use-chosen-brick-windows-malware-to-spy-on-targets/",
         "source": "BleepingComputer",
-        "published": "2026-09-15T15:00:00+00:00",
-        "summary": "A previously unknown malware framework called BambooToken, active since at least 2023, is now using the Message Queuing Telemetry Transport (MQTT) protocol to communicate with Windows and Linux systems. [...]",
+        "published": "2026-09-16T20:24:55+00:00",
+        "summary": "Government agencies are warning that Iranian state-linked hackers are using a Windows malware strain named CHOSEN BRICK to target dissidents, activists, and journalists worldwide. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "b44aa90dce05",
+        "title": "Malware bypasses browser checks to force install Chrome, Edge extensions",
+        "link": "https://www.bleepingcomputer.com/news/security/malware-bypasses-browser-checks-to-force-install-chrome-edge-extensions/",
+        "source": "BleepingComputer",
+        "published": "2026-09-16T18:50:53+00:00",
+        "summary": "A banking malware operation active since mid-2025 has been using a toolkit named KREMLIN to install malicious Chrome and Edge extensions that steal credentials, session tokens, and sensitive data. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "602cd5f25ff3",
+        "title": "Attackers Exploit Issabel Framework Flaw Enabling Unauthenticated OS Command Execution",
+        "link": "https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html",
+        "source": "The Hacker News",
+        "published": "2026-09-16T15:50:59+00:00",
+        "summary": "A critical security flaw in Issabel Framework, a web-based framework for the open-source unified communications PBX software, has come under active exploitation. The vulnerability in question is CVE-2026-89026 (CVSS v3.1 score: 9.8/CVSS v4.0 score: 9.3), which can allow an unauthenticated remote attacker to execute arbitrary operating system (OS) commands by taking advantage of a hard-coded",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "a60189b514cd",
+        "title": "Three Threat Groups Target Russian Enterprises With Backdoors, Ransomware, and Wipers",
+        "link": "https://thehackernews.com/2026/09/three-threat-groups-target-russian.html",
+        "source": "The Hacker News",
+        "published": "2026-09-16T15:27:49+00:00",
+        "summary": "Enterprises in Russia have emerged as the target of three threat activity clusters tracked as NightEagle, Hacking Cat, and Toy Ghouls, according to multiple reports from Kaspersky. The cybersecurity vendor said it has identified attacks mounted by NightEagle (aka APT-Q-95), a threat actor known to be active since at least 2023, that involve new techniques for persistence and lateral movement.",
         "category": "high_alert"
       }
     ],
     "bad_updates": [],
     "upcoming_changes": [
       {
-        "fingerprint": "968d32290d22",
-        "title": "Microsoft Purview: Data Loss Prevention-Upgraded inline protection for Microsoft Entra-managed apps in Edge for Business",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571397",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-15T23:00:36+00:00",
-        "summary": "Microsoft Purview is upgrading inline data protection for Microsoft Entra-managed apps in Edge for Business. The experience integrates with a Microsoft Entra Conditional Access grant control and simplifies configuration while removing current Purview policy restrictions. Admins can now use expanded conditions and condition combinations, multiple activities per rule, simulation mode, configurabl...",
+        "fingerprint": "09b8ffb19916",
+        "title": "Microsoft to strip App Governance access from admin role",
+        "link": "https://www.neowin.net/news/microsoft-to-strip-app-governance-access-from-admin-role/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-09-17T13:30:01+00:00",
+        "summary": "Audit tenant permissions ahead of the deadline to prevent access loss in Microsoft Defender for Cloud Apps and transition personnel to alternative roles like Security Administrator. Read more...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "e34dc36d1e04",
-        "title": "Microsoft Purview: Data Loss Prevention-Expanded inline protection for unmanaged apps in Edge for Business",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571396",
+        "fingerprint": "2159b25d3df1",
+        "title": "Microsoft Teams: Schedule Teams Channel Meeting from Win32",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571389",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-15T23:00:36+00:00",
-        "summary": "Microsoft Purview collection and data loss prevention (DLP) policies will support browser inline protection for a significantly broader set of unmanaged generative AI apps in Edge for Business. Admins can use existing Purview policy experiences to detect and protect sensitive data shared through supported browser activities, helping extend consistent data security controls across more destinati...",
+        "published": "2026-09-16T22:57:03+00:00",
+        "summary": "Users can now schedule Teams Channel Meetings from Win32 (Outlook classic client) GA date: October CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "59c8447f00ac",
-        "title": "Outlook: Spell check before sending emails in new Outlook",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571310",
+        "fingerprint": "dd7bfda154a7",
+        "title": "Microsoft Teams: Customize blocked file extensions for Weaponizable File Protection",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571298",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-15T23:00:36+00:00",
-        "summary": "If you don’t want to check spelling manually for every message—or you’re worried you might forget!—you can set Outlook to check spelling for you every time before sending emails. GA date: October CY2026",
+        "published": "2026-09-16T22:57:03+00:00",
+        "summary": "Microsoft Teams is expanding admin controls for Weaponizable File Protection. Administrators will be able to customize which file types are blocked in Teams to align with their organization's security requirements or continue using the Microsoft-recommended default list. This added flexibility helps organizations tailor file protection policies while maintaining a secure collaboration environme...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "93717c485edc",
-        "title": "Dynamics 365 Project Operations: Optimize, discover and manage features from one place",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571304",
+        "fingerprint": "c06e141740e6",
+        "title": "SharePoint: New Mobile Experience on iOS and Android",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571200",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-15T23:00:36+00:00",
-        "summary": "A single place in Project Operations where administrators and end users can discover the core features relevant to them in lite or resource/non-stocked deployments . **For administrators: ** Browse features by status: New, Available, Enabled, or Coming soon. Filter and search by product area. Review benefits, impact, dependencies, availability timing, and guidance. Check whether a feature is op...",
+        "published": "2026-09-16T22:57:03+00:00",
+        "summary": "The SharePoint mobile app for iOS and Android is redesigned around the personalized SharePoint Discover experience, bringing your most relevant files, sites, people, and news together in one place, with improved site browsing, in-app file previews, refreshed news and search, dark mode, and better performance. GA date: October CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "a7d0bef6a523",
-        "title": "Microsoft Teams: Ask Copilot from Search on Mobile",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571299",
+        "fingerprint": "a914fd48c50d",
+        "title": "Dynamics 365 Field Service: Automatically complete Project Tasks when field work is finished",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570860",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-15T23:00:36+00:00",
-        "summary": "Get answers without leaving search. As you type in the Teams search bar, you'll see an option to ask Copilot alongside search results. You can also select Ask Copilot from the search results page to turn your query into a Copilot conversation, helping you quickly find information, get answers, and ask follow-up questions in context. GA date: October CY2026",
+        "published": "2026-09-16T22:57:03+00:00",
+        "summary": "Keep project plans aligned with field execution by automatically completing a linked Project Task when its Work Order is completed. When project work is carried out through Field Service, the Work Order often represents the execution of a specific Project Task. With this capability, organizations can configure Work Order Types so that completing the Work Order also completes the associated Proj...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "3b629384846c",
-        "title": "Microsoft Copilot Studio: Cost visibility in Monitor tab",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571196",
+        "fingerprint": "c8c6d123221f",
+        "title": "Dynamics 365 Field Service: Bring project material plans into field execution",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570855",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-15T23:00:36+00:00",
-        "summary": "Now makers will have clear visibility into their consumption costs directly within Monitor tab at both a per-agent level and an estimated breakdown of those costs across the agents lifecylce. This will allow makers to see costs distributed across activities such as authoring, testing, evaluations, and production usage, helping connect overall consumption to specific actions and experiences. GA ...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "4128417345c4",
-        "title": "Microsoft Copilot Studio: Cost visibility in Agent Evaluations",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571195",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-15T23:00:36+00:00",
-        "summary": "Now makers will have clear visibility into their consumption costs directly associated with their evaluations, including a breakdown of usage for eval generation, test runs and model grading/judgement. Makers can see the costs as they test, iterate, and review conversations, making usage transparent throughout the development lifecycle. GA date: September CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "43b55658ef75",
-        "title": "Microsoft Copilot Studio: Cost visibility in Preview Chat and History",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571194",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-15T23:00:36+00:00",
-        "summary": "Now makers will have clear visibility into their consumption costs directly within preview tab and agent history for their preview/testing usage as well as all every historical run. Makers can see the costs as they test, iterate, and review conversations, making usage costs transparent throughout the development experience. GA date: September CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "aa31fdadc4ec",
-        "title": "Microsoft Purview: DSPM-Copilot Readiness and Data Explorer",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571157",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-15T23:00:36+00:00",
-        "summary": "We’re introducing the new readiness for Microsoft Copilot and data explorer experiences in Microsoft Purview Data Security Posture Management (DSPM). These new capabilities provide data security teams with greater visibility into their organization’s data security posture and help them assess risks, investigate findings, and prioritize remediation. The readiness for Microsoft Copilot experience...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "e8f5c7cc6c51",
-        "title": "Microsoft Purview: Unified Classification Management Experience",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570844",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-15T23:00:36+00:00",
-        "summary": "The Unified Classification Management Experience unifies every classifier in Microsoft Purview—Sensitive Information Types (SITs), Exact Data Match (EDM), fingerprint SITs, and trainable classifiers—into one place to discover, create, validate, and manage classifiers. GA date: November CY2026 Preview date: September CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "54bdd97f727c",
-        "title": "PowerPoint:  Async Notifications for PowerPoint Agent (Web)",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570438",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-15T23:00:36+00:00",
-        "summary": "Enable users to leave PowerPoint, switch devices, go offline, or end their workday while remaining confident that Copilot will notify them when work is complete or requires attention. GA date: October CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "b73464248267",
-        "title": "PowerPoint: Async Notifications for PowerPoint Agent (Windows Desktop)",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570437",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-15T23:00:36+00:00",
-        "summary": "Enable users to leave PowerPoint, switch devices, go offline, or end their workday while remaining confident that Copilot will notify them when work is complete or requires attention. GA date: October CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "6407d0215f04",
-        "title": "Microsoft Teams: Two presenters can share their screens or windows simultaneously in meetings",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=80239",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-15T23:00:36+00:00",
-        "summary": "Two presenters can share a screen or window at the same time in a Teams meeting. Participants can see both shared content streams simultaneously, making it easier to compare and discuss content from different presenters. GA date: November CY2026",
+        "published": "2026-09-16T22:57:03+00:00",
+        "summary": "When the Field Service and Project Operations integration is enabled, material estimates created in a project plan can now create connected Work Order Products on the related Field Service work order. This allows project-planned materials to flow into Field Service without requiring project and field teams to recreate material lines, keeping both teams aligned on the same material plan. As befo...",
         "category": "upcoming_changes"
       }
     ],
-    "official_news": [
-      {
-        "fingerprint": "7ca62aaceecf",
-        "title": "Critical ScreenConnect flaw now actively exploited in attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-screenconnect-flaw/",
-        "source": "BleepingComputer",
-        "published": "2026-09-16T11:14:28+00:00",
-        "summary": "Attackers now exploit a critical-severity ConnectWise ScreenConnect vulnerability in the wild, according to the U.S. Cybersecurity and Infrastructure Security Agency (CISA). [...]",
-        "category": "official_news"
-      }
-    ],
+    "official_news": [],
     "community_buzz": [
       {
-        "fingerprint": "bf8608cfcee3",
-        "title": "Getting patch fatigue? Chrome and Firefox fix 115 issues",
-        "link": "https://www.neowin.net/news/getting-patch-fatigue-chrome-and-firefox-fix-115-issues/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-09-16T13:40:01+00:00",
-        "summary": "Chrome 153 fixes three critical vulnerabilities while Firefox 156 patches 73 security issues, requiring users to restart their browsers to apply the fixes. Read more...",
+        "fingerprint": "5e5181fbf3c0",
+        "title": "CISO's Expert Guide to Agentic Pentesting for Websites",
+        "link": "https://thehackernews.com/2026/09/cisos-expert-guide-to-agentic.html",
+        "source": "The Hacker News",
+        "published": "2026-09-17T10:50:53+00:00",
+        "summary": "Attackers now weaponize new vulnerabilities in about five days (Mandiant, part of Google Cloud). The median organization takes 43 days to patch one (Verizon DBIR 2026). A new free guide explains how autonomous AI agents are closing that gap, and what security leaders must demand before pointing one at production. TL;DR Exploitation is now the front door. It starts 31% of breaches (Verizon DBIR",
         "category": "community_buzz"
       },
       {
-        "fingerprint": "2cb40f68065c",
-        "title": "KB5129195: Media Creation Tool gets one of the last Windows 11 25H2 ISOs before 26H2 release",
-        "link": "https://www.neowin.net/news/kb5124008-media-creation-tool-gets-one-of-the-last-windows-11-25h2-isos-before-26h2-release/?utm_source=rss",
+        "fingerprint": "d7173827ab87",
+        "title": "Microsoft explains why admins must act soon to adopt Windows 11 Autopilot device preparation",
+        "link": "https://www.neowin.net/news/microsoft-explains-why-admins-must-act-soon-to-adopt-windows-11-autopilot-device-preparation/?utm_source=rss",
         "source": "Neowin",
-        "published": "2026-09-16T07:58:02+00:00",
-        "summary": "You can now clean install the latest Windows 11 update, KB5129195, using Microsoft's official Media Creation Tool. Read more...",
+        "published": "2026-09-17T06:18:01+00:00",
+        "summary": "Microsoft has explained how admins can transition from Windows Autopilot to Autopilot device preparation. The company has also explained why that's essential now. Read more...",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "6797ecc01ed3",
+        "title": "Microsoft wants organizations to ditch traditional VPNs for Entra Private Access",
+        "link": "https://www.neowin.net/news/microsoft-wants-organizations-to-ditch-traditional-vpns-for-entra-private-access/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-09-17T04:22:01+00:00",
+        "summary": "Microsoft thinks your VPN may be putting your organization at risk, and it has a new plan to change how your workforce connects to private resources. Read more...",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "784ac87f2b00",
+        "title": "Microsoft issues manual fix for Windows 11 KB5124008 domain bug",
+        "link": "https://www.neowin.net/news/microsoft-issues-manual-fix-for-windows-11-kb5124008-domain-bug/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-09-17T03:46:01+00:00",
+        "summary": "KB5124008 drops secure channels on Windows 11 24H2 and 25H2 systems. Find out how to disable Machine Identity Isolation and repair your domain trust. Read more...",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "affd3cf24b3c",
+        "title": "Windows 11 KB5124008 update breaks domain trust for some users",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5124008-update-breaks-domain-trust-for-some-users/",
+        "source": "BleepingComputer",
+        "published": "2026-09-16T20:39:29+00:00",
+        "summary": "Microsoft is investigating reports that the Windows 11 KB5124008 security update is breaking domain trust relationships on some enterprise systems, preventing users from logging in with valid domain credentials. [...]",
         "category": "community_buzz"
       }
     ]
