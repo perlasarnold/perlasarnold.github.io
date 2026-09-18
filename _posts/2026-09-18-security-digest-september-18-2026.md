@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - September 18, 2026"
+date: 2026-09-18 17:23:32 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - September 18, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -54,4 +62,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Chrome 153 Patches 16 Security Vulnerabilities Including Critical Dawn and WebGL Flaws](https://cybersecuritynews.com/chrome-153-patches-16-security-vulnerabilities/) - *(CybersecurityNews)*
 - [To CISOs, Heads of Sec, and Directors](https://www.reddit.com/r/cybersecurity/comments/1wjn8c9/to_cisos_heads_of_sec_and_directors/) - *(Reddit r/cybersecurity)*
 - [Android Apps Can Now Check If Your Phone Is Missing Critical Security Patches](https://cybersecuritynews.com/android-apps-check-security-patches/) - *(CybersecurityNews)*
+
 
