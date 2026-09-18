@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-17T15:25:03.089661+00:00",
-  "date": "2026-09-17",
+  "generated_utc": "2026-09-18T14:45:31.955769+00:00",
+  "date": "2026-09-18",
   "lookback_hours": 25,
   "source_status": [
     {
@@ -17,7 +17,7 @@
     {
       "name": "Microsoft Intune What's New",
       "status": "OK",
-      "count": 0
+      "count": 2
     },
     {
       "name": "Windows IT Pro Blog",
@@ -27,7 +27,7 @@
     {
       "name": "Microsoft Security Blog",
       "status": "OK",
-      "count": 0
+      "count": 2
     },
     {
       "name": "Microsoft Entra Blog",
@@ -37,12 +37,12 @@
     {
       "name": "BleepingComputer",
       "status": "OK",
-      "count": 5
+      "count": 3
     },
     {
       "name": "Neowin",
       "status": "OK",
-      "count": 4
+      "count": 2
     },
     {
       "name": "The Hacker News",
@@ -99,180 +99,182 @@
   "items": {
     "high_alert": [
       {
-        "fingerprint": "b2e9ffff45b5",
-        "title": "Critical Unbound DNSSEC Validator Flaw Could Allow RCE via a Malicious DNS Zone",
-        "link": "https://thehackernews.com/2026/09/critical-unbound-dnssec-validator-flaw.html",
+        "fingerprint": "a86390524bbd",
+        "title": "Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation",
+        "link": "https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html",
         "source": "The Hacker News",
-        "published": "2026-09-17T12:30:00+00:00",
-        "summary": "Every release of the Unbound DNS resolver before 1.26.1 has a critical heap overflow in its DNSSEC validator, maintainer NLnet Labs said in an advisory on Wednesday. An attacker who controls a malicious zone and queries a vulnerable resolver can trigger it, enabling remote code execution. Unbound 1.26.1, released the same day, fixes the bug, tracked as CVE-2026-81642, along with",
+        "published": "2026-09-18T12:47:04+00:00",
+        "summary": "Microsoft has released fixes for a maximum-severity security flaw in Azure AI Foundry that could be exploited to achieve privilege escalation. No customer action is required. The vulnerability, tracked as CVE-2026-85889, carries a CVSS score of 10.0. \"Missing authentication for critical function in Azure AI Foundry allows an unauthorized attacker to elevate privileges over a network,\"",
         "category": "high_alert"
       },
       {
-        "fingerprint": "159233d0edcd",
-        "title": "Chinese hackers use SparroWocky malware in govt espionage attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-sparrowocky-malware-in-govt-espionage-attacks/",
-        "source": "BleepingComputer",
-        "published": "2026-09-17T09:00:00+00:00",
-        "summary": "The China-linked espionage group FamousSparrow has been using a new backdoor named SparroWocky in attacks on government organizations in Latin America. [...]",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "c9903d8b2afb",
-        "title": "Cisco warns of max severity ISE zero-day exploited in attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-identity-service-engine-zero-day-exploited-in-attacks/",
-        "source": "BleepingComputer",
-        "published": "2026-09-17T07:20:54+00:00",
-        "summary": "Cisco has released security updates to address a maximum-severity Identity Services Engine vulnerability that attackers are actively exploiting in the wild. [...]",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "1d4fdf4cd34b",
-        "title": "Cisco Warns of New Zero-Day ISE Auth Bypass (CVSS 10.0) Exploited in Active Attacks",
-        "link": "https://thehackernews.com/2026/09/cisco-warns-of-new-zero-day-ise-auth.html",
+        "fingerprint": "7f7a68e7f3e8",
+        "title": "WeaselBiscuit Stealer Spreads via 13 npm Packages to Harvest Chrome Extension Storage",
+        "link": "https://thehackernews.com/2026/09/weaselbiscuit-stealer-spreads-via-13.html",
         "source": "The Hacker News",
-        "published": "2026-09-17T06:39:40+00:00",
-        "summary": "Cisco has warned of a fresh maximum-severity security flaw impacting Identity Services Engine (ISE) that has come under active exploitation. The vulnerability, tracked as CVE-2026-76460 (CVSS score: 10.0), could allow an unauthenticated, remote attacker to bypass authentication. \"This vulnerability is due to insufficient authentication control on an API endpoint,\" Cisco said. \"An attacker",
+        "published": "2026-09-18T10:40:06+00:00",
+        "summary": "Cybersecurity researchers have discovered a cluster of 13 npm packages that have been found to deliver a previously undocumented JavaScript stealer codenamed WeaselBiscuit. The new malware family, per OpenSourceMalware, exhibits functional overlaps with two malware strains associated with the Democratic People's Republic of Korea's (DPRK) Contagious Interview campaign: BeaverTail and",
         "category": "high_alert"
       },
       {
-        "fingerprint": "d4315093485f",
-        "title": "Iranian hackers use CHOSEN BRICK Windows malware to spy on targets",
-        "link": "https://www.bleepingcomputer.com/news/security/iranian-hackers-use-chosen-brick-windows-malware-to-spy-on-targets/",
-        "source": "BleepingComputer",
-        "published": "2026-09-16T20:24:55+00:00",
-        "summary": "Government agencies are warning that Iranian state-linked hackers are using a Windows malware strain named CHOSEN BRICK to target dissidents, activists, and journalists worldwide. [...]",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "b44aa90dce05",
-        "title": "Malware bypasses browser checks to force install Chrome, Edge extensions",
-        "link": "https://www.bleepingcomputer.com/news/security/malware-bypasses-browser-checks-to-force-install-chrome-edge-extensions/",
-        "source": "BleepingComputer",
-        "published": "2026-09-16T18:50:53+00:00",
-        "summary": "A banking malware operation active since mid-2025 has been using a toolkit named KREMLIN to install malicious Chrome and Edge extensions that steal credentials, session tokens, and sensitive data. [...]",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "602cd5f25ff3",
-        "title": "Attackers Exploit Issabel Framework Flaw Enabling Unauthenticated OS Command Execution",
-        "link": "https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html",
+        "fingerprint": "c0306367ecf3",
+        "title": "Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer",
+        "link": "https://thehackernews.com/2026/09/claimed-bug-bounty-hunter-likely-used.html",
         "source": "The Hacker News",
-        "published": "2026-09-16T15:50:59+00:00",
-        "summary": "A critical security flaw in Issabel Framework, a web-based framework for the open-source unified communications PBX software, has come under active exploitation. The vulnerability in question is CVE-2026-89026 (CVSS v3.1 score: 9.8/CVSS v4.0 score: 9.3), which can allow an unauthenticated remote attacker to execute arbitrary operating system (OS) commands by taking advantage of a hard-coded",
+        "published": "2026-09-18T09:18:03+00:00",
+        "summary": "A financially motivated threat actor has been linked to the development and distribution of a JavaScript (JS)-based information stealer known as PhantomRaven via the npm package registry. \"The developer likely wrote the malware using a large language model (LLM), an assessment made with high confidence based on verbose comments, placeholder code, and statistical token-analysis patterns,\"",
         "category": "high_alert"
       },
       {
-        "fingerprint": "a60189b514cd",
-        "title": "Three Threat Groups Target Russian Enterprises With Backdoors, Ransomware, and Wipers",
-        "link": "https://thehackernews.com/2026/09/three-threat-groups-target-russian.html",
+        "fingerprint": "bc069a20944a",
+        "title": "Get rid of ads with a lifetime AdGuard Family plan for only $11",
+        "link": "https://www.neowin.net/deals/get-rid-of-ads-with-a-lifetime-adguard-family-plan-for-only-11/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-09-18T07:34:02+00:00",
+        "summary": "Get rid of annoying ads and protect your device from malware with this AdGuard Family Plan lifetime deal, which is available for a limited time only. Read more...",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "73dcfda58468",
+        "title": "RatHat Android Malware Abuses ADB to Retain Shell Access After Uninstall",
+        "link": "https://thehackernews.com/2026/09/rathat-android-malware-abuses-adb-to.html",
         "source": "The Hacker News",
-        "published": "2026-09-16T15:27:49+00:00",
-        "summary": "Enterprises in Russia have emerged as the target of three threat activity clusters tracked as NightEagle, Hacking Cat, and Toy Ghouls, according to multiple reports from Kaspersky. The cybersecurity vendor said it has identified attacks mounted by NightEagle (aka APT-Q-95), a threat actor known to be active since at least 2023, that involve new techniques for persistence and lateral movement.",
+        "published": "2026-09-18T06:17:25+00:00",
+        "summary": "Cybersecurity researchers have flagged a new Android malware called RatHat that's assessed to be operated by China-based threat actors and features an artificial intelligence (AI)-powered system to navigate and control compromised devices. \"Distributed primarily via targeted smishing (SMS/text phishing) and malvertising campaigns leading to deceptive third-party download portals, RatHat uses",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "1da682948f6e",
+        "title": "New RatHat Android malware uses AI to automate device control",
+        "link": "https://www.bleepingcomputer.com/news/security/new-rathat-android-malware-uses-ai-to-automate-device-control/",
+        "source": "BleepingComputer",
+        "published": "2026-09-17T21:50:26+00:00",
+        "summary": "A new Android malware called RatHat has been discovered, targeting users with an AI-powered subsystem that helps operators remotely navigate compromised devices. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "79fafc7040ee",
+        "title": "Brevo supply-chain attack injected ClickFix scripts on customer sites",
+        "link": "https://www.bleepingcomputer.com/news/security/brevo-supply-chain-attack-injected-clickfix-scripts-on-customer-sites/",
+        "source": "BleepingComputer",
+        "published": "2026-09-17T17:11:34+00:00",
+        "summary": "Brevo confirmed that attackers stole a Cloudflare API key and used it to inject malicious ClickFix scripts into its websites and JavaScript files embedded on customer sites to distribute malware. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "653031980801",
+        "title": "Critical Docker Sandboxes Flaw Lets Malicious Guest Code Read and Modify macOS Host Files",
+        "link": "https://thehackernews.com/2026/09/critical-docker-sandboxes-flaw-lets.html",
+        "source": "The Hacker News",
+        "published": "2026-09-17T15:37:56+00:00",
+        "summary": "Malicious code running inside a Docker Sandboxes virtual machine on macOS could escape the project directory shared into it and read or change files anywhere else on the host, Docker warns in a security announcement on September 15. The escape runs with the rights of the host account that runs the virtual machine. The flaw, CVE-2026-77179, is rated Critical, affects versions",
         "category": "high_alert"
       }
     ],
-    "bad_updates": [],
+    "bad_updates": [
+      {
+        "fingerprint": "64210735e041",
+        "title": "Microsoft fixes broken copy and paste for Excel 2016 users",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-broken-copy-and-paste-for-excel-2016-users/",
+        "source": "BleepingComputer",
+        "published": "2026-09-18T07:35:31+00:00",
+        "summary": "Microsoft has fixed a known issue that causes copy-and-paste failures for some Excel users after installing the September 2026 KB5002914 security update. [...]",
+        "category": "bad_updates"
+      }
+    ],
     "upcoming_changes": [
       {
-        "fingerprint": "09b8ffb19916",
-        "title": "Microsoft to strip App Governance access from admin role",
-        "link": "https://www.neowin.net/news/microsoft-to-strip-app-governance-access-from-admin-role/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-09-17T13:30:01+00:00",
-        "summary": "Audit tenant permissions ahead of the deadline to prevent access loss in Microsoft Defender for Cloud Apps and transition personnel to alternative roles like Security Administrator. Read more...",
+        "fingerprint": "4749bcfd5675",
+        "title": "Outlook: Multi Account Search",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570441",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-17T23:00:52+00:00",
+        "summary": "Users will be able to see results from multiple mailboxes interweaved in a single ranked list and will be able to do standard mail actions. GA date: October CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "2159b25d3df1",
-        "title": "Microsoft Teams: Schedule Teams Channel Meeting from Win32",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571389",
+        "fingerprint": "48d859e9f59c",
+        "title": "Microsoft 365 admin center: Optional Public CDN Support in Brand Center Setup",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571391",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-16T22:57:03+00:00",
-        "summary": "Users can now schedule Teams Channel Meetings from Win32 (Outlook classic client) GA date: October CY2026",
+        "published": "2026-09-17T23:00:45+00:00",
+        "summary": "We are updating the Brand Center setup experience so that administrators can set up Brand Center without enabling Public CDN. Today, Public CDN is enabled as part of Brand Center setup, even when an organization only wants to use branding governance capabilities that do not require it. With this update, organizations can begin using Brand Center while deferring Public CDN until they need capabi...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "dd7bfda154a7",
-        "title": "Microsoft Teams: Customize blocked file extensions for Weaponizable File Protection",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571298",
+        "fingerprint": "150162c53cea",
+        "title": "Microsoft Teams: Schedule Channel Meetings from Outlook Calendar",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571388",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-16T22:57:03+00:00",
-        "summary": "Microsoft Teams is expanding admin controls for Weaponizable File Protection. Administrators will be able to customize which file types are blocked in Teams to align with their organization's security requirements or continue using the Microsoft-recommended default list. This added flexibility helps organizations tailor file protection policies while maintaining a secure collaboration environme...",
+        "published": "2026-09-17T23:00:45+00:00",
+        "summary": "Users will be able to schedule Microsoft Teams channel meetings directly from Outlook Calendar. This streamlines meeting creation and helps keep discussions and meeting content connected in the appropriate channel. GA date: October CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "c06e141740e6",
-        "title": "SharePoint: New Mobile Experience on iOS and Android",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571200",
+        "fingerprint": "bb2797779db4",
+        "title": "Dynamics 365 Field Service: Manage rental service demand with work order requests",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571300",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-16T22:57:03+00:00",
-        "summary": "The SharePoint mobile app for iOS and Android is redesigned around the personalized SharePoint Discover experience, bringing your most relevant files, sites, people, and news together in one place, with improved site browsing, in-app file previews, refreshed news and search, dark mode, and better performance. GA date: October CY2026",
+        "published": "2026-09-17T23:00:45+00:00",
+        "summary": "Rental organizations need to coordinate commercial rental activity, equipment availability, asset condition, and service execution across multiple teams and applications. Service needs can arise while equipment is in stock, in transit, at a customer site, or being returned, but those needs don’t always require an immediate work order. This feature connects rental operations in Dynamics 365 Fina...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "a914fd48c50d",
-        "title": "Dynamics 365 Field Service: Automatically complete Project Tasks when field work is finished",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570860",
+        "fingerprint": "d2577d289b71",
+        "title": "Dynamics 365 Field Service: Book Work Orders with Multiple Requirements",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570863",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-16T22:57:03+00:00",
-        "summary": "Keep project plans aligned with field execution by automatically completing a linked Project Task when its Work Order is completed. When project work is carried out through Field Service, the Work Order often represents the execution of a specific Project Task. With this capability, organizations can configure Work Order Types so that completing the Work Order also completes the associated Proj...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "c8c6d123221f",
-        "title": "Dynamics 365 Field Service: Bring project material plans into field execution",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570855",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-16T22:57:03+00:00",
-        "summary": "When the Field Service and Project Operations integration is enabled, material estimates created in a project plan can now create connected Work Order Products on the related Field Service work order. This allows project-planned materials to flow into Field Service without requiring project and field teams to recreate material lines, keeping both teams aligned on the same material plan. As befo...",
+        "published": "2026-09-17T23:00:45+00:00",
+        "summary": "Dispatchers can now select which resource requirement to schedule when booking a work order that has multiple requirements. The new Book experience is available from both the work order form and list view, and shows relevant details such as requirement duration, time windows, resource preferences, booking status, and links to active bookings. Work orders with a single resource requirement conti...",
         "category": "upcoming_changes"
       }
     ],
-    "official_news": [],
+    "official_news": [
+      {
+        "fingerprint": "30c73696f7ff",
+        "title": "Configure Platform SSO for macOS devices - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/device-configuration/settings-catalog/configure-platform-sso-macos",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-09-17T17:35:00+00:00",
+        "summary": "Configure Platform SSO for macOS devices in Microsoft Intune Summarize this article for me In this article You can configure Platform SSO to enable single sign-on (SSO) for your macOS devices using passwordless authentication, Microsoft Entra ID user accounts, or smart cards. Platform SSO is a Microsoft Entra feature that enhances the Microsoft.",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "d18e263d5c1c",
+        "title": "Microsoft Cloud PKI for Microsoft Intune - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/cloud-pki/",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-09-17T17:35:00+00:00",
+        "summary": "Overview of Microsoft Cloud PKI for Microsoft Intune Summarize this article for me In this article Use Microsoft Cloud PKI to issue certificates for Intune-managed devices. Microsoft Cloud PKI is a cloud-based service that simplifies and automates certificate lifecycle management for Intune-managed devices. It provides a dedicated public key.",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "a84a1d42b3e8",
+        "title": "From guidance to action: Security fundamentals that materially reduce risk",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/09/17/from-guidance-to-action-security-fundamentals-that-materially-reduce-risk/",
+        "source": "Microsoft Security Blog",
+        "published": "2026-09-17T17:00:00+00:00",
+        "summary": "AI has made fundamental changes to the operating environment for cybersecurity. Explore exposure management guidance on recommended controls and take action and stay ahead of cyberthreats. The post From guidance to action: Security fundamentals that materially reduce risk appeared first on Microsoft Security Blog .",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "a76d5ae990b2",
+        "title": "Improving email security outcomes with real-world Microsoft Defender insights",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/09/17/improving-email-security-outcomes-with-real-world-microsoft-defender-insights/",
+        "source": "Microsoft Security Blog",
+        "published": "2026-09-17T16:00:00+00:00",
+        "summary": "The latest email security benchmarking reports show strong Microsoft Defender performance across pre-delivery and post-delivery scenarios and reveal where threats and defenses continue to evolve. The post Improving email security outcomes with real-world Microsoft Defender insights appeared first on Microsoft Security Blog .",
+        "category": "official_news"
+      }
+    ],
     "community_buzz": [
       {
-        "fingerprint": "5e5181fbf3c0",
-        "title": "CISO's Expert Guide to Agentic Pentesting for Websites",
-        "link": "https://thehackernews.com/2026/09/cisos-expert-guide-to-agentic.html",
-        "source": "The Hacker News",
-        "published": "2026-09-17T10:50:53+00:00",
-        "summary": "Attackers now weaponize new vulnerabilities in about five days (Mandiant, part of Google Cloud). The median organization takes 43 days to patch one (Verizon DBIR 2026). A new free guide explains how autonomous AI agents are closing that gap, and what security leaders must demand before pointing one at production. TL;DR Exploitation is now the front door. It starts 31% of breaches (Verizon DBIR",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "d7173827ab87",
-        "title": "Microsoft explains why admins must act soon to adopt Windows 11 Autopilot device preparation",
-        "link": "https://www.neowin.net/news/microsoft-explains-why-admins-must-act-soon-to-adopt-windows-11-autopilot-device-preparation/?utm_source=rss",
+        "fingerprint": "cc1247cfc129",
+        "title": "Microsoft Defender update fixes false antivirus alerts in Windows 10, 11, Server",
+        "link": "https://www.neowin.net/news/microsoft-defender-update-fixes-false-antivirus-alerts-in-windows-10-11-server/?utm_source=rss",
         "source": "Neowin",
-        "published": "2026-09-17T06:18:01+00:00",
-        "summary": "Microsoft has explained how admins can transition from Windows Autopilot to Autopilot device preparation. The company has also explained why that's essential now. Read more...",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "6797ecc01ed3",
-        "title": "Microsoft wants organizations to ditch traditional VPNs for Entra Private Access",
-        "link": "https://www.neowin.net/news/microsoft-wants-organizations-to-ditch-traditional-vpns-for-entra-private-access/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-09-17T04:22:01+00:00",
-        "summary": "Microsoft thinks your VPN may be putting your organization at risk, and it has a new plan to change how your workforce connects to private resources. Read more...",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "784ac87f2b00",
-        "title": "Microsoft issues manual fix for Windows 11 KB5124008 domain bug",
-        "link": "https://www.neowin.net/news/microsoft-issues-manual-fix-for-windows-11-kb5124008-domain-bug/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-09-17T03:46:01+00:00",
-        "summary": "KB5124008 drops secure channels on Windows 11 24H2 and 25H2 systems. Find out how to disable Machine Identity Isolation and repair your domain trust. Read more...",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "affd3cf24b3c",
-        "title": "Windows 11 KB5124008 update breaks domain trust for some users",
-        "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5124008-update-breaks-domain-trust-for-some-users/",
-        "source": "BleepingComputer",
-        "published": "2026-09-16T20:39:29+00:00",
-        "summary": "Microsoft is investigating reports that the Windows 11 KB5124008 security update is breaking domain trust relationships on some enterprise systems, preventing users from logging in with valid domain credentials. [...]",
+        "published": "2026-09-18T13:22:01+00:00",
+        "summary": "The flaw caused Defender to claim protection was disabled despite functioning normally, potentially generating widespread notification fatigue among administrators managing enterprise fleets. Read more...",
         "category": "community_buzz"
       }
     ]
