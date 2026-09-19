@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - September 19, 2026"
+date: 2026-09-19 16:57:10 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - September 19, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -73,4 +81,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Security has to sign off on a CSP with delegated admin rights, TrustedTech scam or normal channel](https://www.reddit.com/r/cybersecurity/comments/1wk6l5b/security_has_to_sign_off_on_a_csp_with_delegated/) - *(Reddit r/cybersecurity)*
 - [Absorptive Capacity Among Small-Business Information Security Professionals Facing AI-Driven Threats: A Quantitative Study](https://www.reddit.com/r/cybersecurity/comments/1wjy4jj/absorptive_capacity_among_smallbusiness/) - *(Reddit r/cybersecurity)*
 - [Ring-0 exploitation via signed driver abuse—why does Windows still allow arbitrary MSR writes from kernel mode, and what's the actual mitigation path?](https://www.reddit.com/r/cybersecurity/comments/1wjwbly/ring0_exploitation_via_signed_driver_abusewhy/) - *(Reddit r/cybersecurity)*
+
 
