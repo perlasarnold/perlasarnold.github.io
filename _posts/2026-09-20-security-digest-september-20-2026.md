@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - September 20, 2026"
+date: 2026-09-20 17:11:53 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - September 20, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -59,4 +67,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Insomniac's Wolverine update tones down "fart gas" scent visuals](https://www.neowin.net/news/insomniacs-wolverine-update-tones-down-fart-gas-scent-visuals/?utm_source=rss) - *(Neowin)*
 - [Webinar: Which Google Workspace security controls actually matter?](https://www.bleepingcomputer.com/news/security/webinar-which-google-workspace-security-controls-actually-matter/) - *(BleepingComputer)*
 - [CVE-2026-29812](https://www.cve.org/CVERecord?id=CVE-2026-29812) - *(CVE.org)*
+
 
