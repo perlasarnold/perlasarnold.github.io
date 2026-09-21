@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - September 21, 2026"
+date: 2026-09-21 18:59:26 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - September 21, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -56,4 +64,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Amazon blocks Meta's Muse AI agent from checkouts](https://www.neowin.net/news/amazon-blocks-metas-muse-ai-agent-from-checkouts/?utm_source=rss) - *(Neowin)*
 - [Soc guy trying to shift domain](https://www.reddit.com/r/cybersecurity/comments/1wm4gee/soc_guy_trying_to_shift_domain/) - *(Reddit r/cybersecurity)*
 - [Third Party Risk Mgmt](https://www.reddit.com/r/cybersecurity/comments/1wlztkj/third_party_risk_mgmt/) - *(Reddit r/cybersecurity)*
+
 
