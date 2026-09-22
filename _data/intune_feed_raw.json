@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-21T16:45:52.263506+00:00",
-  "date": "2026-09-21",
+  "generated_utc": "2026-09-22T15:24:05.000359+00:00",
+  "date": "2026-09-22",
   "lookback_hours": 25,
   "source_status": [
     {
@@ -12,12 +12,12 @@
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 0
+      "count": 7
     },
     {
       "name": "Microsoft Intune What's New",
       "status": "OK",
-      "count": 0
+      "count": 1
     },
     {
       "name": "Windows IT Pro Blog",
@@ -37,7 +37,7 @@
     {
       "name": "BleepingComputer",
       "status": "OK",
-      "count": 1
+      "count": 5
     },
     {
       "name": "Neowin",
@@ -47,7 +47,7 @@
     {
       "name": "The Hacker News",
       "status": "OK",
-      "count": 3
+      "count": 8
     },
     {
       "name": "Krebs on Security",
@@ -99,6 +99,78 @@
   "items": {
     "high_alert": [
       {
+        "fingerprint": "8b49243f5ed1",
+        "title": "D-Link warns of max severity zero-day bug in DIR-822A routers",
+        "link": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-max-severity-zero-day-bug-in-dir-822a-routers/",
+        "source": "BleepingComputer",
+        "published": "2026-09-22T12:48:06+00:00",
+        "summary": "D-Link warned customers of a maximum-severity vulnerability (CVE-2026-86296) with public proof-of-concept (PoC) exploit code and no patch, affecting legacy DIR-822A dual-band Wi-Fi routers. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "7907948be334",
+        "title": "New CVSS 10.0 VeloCloud Orchestrator Flaw Actively Exploited in Certificate-Based Setups",
+        "link": "https://thehackernews.com/2026/09/new-cvss-100-velocloud-orchestrator.html",
+        "source": "The Hacker News",
+        "published": "2026-09-22T12:29:00+00:00",
+        "summary": "Attackers are exploiting a new flaw in on-premises VeloCloud Orchestrator (VCO), the server that manages the Edge devices in a VeloCloud SD-WAN, Arista said on September 22. The flaw, tracked as CVE-2026-93952, may allow a remote attacker with no login access to privilege internal functions and affect the VCO host. Only orchestrators set up to authenticate their Edges with certificates are",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "8f1c0c40c162",
+        "title": "New Linux Kernel Flaw Gives ARM64 KVM Guests Read-Write Access to Host Memory",
+        "link": "https://thehackernews.com/2026/09/new-linux-kernel-flaw-gives-arm64-kvm.html",
+        "source": "The Hacker News",
+        "published": "2026-09-22T11:38:40+00:00",
+        "summary": "A new flaw in the Linux kernel's KVM virtualization code for ARM64 processors can leave a freed piece of host memory exposed to a guest virtual machine on hosts with nested virtualization enabled. The bug, tracked as CVE-2026-89775, allows a guest to read and write host kernel memory, and the researcher who found it says it can be used to escape the guest and run code on the host machine.",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "f34358350f51",
+        "title": "SharePoint Flaw Initially Listed as Spoofing by Microsoft Enables Authenticated RCE",
+        "link": "https://thehackernews.com/2026/09/sharepoint-flaw-initially-listed-as.html",
+        "source": "The Hacker News",
+        "published": "2026-09-22T11:17:41+00:00",
+        "summary": "A SharePoint Server vulnerability that Microsoft initially classified as a spoofing flaw with a CVSS score of 6.5 actually enables authenticated remote code execution, according to full technical details published today by Viettel Cyber Security researcher Dinh Ho Anh Khoa. The flaw, CVE-2026-65660, affects SharePoint Server 2016, 2019, and Subscription Edition. Patches have been",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "621ac3ad048b",
+        "title": "New Windows Defender zero-day blocks Microsoft antivirus updates",
+        "link": "https://www.bleepingcomputer.com/news/security/new-windows-defender-zero-day-blocks-microsoft-antivirus-updates/",
+        "source": "BleepingComputer",
+        "published": "2026-09-22T09:55:11+00:00",
+        "summary": "Over the weekend, security researcher Abdelhamid Naceri (also known as Nightmare Eclipse) released another Microsoft Defender zero-day exploit that blocks antivirus updates. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "7fec6bad26c1",
+        "title": "One Hidden Meta Muse Setting Could Let Attackers Turn the AI Assistant Into a Backdoor",
+        "link": "https://thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html",
+        "source": "The Hacker News",
+        "published": "2026-09-22T06:33:57+00:00",
+        "summary": "Malware already running on a Mac can quietly take over Meta's Muse assistant and use the broad access its owner granted the app, security researcher Patrick Wardle has shown in a proof-of-concept released on September 21. It works by changing a hidden setting so that when the user taps the microphone and dictates a prompt, the words go to the attacker instead of Meta. The flaw is in",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "16909e2ca068",
+        "title": "WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session",
+        "link": "https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html",
+        "source": "The Hacker News",
+        "published": "2026-09-22T06:03:14+00:00",
+        "summary": "A new flaw in WordPress core let an anonymous visitor leave a comment that planted a hidden script on the page. If a logged-in administrator later opened that page, the script could run code on the site's server. WordPress fixed the flaw, tracked as CVE-2026-93485 and called \"Comment2Shell,\" on September 17 in version 7.1.1 and told site owners to update right away. There is",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "3a53ce3ec54a",
+        "title": "Zyxel and Veeam Flaws Under Active Exploitation With Command and SYSTEM Access",
+        "link": "https://thehackernews.com/2026/09/zyxel-and-veeam-flaws-under-active.html",
+        "source": "The Hacker News",
+        "published": "2026-09-22T05:31:59+00:00",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a now-patched security flaw impacting Zyxel GS1900 series switches to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerability, tracked as CVE-2026-7273 (CVSS score: 8.8), is a stack-based buffer overflow vulnerability that could result in arbitrary operating",
+        "category": "high_alert"
+      },
+      {
         "fingerprint": "b649ba1ea943",
         "title": "⚡ Weekly Recap: Cisco 0-Day, AI Agent RCE, ClickFix Attacks, ClickFix Surge, and Browser Hijacks",
         "link": "https://thehackernews.com/2026/09/weekly-recap-cisco-0-day-ai-agent-rce.html",
@@ -111,33 +183,115 @@
     "bad_updates": [],
     "upcoming_changes": [
       {
-        "fingerprint": "9c552483b427",
-        "title": "Microsoft reminds admins to migrate Entra ID users to passkeys",
-        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-admins-to-migrate-entra-id-users-to-passkeys/",
-        "source": "BleepingComputer",
-        "published": "2026-09-21T13:16:20+00:00",
-        "summary": "Microsoft has reminded admins to migrate Entra ID users to phishing-resistant authentication methods to avoid sign-in disruptions after it retires SMS first-factor sign-in starting in February 2027. [...]",
+        "fingerprint": "1061eaecf16d",
+        "title": "Microsoft Copilot (Microsoft 365): Local inferencing",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571886",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-21T23:04:49+00:00",
+        "summary": "Local inferencing expands Microsoft Copilot’s sovereign controls by enabling AI inferencing for supported Copilot interactions to occur within the applicable local geography. Launching in Australia, India, the United Arab Emirates, the United Kingdom, and the United States, this capability gives organizations greater control over where AI inferencing occurs, helping them address sovereignty and...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "cc6819280ae7",
+        "title": "Microsoft Teams: Granular Conditional Access for Teams meetings",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571879",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-21T23:04:49+00:00",
+        "summary": "Granular Conditional Access for Teams meetings gives organizations greater control over access to sensitive meetings. Administrators can apply Conditional Access policies to selected meetings, helping ensure participants meet organizational security requirements before joining. GA date: November CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "4019969bb8d7",
+        "title": "Dynamics 365 Customer Service: Quality evaluation supports knowledge source in criteria",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571302",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-21T23:04:49+00:00",
+        "summary": "Criteria questions can now use knowledge sources to help evaluate customer interactions. This allows organizations to ground evaluation criteria in approved knowledge content, policies, or guidance so quality checks can better reflect expected handling standards. This preview capability is scoped to case and on-demand evaluations. GA date: January CY2027 Preview date: September CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "ebfbf0995d6c",
+        "title": "Dynamics 365 Customer Service: Inactivate quality evaluation records",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571193",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-21T23:04:49+00:00",
+        "summary": "Quality managers can now inactivate evaluation records that should no longer contribute to scoring or reporting. Inactive evaluations are preserved for traceability but excluded from overall score calculations and analytics. This helps teams correct reporting outcomes when evaluations were created in error, used the wrong criteria, were duplicates, or should otherwise be removed from active qua...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "3ea3e2e01bb6",
+        "title": "Dynamics 365 Customer Service: Support Not Applicable answer option for quality evaluation criteria",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571192",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-21T23:04:49+00:00",
+        "summary": "Criteria questions now support a Not Applicable answer option. When a question is marked as not applicable, it is excluded from scoring instead of negatively affecting the evaluation score. This helps ensure evaluations remain accurate when a specific criterion does not apply to the case, interaction, or business scenario being reviewed. GA date: September CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "42038a88374a",
+        "title": "Dynamics 365 Customer Service: Detailed quality evaluation score breakdown",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571191",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-21T23:04:49+00:00",
+        "summary": "Evaluation details now include a scoring breakdown at the overall, section, and question level. Users can see how the final evaluation score was calculated, including how individual question outcomes contribute to section scores and the overall score. This improves transparency, helps quality teams validate results, and makes it easier to identify areas for coaching, calibration, and process im...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "63767a4b9143",
+        "title": "Microsoft Viva: Ability for leaders to publish Power BI reports",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570446",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-21T23:04:49+00:00",
+        "summary": "Microsoft Viva Insights is extending its report publishing capabilities from analysts to leader personas such as Chief Officers, Managers and their delegates. This enhancement enables leaders to directly distribute curated reports within their organizations through a lightweight publishing experience, complementing the existing report customization features. GA date: October CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "71363aab014e",
+        "title": "In development - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/whats-new/in-development",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-09-21T22:35:00+00:00",
+        "summary": "In development for Microsoft Intune Summarize this article for me In this article To help in your readiness and planning, this article lists Intune UI updates and features that are in devel... Applies to: iOS/iPadOS New single device page becomes the default experience in the Intune admin center Starting with Intune's September (2609) release, the.",
         "category": "upcoming_changes"
       }
     ],
-    "official_news": [],
+    "official_news": [
+      {
+        "fingerprint": "caf24b054e36",
+        "title": "CISA orders feds to patch Zyxel flaw exploited for data theft",
+        "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-zyxel-flaw-by-thursday/",
+        "source": "BleepingComputer",
+        "published": "2026-09-22T08:53:09+00:00",
+        "summary": "​Attackers are now actively exploiting a high-severity vulnerability in Zyxel GS1900 series switches, according to the U.S. Cybersecurity and Infrastructure Security Agency (CISA). [...]",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "b29ec2d21a3f",
+        "title": "CISA alerts of active exploitation of three Linux kernel flaws",
+        "link": "https://www.bleepingcomputer.com/news/security/cisa-alerts-of-active-exploitation-of-three-linux-kernel-flaws/",
+        "source": "BleepingComputer",
+        "published": "2026-09-21T20:12:17+00:00",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that hackers are exploiting three Linux kernel vulnerabilities, one of them rated critical. [...]",
+        "category": "official_news"
+      }
+    ],
     "community_buzz": [
       {
-        "fingerprint": "4a887f2b598f",
-        "title": "TASK#STOMP PowerShell Backdoor Steals Documents, Wi-Fi Passwords, and Clipboard Data",
-        "link": "https://thehackernews.com/2026/09/taskstomp-powershell-backdoor-steals.html",
-        "source": "The Hacker News",
-        "published": "2026-09-21T14:15:40+00:00",
-        "summary": "Cybersecurity researchers have disclosed details of a new campaign dubbed TASK#STOMP that delivers a PowerShell backdoor designed to harvest sensitive data from compromised hosts. The backdoor \"automatically harvests and exfiltrates business documents, watches the filesystem for new files in real time, steals Wi-Fi passwords and clipboard contents, takes screenshots, and accepts arbitrary",
+        "fingerprint": "a6fc3cd8a624",
+        "title": "WordPress Click2Shell flaw lets hackers execute PHP on the server",
+        "link": "https://www.bleepingcomputer.com/news/security/wordpress-click2shell-flaw-lets-hackers-execute-php-on-the-server/",
+        "source": "BleepingComputer",
+        "published": "2026-09-21T18:23:11+00:00",
+        "summary": "Technical details and a proof-of-concept exploit have been published for a new WordPress cross-site request forgery (CSRF) vulnerability dubbed 'Click2Shell' that affects the platform's Core component. [...]",
         "category": "community_buzz"
       },
       {
-        "fingerprint": "6bca92b0e3c1",
-        "title": "Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK Backdoors",
-        "link": "https://thehackernews.com/2026/09/jade-sleet-linked-to-indian-it-provider.html",
+        "fingerprint": "32778a9b2acc",
+        "title": "Contagious Interview Campaign Compromises 30,000 Devices, Steals $10.71M in Crypto",
+        "link": "https://thehackernews.com/2026/09/contagious-interview-campaign.html",
         "source": "The Hacker News",
-        "published": "2026-09-21T06:06:44+00:00",
-        "summary": "The North Korean threat actor known as Jade Sleet has been attributed to the compromise of an India-based \"much smaller organization\" in the information technology (IT) services industry, once again highlighting how the adversary continues to target developers to breach target networks. Cybersecurity company SentinelOne, which disclosed details of the activity, said it involved the use of Apple",
+        "published": "2026-09-21T17:19:00+00:00",
+        "summary": "The North Korean threat actors behind the Contagious Interview campaign have compromised at least 30,000 devices located in more than 100 countries and siphoned funds or account credentials from over 7,000 cryptocurrency wallets, according to a new joint cybersecurity advisory. The primary targets of the campaign are individual web designers, engineers, and specialists in cryptocurrency,",
         "category": "community_buzz"
       }
     ]
