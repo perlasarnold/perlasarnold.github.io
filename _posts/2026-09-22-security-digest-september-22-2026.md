@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - September 22, 2026"
+date: 2026-09-22 17:50:55 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - September 22, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -34,4 +42,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [“Cyber Security is not entry level position”](https://www.reddit.com/r/cybersecurity/comments/1wmyixt/cyber_security_is_not_entry_level_position/) - *(Reddit r/cybersecurity)*
 - [ FBI's CJIS v6.1: What Security Teams Need to Know. ](https://www.bleepingcomputer.com/news/security/fbis-cjis-v61-what-security-teams-need-to-know/) - *(BleepingComputer)*
 - [CVE-2026-12728](https://nvd.nist.gov/vuln/detail/CVE-2026-12728) - *(NVD)*
+
 
