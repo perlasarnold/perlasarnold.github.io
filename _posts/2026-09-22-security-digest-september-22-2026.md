@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Security Digest - September 22, 2026"
-date: 2026-09-22 17:50:55 +00:00
+date: 2026-09-22 22:48:35 +00:00
 categories: [security-digest]
 tags: [security, tldr, situational-awareness, endpoint-management]
 author: Arnold
@@ -10,7 +10,7 @@ author: Arnold
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
 
-- **Generated (UTC):** 2026-09-22 17:50:55 +00:00
+- **Generated (UTC):** 2026-09-22 22:48:35 +00:00
 - **Lookback window:** 7 days
 
 ## 🚀 Top Research & Advisories
@@ -18,9 +18,29 @@ Daily security intelligence briefing for infrastructure and endpoint management 
   System.Xml.XmlElement
   > **Action:** Review security controls and policy updates.
 
+## 💻 AppSec
+- **[[Academic Research] Do you have experience with ransomware?](https://www.reddit.com/r/cybersecurity/comments/1wnjsow/academic_research_do_you_have_experience_with/)** - *(Reddit r/cybersecurity)*
+  Review .NET runtime vulnerabilities and apply patches.
+
+## 🛡 Security Ops
+- **[Rogue external MFA providers can steal passwords during logins](https://www.bleepingcomputer.com/news/security/rogue-external-mfa-providers-can-steal-passwords-during-logins/)** - *(BleepingComputer)*
+  Review CA/MFA settings for tightening opportunities.
+
 ## 🛠 Infrastructure & Endpoint Control
-- **[Microsoft fixes broken Excel copy and paste for all Office users](https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-broken-excel-copy-and-paste-for-all-office-users/)** - *(BleepingComputer)*
-  Review Office update channel health and security baseline compliance.
+- **[Adobe Premiere finally lands on Android, but has steep RAM requirements](https://www.neowin.net/news/adobe-premiere-finally-lands-on-android-but-has-steep-ram-requirements/?utm_source=rss)** - *(Neowin)*
+  Confirm Adobe exposure; push updated deployment.
+
+- **[CVE-2026-69486](https://nvd.nist.gov/vuln/detail/CVE-2026-69486)** - *(NVD)*
+  Validate Chrome coverage; update managed package if needed. Validate Edge/WebView2 coverage; refresh managed package.
+
+- **[CVE-2026-85893](https://nvd.nist.gov/vuln/detail/CVE-2026-85893)** - *(NVD)*
+  Validate Chrome coverage; update managed package if needed. Validate Edge/WebView2 coverage; refresh managed package.
+
+- **[CVE-2026-86108](https://nvd.nist.gov/vuln/detail/CVE-2026-86108)** - *(NVD)*
+  Validate Edge/WebView2 coverage; refresh managed package.
+
+- **[CVE-2026-86109](https://www.cve.org/CVERecord?id=CVE-2026-86109)** - *(CVE.org)*
+  Validate Edge/WebView2 coverage; refresh managed package.
 
 - **[Microsoft releases KB5124010 update for Windows 11 with a long list of new features](https://www.neowin.net/news/microsoft-releases-kb5124010-update-for-windows-11-with-a-long-list-of-new-features/?utm_source=rss)** - *(Neowin)*
   Validate workstation security baseline and update compliance.
@@ -28,19 +48,22 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - **[Microsoft releases preview update KB5124006 for Windows 11 26H1](https://www.neowin.net/news/microsoft-releases-preview-update-kb5124006-for-windows-11-26h1/?utm_source=rss)** - *(Neowin)*
   Validate workstation security baseline and update compliance.
 
+- **[Quick tip: How to make Windows 11 apps always open maximized](https://www.neowin.net/guides/quick-tip-how-to-make-windows-11-apps-always-open-maximized/?utm_source=rss)** - *(Neowin)*
+  Validate workstation security baseline and update compliance.
+
 - **[Trump rebrands artificial intelligence as super intelligence](https://www.neowin.net/news/trump-rebrands-artificial-intelligence-as-super-intelligence/?utm_source=rss)** - *(Neowin)*
   Review Office update channel health and security baseline compliance.
 
 ## 🔍 Quick Links (Watch Items)
+- [Best LLM for security professionals](https://www.reddit.com/r/cybersecurity/comments/1wnns32/best_llm_for_security_professionals/) - *(Reddit r/cybersecurity)*
+- [Chinese hackers exploit WordPress, Zyxel flaws to steal govt data](https://www.bleepingcomputer.com/news/security/chinese-hackers-exploit-multiple-technologies-to-steal-govt-data/) - *(BleepingComputer)*
+- [[Academic Research] Do you have experience with ransomware?](https://www.reddit.com/r/cybersecurity/comments/1wnjsow/academic_research_do_you_have_experience_with/) - *(Reddit r/cybersecurity)*
+- [Cogent Security --> Reviews?](https://www.reddit.com/r/cybersecurity/comments/1wnilm2/cogent_security_reviews/) - *(Reddit r/cybersecurity)*
+- [Check Point Management Server 0-Day Vulnerability Actively Exploited in Attacks](https://cybersecuritynews.com/check-point-management-server-0-day-exploited/) - *(CybersecurityNews)*
 - [Breaking Down Appsec Part 5: You Have no Business Here (Business Logic Flaws)](https://www.reddit.com/r/cybersecurity/comments/1wnege9/breaking_down_appsec_part_5_you_have_no_business/) - *(Reddit r/cybersecurity)*
+- [Linux KVM/arm64 Vulnerability Lets Attackers Escape Virtual Machines and Gain Host Access](https://cybersecuritynews.com/linux-kvm-arm64-vulnerability/) - *(CybersecurityNews)*
 - [We analyzed 338 million attack simulations in production. Perimeter defense blocks 69% of attacks, but post-compromise blocking drops to 37%. AMA.](https://www.reddit.com/r/cybersecurity/comments/1wn9jc3/we_analyzed_338_million_attack_simulations_in/) - *(Reddit r/cybersecurity)*
-- [Why does food/beverage get so little attention as critical infrastructure?](https://www.reddit.com/r/cybersecurity/comments/1wn57cn/why_does_foodbeverage_get_so_little_attention_as/) - *(Reddit r/cybersecurity)*
-- [Legit Security ASPM](https://www.reddit.com/r/cybersecurity/comments/1wn47gx/legit_security_aspm/) - *(Reddit r/cybersecurity)*
 - [CISA orders feds to patch Zyxel flaw exploited for data theft](https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-zyxel-flaw-by-thursday/) - *(BleepingComputer)*
-- [Offered a job as Compliance Specialist](https://www.reddit.com/r/cybersecurity/comments/1wn3wtr/offered_a_job_as_compliance_specialist/) - *(Reddit r/cybersecurity)*
-- [Hatchet OAuth state CSRF — CVE-2026-61687](https://www.reddit.com/r/cybersecurity/comments/1wn16el/hatchet_oauth_state_csrf_cve202661687/) - *(Reddit r/cybersecurity)*
-- [“Cyber Security is not entry level position”](https://www.reddit.com/r/cybersecurity/comments/1wmyixt/cyber_security_is_not_entry_level_position/) - *(Reddit r/cybersecurity)*
-- [ FBI's CJIS v6.1: What Security Teams Need to Know. ](https://www.bleepingcomputer.com/news/security/fbis-cjis-v61-what-security-teams-need-to-know/) - *(BleepingComputer)*
-- [CVE-2026-12728](https://nvd.nist.gov/vuln/detail/CVE-2026-12728) - *(NVD)*
+- [CVE-2026-86109](https://www.cve.org/CVERecord?id=CVE-2026-86109) - *(CVE.org)*
 
 
