@@ -17,6 +17,8 @@ FILENAME_RULES = [
     (re.compile(r"HuntingtonLib",       re.I), ["nature"]),
     # Disney + Gators shoot — gators = nature
     (re.compile(r"DisneyGators",        re.I), ["nature", "travel"]),
+    # Japan trips
+    (re.compile(r"Japan",               re.I), ["travel", "street"]),
     # Add new filename-prefix rules here, e.g.:
     # (re.compile(r"CityShoot|Downtown", re.I), ["city"]),
 ]
@@ -29,12 +31,15 @@ DATE_RULES = [
     ("2018-03-01", "2018-03-31", ["city", "travel"]),
     # Philippines / Mount Pinatubo — August 2011 Showcase
     ("2011-08-01", "2011-08-31", ["nature", "travel"]),
+    # Japan trip — September 2026
+    ("2026-09-12", "2026-09-14", ["travel", "street"]),
 ]
 
 LOCATION_FILENAME_RULES = [
     (re.compile(r"HuntingtonLib", re.I), "Huntington Library, San Marino, CA"),
     (re.compile(r"DisneyGators", re.I), "Gatorland, Orlando, FL"),
     (re.compile(r"Disney", re.I), "Walt Disney World Resort, FL"),
+    (re.compile(r"Japan", re.I), "Osaka, Japan"),
 ]
 LOCATION_DATE_RULES = [
     # Explicit dates (must come first so they take precedence over general month-wide fallbacks)
@@ -129,6 +134,7 @@ LOCATION_DATE_RULES = [
     ("2026-03-19", "2026-05-23", "Orange County, CA"),
     
     ("2026-07-18", "2026-07-20", "Oaxaca, Mexico"),
+    ("2026-09-12", "2026-09-14", "Osaka, Japan"),
 ]
 
 # ───────────────────────────────────────────────────────────────────────────
