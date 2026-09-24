@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-23T15:16:23.548593+00:00",
-  "date": "2026-09-23",
+  "generated_utc": "2026-09-24T15:41:26.865527+00:00",
+  "date": "2026-09-24",
   "lookback_hours": 25,
   "source_status": [
     {
@@ -12,7 +12,7 @@
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 3
+      "count": 9
     },
     {
       "name": "Microsoft Intune What's New",
@@ -37,17 +37,17 @@
     {
       "name": "BleepingComputer",
       "status": "OK",
-      "count": 7
+      "count": 6
     },
     {
       "name": "Neowin",
       "status": "OK",
-      "count": 4
+      "count": 2
     },
     {
       "name": "The Hacker News",
       "status": "OK",
-      "count": 9
+      "count": 7
     },
     {
       "name": "Krebs on Security",
@@ -99,226 +99,235 @@
   "items": {
     "high_alert": [
       {
-        "fingerprint": "f2020a5597ab",
-        "title": "This Windows Malware is Built to Let Up to Four AI Models Vote on Its Next Move",
-        "link": "https://thehackernews.com/2026/09/windows-malware-is-built-to-let-up-to.html",
-        "source": "The Hacker News",
-        "published": "2026-09-23T14:17:58+00:00",
-        "summary": "A Windows malware called CLOSEDQUORUM is built to take orders from a vote of up to four AI models instead of an attacker's server, Cisco Talos said on September 22. The models can choose to steal Windows credentials, saved browser passwords, and crypto wallet data. Talos has not seen this setup work from start to finish, and the public version of the malware does not work as it is.",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "13546ce3f0cb",
-        "title": "Arista patches actively exploited VeloCloud Orchestrator zero-day",
-        "link": "https://www.bleepingcomputer.com/news/security/arista-patches-actively-exploited-velocloud-orchestrator-zero-day/",
+        "fingerprint": "337a62006305",
+        "title": "CISA: Ransomware gangs now exploiting critical TeamCity flaw",
+        "link": "https://www.bleepingcomputer.com/news/security/cisa-ransomware-gangs-now-exploiting-critical-teamcity-flaw/",
         "source": "BleepingComputer",
-        "published": "2026-09-23T12:29:53+00:00",
-        "summary": "Arista Networks has released security patches for a zero-day flaw that is being actively exploited and affects VeloCloud Orchestrator (VCO) On-Prem deployments. [...]",
+        "published": "2026-09-24T10:42:37+00:00",
+        "summary": "​The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies on Wednesday that ransomware gangs are now also exploiting a critical JetBrains TeamCity vulnerability patched in July. [...]",
         "category": "high_alert"
       },
       {
-        "fingerprint": "3410eac1e2f2",
-        "title": "Exploit Released for Unpatched Ubuntu Linux Flaw Enabling Host-Root Container Escape",
-        "link": "https://thehackernews.com/2026/09/exploit-released-for-unpatched-ubuntu.html",
+        "fingerprint": "3cb615c4e239",
+        "title": "17,000 URLs Reveal How ClickFix Turns Trusted Websites Into Malware Traps: Report by CTM360",
+        "link": "https://thehackernews.com/2026/09/17000-urls-reveal-how-clickfix-turns.html",
         "source": "The Hacker News",
-        "published": "2026-09-23T11:12:18+00:00",
-        "summary": "A use-after-free in the Linux kernel's AF_UNIX socket subsystem can be used to escape a container and gain root on the host, security firm DepthFirst said in research published September 22. The flaw, tracked as CVE-2026-80521 (CVSS score: 7.8), was fixed upstream on August 6, but Ubuntu has not shipped the patch for its 26.04, 24.04, or 22.04 LTS releases. DepthFirst",
+        "published": "2026-09-24T09:14:21+00:00",
+        "summary": "ClickFix has become the most common way attackers get into enterprise networks, and it does it without an exploit, an attachment, or a file on disk. Our new global threat report traces the technique from a novelty in late 2023 to a subscription product with on-chain infrastructure and a state-sponsored user base, and explains why blocking malicious domains is no longer a useful defense. Read",
         "category": "high_alert"
       },
       {
-        "fingerprint": "c7dcd5357b79",
-        "title": "F5 Patches Critical BIG-IP APM Zero-Day Exploited for Unauthenticated RCE on OAuth Servers",
-        "link": "https://thehackernews.com/2026/09/f5-patches-critical-big-ip-apm-zero-day.html",
+        "fingerprint": "a3b7762dac6a",
+        "title": "Attackers Exploit WordPress CVE-2026-87902 Within Hours of Disclosure",
+        "link": "https://thehackernews.com/2026/09/attackers-exploit-wordpress-cve-2026.html",
         "source": "The Hacker News",
-        "published": "2026-09-23T08:29:48+00:00",
-        "summary": "Attackers are exploiting a critical flaw in F5 BIG-IP Access Policy Manager (APM) that lets them run code on a BIG-IP system without logging in, F5 says. The flaw, CVE-2026-94127, affects only systems in which APM serves as an OAuth authorization server, issuing access tokens to applications. F5 disclosed it in an advisory on September 22 and has released engineering hotfixes.",
+        "published": "2026-09-24T05:36:18+00:00",
+        "summary": "Threat actors have begun to actively exploit a critical security flaw in WordPress within hours of public disclosure. The vulnerability in question is CVE-2026-87902 (CVSS score: 9.2), which could allow an unauthenticated attacker to obtain remote code execution (RCE). \"An unauthenticated attacker can make get_page_template() page-template resolution include a chosen readable local .php file",
         "category": "high_alert"
       },
       {
-        "fingerprint": "98db8e414991",
-        "title": "Chinese Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy CLEANGULP Malware",
-        "link": "https://thehackernews.com/2026/09/chinese-hackers-exploit-chrome-windows.html",
-        "source": "The Hacker News",
-        "published": "2026-09-23T08:29:24+00:00",
-        "summary": "A Chinese threat actor codenamed UTA0565 has been observed exploiting the recently disclosed Google Chrome-Microsoft Windows exploit chain as zero-days through fake websites. The attacks, detected on September 3 and 4, 2026, involved the chaining of two vulnerabilities in Chrome (CVE-2026-85046, CVE-2026-87491) and one impacting Windows Advanced Local Procedure Call (CVE-2026-85880) to break",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "01a33df0878f",
-        "title": "Ryuk ransomware member sentenced to 24 months in prison",
-        "link": "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-sentenced-to-24-months-in-prison/",
+        "fingerprint": "fb1c3a4b3030",
+        "title": "New RemControl Android banking malware targets users in Europe and Canada",
+        "link": "https://www.bleepingcomputer.com/news/security/new-remcontrol-android-banking-malware-targets-users-in-europe-and-canada/",
         "source": "BleepingComputer",
-        "published": "2026-09-23T08:20:05+00:00",
-        "summary": "An Armenian man was sentenced to 24 months in prison and 3 years of supervised release for hacking U.S. companies and encrypting their systems in Ryuk ransomware attacks. [...]",
+        "published": "2026-09-23T21:25:13+00:00",
+        "summary": "A new Android malware-as-a-service (MaaS) platform called RemControl is targeting users through malvertising campaigns that impersonate the TVTap IPTV application. [...]",
         "category": "high_alert"
       },
       {
-        "fingerprint": "33abb662d283",
-        "title": "F5 patches BIG-IP APM zero-day flaw exploited in RCE attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/f5-warns-of-big-ip-apm-remote-code-execution-zero-day-exploited-in-attacks/",
+        "fingerprint": "5d775a7e11ed",
+        "title": "Check Point warns of hackers exploiting Security Gateway VPN RCE flaw",
+        "link": "https://www.bleepingcomputer.com/news/security/check-point-warns-of-hackers-exploiting-security-gateway-vpn-rce-flaw/",
         "source": "BleepingComputer",
-        "published": "2026-09-23T07:17:23+00:00",
-        "summary": "F5 has released security updates to address a critical BIG-IP APM zero-day vulnerability being exploited in remote code execution attacks. [...]",
+        "published": "2026-09-23T19:53:54+00:00",
+        "summary": "Cybersecurity company Check Point has confirmed active exploitation of CVE-2026-85102, a pre-authentication remote code execution (RCE) vulnerability in the VPN certificate-handling functionality of its Security Gateway product. [...]",
         "category": "high_alert"
       },
       {
-        "fingerprint": "86a3b79079b5",
-        "title": "ShinyHunters claims FBI hack, data theft in PeopleSoft zero-day breach",
-        "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-fbi-hack-data-theft-in-peoplesoft-zero-day-breach/",
+        "fingerprint": "ac0cf3743dbe",
+        "title": "Hackers start exploiting critical WordPress flaw for code execution",
+        "link": "https://www.bleepingcomputer.com/news/security/hackers-start-exploiting-critical-wordpress-flaw-for-code-execution/",
         "source": "BleepingComputer",
-        "published": "2026-09-22T19:13:29+00:00",
-        "summary": "The ShinyHunters extortion gang claims it breached FBI systems using a new Oracle PeopleSoft zero-day vulnerability, gaining access to internal services and stealing sensitive data on employees and job applicants. [...]",
+        "published": "2026-09-23T18:31:22+00:00",
+        "summary": "Threat actors have moved from probing WordPress sites vulnerable to CVE-2026-87902 to exploiting the flaw to write files to disk that execute shell commands when accessed. [...]",
         "category": "high_alert"
       },
       {
-        "fingerprint": "40b35a9752b8",
-        "title": "Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks",
-        "link": "https://thehackernews.com/2026/09/check-point-warns-of-management-server.html",
+        "fingerprint": "c11e362b4bc3",
+        "title": "Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry",
+        "link": "https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html",
         "source": "The Hacker News",
-        "published": "2026-09-22T18:29:39+00:00",
-        "summary": "Attackers exploited a previously unknown flaw in Check Point's Security Management Server in a handful of targeted attacks on July 23, the company said. The flaw, CVE-2026-93616, allows an attacker who can access the server's web service to run scripts on it without logging in. Check Point released a fix on September 22 for the server that controls firewall policies for the Check Point",
+        "published": "2026-09-23T18:06:30+00:00",
+        "summary": "Cybersecurity researchers have disclosed Go-based malware distributed via two Go Modules and two Terraform providers, marking the first time threat actors are using the centralized repository hosted by HashiCorp as a distribution vector for malicious payloads. According to Aikido, the list of Terraform providers and Go modules is below - gocommunity-io/dockerd (222 downloads) kreuzwenker/",
         "category": "high_alert"
       },
       {
-        "fingerprint": "3ae5f2da81ce",
-        "title": "New ClosedQuorum Windows malware uses AI for attack decisions",
-        "link": "https://www.bleepingcomputer.com/news/security/new-closedquorum-windows-malware-uses-ai-for-attack-decisions/",
-        "source": "BleepingComputer",
-        "published": "2026-09-22T18:04:39+00:00",
-        "summary": "A new Windows malware named ClosedQuorum uses Google Gemini, DeepSeek, Qwen, and Mistral AI models to autonomously determine the actions to take during post-compromise stages of an attack. [...]",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "611460f324ac",
-        "title": "Critical Bifrost AI Gateway Flaw Lets Attackers Run Commands Without Credentials",
-        "link": "https://thehackernews.com/2026/09/critical-bifrost-ai-gateway-flaw-lets.html",
+        "fingerprint": "71e4c320ef4d",
+        "title": "MikroTrick Chain Let Attackers Take Over MikroTik Routers Without a Password or SSH Key",
+        "link": "https://thehackernews.com/2026/09/mikrotrick-chain-let-attackers-take.html",
         "source": "The Hacker News",
-        "published": "2026-09-22T16:41:12+00:00",
-        "summary": "A critical vulnerability in Bifrost, an open-source AI gateway that routes requests to more than 20 LLM providers, allows an unauthenticated attacker to run arbitrary commands on the gateway server with a single HTTP request. The flaw, tracked as CVE-2026-90898 (CVSS score: 9.8), affects all versions of the Bifrost HTTP transport before 2.1.0 when management authentication is",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "9b5a8acf125b",
-        "title": "Check Point warns of Management Server zero-day exploited in attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/check-point-patches-management-server-zero-day-exploited-in-attacks/",
-        "source": "BleepingComputer",
-        "published": "2026-09-22T16:32:47+00:00",
-        "summary": "Check Point Software released emergency hotfixes to address a critical Security Management Server vulnerability that could let attackers run arbitrary scripts. [...]",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "9f761c5b9c17",
-        "title": "Researcher Drops BigDiskBuster Zero-Day PoC That Blocks Microsoft Defender Updates",
-        "link": "https://thehackernews.com/2026/09/researcher-drops-bigdiskbuster-zero-day.html",
-        "source": "The Hacker News",
-        "published": "2026-09-22T16:14:04+00:00",
-        "summary": "A zero-day proof-of-concept tool that stops Microsoft Defender from installing platform and signature updates by filling all available disk space was published on GitHub on September 19. The tool, called BigDiskBuster, has no patch, no CVE, and no Microsoft advisory. Its author, Abdelhamid Naceri, is a former Microsoft security researcher whose earlier Defender exploits were used in",
+        "published": "2026-09-23T16:06:41+00:00",
+        "summary": "Two MikroTik RouterOS SSH vulnerabilities chained together let attackers take full administrative control of Internet-exposed routers without a password, SSH key, or completed authentication. The chain, which CERT Polska calls MikroTrick, combines an SSH state-machine flaw (CVE-2026-67279) with an argument-injection bug in the RouterOS login process (CVE-2026-86060). Attack logs date to at",
         "category": "high_alert"
       }
     ],
     "bad_updates": [],
     "upcoming_changes": [
       {
-        "fingerprint": "9f187e6f39bd",
-        "title": "Dynamics 365 Project Operations: Transaction Journals",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571303",
+        "fingerprint": "a889d986e05a",
+        "title": "Power Apps: Control information density in model-driven apps",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=572682",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-22T22:57:16+00:00",
-        "summary": "Transaction journals let users author complete time, expense, and material transactions—including different transaction classes within the same journal. Users enter transactions through a dedicated Transactions tab and select Preview to generate and review the journal lines and relationships that will be created. When the journal is confirmed, Project Operations creates the applicable cost, unb...",
+        "published": "2026-09-23T22:59:12+00:00",
+        "summary": "Model-driven apps now support configurable display density settings that let users choose how information is spaced throughout the application. Users can select from three density options: Comfortable (default) Cozy Compact ​ Each density setting adjusts layout spacing while maintaining accessibility target-size requirements. Administrators and makers can configure default density settings at t...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "4b3e65c4f17f",
-        "title": "Microsoft Copilot (Microsoft 365): Federated Copilot Connectors will support write, update and delete actions",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570964",
+        "fingerprint": "87b189a25337",
+        "title": "Microsoft Purview: Information Protection-Auto-labeling per-policy coverage report",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=572677",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-22T22:57:16+00:00",
-        "summary": "Federated Copilot connectors (MCP type) currently let Microsoft 365 Copilot read data from third-party services in real time. With this update, the connector tools that create, update, and delete content in those services are unblocked in Copilot Chat, so users can complete work without leaving Copilot. Copilot acts with the user's own account and permissions at the third-party service, and eve...",
+        "published": "2026-09-23T22:59:12+00:00",
+        "summary": "For each enforced auto-labeling policy, admins can view how files processed during enforcement correlate to the latest simulation run. The per-policy coverage report shows volumes of files that have been labeled or are not yet labeled, and whether those files were included in the last simulation snapshot. This helps admins understand enforcement progress for a specific policy against the data s...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "1de053956a99",
-        "title": "Dynamics 365 Field Service: Choose how work order services flow into project financials",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570861",
+        "fingerprint": "1ee9c58f31d3",
+        "title": "Microsoft Teams: Add alternate text to images shared from OneDrive and SharePoint",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571687",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-22T22:57:16+00:00",
-        "summary": "Organizations can now control how work order services contribute to project financials when using Dynamics 365 Field Service and Project Operations together. A new administrator-level setting lets organizations choose whether work order services flow as time or material transactions based on how they manage field execution and technician labor. GA date: November CY2026",
+        "published": "2026-09-23T22:59:12+00:00",
+        "summary": "Improve accessibility by adding alternate text to images shared in Teams from OneDrive and SharePoint, helping users better understand visual content GA date: November CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "3688c933c8e1",
+        "title": "Dynamics 365 Field Service: Optimize asset maintenance schedules using completed service",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571669",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-23T22:59:12+00:00",
+        "summary": "Business value Asset maintenance is most effective when service intervals reflect how equipment is actually used and maintained. Static schedules that continue from an assumed date or meter value can cause an organization to service an asset more often than necessary after early maintenance or wait too long after late, partial, or usage-intensive service. Feeding completed maintenance activitie...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "610704f8dd32",
+        "title": "Dynamics 365 Field Service: Forecast planned maintenance demand",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571668",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-23T22:59:12+00:00",
+        "summary": "Business value Maintenance demand often becomes visible to service operations only after work orders are created, leaving limited time to prepare capacity and materials. A forward-looking maintenance forecast gives organizations earlier visibility into expected work so they can anticipate labor, skills, parts, and scheduling demand across the asset population. This supports more proactive opera...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "70b4fdecf3d9",
+        "title": "Dynamics 365 Field Service: Forecast asset usage to predict maintenance due dates",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571667",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-23T22:59:12+00:00",
+        "summary": "Business value Usage-based maintenance aligns service with the work an asset has actually performed, but a current meter reading alone does not tell the organization when the next threshold will be reached. Forecasting the asset's expected usage rate converts meter-based maintenance from a reactive trigger into a forward-looking planning signal. Maintenance and reliability teams can use the pro...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "71261152b0e8",
+        "title": "Dynamics 365 Field Service: Plan asset maintenance using time, actual usage, and service sequences",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571665",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-23T22:59:12+00:00",
+        "summary": "Business value Organizations can maintain assets according to how the equipment ages, how much it is actually used, and which service activities have already been completed. A flexible maintenance schedule helps avoid servicing lightly used equipment too often while reducing the risk that heavily used equipment operates beyond its required maintenance interval. Usage-based schedules connect mai...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "34ad0307b0e7",
+        "title": "Outlook: Duplicate events in Outlook mobile apps",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570666",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-23T22:59:12+00:00",
+        "summary": "We are adding the ability to duplicate an event. Simply go to the event details and select \"duplicate event\" GA date: October CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "9e3b396b29a1",
+        "title": "PowerPoint: Skills in Brand Kit",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569018",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-23T22:59:12+00:00",
+        "summary": "Upload skill (.md file) in Brand Kit and use within PPT Copilot GA date: October CY2026",
         "category": "upcoming_changes"
       }
     ],
     "official_news": [
       {
-        "fingerprint": "0e966515bab1",
-        "title": "Microsoft releases KB5124010 update for Windows 11 with a long list of new features",
-        "link": "https://www.neowin.net/news/microsoft-releases-kb5124010-update-for-windows-11-with-a-long-list-of-new-features/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-09-22T17:44:01+00:00",
-        "summary": "Microsoft just released Windows 11 preview update KB5124010 for versions 25H2 and 24H2. See what's new: Read more...",
-        "category": "official_news"
-      },
-      {
-        "fingerprint": "aa3ce05dc108",
-        "title": "Unmasking EvilTokens: Getting to the root of device code phishing",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/09/22/unmasking-eviltokens-getting-to-the-root-of-device-code-phishing/",
+        "fingerprint": "35c7015ab6b1",
+        "title": "Reimagining the SOC for the agentic era in Microsoft Defender",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/09/23/reimagining-the-soc-for-the-agentic-era-in-microsoft-defender/",
         "source": "Microsoft Security Blog",
-        "published": "2026-09-22T15:00:00+00:00",
-        "summary": "EvilTokens has quickly become one of the top PhaaS platforms, enabling device code phishing attacks through AI-assisted lures, automated infrastructure, and token theft. In collaboration with partners, Microsoft Digital Crimes Unit (DCU) facilitated a disruption of EvilTokens infrastructure and operations. The post Unmasking EvilTokens: Getting to the root of device code phishing appeared first...",
+        "published": "2026-09-23T16:00:00+00:00",
+        "summary": "We are announcing ISOC in Microsoft Defender: a foundation built for agentic security that brings leading solutions for SIEM and threat protection together. The post Reimagining the SOC for the agentic era in Microsoft Defender appeared first on Microsoft Security Blog .",
         "category": "official_news"
       }
     ],
     "community_buzz": [
       {
-        "fingerprint": "7b979421d926",
-        "title": "Windows 11 KB5124010 does not contain new WinRE feature after all",
-        "link": "https://www.neowin.net/news/windows-11-kb5124010-does-not-contain-new-winre-feature-after-all/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-09-23T13:00:01+00:00",
-        "summary": "Windows 11 admins expecting an easier way to connect to Wi-Fi in WinRE may have to wait longer, as Microsoft delays the anticipated feature, kind of. Read more...",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "e4ea859fc28a",
-        "title": "Report: Windows 11 KB5124010 crashing games like Battlefield 6 within minutes",
-        "link": "https://www.neowin.net/news/report-windows-11-kb5124010-crashing-games-like-battlefield-6-within-minutes/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-09-23T06:20:01+00:00",
-        "summary": "Windows 11's latest KB5124010 update is seemingly turning Battlefield 6 and some other games into a crash fest within just minutes or even seconds of launching. Read more...",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "73eacd939f59",
-        "title": "Chinese hackers exploit WordPress, Zyxel flaws to steal govt data",
-        "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-exploit-multiple-technologies-to-steal-govt-data/",
+        "fingerprint": "416c452a3552",
+        "title": "Hackers now exploit critical Roundcube flaw in code injection attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/critical-roundcube-flaw-now-actively-exploited-in-code-injection-attacks/",
         "source": "BleepingComputer",
-        "published": "2026-09-22T20:35:24+00:00",
-        "summary": "A Chinese-speaking threat actor has been exploiting vulnerabilities in ZyXEL GS1900 Smart Managed Switches and WordPress to steal sensitive data from 996 devices and more than 18,500 records stored in backend databases. [...]",
+        "published": "2026-09-24T13:27:57+00:00",
+        "summary": "A high-severity Roundcube Webmail vulnerability patched in May is now being actively exploited in attacks, according to the Canadian Centre for Cyber Security. [...]",
         "category": "community_buzz"
       },
       {
-        "fingerprint": "0a77fbf41fa8",
-        "title": "WordPress Issues Patch for Critical Flaw That Can Enable Code Execution on Some Servers",
-        "link": "https://thehackernews.com/2026/09/wordpress-issues-patch-for-critical.html",
+        "fingerprint": "139c725a944b",
+        "title": "Windows 11 KB5124010 update released with 46 changes and fixes",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5124010-update-released-with-46-changes-and-fixes/",
+        "source": "BleepingComputer",
+        "published": "2026-09-24T12:16:32+00:00",
+        "summary": "Microsoft released the KB5124010 September 2026 non-security preview update for Windows 11 24H2 and 25H2, with 46 changes including Bluetooth improvements and the ability to remap the Copilot key. [...]",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "1d2667fda280",
+        "title": "Corp MDM Spyware Targets Logistics Firms, Steals New SMS and Redirects Calls",
+        "link": "https://thehackernews.com/2026/09/corp-mdm-spyware-targets-logistics.html",
         "source": "The Hacker News",
-        "published": "2026-09-22T18:03:10+00:00",
-        "summary": "WordPress has fixed a critical flaw in its core software that lets an attacker with no account make a site load a PHP file from outside its theme folders. On some servers, that can go further, allowing the attacker to run their own code. The fix shipped on September 22 in WordPress 7.1.2, with fixes for every branch the project still supports, back to 4.7, and WordPress is telling site owners",
+        "published": "2026-09-24T12:05:27+00:00",
+        "summary": "The logistics sector has become the target of a new malicious cyber campaign that distributes an Android spyware codenamed Corp MDM. According to Have I Been Squatted, the campaign uses fake Google Play pages branded as CEVA and TKW Logistics to distribute an Android Package Kit (APK) file that's dressed up as a system service. The delivered app has the package name \"com.corp.mdm\" Corp MDM",
         "category": "community_buzz"
       },
       {
-        "fingerprint": "cc01396db280",
-        "title": "Malicious npm Package Poses as Twilio Bug-Bounty Probe, Can Exfiltrate Credentials",
-        "link": "https://thehackernews.com/2026/09/malicious-npm-package-poses-as-twilio.html",
+        "fingerprint": "0cfcf071a259",
+        "title": "TeamFiltration Campaign Compromises Seven Microsoft 365 Accounts Using Default Passwords",
+        "link": "https://thehackernews.com/2026/09/teamfiltration-compromises-seven.html",
         "source": "The Hacker News",
-        "published": "2026-09-22T17:58:15+00:00",
-        "summary": "Cybersecurity researchers have disclosed details of a malicious npm package named \"tw-pkgprobe-7731\" that masquerades as a security tool targeting developers integrating Twilio into their applications, while stealthily attempting to harvest sensitive data. The package, named \"tw-pkgprobe-7731,\" was first uploaded to the npm registry in mid-August 2026 by an npm account named \"twdepprobe7731.\"",
+        "published": "2026-09-24T06:32:03+00:00",
+        "summary": "Cybersecurity researchers have disclosed details of an active TeamFiltration campaign codenamed UNK_CondorFiltration that has targeted over 5,700 accounts across 28 Microsoft 365 tenants. According to Proofpoint, the activity has primarily focused on Chilean retail and financial institutions. It originated from 1,487 unique AWS EC2 source IP addresses. \"The campaign compromised 7 accounts –",
         "category": "community_buzz"
       },
       {
-        "fingerprint": "45a660db3d31",
-        "title": "Microsoft releases preview update KB5124006 for Windows 11 26H1",
-        "link": "https://www.neowin.net/news/microsoft-releases-preview-update-kb5124006-for-windows-11-26h1/?utm_source=rss",
+        "fingerprint": "81b16fac237b",
+        "title": "Spotify's latest integration wants to DJ your life on autopilot",
+        "link": "https://www.neowin.net/news/spotifys-latest-integration-wants-to-dj-your-life-on-autopilot/?utm_source=rss",
         "source": "Neowin",
-        "published": "2026-09-22T17:48:30+00:00",
-        "summary": "Microsoft has released Windows 11 preview update KB5124006 for version 26H1. See what's included in the update: Read more...",
+        "published": "2026-09-24T06:26:01+00:00",
+        "summary": "Spotify's latest AI partnership lets an assistant manage your entire listening schedule automatically. Read more...",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "5d0eb9be2ba5",
+        "title": "Microsoft adds a new admin tool for Windows 11 app and policy configurations",
+        "link": "https://www.neowin.net/news/microsoft-adds-a-new-admin-tool-for-windows-11-app-and-policy-configurations/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-09-23T17:16:01+00:00",
+        "summary": "Microsoft has added a couple of new Intune features recently, and these should make the life of IT admins and sysadmins a lot easier. Read more...",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "3a90ab279b24",
+        "title": "A Leaked GitLab Issue Email Address Lets Anyone Push Code and Run CI Jobs as You",
+        "link": "https://thehackernews.com/2026/09/a-leaked-gitlab-issue-email-address.html",
+        "source": "The Hacker News",
+        "published": "2026-09-23T16:53:10+00:00",
+        "summary": "The private email address GitLab gives you for filing issues by email is a credential. Anyone who gets it can email a patch that GitLab commits in your name, to any branch you can push to, including main, and can start CI/CD jobs that run as you. GitLab shows each user this address behind a button labeled \"Email work item to this project.\" Mail sent to it opens an issue in that project, authored",
         "category": "community_buzz"
       }
     ]
