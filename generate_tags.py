@@ -32,14 +32,13 @@ DATE_RULES = [
     # Philippines / Mount Pinatubo — August 2011 Showcase
     ("2011-08-01", "2011-08-31", ["nature", "travel"]),
     # Japan trip — September 2026
-    ("2026-09-12", "2026-09-14", ["travel", "street"]),
+    ("2026-09-11", "2026-09-20", ["travel", "street"]),
 ]
 
 LOCATION_FILENAME_RULES = [
     (re.compile(r"HuntingtonLib", re.I), "Huntington Library, San Marino, CA"),
     (re.compile(r"DisneyGators", re.I), "Gatorland, Orlando, FL"),
     (re.compile(r"Disney", re.I), "Walt Disney World Resort, FL"),
-    (re.compile(r"Japan", re.I), "Osaka, Japan"),
 ]
 LOCATION_DATE_RULES = [
     # Explicit dates (must come first so they take precedence over general month-wide fallbacks)
@@ -134,8 +133,8 @@ LOCATION_DATE_RULES = [
     ("2026-03-19", "2026-05-23", "Orange County, CA"),
     
     ("2026-07-18", "2026-07-20", "Oaxaca, Mexico"),
-    ("2026-09-12", "2026-09-14", "Osaka, Japan"),
-    ("2026-09-15", "2026-09-20", "Kyoto, Japan"),
+    ("2026-09-11", "2026-09-16", "Osaka, Japan"),
+    ("2026-09-17", "2026-09-20", "Kyoto, Japan"),
 ]
 
 # ───────────────────────────────────────────────────────────────────────────
