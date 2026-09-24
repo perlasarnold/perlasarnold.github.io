@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - September 24, 2026"
+date: 2026-09-24 18:05:11 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - September 24, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -32,4 +40,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Australian Medicare Stars Breach by OoenAI agent](https://www.reddit.com/r/cybersecurity/comments/1woyd69/australian_medicare_stars_breach_by_ooenai_agent/) - *(Reddit r/cybersecurity)*
 - [How do you utilise AI in Cyber Security Work?](https://www.reddit.com/r/cybersecurity/comments/1woxao2/how_do_you_utilise_ai_in_cyber_security_work/) - *(Reddit r/cybersecurity)*
 - [Anyone combining third-party cybersecurity assessments with broader vendor risk evaluations?](https://www.reddit.com/r/cybersecurity/comments/1wox4nl/anyone_combining_thirdparty_cybersecurity/) - *(Reddit r/cybersecurity)*
+
 
