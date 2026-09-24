@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - September 23, 2026"
+date: 2026-09-23 18:06:45 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - September 23, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -79,4 +87,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [New Cpanel Vulnerability Allows Attackers to Access Other Users’ Accounts](https://cybersecuritynews.com/cpanel-user-account-access-flaw/) - *(CybersecurityNews)*
 - [NIS2 in France: ANSSI's ReCyF framework has 20 objectives and ~150 requirements. For SMEs, which ones break first?](https://www.reddit.com/r/cybersecurity/comments/1wo858p/nis2_in_france_anssis_recyf_framework_has_20/) - *(Reddit r/cybersecurity)*
 - [Covert Air-Gap Exfiltration via Smartphone Class-D Audio Amplifiers (Zero Permissions Required) - TEMPEST PoC](https://www.reddit.com/r/cybersecurity/comments/1wo84fs/covert_airgap_exfiltration_via_smartphone_classd/) - *(Reddit r/cybersecurity)*
+
 
