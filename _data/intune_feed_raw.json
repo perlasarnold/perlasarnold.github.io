@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-24T15:41:26.865527+00:00",
-  "date": "2026-09-24",
+  "generated_utc": "2026-09-25T15:42:55.399973+00:00",
+  "date": "2026-09-25",
   "lookback_hours": 25,
   "source_status": [
     {
@@ -12,12 +12,12 @@
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 9
+      "count": 11
     },
     {
       "name": "Microsoft Intune What's New",
       "status": "OK",
-      "count": 0
+      "count": 2
     },
     {
       "name": "Windows IT Pro Blog",
@@ -27,7 +27,7 @@
     {
       "name": "Microsoft Security Blog",
       "status": "OK",
-      "count": 1
+      "count": 2
     },
     {
       "name": "Microsoft Entra Blog",
@@ -37,17 +37,17 @@
     {
       "name": "BleepingComputer",
       "status": "OK",
-      "count": 6
+      "count": 2
     },
     {
       "name": "Neowin",
       "status": "OK",
-      "count": 2
+      "count": 1
     },
     {
       "name": "The Hacker News",
       "status": "OK",
-      "count": 7
+      "count": 3
     },
     {
       "name": "Krebs on Security",
@@ -99,235 +99,200 @@
   "items": {
     "high_alert": [
       {
-        "fingerprint": "337a62006305",
-        "title": "CISA: Ransomware gangs now exploiting critical TeamCity flaw",
-        "link": "https://www.bleepingcomputer.com/news/security/cisa-ransomware-gangs-now-exploiting-critical-teamcity-flaw/",
-        "source": "BleepingComputer",
-        "published": "2026-09-24T10:42:37+00:00",
-        "summary": "​The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies on Wednesday that ransomware gangs are now also exploiting a critical JetBrains TeamCity vulnerability patched in July. [...]",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "3cb615c4e239",
-        "title": "17,000 URLs Reveal How ClickFix Turns Trusted Websites Into Malware Traps: Report by CTM360",
-        "link": "https://thehackernews.com/2026/09/17000-urls-reveal-how-clickfix-turns.html",
+        "fingerprint": "3998bde4430b",
+        "title": "Roundcube Pre-Auth SQL Injection Flaw Actively Exploited in the Wild",
+        "link": "https://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html",
         "source": "The Hacker News",
-        "published": "2026-09-24T09:14:21+00:00",
-        "summary": "ClickFix has become the most common way attackers get into enterprise networks, and it does it without an exploit, an attachment, or a file on disk. Our new global threat report traces the technique from a novelty in late 2023 to a subscription product with on-chain infrastructure and a state-sponsored user base, and explains why blocking malicious domains is no longer a useful defense. Read",
+        "published": "2026-09-25T10:14:02+00:00",
+        "summary": "The Canadian Centre for Cyber Security has warned that a now-patched Roundcube Webmail vulnerability is being actively exploited in the wild. The vulnerability in question is CVE-2026-48842 (CVSS score: 8.1), a pre-authentication SQL injection in the virtuser_query plugin of Roundcube Webmail versions 1.6.x before 1.6.16 and 1.7.x before 1.7.1. The issue stems from a preg_replace() backslash",
         "category": "high_alert"
       },
       {
-        "fingerprint": "a3b7762dac6a",
-        "title": "Attackers Exploit WordPress CVE-2026-87902 Within Hours of Disclosure",
-        "link": "https://thehackernews.com/2026/09/attackers-exploit-wordpress-cve-2026.html",
+        "fingerprint": "4aa8fdb4d047",
+        "title": "WSO2 and Adobe Commerce Flaws Exploited in Attacks, Added to CISA KEV",
+        "link": "https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html",
         "source": "The Hacker News",
-        "published": "2026-09-24T05:36:18+00:00",
-        "summary": "Threat actors have begun to actively exploit a critical security flaw in WordPress within hours of public disclosure. The vulnerability in question is CVE-2026-87902 (CVSS score: 9.2), which could allow an unauthenticated attacker to obtain remote code execution (RCE). \"An unauthenticated attacker can make get_page_template() page-template resolution include a chosen readable local .php file",
+        "published": "2026-09-25T04:46:34+00:00",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added two critical security flaws impacting WSO2 and Adobe Commerce and Magento to its Known Exploited Vulnerabilities (KEV) catalog, based on evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-5430 (CVS score: 9.8) - A path traversal vulnerability in WSO2 API Control Plane,",
         "category": "high_alert"
       },
       {
-        "fingerprint": "fb1c3a4b3030",
-        "title": "New RemControl Android banking malware targets users in Europe and Canada",
-        "link": "https://www.bleepingcomputer.com/news/security/new-remcontrol-android-banking-malware-targets-users-in-europe-and-canada/",
+        "fingerprint": "c6252cd361bb",
+        "title": "MacSync malware uses public iCloud calendars to deliver new payloads",
+        "link": "https://www.bleepingcomputer.com/news/security/macsync-malware-uses-public-icloud-calendars-to-deliver-new-payloads/",
         "source": "BleepingComputer",
-        "published": "2026-09-23T21:25:13+00:00",
-        "summary": "A new Android malware-as-a-service (MaaS) platform called RemControl is targeting users through malvertising campaigns that impersonate the TVTap IPTV application. [...]",
+        "published": "2026-09-24T20:53:35+00:00",
+        "summary": "A new variant of the MacSync malware targeting macOS systems now uses public iCloud calendar events to deliver new native payloads. [...]",
         "category": "high_alert"
       },
       {
-        "fingerprint": "5d775a7e11ed",
-        "title": "Check Point warns of hackers exploiting Security Gateway VPN RCE flaw",
-        "link": "https://www.bleepingcomputer.com/news/security/check-point-warns-of-hackers-exploiting-security-gateway-vpn-rce-flaw/",
+        "fingerprint": "254d355616dd",
+        "title": "New Carbonato malware uses AI agents to hijack exposed Docker hosts",
+        "link": "https://www.bleepingcomputer.com/news/security/new-carbonato-malware-uses-ai-agents-to-hijack-exposed-docker-hosts/",
         "source": "BleepingComputer",
-        "published": "2026-09-23T19:53:54+00:00",
-        "summary": "Cybersecurity company Check Point has confirmed active exploitation of CVE-2026-85102, a pre-authentication remote code execution (RCE) vulnerability in the VPN certificate-handling functionality of its Security Gateway product. [...]",
+        "published": "2026-09-24T20:10:48+00:00",
+        "summary": "A new botnet malware called Carbonato is targeting insecure hosts running Docker daemons to install the Hermes Agent AI framework and take control. [...]",
         "category": "high_alert"
       },
       {
-        "fingerprint": "ac0cf3743dbe",
-        "title": "Hackers start exploiting critical WordPress flaw for code execution",
-        "link": "https://www.bleepingcomputer.com/news/security/hackers-start-exploiting-critical-wordpress-flaw-for-code-execution/",
-        "source": "BleepingComputer",
-        "published": "2026-09-23T18:31:22+00:00",
-        "summary": "Threat actors have moved from probing WordPress sites vulnerable to CVE-2026-87902 to exploiting the flaw to write files to disk that execute shell commands when accessed. [...]",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "c11e362b4bc3",
-        "title": "Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry",
-        "link": "https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html",
-        "source": "The Hacker News",
-        "published": "2026-09-23T18:06:30+00:00",
-        "summary": "Cybersecurity researchers have disclosed Go-based malware distributed via two Go Modules and two Terraform providers, marking the first time threat actors are using the centralized repository hosted by HashiCorp as a distribution vector for malicious payloads. According to Aikido, the list of Terraform providers and Go modules is below - gocommunity-io/dockerd (222 downloads) kreuzwenker/",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "71e4c320ef4d",
-        "title": "MikroTrick Chain Let Attackers Take Over MikroTik Routers Without a Password or SSH Key",
-        "link": "https://thehackernews.com/2026/09/mikrotrick-chain-let-attackers-take.html",
-        "source": "The Hacker News",
-        "published": "2026-09-23T16:06:41+00:00",
-        "summary": "Two MikroTik RouterOS SSH vulnerabilities chained together let attackers take full administrative control of Internet-exposed routers without a password, SSH key, or completed authentication. The chain, which CERT Polska calls MikroTrick, combines an SSH state-machine flaw (CVE-2026-67279) with an argument-injection bug in the RouterOS login process (CVE-2026-86060). Attack logs date to at",
+        "fingerprint": "36963b670de0",
+        "title": "Beyond the ransomware: Tracking Storm-2570’s consistent tradecraft across deployments",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/09/24/beyond-ransomware-tracking-storm-2570-consistent-tradecraft-across-deployments/",
+        "source": "Microsoft Security Blog",
+        "published": "2026-09-24T16:00:00+00:00",
+        "summary": "Storm-2570 is a ransomware affiliate that uses consistent post-compromise tools and techniques across deployments involving Qilin, DragonForce, Anubis, and BERT ransomware, and provides guidance to help defenders detect and disrupt this activity before ransomware deployment. The post Beyond the ransomware: Tracking Storm-2570’s consistent tradecraft across deployments appeared first on Microsof...",
         "category": "high_alert"
       }
     ],
-    "bad_updates": [],
+    "bad_updates": [
+      {
+        "fingerprint": "42e52101a87e",
+        "title": "Microsoft 365 app: Cloud Update - Extended rollback support for Monthly Enterprise Channel",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=572673",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-24T22:58:55+00:00",
+        "summary": "Cloud Update is expanding rollback options for devices on Monthly Enterprise Channel. Administrators will be able to roll back devices to a release from two versions prior, with the latest available security updates for that release, and keep devices in the rolled-back state across subsequent releases until they are ready to resume updates. This provides additional time to investigate and resol...",
+        "category": "bad_updates"
+      }
+    ],
     "upcoming_changes": [
       {
-        "fingerprint": "a889d986e05a",
-        "title": "Power Apps: Control information density in model-driven apps",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=572682",
+        "fingerprint": "3518521b8aa0",
+        "title": "Outlook: Insert Symbol",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571683",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-23T22:59:12+00:00",
-        "summary": "Model-driven apps now support configurable display density settings that let users choose how information is spaced throughout the application. Users can select from three density options: Comfortable (default) Cozy Compact ​ Each density setting adjusts layout spacing while maintaining accessibility target-size requirements. Administrators and makers can configure default density settings at t...",
+        "published": "2026-09-24T22:58:55+00:00",
+        "summary": "You can insert a variety of symbols into an email message while composing it. To add a symbol, go to the Insert tab and select Symbols. GA date: October CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "87b189a25337",
-        "title": "Microsoft Purview: Information Protection-Auto-labeling per-policy coverage report",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=572677",
+        "fingerprint": "bbd996fad5db",
+        "title": "Dynamics 365 Field Service: Process subcontractor photos, completion documents, and inspection results",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571674",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-23T22:59:12+00:00",
-        "summary": "For each enforced auto-labeling policy, admins can view how files processed during enforcement correlate to the latest simulation run. The per-policy coverage report shows volumes of files that have been labeled or are not yet labeled, and whether those files were included in the last simulation snapshot. This helps admins understand enforcement progress for a specific policy against the data s...",
+        "published": "2026-09-24T22:58:55+00:00",
+        "summary": "Business value Subcontractors often document completed work through photos, service reports, inspection forms, certificates, and other files. When those documents remain only in a shared mailbox, service teams must manually download, interpret, organize, and reconnect them with the work they support. Important completion evidence and inspection findings can be difficult to find when a customer,...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "1ee9c58f31d3",
-        "title": "Microsoft Teams: Add alternate text to images shared from OneDrive and SharePoint",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571687",
+        "fingerprint": "b1d7359e3004",
+        "title": "Dynamics 365 Field Service: Close out bookings and work orders from subcontractor service reports",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571673",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-23T22:59:12+00:00",
-        "summary": "Improve accessibility by adding alternate text to images shared in Teams from OneDrive and SharePoint, helping users better understand visual content GA date: November CY2026",
+        "published": "2026-09-24T22:58:55+00:00",
+        "summary": "Business value Subcontractors commonly communicate completion through an emailed service report or a message describing the work performed. Dispatchers then have to find the correct assignment, interpret the report, update the booking and work order, and copy important closeout details into Field Service. This manual process delays operational visibility, creates inconsistent service history, a...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "3688c933c8e1",
-        "title": "Dynamics 365 Field Service: Optimize asset maintenance schedules using completed service",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571669",
+        "fingerprint": "8968ab25dd5a",
+        "title": "Dynamics 365 Field Service: Work with Subcontractors without additional licenses",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571672",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-23T22:59:12+00:00",
-        "summary": "Business value Asset maintenance is most effective when service intervals reflect how equipment is actually used and maintained. Static schedules that continue from an assumed date or meter value can cause an organization to service an asset more often than necessary after early maintenance or wait too long after late, partial, or usage-intensive service. Feeding completed maintenance activitie...",
+        "published": "2026-09-24T22:58:55+00:00",
+        "summary": "Business value Organizations often depend on subcontractors and other external service providers who do not work in the organization's Dynamics 365 environment. Purchasing and administering an additional Dynamics 365 user license for every external worker adds cost and access-management overhead, particularly when a subcontractor only needs to report progress or completion for assigned work. Th...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "610704f8dd32",
-        "title": "Dynamics 365 Field Service: Forecast planned maintenance demand",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571668",
+        "fingerprint": "a28cce6fbf27",
+        "title": "Dynamics 365 Field Service: Onboard mid-lifecycle assets into maintenance plans",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571671",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-23T22:59:12+00:00",
-        "summary": "Business value Maintenance demand often becomes visible to service operations only after work orders are created, leaving limited time to prepare capacity and materials. A forward-looking maintenance forecast gives organizations earlier visibility into expected work so they can anticipate labor, skills, parts, and scheduling demand across the asset population. This supports more proactive opera...",
+        "published": "2026-09-24T22:58:55+00:00",
+        "summary": "Business value Organizations often introduce maintenance management after equipment is already operating or acquire used assets with established age, usage, and service histories. Starting those assets at the beginning of a new maintenance plan produces irrelevant past activities and inaccurate future dates, while manually reconstructing every historical event requires significant effort. Mid-l...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "70b4fdecf3d9",
-        "title": "Dynamics 365 Field Service: Forecast asset usage to predict maintenance due dates",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571667",
+        "fingerprint": "8d1b70b83b7c",
+        "title": "Dynamics 365 Field Service: Review and visualize an asset's maintenance schedules",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571670",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-23T22:59:12+00:00",
-        "summary": "Business value Usage-based maintenance aligns service with the work an asset has actually performed, but a current meter reading alone does not tell the organization when the next threshold will be reached. Forecasting the asset's expected usage rate converts meter-based maintenance from a reactive trigger into a forward-looking planning signal. Maintenance and reliability teams can use the pro...",
+        "published": "2026-09-24T22:58:55+00:00",
+        "summary": "Business value An asset can have several lines of service, each with its own maintenance schedule, recurrence pattern, and future events. When those schedules are reviewed separately, planners have difficulty understanding the asset's complete maintenance plan and how the different service requirements will play out together. A consolidated list and visual timeline give maintenance teams one pl...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "71261152b0e8",
-        "title": "Dynamics 365 Field Service: Plan asset maintenance using time, actual usage, and service sequences",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571665",
+        "fingerprint": "73c9a42acd20",
+        "title": "Dynamics 365 Field Service: Create and apply reusable maintenance plans to assets",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571664",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-23T22:59:12+00:00",
-        "summary": "Business value Organizations can maintain assets according to how the equipment ages, how much it is actually used, and which service activities have already been completed. A flexible maintenance schedule helps avoid servicing lightly used equipment too often while reducing the risk that heavily used equipment operates beyond its required maintenance interval. Usage-based schedules connect mai...",
+        "published": "2026-09-24T22:58:55+00:00",
+        "summary": "Business value Organizations can define a consistent maintenance strategy once and use it across groups of similar assets instead of designing a separate plan for every asset. This reduces setup effort, limits configuration differences across locations and teams, and provides a repeatable way to bring growing asset populations under managed maintenance. Reusable templates also make maintenance ...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "34ad0307b0e7",
-        "title": "Outlook: Duplicate events in Outlook mobile apps",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570666",
+        "fingerprint": "85dd8f3db39b",
+        "title": "Dynamics 365 Field Service: Microsoft Copilot in Field Service Mobile app",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571663",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-23T22:59:12+00:00",
-        "summary": "We are adding the ability to duplicate an event. Simply go to the event details and select \"duplicate event\" GA date: October CY2026",
+        "published": "2026-09-24T22:58:55+00:00",
+        "summary": "Microsoft Copilot in the Dynamics 365 Field Service mobile app brings conversational AI chat capabilities directly to frontline workers. Once enabled, technicians can ask natural-language questions about Dynamics 365 Field Service data and receive contextual answers based on the app experience and their organization’s Dataverse data. With standard capabilities, Dataverse Q&A supports questions ...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "9e3b396b29a1",
-        "title": "PowerPoint: Skills in Brand Kit",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569018",
+        "fingerprint": "06d9aedec941",
+        "title": "Dynamics 365 Field Service: Enhanced visibility into work order financial performance",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570859",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-23T22:59:12+00:00",
-        "summary": "Upload skill (.md file) in Brand Kit and use within PPT Copilot GA date: October CY2026",
+        "published": "2026-09-24T22:58:55+00:00",
+        "summary": "The new Work Order Cost Summary gives field teams a clearer view of how project-related work is performing by bringing estimated and actual costs, sales, and project task progress together in one place. Teams can quickly compare what was planned with what was actually delivered across products, services, and expenses. When the Work Order is associated with a Project Task, the summary also shows...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "e95121a2873d",
+        "title": "Dynamics 365 Field Service: Support multiple warehouse assignments for field technicians",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570858",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-24T22:58:55+00:00",
+        "summary": "Field technicians often source parts from more than one warehouse. Limiting a technician to a single warehouse can make it harder to reflect how materials are actually sourced across field operations. With this capability, you can associate each field technician with multiple warehouses and define a preferred warehouse. This gives organizations a more flexible and accurate way to manage technic...",
         "category": "upcoming_changes"
       }
     ],
     "official_news": [
       {
-        "fingerprint": "35c7015ab6b1",
-        "title": "Reimagining the SOC for the agentic era in Microsoft Defender",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/09/23/reimagining-the-soc-for-the-agentic-era-in-microsoft-defender/",
+        "fingerprint": "25f12c346384",
+        "title": "Plan for Remote Help with Microsoft Intune - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/remote-help/plan",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-09-25T07:36:00+00:00",
+        "summary": "Planning for Remote Help with Microsoft Intune Summarize this article for me In this article In this article, users who provide help are referred to as helpers, and users that receive help are referred to as sharers, as they share their session with the helper. Keep the Remote Help apps up to date: New versions of Windows and macOS bring.",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "d18e263d5c1c",
+        "title": "Microsoft Cloud PKI for Microsoft Intune - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/cloud-pki/",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-09-25T07:36:00+00:00",
+        "summary": "Overview of Microsoft Cloud PKI for Microsoft Intune Summarize this article for me In this article Use Microsoft Cloud PKI to issue certificates for Intune-managed devices. Microsoft Cloud PKI is a cloud-based service that simplifies and automates certificate lifecycle management for Intune-managed devices. It provides a dedicated public key.",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "972c1f990fb6",
+        "title": "​​​​​​​​What’s new in Microsoft Security: September 2026​​",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/09/24/whats-new-in-microsoft-security-september-2026/",
         "source": "Microsoft Security Blog",
-        "published": "2026-09-23T16:00:00+00:00",
-        "summary": "We are announcing ISOC in Microsoft Defender: a foundation built for agentic security that brings leading solutions for SIEM and threat protection together. The post Reimagining the SOC for the agentic era in Microsoft Defender appeared first on Microsoft Security Blog .",
+        "published": "2026-09-24T16:00:00+00:00",
+        "summary": "This month's updates help you discover and control local AI agents, extend Zero Trust to agent traffic, and strengthen SOC foundations. The post ​​​​​​​​What’s new in Microsoft Security: September 2026​​ appeared first on Microsoft Security Blog .",
         "category": "official_news"
       }
     ],
     "community_buzz": [
       {
-        "fingerprint": "416c452a3552",
-        "title": "Hackers now exploit critical Roundcube flaw in code injection attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/critical-roundcube-flaw-now-actively-exploited-in-code-injection-attacks/",
-        "source": "BleepingComputer",
-        "published": "2026-09-24T13:27:57+00:00",
-        "summary": "A high-severity Roundcube Webmail vulnerability patched in May is now being actively exploited in attacks, according to the Canadian Centre for Cyber Security. [...]",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "139c725a944b",
-        "title": "Windows 11 KB5124010 update released with 46 changes and fixes",
-        "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5124010-update-released-with-46-changes-and-fixes/",
-        "source": "BleepingComputer",
-        "published": "2026-09-24T12:16:32+00:00",
-        "summary": "Microsoft released the KB5124010 September 2026 non-security preview update for Windows 11 24H2 and 25H2, with 46 changes including Bluetooth improvements and the ability to remap the Copilot key. [...]",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "1d2667fda280",
-        "title": "Corp MDM Spyware Targets Logistics Firms, Steals New SMS and Redirects Calls",
-        "link": "https://thehackernews.com/2026/09/corp-mdm-spyware-targets-logistics.html",
-        "source": "The Hacker News",
-        "published": "2026-09-24T12:05:27+00:00",
-        "summary": "The logistics sector has become the target of a new malicious cyber campaign that distributes an Android spyware codenamed Corp MDM. According to Have I Been Squatted, the campaign uses fake Google Play pages branded as CEVA and TKW Logistics to distribute an Android Package Kit (APK) file that's dressed up as a system service. The delivered app has the package name \"com.corp.mdm\" Corp MDM",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "0cfcf071a259",
-        "title": "TeamFiltration Campaign Compromises Seven Microsoft 365 Accounts Using Default Passwords",
-        "link": "https://thehackernews.com/2026/09/teamfiltration-compromises-seven.html",
-        "source": "The Hacker News",
-        "published": "2026-09-24T06:32:03+00:00",
-        "summary": "Cybersecurity researchers have disclosed details of an active TeamFiltration campaign codenamed UNK_CondorFiltration that has targeted over 5,700 accounts across 28 Microsoft 365 tenants. According to Proofpoint, the activity has primarily focused on Chilean retail and financial institutions. It originated from 1,487 unique AWS EC2 source IP addresses. \"The campaign compromised 7 accounts –",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "81b16fac237b",
-        "title": "Spotify's latest integration wants to DJ your life on autopilot",
-        "link": "https://www.neowin.net/news/spotifys-latest-integration-wants-to-dj-your-life-on-autopilot/?utm_source=rss",
+        "fingerprint": "a15736717693",
+        "title": "Microsoft is \"reimagining\" Copilot with Home, Code, and Autopilot",
+        "link": "https://www.neowin.net/news/microsoft-is-reimagining-copilot-with-home-code-and-autopilot/?utm_source=rss",
         "source": "Neowin",
-        "published": "2026-09-24T06:26:01+00:00",
-        "summary": "Spotify's latest AI partnership lets an assistant manage your entire listening schedule automatically. Read more...",
+        "published": "2026-09-25T12:00:01+00:00",
+        "summary": "Microsoft is giving Copilot a major makeover for workplace users, bringing new tools and capabilities that could drastically change how businesses use AI. Read more...",
         "category": "community_buzz"
       },
       {
-        "fingerprint": "5d0eb9be2ba5",
-        "title": "Microsoft adds a new admin tool for Windows 11 app and policy configurations",
-        "link": "https://www.neowin.net/news/microsoft-adds-a-new-admin-tool-for-windows-11-app-and-policy-configurations/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-09-23T17:16:01+00:00",
-        "summary": "Microsoft has added a couple of new Intune features recently, and these should make the life of IT admins and sysadmins a lot easier. Read more...",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "3a90ab279b24",
-        "title": "A Leaked GitLab Issue Email Address Lets Anyone Push Code and Run CI Jobs as You",
-        "link": "https://thehackernews.com/2026/09/a-leaked-gitlab-issue-email-address.html",
+        "fingerprint": "6e4cdac1eaa1",
+        "title": "ThreatsDay: AI Search Poisoning, AI Coding Tool Leaking Repos, One-Click Code Execution and 13 More Stories",
+        "link": "https://thehackernews.com/2026/09/threatsday-ai-search-poisoning-ai.html",
         "source": "The Hacker News",
-        "published": "2026-09-23T16:53:10+00:00",
-        "summary": "The private email address GitLab gives you for filing issues by email is a credential. Anyone who gets it can email a patch that GitLab commits in your name, to any branch you can push to, including main, and can start CI/CD jobs that run as you. GitLab shows each user this address behind a button labeled \"Email work item to this project.\" Mail sent to it opens an issue in that project, authored",
+        "published": "2026-09-24T17:52:43+00:00",
+        "summary": "This week, the dangerous stuff keeps arriving dressed as something boring. An update. A login box. A search answer. A coding tool. A link you have clicked a hundred times before. That is the thread running through the pile. Trusted paths get poisoned. Old bugs find new jobs. AI tools leak more than expected. Fake prompts look real enough. And some attacks barely need an exploit at all — just",
         "category": "community_buzz"
       }
     ]
