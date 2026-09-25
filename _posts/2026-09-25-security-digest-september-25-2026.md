@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - September 25, 2026"
+date: 2026-09-25 18:09:27 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - September 25, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -57,4 +65,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Critical Cross-user and Cross-tenant compromise in Atlassian Rovo](https://www.reddit.com/r/cybersecurity/comments/1wpc02r/critical_crossuser_and_crosstenant_compromise_in/) - *(Reddit r/cybersecurity)*
 - [Hackers now exploit critical Roundcube flaw in code injection attacks](https://www.bleepingcomputer.com/news/security/critical-roundcube-flaw-now-actively-exploited-in-code-injection-attacks/) - *(BleepingComputer)*
 - [CVE-2026-81178](https://www.cve.org/CVERecord?id=CVE-2026-81178) - *(CVE.org)*
+
 
