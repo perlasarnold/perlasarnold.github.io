@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - September 26, 2026"
+date: 2026-09-26 17:31:56 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - September 26, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -43,4 +51,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [3rd-semester student — finished most PortSwigger labs. Should I pursue BSCP/eJPT or continue with VDPs/bug bounty?](https://www.reddit.com/r/cybersecurity/comments/1wqfwa3/3rdsemester_student_finished_most_portswigger/) - *(Reddit r/cybersecurity)*
 - [CySA+ or BTL1 first after Security+?](https://www.reddit.com/r/cybersecurity/comments/1wqc5be/cysa_or_btl1_first_after_security/) - *(Reddit r/cybersecurity)*
 - [career](https://www.reddit.com/r/cybersecurity/comments/1wqa42e/career/) - *(Reddit r/cybersecurity)*
+
 
