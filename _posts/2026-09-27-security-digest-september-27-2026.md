@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - September 27, 2026"
+date: 2026-09-27 18:00:04 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - September 27, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -44,4 +52,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Canary tokens but for pictures?](https://www.reddit.com/r/cybersecurity/comments/1wrkdb4/canary_tokens_but_for_pictures/) - *(Reddit r/cybersecurity)*
 - [building general-purpose AI guardrails](https://www.reddit.com/r/cybersecurity/comments/1wrhowt/building_generalpurpose_ai_guardrails/) - *(Reddit r/cybersecurity)*
 - [How useful is threat modeling in real-world security engineering? Do engineers actually use it when analyzing vulnerabilities?](https://www.reddit.com/r/cybersecurity/comments/1wrhanh/how_useful_is_threat_modeling_in_realworld/) - *(Reddit r/cybersecurity)*
+
 
