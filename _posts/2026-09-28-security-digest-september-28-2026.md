@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - September 28, 2026"
+date: 2026-09-28 20:19:43 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - September 28, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -37,4 +45,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Worth While AI Security Certification](https://www.reddit.com/r/cybersecurity/comments/1wsguxz/worth_while_ai_security_certification/) - *(Reddit r/cybersecurity)*
 - [NCSC Urges UK organizations to Patch for Citrix NetScaler ADC and Gateway 0-Day Vulnerabilities](https://cybersecuritynews.com/citrix-netscaler-0-day-vulnerabilities/) - *(CybersecurityNews)*
 - [ShinyHunters Bypasses WAF Protections to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells](https://cybersecuritynews.com/shinyhunters-bypasses/) - *(CybersecurityNews)*
+
 
