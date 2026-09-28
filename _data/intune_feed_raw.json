@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-25T15:42:55.399973+00:00",
-  "date": "2026-09-25",
+  "generated_utc": "2026-09-28T18:24:00.841678+00:00",
+  "date": "2026-09-28",
   "lookback_hours": 25,
   "source_status": [
     {
@@ -12,12 +12,12 @@
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 11
+      "count": 0
     },
     {
       "name": "Microsoft Intune What's New",
       "status": "OK",
-      "count": 2
+      "count": 0
     },
     {
       "name": "Windows IT Pro Blog",
@@ -27,7 +27,7 @@
     {
       "name": "Microsoft Security Blog",
       "status": "OK",
-      "count": 2
+      "count": 1
     },
     {
       "name": "Microsoft Entra Blog",
@@ -52,7 +52,7 @@
     {
       "name": "Krebs on Security",
       "status": "OK",
-      "count": 0
+      "count": 1
     },
     {
       "name": "The Old New Thing",
@@ -99,200 +99,81 @@
   "items": {
     "high_alert": [
       {
-        "fingerprint": "3998bde4430b",
-        "title": "Roundcube Pre-Auth SQL Injection Flaw Actively Exploited in the Wild",
-        "link": "https://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html",
-        "source": "The Hacker News",
-        "published": "2026-09-25T10:14:02+00:00",
-        "summary": "The Canadian Centre for Cyber Security has warned that a now-patched Roundcube Webmail vulnerability is being actively exploited in the wild. The vulnerability in question is CVE-2026-48842 (CVSS score: 8.1), a pre-authentication SQL injection in the virtuser_query plugin of Roundcube Webmail versions 1.6.x before 1.6.16 and 1.7.x before 1.7.1. The issue stems from a preg_replace() backslash",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "4aa8fdb4d047",
-        "title": "WSO2 and Adobe Commerce Flaws Exploited in Attacks, Added to CISA KEV",
-        "link": "https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html",
-        "source": "The Hacker News",
-        "published": "2026-09-25T04:46:34+00:00",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added two critical security flaws impacting WSO2 and Adobe Commerce and Magento to its Known Exploited Vulnerabilities (KEV) catalog, based on evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-5430 (CVS score: 9.8) - A path traversal vulnerability in WSO2 API Control Plane,",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "c6252cd361bb",
-        "title": "MacSync malware uses public iCloud calendars to deliver new payloads",
-        "link": "https://www.bleepingcomputer.com/news/security/macsync-malware-uses-public-icloud-calendars-to-deliver-new-payloads/",
+        "fingerprint": "c2e7eea87f28",
+        "title": "JadePuffer agentic AI attacks target Azure, destroy cloud resources",
+        "link": "https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-ai-attacks-target-azure-destroy-cloud-resources/",
         "source": "BleepingComputer",
-        "published": "2026-09-24T20:53:35+00:00",
-        "summary": "A new variant of the MacSync malware targeting macOS systems now uses public iCloud calendar events to deliver new native payloads. [...]",
+        "published": "2026-09-28T15:49:27+00:00",
+        "summary": "The JadePuffer ransomware operator is targeting Azure tenants with agent-driven attacks that conduct reconnaissance, steal credentials, and destroy core components. [...]",
         "category": "high_alert"
       },
       {
-        "fingerprint": "254d355616dd",
-        "title": "New Carbonato malware uses AI agents to hijack exposed Docker hosts",
-        "link": "https://www.bleepingcomputer.com/news/security/new-carbonato-malware-uses-ai-agents-to-hijack-exposed-docker-hosts/",
-        "source": "BleepingComputer",
-        "published": "2026-09-24T20:10:48+00:00",
-        "summary": "A new botnet malware called Carbonato is targeting insecure hosts running Docker daemons to install the Hermes Agent AI framework and take control. [...]",
+        "fingerprint": "4dcbf4784364",
+        "title": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation",
+        "link": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
+        "source": "Krebs on Security",
+        "published": "2026-09-28T15:08:57+00:00",
+        "summary": "Authorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolific hacker group ShinyHunters. In the days immediately following the suspect's arrest, remaining ShinyHunters members dramatically escalated their attacks, stealing highly sensitive data from the FBI and extorting the Russian ransomware group Cl0p.",
         "category": "high_alert"
       },
       {
-        "fingerprint": "36963b670de0",
-        "title": "Beyond the ransomware: Tracking Storm-2570’s consistent tradecraft across deployments",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/09/24/beyond-ransomware-tracking-storm-2570-consistent-tradecraft-across-deployments/",
+        "fingerprint": "d373408c9570",
+        "title": "NeedyMantis: Unpacking a post-compromise malware family used in targeted operations",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/09/28/needymantis-unpacking-a-post-compromise-malware-family-used-in-targeted-operations/",
         "source": "Microsoft Security Blog",
-        "published": "2026-09-24T16:00:00+00:00",
-        "summary": "Storm-2570 is a ransomware affiliate that uses consistent post-compromise tools and techniques across deployments involving Qilin, DragonForce, Anubis, and BERT ransomware, and provides guidance to help defenders detect and disrupt this activity before ransomware deployment. The post Beyond the ransomware: Tracking Storm-2570’s consistent tradecraft across deployments appeared first on Microsof...",
+        "published": "2026-09-28T15:00:00+00:00",
+        "summary": "Microsoft Threat Intelligence identified NeedyMantis, a modular post-compromise malware framework used in targeted intrusions that combines custom loaders, encrypted archives, and extensible components to maintain long-term access and support follow-on operations. The post NeedyMantis: Unpacking a post-compromise malware family used in targeted operations appeared first on Microsoft Security Bl...",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "aafaf6653527",
+        "title": "Carbonato Botnet Compromises Docker Hosts to Deploy Telegram-Controlled Hermes AI Agent",
+        "link": "https://thehackernews.com/2026/09/carbonato-botnet-compromises-docker.html",
+        "source": "The Hacker News",
+        "published": "2026-09-28T11:46:00+00:00",
+        "summary": "Cybersecurity researchers have disclosed details of a new botnet malware called Carbonato that's targeting exposed Docker daemons to deploy an open-source artificial intelligence (AI) agent framework called Hermes Agent. \"The implant installs the framework unchanged, then overwrites its SOUL.md persona file,\" ThreatDown said. \"The 39-line prompt directs it to execute tasks received through",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "03a475387b4b",
+        "title": "CISA Says Attackers Are Exploiting Two Critical Citrix NetScaler Flaws Globally",
+        "link": "https://thehackernews.com/2026/09/cisa-says-attackers-are-exploiting-two.html",
+        "source": "The Hacker News",
+        "published": "2026-09-28T07:21:49+00:00",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Sunday added two critical Citrix NetScaler ADC and Gateway flaws to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerabilities are listed below - CVE-2026-88771 (CVSS score: 9.5) - An improper input validation vulnerability that could allow an unauthenticated attacker to",
         "category": "high_alert"
       }
     ],
-    "bad_updates": [
-      {
-        "fingerprint": "42e52101a87e",
-        "title": "Microsoft 365 app: Cloud Update - Extended rollback support for Monthly Enterprise Channel",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=572673",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-24T22:58:55+00:00",
-        "summary": "Cloud Update is expanding rollback options for devices on Monthly Enterprise Channel. Administrators will be able to roll back devices to a release from two versions prior, with the latest available security updates for that release, and keep devices in the rolled-back state across subsequent releases until they are ready to resume updates. This provides additional time to investigate and resol...",
-        "category": "bad_updates"
-      }
-    ],
-    "upcoming_changes": [
-      {
-        "fingerprint": "3518521b8aa0",
-        "title": "Outlook: Insert Symbol",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571683",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-24T22:58:55+00:00",
-        "summary": "You can insert a variety of symbols into an email message while composing it. To add a symbol, go to the Insert tab and select Symbols. GA date: October CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "bbd996fad5db",
-        "title": "Dynamics 365 Field Service: Process subcontractor photos, completion documents, and inspection results",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571674",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-24T22:58:55+00:00",
-        "summary": "Business value Subcontractors often document completed work through photos, service reports, inspection forms, certificates, and other files. When those documents remain only in a shared mailbox, service teams must manually download, interpret, organize, and reconnect them with the work they support. Important completion evidence and inspection findings can be difficult to find when a customer,...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "b1d7359e3004",
-        "title": "Dynamics 365 Field Service: Close out bookings and work orders from subcontractor service reports",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571673",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-24T22:58:55+00:00",
-        "summary": "Business value Subcontractors commonly communicate completion through an emailed service report or a message describing the work performed. Dispatchers then have to find the correct assignment, interpret the report, update the booking and work order, and copy important closeout details into Field Service. This manual process delays operational visibility, creates inconsistent service history, a...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "8968ab25dd5a",
-        "title": "Dynamics 365 Field Service: Work with Subcontractors without additional licenses",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571672",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-24T22:58:55+00:00",
-        "summary": "Business value Organizations often depend on subcontractors and other external service providers who do not work in the organization's Dynamics 365 environment. Purchasing and administering an additional Dynamics 365 user license for every external worker adds cost and access-management overhead, particularly when a subcontractor only needs to report progress or completion for assigned work. Th...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "a28cce6fbf27",
-        "title": "Dynamics 365 Field Service: Onboard mid-lifecycle assets into maintenance plans",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571671",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-24T22:58:55+00:00",
-        "summary": "Business value Organizations often introduce maintenance management after equipment is already operating or acquire used assets with established age, usage, and service histories. Starting those assets at the beginning of a new maintenance plan produces irrelevant past activities and inaccurate future dates, while manually reconstructing every historical event requires significant effort. Mid-l...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "8d1b70b83b7c",
-        "title": "Dynamics 365 Field Service: Review and visualize an asset's maintenance schedules",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571670",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-24T22:58:55+00:00",
-        "summary": "Business value An asset can have several lines of service, each with its own maintenance schedule, recurrence pattern, and future events. When those schedules are reviewed separately, planners have difficulty understanding the asset's complete maintenance plan and how the different service requirements will play out together. A consolidated list and visual timeline give maintenance teams one pl...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "73c9a42acd20",
-        "title": "Dynamics 365 Field Service: Create and apply reusable maintenance plans to assets",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571664",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-24T22:58:55+00:00",
-        "summary": "Business value Organizations can define a consistent maintenance strategy once and use it across groups of similar assets instead of designing a separate plan for every asset. This reduces setup effort, limits configuration differences across locations and teams, and provides a repeatable way to bring growing asset populations under managed maintenance. Reusable templates also make maintenance ...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "85dd8f3db39b",
-        "title": "Dynamics 365 Field Service: Microsoft Copilot in Field Service Mobile app",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571663",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-24T22:58:55+00:00",
-        "summary": "Microsoft Copilot in the Dynamics 365 Field Service mobile app brings conversational AI chat capabilities directly to frontline workers. Once enabled, technicians can ask natural-language questions about Dynamics 365 Field Service data and receive contextual answers based on the app experience and their organization’s Dataverse data. With standard capabilities, Dataverse Q&A supports questions ...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "06d9aedec941",
-        "title": "Dynamics 365 Field Service: Enhanced visibility into work order financial performance",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570859",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-24T22:58:55+00:00",
-        "summary": "The new Work Order Cost Summary gives field teams a clearer view of how project-related work is performing by bringing estimated and actual costs, sales, and project task progress together in one place. Teams can quickly compare what was planned with what was actually delivered across products, services, and expenses. When the Work Order is associated with a Project Task, the summary also shows...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "e95121a2873d",
-        "title": "Dynamics 365 Field Service: Support multiple warehouse assignments for field technicians",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570858",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-24T22:58:55+00:00",
-        "summary": "Field technicians often source parts from more than one warehouse. Limiting a technician to a single warehouse can make it harder to reflect how materials are actually sourced across field operations. With this capability, you can associate each field technician with multiple warehouses and define a preferred warehouse. This gives organizations a more flexible and accurate way to manage technic...",
-        "category": "upcoming_changes"
-      }
-    ],
+    "bad_updates": [],
+    "upcoming_changes": [],
     "official_news": [
       {
-        "fingerprint": "25f12c346384",
-        "title": "Plan for Remote Help with Microsoft Intune - Microsoft Intune",
-        "link": "https://learn.microsoft.com/en-us/intune/remote-help/plan",
-        "source": "Microsoft Intune What's New",
-        "published": "2026-09-25T07:36:00+00:00",
-        "summary": "Planning for Remote Help with Microsoft Intune Summarize this article for me In this article In this article, users who provide help are referred to as helpers, and users that receive help are referred to as sharers, as they share their session with the helper. Keep the Remote Help apps up to date: New versions of Windows and macOS bring.",
-        "category": "official_news"
-      },
-      {
-        "fingerprint": "d18e263d5c1c",
-        "title": "Microsoft Cloud PKI for Microsoft Intune - Microsoft Intune",
-        "link": "https://learn.microsoft.com/en-us/intune/cloud-pki/",
-        "source": "Microsoft Intune What's New",
-        "published": "2026-09-25T07:36:00+00:00",
-        "summary": "Overview of Microsoft Cloud PKI for Microsoft Intune Summarize this article for me In this article Use Microsoft Cloud PKI to issue certificates for Intune-managed devices. Microsoft Cloud PKI is a cloud-based service that simplifies and automates certificate lifecycle management for Intune-managed devices. It provides a dedicated public key.",
-        "category": "official_news"
-      },
-      {
-        "fingerprint": "972c1f990fb6",
-        "title": "​​​​​​​​What’s new in Microsoft Security: September 2026​​",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/09/24/whats-new-in-microsoft-security-september-2026/",
-        "source": "Microsoft Security Blog",
-        "published": "2026-09-24T16:00:00+00:00",
-        "summary": "This month's updates help you discover and control local AI agents, extend Zero Trust to agent traffic, and strengthen SOC foundations. The post ​​​​​​​​What’s new in Microsoft Security: September 2026​​ appeared first on Microsoft Security Blog .",
+        "fingerprint": "5ab1ec1e8b0e",
+        "title": "CISA orders feds to patch exploited Citrix flaws by Wednesday",
+        "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-exploited-citrix-flaws-by-wednesday/",
+        "source": "BleepingComputer",
+        "published": "2026-09-28T06:24:19+00:00",
+        "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has ordered U.S. government agencies over the weekend to secure their systems against attacks exploiting two critical Citrix NetScaler vulnerabilities. [...]",
         "category": "official_news"
       }
     ],
     "community_buzz": [
       {
-        "fingerprint": "a15736717693",
-        "title": "Microsoft is \"reimagining\" Copilot with Home, Code, and Autopilot",
-        "link": "https://www.neowin.net/news/microsoft-is-reimagining-copilot-with-home-code-and-autopilot/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-09-25T12:00:01+00:00",
-        "summary": "Microsoft is giving Copilot a major makeover for workplace users, bringing new tools and capabilities that could drastically change how businesses use AI. Read more...",
+        "fingerprint": "783e2f6ccc7d",
+        "title": "⚡ Weekly Recap: $387M Crypto Hack, Citrix Exploits, AI Agents Go Off-Script, and More Threats",
+        "link": "https://thehackernews.com/2026/09/weekly-recap-387m-crypto-hack-citrix.html",
+        "source": "The Hacker News",
+        "published": "2026-09-28T14:00:53+00:00",
+        "summary": "A domain used as harmless placeholder text showed up in roughly 1,700 repositories. Then somebody registered it and started serving malicious lures. That is the kind of week this was: forgotten assumptions turning into live attack surface. Elsewhere, weak service accounts, old bugs, exposed systems, phishing kits, and strangely easy exploit paths kept doing useful work for attackers. Nothing",
         "category": "community_buzz"
       },
       {
-        "fingerprint": "6e4cdac1eaa1",
-        "title": "ThreatsDay: AI Search Poisoning, AI Coding Tool Leaking Repos, One-Click Code Execution and 13 More Stories",
-        "link": "https://thehackernews.com/2026/09/threatsday-ai-search-poisoning-ai.html",
-        "source": "The Hacker News",
-        "published": "2026-09-24T17:52:43+00:00",
-        "summary": "This week, the dangerous stuff keeps arriving dressed as something boring. An update. A login box. A search answer. A coding tool. A link you have clicked a hundred times before. That is the thread running through the pile. Trusted paths get poisoned. Old bugs find new jobs. AI tools leak more than expected. Fake prompts look real enough. And some attacks barely need an exploit at all — just",
+        "fingerprint": "acc740707672",
+        "title": "Linus Torvalds ships Linux 7.3-rc5",
+        "link": "https://www.neowin.net/news/linus-torvalds-ships-linux-73-rc5/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-09-28T05:22:01+00:00",
+        "summary": "Linus Torvalds notes that less than a third of the patch is drivers while a full quarter consists of selftests, led by an arm64 KVM ITS table test. Read more...",
         "category": "community_buzz"
       }
     ]
