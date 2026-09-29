@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-28T18:24:00.841678+00:00",
-  "date": "2026-09-28",
+  "generated_utc": "2026-09-29T16:46:37.175499+00:00",
+  "date": "2026-09-29",
   "lookback_hours": 25,
   "source_status": [
     {
@@ -12,7 +12,7 @@
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 0
+      "count": 7
     },
     {
       "name": "Microsoft Intune What's New",
@@ -27,7 +27,7 @@
     {
       "name": "Microsoft Security Blog",
       "status": "OK",
-      "count": 1
+      "count": 2
     },
     {
       "name": "Microsoft Entra Blog",
@@ -37,22 +37,22 @@
     {
       "name": "BleepingComputer",
       "status": "OK",
-      "count": 2
+      "count": 5
     },
     {
       "name": "Neowin",
       "status": "OK",
-      "count": 1
+      "count": 0
     },
     {
       "name": "The Hacker News",
       "status": "OK",
-      "count": 3
+      "count": 5
     },
     {
       "name": "Krebs on Security",
       "status": "OK",
-      "count": 1
+      "count": 0
     },
     {
       "name": "The Old New Thing",
@@ -99,6 +99,60 @@
   "items": {
     "high_alert": [
       {
+        "fingerprint": "41410a2a2dca",
+        "title": "Star Blizzard refines phishing and malware delivery with the RedFlick technique",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/09/29/star-blizzard-refines-phishing-and-malware-delivery-with-the-redflick-technique/",
+        "source": "Microsoft Security Blog",
+        "published": "2026-09-29T15:00:00+00:00",
+        "summary": "Since January 2026, Microsoft has observed Russian state threat actor Star Blizzard evolve their detection evasion capabilities through large-scale phishing campaigns, the use of accounts on compromised websites, and a novel malware delivery technique, tracked by Microsoft as “RedFlick”. The post Star Blizzard refines phishing and malware delivery with the RedFlick technique appeared first on M...",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "24f17e9586f1",
+        "title": "Apple patches CoreGraphics zero-day flaw exploited in attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/apple-patches-coregraphics-zero-day-flaw-exploited-in-attacks/",
+        "source": "BleepingComputer",
+        "published": "2026-09-29T07:33:12+00:00",
+        "summary": "Apple released security updates to fix a zero-day vulnerability exploited in \"extremely sophisticated\" targeted attacks on iOS devices. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "133c229c1484",
+        "title": "Japan's Keio confirms ransomware attack disrupted business systems",
+        "link": "https://www.bleepingcomputer.com/news/security/japans-keio-confirms-ransomware-attack-disrupted-business-systems/",
+        "source": "BleepingComputer",
+        "published": "2026-09-28T20:56:47+00:00",
+        "summary": "Keio Corporation (Keio), a major private railway operator in Japan, said its network was hit by a ransomware attack over the weekend, disrupting some of its business systems. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "19f2d897988a",
+        "title": "Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks",
+        "link": "https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html",
+        "source": "The Hacker News",
+        "published": "2026-09-28T19:18:01+00:00",
+        "summary": "Apple has released security updates to address a vulnerability in older versions of iOS, iPadOS, and macOS that it said may have been exploited in targeted attacks. The vulnerability, tracked as CVE-2026-86950, refers to an out-of-bounds write impacting the CoreGraphics component that could lead to arbitrary code execution when processing a maliciously crafted file. The iPhone maker said the",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "1323cadbf532",
+        "title": "Hackers Use NeedyMantis to Maintain Long-Term Access in Breached Networks",
+        "link": "https://thehackernews.com/2026/09/hackers-use-needymantis-to-maintain.html",
+        "source": "The Hacker News",
+        "published": "2026-09-28T18:35:42+00:00",
+        "summary": "Hackers have used a malware family called NeedyMantis to maintain long-term access to networks they had already breached, Microsoft said in a technical analysis. The malware has been seen in a small number of targeted intrusions at telecommunications organizations, universities, medical nonprofits, intergovernmental organizations, and government contractors. Its use goes back to at least",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "b8a987989d6b",
+        "title": "RatHat Android Malware Console Uses Gemini to Identify Higher-Value Victims",
+        "link": "https://thehackernews.com/2026/09/rathat-android-malware-console-uses.html",
+        "source": "The Hacker News",
+        "published": "2026-09-28T17:38:33+00:00",
+        "summary": "RatHat's operators build and publish the Android banking trojan and control infected phones from a web console, according to security company Cleafy. Cleafy has traced nearly 100 deployments of that console since April 2026. It said this fits a malware-as-a-service model, in which each customer runs a separate copy. The console stores what the malware collects from each phone,",
+        "category": "high_alert"
+      },
+      {
         "fingerprint": "c2e7eea87f28",
         "title": "JadePuffer agentic AI attacks target Azure, destroy cloud resources",
         "link": "https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-ai-attacks-target-azure-destroy-cloud-resources/",
@@ -106,74 +160,120 @@
         "published": "2026-09-28T15:49:27+00:00",
         "summary": "The JadePuffer ransomware operator is targeting Azure tenants with agent-driven attacks that conduct reconnaissance, steal credentials, and destroy core components. [...]",
         "category": "high_alert"
-      },
-      {
-        "fingerprint": "4dcbf4784364",
-        "title": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation",
-        "link": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
-        "source": "Krebs on Security",
-        "published": "2026-09-28T15:08:57+00:00",
-        "summary": "Authorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolific hacker group ShinyHunters. In the days immediately following the suspect's arrest, remaining ShinyHunters members dramatically escalated their attacks, stealing highly sensitive data from the FBI and extorting the Russian ransomware group Cl0p.",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "d373408c9570",
-        "title": "NeedyMantis: Unpacking a post-compromise malware family used in targeted operations",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/09/28/needymantis-unpacking-a-post-compromise-malware-family-used-in-targeted-operations/",
-        "source": "Microsoft Security Blog",
-        "published": "2026-09-28T15:00:00+00:00",
-        "summary": "Microsoft Threat Intelligence identified NeedyMantis, a modular post-compromise malware framework used in targeted intrusions that combines custom loaders, encrypted archives, and extensible components to maintain long-term access and support follow-on operations. The post NeedyMantis: Unpacking a post-compromise malware family used in targeted operations appeared first on Microsoft Security Bl...",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "aafaf6653527",
-        "title": "Carbonato Botnet Compromises Docker Hosts to Deploy Telegram-Controlled Hermes AI Agent",
-        "link": "https://thehackernews.com/2026/09/carbonato-botnet-compromises-docker.html",
-        "source": "The Hacker News",
-        "published": "2026-09-28T11:46:00+00:00",
-        "summary": "Cybersecurity researchers have disclosed details of a new botnet malware called Carbonato that's targeting exposed Docker daemons to deploy an open-source artificial intelligence (AI) agent framework called Hermes Agent. \"The implant installs the framework unchanged, then overwrites its SOUL.md persona file,\" ThreatDown said. \"The 39-line prompt directs it to execute tasks received through",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "03a475387b4b",
-        "title": "CISA Says Attackers Are Exploiting Two Critical Citrix NetScaler Flaws Globally",
-        "link": "https://thehackernews.com/2026/09/cisa-says-attackers-are-exploiting-two.html",
-        "source": "The Hacker News",
-        "published": "2026-09-28T07:21:49+00:00",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Sunday added two critical Citrix NetScaler ADC and Gateway flaws to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerabilities are listed below - CVE-2026-88771 (CVSS score: 9.5) - An improper input validation vulnerability that could allow an unauthenticated attacker to",
-        "category": "high_alert"
       }
     ],
     "bad_updates": [],
-    "upcoming_changes": [],
+    "upcoming_changes": [
+      {
+        "fingerprint": "853a44b5e7c1",
+        "title": "Word: Legal plugins in Copilot",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571884",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-28T22:58:08+00:00",
+        "summary": "Legal plugins in Copilot provide purpose-built skills to help legal professionals summarize, draft, review, and redline legal documents. Available in Word and Cowork, these plugins can use work context from Microsoft 365 and connect to supported third-party legal sources. GA date: October CY2026 Preview date: April CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "229b54b2f59b",
+        "title": "Microsoft Edge: Updated performance information in tab hover cards",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571692",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-28T22:58:08+00:00",
+        "summary": "Microsoft Edge is updating tab hover cards to provide clearer information about tab memory usage and memory savings when inactive tabs are discarded. Users will also have separate settings for tab-preview images and memory-usage information. GA date: October CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "ae7110a20dcf",
+        "title": "Microsoft Purview: Information Protection-Auto-labeling scale increase for SharePoint and OneDrive",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571309",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-28T22:58:08+00:00",
+        "summary": "We are increasing the maximum auto-labeling capacity for SharePoint and OneDrive from 100,000 up to 500,000 files per tenant per day. This helps organizations label and protect more of their data at rest, faster, closing labeling gaps across existing content. With sensitivity labels and protection settings applied to more files sooner, organizations can better prepare their data estate for Micr...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "cbf78b20a28e",
+        "title": "OneDrive: Prompt gallery for Copilot",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571308",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-28T22:58:08+00:00",
+        "summary": "Discover easier ways to use Copilot in OneDrive The new Prompt Gallery offers ready-to-use prompts for common file tasks, helping you get started quickly, discover what Copilot can do, and customize prompts to fit your needs. Access the Prompt Gallery from: The Copilot button in the bottom-right corner of OneDrive The + button in the Copilot chat pane Select Open Prompt Gallery to explore promp...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "d51eaaeae6f4",
+        "title": "Microsoft Clipchamp: Copilot video creation updates",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570963",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-28T22:58:08+00:00",
+        "summary": "Copilot brings agentic video creation to Clipchamp Video Hub. Users can generate, edit, and refine videos from prompts—grounded in explicit documents or implicit WorkIQ knowledge. Preview and playback video directly in chat, then continue iterating towards a finished video. GA date: January CY2027 Preview date: December CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "0b7dd7cc5b48",
+        "title": "Dynamics 365 Field Service: Track costs for non-billable field work",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570857",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-28T22:58:08+00:00",
+        "summary": "Organizations often use the same field teams for both customer work and internal operational work, such as maintenance, inspections, or asset-related activities that are not billed to an external customer. These scenarios still require scheduling, technician execution, and accurate tracking of the labor, materials, and other costs associated with the work. With this capability, Field Service Wo...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "2271460f30d1",
+        "title": "Outlook: Send availability in Outlook mobile apps",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570665",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-28T22:58:08+00:00",
+        "summary": "We are bringing back send availability on both iOS and Android. iOS users will now also be able to access more of this feature via keyboard and voiceover. GA date: October CY2026",
+        "category": "upcoming_changes"
+      }
+    ],
     "official_news": [
       {
-        "fingerprint": "5ab1ec1e8b0e",
-        "title": "CISA orders feds to patch exploited Citrix flaws by Wednesday",
-        "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-exploited-citrix-flaws-by-wednesday/",
-        "source": "BleepingComputer",
-        "published": "2026-09-28T06:24:19+00:00",
-        "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has ordered U.S. government agencies over the weekend to secure their systems against attacks exploiting two critical Citrix NetScaler vulnerabilities. [...]",
+        "fingerprint": "cb24f45cbd78",
+        "title": "​​Beyond source code: A path to the keys to the kingdom",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/09/29/beyond-source-code-a-path-to-the-keys-to-the-kingdom/",
+        "source": "Microsoft Security Blog",
+        "published": "2026-09-29T16:00:00+00:00",
+        "summary": "Explore how Storm-3068 turned a compromised identity into broader cloud access and the steps organizations can take to defend their identities, pipelines, and cloud infrastructure. The post ​​Beyond source code: A path to the keys to the kingdom appeared first on Microsoft Security Blog .",
         "category": "official_news"
       }
     ],
     "community_buzz": [
       {
-        "fingerprint": "783e2f6ccc7d",
-        "title": "⚡ Weekly Recap: $387M Crypto Hack, Citrix Exploits, AI Agents Go Off-Script, and More Threats",
-        "link": "https://thehackernews.com/2026/09/weekly-recap-387m-crypto-hack-citrix.html",
-        "source": "The Hacker News",
-        "published": "2026-09-28T14:00:53+00:00",
-        "summary": "A domain used as harmless placeholder text showed up in roughly 1,700 repositories. Then somebody registered it and started serving malicious lures. That is the kind of week this was: forgotten assumptions turning into live attack surface. Elsewhere, weak service accounts, old bugs, exposed systems, phishing kits, and strangely easy exploit paths kept doing useful work for attackers. Nothing",
+        "fingerprint": "b52927d90637",
+        "title": "Automated AI agent used to breach cybersecurity nonprofit DIVD",
+        "link": "https://www.bleepingcomputer.com/news/security/automated-ai-agent-used-to-breach-cybersecurity-nonprofit-divd/",
+        "source": "BleepingComputer",
+        "published": "2026-09-29T15:39:19+00:00",
+        "summary": "The Dutch Institute for Vulnerability Disclosure (DIVD) suffered an AI-driven cyberattack that the organization described as \"loud and very, very messy.\" [...]",
         "category": "community_buzz"
       },
       {
-        "fingerprint": "acc740707672",
-        "title": "Linus Torvalds ships Linux 7.3-rc5",
-        "link": "https://www.neowin.net/news/linus-torvalds-ships-linux-73-rc5/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-09-28T05:22:01+00:00",
-        "summary": "Linus Torvalds notes that less than a third of the patch is drivers while a full quarter consists of selftests, led by an arm64 KVM ITS table test. Read more...",
+        "fingerprint": "febc0c118962",
+        "title": "101 Malicious npm Packages Add Developers' WhatsApp Accounts to Groups Without Consent",
+        "link": "https://thehackernews.com/2026/09/101-malicious-npm-packages-add.html",
+        "source": "The Hacker News",
+        "published": "2026-09-29T13:45:10+00:00",
+        "summary": "Cybersecurity researchers have identified a cluster of 101 npm packages that are used to trap developers into a WhatsApp group subscriber campaign dubbed PhantomSub. \"The malicious packages abuse the 'Baileys' WhatsApp open source project to add the victims to groups without their consent,\" OX Security researchers Nir Zadok, Moshe Siman Tov Bustan, and Vitalii Chepurko said in a technical",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "98cd94aac5f5",
+        "title": "Kiteworks patches critical flaw, brings customer systems online",
+        "link": "https://www.bleepingcomputer.com/news/security/kiteworks-lifts-shutdown-warning-after-patching-critical-flaw/",
+        "source": "BleepingComputer",
+        "published": "2026-09-29T09:04:06+00:00",
+        "summary": "American tech company Kiteworks has lifted a precautionary advisory asking customers to shut down systems after patching a critical vulnerability. [...]",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "c5d001af41ed",
+        "title": "Official MCP Python SDK Flaw Can Let Malicious Servers Steal OAuth Credentials",
+        "link": "https://thehackernews.com/2026/09/official-mcp-python-sdk-flaw-can-let.html",
+        "source": "The Hacker News",
+        "published": "2026-09-29T06:08:25+00:00",
+        "summary": "A malicious MCP server could trick an application built on the official MCP Python SDK into handing over the OAuth credentials it uses to log in to a real service, the SDK's maintainers said in a security advisory. Affected versions sent the client secret, the authorization code, and the PKCE proof key to a token endpoint the attacker controlled. The fix is in versions 1.30.0 and",
         "category": "community_buzz"
       }
     ]
