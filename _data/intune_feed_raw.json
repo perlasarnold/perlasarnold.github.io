@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-29T16:46:37.175499+00:00",
-  "date": "2026-09-29",
+  "generated_utc": "2026-09-30T16:38:29.531124+00:00",
+  "date": "2026-09-30",
   "lookback_hours": 25,
   "source_status": [
     {
@@ -12,7 +12,7 @@
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 7
+      "count": 3
     },
     {
       "name": "Microsoft Intune What's New",
@@ -27,7 +27,7 @@
     {
       "name": "Microsoft Security Blog",
       "status": "OK",
-      "count": 2
+      "count": 3
     },
     {
       "name": "Microsoft Entra Blog",
@@ -37,12 +37,12 @@
     {
       "name": "BleepingComputer",
       "status": "OK",
-      "count": 5
+      "count": 8
     },
     {
       "name": "Neowin",
       "status": "OK",
-      "count": 0
+      "count": 3
     },
     {
       "name": "The Hacker News",
@@ -99,136 +99,136 @@
   "items": {
     "high_alert": [
       {
-        "fingerprint": "41410a2a2dca",
-        "title": "Star Blizzard refines phishing and malware delivery with the RedFlick technique",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/09/29/star-blizzard-refines-phishing-and-malware-delivery-with-the-redflick-technique/",
+        "fingerprint": "e1c8d4139ee2",
+        "title": "CISA warns of critical pre-auth RCE flaw in MikroTik RouterOS",
+        "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-pre-auth-rce-flaw-in-mikrotik-routeros/",
+        "source": "BleepingComputer",
+        "published": "2026-09-30T15:49:29+00:00",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning of a new critical vulnerability in MikroTik RouterOS that could lead to remote code execution or cause a denial-of-service condition. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "0154c60322c7",
+        "title": "Zimbra zero-day exploit exposes mail servers to attack, Microsoft warns",
+        "link": "https://www.neowin.net/news/zimbra-zero-day-exploit-exposes-mail-servers-to-attack-microsoft-warns/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-09-30T15:48:01+00:00",
+        "summary": "Unauthenticated command injection in the SNMP notification path lets hackers steal session tokens and install persistent webshells on mail servers. Read more...",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "56fa2afd56c9",
+        "title": "Cisco Warns of Attackers Exploiting Critical Authentication Bypass in SD-WAN Manager",
+        "link": "https://thehackernews.com/2026/09/cisco-warns-of-attackers-exploiting.html",
+        "source": "The Hacker News",
+        "published": "2026-09-30T15:24:54+00:00",
+        "summary": "Attackers are exploiting a new critical zero-day flaw in Cisco Catalyst SD-WAN Manager, the system companies use to manage their Cisco SD-WAN networks, Cisco said in an advisory on September 30. The flaw, CVE-2026-76504, could allow a remote attacker with no login access to use the Manager's API as the admin user. Fixed releases are available, and there is no workaround. It carries a",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "e991847770db",
+        "title": "Attackers Abuse ChatGPT Custom GPTs to Deliver RAT via ClickFix Lures",
+        "link": "https://thehackernews.com/2026/09/attackers-abuse-chatgpt-custom-gpts-to.html",
+        "source": "The Hacker News",
+        "published": "2026-09-30T15:00:15+00:00",
+        "summary": "Threat actors are abusing ChatGPT Custom GPTs to disguise them as legitimate product offerings and direct unsuspecting victims to malicious sites that employ ClickFix lures to deliver malware. Huntress, which observed the activity in late September 2026, said it marks the abuse of yet another feature in trusted artificial intelligence (AI) platforms. Prior campaigns have weaponized shared",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "2050937aadcc",
+        "title": "Cisco warns of new SD-WAN zero-day exploited in attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-sd-wan-authentication-bypass-zero-day-exploited-in-attacks/",
+        "source": "BleepingComputer",
+        "published": "2026-09-30T14:46:40+00:00",
+        "summary": "Cisco released security updates to address a critical zero-day in the Catalyst SD-WAN Manager (tracked as CVE-2026-76504) that attackers are actively exploiting to escalate to admin privileges. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "cc3d78924826",
+        "title": "Unauthenticated command injection on internet-facing mail servers: tracking CVE-2026-73570",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/09/30/unauthenticated-command-injection-on-internet-facing-mail-servers-tracking-cve-2026-73570/",
         "source": "Microsoft Security Blog",
-        "published": "2026-09-29T15:00:00+00:00",
-        "summary": "Since January 2026, Microsoft has observed Russian state threat actor Star Blizzard evolve their detection evasion capabilities through large-scale phishing campaigns, the use of accounts on compromised websites, and a novel malware delivery technique, tracked by Microsoft as “RedFlick”. The post Star Blizzard refines phishing and malware delivery with the RedFlick technique appeared first on M...",
+        "published": "2026-09-30T14:00:00+00:00",
+        "summary": "Microsoft Threat Intelligence examines CVE-2026-73570 exploitation in Zimbra, including observed attack paths, detection opportunities, and mitigation guidance. The post Unauthenticated command injection on internet-facing mail servers: tracking CVE-2026-73570 appeared first on Microsoft Security Blog .",
         "category": "high_alert"
       },
       {
-        "fingerprint": "24f17e9586f1",
-        "title": "Apple patches CoreGraphics zero-day flaw exploited in attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/apple-patches-coregraphics-zero-day-flaw-exploited-in-attacks/",
+        "fingerprint": "ecd271aab978",
+        "title": "Bitget hacked via zero-day in third-party security products",
+        "link": "https://www.bleepingcomputer.com/news/security/bitget-hacked-via-zero-day-in-third-party-security-products/",
         "source": "BleepingComputer",
-        "published": "2026-09-29T07:33:12+00:00",
-        "summary": "Apple released security updates to fix a zero-day vulnerability exploited in \"extremely sophisticated\" targeted attacks on iOS devices. [...]",
+        "published": "2026-09-30T11:11:46+00:00",
+        "summary": "Cryptocurrency exchange Bitget revealed today that attackers who stole $387.5 million last week breached its systems after exploiting a zero-day flaw in third-party security products. [...]",
         "category": "high_alert"
       },
       {
-        "fingerprint": "133c229c1484",
-        "title": "Japan's Keio confirms ransomware attack disrupted business systems",
-        "link": "https://www.bleepingcomputer.com/news/security/japans-keio-confirms-ransomware-attack-disrupted-business-systems/",
+        "fingerprint": "aef4fe97bf49",
+        "title": "Citrix NetScaler CVE-2026-88772 Exploit Details Show Pre-Auth Path to Shellcode Execution",
+        "link": "https://thehackernews.com/2026/09/citrix-netscaler-cve-2026-88772-exploit.html",
+        "source": "The Hacker News",
+        "published": "2026-09-30T05:30:30+00:00",
+        "summary": "Cybersecurity researchers have disclosed technical details of a recently patched critical security flaw in Citrix NetScaler ADC and Gateway that has come under active exploitation in the wild. The vulnerability, tracked as CVE-2026-88772 (CVSS score: 9.5), has been described as a memory overflow bug in the Datagram Transport Layer Security (DTLS) protocol handling that's rooted in the NetScaler",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "caef0163d38f",
+        "title": "Custom ChatGPTs push ClickFix attacks to deploy RAT malware",
+        "link": "https://www.bleepingcomputer.com/news/security/custom-chatgpts-push-clickfix-attacks-to-deploy-rat-malware/",
         "source": "BleepingComputer",
-        "published": "2026-09-28T20:56:47+00:00",
-        "summary": "Keio Corporation (Keio), a major private railway operator in Japan, said its network was hit by a ransomware attack over the weekend, disrupting some of its business systems. [...]",
+        "published": "2026-09-29T20:59:39+00:00",
+        "summary": "Custom variants of OpenAI's ChatGPT promoted in sponsored Google results are directing unsuspecting users to malicious sites that use ClickFix attacks to deliver malware. [...]",
         "category": "high_alert"
       },
       {
-        "fingerprint": "19f2d897988a",
-        "title": "Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks",
-        "link": "https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html",
-        "source": "The Hacker News",
-        "published": "2026-09-28T19:18:01+00:00",
-        "summary": "Apple has released security updates to address a vulnerability in older versions of iOS, iPadOS, and macOS that it said may have been exploited in targeted attacks. The vulnerability, tracked as CVE-2026-86950, refers to an out-of-bounds write impacting the CoreGraphics component that could lead to arbitrary code execution when processing a maliciously crafted file. The iPhone maker said the",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "1323cadbf532",
-        "title": "Hackers Use NeedyMantis to Maintain Long-Term Access in Breached Networks",
-        "link": "https://thehackernews.com/2026/09/hackers-use-needymantis-to-maintain.html",
-        "source": "The Hacker News",
-        "published": "2026-09-28T18:35:42+00:00",
-        "summary": "Hackers have used a malware family called NeedyMantis to maintain long-term access to networks they had already breached, Microsoft said in a technical analysis. The malware has been seen in a small number of targeted intrusions at telecommunications organizations, universities, medical nonprofits, intergovernmental organizations, and government contractors. Its use goes back to at least",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "b8a987989d6b",
-        "title": "RatHat Android Malware Console Uses Gemini to Identify Higher-Value Victims",
-        "link": "https://thehackernews.com/2026/09/rathat-android-malware-console-uses.html",
-        "source": "The Hacker News",
-        "published": "2026-09-28T17:38:33+00:00",
-        "summary": "RatHat's operators build and publish the Android banking trojan and control infected phones from a web console, according to security company Cleafy. Cleafy has traced nearly 100 deployments of that console since April 2026. It said this fits a malware-as-a-service model, in which each customer runs a separate copy. The console stores what the malware collects from each phone,",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "c2e7eea87f28",
-        "title": "JadePuffer agentic AI attacks target Azure, destroy cloud resources",
-        "link": "https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-ai-attacks-target-azure-destroy-cloud-resources/",
+        "fingerprint": "437968b0ef97",
+        "title": "Hackers exploit Citrix NetScaler zero-day to deploy web shells",
+        "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-citrix-netscaler-zero-day-to-deploy-web-shells/",
         "source": "BleepingComputer",
-        "published": "2026-09-28T15:49:27+00:00",
-        "summary": "The JadePuffer ransomware operator is targeting Azure tenants with agent-driven attacks that conduct reconnaissance, steal credentials, and destroy core components. [...]",
+        "published": "2026-09-29T18:37:12+00:00",
+        "summary": "Cybersecurity firms say attackers exploited the Citrix NetScaler CVE-2026-88772 zero-day to deploy custom web shells and tunneling malware, gain root access, steal credentials, and spread into internal networks. [...]",
         "category": "high_alert"
       }
     ],
     "bad_updates": [],
     "upcoming_changes": [
       {
-        "fingerprint": "853a44b5e7c1",
-        "title": "Word: Legal plugins in Copilot",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571884",
+        "fingerprint": "01a82c214163",
+        "title": "Microsoft Copilot Studio: Discover & Add Skills from the skill catalog",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571880",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-28T22:58:08+00:00",
-        "summary": "Legal plugins in Copilot provide purpose-built skills to help legal professionals summarize, draft, review, and redline legal documents. Available in Word and Cowork, these plugins can use work context from Microsoft 365 and connect to supported third-party legal sources. GA date: October CY2026 Preview date: April CY2026",
+        "published": "2026-09-29T23:05:21+00:00",
+        "summary": "With the Skills catalog in Copilot Studio, makers can discover, reuse and selectively share approved organizational skills instead of recreating the same instructions and workflows for every agent. The shared catalog powered by Microsoft 365 App Store enables shared skills to extend across experiences such as Copilot Studio M365 copilot, and Cowork, helping organizations standardize proven ways...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "229b54b2f59b",
-        "title": "Microsoft Edge: Updated performance information in tab hover cards",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571692",
+        "fingerprint": "4a7a5a9c8ac3",
+        "title": "Work IQ: ExpandedContextIQ",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570854",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-28T22:58:08+00:00",
-        "summary": "Microsoft Edge is updating tab hover cards to provide clearer information about tab memory usage and memory savings when inactive tabs are discarded. Users will also have separate settings for tab-preview images and memory-usage information. GA date: October CY2026",
+        "published": "2026-09-29T23:05:21+00:00",
+        "summary": "Expand Context IQ so users can discover and select additional agents, skills, and content sources while composing prompts. GA date: November CY2026 Preview date: October CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "ae7110a20dcf",
-        "title": "Microsoft Purview: Information Protection-Auto-labeling scale increase for SharePoint and OneDrive",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571309",
+        "fingerprint": "0cd86d2c438b",
+        "title": "Work IQ: Custom agents + 3P calls",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570853",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-28T22:58:08+00:00",
-        "summary": "We are increasing the maximum auto-labeling capacity for SharePoint and OneDrive from 100,000 up to 500,000 files per tenant per day. This helps organizations label and protect more of their data at rest, faster, closing labeling gaps across existing content. With sensitivity labels and protection settings applied to more files sooner, organizations can better prepare their data estate for Micr...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "cbf78b20a28e",
-        "title": "OneDrive: Prompt gallery for Copilot",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571308",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-28T22:58:08+00:00",
-        "summary": "Discover easier ways to use Copilot in OneDrive The new Prompt Gallery offers ready-to-use prompts for common file tasks, helping you get started quickly, discover what Copilot can do, and customize prompts to fit your needs. Access the Prompt Gallery from: The Copilot button in the bottom-right corner of OneDrive The + button in the Copilot chat pane Select Open Prompt Gallery to explore promp...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "d51eaaeae6f4",
-        "title": "Microsoft Clipchamp: Copilot video creation updates",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570963",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-28T22:58:08+00:00",
-        "summary": "Copilot brings agentic video creation to Clipchamp Video Hub. Users can generate, edit, and refine videos from prompts—grounded in explicit documents or implicit WorkIQ knowledge. Preview and playback video directly in chat, then continue iterating towards a finished video. GA date: January CY2027 Preview date: December CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "0b7dd7cc5b48",
-        "title": "Dynamics 365 Field Service: Track costs for non-billable field work",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570857",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-28T22:58:08+00:00",
-        "summary": "Organizations often use the same field teams for both customer work and internal operational work, such as maintenance, inspections, or asset-related activities that are not billed to an external customer. These scenarios still require scheduling, technician execution, and accurate tracking of the labor, materials, and other costs associated with the work. With this capability, Field Service Wo...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "2271460f30d1",
-        "title": "Outlook: Send availability in Outlook mobile apps",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570665",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-28T22:58:08+00:00",
-        "summary": "We are bringing back send availability on both iOS and Android. iOS users will now also be able to access more of this feature via keyboard and voiceover. GA date: October CY2026",
+        "published": "2026-09-29T23:05:21+00:00",
+        "summary": "Enable Work IQ to invoke custom agents and agents that call supported third-party tools. GA date: November CY2026 Preview date: October CY2026",
         "category": "upcoming_changes"
       }
     ],
     "official_news": [
+      {
+        "fingerprint": "284f03d547b8",
+        "title": "Phishing Abuses RMM Tools for Persistent Access",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/09/29/phishing-abuses-rmm-tools-persistent-access/",
+        "source": "Microsoft Security Blog",
+        "published": "2026-09-29T21:39:27+00:00",
+        "summary": "Microsoft observed phishing campaigns that abused MSP360 RMM to deploy ScreenConnect, creating redundant remote-access channels for follow-on activity The post Phishing Abuses RMM Tools for Persistent Access appeared first on Microsoft Security Blog .",
+        "category": "official_news"
+      },
       {
         "fingerprint": "cb24f45cbd78",
         "title": "​​Beyond source code: A path to the keys to the kingdom",
@@ -241,39 +241,66 @@
     ],
     "community_buzz": [
       {
+        "fingerprint": "1018a90330dc",
+        "title": "Free eBook: Cybersecurity Auditing: Principles, Practices, and Frameworks (was $115)",
+        "link": "https://www.neowin.net/sponsored/free-ebook-cybersecurity-auditing-principles-practices-and-frameworks-was-115/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-09-30T15:00:01+00:00",
+        "summary": "Suitable as a primary reference, it provides the structure and depth needed to audit cybersecurity engagements and improve organizational assurance. Read more...",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "70f20b59ea01",
+        "title": "Microsoft to block Entra ID script injection attacks starting October",
+        "link": "https://www.bleepingcomputer.com/news/security/microsoft-to-block-entra-id-script-injection-attacks-starting-october/",
+        "source": "BleepingComputer",
+        "published": "2026-09-30T13:37:15+00:00",
+        "summary": "Microsoft has reminded customers that the Entra ID authentication system will get better protection against external script injection attacks starting next month. [...]",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "e5f880030773",
+        "title": "TeamViewer urges users to patch severe flaws “as soon as possible”",
+        "link": "https://www.bleepingcomputer.com/news/security/teamviewer-urges-users-to-patch-severe-flaws-as-soon-as-possible/",
+        "source": "BleepingComputer",
+        "published": "2026-09-30T12:25:10+00:00",
+        "summary": "Remote access software company TeamViewer warned customers on Tuesday to immediately patch a set of high-severity vulnerabilities affecting its client and host software. [...]",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "e9124ee3df7a",
+        "title": "Attackers Exploit NetScaler Flaw for Root Access, Deploy WHIPSHOT and SLAPSHOT",
+        "link": "https://thehackernews.com/2026/09/attackers-exploit-netscaler-flaw-for.html",
+        "source": "The Hacker News",
+        "published": "2026-09-30T08:24:35+00:00",
+        "summary": "Unknown threat actors have been observed exploiting a newly patched security flaw in Citrix NetScaler ADC and NetScaler Gateway appliances to target organizations in North America and Europe. The activity, observed by Mandiant Consulting and Google Threat Intelligence Group (GTIG) in September 2026, has targeted government, financial services, technology, education, and legal and professional",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "a1ae311cab09",
+        "title": "Visual Studio update breaks your BYOM setup for AI",
+        "link": "https://www.neowin.net/news/visual-studio-update-breaks-your-byom-setup-for-ai/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-09-30T04:54:01+00:00",
+        "summary": "Alongside the AI changes, the stable channel update introduces native Podman container debugging in \"Attach to Process\" and automated NuGet vulnerability patching via MCP server integration. Read more...",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "dfdee4fe96a2",
+        "title": "French Tax Data Theft Using Stolen Staff Passwords Went Undetected for Seven Weeks",
+        "link": "https://thehackernews.com/2026/09/french-tax-data-theft-using-stolen.html",
+        "source": "The Hacker News",
+        "published": "2026-09-29T17:47:01+00:00",
+        "summary": "An attacker used stolen passwords of staff at France's tax administration to take tax data on hundreds of thousands of taxpayers and businesses in June and July. Neither the tax administration nor France's national cybersecurity agency saw the data leave. The attack was not sophisticated, the agency, ANSSI, says in a report (in French) published on Tuesday: it worked because of weak",
+        "category": "community_buzz"
+      },
+      {
         "fingerprint": "b52927d90637",
         "title": "Automated AI agent used to breach cybersecurity nonprofit DIVD",
         "link": "https://www.bleepingcomputer.com/news/security/automated-ai-agent-used-to-breach-cybersecurity-nonprofit-divd/",
         "source": "BleepingComputer",
         "published": "2026-09-29T15:39:19+00:00",
         "summary": "The Dutch Institute for Vulnerability Disclosure (DIVD) suffered an AI-driven cyberattack that the organization described as \"loud and very, very messy.\" [...]",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "febc0c118962",
-        "title": "101 Malicious npm Packages Add Developers' WhatsApp Accounts to Groups Without Consent",
-        "link": "https://thehackernews.com/2026/09/101-malicious-npm-packages-add.html",
-        "source": "The Hacker News",
-        "published": "2026-09-29T13:45:10+00:00",
-        "summary": "Cybersecurity researchers have identified a cluster of 101 npm packages that are used to trap developers into a WhatsApp group subscriber campaign dubbed PhantomSub. \"The malicious packages abuse the 'Baileys' WhatsApp open source project to add the victims to groups without their consent,\" OX Security researchers Nir Zadok, Moshe Siman Tov Bustan, and Vitalii Chepurko said in a technical",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "98cd94aac5f5",
-        "title": "Kiteworks patches critical flaw, brings customer systems online",
-        "link": "https://www.bleepingcomputer.com/news/security/kiteworks-lifts-shutdown-warning-after-patching-critical-flaw/",
-        "source": "BleepingComputer",
-        "published": "2026-09-29T09:04:06+00:00",
-        "summary": "American tech company Kiteworks has lifted a precautionary advisory asking customers to shut down systems after patching a critical vulnerability. [...]",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "c5d001af41ed",
-        "title": "Official MCP Python SDK Flaw Can Let Malicious Servers Steal OAuth Credentials",
-        "link": "https://thehackernews.com/2026/09/official-mcp-python-sdk-flaw-can-let.html",
-        "source": "The Hacker News",
-        "published": "2026-09-29T06:08:25+00:00",
-        "summary": "A malicious MCP server could trick an application built on the official MCP Python SDK into handing over the OAuth credentials it uses to log in to a real service, the SDK's maintainers said in a security advisory. Affected versions sent the client secret, the authorization code, and the PKCE proof key to a token endpoint the attacker controlled. The fix is in versions 1.30.0 and",
         "category": "community_buzz"
       }
     ]
