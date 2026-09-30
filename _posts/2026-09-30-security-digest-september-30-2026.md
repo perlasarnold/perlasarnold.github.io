@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - September 30, 2026"
+date: 2026-09-30 18:44:16 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - September 30, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -48,4 +56,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Bitget hacked via zero-day in third-party security products](https://www.bleepingcomputer.com/news/security/bitget-hacked-via-zero-day-in-third-party-security-products/) - *(BleepingComputer)*
 - [Microsoft shares new Windows 11 26H2 security recommendations for IT admins](https://www.neowin.net/news/microsoft-shares-new-windows-11-26h2-security-recommendations-for-it-admins/?utm_source=rss) - *(Neowin)*
 - [CVE-2026-94545 (CVSS 9.5) affects Next.js apps using next/og on the Node.js runtime with sharp.](https://www.reddit.com/r/cybersecurity/comments/1wtxh6x/cve202694545_cvss_95_affects_nextjs_apps_using/) - *(Reddit r/cybersecurity)*
+
 
