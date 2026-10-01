@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-09-30T16:38:29.531124+00:00",
-  "date": "2026-09-30",
+  "generated_utc": "2026-10-01T17:15:04.586126+00:00",
+  "date": "2026-10-01",
   "lookback_hours": 25,
   "source_status": [
     {
@@ -12,12 +12,12 @@
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 3
+      "count": 25
     },
     {
       "name": "Microsoft Intune What's New",
       "status": "OK",
-      "count": 0
+      "count": 1
     },
     {
       "name": "Windows IT Pro Blog",
@@ -37,17 +37,17 @@
     {
       "name": "BleepingComputer",
       "status": "OK",
-      "count": 8
+      "count": 4
     },
     {
       "name": "Neowin",
       "status": "OK",
-      "count": 3
+      "count": 2
     },
     {
       "name": "The Hacker News",
       "status": "OK",
-      "count": 5
+      "count": 8
     },
     {
       "name": "Krebs on Security",
@@ -99,208 +99,397 @@
   "items": {
     "high_alert": [
       {
-        "fingerprint": "e1c8d4139ee2",
-        "title": "CISA warns of critical pre-auth RCE flaw in MikroTik RouterOS",
-        "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-pre-auth-rce-flaw-in-mikrotik-routeros/",
-        "source": "BleepingComputer",
-        "published": "2026-09-30T15:49:29+00:00",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning of a new critical vulnerability in MikroTik RouterOS that could lead to remote code execution or cause a denial-of-service condition. [...]",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "0154c60322c7",
-        "title": "Zimbra zero-day exploit exposes mail servers to attack, Microsoft warns",
-        "link": "https://www.neowin.net/news/zimbra-zero-day-exploit-exposes-mail-servers-to-attack-microsoft-warns/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-09-30T15:48:01+00:00",
-        "summary": "Unauthenticated command injection in the SNMP notification path lets hackers steal session tokens and install persistent webshells on mail servers. Read more...",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "56fa2afd56c9",
-        "title": "Cisco Warns of Attackers Exploiting Critical Authentication Bypass in SD-WAN Manager",
-        "link": "https://thehackernews.com/2026/09/cisco-warns-of-attackers-exploiting.html",
+        "fingerprint": "3b66db21587a",
+        "title": "Police Arrest 16-Year-Old Suspected of Running KillSec, Seize Ransomware Leak Site and Servers",
+        "link": "https://thehackernews.com/2026/10/police-arrest-16-year-old-suspected-of.html",
         "source": "The Hacker News",
-        "published": "2026-09-30T15:24:54+00:00",
-        "summary": "Attackers are exploiting a new critical zero-day flaw in Cisco Catalyst SD-WAN Manager, the system companies use to manage their Cisco SD-WAN networks, Cisco said in an advisory on September 30. The flaw, CVE-2026-76504, could allow a remote attacker with no login access to use the Manager's API as the admin user. Fixed releases are available, and there is no workaround. It carries a",
+        "published": "2026-10-01T16:55:57+00:00",
+        "summary": "Police in Spain have arrested a 16-year-old whom investigators suspect of running the KillSec ransomware group. KillSec is accused of stealing data from organizations and threatening to publish it on its leak site unless they paid. The 16-year-old was one of 3 people arrested on September 30, when police also took control of that site. Investigators identified him as KillSec's suspected",
         "category": "high_alert"
       },
       {
-        "fingerprint": "e991847770db",
-        "title": "Attackers Abuse ChatGPT Custom GPTs to Deliver RAT via ClickFix Lures",
-        "link": "https://thehackernews.com/2026/09/attackers-abuse-chatgpt-custom-gpts-to.html",
+        "fingerprint": "c2ee5c4e85ae",
+        "title": "ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories",
+        "link": "https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html",
         "source": "The Hacker News",
-        "published": "2026-09-30T15:00:15+00:00",
-        "summary": "Threat actors are abusing ChatGPT Custom GPTs to disguise them as legitimate product offerings and direct unsuspecting victims to malicious sites that employ ClickFix lures to deliver malware. Huntress, which observed the activity in late September 2026, said it marks the abuse of yet another feature in trusted artificial intelligence (AI) platforms. Prior campaigns have weaponized shared",
+        "published": "2026-10-01T16:45:38+00:00",
+        "summary": "This week, the useful words are boring ones: inspect, cache, compile, store, trust. Each sounds harmless. Each can become an attack path when a system does a little more than people expect. A model check can run code. A cache can mix up requests. A public secret can stay useful for years. That is the lesson running through the list. Attackers do not always need a brilliant new trick. They can",
         "category": "high_alert"
       },
       {
-        "fingerprint": "2050937aadcc",
-        "title": "Cisco warns of new SD-WAN zero-day exploited in attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-sd-wan-authentication-bypass-zero-day-exploited-in-attacks/",
-        "source": "BleepingComputer",
-        "published": "2026-09-30T14:46:40+00:00",
-        "summary": "Cisco released security updates to address a critical zero-day in the Catalyst SD-WAN Manager (tracked as CVE-2026-76504) that attackers are actively exploiting to escalate to admin privileges. [...]",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "cc3d78924826",
-        "title": "Unauthenticated command injection on internet-facing mail servers: tracking CVE-2026-73570",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/09/30/unauthenticated-command-injection-on-internet-facing-mail-servers-tracking-cve-2026-73570/",
-        "source": "Microsoft Security Blog",
-        "published": "2026-09-30T14:00:00+00:00",
-        "summary": "Microsoft Threat Intelligence examines CVE-2026-73570 exploitation in Zimbra, including observed attack paths, detection opportunities, and mitigation guidance. The post Unauthenticated command injection on internet-facing mail servers: tracking CVE-2026-73570 appeared first on Microsoft Security Blog .",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "ecd271aab978",
-        "title": "Bitget hacked via zero-day in third-party security products",
-        "link": "https://www.bleepingcomputer.com/news/security/bitget-hacked-via-zero-day-in-third-party-security-products/",
-        "source": "BleepingComputer",
-        "published": "2026-09-30T11:11:46+00:00",
-        "summary": "Cryptocurrency exchange Bitget revealed today that attackers who stole $387.5 million last week breached its systems after exploiting a zero-day flaw in third-party security products. [...]",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "aef4fe97bf49",
-        "title": "Citrix NetScaler CVE-2026-88772 Exploit Details Show Pre-Auth Path to Shellcode Execution",
-        "link": "https://thehackernews.com/2026/09/citrix-netscaler-cve-2026-88772-exploit.html",
+        "fingerprint": "06ad060fecb6",
+        "title": "WordPress Backdoor Rebuilds Itself After Cleanup Using Files, Database, and Shared Memory",
+        "link": "https://thehackernews.com/2026/10/wordpress-backdoor-rebuilds-itself.html",
         "source": "The Hacker News",
-        "published": "2026-09-30T05:30:30+00:00",
-        "summary": "Cybersecurity researchers have disclosed technical details of a recently patched critical security flaw in Citrix NetScaler ADC and Gateway that has come under active exploitation in the wild. The vulnerability, tracked as CVE-2026-88772 (CVSS score: 9.5), has been described as a memory overflow bug in the Datagram Transport Layer Security (DTLS) protocol handling that's rooted in the NetScaler",
+        "published": "2026-10-01T14:37:35+00:00",
+        "summary": "Cybersecurity researchers have shed light on a WordPress compromise in which threat actors deployed multiple persistence mechanisms to ensure that the final payload kept returning without having to infect the site again. The backdoor has been codenamed SC after the \"SC_\" markers present in the injected content. Sucuri has described the malware as a \"self-healing mesh\" that's",
         "category": "high_alert"
       },
       {
-        "fingerprint": "caef0163d38f",
-        "title": "Custom ChatGPTs push ClickFix attacks to deploy RAT malware",
-        "link": "https://www.bleepingcomputer.com/news/security/custom-chatgpts-push-clickfix-attacks-to-deploy-rat-malware/",
+        "fingerprint": "a18b0de3fb3c",
+        "title": "Police dismantle KillSec ransomware gang allegedly led by 16-year-old",
+        "link": "https://www.bleepingcomputer.com/news/security/police-dismantle-killsec-ransomware-gang-allegedly-led-by-16-year-old/",
         "source": "BleepingComputer",
-        "published": "2026-09-29T20:59:39+00:00",
-        "summary": "Custom variants of OpenAI's ChatGPT promoted in sponsored Google results are directing unsuspecting users to malicious sites that use ClickFix attacks to deliver malware. [...]",
+        "published": "2026-10-01T14:25:14+00:00",
+        "summary": "An international law enforcement operation dubbed \"Operation KillSwitch\" seized the KillSec ransomware gang's data leak site and servers, led to three arrests, and identified a 16-year-old as the group's alleged administrator. [...]",
         "category": "high_alert"
       },
       {
-        "fingerprint": "437968b0ef97",
-        "title": "Hackers exploit Citrix NetScaler zero-day to deploy web shells",
-        "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-citrix-netscaler-zero-day-to-deploy-web-shells/",
+        "fingerprint": "17f24b8d64e7",
+        "title": "CISA Adds Exploited Cisco Catalyst SD-WAN Manager Auth Bypass to KEV",
+        "link": "https://thehackernews.com/2026/10/cisa-adds-exploited-cisco-catalyst-sd.html",
+        "source": "The Hacker News",
+        "published": "2026-10-01T10:33:16+00:00",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a critical authentication bypass flaw impacting Cisco Catalyst SD-WAN Manager to its Known Exploited Vulnerabilities (KEV), following reports of active exploitation. The vulnerability, tracked as CVE-2026-76504 (CVSS score: 9.8), could allow an unauthenticated, remote attacker to access an affected system with",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "f285f88260b9",
+        "title": "Apple CoreGraphics PoC Emerges as WhatsApp PDF Checks Hint at Possible Delivery Path",
+        "link": "https://thehackernews.com/2026/10/apple-coregraphics-poc-emerges-as.html",
+        "source": "The Hacker News",
+        "published": "2026-10-01T05:54:41+00:00",
+        "summary": "Security researchers have published the first public proof-of-concept for CVE-2026-86950, an Apple CoreGraphics flaw Apple says may have been used in attacks against specific targeted individuals. The trigger is a malicious PDF with a crafted embedded font that crashes unpatched iPhones and Macs. The code causes a crash, not an execution error. Turning the memory corruption into a working",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "b10962c2cc23",
+        "title": "Bitget Confirms Third-Party Zero-Day Behind $387.5 Million Cryptocurrency Theft",
+        "link": "https://thehackernews.com/2026/10/bitget-confirms-third-party-zero-day.html",
+        "source": "The Hacker News",
+        "published": "2026-10-01T05:21:10+00:00",
+        "summary": "Cryptocurrency exchange Bitget on Wednesday confirmed that attackers who stole $387.5 million last week exploited a zero-day flaw in third-party security products, citing ongoing investigation findings from SlowMist. \"Their investigation identified malicious activity involving third-party security products, including a zero-day vulnerability, and recovered a customized tool used by the attacker",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "7e3903402062",
+        "title": "Russian state hackers use new RedFlick technique to push malware",
+        "link": "https://www.bleepingcomputer.com/news/security/russian-state-hackers-use-new-redflick-technique-to-push-malware/",
         "source": "BleepingComputer",
-        "published": "2026-09-29T18:37:12+00:00",
-        "summary": "Cybersecurity firms say attackers exploited the Citrix NetScaler CVE-2026-88772 zero-day to deploy custom web shells and tunneling malware, gain root access, steal credentials, and spread into internal networks. [...]",
+        "published": "2026-09-30T20:34:01+00:00",
+        "summary": "The Russian state actor Star Blizzard has been using a new malware installation tactic dubbed \"RedFlick\" to deploy its signature CosmicPulse backdoor. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "94f4250e6c95",
+        "title": "DIVD says Zammad zero-days enabled AI-driven network breach",
+        "link": "https://www.bleepingcomputer.com/news/security/divd-says-zammad-zero-days-enabled-ai-driven-network-breach/",
+        "source": "BleepingComputer",
+        "published": "2026-09-30T19:49:15+00:00",
+        "summary": "The Dutch Institute for Vulnerability Disclosure (DIVD) says that the breach of its network was possible by exploiting a chain of two zero-day vulnerabilities in the open-source Zammad ticketing system. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "2b36a1765f59",
+        "title": "Attackers Exploit Zimbra Flaw to Deploy Web Shells and Harvest Authentication Secrets",
+        "link": "https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html",
+        "source": "The Hacker News",
+        "published": "2026-09-30T16:46:29+00:00",
+        "summary": "Threat actors have weaponized a now-patched security flaw in Zimbra Collaboration Suite (ZCS) to deploy web shells and access mailbox data, according to findings from the Microsoft Security Research team. The attack exploits CVE-2026-73570 (CVSS score: 8.9), an unauthenticated operating system command injection flaw that can lead to remote code execution when Simple Network Management Protocol",
         "category": "high_alert"
       }
     ],
     "bad_updates": [],
     "upcoming_changes": [
       {
-        "fingerprint": "01a82c214163",
-        "title": "Microsoft Copilot Studio: Discover & Add Skills from the skill catalog",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571880",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-29T23:05:21+00:00",
-        "summary": "With the Skills catalog in Copilot Studio, makers can discover, reuse and selectively share approved organizational skills instead of recreating the same instructions and workflows for every agent. The shared catalog powered by Microsoft 365 App Store enables shared skills to extend across experiences such as Copilot Studio M365 copilot, and Cowork, helping organizations standardize proven ways...",
+        "fingerprint": "71363aab014e",
+        "title": "In development - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/whats-new/in-development",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-10-01T07:34:00+00:00",
+        "summary": "In development for Microsoft Intune Summarize this article for me In this article To help in your readiness and planning, this article lists Intune UI updates and features that are in development but not yet released. Applies to: Android Enterprise Enforce Routes capability in iOS/iPadOS and macOS VPN profiles Microsoft Intune will support Apple's.",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "4a7a5a9c8ac3",
-        "title": "Work IQ: ExpandedContextIQ",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570854",
+        "fingerprint": "240123ee65e3",
+        "title": "Dynamics 365 Business Central: Development - Page Scripting enters General Availability",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573384",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-29T23:05:21+00:00",
-        "summary": "Expand Context IQ so users can discover and select additional agents, skills, and content sources while composing prompts. GA date: November CY2026 Preview date: October CY2026",
+        "published": "2026-09-30T23:31:03+00:00",
+        "summary": "The page scripting tool that can be used to record and replay user actions directly in the Business Central web client is moving out of preview to general availability. Thus the tool is fully localized and includes accessibility, usability, and visual improvements. We have also added new capabilitites to select multiple rows in grids and validate text displayed in message and error dialogs. Bus...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "0cd86d2c438b",
-        "title": "Work IQ: Custom agents + 3P calls",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570853",
+        "fingerprint": "f92c5b51224b",
+        "title": "Dynamics 365 Contact Center: Quality evaluation - Specify who to evaluate in conversations",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573383",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-09-29T23:05:21+00:00",
-        "summary": "Enable Work IQ to invoke custom agents and agents that call supported third-party tools. GA date: November CY2026 Preview date: October CY2026",
+        "published": "2026-09-30T23:31:03+00:00",
+        "summary": "Participant evaluated\" lets users choose who to evaluate within a conversation transcript for quality evaluation.Users can select Participant evaluated to choose the scope of the evaluation: Entire record, Current owner, or IVR/Bot. By default, \"Entire record\" evaluates the full conversation transcript, including all participants. Current owner evaluates the current conversation owner, defined ...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "4ac52552a26f",
+        "title": "Dynamics 365 Customer Service: Service tools, skills and plugins are now available for Scout",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573382",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-30T23:31:03+00:00",
+        "summary": "The updated Service application brings Dynamics 365 Customer Service context, actions, and guided workflows into Scout. Customer service teams can work with service information and take supported actions in the flow of work, reducing the need to switch to Dynamics 365. First-party tools delivered through the Service package on Dynamics 365 MCP respect Dynamics 365 business logic and the user's ...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "a27dc4952a70",
+        "title": "Dynamics 365 Customer Service: Service tools, skills and plugins are now available for Code",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573381",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-30T23:31:03+00:00",
+        "summary": "The updated Service application brings Dynamics 365 Customer Service context, actions, and guided workflows into Code. Customer service teams can work with service information and take supported actions in the flow of work, reducing the need to switch to Dynamics 365. First-party tools delivered through the Service package on Dynamics 365 MCP respect Dynamics 365 business logic and the user's e...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "5e12514b6d38",
+        "title": "Dynamics 365 Business Central: Copilot and agents - Improve purchase order matching in Payables Agent",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573380",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-30T23:31:03+00:00",
+        "summary": "This feature improves PO matching quality in Payables Agent and aligns draft finalization behavior with existing posting controls. The agent uses an enriched PO Lines list page during matching that includes these fields: Line Amount — enables matching on value, not just description and quantity. This field is especially valuable for service lines where quantity (often just 1) isn't a meaningful...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "796a6694430f",
+        "title": "Dynamics 365 Business Central: Sustainability Management - Use specific method for carbon footprint calculation when enabling item tracking",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573379",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-30T23:31:03+00:00",
+        "summary": "This feature introduces a new calculation method for carbon footprint tracking in sustainability value entries. In addition to the current Average method, you can enable a Specific method for items that you track with serial or lot numbers. On the Item Card page, on the Sustainability FastTab, you can choose one of the following options in the Carbon Tracking Method field: Average (default) – U...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "4693eec06012",
+        "title": "Dynamics 365 Business Central: Sustainability Management - Track your carbon footprint with item journals and item reclassification journals",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573378",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-30T23:31:03+00:00",
+        "summary": "This feature introduces carbon footprint tracking to Item Journals and Item Reclassification Journals . It adds fields for CO₂e per unit and total CO₂e, and calculates emissions to ensure that emissions follow the same lifecycle logic as item costs. Emissions are calculated based on Sustainability Value Entries by using the Average or the new Specific method. Posting results are recorded in Sus...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "7f16678b686c",
+        "title": "Dynamics 365 Business Central: Sustainability Management - Track your carbon footprint for fixed assets",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573377",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-30T23:31:03+00:00",
+        "summary": "This feature extends sustainability tracking to fixed assets by introducing fields and logic that capture emissions during acquisition, reclassification, and disposal. Emission data flows into the sustainability ledger and integrates with existing sustainability reporting. Validation ensures you can enter emissions only for acquisition transactions. Posting rules maintain data integrity across ...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "c463674adbc7",
+        "title": "Dynamics 365 Business Central: Sustainability Management - Reverse Sustainability Ledger entries transaction",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573376",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-30T23:31:03+00:00",
+        "summary": "Keep your sustainability data accurate by reversing sustainability ledger entries that contain mistakes. If you post sustainability transactions that contain a mistake, you can’t delete the entries. However, if you posted the entries from a sustainability journal or a general journal, what you can do is use the Reverse Transaction action on the Sustainability Ledger Entries page to reverse them...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "157a29eeedd3",
+        "title": "Dynamics 365 Business Central: Sustainabilty Management - Estimate your carbon footprint in Service Management",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573375",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-30T23:31:03+00:00",
+        "summary": "This feature extends sustainability tracking to cover Service Management features by displaying carbon footprint values on service documents. Emission data comes from sustainability value entries for items and from resource cards for resource-related emissions. When you consume or ship items or resources as part of a service order, the system retrieves their associated CO₂e values from sustaina...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "6285ffb79179",
+        "title": "Dynamics 365 Business Central: Sustainability Management - Use formulas to calculate emissions in purchase documents",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573374",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-30T23:31:03+00:00",
+        "summary": "This feature introduces formula-based emission calculations on purchase documents and uses the same calculation logic as sustainability journals. It applies emission factors to inputs such as fuel, electricity, distance, or custom amounts. Set up this feature on the Sustainability Setup page: First, turn on the Use Emissions in Purchase Documents toggle. Then, turn on the Use Formulas in Purcha...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "2d2e10955044",
+        "title": "Dynamics 365 Sales: Sales tools, skills and plugin are now available in Copilot Cowork",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573373",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-30T23:31:03+00:00",
+        "summary": "The updated Sales plugin brings expanded Dynamics 365 Sales context, actions, and guided workflows to Copilot Cowork, building on the native Sales skills already available in Cowork. Sellers can work with sales data and take supported actions directly in the flow of work, reducing the need to switch to Dynamics 365 Sales. The native Sales skills invoke tools published through the Dynamics 365 M...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "040a72e0c270",
+        "title": "Dynamics 365 Business Central: Copilot and agents - Updates to Agent UI experience",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573372",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-30T23:31:03+00:00",
+        "summary": "Manage agents more easily by grouping avatars and using a dedicated action to start new tasks. GA date: October CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "098222140636",
+        "title": "Dynamics 365 Business Central: User experiences - Show recently searched in Tell Me",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573371",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-30T23:31:03+00:00",
+        "summary": "Find pages and reports faster by accessing recent searches in Tell Me (Alt+Q). GA date: October CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "8762a7f225dd",
+        "title": "Dynamics 365 Business Central: Copilot and agents - Manage agent permissions easier",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573370",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-30T23:31:03+00:00",
+        "summary": "Assign additional permissions to agents when they request them. GA date: October CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "2176aaac84c1",
+        "title": "Dynamics 365 Business Central: User experiences - Agent actions review notifications on lists",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573369",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-30T23:31:03+00:00",
+        "summary": "Show and manage documents where agents require human interaction by using a new review bar on documents and lists. GA date: October CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "7b3718c36c25",
+        "title": "Dynamics 365 Business Central: User experiences - Show recently used in lookups",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573368",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-30T23:31:03+00:00",
+        "summary": "Business Central now highlights recently used records directly in lookup dialogs. When users open a lookup, the system surfaces records they have recently accessed or worked with, making it easier to select the correct value without performing a search. The suggestions are personalized to each user and are based on usage signals already collected by the platform. The feature reuses the same ser...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "1c7f6c609246",
+        "title": "Dynamics 365 Business Central: User experience - Preview images directly in web client",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573367",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-30T23:31:03+00:00",
+        "summary": "You can open image attachments in the Business Central web client without downloading the images first. Files display in preview mode with an easy to use viewer experience that's similar to the print preview or PDF preview features. If you want to save a copy, you can download the image file from the viewer. This feature works across all areas of Business Central, including agents, email, and c...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "077a6e5d1d9d",
+        "title": "Dynamics 365 Business Central: Copilot and agents - Review content generated by agents directly on pages",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573366",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-30T23:31:03+00:00",
+        "summary": "This improvement introduces the ability for Business Central users to review and approve content generated by agents directly on the pages where they work. You no longer need to navigate to separate task pane to understand that a given document was created by an agent. Instead, agent‑generated suggestions—such as descriptions, text proposals, or field‑specific updates—appear inline where they c...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "5b42fe3a3e4b",
+        "title": "Dynamics 365 Business Central: Adapt faster with Power Platform - Map new Dataverse fields in Business Central",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573365",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-30T23:31:03+00:00",
+        "summary": "This feature simplifies how administrators keep Business Central and Dataverse aligned as Dataverse schemas evolve. Previously, exposing new or existing custom Dataverse fields required creating or updating a table extension (PTE) in the integration layer. Based on partner and customer feedback, this update removes that dependency. When a new field is added in Dataverse—such as a custom field i...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "d4b64781d0d8",
+        "title": "Dynamics 365 Business Central: Copilot and agents - Show avatars for record creators and modifiers in list",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573364",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-30T23:31:03+00:00",
+        "summary": "This feature introduces visual avatars in Business Central list pages to indicate which user or agent created or last modified a record. The capability enhances traceability and supports collaborative work by making identity information immediately visible without opening the record. The avatars reflect either a named Business Central user, a system user or an AI agent, following the existing i...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "e52fd32d8b30",
+        "title": "Dynamics 365 Business Central: Copilot and agents - Manage tasks from all agents in dedicated task pane",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573363",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-30T23:31:03+00:00",
+        "summary": "This feature introduces a dedicated task pane in Business Central that displays all tasks generated by the agents. The task pane appears as an additional panel in the user interface and can be opened from anywhere in Business Central. Tasks include suggestions, validations, follow‑ups access to draft documents, and other agent‑initiated actions. Users can review task details, navigate directly ...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "bf99298785fe",
+        "title": "Dynamics 365 Business Central: Copilot and agents - Enable Microsoft Copilot chat experience",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573362",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-30T23:31:03+00:00",
+        "summary": "The updated Microsoft Copilot chat experience introduces a modern, consistent, and intuitive interface that aligns Business Central with the broader Microsoft Copilot ecosystem. The enhancement modernizes the chat panel, streamlines navigation, and improves user workflows by adopting familiar interaction patterns from Microsoft Copilot. This update benefits users who regularly interact with Cop...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "b51e096ae508",
+        "title": "Dynamics 365 Business Central: Development - Debug recorded Business Central failures with an AI agent",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573361",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-30T23:31:03+00:00",
+        "summary": "\"Describe a failing scenario to an AI agent, record the next matching Business Central session or a known session, and collect its snapshot for offline AL debugging. Business value: Developers can investigate intermittent or production-only AL failures by describing the problem to an AI agent and reproducing the scenario, without manually configuring and operating the snapshot debugger. The age...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "db74ff81fbaf",
+        "title": "Dynamics 365 Business Central: Development - Check records for uncommitted changes",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573360",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-09-30T23:31:03+00:00",
+        "summary": "\"Use the Record API IsDirty property to determine whether a record instance contains unsaved changes before deciding to validate, save, or otherwise process it. Business value: AL developers can determine whether a record instance has been changed before deciding to save it, validate it, or prompt the user. This can simplify conditional persistence and reduce unnecessary database operations.\" G...",
         "category": "upcoming_changes"
       }
     ],
     "official_news": [
       {
-        "fingerprint": "284f03d547b8",
-        "title": "Phishing Abuses RMM Tools for Persistent Access",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/09/29/phishing-abuses-rmm-tools-persistent-access/",
+        "fingerprint": "3bfe3326ad9c",
+        "title": "Preparing governments for an era of interconnected cyber risk",
+        "link": "https://blogs.microsoft.com/on-the-issues/2026/10/01/preparing-governments-for-an-era-of-interconnected-cyber-risk/",
         "source": "Microsoft Security Blog",
-        "published": "2026-09-29T21:39:27+00:00",
-        "summary": "Microsoft observed phishing campaigns that abused MSP360 RMM to deploy ScreenConnect, creating redundant remote-access channels for follow-on activity The post Phishing Abuses RMM Tools for Persistent Access appeared first on Microsoft Security Blog .",
+        "published": "2026-10-01T14:00:00+00:00",
+        "summary": "According to this year’s Microsoft Digital Defense Report, government agencies and services were the sector most impacted by cyber threats in 2026, accounting for 27% of observed activity, up from 17% in 2025. The post Preparing governments for an era of interconnected cyber risk appeared first on Microsoft Security Blog .",
         "category": "official_news"
       },
       {
-        "fingerprint": "cb24f45cbd78",
-        "title": "​​Beyond source code: A path to the keys to the kingdom",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/09/29/beyond-source-code-a-path-to-the-keys-to-the-kingdom/",
+        "fingerprint": "67d06f7319fd",
+        "title": "Insights from the 2026 Microsoft Digital Defense Report",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/10/01/insights-from-the-2026-microsoft-digital-defense-report/",
         "source": "Microsoft Security Blog",
-        "published": "2026-09-29T16:00:00+00:00",
-        "summary": "Explore how Storm-3068 turned a compromised identity into broader cloud access and the steps organizations can take to defend their identities, pipelines, and cloud infrastructure. The post ​​Beyond source code: A path to the keys to the kingdom appeared first on Microsoft Security Blog .",
+        "published": "2026-10-01T14:00:00+00:00",
+        "summary": "Read highlights from the 2026 Microsoft Digital Defense Report, which reflects a security environment that continues to grow more interconnected. The post Insights from the 2026 Microsoft Digital Defense Report appeared first on Microsoft Security Blog .",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "04c0d6068110",
+        "title": "​​Secure what’s next: Your guide to Microsoft Security at Microsoft Ignite 2026",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/09/30/secure-whats-next-your-guide-to-microsoft-security-at-microsoft-ignite-2026/",
+        "source": "Microsoft Security Blog",
+        "published": "2026-09-30T19:31:00+00:00",
+        "summary": "This year at Microsoft Ignite, we spotlight our AI-first, end-to-end security platform designed to protect identities, devices, data, applications, clouds, infrastructure, and the AI agents now working alongside your teams. The post ​​Secure what’s next: Your guide to Microsoft Security at Microsoft Ignite 2026 appeared first on Microsoft Security Blog .",
         "category": "official_news"
       }
     ],
     "community_buzz": [
       {
-        "fingerprint": "1018a90330dc",
-        "title": "Free eBook: Cybersecurity Auditing: Principles, Practices, and Frameworks (was $115)",
-        "link": "https://www.neowin.net/sponsored/free-ebook-cybersecurity-auditing-principles-practices-and-frameworks-was-115/?utm_source=rss",
+        "fingerprint": "bcfefb640152",
+        "title": "Microsoft enables Windows settings backup by default for orgs",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-enables-windows-settings-backup-by-default-for-orgs/",
+        "source": "BleepingComputer",
+        "published": "2026-10-01T11:14:28+00:00",
+        "summary": "Microsoft announced that Windows settings backup and restore is now enabled by default on all Microsoft Entra-joined or Microsoft Entra hybrid-joined enterprise systems upgraded to Windows 11 26H2. [...]",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "d87a131c53f8",
+        "title": "KB5129195: Official Microsoft Windows 11 26H2 ISO download links available for USB install",
+        "link": "https://www.neowin.net/news/kb5129195-official-microsoft-windows-11-26h2-iso-download-links-available-for-usb-install/?utm_source=rss",
         "source": "Neowin",
-        "published": "2026-09-30T15:00:01+00:00",
-        "summary": "Suitable as a primary reference, it provides the structure and depth needed to audit cybersecurity engagements and improve organizational assurance. Read more...",
+        "published": "2026-10-01T08:10:01+00:00",
+        "summary": "Microsoft launched Windows 11 26H2 earlier this week. Grab Microsoft's official KB5129195 ISOs from the direct download links and create a bootable USB installer today. Read more...",
         "category": "community_buzz"
       },
       {
-        "fingerprint": "70f20b59ea01",
-        "title": "Microsoft to block Entra ID script injection attacks starting October",
-        "link": "https://www.bleepingcomputer.com/news/security/microsoft-to-block-entra-id-script-injection-attacks-starting-october/",
-        "source": "BleepingComputer",
-        "published": "2026-09-30T13:37:15+00:00",
-        "summary": "Microsoft has reminded customers that the Entra ID authentication system will get better protection against external script injection attacks starting next month. [...]",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "e5f880030773",
-        "title": "TeamViewer urges users to patch severe flaws “as soon as possible”",
-        "link": "https://www.bleepingcomputer.com/news/security/teamviewer-urges-users-to-patch-severe-flaws-as-soon-as-possible/",
-        "source": "BleepingComputer",
-        "published": "2026-09-30T12:25:10+00:00",
-        "summary": "Remote access software company TeamViewer warned customers on Tuesday to immediately patch a set of high-severity vulnerabilities affecting its client and host software. [...]",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "e9124ee3df7a",
-        "title": "Attackers Exploit NetScaler Flaw for Root Access, Deploy WHIPSHOT and SLAPSHOT",
-        "link": "https://thehackernews.com/2026/09/attackers-exploit-netscaler-flaw-for.html",
+        "fingerprint": "f749396a42c8",
+        "title": "Google Rolls Out Gemini 4 Argon to Trusted Cyber Defenders, Plans Guardrail-Free Version",
+        "link": "https://thehackernews.com/2026/10/google-rolls-out-gemini-4-argon-to.html",
         "source": "The Hacker News",
-        "published": "2026-09-30T08:24:35+00:00",
-        "summary": "Unknown threat actors have been observed exploiting a newly patched security flaw in Citrix NetScaler ADC and NetScaler Gateway appliances to target organizations in North America and Europe. The activity, observed by Mandiant Consulting and Google Threat Intelligence Group (GTIG) in September 2026, has targeted government, financial services, technology, education, and legal and professional",
+        "published": "2026-10-01T07:49:36+00:00",
+        "summary": "Google on Wednesday announced its latest frontier artificial intelligence (AI) model, Gemini 4 Argon, that it said is being rolled out to a set of trusted cyber defenders through its Fairwind Program. \"It delivers frontier performance in complex workflows across real-world software engineering, enterprise knowledge work like legal and finance, and cybersecurity defense,\" Koray Kavukcuoglu,",
         "category": "community_buzz"
       },
       {
-        "fingerprint": "a1ae311cab09",
-        "title": "Visual Studio update breaks your BYOM setup for AI",
-        "link": "https://www.neowin.net/news/visual-studio-update-breaks-your-byom-setup-for-ai/?utm_source=rss",
+        "fingerprint": "33abe67f5f66",
+        "title": "Official Microsoft Windows 11 26H2 KB5121794 enablement package direct download links out",
+        "link": "https://www.neowin.net/news/official-microsoft-windows-11-26h2-kb5121794-enablement-package-direct-download-links-out/?utm_source=rss",
         "source": "Neowin",
-        "published": "2026-09-30T04:54:01+00:00",
-        "summary": "Alongside the AI changes, the stable channel update introduces native Podman container debugging in \"Attach to Process\" and automated NuGet vulnerability patching via MCP server integration. Read more...",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "dfdee4fe96a2",
-        "title": "French Tax Data Theft Using Stolen Staff Passwords Went Undetected for Seven Weeks",
-        "link": "https://thehackernews.com/2026/09/french-tax-data-theft-using-stolen.html",
-        "source": "The Hacker News",
-        "published": "2026-09-29T17:47:01+00:00",
-        "summary": "An attacker used stolen passwords of staff at France's tax administration to take tax data on hundreds of thousands of taxpayers and businesses in June and July. Neither the tax administration nor France's national cybersecurity agency saw the data leave. The attack was not sophisticated, the agency, ANSSI, says in a report (in French) published on Tuesday: it worked because of weak",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "b52927d90637",
-        "title": "Automated AI agent used to breach cybersecurity nonprofit DIVD",
-        "link": "https://www.bleepingcomputer.com/news/security/automated-ai-agent-used-to-breach-cybersecurity-nonprofit-divd/",
-        "source": "BleepingComputer",
-        "published": "2026-09-29T15:39:19+00:00",
-        "summary": "The Dutch Institute for Vulnerability Disclosure (DIVD) suffered an AI-driven cyberattack that the organization described as \"loud and very, very messy.\" [...]",
+        "published": "2026-10-01T06:22:01+00:00",
+        "summary": "Windows 11 26H2 eKB5121794 is here. Check out the official direct download links for Microsoft's version 26H2 enablement package. Read more...",
         "category": "community_buzz"
       }
     ]
