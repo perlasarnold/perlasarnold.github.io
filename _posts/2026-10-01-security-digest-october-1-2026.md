@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - October 1, 2026"
+date: 2026-10-01 19:10:50 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - October 1, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -66,4 +74,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Interviewing for security and senior network roles, a few things that keep happening](https://www.reddit.com/r/cybersecurity/comments/1wuyige/interviewing_for_security_and_senior_network/) - *(Reddit r/cybersecurity)*
 - [How to Organize an Engineering Team So Security Work Happens: Part One](https://www.reddit.com/r/cybersecurity/comments/1wuxpd4/how_to_organize_an_engineering_team_so_security/) - *(Reddit r/cybersecurity)*
 - [How are you learning (combine information)?](https://www.reddit.com/r/cybersecurity/comments/1wuu556/how_are_you_learning_combine_information/) - *(Reddit r/cybersecurity)*
+
 
