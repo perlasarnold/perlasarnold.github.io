@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - October 2, 2026"
+date: 2026-10-02 18:50:43 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - October 2, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -41,4 +49,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Breaking Down Appsec Part 6: Let's build a model!](https://www.reddit.com/r/cybersecurity/comments/1wvbv4y/breaking_down_appsec_part_6_lets_build_a_model/) - *(Reddit r/cybersecurity)*
 - [Polish dental software vendor FELG reports patient data breach and ransom demand](https://www.reddit.com/r/cybersecurity/comments/1wv8ie2/polish_dental_software_vendor_felg_reports/) - *(Reddit r/cybersecurity)*
 - [Kiteworks patches max severity code injection vulnerability](https://www.bleepingcomputer.com/news/security/kiteworks-patches-max-severity-email-protection-gateway-code-injection-vulnerability/) - *(BleepingComputer)*
+
 
