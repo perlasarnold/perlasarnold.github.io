@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - October 3, 2026"
+date: 2026-10-03 17:41:58 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - October 3, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -63,4 +71,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Dell asks admins to patch max severity CSM flaws as soon as possible](https://www.bleepingcomputer.com/news/security/new-max-severity-dell-csm-flaws-give-hackers-admin-privileges/) - *(BleepingComputer)*
 - [Kiteworks patches max severity code injection vulnerability](https://www.bleepingcomputer.com/news/security/kiteworks-patches-max-severity-email-protection-gateway-code-injection-vulnerability/) - *(BleepingComputer)*
 - [CVE-2025-71425](https://nvd.nist.gov/vuln/detail/CVE-2025-71425) - *(NVD)*
+
 
