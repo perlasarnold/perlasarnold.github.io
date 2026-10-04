@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - October 4, 2026"
+date: 2026-10-04 17:55:33 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - October 4, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -44,4 +52,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Is electronics not relevant to hardware and physical attacks and if so why not learn it for cyber security?](https://www.reddit.com/r/cybersecurity/comments/1wweoml/is_electronics_not_relevant_to_hardware_and/) - *(Reddit r/cybersecurity)*
 - [Critical GitLab AI Gateway Vulnerability Enables Remote Code Execution Attacks](https://cybersecuritynews.com/gitlab-ai-gateway-vulnerability/) - *(CybersecurityNews)*
 - [Citrix NetScaler Keeps Rebooting Following the 0-Day Patch](https://cybersecuritynews.com/citrix-netscaler-0-day-patch/) - *(CybersecurityNews)*
+
 
