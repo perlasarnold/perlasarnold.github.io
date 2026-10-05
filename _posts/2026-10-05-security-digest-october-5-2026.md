@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - October 5, 2026"
+date: 2026-10-05 21:18:25 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - October 5, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -53,4 +61,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Interview question: what are your sources/methods for staying current on Cybersecurity?](https://www.reddit.com/r/cybersecurity/comments/1wy9299/interview_question_what_are_your_sourcesmethods/) - *(Reddit r/cybersecurity)*
 - [How to deal with LLM slop reports on FOSS projects?](https://www.reddit.com/r/cybersecurity/comments/1wy8f2v/how_to_deal_with_llm_slop_reports_on_foss_projects/) - *(Reddit r/cybersecurity)*
 - [CVE-2026-102335](https://www.cve.org/CVERecord?id=CVE-2026-102335) - *(CVE.org)*
+
 
