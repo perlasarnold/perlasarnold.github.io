@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-02T16:28:14.709244+00:00",
-  "date": "2026-10-02",
+  "generated_utc": "2026-10-06T17:02:09.611551+00:00",
+  "date": "2026-10-06",
   "lookback_hours": 25,
   "source_status": [
     {
@@ -37,12 +37,12 @@
     {
       "name": "BleepingComputer",
       "status": "OK",
-      "count": 4
+      "count": 3
     },
     {
       "name": "Neowin",
       "status": "OK",
-      "count": 1
+      "count": 0
     },
     {
       "name": "The Hacker News",
@@ -99,126 +99,108 @@
   "items": {
     "high_alert": [
       {
-        "fingerprint": "b386b55f5869",
-        "title": "GitLab warns of critical RCE vulnerability in AI Gateway service",
-        "link": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-critical-rce-vulnerability-in-ai-gateway-service/",
+        "fingerprint": "6f8080fdf847",
+        "title": "Engineer sentenced for locking over 3,000 devices on employer network",
+        "link": "https://www.bleepingcomputer.com/news/security/engineer-sentenced-for-locking-thousands-of-devices-on-employer-network/",
         "source": "BleepingComputer",
-        "published": "2026-10-02T16:20:05+00:00",
-        "summary": "GitLab warned customers today to immediately patch a critical AI Gateway vulnerability that could let attackers run arbitrary commands on vulnerable instances. [...]",
+        "published": "2026-10-06T08:19:24+00:00",
+        "summary": "A former core infrastructure engineer at an industrial company headquartered in New Jersey was sentenced to 32 months in prison for locking thousands of devices on his employer's network in a ransomware-style attack. [...]",
         "category": "high_alert"
       },
       {
-        "fingerprint": "5d3b03db4df5",
-        "title": "Android 17 Advanced Protection Locks Accessibility Services to Verified Accessibility Tools",
-        "link": "https://thehackernews.com/2026/10/android-17-advanced-protection-locks.html",
+        "fingerprint": "a0158c05b642",
+        "title": "Critical Atlassian Flaw Lets Unauthenticated Attackers Read Known Files Across 8 Products",
+        "link": "https://thehackernews.com/2026/10/critical-atlassian-flaw-lets.html",
         "source": "The Hacker News",
-        "published": "2026-10-02T08:01:30+00:00",
-        "summary": "Google has announced a new security measure that limits access to Android's accessibility services to verified applications classified as Accessibility Tools when Advanced Protection is enabled. With malicious Android applications abusing the API serving as the main conduit for malware and financial fraud, the tech giant said the move would block a major attack pathway. Advanced Protection is a",
+        "published": "2026-10-06T06:58:56+00:00",
+        "summary": "A critical flaw in 8 Atlassian Data Center products, which customers host themselves, allows an attacker with no login access to read specific files in each product's web application root directory. The attacker must already know a file's exact name and path and cannot list what the directory holds. Atlassian disclosed the flaw, CVE-2026-21589, on October 5, rated it 9.3 out of 10, and",
         "category": "high_alert"
       },
       {
-        "fingerprint": "77e1bcde201b",
-        "title": "Critical FortiMail Zero-Day Flaw Exploited in Attacks Allows Unauthenticated Arbitrary File Writes",
-        "link": "https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html",
-        "source": "The Hacker News",
-        "published": "2026-10-02T05:49:50+00:00",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added a critical security flaw impacting Fortinet FortiMail to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerability, tracked as CVE-2026-104286 (CVSS score: 9.8), allows unauthenticated attackers to write arbitrary files on the underlying system. \"An improper",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "9ea4354f9086",
-        "title": "Fortinet warns of critical FortiMail flaw exploited in zero-day attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks/",
+        "fingerprint": "1d460ba1966e",
+        "title": "Rejetto HFS servers now actively scanned for critical RCE flaw",
+        "link": "https://www.bleepingcomputer.com/news/security/rejetto-hfs-servers-now-actively-scanned-for-critical-rce-flaw/",
         "source": "BleepingComputer",
-        "published": "2026-10-01T22:42:49+00:00",
-        "summary": "Fortinet is warning customers of a critical FortiMail vulnerability, tracked as CVE-2026-104286, that is being actively exploited in zero-day attacks to execute unauthorized code or commands on vulnerable devices. [...]",
+        "published": "2026-10-05T20:20:05+00:00",
+        "summary": "Hackers are actively scanning for a Rejetto HFS weak signing key vulnerability, tracked as CVE-2026-61500, that allows session forgery, account takeover, and remote code execution (RCE). [...]",
         "category": "high_alert"
       },
       {
-        "fingerprint": "1f7979f3ce9e",
-        "title": "Microsoft says threat actors are ahead in the early AI race",
-        "link": "https://www.bleepingcomputer.com/news/security/microsoft-says-threat-actors-are-ahead-in-the-early-ai-race/",
-        "source": "BleepingComputer",
-        "published": "2026-10-01T19:32:47+00:00",
-        "summary": "Microsoft says cyberattackers are currently benefiting from artificial intelligence faster than defenders, allowing threat actors to speed up vulnerability discovery, malware development, and post-compromise activity while security teams struggle to keep pace. [...]",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "3b66db21587a",
-        "title": "Police Arrest 16-Year-Old Suspected of Running KillSec, Seize Ransomware Leak Site and Servers",
-        "link": "https://thehackernews.com/2026/10/police-arrest-16-year-old-suspected-of.html",
+        "fingerprint": "d28c29c7ee81",
+        "title": "Microsoft Exchange Flaw Lets Authenticated Attackers Read Other Users' Mailboxes",
+        "link": "https://thehackernews.com/2026/10/microsoft-exchange-flaw-lets.html",
         "source": "The Hacker News",
-        "published": "2026-10-01T16:55:57+00:00",
-        "summary": "Police in Spain have arrested a 16-year-old whom investigators suspect of running the KillSec ransomware group. KillSec is accused of stealing data from organizations and threatening to publish it on its leak site unless they paid. The 16-year-old was one of 3 people arrested on September 30, when police also took control of that site. Investigators identified him as KillSec's suspected",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "c2ee5c4e85ae",
-        "title": "ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories",
-        "link": "https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html",
-        "source": "The Hacker News",
-        "published": "2026-10-01T16:45:38+00:00",
-        "summary": "This week, the useful words are boring ones: inspect, cache, compile, store, trust. Each sounds harmless. Each can become an attack path when a system does a little more than people expect. A model check can run code. A cache can mix up requests. A public secret can stay useful for years. That is the lesson running through the list. Attackers do not always need a brilliant new trick. They can",
+        "published": "2026-10-05T16:21:52+00:00",
+        "summary": "Microsoft has released out-of-band security updates to address a high-severity flaw in Microsoft Exchange Server that could allow an attacker to escalate privileges under certain conditions. The vulnerability, tracked as CVE-2026-96940, is rated 8.8 on the CVSS scoring system. \"Weak authorization in Microsoft Exchange Server allows an authenticated attacker to elevate privileges over a",
         "category": "high_alert"
       }
     ],
     "bad_updates": [],
     "upcoming_changes": [
       {
-        "fingerprint": "08cfd2dc090e",
-        "title": "Dynamics 365 Finance and Operations cross-app: Migrate finance and operations environments from Lifecycle Services to Power Platform admin center",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573244",
+        "fingerprint": "23011478157c",
+        "title": "SharePoint: Advanced Management - Inactive files policy",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573699",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-01T23:00:07+00:00",
-        "summary": "The self-service environment migration feature moves management of an existing finance and operations apps environment from Microsoft Dynamics Lifecycle Services to the Microsoft Power Platform admin center. More info: https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/migrate-lifecycle-services-environments-power-platform-admin-center GA date: December CY20...",
+        "published": "2026-10-05T23:03:05+00:00",
+        "summary": "SharePoint administrators can use the Inactive files policy in SharePoint Advanced Management to automatically archive files based on when they were last accessed. The public preview is available through PowerShell only. Admins can set an inactivity threshold from 6 to 48 months, scope policies to all SharePoint sites or selected sites, include or exclude file types and sites, and use What-If m...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "de7058e47733",
-        "title": "Microsoft Teams: Start side conversations during meetings",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573156",
+        "fingerprint": "1fa9013ecc44",
+        "title": "OneDrive: Presentation mode for PDFs in the iOS app on iPad",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573697",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-01T23:00:07+00:00",
-        "summary": "Keep collaboration moving without disrupting the main discussion. Start and continue one-to-one or small-group conversations directly from a meeting to ask questions, coordinate next steps, share information, and collaborate in parallel while staying engaged in the conversation, reducing context switching and helping teams stay focused and productive. GA date: November CY2026",
+        "published": "2026-10-05T23:03:05+00:00",
+        "summary": "Microsoft OneDrive is introducing presentation mode in the OneDrive iOS app for users on iPad devices. Users select a new Presentation button in the PDF viewer to enter a focused, view-only experience that prevents free gesture scrolling between pages, reducing accidental page changes while presenting without moving the file to another app. The feature is not available on iPhone. GA date: Decem...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "c0b6e25816a9",
-        "title": "Microsoft Purview: Data Lifecycle Management – Ensure regulatory compliance by deleting inactive OneDrives and mailboxes for departing employees",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569721",
+        "fingerprint": "166f258a1504",
+        "title": "Dynamics 365 Commerce: Add multiple items to a transaction using bulk entry",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573275",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-01T23:00:07+00:00",
-        "summary": "Enables admins to delete both content and containers for departed users at scale thereby keeping your tenant compliant without any manual effort. GA date: December CY2026 Preview date: November CY2026",
+        "published": "2026-10-05T23:03:05+00:00",
+        "summary": "Associates can trigger the Bulk add operation from the button grid on the transaction screen in Store Commerce. A drawer-based dialog opens where associates can paste or enter multiple item number and quantity pairs, with one pair specified per line. Supported formats include SKU x quantity, quantity x SKU, SKU quantity, quantity SKU, or SKU only (which defaults the quantity to 1). Multiple ite...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "74e9dac8b832",
-        "title": "Microsoft Entra ID: Passkey support for B2B users",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=569432",
+        "fingerprint": "a79a45d25374",
+        "title": "Dynamics 365 Contact Center: Quality evaluation - Recurring conversation evaluations",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573267",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-01T23:00:07+00:00",
-        "summary": "B2B users, including internal guest users and external users, will be able to register and sign in with passkeys issued by a resource tenant to meet that tenant's multifactor authentication (MFA) requirements. Today, passkeys are supported for member users in their home tenant. With this update, B2B users can register a resource tenant passkey from the resource tenant's My Security Info page, o...",
+        "published": "2026-10-05T23:03:05+00:00",
+        "summary": "Quality Evaluation now supports recurring frequency for conversation evaluations. Previously, only event-based trigger evaluations were supported, meaning evaluations were created only when a conversation closed. With recurring evaluations, users can run bulk evaluations over previously closed conversations, evaluate future closed conversations, and sample selected conversations that match conf...",
         "category": "upcoming_changes"
       }
     ],
     "official_news": [],
     "community_buzz": [
       {
-        "fingerprint": "56826b84cd61",
-        "title": "Dell asks admins to patch max severity CSM flaws as soon as possible",
-        "link": "https://www.bleepingcomputer.com/news/security/new-max-severity-dell-csm-flaws-give-hackers-admin-privileges/",
+        "fingerprint": "e3b60ab6918c",
+        "title": "How to secure RMM software: 8 controls MSPs should test",
+        "link": "https://www.bleepingcomputer.com/news/security/how-to-secure-rmm-software-8-controls-msps-should-test/",
         "source": "BleepingComputer",
-        "published": "2026-10-02T12:37:40+00:00",
-        "summary": "Dell has patched two maximum severity vulnerabilities in the Container Storage Modules (CSM) that connect Dell enterprise storage arrays to Kubernetes environments. [...]",
+        "published": "2026-10-06T14:00:10+00:00",
+        "summary": "RMM platforms give MSPs privileged access across customer environments, making their security controls critical to limiting risk. Acronis outlines eight controls MSPs should test when evaluating RMM software, from patching and privileged access to recovery and tenant isolation. [...]",
         "category": "community_buzz"
       },
       {
-        "fingerprint": "dfe8bf75380b",
-        "title": "Here are all the new features Microsoft added to Intune for IT admins in September 2026",
-        "link": "https://www.neowin.net/news/here-are-all-the-new-features-microsoft-added-to-intune-for-it-admins-in-september-2026/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-10-01T17:28:01+00:00",
-        "summary": "Microsoft has rolled out several Intune improvements for IT admins in September, bringing new capabilities that could simplify everyday management tasks. Read more...",
+        "fingerprint": "448ebaff6eef",
+        "title": "Wikimedia Says OpenAI Agents Tried to Compromise Etherpad and Use Wiki Tools as Proxies",
+        "link": "https://thehackernews.com/2026/10/wikimedia-says-openai-agents-tried-to.html",
+        "source": "The Hacker News",
+        "published": "2026-10-06T11:26:25+00:00",
+        "summary": "The Wikimedia Foundation, which hosts Wikipedia, has confirmed that it has discovered activity by rogue OpenAI agents on its platforms, including unsuccessful efforts to compromise Etherpad, a public note-taking tool, and edit Wikipedia pages. \"The unauthorized bot activities included edits to our wikis, some unsuccessful attempts to exploit a public note-taking tool we host, and heavy traffic,",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "20539f39f6a3",
+        "title": "FBI Removes Accenture Contractor After Patch Failure Led to ShinyHunters Breach",
+        "link": "https://thehackernews.com/2026/10/fbi-removes-accenture-contractor-after.html",
+        "source": "The Hacker News",
+        "published": "2026-10-06T06:56:57+00:00",
+        "summary": "The U.S. Federal Bureau of Investigation (FBI) has removed an Accenture contractor for their alleged role in a ShinyHunters-breach that led to the theft of personal details of thousands of bureau employees. That's according to a report from Reuters, citing two sources familiar with the matter. \"To date, our review has determined that the incident occurred as the result of a security failure ​",
         "category": "community_buzz"
       }
     ]
