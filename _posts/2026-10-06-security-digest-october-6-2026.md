@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - October 6, 2026"
+date: 2026-10-06 19:15:24 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - October 6, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -57,4 +65,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [CVE-2026-100295](https://www.cve.org/CVERecord?id=CVE-2026-100295) - *(CVE.org)*
 - [CVE-2026-100295](https://nvd.nist.gov/vuln/detail/CVE-2026-100295) - *(NVD)*
 - [CVE-2026-100294](https://www.cve.org/CVERecord?id=CVE-2026-100294) - *(CVE.org)*
+
 
