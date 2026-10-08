@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - October 8, 2026"
+date: 2026-10-08 19:35:23 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - October 8, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -56,4 +64,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [If somebody tries to hot-patch an already-hot-patched function, how do they avoid conflicts?](https://devblogs.microsoft.com/oldnewthing/20261005-00/?p=112755/) - *(The Old New Thing)*
 - [CVE-2026-56662](https://www.cve.org/CVERecord?id=CVE-2026-56662) - *(CVE.org)*
 - [CVE-2026-56662](https://nvd.nist.gov/vuln/detail/CVE-2026-56662) - *(NVD)*
+
 
