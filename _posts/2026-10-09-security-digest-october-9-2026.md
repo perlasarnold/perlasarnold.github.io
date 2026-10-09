@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - October 9, 2026"
+date: 2026-10-09 19:10:12 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - October 9, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -58,4 +66,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [Accenture contractor removed from FBI following damaging data breach, sources say](https://www.reddit.com/r/cybersecurity/comments/1x1bgzx/accenture_contractor_removed_from_fbi_following/) - *(Reddit r/cybersecurity)*
 - [Do you guys support the recent moves by the Trump administration regarding H1b, OPT, and attempts to put American workers first in the tech sector?](https://www.reddit.com/r/cybersecurity/comments/1x1bamh/do_you_guys_support_the_recent_moves_by_the_trump/) - *(Reddit r/cybersecurity)*
 - [Advice](https://www.reddit.com/r/cybersecurity/comments/1x1a6ex/advice/) - *(Reddit r/cybersecurity)*
+
 
