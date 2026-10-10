@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Security Digest - October 10, 2026"
+date: 2026-10-10 18:08:12 +00:00
+categories: [security-digest]
+tags: [security, tldr, situational-awareness, endpoint-management]
+author: Arnold
+---
 # Security Digest - October 10, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
@@ -60,4 +68,5 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - [An investigation into alleged cyberattacks targeting Discord's powerscaling community — the Noblesse incident, retaliation, and security concern](https://www.reddit.com/r/cybersecurity/comments/1x29bdm/an_investigation_into_alleged_cyberattacks/) - *(Reddit r/cybersecurity)*
 - [Giving up on the Crowdstrike job search](https://www.reddit.com/r/cybersecurity/comments/1x23z7v/giving_up_on_the_crowdstrike_job_search/) - *(Reddit r/cybersecurity)*
 - [Death By A Thousand PaperCuts (PaperCut Pre-Auth RCE Chain and Patch Bypasses WT-2026-0141-0144/CVE-2026-82077/CVE-2026-82078/CVE-2026-81578) - watchTowr Labs](https://www.reddit.com/r/cybersecurity/comments/1x1sqtr/death_by_a_thousand_papercuts_papercut_preauth/) - *(Reddit r/cybersecurity)*
+
 
