@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-12T20:05:56.048916+00:00",
-  "date": "2026-10-12",
+  "generated_utc": "2026-10-13T17:55:11.574394+00:00",
+  "date": "2026-10-13",
   "lookback_hours": 25,
   "source_status": [
     {
@@ -12,12 +12,12 @@
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 0
+      "count": 9
     },
     {
       "name": "Microsoft Intune What's New",
       "status": "OK",
-      "count": 0
+      "count": 1
     },
     {
       "name": "Windows IT Pro Blog",
@@ -37,7 +37,7 @@
     {
       "name": "BleepingComputer",
       "status": "OK",
-      "count": 4
+      "count": 5
     },
     {
       "name": "Neowin",
@@ -47,7 +47,7 @@
     {
       "name": "The Hacker News",
       "status": "OK",
-      "count": 4
+      "count": 1
     },
     {
       "name": "Krebs on Security",
@@ -99,46 +99,165 @@
   "items": {
     "high_alert": [
       {
-        "fingerprint": "e8b2efd8f9c8",
-        "title": "⚡ Weekly Recap: Helpdesk 0-Days, Rogue Certs, ShinyHunters Arrest, AI-Fooling Malware and More",
-        "link": "https://thehackernews.com/2026/10/weekly-recap-helpdesk-0-days-rogue.html",
-        "source": "The Hacker News",
-        "published": "2026-10-12T15:16:26+00:00",
-        "summary": "Some meetings last longer than it took attackers to jump on a newly disclosed security flaw this week. Within hours, they were already testing it. That's not much time to read the warning, let alone do something about it. But speed is only part of the problem. A secure connection didn't always mean a safe destination. People offering to fix a ransomware mess had questions to answer themselves.",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "e2fb9710f725",
-        "title": "Inside AvisLoader: A Windows Malware Loader Built to Resist Disruption",
-        "link": "https://www.bleepingcomputer.com/news/security/inside-avisloader-a-windows-malware-loader-built-to-resist-disruption/",
+        "fingerprint": "8f4ea30d532e",
+        "title": "Ivanti warns of Connect Secure zero-day exploited in attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/ivanti-warns-of-connect-secure-zero-day-exploited-in-attacks/",
         "source": "BleepingComputer",
-        "published": "2026-10-12T14:00:10+00:00",
-        "summary": "A new Windows malware loader called AvisLoader uses encrypted peer-to-peer communications to make command-and-control infrastructure harder to disrupt. Varonis researchers explain how the malware uses ClickFix delivery, shortcut-based persistence, and remote command execution capabilities. [...]",
+        "published": "2026-10-13T15:45:50+00:00",
+        "summary": "Ivanti urged customers on Tuesday to immediately patch an actively exploited zero-day vulnerability in the Ivanti Connect Secure (ICS) remote access gateway. [...]",
         "category": "high_alert"
       },
       {
-        "fingerprint": "7e1484006faf",
-        "title": "Critical SonicWall SMA 1000 Flaw Targeted in 135 Exploitation Attempts After Patch",
-        "link": "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html",
-        "source": "The Hacker News",
-        "published": "2026-10-12T10:36:56+00:00",
-        "summary": "Threat actors have been observed exploiting a recently disclosed critical security flaw in SonicWall Secure Mobile Access (SMA) 1000 appliances within days of public disclosure. The vulnerability, tracked as CVE-2026-102255 (CVSS score: 10.0), is a case of pre-authenticated server-side request forgery (SSRF) that could allow a remote attacker \"to direct the appliance to issue requests on their",
+        "fingerprint": "72d9b181cf55",
+        "title": "Docker Hub flaw let attackers impersonate users, tamper with images",
+        "link": "https://www.bleepingcomputer.com/news/security/docker-hub-flaw-let-attackers-impersonate-users-tamper-with-images/",
+        "source": "BleepingComputer",
+        "published": "2026-10-13T15:20:20+00:00",
+        "summary": "Docker has disclosed a critical vulnerability (CVE-2026-105445) in Docker Hub that let attackers access another user's container repositories using a personal access token (PAT). [...]",
         "category": "high_alert"
       },
       {
-        "fingerprint": "889e5ac2d707",
-        "title": "Attackers Exploit CVSS 10.0 Bricksforge WordPress Flaw Enabling Unauthenticated RCE",
-        "link": "https://thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html",
+        "fingerprint": "d024b12b8240",
+        "title": "Low-Cost Android Phones Ship With Preinstalled Malware That Turns Them Into Residential Proxies",
+        "link": "https://thehackernews.com/2026/10/low-cost-android-phones-ship-with.html",
         "source": "The Hacker News",
-        "published": "2026-10-12T09:02:14+00:00",
-        "summary": "A maximum-severity security flaw impacting the Bricksforge plugin for WordPress has come under active exploitation in the wild, according to Patchstack. The critical vulnerability in question is CVE-2026-85097 (CVSS score: 10.0), which allows unauthenticated attackers to upload and execute arbitrary PHP code on vulnerable WordPress websites, resulting in remote code execution (RCE). The",
+        "published": "2026-10-13T06:00:11+00:00",
+        "summary": "Low-cost Android smartphones have been shipped with malicious software baked into the device firmware, allowing bad actors to covertly install apps, conduct ad fraud, and turn devices into residential proxies. The activity, which targets Android devices built on MediaTek platforms across several brands, is being tracked by Bitdefender under the moniker Midnight Mimosa. The preinstalled",
         "category": "high_alert"
       }
     ],
     "bad_updates": [],
-    "upcoming_changes": [],
-    "official_news": [],
+    "upcoming_changes": [
+      {
+        "fingerprint": "457b5614f3ee",
+        "title": "Microsoft Purview: Data Loss Prevention-Apply Purview network data security DLP policies to all websites, or all websites except specific cloud apps, through Entra GSA Internet Access integration",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=575285",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-10-12T23:01:05+00:00",
+        "summary": "With this feature, admins can scope their network data security data loss prevention policies, integrated with Entra GSA Internet Access, to apply to all websites ( . ) or all websites except specific cloud apps, allowing them to apply protection to cloud apps and websites that are not in the Defender Cloud App Catalog. GA date: December CY2026 Preview date: November CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "4c993811344a",
+        "title": "Microsoft Purview: Information Protection - Apply default SharePoint library labels to data at rest",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=575283",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-10-12T23:01:05+00:00",
+        "summary": "Enables auto‑labeling of existing SharePoint files to match the default sensitivity label configured on their document library. This helps organizations close labeling gaps for data at rest and ensure consistent, secure‑by‑default protection across SharePoint libraries—without relying on manual user labeling. GA date: November CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "0f54112cf099",
+        "title": "Dynamics 365 Project Operations: Unify product receipt and item requirement posting",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=574123",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-10-12T23:01:05+00:00",
+        "summary": "This feature posts a purchase order product receipt and the consumption of its linked project item requirement in one transaction. It applies when automatic item consumption is enabled or when you select Consume immediately while posting the product receipt. Both updates succeed together, or the system rolls them both back when an error occurs. The posting flow prevents duplicate project postin...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "3ccfdf3fe265",
+        "title": "Microsoft Copilot (Microsoft 365): Integrate the Sales Development agent with Salesforce",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=574105",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-10-12T23:01:05+00:00",
+        "summary": "Sales Development Agent now integrates with Salesforce, enabling organizations to use SDA with their existing Salesforce CRM. SDA can access leads, manage prospect records, log sales activities, and keep engagement actions—including qualification, disqualification, and ownership changes—connected to the CRM workflow. The integration uses Microsoft’s Salesforce Model Context Protocol (MCP) serve...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "ab67e808671f",
+        "title": "Microsoft Teams: View files and conversations side by side",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=574094",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-10-12T23:01:05+00:00",
+        "summary": "Review shared files without losing conversation context. When you open a PDF, Markdown, or HTML file from a Teams chat or channel message, the conversation appears alongside the file and takes you directly to where it was shared, allowing you to catch up on the discussion and respond without closing the file preview or switching back to chat. GA date: November CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "fea0ab24d46e",
+        "title": "Dynamics 365 Project Operations: Import tasks into a project from other projects",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573692",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-10-12T23:01:05+00:00",
+        "summary": "Currently, to bring tasks from another project into a new project, you must manually enter the task details in the task grid or use schedule APIs. You can also use the Copy project feature to create a new project with the same tasks, but this feature has limitations: ​ You copy the entire project, including unwanted tasks and extra information. You can't combine tasks from multiple projects int...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "4ab06d8f4430",
+        "title": "Power Apps: Model-driven applications in Business Apps in Work IQ",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571888",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-10-12T23:01:05+00:00",
+        "summary": "Power Apps model-driven apps are now available as Business Apps in Work IQ. They can be accessed through the Work IQ (Preview) tool in Copilot Studio or through a natural-language chat experience powered by Work IQ MCP. In either experience, natural-language prompts let users list and read records or create, update, and delete them. For create and update, Work IQ maps supplied values to the app...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "65e90098ff39",
+        "title": "Work IQ: Updating documents in Office",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570871",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-10-12T23:01:05+00:00",
+        "summary": "Work IQ enables agents to create and edit Microsoft Office documents using organizational context, helping users produce and update content more efficiently. GA date: January CY2027 Preview date: November CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "b279aa1cfb1e",
+        "title": "Work IQ: Upload",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570850",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-10-12T23:01:05+00:00",
+        "summary": "Enable agents to upload files and content to supported Microsoft 365 destinations. GA date: October CY2026 Preview date: October CY2026",
+        "category": "upcoming_changes"
+      }
+    ],
+    "official_news": [
+      {
+        "fingerprint": "e043e4e87199",
+        "title": "Windows 11 KB5127648 and KB5127646 Patch Tuesday updates are now available",
+        "link": "https://www.neowin.net/news/windows-11-kb5127648-and-kb5127646-patch-tuesday-updates-are-now-available/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-10-13T17:10:30+00:00",
+        "summary": "Microsoft has released October 2026 Patch Tuesday updates KB5127648 and KB5127646 for Windows 11. Here's what's included: Read more...",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "79b1411009ad",
+        "title": "Microsoft Intune Licensing Plans and Options - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/fundamentals/licensing",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-10-12T22:34:00+00:00",
+        "summary": "Microsoft Intune licensing Summarize this article for me In this article Microsoft Intune is licensed through three plans and is included in several Microsoft 365 bundles. This article describes the plans, license requirements for users and administrators, and how to confirm your licenses. Microsoft Intune plans Intune capabilities are organized.",
+        "category": "official_news"
+      }
+    ],
     "community_buzz": [
+      {
+        "fingerprint": "75d30a48604c",
+        "title": "Windows 11 KB5127648 & KB5126653 cumulative updates released",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127648-and-kb5126653-cumulative-updates-released/",
+        "source": "BleepingComputer",
+        "published": "2026-10-13T17:49:38+00:00",
+        "summary": "Microsoft has released Windows 11 KB5127648 and KB5126653 cumulative updates for versions 26H2/25H2/24H2 and 23H2 to fix security vulnerabilities and bugs and add new features. [...]",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "425e234a07f3",
+        "title": "TFG London cyberattack disrupts systems at Hobbs and Whistles retailers",
+        "link": "https://www.bleepingcomputer.com/news/security/tfg-london-cyberattack-disrupts-systems-at-hobbs-and-whistles-retailers/",
+        "source": "BleepingComputer",
+        "published": "2026-10-13T16:44:18+00:00",
+        "summary": "TFG London detected a cybersecurity incident that impacted IT systems used by the Phase Eight, Hobbs, and Whistles premium fashion brands. [...]",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "43db4833991f",
+        "title": "Microsoft drops Office LTSC 2021 security updates on today's Patch Tuesday",
+        "link": "https://www.neowin.net/news/microsoft-drops-office-ltsc-2021-security-updates-on-todays-patch-tuesday/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-10-13T11:30:01+00:00",
+        "summary": "Unpatched installations face instant exposure to AI-crafted exploits. Microsoft recommends cloud plans or disconnected Office LTSC 2024 for air-gapped systems. Read more...",
+        "category": "community_buzz"
+      },
       {
         "fingerprint": "d06d41106983",
         "title": "Anthropic takes risky AI tests offline after models breach govt sites",
@@ -146,51 +265,6 @@
         "source": "BleepingComputer",
         "published": "2026-10-12T18:51:59+00:00",
         "summary": "Anthropic announced that its internal AI models undergoing \"high-risk and cybersecurity evaluations\" no longer have internet access following incidents involving U.S. government websites at the federal, state, and local levels. [...]",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "9aafb947b170",
-        "title": "Here are all the new features Microsoft recently added to Entra for IT admins",
-        "link": "https://www.neowin.net/news/here-are-all-the-new-features-microsoft-recently-added-to-entra-for-it-admins/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-10-12T18:42:01+00:00",
-        "summary": "Microsoft is making big changes to Entra, but its latest identity security updates hint at a much bigger challenge that IT admins cannot ignore. Read more...",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "5a2bdc069cf6",
-        "title": "Retail giant Ahold Delhaize takes systems offline after cyberattack",
-        "link": "https://www.bleepingcomputer.com/news/security/retail-giant-ahold-delhaize-takes-systems-offline-after-cyberattack/",
-        "source": "BleepingComputer",
-        "published": "2026-10-12T13:51:07+00:00",
-        "summary": "Retail giant Ahold Delhaize, one of the world's largest food retail chains, confirmed today that it had to take some systems offline in response to a \"cybersecurity incident\" affecting its network. [...]",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "2f5d758b5e66",
-        "title": "GitLab warns of max severity code execution vulnerability",
-        "link": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine/",
-        "source": "BleepingComputer",
-        "published": "2026-10-12T13:09:09+00:00",
-        "summary": "GitLab warned users today to immediately patch a maximum-severity vulnerability in the CI/CD Regular Expression Compiler that could let remote attackers run arbitrary code on targeted instances. [...]",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "4b4897bc328a",
-        "title": "CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records",
-        "link": "https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html",
-        "source": "The Hacker News",
-        "published": "2026-10-12T07:26:12+00:00",
-        "summary": "Cybersecurity researchers have disclosed details of a two-pronged artificial intelligence (AI)-augmented initial access campaign targeting WordPress sites, e-commerce platforms, and critical infrastructure entities in Ukraine. The activity, which brings together commodity offensive tools like Cobalt Strike with an AI orchestration layer powered by Anthropic's Claude Code, has been attributed",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "5080c4b43c4b",
-        "title": "Linux 7.3-rc7 patch packs a slightly strange diffstat with half its code in selftests",
-        "link": "https://www.neowin.net/news/linux-73-rc7-patch-packs-a-slightly-strange-diffstat-with-half-its-code-in-selftests/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-10-12T04:50:02+00:00",
-        "summary": "Linus Torvalds noted a travel mix-up caused a slight delay in the release candidate, while core networking, architecture updates, and VFS fixes round out the build. Read more...",
         "category": "community_buzz"
       }
     ]
