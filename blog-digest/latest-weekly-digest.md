@@ -1,59 +1,79 @@
-# Security Digest - October 12, 2026
+# Security Digest - October 13, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
 
-- **Generated (UTC):** 2026-10-12 21:55:50 +00:00
+- **Generated (UTC):** 2026-10-13 19:59:56 +00:00
 - **Lookback window:** 7 days
 
 ## 🚀 Top Research & Advisories
-- *No high-priority security research detected in this window.*
+- **[Critical Docker Hub Flaw Lets Attackers Impersonate Users and Push Container Images](https://cybersecuritynews.com/docker-hub-vulnerability/)** - *(CybersecurityNews)*
+  System.Xml.XmlElement
+  > **Action:** Monitor developer tool vulnerabilities and supply chain risks.
+
+- **[CrowdStrike Joins Anthropic Defense Program to Advance AI-powered Defense for Critical Infrastructure](https://cybersecuritynews.com/crowdstrike-joins-anthropic-defense-program/)** - *(CybersecurityNews)*
+  System.Xml.XmlElement
+  > **Action:** Review sensor guidance and deployment posture.
+
 ## 💻 AppSec
-- **[CVE-2026-103433](https://nvd.nist.gov/vuln/detail/CVE-2026-103433)** - *(NVD)*
+- **[[Doctoral Research Survey] Looking for IT Folks with Ransomware Experience](https://www.reddit.com/r/cybersecurity/comments/1x4u7wt/doctoral_research_survey_looking_for_it_folks/)** - *(Reddit r/cybersecurity)*
+  Review .NET runtime vulnerabilities and apply patches.
+
+- **[CVE-2026-101029](https://nvd.nist.gov/vuln/detail/CVE-2026-101029)** - *(NVD)*
   Monitor developer tool vulnerabilities and supply chain risks.
 
-- **[CVE-2026-103546](https://nvd.nist.gov/vuln/detail/CVE-2026-103546)** - *(NVD)*
+- **[Docker Hub flaw let attackers impersonate users, tamper with images](https://www.bleepingcomputer.com/news/security/docker-hub-flaw-let-attackers-impersonate-users-tamper-with-images/)** - *(BleepingComputer)*
   Monitor developer tool vulnerabilities and supply chain risks.
+
+## 🛡 Security Ops
+- **[How's the cybersecurity market?](https://www.reddit.com/r/cybersecurity/comments/1x4wfkk/hows_the_cybersecurity_market/)** - *(Reddit r/cybersecurity)*
+  Review sensor guidance and deployment posture.
+
+- **[The MFA Gaps Attackers are Still Exploiting](https://www.bleepingcomputer.com/news/security/the-mfa-gaps-attackers-are-still-exploiting/)** - *(BleepingComputer)*
+  Review CA/MFA settings for tightening opportunities.
 
 ## 🛠 Infrastructure & Endpoint Control
-- **[Google announces Fitbit Edge with seven-day battery life for $179](https://www.neowin.net/news/google-announces-fitbit-edge-with-seven-day-battery-life-for-179/?utm_source=rss)** - *(Neowin)*
-  Validate Edge/WebView2 coverage; refresh managed package.
-
-- **[Microsoft brings full Word, Excel, and PowerPoint experience to the new Copilot app](https://www.neowin.net/news/microsoft-brings-full-word-excel-and-powerpoint-experience-to-the-new-copilot-app/?utm_source=rss)** - *(Neowin)*
-  Review Office update channel health and security baseline compliance.
-
-- **[Microsoft confirms its upcoming Edge feature collects user data but not for spying](https://www.neowin.net/news/microsoft-confirms-its-upcoming-edge-feature-collects-user-data-but-not-for-spying/?utm_source=rss)** - *(Neowin)*
-  Validate Edge/WebView2 coverage; refresh managed package.
-
-- **[Microsoft is turning Excel spreadsheets into beautiful interactive canvases with Copilot](https://www.neowin.net/news/microsoft-is-turning-excel-spreadsheets-into-beautiful-interactive-canvases-with-copilot/?utm_source=rss)** - *(Neowin)*
-  Review Office update channel health and security baseline compliance.
-
-- **[Microsoft: Windows 11 23H2 reaches end of support in 30 days](https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-23h2-reaches-end-of-support-in-30-days/)** - *(BleepingComputer)*
-  Validate workstation security baseline and update compliance.
-
-- **[reverse shell payload to pass windows defenders](https://www.reddit.com/r/cybersecurity/comments/1x48ftz/reverse_shell_payload_to_pass_windows_defenders/)** - *(Reddit r/cybersecurity)*
+- **[CVE-2026-102162](https://nvd.nist.gov/vuln/detail/CVE-2026-102162)** - *(NVD)*
   Review security controls and policy updates.
 
-- **[Save 86% on a Claude AI Professional Skills CPD Certification](https://www.neowin.net/deals/save-86-on-a-claude-ai-professional-skills-cpd-certification/?utm_source=rss)** - *(Neowin)*
-  Review Office update channel health and security baseline compliance.
+- **[Free clones of Microsoft Word, Excel, PowerPoint out by same angry user who made Adobe's](https://www.neowin.net/news/free-clones-of-microsoft-word-excel-powerpoint-out-by-same-angry-user-who-made-adobes/?utm_source=rss)** - *(Neowin)*
+  Confirm Adobe exposure; push updated deployment. Review Office update channel health and security baseline compliance.
 
-- **[Want Chrome without AI and Google services? Try this privacy-focused alternative](https://www.neowin.net/reports/want-chrome-without-ai-and-google-services-try-this-privacy-focused-alternative/?utm_source=rss)** - *(Neowin)*
-  Validate Chrome coverage; update managed package if needed.
+- **[Microsoft drops Office LTSC 2021 security updates on today's Patch Tuesday](https://www.neowin.net/news/microsoft-drops-office-ltsc-2021-security-updates-on-todays-patch-tuesday/?utm_source=rss)** - *(Neowin)*
+  Evaluate update rings and expedite actions if needed.
 
-- **[What can be used to stop / prevent the email auto-forward "persistence"? (trying to learn from Football Leaks)](https://www.reddit.com/r/cybersecurity/comments/1x45mon/what_can_be_used_to_stop_prevent_the_email/)** - *(Reddit r/cybersecurity)*
-  Review Office update channel health and security baseline compliance.
+- **[Microsoft Fixes 1,118 Vulnerabilities in October Patch Tuesday and Introduces New Risk Cohorts](https://cybersecuritynews.com/microsoft-october-patch-tuesday-2026/)** - *(CybersecurityNews)*
+  Evaluate update rings and expedite actions if needed.
 
-- **[You can soon install "tiny" Windows 11 26H2 ISOs too on almost all unsupported PCs](https://www.neowin.net/news/you-can-soon-install-tiny-windows-11-26h2-isos-too-on-almost-all-unsupported-pcs/?utm_source=rss)** - *(Neowin)*
+- **[Microsoft October 2026 Patch Tuesday fixes 1,411 flaws, 3 zero-days](https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/)** - *(BleepingComputer)*
+  Evaluate update rings and expedite actions if needed.
+
+- **[Microsoft releases Windows 10 KB5126657 extended security update](https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5126657-extended-security-update/)** - *(BleepingComputer)*
   Validate workstation security baseline and update compliance.
 
+- **[Microsoft: Windows 11 24H2 Home and Pro reached end of support](https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-24h2-home-and-pro-reached-end-of-support/)** - *(BleepingComputer)*
+  Validate workstation security baseline and update compliance.
+
+- **[Microsoft's Global Secure Access degradation breaks M365 in the UK and Germany](https://www.neowin.net/news/microsofts-global-secure-access-degradation-breaks-m365-in-the-uk-and-germany/?utm_source=rss)** - *(Neowin)*
+  Review Office update channel health and security baseline compliance.
+
+- **[Windows 11 24H2 Home and Pro lose support today](https://www.neowin.net/news/windows-11-24h2-home-and-pro-lose-support-today/?utm_source=rss)** - *(Neowin)*
+  Validate workstation security baseline and update compliance.
+
+- **[Windows 11 KB5127648 & KB5126653 cumulative updates released](https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127648-and-kb5126653-cumulative-updates-released/)** - *(BleepingComputer)*
+  Validate workstation security baseline and update compliance.
+
+- **[Windows 11 KB5127648 and KB5127646 Patch Tuesday updates are now available](https://www.neowin.net/news/windows-11-kb5127648-and-kb5127646-patch-tuesday-updates-are-now-available/?utm_source=rss)** - *(Neowin)*
+  Evaluate update rings and expedite actions if needed. Validate workstation security baseline and update compliance.
+
 ## 🔍 Quick Links (Watch Items)
-- [Will GRC Engineering provide decent prospects and job security in the long term?](https://www.reddit.com/r/cybersecurity/comments/1x4ejng/will_grc_engineering_provide_decent_prospects_and/) - *(Reddit r/cybersecurity)*
-- [If one click from Susan in HR compromises your entire domain, that’s an engineering failure, not a Susan failure.](https://www.reddit.com/r/cybersecurity/comments/1x4ei2o/if_one_click_from_susan_in_hr_compromises_your/) - *(Reddit r/cybersecurity)*
-- [Cybersecurity Questions You're Too Afraid to Ask: An AMA on Cyber Resilience, Ransomware & AI Security](https://www.reddit.com/r/cybersecurity/comments/1x4bs6m/cybersecurity_questions_youre_too_afraid_to_ask/) - *(Reddit r/cybersecurity)*
-- [French food store attack was not new, used a previously exploited vulnerability](https://www.reddit.com/r/cybersecurity/comments/1x4br8r/french_food_store_attack_was_not_new_used_a/) - *(Reddit r/cybersecurity)*
-- [Here are all the new features Microsoft recently added to Entra for IT admins](https://www.neowin.net/news/here-are-all-the-new-features-microsoft-recently-added-to-entra-for-it-admins/?utm_source=rss) - *(Neowin)*
-- [What can be used to stop / prevent the email auto-forward "persistence"? (trying to learn from Football Leaks)](https://www.reddit.com/r/cybersecurity/comments/1x45mon/what_can_be_used_to_stop_prevent_the_email/) - *(Reddit r/cybersecurity)*
-- [Arxiv endorsement](https://www.reddit.com/r/cybersecurity/comments/1x45j9q/arxiv_endorsement/) - *(Reddit r/cybersecurity)*
-- [Switch to Cloud Security Engineer](https://www.reddit.com/r/cybersecurity/comments/1x42712/switch_to_cloud_security_engineer/) - *(Reddit r/cybersecurity)*
-- [GitLab warns of max severity code execution vulnerability](https://www.reddit.com/r/cybersecurity/comments/1x41p46/gitlab_warns_of_max_severity_code_execution/) - *(Reddit r/cybersecurity)*
-- [GitLab warns of max severity code execution vulnerability](https://www.bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine/) - *(BleepingComputer)*
+- [Microsoft October 2026 Patch Tuesday fixes 1,411 flaws, 3 zero-days](https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/) - *(BleepingComputer)*
+- [Microsoft releases Windows 10 KB5126657 extended security update](https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5126657-extended-security-update/) - *(BleepingComputer)*
+- [GitLab admins urged to patch critical RCE flaw (CVE-2026-97229) - Help Net Security](https://www.reddit.com/r/cybersecurity/comments/1x54kkf/gitlab_admins_urged_to_patch_critical_rce_flaw/) - *(Reddit r/cybersecurity)*
+- [UK Housing Ombudsman Service investigates 'security incident'](https://www.bleepingcomputer.com/news/security/uk-housing-ombudsman-service-investigates-security-incident/) - *(BleepingComputer)*
+- [Microsoft Fixes 1,118 Vulnerabilities in October Patch Tuesday and Introduces New Risk Cohorts](https://cybersecuritynews.com/microsoft-october-patch-tuesday-2026/) - *(CybersecurityNews)*
+- [Critical FortiSandbox GUI Vulnerability Allows Remote Attackers to Bypass Authentication](https://cybersecuritynews.com/fortisandbox-gui-vulnerability/) - *(CybersecurityNews)*
+- [CVE hunting](https://www.reddit.com/r/cybersecurity/comments/1x53hum/cve_hunting/) - *(Reddit r/cybersecurity)*
+- [Windows 11 KB5127648 and KB5127646 Patch Tuesday updates are now available](https://www.neowin.net/news/windows-11-kb5127648-and-kb5127646-patch-tuesday-updates-are-now-available/?utm_source=rss) - *(Neowin)*
+- [Breaking Down Appsec Part 8: <INSERT_YOUR_NAME_HERE> the Builder, can we fix it? (Code Fixing)](https://www.reddit.com/r/cybersecurity/comments/1x5250w/breaking_down_appsec_part_8_insert_your_name_here/) - *(Reddit r/cybersecurity)*
+- [Is TryHackMe’s SOC Level 1 Worth Doing?](https://www.reddit.com/r/cybersecurity/comments/1x51naz/is_tryhackmes_soc_level_1_worth_doing/) - *(Reddit r/cybersecurity)*
 
