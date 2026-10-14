@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-13T17:55:11.574394+00:00",
-  "date": "2026-10-13",
+  "generated_utc": "2026-10-14T15:41:05.708414+00:00",
+  "date": "2026-10-14",
   "lookback_hours": 25,
   "source_status": [
     {
@@ -12,12 +12,12 @@
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 9
+      "count": 17
     },
     {
       "name": "Microsoft Intune What's New",
       "status": "OK",
-      "count": 1
+      "count": 0
     },
     {
       "name": "Windows IT Pro Blog",
@@ -27,7 +27,7 @@
     {
       "name": "Microsoft Security Blog",
       "status": "OK",
-      "count": 0
+      "count": 1
     },
     {
       "name": "Microsoft Entra Blog",
@@ -37,22 +37,22 @@
     {
       "name": "BleepingComputer",
       "status": "OK",
-      "count": 5
+      "count": 7
     },
     {
       "name": "Neowin",
       "status": "OK",
-      "count": 2
+      "count": 5
     },
     {
       "name": "The Hacker News",
       "status": "OK",
-      "count": 1
+      "count": 8
     },
     {
       "name": "Krebs on Security",
       "status": "OK",
-      "count": 0
+      "count": 2
     },
     {
       "name": "The Old New Thing",
@@ -99,118 +99,281 @@
   "items": {
     "high_alert": [
       {
-        "fingerprint": "8f4ea30d532e",
-        "title": "Ivanti warns of Connect Secure zero-day exploited in attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/ivanti-warns-of-connect-secure-zero-day-exploited-in-attacks/",
-        "source": "BleepingComputer",
-        "published": "2026-10-13T15:45:50+00:00",
-        "summary": "Ivanti urged customers on Tuesday to immediately patch an actively exploited zero-day vulnerability in the Ivanti Connect Secure (ICS) remote access gateway. [...]",
+        "fingerprint": "bb5e8802bfca",
+        "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
+        "link": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
+        "source": "Krebs on Security",
+        "published": "2026-10-14T14:22:49+00:00",
+        "summary": "The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to ransomware, narcotics, darknet markets, fraud and cybercrime services that are helping Russia circumvent existing financial restrictions.",
         "category": "high_alert"
       },
       {
-        "fingerprint": "72d9b181cf55",
-        "title": "Docker Hub flaw let attackers impersonate users, tamper with images",
-        "link": "https://www.bleepingcomputer.com/news/security/docker-hub-flaw-let-attackers-impersonate-users-tamper-with-images/",
+        "fingerprint": "583defb394f5",
+        "title": "CISA warns admins to immediately fix Ivanti flaw exploited as zero-day",
+        "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-immediately-fix-ivanti-flaw-exploited-as-zero-day/",
         "source": "BleepingComputer",
-        "published": "2026-10-13T15:20:20+00:00",
-        "summary": "Docker has disclosed a critical vulnerability (CVE-2026-105445) in Docker Hub that let attackers access another user's container repositories using a personal access token (PAT). [...]",
+        "published": "2026-10-14T12:58:07+00:00",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) urged security teams to immediately patch an Ivanti Connect Secure (ICS) flaw exploited in zero-day attacks since at least October 1st. [...]",
         "category": "high_alert"
       },
       {
-        "fingerprint": "d024b12b8240",
-        "title": "Low-Cost Android Phones Ship With Preinstalled Malware That Turns Them Into Residential Proxies",
-        "link": "https://thehackernews.com/2026/10/low-cost-android-phones-ship-with.html",
+        "fingerprint": "f9a2766c4611",
+        "title": "CISA Urges Immediate Ivanti Connect Secure Updates as Honeypots Log 105 Exploit Attempts",
+        "link": "https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html",
         "source": "The Hacker News",
-        "published": "2026-10-13T06:00:11+00:00",
-        "summary": "Low-cost Android smartphones have been shipped with malicious software baked into the device firmware, allowing bad actors to covertly install apps, conduct ad fraud, and turn devices into residential proxies. The activity, which targets Android devices built on MediaTek platforms across several brands, is being tracked by Bitdefender under the moniker Midnight Mimosa. The preinstalled",
+        "published": "2026-10-14T12:30:42+00:00",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday urged organizations to take steps to immediately update their Ivanti Connect Secure (ICS) appliances and deployments to the latest version following the disclosure of an actively exploited vulnerability. The security flaw, tracked as CVE-2026-104935 (CVSS score: 8.6), is a case of authentication bypass impacting ICS",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "e2263647a84f",
+        "title": "Hirudo Android malware replaces banking apps to evade security checks",
+        "link": "https://www.bleepingcomputer.com/news/security/hirudo-android-malware-replaces-banking-apps-to-evade-security-checks/",
+        "source": "BleepingComputer",
+        "published": "2026-10-14T11:41:20+00:00",
+        "summary": "A new Android malware called Hirudo steals bank account credentials by replacing legitimate banking apps with modified versions that disable security checks. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "7deeade39bbe",
+        "title": "AI-Found Linux Kernel Flaw Gives Local Users Root, and Can Break a Guest Out to the Host",
+        "link": "https://thehackernews.com/2026/10/ai-found-linux-kernel-flaw-gives-local.html",
+        "source": "The Hacker News",
+        "published": "2026-10-14T07:46:57+00:00",
+        "summary": "A flaw in Linux's vhost subsystem lets a local user read and write kernel memory at will and become root across nearly a decade of kernel versions. In one virtualization setup, it lets an untrusted virtual machine write to the host's memory and hijack the program that runs the virtual machine. The bug is tracked as CVE-2026-74580 and named Vghost. Tencent Zhuque Lab, which found the",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "fe2a7934cc21",
+        "title": "Microsoft Patches Record 1,413 Flaws, Including Exploited Windows Shell Bug",
+        "link": "https://thehackernews.com/2026/10/microsoft-patches-record-1413-flaws.html",
+        "source": "The Hacker News",
+        "published": "2026-10-14T04:34:43+00:00",
+        "summary": "Microsoft on Tuesday shattered its own Patch Tuesday record by shipping patches for a whopping 1,413 vulnerabilities, including one that it said has come under active exploitation. These include 1,102 flaws in Windows, 134 in Office, 61 in Developer Tools, 36 in SharePoint Server, and 22 in SQL Server. Of these, more than 670 relate to privilege escalation, followed by over 300 remote code",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "d659d714f512",
+        "title": "Ghostscript flaw lets hackers hijack servers via PDF uploads",
+        "link": "https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads/",
+        "source": "BleepingComputer",
+        "published": "2026-10-13T21:33:26+00:00",
+        "summary": "A critical heap buffer overflow vulnerability (CVE-2026-39919) in the Ghostscript interpreter and rendering engine could allow remote code execution through specially crafted PDF files. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "422f820440e6",
+        "title": "Microsoft October 2026 Patch Tuesday fixes 1,411 flaws, 3 zero-days",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/",
+        "source": "BleepingComputer",
+        "published": "2026-10-13T19:56:09+00:00",
+        "summary": "Today is Microsoft's October 2026 Patch Tuesday, with security updates addressing a record-breaking 1,411 flaws, including one actively exploited and two publicly disclosed zero-day vulnerabilities. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "53169ab82296",
+        "title": "Attacker Chains Three Ivanti Connect Secure Zero-Days for Root Access, Only Two Patched So Far",
+        "link": "https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html",
+        "source": "The Hacker News",
+        "published": "2026-10-13T17:33:11+00:00",
+        "summary": "An attacker chained three zero-day flaws in Ivanti Connect Secure, a VPN appliance, to run commands as root without logging in, security firm Volexity said on October 13. Ivanti has released fixes for two of the flaws and told customers on affected versions to \"act immediately.\" A fix for the third is still pending, according to Volexity. Volexity, which reported the flaws to Ivanti,",
         "category": "high_alert"
       }
     ],
-    "bad_updates": [],
+    "bad_updates": [
+      {
+        "fingerprint": "ba9e9a99934e",
+        "title": "Windows 11 Patch Tuesday (KB5127648) fixes bugs related to AC-3 audio and black screen",
+        "link": "https://www.neowin.net/news/windows-11-patch-tuesday-kb5127648-fixes-bugs-related-to-ac-3-audio-and-black-screen/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-10-13T20:40:02+00:00",
+        "summary": "Windows 11 users have been dealing with several frustrating bugs, and Microsoft's latest Patch Tuesday updates bring some welcome relief. Read more...",
+        "category": "bad_updates"
+      },
+      {
+        "fingerprint": "c118c193080d",
+        "title": "Microsoft releases Windows 10 KB5126657 extended security update",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5126657-extended-security-update/",
+        "source": "BleepingComputer",
+        "published": "2026-10-13T19:47:30+00:00",
+        "summary": "Microsoft released the Windows 10 KB5126657 extended security update, which includes this month's record-breaking October 2026 Patch Tuesday fixes and a few bug fixes and changes. [...]",
+        "category": "bad_updates"
+      }
+    ],
     "upcoming_changes": [
       {
-        "fingerprint": "457b5614f3ee",
-        "title": "Microsoft Purview: Data Loss Prevention-Apply Purview network data security DLP policies to all websites, or all websites except specific cloud apps, through Entra GSA Internet Access integration",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=575285",
+        "fingerprint": "95043600483d",
+        "title": "SharePoint: Agent chat web part",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=575298",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-12T23:01:05+00:00",
-        "summary": "With this feature, admins can scope their network data security data loss prevention policies, integrated with Entra GSA Internet Access, to apply to all websites ( . ) or all websites except specific cloud apps, allowing them to apply protection to cloud apps and websites that are not in the Defender Cloud App Catalog. GA date: December CY2026 Preview date: November CY2026",
+        "published": "2026-10-13T23:01:05+00:00",
+        "summary": "This is a new web part available for modern page editors in SharePoint. The web part can be configured to use any M365 Copilot agent. GA date: January CY2027 Preview date: November CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "4c993811344a",
-        "title": "Microsoft Purview: Information Protection - Apply default SharePoint library labels to data at rest",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=575283",
+        "fingerprint": "faf809e59625",
+        "title": "Microsoft Purview: Data Loss Prevention-Admin Units Support for Copilot & Cowork DLP",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=575287",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-12T23:01:05+00:00",
-        "summary": "Enables auto‑labeling of existing SharePoint files to match the default sensitivity label configured on their document library. This helps organizations close labeling gaps for data at rest and ensure consistent, secure‑by‑default protection across SharePoint libraries—without relying on manual user labeling. GA date: November CY2026",
+        "published": "2026-10-13T23:01:05+00:00",
+        "summary": "Microsoft Purview Data Loss Prevention is extending Administrative Units support to Microsoft 365 Copilot, Copilot Chat, and Cowork. This enables organizations to delegate management of supported Copilot DLP policies to administrators within their assigned Administrative Units, supporting regional, departmental, and regulatory boundaries without granting tenant-wide policy-management permission...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "0f54112cf099",
-        "title": "Dynamics 365 Project Operations: Unify product receipt and item requirement posting",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=574123",
+        "fingerprint": "267321869445",
+        "title": "Microsoft Purview: Information Protection-Auto-labeling for legacy Office files",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=574363",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-12T23:01:05+00:00",
-        "summary": "This feature posts a purchase order product receipt and the consumption of its linked project item requirement in one transaction. It applies when automatic item consumption is enabled or when you select Consume immediately while posting the product receipt. Both updates succeed together, or the system rolls them both back when an error occurs. The posting flow prevents duplicate project postin...",
+        "published": "2026-10-13T23:01:05+00:00",
+        "summary": "Microsoft Purview server-side auto-labeling will support legacy Microsoft Office file formats, including Word (.doc), Excel (.xls), and PowerPoint (.ppt). Organizations can automatically evaluate and apply sensitivity labels to these files in SharePoint and OneDrive. GA date: November CY2026 Preview date: November CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "3ccfdf3fe265",
-        "title": "Microsoft Copilot (Microsoft 365): Integrate the Sales Development agent with Salesforce",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=574105",
+        "fingerprint": "9fab41315fba",
+        "title": "Visio: Desktop Model Context Protocol (MCP) Server",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=574125",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-12T23:01:05+00:00",
-        "summary": "Sales Development Agent now integrates with Salesforce, enabling organizations to use SDA with their existing Salesforce CRM. SDA can access leads, manage prospect records, log sales activities, and keep engagement actions—including qualification, disqualification, and ownership changes—connected to the CRM workflow. The integration uses Microsoft’s Salesforce Model Context Protocol (MCP) serve...",
+        "published": "2026-10-13T23:01:05+00:00",
+        "summary": "The Microsoft Visio Desktop MCP Server enables compatible AI clients to connect with the Visio Desktop application to create, read, and update Visio diagrams using natural language. It runs locally on Windows and requires a licensed Visio Desktop application. GA date: June CY2027 Preview date: November CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "ab67e808671f",
-        "title": "Microsoft Teams: View files and conversations side by side",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=574094",
+        "fingerprint": "5bf0f4e122e2",
+        "title": "Dynamics 365 Commerce: Enable MCP tools for POS returns",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=574124",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-12T23:01:05+00:00",
-        "summary": "Review shared files without losing conversation context. When you open a PDF, Markdown, or HTML file from a Teams chat or channel message, the conversation appears alongside the file and takes you directly to where it was shared, allowing you to catch up on the discussion and respond without closing the file preview or switching back to chat. GA date: November CY2026",
+        "published": "2026-10-13T23:01:05+00:00",
+        "summary": "This feature provides reusable MCP tools for Store Commerce POS returns. These tools expose Commerce return capabilities as structured actions that customers, partners, and agent developers can use to build conversational or agentic return experiences. The tools enable agentic experiences to look up the original purchase using supported identifiers such as receipt, order, invoice, or confirmati...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "fea0ab24d46e",
-        "title": "Dynamics 365 Project Operations: Import tasks into a project from other projects",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573692",
+        "fingerprint": "88e037673ee6",
+        "title": "Dynamics 365 Finance: Improved planning writeback performance and flexibility",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=574118",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-12T23:01:05+00:00",
-        "summary": "Currently, to bring tasks from another project into a new project, you must manually enter the task details in the task grid or use schedule APIs. You can also use the Copy project feature to create a new project with the same tasks, but this feature has limitations: ​ You copy the entire project, including unwanted tasks and extra information. You can't combine tasks from multiple projects int...",
+        "published": "2026-10-13T23:01:05+00:00",
+        "summary": "Business performance planning improves the performance and flexibility of writeback from the Matrix visual. Writeback processing has been optimized to improve performance for planning adjustments, particularly for larger splash and multi-update operations. The improvements also optimize writeback for users with dimension security, where additional security validation is required. In addition, r...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "4ab06d8f4430",
-        "title": "Power Apps: Model-driven applications in Business Apps in Work IQ",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571888",
+        "fingerprint": "9b5cd97a9ccf",
+        "title": "Dynamics 365 Finance: Manage dimension security with Microsoft Entra groups",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=574117",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-12T23:01:05+00:00",
-        "summary": "Power Apps model-driven apps are now available as Business Apps in Work IQ. They can be accessed through the Work IQ (Preview) tool in Copilot Studio or through a natural-language chat experience powered by Work IQ MCP. In either experience, natural-language prompts let users list and read records or create, update, and delete them. For create and update, Work IQ maps supplied values to the app...",
+        "published": "2026-10-13T23:01:05+00:00",
+        "summary": "Administrators can now assign Microsoft Dataverse group teams backed by Microsoft Entra groups to Business performance planning dimension security groups. Previously, dimension security assignments were limited to individual users. The updated experience allows administrators to view and add eligible Entra group-backed teams alongside users, with separate membership information for each assignm...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "65e90098ff39",
-        "title": "Work IQ: Updating documents in Office",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570871",
+        "fingerprint": "e0c77bcf81ab",
+        "title": "Dynamics 365 Finance: Collaborative comments for planning cubes and dimensions",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=574116",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-12T23:01:05+00:00",
-        "summary": "Work IQ enables agents to create and edit Microsoft Office documents using organizational context, helping users produce and update content more efficiently. GA date: January CY2027 Preview date: November CY2026",
+        "published": "2026-10-13T23:01:05+00:00",
+        "summary": "Create and manage contextual discussion threads directly on planning cubes and dimensions. Users can comment on dimension cells, detailed or aggregate cube cells, and reporting rows; reply to and mention colleagues; receive email notifications; and resolve or reactivate discussions. Public and private visibility options, together with an All Comments view, filters, export, and role-based manage...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "b279aa1cfb1e",
-        "title": "Work IQ: Upload",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570850",
+        "fingerprint": "4c80e52cbe65",
+        "title": "Power Apps: Manage model-driven app AI features from consolidated settings",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=574104",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-12T23:01:05+00:00",
-        "summary": "Enable agents to upload files and content to supported Microsoft 365 destinations. GA date: October CY2026 Preview date: October CY2026",
+        "published": "2026-10-13T23:01:05+00:00",
+        "summary": "Consolidated AI settings make it easier for makers and admins to find and manage AI capabilities for model-driven apps across two complementary surfaces. In Maker Studio, the Settings dialog in the model app form designer adds a new top-level Copilot and AI tab. Makers can see and adjust all available AI options for the app in one place instead of finding them scattered among all the other sett...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "4163388b2767",
+        "title": "Dynamics 365 Supply Chain Management: Procurement Agent - Define custom scenarios for agent-generated supplier emails",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573705",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-10-13T23:01:05+00:00",
+        "summary": "Business end-users and buyers can define and maintain their own outbound follow-up scenarios and use them wherever built-in scenarios are used today: Scenario maintenance — a dedicated setup page where users create, edit, and maintain custom follow-up scenarios. Each scenario carries its own name, the instructions that shape the email the agent writes, and the business entity it applies to. Sce...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "3cbc54983cee",
+        "title": "Outlook: Copilot Chat available in shared and delegate mailboxes",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573698",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-10-13T23:01:05+00:00",
+        "summary": "Shared mailbox users and delegates with read and manage (full access) and/or mail folder-level permission will now be able to access Copilot Chat directly from their shared and delegate mailboxes in classic Outlook, when added as a resource . GA date: November CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "643708abf78a",
+        "title": "Power Pages: Create Power Pages SPA site from the Power Pages studio",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573277",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-10-13T23:01:05+00:00",
+        "summary": "Quickly get started with modern single-page application (SPA) development by creating a site directly from Power Pages Studio. Continue building and customizing your experience using your preferred development tools and frameworks. GA date: November CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "1854bbf33e15",
+        "title": "Work IQ: Microsoft IQ",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570870",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-10-13T23:01:05+00:00",
+        "summary": "Provide a unified intelligence layer that helps agents discover, reason over, and use organizational knowledge. GA date: January CY2027 Preview date: November CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "26bd276ecf72",
+        "title": "Work IQ: REST endpoint tools",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570868",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-10-13T23:01:05+00:00",
+        "summary": "Enable agents to use supported REST endpoints as tools through governed Work IQ integrations. GA date: November CY2026 Preview date: October CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "f76477ed8cc6",
+        "title": "Work IQ: A2A and MCP elicitation",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570852",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-10-13T23:01:05+00:00",
+        "summary": "Enable A2A and MCP tasks to request missing information or authorization and then resume. GA date: November CY2026 Preview date: October CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "5a01f17cc942",
+        "title": "Work IQ: A2A and MCP long running tasks",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570851",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-10-13T23:01:05+00:00",
+        "summary": "Enable durable long-running A2A and MCP tasks with progress tracking, later result retrieval, and cancellation. GA date: November CY2026 Preview date: October CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "e9d484106dbc",
+        "title": "Work IQ: Retrieve",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570673",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-10-13T23:01:05+00:00",
+        "summary": "Enable agents to retrieve relevant Microsoft 365 content and context through Work IQ. GA date: November CY2026 Preview date: October CY2026",
         "category": "upcoming_changes"
       }
     ],
     "official_news": [
+      {
+        "fingerprint": "9fa8c1588bfd",
+        "title": "The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/10/14/the-hidden-network-inside-the-phishing-infrastructure-ecosystem-powering-global-cybercrime/",
+        "source": "Microsoft Security Blog",
+        "published": "2026-10-14T13:00:00+00:00",
+        "summary": "Microsoft uncovered a Chinese-language cybercriminal ecosystem, an interconnected network of phishing kit operators (tracked as Storm-2990), and an illicit marketplace (tracked as Storm-3119) selling tools and infrastructure for large-scale phishing. In collaboration with law enforcement agencies and other partners worldwide, Microsoft’s Digital Crimes Unit (DCU) facilitated a disruption of the...",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "266e24cd2566",
+        "title": "Windows 10 KB5126657 Patch Tuesday update is now available",
+        "link": "https://www.neowin.net/news/windows-10-kb5126657-patch-tuesday-update-is-now-available/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-10-13T20:24:01+00:00",
+        "summary": "Microsoft just released the KB5126657 update for Windows 10 for users in the Extended Security program during this month's Patch Tuesday. See what's included: Read more...",
+        "category": "official_news"
+      },
       {
         "fingerprint": "e043e4e87199",
         "title": "Windows 11 KB5127648 and KB5127646 Patch Tuesday updates are now available",
@@ -219,25 +382,79 @@
         "published": "2026-10-13T17:10:30+00:00",
         "summary": "Microsoft has released October 2026 Patch Tuesday updates KB5127648 and KB5127646 for Windows 11. Here's what's included: Read more...",
         "category": "official_news"
-      },
-      {
-        "fingerprint": "79b1411009ad",
-        "title": "Microsoft Intune Licensing Plans and Options - Microsoft Intune",
-        "link": "https://learn.microsoft.com/en-us/intune/fundamentals/licensing",
-        "source": "Microsoft Intune What's New",
-        "published": "2026-10-12T22:34:00+00:00",
-        "summary": "Microsoft Intune licensing Summarize this article for me In this article Microsoft Intune is licensed through three plans and is included in several Microsoft 365 bundles. This article describes the plans, license requirements for users and administrators, and how to confirm your licenses. Microsoft Intune plans Intune capabilities are organized.",
-        "category": "official_news"
       }
     ],
     "community_buzz": [
+      {
+        "fingerprint": "e8f6695c6d0d",
+        "title": "Researchers Used a Public OpenAI Model to Build a $250,000 Chrome Full-Chain Exploit in Six Days",
+        "link": "https://thehackernews.com/2026/10/researchers-used-public-openai-model-to.html",
+        "source": "The Hacker News",
+        "published": "2026-10-14T11:19:02+00:00",
+        "summary": "A team at security firm XBOW chained three then-unknown Google Chrome bugs into a single attack that runs code on a Windows computer when the user only loads a web page, the company said. Its researchers built the attack in six days by directing AI agents running OpenAI's publicly available GPT-5.6 Sol model. Google has since confirmed all three bugs, fixed them, and paid XBOW its top $",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "c9d8142ff405",
+        "title": "Hirudo Android Trojan Uses Patched Banking Apps to Bypass Their Built-In Security Checks",
+        "link": "https://thehackernews.com/2026/10/hirudo-android-trojan-uses-patched.html",
+        "source": "The Hacker News",
+        "published": "2026-10-14T11:08:22+00:00",
+        "summary": "Cybersecurity researchers have disclosed details of a new Android banking trojan called Hirudo that works by replacing legitimate banking apps with purpose-built patched versions designed to bypass security checks from inside the app itself, marking a new escalation in financial fraud. Dutch mobile security company ThreatFabric said it identified replacements for eight Indonesian banking",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "3b6c78acda96",
+        "title": "Windows 11 KB5127648 breaks WPA 802.1X PEAP Wi‑Fi auth, but there's a manual fix",
+        "link": "https://www.neowin.net/news/windows-11-kb5127648-breaks-wpa-8021x-peap-wifi-auth-but-theres-a-manual-fix/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-10-14T10:54:02+00:00",
+        "summary": "Windows 11 KB5127648 disrupts WPA 802.1X PEAP Wi-Fi authentication, but you need not panic as there's a manual Registry fix. Read more...",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "366746b59a1b",
+        "title": "Windows 11 KB5127648 fixes Group policy fails from buggy Admin Protection",
+        "link": "https://www.neowin.net/news/windows-11-kb5127648-fixes-group-policy-fails-from-buggy-admin-protection/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-10-14T07:48:02+00:00",
+        "summary": "Microsoft may have quietly fixed a Group Policy issue that was affecting Windows 11 since KB5124010 and KB5120998 with the new KB5127648 update. Read more...",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "896843ec534a",
+        "title": "Microsoft Patches More Than 1,400 Security Flaws",
+        "link": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
+        "source": "Krebs on Security",
+        "published": "2026-10-13T23:24:53+00:00",
+        "summary": "Microsoft today issued updates to fix more than 1,400 security vulnerabilities in its Windows operating systems and other software. Today's epic patch batch dwarfs September's record of nearly 1,000 fixes, which was already about ten times the normal monthly patch load from Redmond.",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "e20114399e1f",
+        "title": "Docker Fixes Critical Two-Year-Old Hub Flaw That Let One User Push Images as Another",
+        "link": "https://thehackernews.com/2026/10/docker-fixes-critical-two-year-old-hub.html",
+        "source": "The Hacker News",
+        "published": "2026-10-13T18:03:18+00:00",
+        "summary": "A flaw in Docker Hub, the registry where container images are published and downloaded, let one user push, pull, or delete images as another user. Docker fixed the flaw on September 30 and says it found no evidence that anyone exploited it. The flaw was in the feature that converts a personal account into an organization, Docker said in a security advisory on October 12.",
+        "category": "community_buzz"
+      },
       {
         "fingerprint": "75d30a48604c",
         "title": "Windows 11 KB5127648 & KB5126653 cumulative updates released",
         "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127648-and-kb5126653-cumulative-updates-released/",
         "source": "BleepingComputer",
         "published": "2026-10-13T17:49:38+00:00",
-        "summary": "Microsoft has released Windows 11 KB5127648 and KB5126653 cumulative updates for versions 26H2/25H2/24H2 and 23H2 to fix security vulnerabilities and bugs and add new features. [...]",
+        "summary": "Microsoft has released the Patch Tuesday Windows 11 KB5127648 and KB5126653 cumulative updates for versions 26H2/25H2/24H2 and 23H2 to fix security vulnerabilities and bugs, and add new features. [...]",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "fae99a28842a",
+        "title": "SAP Discloses Critical CVSS 10 Flaw in Cloud SDK for Python Allowing OAuth2 Credential Theft",
+        "link": "https://thehackernews.com/2026/10/sap-discloses-critical-cvss-10-flaw-in.html",
+        "source": "The Hacker News",
+        "published": "2026-10-13T17:28:50+00:00",
+        "summary": "A flaw in SAP's Cloud SDK for Python can send an application's OAuth2 client credentials to a server an attacker controls, SAP said in a security advisory on October 13. The flaw affects multi-tenant applications on SAP Business Technology Platform (BTP) that use the SDK, SAP's official Python client for BTP services. An attacker must be able to control the tenant subdomain,",
         "category": "community_buzz"
       },
       {
@@ -247,24 +464,6 @@
         "source": "BleepingComputer",
         "published": "2026-10-13T16:44:18+00:00",
         "summary": "TFG London detected a cybersecurity incident that impacted IT systems used by the Phase Eight, Hobbs, and Whistles premium fashion brands. [...]",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "43db4833991f",
-        "title": "Microsoft drops Office LTSC 2021 security updates on today's Patch Tuesday",
-        "link": "https://www.neowin.net/news/microsoft-drops-office-ltsc-2021-security-updates-on-todays-patch-tuesday/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-10-13T11:30:01+00:00",
-        "summary": "Unpatched installations face instant exposure to AI-crafted exploits. Microsoft recommends cloud plans or disconnected Office LTSC 2024 for air-gapped systems. Read more...",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "d06d41106983",
-        "title": "Anthropic takes risky AI tests offline after models breach govt sites",
-        "link": "https://www.bleepingcomputer.com/news/security/anthropic-takes-risky-ai-tests-offline-after-models-breach-govt-sites/",
-        "source": "BleepingComputer",
-        "published": "2026-10-12T18:51:59+00:00",
-        "summary": "Anthropic announced that its internal AI models undergoing \"high-risk and cybersecurity evaluations\" no longer have internet access following incidents involving U.S. government websites at the federal, state, and local levels. [...]",
         "category": "community_buzz"
       }
     ]
