@@ -1,65 +1,73 @@
-# Security Digest - October 15, 2026
+# Security Digest - October 16, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
 
-- **Generated (UTC):** 2026-10-15 17:56:42 +00:00
+- **Generated (UTC):** 2026-10-16 17:45:39 +00:00
 - **Lookback window:** 7 days
 
 ## 🚀 Top Research & Advisories
-- **[Cisco confirmed attacks on Secure Email Gateway flaw CVE-2026-76519 (CVSS 9.8) on October 14, but the fix shipped on September 14 under an umbrella CVE for "path traversal"](https://www.reddit.com/r/cybersecurity/comments/1x6ra8d/cisco_confirmed_attacks_on_secure_email_gateway/)** - *(Reddit r/cybersecurity)*
-  Cisco’s advisory for CVE-2026-76519 went up on October 14 at 16:00 GMT. One email with a crafted attachment can write files on a Secure Email Gateway and run commands as root. Cisco says it learned of the attacks in October. CISA added it to KEV the...
-  > **Action:** Review security controls and policy updates.
-
-- **[Palo Alto Networks warns of PAN-OS RCE flaw exploited in attacks](https://www.reddit.com/r/cybersecurity/comments/1x67do0/palo_alto_networks_warns_of_panos_rce_flaw/)** - *(Reddit r/cybersecurity)*
-  &#32; submitted by &#32; /u/Doug24 [link] &#32; [comments]
-  > **Action:** Review VPN client version and deployment.
-
+- *No high-priority security research detected in this window.*
 ## 💻 AppSec
-- **[Burp Suite Web Academy (BSCP) - Paths vs Topics](https://www.reddit.com/r/cybersecurity/comments/1x6eri9/burp_suite_web_academy_bscp_paths_vs_topics/)** - *(Reddit r/cybersecurity)*
-  Review .NET runtime vulnerabilities and apply patches.
-
-- **[CVE-2026-107335](https://www.cve.org/CVERecord?id=CVE-2026-107335)** - *(CVE.org)*
+- **[Get Microsoft Visual Studio Pro 2026 for 94% off](https://www.neowin.net/deals/get-microsoft-visual-studio-pro-2026-for-94-off/?utm_source=rss)** - *(Neowin)*
   Monitor developer tool vulnerabilities and supply chain risks.
 
 ## 🏗 Infrastructure
-- **[Microsoft reminds IT admins that Windows Server 2012 is now out of support, urges upgrades](https://www.neowin.net/news/microsoft-reminds-it-admins-that-windows-server-2012-is-now-out-of-support-urges-upgrades/?utm_source=rss)** - *(Neowin)*
-  Review server hardening and AD security posture.
-
 - **[Microsoft: Windows Server 2022 reached end of mainstream support](https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2022-reached-end-of-mainstream-support/)** - *(BleepingComputer)*
   Review server hardening and AD security posture.
 
-## 🛡 Security Ops
-- **[Real-time MFA-relay phishing kits keep showing up. What's actually working against them for you?](https://www.reddit.com/r/cybersecurity/comments/1x6cgib/realtime_mfarelay_phishing_kits_keep_showing_up/)** - *(Reddit r/cybersecurity)*
-  Review CA/MFA settings for tightening opportunities.
-
-- **[Where do I go next?](https://www.reddit.com/r/cybersecurity/comments/1x6psve/where_do_i_go_next/)** - *(Reddit r/cybersecurity)*
-  Review sensor guidance and deployment posture.
-
 ## 🛠 Infrastructure & Endpoint Control
-- **[Firefox is working on a privacy feature Chrome and Edge still don't have on Windows](https://www.neowin.net/news/firefox-is-working-on-a-privacy-feature-chrome-and-edge-still-dont-have-on-windows/?utm_source=rss)** - *(Neowin)*
-  Validate Chrome coverage; update managed package if needed. Validate Edge/WebView2 coverage; refresh managed package.
-
-- **[KGB RAT Malware Bypasses Windows Defender to Steal Credentials and Control PCs](https://cybersecuritynews.com/kgb-rat-malware/)** - *(CybersecurityNews)*
+- **[CVE-2026-107825](https://www.cve.org/CVERecord?id=CVE-2026-107825)** - *(CVE.org)*
   Review security controls and policy updates.
 
-- **[Microsoft unveils redesigned Photos app for Windows 11 with more AI features](https://www.neowin.net/news/microsoft-unveils-redesigned-photos-app-for-windows-11-with-more-ai-features/?utm_source=rss)** - *(Neowin)*
+- **[CVE-2026-107826](https://www.cve.org/CVERecord?id=CVE-2026-107826)** - *(CVE.org)*
+  Review security controls and policy updates.
+
+- **[CVE-2026-107833](https://www.cve.org/CVERecord?id=CVE-2026-107833)** - *(CVE.org)*
+  Review security controls and policy updates.
+
+- **[CVE-2026-107834](https://www.cve.org/CVERecord?id=CVE-2026-107834)** - *(CVE.org)*
+  Review security controls and policy updates.
+
+- **[CVE-2026-107835](https://nvd.nist.gov/vuln/detail/CVE-2026-107835)** - *(NVD)*
+  Review security controls and policy updates.
+
+- **[Microsoft admits Windows 11 KB5127648 KB5126646 break WPA 802.1X auth, shares fix](https://www.neowin.net/news/microsoft-admits-windows-11-kb5127648-kb5126646-break-wpa-8021x-auth-shares-fix/?utm_source=rss)** - *(Neowin)*
   Validate workstation security baseline and update compliance.
 
-- **[Microsoft's special Windows 11 26H2 tweak makes PCs faster especially on hard disks](https://www.neowin.net/news/microsofts-special-windows-11-26h2-tweak-makes-pcs-faster-especially-on-hard-disks/?utm_source=rss)** - *(Neowin)*
+- **[Microsoft finally outs upgraded Windows 11 device info to more users with build 26220.9739](https://www.neowin.net/news/microsoft-finally-outs-upgraded-windows-11-device-info-to-more-users-with-build-262209739/?utm_source=rss)** - *(Neowin)*
   Validate workstation security baseline and update compliance.
 
-- **[Windows KB5127648 KB5127694 updates break Xbox sign in with 0x87DD0005 error](https://www.neowin.net/news/windows-kb5127648-kb5127694-updates-break-xbox-sign-in-with-0x87dd0005-error/?utm_source=rss)** - *(Neowin)*
+- **[Microsoft released Windows 11 KB5127654 recovery update and more](https://www.neowin.net/news/microsoft-released-windows-11-kb5127654-recovery-update-and-more/?utm_source=rss)** - *(Neowin)*
   Validate workstation security baseline and update compliance.
+
+- **[Microsoft shows how Edge will soon quietly install new features and patches automatically](https://www.neowin.net/news/microsoft-shows-how-edge-will-soon-quietly-install-new-features-and-patches-automatically/?utm_source=rss)** - *(Neowin)*
+  Validate Edge/WebView2 coverage; refresh managed package.
+
+- **[Microsoft: October Windows update may break Smart App Control](https://www.bleepingcomputer.com/news/microsoft/kb5127648-windows-security-update-may-break-smart-app-control/)** - *(BleepingComputer)*
+  Evaluate update rings and expedite actions if needed.
+
+- **[New Windows 11 build improves Gaming Task View and revamps the Run dialog](https://www.neowin.net/news/new-windows-11-build-improves-gaming-task-view-and-revamps-the-run-dialog/?utm_source=rss)** - *(Neowin)*
+  Validate workstation security baseline and update compliance.
+
+- **[Windows 11 26H1 Release Preview update KB5127653 brings a large set of new features](https://www.neowin.net/news/windows-11-26h1-release-preview-update-kb5127653-brings-a-large-set-of-new-features/?utm_source=rss)** - *(Neowin)*
+  Validate workstation security baseline and update compliance.
+
+- **[Windows 11 Release Preview update KB5127936 is now available with a long list of changes](https://www.neowin.net/news/windows-11-release-preview-update-kb5127936-is-now-available-with-a-long-list-of-changes/?utm_source=rss)** - *(Neowin)*
+  Validate workstation security baseline and update compliance.
+
+## 🩹 Patch Tuesday & Update Experience
+- **[Microsoft released Windows 11 KB5127654 recovery update and more](https://www.neowin.net/news/microsoft-released-windows-11-kb5127654-recovery-update-and-more/?utm_source=rss)** - *(Neowin)*
+  New dynamic updates for Windows 11 versions 26H2, 26H1, 25H2 and 24H2 alongside for Windows 10, were released by Microsoft this past week. Read more...
 
 ## 🔍 Quick Links (Watch Items)
-- [How bad is it to get fired in cybersecurity?](https://www.reddit.com/r/cybersecurity/comments/1x6rz6f/how_bad_is_it_to_get_fired_in_cybersecurity/) - *(Reddit r/cybersecurity)*
-- [Cisco confirmed attacks on Secure Email Gateway flaw CVE-2026-76519 (CVSS 9.8) on October 14, but the fix shipped on September 14 under an umbrella CVE for "path traversal"](https://www.reddit.com/r/cybersecurity/comments/1x6ra8d/cisco_confirmed_attacks_on_secure_email_gateway/) - *(Reddit r/cybersecurity)*
-- [Where do I go next?](https://www.reddit.com/r/cybersecurity/comments/1x6psve/where_do_i_go_next/) - *(Reddit r/cybersecurity)*
-- [In a dilemma, help me out please](https://www.reddit.com/r/cybersecurity/comments/1x6p74n/in_a_dilemma_help_me_out_please/) - *(Reddit r/cybersecurity)*
-- [We’re the Firefox security team. Ask us anything about securing an open-source browser! (AMA)](https://www.reddit.com/r/cybersecurity/comments/1x6ov2q/were_the_firefox_security_team_ask_us_anything/) - *(Reddit r/cybersecurity)*
-- [there are a few "state of" ai security or security reports out there, almost way to many. do you have any that you truly liked?](https://www.reddit.com/r/cybersecurity/comments/1x6n8g3/there_are_a_few_state_of_ai_security_or_security/) - *(Reddit r/cybersecurity)*
-- [Made an LCARS-themed CVE watch screen on an ESP32. What would you want on it?](https://www.reddit.com/r/cybersecurity/comments/1x6kuh3/made_an_lcarsthemed_cve_watch_screen_on_an_esp32/) - *(Reddit r/cybersecurity)*
-- [wiz vs sweet security for ai agents, anyone running sweet?](https://www.reddit.com/r/cybersecurity/comments/1x6ftsi/wiz_vs_sweet_security_for_ai_agents_anyone/) - *(Reddit r/cybersecurity)*
-- [Burp Suite Web Academy (BSCP) - Paths vs Topics](https://www.reddit.com/r/cybersecurity/comments/1x6eri9/burp_suite_web_academy_bscp_paths_vs_topics/) - *(Reddit r/cybersecurity)*
-- [Hirudo Android malware replaces banking apps to evade security checks](https://www.bleepingcomputer.com/news/security/hirudo-android-malware-replaces-banking-apps-to-evade-security-checks/) - *(BleepingComputer)*
+- [Hackers exploit Collabora RCE flaw to backdoor Nextcloud servers](https://www.reddit.com/r/cybersecurity/comments/1x7lve5/hackers_exploit_collabora_rce_flaw_to_backdoor/) - *(Reddit r/cybersecurity)*
+- [What AI instructions and context should I give for an AI assistance InfoSec GRC Manager?](https://www.reddit.com/r/cybersecurity/comments/1x7k8k1/what_ai_instructions_and_context_should_i_give/) - *(Reddit r/cybersecurity)*
+- [Hackers Use New ROMULUS ClickFix Platform to Deliver Malware and Evade Security Detection](https://cybersecuritynews.com/new-romulus-clickfix-platform/) - *(CybersecurityNews)*
+- [Automating Security Questionnaires?](https://www.reddit.com/r/cybersecurity/comments/1x7gtar/automating_security_questionnaires/) - *(Reddit r/cybersecurity)*
+- [How are companies supposed to verify employees when the attacker already knows everything about them?](https://www.reddit.com/r/cybersecurity/comments/1x7gq5k/how_are_companies_supposed_to_verify_employees/) - *(Reddit r/cybersecurity)*
+- [How to draw label partial orders?](https://www.reddit.com/r/cybersecurity/comments/1x7fze7/how_to_draw_label_partial_orders/) - *(Reddit r/cybersecurity)*
+- [Hackers Abuse 20,000 Cloudflare Pages Domains to Push Fake Microsoft Security Alerts](https://cybersecuritynews.com/cloudflare-pages-domains/) - *(CybersecurityNews)*
+- [CVE-2026-23866: Finding a Whatsapp NDay](https://www.reddit.com/r/cybersecurity/comments/1x7am6h/cve202623866_finding_a_whatsapp_nday/) - *(Reddit r/cybersecurity)*
+- [Microsoft shows how Edge will soon quietly install new features and patches automatically](https://www.neowin.net/news/microsoft-shows-how-edge-will-soon-quietly-install-new-features-and-patches-automatically/?utm_source=rss) - *(Neowin)*
+- [Planning a Master’s in cybersecurity: how hard is it to land an entry-level job afterward?](https://www.reddit.com/r/cybersecurity/comments/1x79x4a/planning_a_masters_in_cybersecurity_how_hard_is/) - *(Reddit r/cybersecurity)*
 
