@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-15T15:28:50.757229+00:00",
-  "date": "2026-10-15",
+  "generated_utc": "2026-10-16T15:09:49.950238+00:00",
+  "date": "2026-10-16",
   "lookback_hours": 25,
   "source_status": [
     {
@@ -12,7 +12,7 @@
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 10
+      "count": 7
     },
     {
       "name": "Microsoft Intune What's New",
@@ -37,17 +37,17 @@
     {
       "name": "BleepingComputer",
       "status": "OK",
-      "count": 2
+      "count": 4
     },
     {
       "name": "Neowin",
       "status": "OK",
-      "count": 2
+      "count": 1
     },
     {
       "name": "The Hacker News",
       "status": "OK",
-      "count": 8
+      "count": 3
     },
     {
       "name": "Krebs on Security",
@@ -99,207 +99,144 @@
   "items": {
     "high_alert": [
       {
-        "fingerprint": "44989de53389",
-        "title": "NGINX Fixes 5 Flaws, Including Possible RCE and a TLS Bug That May Skip Client-Cert Checks",
-        "link": "https://thehackernews.com/2026/10/nginx-fixes-5-flaws-including-possible.html",
+        "fingerprint": "2e5d17c0dfbc",
+        "title": "China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers",
+        "link": "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html",
         "source": "The Hacker News",
-        "published": "2026-10-15T12:58:05+00:00",
-        "summary": "NGINX released versions 1.30.6 and 1.31.7 on October 14 to fix five vulnerabilities, one of them present in every release since May 2005. There are three memory bugs that F5, the company behind NGINX, says could crash a worker process or possibly let an attacker run code, and each requires a specific configuration to exploit. A fourth lets an attacker forge a TLS session that could",
+        "published": "2026-10-16T06:55:55+00:00",
+        "summary": "The China-nexus cyber espionage group tracked as Armory Castle (previously UNC5221 or Warp Panda) exploited a newly disclosed security flaw in BeyondTrust Remote Support (formerly Bomgar) as a zero-day in late August 2026. The vulnerability, tracked as CVE-2026-102764 (CVSS score: 9.3), is a case of improper origin validation in an internal messaging component that could be exploited by a",
         "category": "high_alert"
       },
       {
-        "fingerprint": "ef790fe596ad",
-        "title": "Next.js Ships Out-of-Band Patch for Two Critical RCE Flaws in Caching and SVG Processing",
-        "link": "https://thehackernews.com/2026/10/nextjs-ships-out-of-band-patch-for-two.html",
-        "source": "The Hacker News",
-        "published": "2026-10-15T12:28:13+00:00",
-        "summary": "Next.js released an out-of-band security update on October 14 that fixes two critical flaws allowing unauthenticated remote code execution, along with a high-severity denial-of-service flaw. One code-execution flaw is in React Server Components, and the other in librsvg, the open-source library Next.js uses through the sharp package to handle SVG images. The fixes are in",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "70ee939b1602",
-        "title": "Drupal Patches Critical Field UI Flaw With Unauthenticated RCE Path via Contributed Modules",
-        "link": "https://thehackernews.com/2026/10/drupal-patches-critical-core-rce-flaw.html",
-        "source": "The Hacker News",
-        "published": "2026-10-15T12:07:20+00:00",
-        "summary": "Drupal core has a critical flaw in its Field UI module that could let an attacker run code on the site's server, and fixes were shipped on October 14 in Drupal 11.4.10, 11.3.19, and 10.6.19. An attacker cannot reach the flaw through core alone, the Drupal Security Team said in its advisory. Several exploit paths exist through contributed modules, and at least one known path needs no login.",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "1b36a2979e2b",
-        "title": "Fake AI Attacks Spread Across US Companies: How MSSPs Can Stop Incidents Early",
-        "link": "https://thehackernews.com/2026/10/fake-ai-attacks-spread-across-us.html",
-        "source": "The Hacker News",
-        "published": "2026-10-15T11:46:59+00:00",
-        "summary": "Attackers are impersonating popular AI products to distribute malware, steal browser sessions, and compromise business accounts. ANY.RUN linked 1,258 public sandbox analyses to fake AI campaigns between April and October of 2026. The campaigns also increase operational pressure on MSSPs serving US businesses, which accounted for 16% of country-attributed targets. Similar attacks",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "c911a94eb09e",
-        "title": "Palo Alto Networks Patches PAN-OS Authenticated RCE Flaw Amid Active Exploitation",
-        "link": "https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html",
-        "source": "The Hacker News",
-        "published": "2026-10-15T11:46:49+00:00",
-        "summary": "Palo Alto Networks on Wednesday issued security updates for a high-severity flaw in PAN-OS software that has come under active exploitation. The vulnerability, tracked as CVE-2026-0322 (CVSS score: 8.6), is a case of remote code execution in the management interface. \"A remote code execution (RCE) vulnerability in the management interface of Palo Alto Networks PAN-OS software enables an",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "a27a0c13539c",
-        "title": "Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts",
-        "link": "https://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html",
-        "source": "The Hacker News",
-        "published": "2026-10-15T07:07:05+00:00",
-        "summary": "Threat actors are exploiting a critical security flaw in Langflow, according to an alert from Previdian. Langflow is an open-source platform that allows developers to build artificial intelligence (AI) applications and agentic workflows. In February 2025, DataStax, the parent company of Langflow, was acquired by IBM. The vulnerability in question is CVE-2026-105740 (CVSS score: 9.9), a case of",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "212bc97e18a0",
-        "title": "AhsayCBS Flaws Exploited to Deploy Web Shells Get New Fixes After Incomplete Patches",
-        "link": "https://thehackernews.com/2026/10/ahsaycbs-flaws-exploited-to-deploy-web.html",
-        "source": "The Hacker News",
-        "published": "2026-10-15T06:43:08+00:00",
-        "summary": "Singapore-based Ahsay Backup has released security updates to address two security flaws in AhsayCBS that have been exploited by bad actors to drop web shells and XMRig cryptocurrency miners. The vulnerabilities in question are CVE-2026-105133 and CVE-2026-105134, which could be chained to sidestep authentication and execute arbitrary commands on affected systems. In a report published earlier",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "1a72c1fdf62a",
-        "title": "Palo Alto Networks warns of PAN-OS RCE flaw exploited in attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-pan-os-rce-flaw-exploited-in-attacks/",
+        "fingerprint": "54398b2801a2",
+        "title": "BeyondTrust patches zero-day exploited in attacks since August",
+        "link": "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/",
         "source": "BleepingComputer",
-        "published": "2026-10-14T22:56:47+00:00",
-        "summary": "Palo Alto Networks has released security updates for a high-severity PAN-OS RCE zero-day, tracked as CVE-2026-0322, that has been exploited in attacks targeting firewalls. [...]",
+        "published": "2026-10-16T06:18:08+00:00",
+        "summary": "BeyondTrust warned customers on Thursday to patch a critical flaw in its Remote Support (RS) that has been exploited in zero-day attacks since late August. [...]",
         "category": "high_alert"
       },
       {
-        "fingerprint": "46c434c0bde5",
-        "title": "Cisco Warns of Active Attacks Exploiting New Critical Secure Email Gateway Vulnerability",
-        "link": "https://thehackernews.com/2026/10/cisco-warns-of-active-attacks.html",
+        "fingerprint": "09a5b0eee6e0",
+        "title": "PEERSTITCH Malware Deployed via FortiOS Flaw Bypasses Checks on Tagged VPN Sessions",
+        "link": "https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html",
         "source": "The Hacker News",
-        "published": "2026-10-14T18:38:56+00:00",
-        "summary": "Attackers are exploiting a critical flaw in Cisco Secure Email Gateway that lets a sender with no login write files to the appliance's operating system, Cisco said in an advisory on Wednesday. The attacker sends an email with a crafted attachment through the gateway and, if it succeeds, could then run commands as root. The appliance filters an organization's email for spam, malware,",
+        "published": "2026-10-16T04:59:36+00:00",
+        "summary": "A suspected advanced threat actor has been observed exploiting a security flaw in Fortinet FortiOS to deliver a previously unreported memory-resident ARM64 malware known as PEERSTITCH. The attack involves the exploitation of CVE-2025-61624 (CVSS score: 5.4), a path traversal flaw in the command line interpreter of FortiOS, FortiPAM, FortiProxy, and FortiSwitchManager that could allow a",
         "category": "high_alert"
       },
       {
-        "fingerprint": "270f73b81eef",
-        "title": "Cisco patches new Secure Email Gateway zero-day exploited in attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/cisco-patches-actively-exploited-secure-email-gateway-zero-day/",
+        "fingerprint": "9fb532c4cbdd",
+        "title": "Hackers exploit Collabora RCE flaw to backdoor Nextcloud servers",
+        "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/",
         "source": "BleepingComputer",
-        "published": "2026-10-14T17:29:14+00:00",
-        "summary": "Cisco has patched another actively exploited zero-day flaw in its Secure Email Gateway (SEG) that lets remote unauthenticated attackers execute commands with root privileges. [...]",
+        "published": "2026-10-15T20:25:04+00:00",
+        "summary": "Threat actors are exploiting a critical command execution flaw, now tracked as CVE-2026-110447, in the Collabora Online - Built-in CODE Server app (richdocumentscode) for Nextcloud. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "5fe69719e3ce",
+        "title": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
+        "link": "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
+        "source": "The Hacker News",
+        "published": "2026-10-15T20:24:36+00:00",
+        "summary": "A newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A researcher demonstrated the leak against Vercel's live cloud sandboxes, and Vercel confirmed it. The flaw, now tracked as CVE-2026-99999 and nicknamed PwnEscape, is in the Linux kernel's networking code, not in any one cloud's setup, so it reaches the shared",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "a2f4057d579b",
+        "title": "Fake Arch Linux packages push malware with root privileges",
+        "link": "https://www.bleepingcomputer.com/news/security/fake-arch-linux-packages-push-malware-with-root-privileges/",
+        "source": "BleepingComputer",
+        "published": "2026-10-15T17:12:31+00:00",
+        "summary": "A threat actor uploaded malicious packages to the Arch User Repository (AUR) that impersonated two popular helper tools, yay and paru. [...]",
         "category": "high_alert"
       }
     ],
     "bad_updates": [],
     "upcoming_changes": [
       {
-        "fingerprint": "d17592097203",
-        "title": "Microsoft Teams: Near-real-time detection of malicious QR codes in messages",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=576198",
+        "fingerprint": "879b3824a0b2",
+        "title": "OneDrive: PDF annotation for sensitivity-label protected PDFs in OneDrive/SharePoint web viewer",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=576276",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-14T23:01:02+00:00",
-        "summary": "Microsoft Teams will introduce near-real-time detection of malicious QR codes shared in messages. By analyzing destinations embedded in QR codes, Teams can identify potential phishing and fraud threats and apply additional protections to malicious content, extending existing URL protection to QR-based attacks. GA date: December CY2026",
+        "published": "2026-10-15T22:47:30+00:00",
+        "summary": "We're enabling PDF annotation for sensitivity-label protected PDFs in OneDrive and SharePoint on the web. With this update, users who have the appropriate usage rights can annotate these protected PDFs in place in their browser while preserving the file's sensitivity label, encryption, and usage rights when changes are saved. GA date: January CY2027",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "482bf97e08e3",
-        "title": "Microsoft Teams: PowerPoint Live support for webinars and structured meetings on Teams Rooms on Android",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=576195",
+        "fingerprint": "6919671ecc10",
+        "title": "Microsoft Teams: Pinch to zoom in on shared screens",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=576193",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-14T23:01:02+00:00",
-        "summary": "Participants joining webinars and structured meetings from Teams Rooms on Android can view and interact with PowerPoint Live presentations. This provides greater flexibility and accessibility while keeping room participants aligned with the active presentation. GA date: November CY2026",
+        "published": "2026-10-15T22:47:30+00:00",
+        "summary": "Get a closer look at shared content in Teams calls and meetings with pinch-to-zoom using your touchpad . Quickly zoom in to make small text and detailed visuals easier to see, then zoom back out for the full view. Existing zoom controls remain available. GA date: November CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "8b3104dc0932",
-        "title": "Microsoft Teams: Loop meeting notes stored in the meeting organizer's OneDrive",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=576194",
+        "fingerprint": "504b464d0326",
+        "title": "Dynamics 365 Project Operations: Full-screen mode on task grid",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=575291",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-14T23:01:02+00:00",
-        "summary": "For non-channel Microsoft Teams meetings, collaborative meeting notes, including Loop-powered meeting notes and Facilitator notes, will be stored in the meeting organizer's OneDrive for Business instead of the OneDrive of the person who starts the notes. This update provides more consistent ownership and management of meeting content while preserving the existing note-taking and collaboration e...",
+        "published": "2026-10-15T22:47:30+00:00",
+        "summary": "Task grid full-screen mode enables project managers and team members to expand the task grid to use the available screen space. By minimizing surrounding page elements, users gain a larger workspace for viewing and managing task hierarchies, schedules, assignments, dependencies, and other task details. Users can enter full-screen mode when they need a focused planning experience and return to t...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "1291b5da3113",
-        "title": "Microsoft Teams: Phishing Detection in Teams Messaging",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=575288",
+        "fingerprint": "e94569b3ccd2",
+        "title": "SharePoint: Copilot Search in SharePoint and OneDrive",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573696",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-14T23:01:02+00:00",
-        "summary": "Microsoft Teams is introducing AI-powered phishing detection that uses conversation context to identify phishing and social engineering in higher-risk messaging scenarios, primarily external first-contact chats. Additional protection may apply in certain regions or scenarios. The capability is used only for security protection, and users may see warnings when suspicious activity is detected. GA...",
+        "published": "2026-10-15T22:47:30+00:00",
+        "summary": "Copilot Search brings AI-powered, natural-language search to SharePoint and OneDrive, combining relevant results, AI-generated summaries with source references, intuitive filters, and a seamless handoff to Copilot. GA date: January CY2027 Preview date: October CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "aa1ea58cd0d1",
-        "title": "Microsoft Copilot (Microsoft 365): Copilot response personalization - Memory citations",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=574111",
+        "fingerprint": "1d514e1c5bf1",
+        "title": "Microsoft Teams: Facilitator's enhanced protection skill can alert you to potential scams",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573450",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-14T23:01:02+00:00",
-        "summary": "When Copilot Chat uses memory to personalize a response, users can now see what informed the answer. Select Sources beneath the response, then open the Personalization tab to view the custom instructions, saved memories, memories learned from conversations, and past chats that shaped the response. From there, users can return to a cited chat to pick up where they left off or review and delete s...",
+        "published": "2026-10-15T22:47:30+00:00",
+        "summary": "Facilitator can help you spot suspected attempts by people outside your organization to trick you into sharing sensitive information during a meeting. When Facilitator is in your meeting, its Protection skill uses AI to check the meeting transcript for signs of possible social engineering. If it detects a suspected attempt, you'll see a warning in the meeting, with options to end or to temporar...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "f3e05a39fe95",
-        "title": "Microsoft Teams: Admin center - Intelligent insights for meeting quality",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=574108",
+        "fingerprint": "4ff70d70edfc",
+        "title": "Power Apps: Prompt Columns - multiple lines of text output",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573279",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-14T23:01:02+00:00",
-        "summary": "Gain proactive visibility into meeting quality across your organization with AI-powered insights in the Teams admin center that identify emerging patterns, highlight impacted users and locations, and surface likely causes with recommended actions. This helps IT administrators detect and address issues earlier, improve meeting quality, and stay ahead of potential disruptions. GA date: November C...",
+        "published": "2026-10-15T22:47:30+00:00",
+        "summary": "Prompt columns can now store multilple lines of text as prompt output, enabling longer and detailed AI-generated insights to be stored in your tables. GA date: November CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "5b38a0d15f82",
-        "title": "Dynamics 365 Contact Center: Quality evaluation - One-Time Evaluation Frequency",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573266",
+        "fingerprint": "19b3ba670fb3",
+        "title": "Microsoft Dataverse: Prompt column values in bulk for existing records (backfill)",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570865",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-14T23:01:02+00:00",
-        "summary": "Quality evaluation plans now support a Once frequency type for both case evaluations and conversation evaluations. When creating an evaluation plan, users can select Once from the Frequency type dropdown to run the evaluation a single time instead of on a recurring schedule or trigger-based cadence. This option is useful for one-time evaluation runs where ongoing recurrence is not needed. Once ...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "d3a9bd94c5da",
-        "title": "Planner: Planner Agent in Copilot V2 Improvements",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573168",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-14T23:01:02+00:00",
-        "summary": "Planner Agent brings Planner’s intelligent work management directly into Copilot Chat, enabling users to create, update, and manage personal tasks and shared basic plans without switching context. Integrated across Microsoft 365, it provides insights into priorities, deadlines, and at-risk work, along with interactive task cards to help users stay organized and keep work moving. Building on the...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "9316992a186f",
-        "title": "Microsoft Purview: Adaptive Scope evaluation control with recipient and site owner lifecycle status",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=572676",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-14T23:01:02+00:00",
-        "summary": "Microsoft Purview Adaptive Scopes will provide administrators with explicit control over lifecycle-state evaluation for recipients and site owners, helping ensure policy targeting and scope membership remain aligned with organizational requirements. GA date: January CY2027",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "fe2bc5ad5fa4",
-        "title": "Power Pages: Design studio - Enhance OpenID Connect with encrypted token support",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=576395",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-14T22:53:09+00:00",
-        "summary": "This feature adds support for token-level encryption during authentication, allowing Power Pages to accept encrypted ID tokens in addition to signed tokens. It ensures secure claim transmission, improves compatibility with advanced identity providers, and strengthens overall authentication security without changing existing sign-in flows. Business Value: You can integrate with more secure ident...",
+        "published": "2026-10-15T22:47:30+00:00",
+        "summary": "Prompt columns can now generate AI values for records that already exist in your table, not just new or updated ones. Makers can choose to apply a prompt to existing records in bulk, optionally filtered to just the rows they need, so historical data gets the same AI-generated insights as incoming data, without touching each record one at a time. GA date: November CY2026",
         "category": "upcoming_changes"
       }
     ],
     "official_news": [],
     "community_buzz": [
       {
-        "fingerprint": "01b327dd3dd0",
-        "title": "Windows KB5127648 KB5127694 updates break Xbox sign in with 0x87DD0005 error",
-        "link": "https://www.neowin.net/news/windows-kb5127648-kb5127694-updates-break-xbox-sign-in-with-0x87dd0005-error/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-10-15T06:20:01+00:00",
-        "summary": "Aside from Wi-Fi authentication problems, the latest Windows 11 KB5127648 update can be breaking Xbox sign ins too. Here's what's going on. Read more...",
+        "fingerprint": "5e5b5fcec34e",
+        "title": "Microsoft: October Windows update may break Smart App Control",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/kb5127648-windows-security-update-may-break-smart-app-control/",
+        "source": "BleepingComputer",
+        "published": "2026-10-16T08:44:22+00:00",
+        "summary": "Microsoft says some users may have trouble turning on Smart App Control after installing this month's KB5127648 Windows 11 security update. [...]",
         "category": "community_buzz"
       },
       {
-        "fingerprint": "881f635d5493",
-        "title": "Microsoft Defender now supports Linux desktops",
-        "link": "https://www.neowin.net/news/microsoft-defender-now-supports-linux-desktops/?utm_source=rss",
+        "fingerprint": "479c4c7c6a51",
+        "title": "Microsoft admits Windows 11 KB5127648 KB5126646 break WPA 802.1X auth, shares fix",
+        "link": "https://www.neowin.net/news/microsoft-admits-windows-11-kb5127648-kb5126646-break-wpa-8021x-auth-shares-fix/?utm_source=rss",
         "source": "Neowin",
-        "published": "2026-10-14T19:36:02+00:00",
-        "summary": "Linux developers can now benefit from Microsoft's expanded security ecosystem, but accessing its latest protection features comes with a catch. Read more...",
+        "published": "2026-10-15T20:14:01+00:00",
+        "summary": "Latest Windows 11 and Server updates disrupt WPA 802.1X authentication, Microsoft admits. The company has shared a temporary fix. Read more...",
         "category": "community_buzz"
       }
     ]
