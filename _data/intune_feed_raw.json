@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-16T15:09:49.950238+00:00",
-  "date": "2026-10-16",
+  "generated_utc": "2026-10-19T17:18:51.449251+00:00",
+  "date": "2026-10-19",
   "lookback_hours": 25,
   "source_status": [
     {
@@ -12,7 +12,7 @@
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 7
+      "count": 0
     },
     {
       "name": "Microsoft Intune What's New",
@@ -27,7 +27,7 @@
     {
       "name": "Microsoft Security Blog",
       "status": "OK",
-      "count": 0
+      "count": 1
     },
     {
       "name": "Microsoft Entra Blog",
@@ -37,12 +37,12 @@
     {
       "name": "BleepingComputer",
       "status": "OK",
-      "count": 4
+      "count": 1
     },
     {
       "name": "Neowin",
       "status": "OK",
-      "count": 1
+      "count": 0
     },
     {
       "name": "The Hacker News",
@@ -52,7 +52,7 @@
     {
       "name": "Krebs on Security",
       "status": "OK",
-      "count": 0
+      "count": 1
     },
     {
       "name": "The Old New Thing",
@@ -99,144 +99,63 @@
   "items": {
     "high_alert": [
       {
-        "fingerprint": "2e5d17c0dfbc",
-        "title": "China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers",
-        "link": "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html",
+        "fingerprint": "32b9d6378230",
+        "title": "Popular WordPress SEO Plugin Rank Math PRO Hijacked to Deliver Self-Restoring Backdoor",
+        "link": "https://thehackernews.com/2026/10/popular-wordpress-seo-plugin-rank-math.html",
         "source": "The Hacker News",
-        "published": "2026-10-16T06:55:55+00:00",
-        "summary": "The China-nexus cyber espionage group tracked as Armory Castle (previously UNC5221 or Warp Panda) exploited a newly disclosed security flaw in BeyondTrust Remote Support (formerly Bomgar) as a zero-day in late August 2026. The vulnerability, tracked as CVE-2026-102764 (CVSS score: 9.3), is a case of improper origin validation in an internal messaging component that could be exploited by a",
+        "published": "2026-10-19T16:28:47+00:00",
+        "summary": "Copies of Rank Math PRO, the paid version of the Rank Math SEO plugin for WordPress, that were downloaded from rankmath.com or delivered as updates between 20:02 UTC on October 15 and 07:12 UTC on October 16 contained malware, Rank Math said in a security notice published on October 16. Any site that installed and activated one of those copies should be treated as compromised, and the",
         "category": "high_alert"
       },
       {
-        "fingerprint": "54398b2801a2",
-        "title": "BeyondTrust patches zero-day exploited in attacks since August",
-        "link": "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/",
-        "source": "BleepingComputer",
-        "published": "2026-10-16T06:18:08+00:00",
-        "summary": "BeyondTrust warned customers on Thursday to patch a critical flaw in its Remote Support (RS) that has been exploited in zero-day attacks since late August. [...]",
+        "fingerprint": "b47e3094348d",
+        "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
+        "link": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
+        "source": "Krebs on Security",
+        "published": "2026-10-19T13:48:56+00:00",
+        "summary": "U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two different ransomware negotiation firms who maintained unusually close relations with the extortion group, KrebsOnSecurity has learned. Sources close to the investigation say one of the executives in the United States even helped ShinyHunters...",
         "category": "high_alert"
       },
       {
-        "fingerprint": "09a5b0eee6e0",
-        "title": "PEERSTITCH Malware Deployed via FortiOS Flaw Bypasses Checks on Tagged VPN Sessions",
-        "link": "https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html",
+        "fingerprint": "1248214f5dbc",
+        "title": "GhostAction Attackers Plant Credential Stealer Disguised as Font in 94 GitHub Repositories",
+        "link": "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html",
         "source": "The Hacker News",
-        "published": "2026-10-16T04:59:36+00:00",
-        "summary": "A suspected advanced threat actor has been observed exploiting a security flaw in Fortinet FortiOS to deliver a previously unreported memory-resident ARM64 malware known as PEERSTITCH. The attack involves the exploitation of CVE-2025-61624 (CVSS score: 5.4), a path traversal flaw in the command line interpreter of FortiOS, FortiPAM, FortiProxy, and FortiSwitchManager that could allow a",
+        "published": "2026-10-19T13:05:45+00:00",
+        "summary": "The threat actor behind the GhostAction supply chain attack has expanded beyond injecting malicious GitHub Actions workflows into compromised projects to phish open-source developers and deliver a stealer malware disguised within a fake font file. The latest evolution, detailed by OpenSourceMalware, signals that the attackers are actively refining their modus operandi in response to steps",
         "category": "high_alert"
       },
       {
-        "fingerprint": "9fb532c4cbdd",
-        "title": "Hackers exploit Collabora RCE flaw to backdoor Nextcloud servers",
-        "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/",
-        "source": "BleepingComputer",
-        "published": "2026-10-15T20:25:04+00:00",
-        "summary": "Threat actors are exploiting a critical command execution flaw, now tracked as CVE-2026-110447, in the Collabora Online - Built-in CODE Server app (richdocumentscode) for Nextcloud. [...]",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "5fe69719e3ce",
-        "title": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
-        "link": "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
+        "fingerprint": "bc33af635ce0",
+        "title": "Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic",
+        "link": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
         "source": "The Hacker News",
-        "published": "2026-10-15T20:24:36+00:00",
-        "summary": "A newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A researcher demonstrated the leak against Vercel's live cloud sandboxes, and Vercel confirmed it. The flaw, now tracked as CVE-2026-99999 and nicknamed PwnEscape, is in the Linux kernel's networking code, not in any one cloud's setup, so it reaches the shared",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "a2f4057d579b",
-        "title": "Fake Arch Linux packages push malware with root privileges",
-        "link": "https://www.bleepingcomputer.com/news/security/fake-arch-linux-packages-push-malware-with-root-privileges/",
-        "source": "BleepingComputer",
-        "published": "2026-10-15T17:12:31+00:00",
-        "summary": "A threat actor uploaded malicious packages to the Arch User Repository (AUR) that impersonated two popular helper tools, yay and paru. [...]",
+        "published": "2026-10-19T10:06:40+00:00",
+        "summary": "A fake Web3 accelerator has been observed pushing information stealers and backdoors to Windows and macOS systems using malicious npm packages under the pretext of offering free artificial intelligence (AI) credits for Anthropic Claude and Google Gemini, coding tools, and security audits. \"The tools delivered information-stealing malware and backdoors for macOS and Windows machines,\" Elastic",
         "category": "high_alert"
       }
     ],
     "bad_updates": [],
-    "upcoming_changes": [
+    "upcoming_changes": [],
+    "official_news": [
       {
-        "fingerprint": "879b3824a0b2",
-        "title": "OneDrive: PDF annotation for sensitivity-label protected PDFs in OneDrive/SharePoint web viewer",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=576276",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-15T22:47:30+00:00",
-        "summary": "We're enabling PDF annotation for sensitivity-label protected PDFs in OneDrive and SharePoint on the web. With this update, users who have the appropriate usage rights can annotate these protected PDFs in place in their browser while preserving the file's sensitivity label, encryption, and usage rights when changes are saved. GA date: January CY2027",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "6919671ecc10",
-        "title": "Microsoft Teams: Pinch to zoom in on shared screens",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=576193",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-15T22:47:30+00:00",
-        "summary": "Get a closer look at shared content in Teams calls and meetings with pinch-to-zoom using your touchpad . Quickly zoom in to make small text and detailed visuals easier to see, then zoom back out for the full view. Existing zoom controls remain available. GA date: November CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "504b464d0326",
-        "title": "Dynamics 365 Project Operations: Full-screen mode on task grid",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=575291",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-15T22:47:30+00:00",
-        "summary": "Task grid full-screen mode enables project managers and team members to expand the task grid to use the available screen space. By minimizing surrounding page elements, users gain a larger workspace for viewing and managing task hierarchies, schedules, assignments, dependencies, and other task details. Users can enter full-screen mode when they need a focused planning experience and return to t...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "e94569b3ccd2",
-        "title": "SharePoint: Copilot Search in SharePoint and OneDrive",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573696",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-15T22:47:30+00:00",
-        "summary": "Copilot Search brings AI-powered, natural-language search to SharePoint and OneDrive, combining relevant results, AI-generated summaries with source references, intuitive filters, and a seamless handoff to Copilot. GA date: January CY2027 Preview date: October CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "1d514e1c5bf1",
-        "title": "Microsoft Teams: Facilitator's enhanced protection skill can alert you to potential scams",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573450",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-15T22:47:30+00:00",
-        "summary": "Facilitator can help you spot suspected attempts by people outside your organization to trick you into sharing sensitive information during a meeting. When Facilitator is in your meeting, its Protection skill uses AI to check the meeting transcript for signs of possible social engineering. If it detects a suspected attempt, you'll see a warning in the meeting, with options to end or to temporar...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "4ff70d70edfc",
-        "title": "Power Apps: Prompt Columns - multiple lines of text output",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573279",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-15T22:47:30+00:00",
-        "summary": "Prompt columns can now store multilple lines of text as prompt output, enabling longer and detailed AI-generated insights to be stored in your tables. GA date: November CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "19b3ba670fb3",
-        "title": "Microsoft Dataverse: Prompt column values in bulk for existing records (backfill)",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570865",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-15T22:47:30+00:00",
-        "summary": "Prompt columns can now generate AI values for records that already exist in your table, not just new or updated ones. Makers can choose to apply a prompt to existing records in bulk, optionally filtered to just the rows they need, so historical data gets the same AI-generated insights as incoming data, without touching each record one at a time. GA date: November CY2026",
-        "category": "upcoming_changes"
+        "fingerprint": "4353aab1c7cf",
+        "title": "Agents are your newest insiders. Security must move at their speed.",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/",
+        "source": "Microsoft Security Blog",
+        "published": "2026-10-19T13:00:00+00:00",
+        "summary": "New capabilities in Microsoft 365 E7 and Project Perception help organizations contain agent risk and adapt protection continuously. The post Agents are your newest insiders. Security must move at their speed. appeared first on Microsoft Security Blog .",
+        "category": "official_news"
       }
     ],
-    "official_news": [],
     "community_buzz": [
       {
-        "fingerprint": "5e5b5fcec34e",
-        "title": "Microsoft: October Windows update may break Smart App Control",
-        "link": "https://www.bleepingcomputer.com/news/microsoft/kb5127648-windows-security-update-may-break-smart-app-control/",
+        "fingerprint": "991bb8222cec",
+        "title": "Microsoft fixes game, app crashes caused by recent Windows update",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-game-app-crashes-caused-by-windows-kb5124010-preview-update/",
         "source": "BleepingComputer",
-        "published": "2026-10-16T08:44:22+00:00",
-        "summary": "Microsoft says some users may have trouble turning on Smart App Control after installing this month's KB5127648 Windows 11 security update. [...]",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "479c4c7c6a51",
-        "title": "Microsoft admits Windows 11 KB5127648 KB5126646 break WPA 802.1X auth, shares fix",
-        "link": "https://www.neowin.net/news/microsoft-admits-windows-11-kb5127648-kb5126646-break-wpa-8021x-auth-shares-fix/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-10-15T20:14:01+00:00",
-        "summary": "Latest Windows 11 and Server updates disrupt WPA 802.1X authentication, Microsoft admits. The company has shared a temporary fix. Read more...",
+        "published": "2026-10-19T14:55:23+00:00",
+        "summary": "Microsoft has resolved a bug that caused games and apps using AC-3 (Dolby Digital) audio decoding to crash after installing the September 2026 Windows 11 preview update (KB5124010). [...]",
         "category": "community_buzz"
       }
     ]
