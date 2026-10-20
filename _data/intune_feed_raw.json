@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-19T17:18:51.449251+00:00",
-  "date": "2026-10-19",
+  "generated_utc": "2026-10-20T15:32:23.830963+00:00",
+  "date": "2026-10-20",
   "lookback_hours": 25,
   "source_status": [
     {
@@ -12,7 +12,7 @@
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 0
+      "count": 15
     },
     {
       "name": "Microsoft Intune What's New",
@@ -27,7 +27,7 @@
     {
       "name": "Microsoft Security Blog",
       "status": "OK",
-      "count": 1
+      "count": 0
     },
     {
       "name": "Microsoft Entra Blog",
@@ -37,7 +37,7 @@
     {
       "name": "BleepingComputer",
       "status": "OK",
-      "count": 1
+      "count": 4
     },
     {
       "name": "Neowin",
@@ -47,12 +47,12 @@
     {
       "name": "The Hacker News",
       "status": "OK",
-      "count": 3
+      "count": 6
     },
     {
       "name": "Krebs on Security",
       "status": "OK",
-      "count": 1
+      "count": 0
     },
     {
       "name": "The Old New Thing",
@@ -99,6 +99,60 @@
   "items": {
     "high_alert": [
       {
+        "fingerprint": "975c79ff1213",
+        "title": "OVHcloud CLI releases backdoored on GitHub to steal developer secrets",
+        "link": "https://www.bleepingcomputer.com/news/security/ovhcloud-cli-releases-backdoored-on-github-to-steal-developer-secrets/",
+        "source": "BleepingComputer",
+        "published": "2026-10-20T11:31:22+00:00",
+        "summary": "French cloud and hosting provider OVHcloud is warning users that attackers compromised its open-source command-line interface (CLI) tool to distribute information-stealing malware. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "2bac48e27498",
+        "title": "Hackers Hijack Five OVHcloud CLI Releases to Distribute Secret-Stealing Malware",
+        "link": "https://thehackernews.com/2026/10/hackers-hijack-five-ovhcloud-cli.html",
+        "source": "The Hacker News",
+        "published": "2026-10-20T08:21:29+00:00",
+        "summary": "An attacker used a contributor's GitHub account to replace the download archives on five existing releases of OVHcloud's command-line tool on Monday, October 19. The account had been hijacked, and the new files were a build designed to steal secrets stored on the disk of any machine that runs it, the cloud provider says. They were live on GitHub for up to 94 minutes, from 12:47 to 14:21 UTC,",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "b3192dc2e2f0",
+        "title": "ClickFix Attackers Exploit Siemens Software Center Flaw to Deploy Remote Access Trojan",
+        "link": "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html",
+        "source": "The Hacker News",
+        "published": "2026-10-20T07:11:45+00:00",
+        "summary": "Siemens has addressed a DLL sideloading vulnerability impacting Siemens Software Center that it said has been exploited in ClickFix attacks. The high-severity vulnerability, tracked as CVE-2026-110936 (CVSS v4 score: 8.4), could allow an attacker to place a specially-crafted DLL in a directory the application searches, resulting in execution of malicious code with the same privileges as the",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "f4fa75278217",
+        "title": "Hackers Use New ROMULUS ClickFix Platform to Deliver LegionLoader and Other Malware",
+        "link": "https://thehackernews.com/2026/10/romulus-clickfix-platform-tricks-users.html",
+        "source": "The Hacker News",
+        "published": "2026-10-20T04:05:58+00:00",
+        "summary": "Cybersecurity researchers have disclosed details of a ClickFix delivery platform called ROMULUS that's being used to distribute malware such as Legion Loader. According to Forescout Research - Vedere Labs, ROMULUS is akin to a malware delivery service that employs ClickFix-style lures on bogus landing pages to trick unsuspecting users into running malicious commands and infecting their own",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "c953271c29d1",
+        "title": "WordPress SEO plugin Rank Math compromised to backdoor websites",
+        "link": "https://www.bleepingcomputer.com/news/security/wordpress-seo-plugin-rank-math-compromised-to-backdoor-websites/",
+        "source": "BleepingComputer",
+        "published": "2026-10-19T21:24:51+00:00",
+        "summary": "Some downloads of the Rank Math PRO WordPress plugin from the vendor's official website carried malware that planted hidden backdoors in a supply-chain attack last week. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "5b776dab4b3f",
+        "title": "Hackers hijack AOMEI update servers to secretly spread malware",
+        "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-aomei-update-servers-to-secretly-spread-malware/",
+        "source": "BleepingComputer",
+        "published": "2026-10-19T19:40:58+00:00",
+        "summary": "Hackers reportedly compromised AOMEI's servers to distribute malware through a built-in promotional feature in its backup software, briefly tampering with configuration files before restoring them to their original state to hide the attacks.a [...]",
+        "category": "high_alert"
+      },
+      {
         "fingerprint": "32b9d6378230",
         "title": "Popular WordPress SEO Plugin Rank Math PRO Hijacked to Deliver Self-Restoring Backdoor",
         "link": "https://thehackernews.com/2026/10/popular-wordpress-seo-plugin-rank-math.html",
@@ -106,49 +160,166 @@
         "published": "2026-10-19T16:28:47+00:00",
         "summary": "Copies of Rank Math PRO, the paid version of the Rank Math SEO plugin for WordPress, that were downloaded from rankmath.com or delivered as updates between 20:02 UTC on October 15 and 07:12 UTC on October 16 contained malware, Rank Math said in a security notice published on October 16. Any site that installed and activated one of those copies should be treated as compromised, and the",
         "category": "high_alert"
-      },
-      {
-        "fingerprint": "b47e3094348d",
-        "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
-        "link": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
-        "source": "Krebs on Security",
-        "published": "2026-10-19T13:48:56+00:00",
-        "summary": "U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two different ransomware negotiation firms who maintained unusually close relations with the extortion group, KrebsOnSecurity has learned. Sources close to the investigation say one of the executives in the United States even helped ShinyHunters...",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "1248214f5dbc",
-        "title": "GhostAction Attackers Plant Credential Stealer Disguised as Font in 94 GitHub Repositories",
-        "link": "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html",
-        "source": "The Hacker News",
-        "published": "2026-10-19T13:05:45+00:00",
-        "summary": "The threat actor behind the GhostAction supply chain attack has expanded beyond injecting malicious GitHub Actions workflows into compromised projects to phish open-source developers and deliver a stealer malware disguised within a fake font file. The latest evolution, detailed by OpenSourceMalware, signals that the attackers are actively refining their modus operandi in response to steps",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "bc33af635ce0",
-        "title": "Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic",
-        "link": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
-        "source": "The Hacker News",
-        "published": "2026-10-19T10:06:40+00:00",
-        "summary": "A fake Web3 accelerator has been observed pushing information stealers and backdoors to Windows and macOS systems using malicious npm packages under the pretext of offering free artificial intelligence (AI) credits for Anthropic Claude and Google Gemini, coding tools, and security audits. \"The tools delivered information-stealing malware and backdoors for macOS and Windows machines,\" Elastic",
-        "category": "high_alert"
       }
     ],
     "bad_updates": [],
-    "upcoming_changes": [],
-    "official_news": [
+    "upcoming_changes": [
       {
-        "fingerprint": "4353aab1c7cf",
-        "title": "Agents are your newest insiders. Security must move at their speed.",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/",
-        "source": "Microsoft Security Blog",
-        "published": "2026-10-19T13:00:00+00:00",
-        "summary": "New capabilities in Microsoft 365 E7 and Project Perception help organizations contain agent risk and adapt protection continuously. The post Agents are your newest insiders. Security must move at their speed. appeared first on Microsoft Security Blog .",
-        "category": "official_news"
+        "fingerprint": "dc1f41f8c88b",
+        "title": "Microsoft Teams: AI Interpreter for Teams Events",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=576711",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-10-19T23:15:15+00:00",
+        "summary": "AI Interpreter for Events brings real-time, AI-powered audio interpretation to Teams Town Halls and Webinars, helping global audiences follow events in their preferred language. Organizers can configure supported languages for their event, giving attendees a more natural and engaging multilingual experience beyond translated captions. GA date: November CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "336fe426f92d",
+        "title": "Microsoft Viva: Enhanced Microsoft Copilot in Viva Engage",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=576709",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-10-19T23:15:15+00:00",
+        "summary": "Introducing the Enhanced Microsoft 365 Copilot Experience in Viva Engage! Powered by Engage MCP, this enhanced experience takes Copilot in Engage beyond catch-ups and summaries, helping users explore conversations more deeply, synthesize discussions, and uncover meaningful insights. It's also more deeply connected across Microsoft 365. For example, you can ask Copilot to analyze feedback on a l...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "0df556431a58",
+        "title": "Microsoft 365 app: Inventory - Update Repair",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=576286",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-10-19T23:15:15+00:00",
+        "summary": "Update Repair helps admins identify Windows devices with Microsoft 365 Apps that are out of date or experiencing update issues. In the Microsoft 365 Apps admin center, admins can review device status and recommended actions, remotely start Online Repair for eligible devices, and follow manual remediation guidance for devices that need attention. Repair reinstalls Microsoft 365 Apps using the la...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "b5a5c8d2dbe1",
+        "title": "Dynamics 365 Project Operations: Complete zero-effort tasks",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=576278",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-10-19T23:15:15+00:00",
+        "summary": "Zero-effort task completion enables project managers and team members to mark tasks as complete even when no effort was planned or recorded. This capability supports milestones, administrative activities, checklists, and other tasks that track completion without requiring work hours. This is for both Project Operations core and Project Operations connected with ERP deployment types. GA date: No...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "6ac499b2ed5e",
+        "title": "Copilot Studio: Computer Use for web browsing on GitHub Copilot Harness",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=576272",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-10-19T23:15:15+00:00",
+        "summary": "Enable Microsoft Copilot Studio agents to browse and interact with websites as a native capability powered by the GitHub Copilot Harness. Using natural-language instructions, agents can navigate web pages, extract information, and download files. Agents can then use that information and those files alongside other tools to complete end-to-end workflows, extending their reach beyond configured k...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "488d1138eb69",
+        "title": "Microsoft Teams: Expanded Markdown support in Microsoft Teams",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=576199",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-10-19T23:15:15+00:00",
+        "summary": "Microsoft Teams is expanding Markdown support in the compose box, giving you more ways to structure and format messages using familiar Markdown syntax. Create richer, more readable messages while staying in the Markdown authoring experience. GA date: November CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "72ea463b7704",
+        "title": "Dynamics 365 Business Central: Ecommerce - [US] Match Shopify tax lines to tax jurisdictions",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=574128",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-10-19T23:15:15+00:00",
+        "summary": "Business Value Reduce repetitive tax setup when you import Shopify orders that contain multiple United States tax jurisdictions. Shopify Tax Matching suggests how free-text tax lines map to configured tax jurisdictions and keeps you in control of exceptions before you create sales documents. Details The Shopify Tax Matching capability is available in public preview for organizations in the Unit...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "ff441191e8cc",
+        "title": "Microsoft Dataverse: Add users without licenses to activity recipient fields",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=574121",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-10-19T23:15:15+00:00",
+        "summary": "Enable active Microsoft Entra users without Dataverse or Power Apps licenses as activity recipients. Created user records remain disabled and do not grant Dynamics 365 app access. Documentation: https://learn.microsoft.com/en-us/power-platform/admin/add-unlicensed-users-activities More info: https://learn.microsoft.com/en-us/power-platform/admin/add-unlicensed-users-activities GA date: January ...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "8dbff7242547",
+        "title": "PowerPoint: Set slide size in a modern task pane",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573150",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-10-19T23:15:15+00:00",
+        "summary": "Change slide size in PowerPoint from a modern task pane that keeps you in the flow of editing with real-time slide changes. Choose common slide sizes including new social media presets, or customize dimensions with a cleaner, more approachable experience. GA date: November CY2026 Preview date: October CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "00f5ff2bd372",
+        "title": "PowerPoint: Set slide size in a modern PowerPoint pane",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573149",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-10-19T23:15:15+00:00",
+        "summary": "Change slide size in PowerPoint from a modern task pane that keeps you in the flow of editing with real-time slide changes. Choose common slide sizes including new social media presets, or customize dimensions with a cleaner, more approachable experience. GA date: November CY2026 Preview date: October CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "5f1c2526ddaa",
+        "title": "Microsoft Copilot Studio: Support for sensitive documents protected with Microsoft Purview Information Protection (MPIP)",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571305",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-10-19T23:15:15+00:00",
+        "summary": "Unblock users from upload files with Microsoft Purview Information Protection (MPIP) sensitivity labels to Copilot Studio agents deployed on the M365 channel. With this support agents can process content based on the user's/agents account permissions, with label protections enforced end-to-end. GA date: October CY2026 Preview date: October CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "2a0940caef33",
+        "title": "Work IQ: Human in the loop",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570672",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-10-19T23:15:15+00:00",
+        "summary": "Allow agents and agent flows to pause for human input or approval before continuing. GA date: January CY2027 Preview date: November CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "305325f12711",
+        "title": "Work IQ: Agent Policy Governance",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570652",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-10-19T23:15:15+00:00",
+        "summary": "Provide administrators with policy-based controls for governing agents and their capabilities at scale. GA date: January CY2027 Preview date: November CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "56493d3b7b9a",
+        "title": "Work IQ: Real Time Transcripts",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570651",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-10-19T23:15:15+00:00",
+        "summary": "Enable applications and agents to access Microsoft Teams meeting transcripts in real time for assistance and insights. GA date: November CY2026 Preview date: September CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "8ae9afe4126e",
+        "title": "Microsoft Teams: Audio announcement for recording and transcription",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=559609",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-10-19T23:15:15+00:00",
+        "summary": "Admins can enable a policy that plays an audio announcement when recording or transcription starts. This can be applied tenant-wide or to specific groups. The announcement helps ensure all participants are informed and improves accessibility awareness. GA date: December CY2026",
+        "category": "upcoming_changes"
       }
     ],
+    "official_news": [],
     "community_buzz": [
+      {
+        "fingerprint": "714bb5be23a1",
+        "title": "Pegasus Spyware Infection Confirmed on Serbian University Rector's iPhone Days Before Election",
+        "link": "https://thehackernews.com/2026/10/pegasus-spyware-infection-confirmed-on.html",
+        "source": "The Hacker News",
+        "published": "2026-10-20T12:59:44+00:00",
+        "summary": "The iPhone of Vladan Đokić, rector of the University of Belgrade and a prominent supporter of Serbia's student protest movement, was infected with NSO Group's Pegasus spyware in 2026, the Citizen Lab said on October 19. The finding came six days before Serbia's October 25 snap parliamentary election. The infection used a zero-click exploit, meaning Đokić did not have to tap a link or",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "7dfc0db29da0",
+        "title": "Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and Linux Proxy Backdoor",
+        "link": "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html",
+        "source": "The Hacker News",
+        "published": "2026-10-19T17:32:13+00:00",
+        "summary": "Threat actors have begun to exploit a chain of vulnerabilities in Plex Media Server to deploy cryptocurrency miners and reverse proxy software, a day after a proof-of-concept (PoC) went public. According to a researcher who goes by the online alias boredhackerblog, the exploitation activity involves chaining four different vulnerabilities, collectively called Plex2Shell. The vulnerabilities",
+        "category": "community_buzz"
+      },
       {
         "fingerprint": "991bb8222cec",
         "title": "Microsoft fixes game, app crashes caused by recent Windows update",
