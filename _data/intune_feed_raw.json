@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-21T15:48:40.121232+00:00",
-  "date": "2026-10-21",
+  "generated_utc": "2026-10-22T15:46:24.083339+00:00",
+  "date": "2026-10-22",
   "lookback_hours": 25,
   "source_status": [
     {
@@ -12,7 +12,7 @@
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 9
+      "count": 15
     },
     {
       "name": "Microsoft Intune What's New",
@@ -27,7 +27,7 @@
     {
       "name": "Microsoft Security Blog",
       "status": "OK",
-      "count": 0
+      "count": 1
     },
     {
       "name": "Microsoft Entra Blog",
@@ -42,12 +42,12 @@
     {
       "name": "Neowin",
       "status": "OK",
-      "count": 1
+      "count": 4
     },
     {
       "name": "The Hacker News",
       "status": "OK",
-      "count": 7
+      "count": 2
     },
     {
       "name": "Krebs on Security",
@@ -99,198 +99,244 @@
   "items": {
     "high_alert": [
       {
-        "fingerprint": "ff51633d3ec2",
-        "title": "PHP ships emergency patches for critical PHP2Shell flaws",
-        "link": "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/",
-        "source": "BleepingComputer",
-        "published": "2026-10-21T14:07:05+00:00",
-        "summary": "The PHP security team released emergency security patches for two critical remote code execution (RCE) vulnerabilities (CVE-2026-109618 and CVE-2026-109619) tracked collectively as PHP2Shell. [...]",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "2cbc5e2ed5ae",
-        "title": "ClickFix has never been bigger, and AI tools are its most convincing lure yet",
-        "link": "https://www.bleepingcomputer.com/news/security/clickfix-has-never-been-bigger-and-ai-tools-are-its-most-convincing-lure-yet/",
-        "source": "BleepingComputer",
-        "published": "2026-10-21T14:00:10+00:00",
-        "summary": "ClickFix attacks are surging as cybercriminals use fake AI installers, malicious search results, and trusted chatbot platforms to trick users into executing malware. Push Security examines how these attacks evade traditional defenses and why AI tools have become increasingly effective lures. [...]",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "b56da2d5cd34",
-        "title": "PHP Issues Emergency Patches for Two Critical PHP2Shell RCE Flaws as Exploit Attempts Emerge",
-        "link": "https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html",
-        "source": "The Hacker News",
-        "published": "2026-10-21T14:00:00+00:00",
-        "summary": "PHP has released emergency updates that fix two critical flaws in the language itself, letting an attacker without an account run code on a web server. The fixes are in PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35, and the PHP team says only updating fully protects a server. The flaws, together called PHP2Shell, sit in the PHP runtime, not in any application, so a site is exposed even when its own",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "d44c25c87d2d",
-        "title": "PHP has critical vulnerabilities impacting millions of websites, emergency patch imminent",
-        "link": "https://www.neowin.net/news/php-has-critical-vulnerabilities-impacting-millions-of-websites-emergency-patch-imminent/?utm_source=rss",
+        "fingerprint": "52510128e616",
+        "title": "PHP rushed emergency patch after critical RCE flaws leaked online",
+        "link": "https://www.neowin.net/news/php-rushed-emergency-patch-after-critical-rce-flaws-leaked-online/?utm_source=rss",
         "source": "Neowin",
-        "published": "2026-10-21T11:50:01+00:00",
-        "summary": "Website owners are bracing for an urgent security update after a serious warning, with the PHP team preparing an emergency response, as the vulnerabilities impact around 70% of the web. Read more...",
+        "published": "2026-10-22T09:34:02+00:00",
+        "summary": "The PHP project moved its security release forward after an accidental proof-of-concept leak exposed critical vulnerabilities that went unfixed for years due to organizational failures. Read more...",
         "category": "high_alert"
       },
       {
-        "fingerprint": "3225597d7218",
-        "title": "PHP2Shell: What Actually Protects You Before the 14:00 UTC PHP RCE Patch, and What Doesn't",
-        "link": "https://thehackernews.com/2026/10/php2shell-what-actually-protects-you.html",
-        "source": "The Hacker News",
-        "published": "2026-10-21T10:36:53+00:00",
-        "summary": "You cannot fully block the two critical PHP flaws called PHP2Shell before today's fix, and the one setting being passed around as a workaround is not enough on its own, the security firm that suggested it now says. PHP will release the fix at 14:00 UTC on October 21 for two flaws it rates 9.2 out of 10, and has given no workaround of its own. Until you can install it, what lowers your",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "c63f57454297",
-        "title": "CISA: SafePay ransomware hit over 600 critical infrastructure orgs",
-        "link": "https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/",
+        "fingerprint": "1bd65458c5e6",
+        "title": "Authorities disrupt nearly 11,000 cybercrime networks in Africa",
+        "link": "https://www.bleepingcomputer.com/news/security/authorities-disrupt-nearly-11-000-cybercrime-networks-in-africa/",
         "source": "BleepingComputer",
-        "published": "2026-10-21T08:36:24+00:00",
-        "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) says the SafePay ransomware gang has breached over 600 critical infrastructure organizations worldwide since 2024. [...]",
+        "published": "2026-10-22T08:27:11+00:00",
+        "summary": "Law enforcement agencies have disrupted nearly 11,000 cybercriminal networks and arrested more than 1,400 people in Operation Serengeti III, which targeted business email compromise, ransomware, and online scams. [...]",
         "category": "high_alert"
       },
       {
-        "fingerprint": "617de5e57207",
-        "title": "CISA Orders Federal Agencies to Patch Exploited Plex2Shell, Siemens, and SiteGuard Flaws",
-        "link": "https://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html",
-        "source": "The Hacker News",
-        "published": "2026-10-21T07:26:49+00:00",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, including four vulnerabilities impacting Plex Media Server that's collectively called Plex2Shell. The vulnerabilities are listed below - CVE-2026-96652 (CVSS score: 5.3) - Plex Media Server Server-Side Request Forgery (SSRF)",
+        "fingerprint": "162ac4421712",
+        "title": "Millions of PHP exploit attempts surge within hours of critical RCE vulnerability disclosure",
+        "link": "https://www.neowin.net/news/millions-of-php-exploit-attempts-surge-within-hours-of-critical-rce-vulnerability-disclosure/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-10-22T06:14:51+00:00",
+        "summary": "Following patches for critical PHP remote code execution vulnerabilities, Cloudflare recorded millions of exploit attempts within hours. Update immediately or take affected sites offline. Read more...",
         "category": "high_alert"
       },
       {
-        "fingerprint": "c9499819e4c2",
-        "title": "Zeabur shutting down after second security breach in two months",
-        "link": "https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/",
+        "fingerprint": "e8295c6b9f4a",
+        "title": "Japan's Onamae Desktop Cloud hacked, up to 27,000 servers affected",
+        "link": "https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected/",
         "source": "BleepingComputer",
-        "published": "2026-10-20T19:33:02+00:00",
-        "summary": "Development platform Zeabur has disclosed details of a cybersecurity incident in which an attacker used leaked internal credentials stored in plaintext to compromise its infrastructure and steal over 3.2 million environment variable records and information for 321,810 accounts. [...]",
+        "published": "2026-10-21T21:43:27+00:00",
+        "summary": "Hackers compromised the infrastructure of Onamae Desktop Cloud, a popular provider of VPS services in Japan, and installed malware on up to 26,739 customers' servers. [...]",
         "category": "high_alert"
       },
       {
-        "fingerprint": "b29eba2f82a9",
-        "title": "Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution",
-        "link": "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
-        "source": "The Hacker News",
-        "published": "2026-10-20T15:38:52+00:00",
-        "summary": "Cybersecurity researchers have released a proof-of-concept (PoC) exploit for a recently patched critical security flaw impacting Fortinet FortiSIEM that could result in arbitrary code execution. The vulnerability, tracked as CVE-2026-106173 (CVSS score: 9.4), is a critical path traversal flaw that could allow an unauthenticated attacker to execute unauthorized code or commands via specially",
+        "fingerprint": "975a18b132ac",
+        "title": "Lazarus hackers use post-quantum cryptography for malware delivery",
+        "link": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/",
+        "source": "BleepingComputer",
+        "published": "2026-10-21T20:31:48+00:00",
+        "summary": "North Korean hackers are using a post-quantum cryptographic mechanism to secure malicious payload delivery in new operations that combine old and new malware. [...]",
         "category": "high_alert"
       },
       {
-        "fingerprint": "a48f9690922f",
-        "title": "Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA",
-        "link": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
+        "fingerprint": "609d5cf2e35c",
+        "title": "Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE Across 12 Years of Releases",
+        "link": "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html",
         "source": "The Hacker News",
-        "published": "2026-10-20T15:32:27+00:00",
-        "summary": "Palo Alto Networks has disclosed that it's continuing to observe exploitation of a now-patched security flaw impacting PAN-OS and Prisma Access by ransomware actors. The activity relates to CVE-2026-0257 (CVSS score: 7.8), an authentication bypass flaw that could be exploited by bad actors to set up unauthorized VPN connections. It was patched by Palo Alto Networks in May 2026 and was",
+        "published": "2026-10-21T18:57:34+00:00",
+        "summary": "GitLab released fixes on October 21 for a flaw that lets an attacker run code on a self-managed server without logging in, and it affects every version of the software going back to 7.0, released in 2014. The fix matters even for administrators who patched nine days earlier: the October 12 update covered only versions 19.2 and later, and the new fixed versions sit one patch above it, so an",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "30d113dece09",
+        "title": "Google Cloud issues urgent PHP patch guidance following critical vulnerabilities",
+        "link": "https://www.neowin.net/news/google-cloud-issues-urgent-php-patch-guidance-following-critical-vulnerabilities/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-10-21T17:16:02+00:00",
+        "summary": "Google Cloud has issued urgent patch guidance for critical RCE vulnerabilities in PHP. If you run PHP on GCP, upgrade to version 8.2 or newer and redeploy your apps immediately to stay protected. Read more...",
         "category": "high_alert"
       }
     ],
     "bad_updates": [],
     "upcoming_changes": [
       {
-        "fingerprint": "10a7f6aae4c1",
-        "title": "Microsoft Purview: Endpoint Data Loss Prevention-View-only access to device onboarding with the View-Only Device Management role",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577187",
+        "fingerprint": "aed8168669b2",
+        "title": "Microsoft Viva: Glint - Teams notification customization",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577175",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-20T23:00:34+00:00",
-        "summary": "Microsoft Purview Data Loss Prevention is introducing more granular, role-based access to the Devices page under Settings → Device Onboarding. Previously, viewing or managing device onboarding required broad administrative roles (such as Compliance Administrator, Global Administrator, or Security Administrator). With this update, organizations can grant access using least-privilege Purview role...",
+        "published": "2026-10-21T23:02:10+00:00",
+        "summary": "Viva Glint admins can now customize the Microsoft Teams notifications sent for surveys. Admins can edit the title, message, and button label in each survey language and see their changes in a live preview. Teams and email messages stay consistent and match your organization's voice, which helps more employees see the survey and take part. GA date: January CY2027",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "abac9b0c0853",
-        "title": "Microsoft Edge: Organize and merge PDF files in the built-in PDF reader",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577186",
+        "fingerprint": "57e1d33c9d29",
+        "title": "Dynamics 365 Project Operations: Restrict task assignments to project team members",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=576296",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-20T23:00:34+00:00",
-        "summary": "Users can organize and merge PDF files in the Microsoft Edge built-in PDF reader. They can select pages to extract, delete, rotate, or reorder, and save the result as a new PDF file. They can also merge the open PDF file with other PDF files that are open in Microsoft Edge tabs or stored on their device, to create a single PDF file. Files are processed on the device, and the original files aren...",
+        "published": "2026-10-21T23:02:10+00:00",
+        "summary": "This feature strengthens assignment governance by limiting the resources displayed in the Assigned to column to members of the current project team. Project managers can assign tasks only to resources who have already been added to the project, instead of selecting from the organization’s complete resource list. If a resource isn’t part of the project team, the resource must first be added to t...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "6ba0121c11bf",
-        "title": "Microsoft Dataverse: Enable semantic data understanding for agentic use",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577185",
+        "fingerprint": "24b52c393aa9",
+        "title": "Power Apps: Use Dataverse custom APIs in generative pages",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=576284",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-20T23:00:34+00:00",
-        "summary": "Give AI agents and Copilot a true understanding of your business data — not just raw schema — so they can answer questions accurately with less manual configuration. Learns from the systems you already run — Automatically extracts semantic knowledge from views, forms, and metadata already defined in your Dataverse environment, reducing agent deployment from days of manual setup to near-zero eff...",
+        "published": "2026-10-21T23:02:10+00:00",
+        "summary": "Makers can have a generative page call a Dataverse custom API to run server-side business logic, such as approving an order, recalculating a price, or validating a transaction. From either the Maker Studio generative page designer or the generative pages AI plugin, makers select a prepared API and describe when the page should call it, which input values to provide, and how to use the response....",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "195f326f13f9",
-        "title": "Dynamics 365 Customer Service: Manage intraday operations with AI agent",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577184",
+        "fingerprint": "9df2f957d69a",
+        "title": "Power Apps: Monitor generative pages with out-of-the-box Application Insights telemetry",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=576282",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-20T23:00:34+00:00",
-        "summary": "Intraday Agent is an autonomous AI agent that helps manage intraday operational scenarios. The following are its high‑level capabilities. Intraday queue tracking Continuously monitors queue volumes in real time. Detects anomalies when actual volume deviates significantly from forecasted demand. Automatically reforecasts in real time to assess current demand. Notifies supervisors with proactive ...",
+        "published": "2026-10-21T23:02:10+00:00",
+        "summary": "Admins and developers can monitor published generative pages with Application Insights. When an administrator configures Application Insights data export for an environment, Power Apps automatically exports completed page loads, unhandled errors, supported Data API operations, and navigation initiated from generative pages without requiring telemetry code, the Application Insights JavaScript SD...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "39da7892a544",
-        "title": "Microsoft Power Platform governance and administration: Multi-grader comparison",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577183",
+        "fingerprint": "7c0bcbfb5e08",
+        "title": "Power Apps: Form fill assistance supports more field types",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=575296",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-20T23:00:34+00:00",
-        "summary": "Multi-grader comparison enables makers to compare the results of multiple graders applied to the same evaluation. The experience highlights agreement, differences, and overall grading behavior. Core capabilities The core capabilities include: Compare graders side-by-side. Compare scores. Review explanations from each grader. Analyze grading consistency. Results experience Results include: Compa...",
+        "published": "2026-10-21T23:02:10+00:00",
+        "summary": "We’re expanding form fill assistance in model-driven applications in Power Apps to support lookup, rich text, and multi-select choice fields, helping users complete more of their forms with AI-powered suggestions and less manual entry. Availability Field Value Release Channel Monthly GA date: November CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "5c370b282f76",
-        "title": "Dynamics 365 Project Operations: Simplify the creation of recurring expenses",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577182",
+        "fingerprint": "d4aa385f4cf2",
+        "title": "Power Apps: Form fill assistance in apps can provide suggestions for existing values",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=575295",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-20T23:00:34+00:00",
-        "summary": "This feature enables employees to automatically generate expense entries for predictable, repeatable business expenses (for example, monthly mobile bills, internet charges, parking, and subscriptions) without manual re-entry each period. It reduces repetitive effort, improves compliance, and ensures timely and accurate expense submission, while respecting organizational expense policies and app...",
+        "published": "2026-10-21T23:02:10+00:00",
+        "summary": "We’re expanding form fill assistance in model-driven applications in Power Apps to suggest updates to fields that already contain values—not just empty fields. This helps users update existing information with ease using AI-powered skills in their apps. GA date: December CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "e4e800dfc1f3",
-        "title": "Microsoft Teams: Default meeting templates",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=576609",
+        "fingerprint": "e5983d4f6bc2",
+        "title": "Dynamics 365 Project Operations: Support Approver Comments for Expense Reports in Expense Management Mobile app",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573708",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-20T23:00:34+00:00",
-        "summary": "Default meeting templates enable IT admins to automatically apply their organization’s preferred meeting settings whenever users schedule a Teams meeting through Outlook or Teams calendar. This helps organizations apply meeting settings (including protection settings) at scale, and reduce the need for organizers to manually configure meeting options. Only organizers with a Teams Premium (T-Pre)...",
+        "published": "2026-10-21T23:02:10+00:00",
+        "summary": "Approvers using the Expense Management Mobile App currently have limited options to provide context when approving or rejecting expense reports. Approval decisions may require comments to provide justification, request clarification, document additional information, or communicate feedback to employees. Without this capability in the mobile experience, approvers may need to switch to the web ap...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "a9ddbd98505c",
-        "title": "Outlook: Teams Meeting Options",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=575293",
+        "fingerprint": "448f8ebef9f1",
+        "title": "Microsoft Copilot (Microsoft 365): Sales Development Agent is now available",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573700",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-20T23:00:34+00:00",
-        "summary": "When you add a Teams meeting to an event in Outlook for Mac, the join link and dial-in details now appear in the invite while you're still writing it. A new Meeting Options button lets you change the Teams meeting settings right away, before you send. GA date: November CY2026",
+        "published": "2026-10-21T23:02:10+00:00",
+        "summary": "Autonomous agent that researches, qualifies, engages with leads, scaling sales capacity 24/7. More info: aka.ms/SDA-Public-Docs GA date: January CY2027 Preview date: October CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "643c9398fdfa",
-        "title": "Dynamics 365 Business Central: Data mirroring to Microsoft Fabric",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=574126",
+        "fingerprint": "a1ec049f720c",
+        "title": "Microsoft Edge: Simplified Energy Saver",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573291",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-20T23:00:34+00:00",
-        "summary": "Connect Business Central to Microsoft Fabric to make business data available for analytics, reporting, and data integration. Choose the Business Central companies and tables to synchronise, and make the data available in OneLake for use with Fabric IQ, Power BI, Data Factory, and other analytics experiences. Get started quickly with ready-made sample Power BI apps, while built-in logging provid...",
+        "published": "2026-10-21T23:02:10+00:00",
+        "summary": "Energy saver, formerly known as efficiency mode, will have new defaults and different setting options. Edge will now support and recommend users to use the BatterySaverModeAvailability policy to manage the energy saver feature. The energy saver feature has been simplified to become enabled under two conditions: on low battery or when unplugged. The default will be for energy saver to be enabled...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "baa6eb431560",
+        "title": "Dynamics 365 Business Central: Finance - Use batch totals for payment journals",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573264",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-10-21T23:02:10+00:00",
+        "summary": "The Batch Total field on the Payment Journal page enhances payment processing by enabling you to work with and review a cumulative total for a payment journal batch. By surfacing batch-level totals directly in payment journals, organizations gain better control over outgoing payments and can streamline review and approval processes. GA date: November CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "19687e1bcccc",
+        "title": "Dynamics 365 Business Central: Finance - Use approvals with fixed asset journals",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573263",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-10-21T23:02:10+00:00",
+        "summary": "Organizations can use approval workflows with Fixed Asset Journals , which gives them the same level of control and oversight for fixed assets that's available for other journals in Business Central. GA date: November CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "d75d600c61eb",
+        "title": "Dynamics 365 Business Central: Expense Agent - Use Expense Manager role center",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573261",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-10-21T23:02:10+00:00",
+        "summary": "The Expense Manager Role Center is updated to provide a more focused and efficient experience for managing vendor and expense-related activities. The enhancements align the workspace with typical expense management workflows, ensuring that key information and actions are readily accessible. Where relevant, other Role Centers are also updated to include access to expense management features. GA ...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "e0cae99ae576",
+        "title": "Dynamics 365 Business Central: Expense Agent - Add an interim approver when you submit an expense report",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573260",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-10-21T23:02:10+00:00",
+        "summary": "This feature introduces support for a simple interim approval scenario for expense reports. When someone submits an expense report, organizations can designate an interim approver to review and approve expenses before the final approver can review and approve. Interim approver must review expense reports to confirm whether they're complete and compliant before final approver. GA date: November ...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "d90fc9d48ec7",
+        "title": "Dynamics 365 Business Central: Expense Agent - Create expense reports per trip automatically",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573257",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-10-21T23:02:10+00:00",
+        "summary": "Expense Agent can automatically create expense reports based on identified business trips. You just need to configure the feature on the Expense Agent Setup page. Instead of manually collecting and organizing individual expense entries, you can use the agent to group relevant expenses and generate a dedicated expense report for each trip. Key capabilities include: Administrators can specify whe...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "920ab3a80139",
+        "title": "Dynamics 365 Field Service: Keep Project Staffing and Field Service Scheduling Aligned",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=570864",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-10-21T23:02:10+00:00",
+        "summary": "Deliver consistent scheduling outcomes across Dynamics 365 Project Operations and Field Service, regardless of where scheduling begins. When a project task includes resource assignments and planned effort, that demand is represented on the related work order with the same role, resource, duration, and scheduling window. Users can therefore schedule the same demand from either application and re...",
         "category": "upcoming_changes"
       }
     ],
-    "official_news": [],
-    "community_buzz": [
+    "official_news": [
       {
-        "fingerprint": "d25e7b9f088e",
-        "title": "China-Aligned Bronze Sandcastle Abuses Sandboxie DLL Sideloading to Deploy Backdoors",
-        "link": "https://thehackernews.com/2026/10/china-aligned-bronze-sandcastle-abuses.html",
-        "source": "The Hacker News",
-        "published": "2026-10-21T12:05:00+00:00",
-        "summary": "Cybersecurity researchers have disclosed details of a previously undocumented China-aligned threat cluster known as Bronze Sandcastle that has been observed targeting organizations in Asia and Africa since mid-2025. \"The most distinctive technical marker for Bronze Sandcastle is its consistent use of Sandboxie DLL sideloading,\" Sophos security researcher Gabor Szappanos said in a post published",
-        "category": "community_buzz"
+        "fingerprint": "909504331a46",
+        "title": "Microsoft Entra ID ending native SMS authentication, pushing users to passkeys",
+        "link": "https://www.neowin.net/news/microsoft-entra-id-ending-native-sms-authentication-pushing-users-to-passkeys/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-10-22T05:14:01+00:00",
+        "summary": "Microsoft Entra ID is retiring native SMS and voice MFA due to phishing risks. Organizations must adopt passkeys or bring in third-party telecom providers to avoid user lockouts. Read more...",
+        "category": "official_news"
       },
       {
-        "fingerprint": "8569738ced17",
-        "title": "Hackers Hid Vasilek Backdoor in VMware Tools During 2-Year Russian Healthcare Intrusion",
-        "link": "https://thehackernews.com/2026/10/hackers-hid-vasilek-backdoor-in-vmware.html",
+        "fingerprint": "17920ddcc5d8",
+        "title": "CISA: Hackers chain Plex flaws in Plex2Shell attacks to breach servers",
+        "link": "https://www.bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers/",
+        "source": "BleepingComputer",
+        "published": "2026-10-21T18:34:42+00:00",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that attackers are actively exploiting four vulnerabilities in Plex Media Server. [...]",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "91bed7f20dec",
+        "title": "AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
+        "source": "Microsoft Security Blog",
+        "published": "2026-10-21T18:23:55+00:00",
+        "summary": "Storm-0940 used ARTEX agentic AI to accelerate a ConnectWise supply chain compromise, enabling application credential abuse across Microsoft 365 environments. The post AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise appeared first on Microsoft Security Blog .",
+        "category": "official_news"
+      }
+    ],
+    "community_buzz": [
+      {
+        "fingerprint": "3ffb4c298b22",
+        "title": "Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were Publicly Disclosed",
+        "link": "https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html",
         "source": "The Hacker News",
-        "published": "2026-10-21T06:05:15+00:00",
-        "summary": "A Belarus-aligned hacktivist group spent nearly two years within the network of a Russian healthcare organization. According to a report published by Russian cybersecurity firm Solar, the activity has been attributed to a threat cluster dubbed Partisan Zmiy, which is also known as the Cyber Partisans. Known to be active since at least 2020, the group has a track record of striking industrial",
+        "published": "2026-10-22T06:34:10+00:00",
+        "summary": "Amazon's Threat Intelligence team on Wednesday said it detected an attempt to exploit the newly disclosed PHP2Shell vulnerabilities on October 17, 2026, against its MadPot honeypot service, as the flaws come under broad exploitation in the wild following the release of the patches. \"The exploit attempt originated from an IP address associated with a commercial anonymization network,\" CJ Moses,",
         "category": "community_buzz"
       }
     ]
