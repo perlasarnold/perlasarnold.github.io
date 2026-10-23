@@ -1,45 +1,54 @@
-# Security Digest - October 22, 2026
+# Security Digest - October 23, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
 
-- **Generated (UTC):** 2026-10-22 18:13:00 +00:00
+- **Generated (UTC):** 2026-10-23 18:02:13 +00:00
 - **Lookback window:** 7 days
 
 ## 🚀 Top Research & Advisories
 - *No high-priority security research detected in this window.*
 ## 💻 AppSec
-- **[CVE-2026-108175](https://www.cve.org/CVERecord?id=CVE-2026-108175)** - *(CVE.org)*
-  Review .NET runtime vulnerabilities and apply patches.
+- **[(Learning) Help reproducing Privilege Escalation](https://www.reddit.com/r/cybersecurity/comments/1xdar15/learning_help_reproducing_privilege_escalation/)** - *(Reddit r/cybersecurity)*
+  Monitor developer tool vulnerabilities and supply chain risks.
 
-## 🛡 Security Ops
-- **[How worried should I be about the cybersecurity stuff from yesterday?](https://www.reddit.com/r/cybersecurity/comments/1xcmojm/how_worried_should_i_be_about_the_cybersecurity/)** - *(Reddit r/cybersecurity)*
-  Review sensor guidance and deployment posture.
-
-- **[Microsoft Entra ID ending native SMS authentication, pushing users to passkeys](https://www.neowin.net/news/microsoft-entra-id-ending-native-sms-authentication-pushing-users-to-passkeys/?utm_source=rss)** - *(Neowin)*
-  Review CA/MFA settings for tightening opportunities.
+## 🏗 Infrastructure
+- **[Microsoft: Windows Server 2016 reaches end of support in January](https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-january/)** - *(BleepingComputer)*
+  Review server hardening and AD security posture.
 
 ## 🛠 Infrastructure & Endpoint Control
-- **[AMD releases new Windows 11/10 chipset driver for Ryzen 9000, 7000, 5000, 3000, and more](https://www.neowin.net/news/amd-releases-new-windows-1110-chipset-driver-for-ryzen-9000-7000-5000-3000-and-more-2/?utm_source=rss)** - *(Neowin)*
-  Validate workstation security baseline and update compliance.
-
-- **[Get Windows 11 Pro or Home for less than ten bucks](https://www.neowin.net/deals/get-windows-11-pro-or-home-for-less-than-ten-bucks/?utm_source=rss)** - *(Neowin)*
-  Validate workstation security baseline and update compliance.
+- **[eMudhra (a business run by 1 family), passed two audits by BDO after an integrity incident. Is the internet chain of trust broken?](https://www.reddit.com/r/cybersecurity/comments/1xdcl4v/emudhra_a_business_run_by_1_family_passed_two/)** - *(Reddit r/cybersecurity)*
+  Review Office update channel health and security baseline compliance.
 
 - **[Google Chrome adds Gemini-powered scam detection, warns users of ClickFix attacks](https://www.bleepingcomputer.com/news/google/google-chrome-adds-gemini-powered-scam-detection-warns-users-of-clickfix-attacks/)** - *(BleepingComputer)*
   Validate Chrome coverage; update managed package if needed.
 
-- **[Microsoft finally fixed one of Windows 11's most annoying photo problems](https://www.neowin.net/news/microsoft-finally-fixed-one-of-windows-11s-most-annoying-photo-problems/?utm_source=rss)** - *(Neowin)*
+- **[Google Chrome, YouTube, Amazon Prime Video, Netflix getting AV2 video support soon](https://www.neowin.net/news/google-chrome-youtube-amazon-prime-video-netflix-getting-av2-video-support-soon/?utm_source=rss)** - *(Neowin)*
+  Validate Chrome coverage; update managed package if needed.
+
+- **[How to make your mouse cursor disappear when it's idle in Windows 11](https://www.neowin.net/guides/how-to-make-your-mouse-cursor-disappear-when-its-idle-in-windows-11/?utm_source=rss)** - *(Neowin)*
+  Validate workstation security baseline and update compliance.
+
+- **[Microsoft confirms missing Recall and faster Settings with new Windows 11 Insider builds](https://www.neowin.net/news/microsoft-confirms-missing-recall-and-faster-settings-with-new-windows-11-insider-builds/?utm_source=rss)** - *(Neowin)*
+  Validate workstation security baseline and update compliance.
+
+- **[Microsoft is retiring an Outlook feature that allows Copilot to assign a priority to emails](https://www.neowin.net/news/microsoft-is-retiring-an-outlook-feature-that-allows-copilot-to-assign-a-priority-to-emails/?utm_source=rss)** - *(Neowin)*
+  Review Office update channel health and security baseline compliance.
+
+- **[Windows 11 Future Platforms build 29695.1001 improves Magnifier and fixes multiple issues](https://www.neowin.net/news/windows-11-future-platforms-build-296951001-improves-magnifier-and-fixes-multiple-issues/?utm_source=rss)** - *(Neowin)*
+  Validate workstation security baseline and update compliance.
+
+- **[Windows 11 Insider builds bring Quick Settings phone controls and new Start menu options](https://www.neowin.net/news/windows-11-insider-builds-bring-quick-settings-phone-controls-and-new-start-menu-options/?utm_source=rss)** - *(Neowin)*
   Validate workstation security baseline and update compliance.
 
 ## 🔍 Quick Links (Watch Items)
-- [Capcom's Notification of "CAPCOM ID Unauthorized Access" Received, but Isn't Their Security Configuration Way Too Lax?](https://www.reddit.com/r/cybersecurity/comments/1xcpom3/capcoms_notification_of_capcom_id_unauthorized/) - *(Reddit r/cybersecurity)*
-- [PHP2Shell: the leaked PHP RCE everyone is staging and no one has landed (yet)](https://www.reddit.com/r/cybersecurity/comments/1xcplcm/php2shell_the_leaked_php_rce_everyone_is_staging/) - *(Reddit r/cybersecurity)*
-- [Transition from software engineer to cybersecurity possibility?](https://www.reddit.com/r/cybersecurity/comments/1xcphbh/transition_from_software_engineer_to/) - *(Reddit r/cybersecurity)*
-- [AI Agent Security Requires Hazmat Suits, Not Self-Defense](https://www.reddit.com/r/cybersecurity/comments/1xcp4nf/ai_agent_security_requires_hazmat_suits_not/) - *(Reddit r/cybersecurity)*
-- [Get Windows 11 Pro or Home for less than ten bucks](https://www.neowin.net/deals/get-windows-11-pro-or-home-for-less-than-ten-bucks/?utm_source=rss) - *(Neowin)*
-- [Gcore Makes Enterprise Security Bundle Free for Public Agencies Until End of the Year](https://cybersecuritynews.com/gcore-makes-enterprise-security-bundle-free-for-public-agencies-until-end-of-the-year/) - *(CybersecurityNews)*
-- [How worried should I be about the cybersecurity stuff from yesterday?](https://www.reddit.com/r/cybersecurity/comments/1xcmojm/how_worried_should_i_be_about_the_cybersecurity/) - *(Reddit r/cybersecurity)*
-- [eMudhra Exits Global SSL/TLS Certificate Business Following the Vulnerability Disclosure](https://cybersecuritynews.com/emudhra-exits-global-ssl-tls-certificate/) - *(CybersecurityNews)*
-- [Claude Security Now Scans Repositories Continuously to Find Flaws and Track Fixes](https://cybersecuritynews.com/claude-security-continuous-scans/) - *(CybersecurityNews)*
-- [Newsletters / Exploit News](https://www.reddit.com/r/cybersecurity/comments/1xcjzf1/newsletters_exploit_news/) - *(Reddit r/cybersecurity)*
+- [LLM/Agentic AI supported cybersecurity. Has anyone build any skills or agent that help them in their daily cybersecurity work, be it GRC, pentesting, security engineering, SOC analysis, reverse engineering?](https://www.reddit.com/r/cybersecurity/comments/1xdkosm/llmagentic_ai_supported_cybersecurity_has_anyone/) - *(Reddit r/cybersecurity)*
+- [Using OpenEngine to continuously discover security vulnerabilities](https://www.reddit.com/r/cybersecurity/comments/1xdjgfs/using_openengine_to_continuously_discover/) - *(Reddit r/cybersecurity)*
+- [PHP shares mitigation for new RCE vulnerability with no patch](https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/) - *(BleepingComputer)*
+- [Is AI codeing agent following OWASP rules?](https://www.reddit.com/r/cybersecurity/comments/1xdhdf1/is_ai_codeing_agent_following_owasp_rules/) - *(Reddit r/cybersecurity)*
+- [Amazon Threat Intelligence identifies PHP2Shell exploitation prior to public disclosure in MadPot | Amazon Web Services](https://www.reddit.com/r/cybersecurity/comments/1xdg7av/amazon_threat_intelligence_identifies_php2shell/) - *(Reddit r/cybersecurity)*
+- [How do you verify another company during an active security incident?](https://www.reddit.com/r/cybersecurity/comments/1xdfdq3/how_do_you_verify_another_company_during_an/) - *(Reddit r/cybersecurity)*
+- [New Node2Shell Node.js RCE Exploit Let Attackers Execute Malicious Code Through Brotli-Compressed Data](https://cybersecuritynews.com/new-node2shell-node-js-rce-exploit/) - *(CybersecurityNews)*
+- [Blink Doorbell and camera bundle gets mouth-watering 70% discount](https://www.neowin.net/deals/blink-doorbell-and-camera-bundle-gets-mouth-watering-70-discount/?utm_source=rss) - *(Neowin)*
+- [CVEs and AI](https://www.reddit.com/r/cybersecurity/comments/1xdeuhv/cves_and_ai/) - *(Reddit r/cybersecurity)*
+- [Critical PHP2Shell Exploit Code Goes Public as Hackers Attempt to Deploy Botnet Malware](https://cybersecuritynews.com/critical-php2shell-exploit-code/) - *(CybersecurityNews)*
 
