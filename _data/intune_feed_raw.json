@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-23T15:37:24.233861+00:00",
-  "date": "2026-10-23",
+  "generated_utc": "2026-10-26T17:06:22.665252+00:00",
+  "date": "2026-10-26",
   "lookback_hours": 25,
   "source_status": [
     {
@@ -12,7 +12,7 @@
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 25
+      "count": 0
     },
     {
       "name": "Microsoft Intune What's New",
@@ -42,12 +42,12 @@
     {
       "name": "Neowin",
       "status": "OK",
-      "count": 1
+      "count": 2
     },
     {
       "name": "The Hacker News",
       "status": "OK",
-      "count": 9
+      "count": 2
     },
     {
       "name": "Krebs on Security",
@@ -99,351 +99,72 @@
   "items": {
     "high_alert": [
       {
-        "fingerprint": "81f61b2bbfc1",
-        "title": "HPE patches eight max severity RCE and auth bypass AOS flaws",
-        "link": "https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/",
+        "fingerprint": "1288729a445b",
+        "title": "PHP2Shell security flaws now sucessfully exploited in the wild",
+        "link": "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/",
         "source": "BleepingComputer",
-        "published": "2026-10-23T12:48:00+00:00",
-        "summary": "Hewlett Packard Enterprise (HPE) released security updates to patch 72 vulnerabilities in the Aruba Operating System (ArubaOS), including eight maximum-severity authentication bypass and code execution issues. [...]",
+        "published": "2026-10-26T09:19:57+00:00",
+        "summary": "Two critical RCE vulnerabilities (CVE-2026-109618 and CVE-2026-109619), collectively tracked as PHP2Shell, have been successfully exploited in the wild. [...]",
         "category": "high_alert"
       },
       {
-        "fingerprint": "f92992acae78",
-        "title": "PHP Warns of Another Unpatched RCE Two Days After Emergency PHP2Shell Patches",
-        "link": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
+        "fingerprint": "6debbdf24293",
+        "title": "Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware",
+        "link": "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html",
         "source": "The Hacker News",
-        "published": "2026-10-23T11:25:43+00:00",
-        "summary": "PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws. The new issue, assigned CVE-2026-115560, affects only web applications configured in an unusual way, and PHP considers it an unlikely risk.The project is not issuing an emergency fix for it. Instead, it recommends turning off a feature called",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "ed4dda55ae42",
-        "title": "Russian-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
-        "link": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
-        "source": "The Hacker News",
-        "published": "2026-10-23T11:11:23+00:00",
-        "summary": "The Russian state-sponsored hacking group Sandworm teamed up with another threat actor to carry out a destructive wiping attack targeting a Ukrainian logistics company last year. According to ESET, the attack involved UAC-0099 (aka Earth Sirrush) obtaining initial access to the target on July 16, 2025, via a spear-phishing email bearing a malware-laced attachment that led to the deployment of",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "1c7042b32ab6",
-        "title": "Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image",
-        "link": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
-        "source": "The Hacker News",
-        "published": "2026-10-23T09:36:00+00:00",
-        "summary": "Pillow, the most widely used image library for Python, can be made to run operating system commands on a server by specifying the name of a file it is told to open. The flaw, CVE-2026-112900, is in the way Pillow handles EPS images, which it opens by passing the file's name to Ghostscript, a separate program it runs to turn the image into pixels, without checking the name first.",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "f0a91bcf4130",
-        "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
-        "link": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
-        "source": "The Hacker News",
-        "published": "2026-10-23T08:40:43+00:00",
-        "summary": "Malicious Brotli data can make an application on an official build of Node.js run attacker-supplied code, security researchers at Imperva have demonstrated. Their \"Node2Shell\" proof of concept ran code on the official Node.js 24.22.0 image for Linux arm64, with no debugger or custom build, by feeding crafted data to the bundled Brotli decoder (CVE-2026-111497). Node.js disclosed the flaw",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "2ab3422a399c",
-        "title": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
-        "link": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
-        "source": "The Hacker News",
-        "published": "2026-10-23T07:40:45+00:00",
-        "summary": "Threat actors have been observed unsuccessfully attempting to exploit the newly disclosed PHP2Shell vulnerabilities to rope infected systems into a Mirai botnet variant called Potassium, as it emerges that weaponizing the flaws may be harder than previously thought. The attacks aim to exploit CVE-2026-109618 and CVE-2026-109619 (CVSS scores: 9.2), which can result in unauthenticated remote",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "3f948fa18663",
-        "title": "Unpatched Linux kernel vulnerabilities accidentally emailed to public mailing list",
-        "link": "https://www.neowin.net/news/unpatched-linux-kernel-vulnerabilities-accidentally-emailed-to-public-mailing-list/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-10-22T23:34:01+00:00",
-        "summary": "Trend Micro's Zero Day Initiative accidentally posted details of six unpatched Linux kernel flaws to a public mailing list, drawing angry responses. Read more...",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "38b50f5e5208",
-        "title": "LiteLLM release pipeline hacked to distribute info-stealer malware",
-        "link": "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/",
-        "source": "BleepingComputer",
-        "published": "2026-10-22T19:12:51+00:00",
-        "summary": "Hackers compromised the LiteLLM project's PyPI package and published malicious Docker images with a payload that steals credentials, secrets, and environment variables. [...]",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "5650401b6846",
-        "title": "Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks",
-        "link": "https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html",
-        "source": "The Hacker News",
-        "published": "2026-10-22T19:05:17+00:00",
-        "summary": "Attackers are exploiting a zero-day SQL injection flaw in Arista's VeloCloud Orchestrator (VCO), the central management system for VeloCloud SD-WAN networks, the company said in an advisory on October 22. The flaw lets anyone who can log in to the orchestrator, even with a read-only customer account, gain operator privileges, the top level of control over it. For",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "fa0432f78185",
-        "title": "ThreatsDay: AI Secrets Leak, PingCAP Source Theft, Signal Hang-Up Flaw, Laravel Auth Bypass + 21 More",
-        "link": "https://thehackernews.com/2026/10/threatsday-ai-secrets-leak-pingcap.html",
-        "source": "The Hacker News",
-        "published": "2026-10-22T17:45:44+00:00",
-        "summary": "This week has already been rough for cybersecurity. Critical PHP and GitLab RCE flaws, serious Linux security bugs, compromised eMudhra certificates, a Node.js RCE flaw, a hacked LiteLLM release, and hundreds of hijacked Tor relays. That's a lot to deal with in just a few days. And the week isn't even over yet. But those big headlines are only half the story. Stolen passwords, exposed",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "5590e6581429",
-        "title": "Arista patches new VeloCloud Orchestrator zero-day exploited in attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
-        "source": "BleepingComputer",
-        "published": "2026-10-22T17:18:22+00:00",
-        "summary": "Arista Networks released security updates to patch an actively exploited zero-day vulnerability affecting VeloCloud Orchestrator (VCO) On-Prem deployments. [...]",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "619e10537920",
-        "title": "Two CVSS 9.0 Linux KSMBD RCE Flaws Disclosed on Public Mailing Lists Before Kernel Fixes",
-        "link": "https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html",
-        "source": "The Hacker News",
-        "published": "2026-10-22T17:01:53+00:00",
-        "summary": "Linux servers running KSMBD, the kernel's built-in SMB server, are exposed to two publicly reported remote code execution flaws rated 9.0 by Trend Micro's Zero Day Initiative, with no fix yet in the mainline kernel. One of them, ZDI-CAN-33774, can be triggered before any network authentication. The other, ZDI-CAN-33549, requires the SMB Direct transport and an RDMA-capable network",
+        "published": "2026-10-26T06:03:48+00:00",
+        "summary": "A malicious instruction file sitting in a developer's Downloads folder tried to make their AI coding agent install a known-malicious npm package, security firm Forever Security said in a report published last week. The company caught the attempt on a real customer's machine and stopped the agent before any code ran. It could not determine how the file got into the folder. The file",
         "category": "high_alert"
       }
     ],
     "bad_updates": [],
-    "upcoming_changes": [
+    "upcoming_changes": [],
+    "official_news": [
       {
-        "fingerprint": "e9b373e5854e",
-        "title": "Dynamics 365 Customer Insights - Journeys: Elevate customer experiences - Set message expirations to keep communication relevant",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577805",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-23T00:00:39+00:00",
-        "summary": "Set an expiration date on any message in your journeys (emails, text messages, push notifications, or custom). Choose from different expiration options (no expiry, expiration based on a date and time, or a trigger). Review analytics to understand which customers didn't receive messages due to expiration dates. Scenario : Contoso specializes in hosting virtual events and webinars for their custo...",
-        "category": "upcoming_changes"
+        "fingerprint": "d6b65f046930",
+        "title": "When an AI Agent Is the Incident, the Identity Record Is the Evidence",
+        "link": "https://www.bleepingcomputer.com/news/security/when-an-ai-agent-is-the-incident-the-identity-record-is-the-evidence/",
+        "source": "BleepingComputer",
+        "published": "2026-10-26T14:00:10+00:00",
+        "summary": "A new NIST, CISA, and NSA guide treats runaway agents as incidents to be rehearsed. The hard part of the response is answering whose authority the agent used, and that answer has to exist before the incident does. [...]",
+        "category": "official_news"
       },
       {
-        "fingerprint": "5f6f05b47d24",
-        "title": "Dynamics 365 Business Central: Copilot and agents - Use AI resources for your Copilot extensions",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577820",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-23T00:00:39+00:00",
-        "summary": "Using the AI resources provides several benefits: Reduced operational overhead : Avoid the need to handle infrastructure management, updates, monitoring, troubleshooting, or maintenance of custom Azure OpenAI subscriptions. This benefit frees up resources to focus on core business operations and provides value-adding intellectual property (IP) to customers. Simplified onboarding : Quickly integ...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "2dc73fb7cb6b",
-        "title": "Dynamics 365 Finance: Globalization Studio - Unified e‑invoicing integration framework",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577794",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-23T00:00:39+00:00",
-        "summary": "The unified extensible e-invoicing integration framework extends the existing Electronic Invoicing service by introducing: A unified outbound and inbound document model (based on international standards such as UBL and PEPPOL). A standardized submission and response pipeline and API for e-invoicing documents and related statuses. A clear extensibility model that allows external ASPs, ISVs, Micr...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "34040332d581",
-        "title": "Power Automate: Process mining - Get support for normalized schema import for data ingestion",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577827",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-22T23:45:51+00:00",
-        "summary": "Most systems of record have data stored in data structures that allow you to easily extract information about the analyzed entity (case-level data) and historical changes on those entities (event-level data). The attributes are also stored in a normalized form. The single-table approach to event log creation requires you to do inefficient transformations. With this feature, Power Automate Proce...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "be0ab3c93249",
-        "title": "Power Automate: Process mining - Export object-centric process mining data to Microsoft Fabric semantic model",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577826",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-22T23:45:50+00:00",
-        "summary": "This feature allows seamless integration with Microsoft Fabric for enterprise-wide analytics. It enables direct publishing of object-centric process mining (OCPM) results into Microsoft Fabric semantic models, making process intelligence data available throughout the Microsoft analytics ecosystem. Key capabilities include: Semantic model publishing: Export OCPM analysis results, including objec...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "41e482e98e9c",
-        "title": "Power Pages: Administration and governance - Enable self-service site ownership transfer",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577825",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-22T23:45:49+00:00",
-        "summary": "Power Pages now supports secure site ownership transfer for eligible sites. Existing site owners and global administrators can assign ownership to another valid user within the tenant without requiring manual intervention from support. The new owner must be a valid user with appropriate access to the environment. Every ownership transfer is recorded in an auditable history, including the previo...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "d8ad7b49eff0",
-        "title": "Dynamics 365 Customer Insights - Journeys: Elevate customer experiences - Enable advanced personalization using simple formulas to modify text, dates, and numbers",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577811",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-22T23:45:48+00:00",
-        "summary": "Apply a variety of PowerFx functions to text, numbers, and dates in messages. Text functions include concatenation, change case, trim, substitute, and replace. Number functions include arithmetic calculations, rounding, and formatting. Business Value: Enhance personalization by transforming data directly within your messages using PowerFx expressions. Standardize customer names (for example, co...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "277885a7c2aa",
-        "title": "Dynamics 365 Supply Chain Management: Planning - Enhance demand forecasts with multiple data inputs",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577824",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-22T23:45:48+00:00",
-        "summary": "Demand planning in Supply Chain Management helps you forecast demand using diverse data sources and signals. The latest updates enhance forecast accuracy, enabling you to optimize your supply chain and improve financial outcomes. New capabilities include: Support for multiple signals : Define multiple input signals such as inflation or weather-related measures and apply the XGBoost forecast alg...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "80caaba187cc",
-        "title": "Dynamics 365 Finance: Globalization Studio - Enhance Electronic Reporting with new capabilities",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577818",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-22T23:45:48+00:00",
-        "summary": "Electronic Reporting (ER) is the configurable engine you use to author and run business documents—invoices, statutory reports, VAT declarations and payment files, and more. In 10.0.48 and 10.0.49 Microsoft delivered a set of general enhancements that respond directly to the most highly voted ideas on the Microsoft Idea portal and to recurring partner/customer requests. The enhancements remove l...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "1df78397c7ed",
-        "title": "Dynamics 365 Customer Insights - Data: Agents and Copilot - Increase AI accuracy by grounding agents in customer insights",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577814",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-22T23:45:47+00:00",
-        "summary": "The Customer Insights MCP server allows AI agents and chat experiences to access and understand insights generated by Customer Insights - Data. The Customer Insights MCP server uses the industry-standard MCP architecture to securely share unified profiles and insights with AI agents and chat experiences, providing the data context so AI agents can do their best work. AI tools can use the Custom...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "4e34a25995c1",
-        "title": "Dynamics 365 Supply Chain Management: Manufacturing and asset management - Enforce same-batch selection for raw materials in production and batch orders",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577823",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-22T23:45:47+00:00",
-        "summary": "This feature ensures that raw materials consumed by production orders and batch orders all come from the same batch. Process and discrete manufacturers can use it together with related production-control capabilities that govern how raw materials are allocated to a production order. Product designers and production engineers can set the same-batch requirement at the released-product level so th...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "81ede6d5e2ab",
-        "title": "Dynamics 365 Finance: Core financials - Detect corruption in source document budget control tracking",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577822",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-22T23:45:46+00:00",
-        "summary": "Budget control tracking data can become difficult to analyze when the underlying budget source is missing or when relieving relationships between commitments and relieving documents are broken. These conditions can make it harder for finance users to understand why budget control data does not reconcile as expected and where repair should begin. With this feature, Dynamics 365 Finance adds diag...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "b4c988b09cc7",
-        "title": "Power Pages: Professional developer experiences - Control Power Pages components using client APIs",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577821",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-22T23:45:46+00:00",
-        "summary": "Developers often depend on custom JavaScript and fragile Document Object Model (DOM) manipulation to hide fields, update values, or trigger actions, an approach that easily breaks when page structures change, drives up maintenance costs, limits scalability, and leads to inconsistent experiences. Power Pages Client APIs address these challenges by offering stable, documented, and supported metho...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "e8e7aa389191",
-        "title": "Dynamics 365 Contact Center: Administrator experiences - Use enhanced customer-first direct callbacks",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577801",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-22T23:45:45+00:00",
-        "summary": "Customer-first direct callback introduces a configurable, AI-powered experience managed through \"callback profiles\" in the Copilot Service admin center. Administrators define a callback profile—including greeting message, alternate number capture, callback offering window, retry logic, and AI agent selection—and associate it with queues under overflow handling. For each queue where direct callb...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "f917b9111af9",
-        "title": "Dynamics 365 Customer Service: Copilot and AI innovation - View next best actions with Customer Intent Agent",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577819",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-22T23:45:45+00:00",
-        "summary": "An administrator can enable this feature for the entire organization in the Customer Service admin center. Turning on next best actions populates the Copilot pane with actions that service representatives can use. Important case attributes are consolidated in one place as the representative gathers information through back-and-forth exchanges with the customer. Knowledge articles are suggested ...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "6f6de732a664",
-        "title": "Dynamics 365 Customer Insights - Journeys: Elevate customer experiences - Boost customer confidence with branded content links",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577789",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-22T23:45:45+00:00",
-        "summary": "With branded content links, you can: Set up your vanity link (or custom link) in the domain authenticator. Once authenticated, your vanity domain will be visible in: All links in your emails. Hosted digital assets, forms, event registration pages, and your preference center. Scenario A retail brand launches a holiday campaign featuring special bundles and limited‑time offers. Instead of using l...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "fc6afcd99ab5",
-        "title": "Power Automate: Desktop flows - Export work queue items to CSV",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577791",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-22T23:45:44+00:00",
-        "summary": "You can now export work queue items directly from the Automation Center portal. A new option available in the Work Queues experience lets you download items as a CSV file. This capability allows you to access work queue data in a portable format for further analysis, reporting, or integration with other tools, without needing to rely on external APIs or custom solutions. Business Value: This fe...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "1789237eef95",
-        "title": "Dynamics 365 Supply Chain Management: Copilot and AI innovation - Analyze demand using generative insights for better planning",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577817",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-22T23:45:43+00:00",
-        "summary": "Generative insights for Demand planning in Dynamics 365 Supply Chain Management help you analyze sales history and forecast data across dimensions like product and location. With general availability, generative insights now include a new metric: trends . The system dynamically clusters data based on detected patterns, such as high trending , medium trending , relative flat , and declining tren...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "20b52c81900d",
-        "title": "Dynamics 365 Customer Insights - Data: Faster time to insights - Access unified profiles and insights in Fabric OneLake",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577816",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-22T23:45:42+00:00",
-        "summary": "Unified profiles and insights are only useful when you can act on the data. If you use Microsoft Fabric, Customer Insights - Data makes it easier to share valuable unified profiles and insights directly in OneLake. You can add those insights to your core analytics and downstream processes. Scenario: Contoso has multiple departments with distinct systems and data requirements. After creating sho...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "fcbfc90efbaa",
-        "title": "Microsoft Dataverse: Enable AI powered business workflows in Work IQ with Dataverse - Build Dataverse solutions with coding agents using Dataverse skills",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577815",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-22T23:45:41+00:00",
-        "summary": "Build Dataverse solutions by using coding agents with natural language prompts. For example, \"I'm building a recruiting system for Zava Construction. I need tables for Positions, Candidates, Interviewers, Interviews, and Feedback - with lookups, a many-to-many relationship between Candidates and Positions, and a self-referential interview chain. Create everything in a Zava Recruiting solution, ...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "4ba7d3990d27",
-        "title": "Power Pages: Power Pages Copilot - Use Power Pages MCP server capabilities",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577813",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-22T23:45:38+00:00",
-        "summary": "Power Pages MCP server enables makers to expose site data and operations through a secure, standardized interface compatible with AI clients. In the public preview release, makers can enable Create, Read, Update, Delete (CRUD) operations via the site’s Web API layer without writing custom code. Makers can provision the MCP server endpoint through site settings, allowing customers to securely in...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "54c5d0a382f9",
-        "title": "Dynamics 365 Contact Center: Administrator experiences - Manage users through Microsoft Entra security groups",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577812",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-22T23:45:38+00:00",
-        "summary": "Administrators configure team-based access for representatives through Microsoft Entra ID security groups. They link an Entra security group to a Dataverse team of type Microsoft Entra ID Security Group and assign at the team level the required security roles such as: Basic user Customer Service Representative Omnichannel agent Every member of the linked group inherits the roles automatically w...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "dd567faca494",
-        "title": "Dynamics 365 Customer Insights - Journeys: Elevate customer experiences - Automatically update emails with the latest content",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577804",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-22T23:45:35+00:00",
-        "summary": "By automatically updating emails with latest content, you can: Easily create dynamic content blocks in Content gallery with new content or select existing content in email and save it as a dynamic content block. Have content only so it uses the layout of the email when inserted or have content with its layout preserved. You can mark the content block as “protected” to prevent content from being...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "8204acce870f",
-        "title": "Dynamics 365 Customer Insights - Journeys: Elevate customer experiences - Update live segments without interrupting ongoing journeys",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577810",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-22T23:45:35+00:00",
-        "summary": "For any segment, even those used in live journeys or other segments, marketers can edit and republish them to make changes. Changes won't take effect until the segments are published, giving marketers control over the timing of the changes. These changes are picked up at the next recurrence for recurring journeys and new additions are applied in real time for ongoing journeys. Business Value: C...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "e20e69e510a3",
-        "title": "Power Pages: Design studio - Configure authentication with security agent",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577809",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-22T23:45:34+00:00",
-        "summary": "The security agent is available directly within the security workspace in Power Pages design studio. Makers can open the security agent tab to access the embedded chat panel and security tools. From there, they can interact using natural language to review risks, understand configurations, and take guided actions. The agent assists with both authentication and authorization setup. It guides mak...",
-        "category": "upcoming_changes"
+        "fingerprint": "364cafc050b1",
+        "title": "Microsoft Entra ID retires custom CSS branding elements to curb phishing",
+        "link": "https://www.neowin.net/news/microsoft-entra-id-retires-custom-css-branding-elements-to-curb-phishing/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-10-26T07:16:01+00:00",
+        "summary": "Microsoft Entra ID is retiring custom CSS positioning in company branding to stop phishing. Custom placement reverts to default layouts, but core logos and colors remain. Read more...",
+        "category": "official_news"
       }
     ],
-    "official_news": [],
     "community_buzz": [
       {
-        "fingerprint": "c0227a6e591a",
-        "title": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials",
-        "link": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
+        "fingerprint": "2e7da9f75b0b",
+        "title": "Microsoft releases emergency .NET patches for critical Brotli flaw",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-net-patches-for-critical-brotli-flaw/",
+        "source": "BleepingComputer",
+        "published": "2026-10-26T15:38:24+00:00",
+        "summary": "Microsoft released emergency .NET security updates to patch a critical vulnerability known as Broccoli2Shell, also tracked as Node2Shell and HTTP2Shell. [...]",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "25c41e2385c1",
+        "title": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
+        "link": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html",
         "source": "The Hacker News",
-        "published": "2026-10-23T13:50:56+00:00",
-        "summary": "Cybersecurity researchers have disclosed details of a large-scale campaign that has targeted exposed network edge devices such as Fortinet FortiGate and Palo Alto Networks GlobalProtect firewalls. \"Artifacts from this investigation also indicate that operators in this campaign have obtained access to numerous organizations worldwide, and have attempted to further compromise some victims,",
+        "published": "2026-10-26T08:35:51+00:00",
+        "summary": "Cybersecurity researchers have disclosed a Microsoft 365 campaign that has been observed leveraging an adversary-in-the-middle (AitM) relay to capture sign-in sessions and then replay the stolen tokens to break into email accounts at 79 organizations. Huntress, which observed the activity between July 14 and September 22, 2026, said it detected 497 successful Microsoft 365 sign-in events across",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "3ae2e084b081",
+        "title": "Microsoft: Windows 11 KB5127936 fixes an overlooked performance crippling factor",
+        "link": "https://www.neowin.net/news/microsoft-windows-11-kb5127936-fixes-an-overlooked-performance-crippling-factor/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-10-26T08:08:01+00:00",
+        "summary": "Windows' overlooked performance crippler that can slow down app launches is getting fixed with Microsoft's KB5127936 update. Read more...",
         "category": "community_buzz"
       }
     ]
