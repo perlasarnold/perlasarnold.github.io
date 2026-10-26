@@ -1,51 +1,52 @@
-# Security Digest - October 25, 2026
+# Security Digest - October 26, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
 
-- **Generated (UTC):** 2026-10-25 17:19:40 +00:00
+- **Generated (UTC):** 2026-10-26 19:40:06 +00:00
 - **Lookback window:** 7 days
 
 ## 🚀 Top Research & Advisories
-- **[Palo Alto Confirms PHP RCE Vulnerabilities Impact PAN-OS and Multiple Network Products](https://cybersecuritynews.com/palo-alto-confirms-php-rce-vulnerabilities/)** - *(CybersecurityNews)*
-  System.Xml.XmlElement
-  > **Action:** Review VPN client version and deployment.
+- **[Microsoft issues urgent .NET security patches for critical buffer overflow flaws](https://www.neowin.net/news/microsoft-issues-urgent-net-security-patches-for-critical-buffer-overflow-flaws/?utm_source=rss)** - *(Neowin)*
+  Microsoft has released out-of-band security updates for .NET 8, 10, and 11, alongside .NET 11 Release Candidate 3, fixing critical buffer overflow and tarball ownership vulnerabilities. Read more...
+  > **Action:** Evaluate update rings and expedite actions if needed.
 
 ## 💻 AppSec
-- **[TheHive + Cortex + n8n on a single on-prem server for internal incident management: experiences and alternatives?](https://www.reddit.com/r/cybersecurity/comments/1xewtnl/thehive_cortex_n8n_on_a_single_onprem_server_for/)** - *(Reddit r/cybersecurity)*
+- **[CVE-2026-112778](https://nvd.nist.gov/vuln/detail/CVE-2026-112778)** - *(NVD)*
   Monitor developer tool vulnerabilities and supply chain risks.
 
-## 🏗 Infrastructure
-- **[Microsoft: Windows Server 2016 reaches end of support in January](https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-january/)** - *(BleepingComputer)*
-  Review server hardening and AD security posture.
+- **[Fortinet adds inline AI guardrails to FortiGate firewalls](https://www.reddit.com/r/cybersecurity/comments/1xg6ulf/fortinet_adds_inline_ai_guardrails_to_fortigate/)** - *(Reddit r/cybersecurity)*
+  Monitor developer tool vulnerabilities and supply chain risks.
+
+## 🛡 Security Ops
+- **[Anybody here have experience with Rapid7s nexpose?](https://www.reddit.com/r/cybersecurity/comments/1xg3dnc/anybody_here_have_experience_with_rapid7s_nexpose/)** - *(Reddit r/cybersecurity)*
+  Validate Cloud Agent release and health.
 
 ## 🛠 Infrastructure & Endpoint Control
-- **[Chrome, Edge finally getting a key feature built-in which Firefox, Brave has had for years](https://www.neowin.net/news/chrome-edge-finally-getting-a-key-feature-built-in-which-firefox-brave-has-had-for-years/?utm_source=rss)** - *(Neowin)*
-  Validate Chrome coverage; update managed package if needed. Validate Edge/WebView2 coverage; refresh managed package.
-
-- **[Microsoft confirms Windows 11 Universal Print broken for months, requires manual fix](https://www.neowin.net/news/microsoft-confirms-windows-11-universal-print-broken-for-months-requires-manual-fix/?utm_source=rss)** - *(Neowin)*
-  Validate workstation security baseline and update compliance.
-
-- **[Microsoft heard my complaints, Windows 11 finally getting proper Internet Speed Test tool](https://www.neowin.net/opinions/microsoft-heard-my-complaints-windows-11-finally-getting-proper-internet-speed-test-tool/?utm_source=rss)** - *(Neowin)*
-  Validate workstation security baseline and update compliance.
-
-- **[Trend AI Vision one agent - network issue](https://www.reddit.com/r/cybersecurity/comments/1xf19ky/trend_ai_vision_one_agent_network_issue/)** - *(Reddit r/cybersecurity)*
+- **[Defensive hacking AI agent?](https://www.reddit.com/r/cybersecurity/comments/1xfyjkk/defensive_hacking_ai_agent/)** - *(Reddit r/cybersecurity)*
   Review security controls and policy updates.
 
-- **[Windows 11 26H2 now available for all eligible 24H2, 25H2 PCs, here's how to get it](https://www.neowin.net/news/windows-11-26h2-now-available-for-all-eligible-24h2-25h2-pcs-heres-how-to-get-it/?utm_source=rss)** - *(Neowin)*
+- **[Microsoft Releases Out-of-Band Security Updates for Brotli and .NET tarballs Vulnerability](https://cybersecuritynews.com/microsoft-security-updates-for-brotli-and-net-tarballs-vulnerability/)** - *(CybersecurityNews)*
+  Evaluate update rings and expedite actions if needed.
+
+- **[Microsoft: Windows 11 KB5127936 fixes an overlooked performance crippling factor](https://www.neowin.net/news/microsoft-windows-11-kb5127936-fixes-an-overlooked-performance-crippling-factor/?utm_source=rss)** - *(Neowin)*
   Validate workstation security baseline and update compliance.
 
-- **[Windows 11 64-bit performance boost coming soon thanks to Intel & Microsoft](https://www.neowin.net/news/windows-11-64-bit-performance-boost-coming-soon-thanks-to-intel--microsoft/?utm_source=rss)** - *(Neowin)*
+- **[Windows 11 is getting important new privacy controls soon](https://www.neowin.net/news/windows-11-is-getting-important-new-privacy-controls-soon/?utm_source=rss)** - *(Neowin)*
   Validate workstation security baseline and update compliance.
+
+## 🩹 Patch Tuesday & Update Experience
+- **[Microsoft: Windows 11 KB5127936 fixes an overlooked performance crippling factor](https://www.neowin.net/news/microsoft-windows-11-kb5127936-fixes-an-overlooked-performance-crippling-factor/?utm_source=rss)** - *(Neowin)*
+  Windows&#039; overlooked performance crippler that can slow down app launches is getting fixed with Microsoft&#039;s KB5127936 update. Read more...
 
 ## 🔍 Quick Links (Watch Items)
-- [Is everyone actually that miserable?](https://www.reddit.com/r/cybersecurity/comments/1xf6al4/is_everyone_actually_that_miserable/) - *(Reddit r/cybersecurity)*
-- [PHP2Shell: Google and Mandiant Warn That PHP Servers May Remain Vulnerable After Installing Patches](https://www.reddit.com/r/cybersecurity/comments/1xf3i0w/php2shell_google_and_mandiant_warn_that_php/) - *(Reddit r/cybersecurity)*
-- [PICARD 0.3.x: encrypt, chunk, and scatter data across 264 protocol adapters -- including DRAM and CPU cache](https://www.reddit.com/r/cybersecurity/comments/1xf3a2m/picard_03x_encrypt_chunk_and_scatter_data_across/) - *(Reddit r/cybersecurity)*
-- [I’m a cybersecurity leader who is neurodivergent or an advocate for those who are. Ask me anything about the successes, failures, and lessons along the way.](https://www.reddit.com/r/cybersecurity/comments/1xf360c/im_a_cybersecurity_leader_who_is_neurodivergent/) - *(Reddit r/cybersecurity)*
-- [Trend AI Vision one agent - network issue](https://www.reddit.com/r/cybersecurity/comments/1xf19ky/trend_ai_vision_one_agent_network_issue/) - *(Reddit r/cybersecurity)*
-- [Bye Bye Brotli? Google's Compression Library Is a Security Mess](https://www.reddit.com/r/cybersecurity/comments/1xezxb6/bye_bye_brotli_googles_compression_library_is_a/) - *(Reddit r/cybersecurity)*
-- [TheHive + Cortex + n8n on a single on-prem server for internal incident management: experiences and alternatives?](https://www.reddit.com/r/cybersecurity/comments/1xewtnl/thehive_cortex_n8n_on_a_single_onprem_server_for/) - *(Reddit r/cybersecurity)*
-- [How to report a security issue on a portfolio website?](https://www.reddit.com/r/cybersecurity/comments/1xeembd/how_to_report_a_security_issue_on_a_portfolio/) - *(Reddit r/cybersecurity)*
-- [Apple gives you less than a week to apply for its most exclusive iPhone](https://www.neowin.net/news/apple-gives-you-less-than-a-week-to-apply-for-its-most-exclusive-iphone/?utm_source=rss) - *(Neowin)*
-- [OpenAI AI Agents Bypass Security Isolation, Exploiting 0-Days in Red-Teaming Tests](https://cybersecuritynews.com/openai-ai-agents-bypass-security/) - *(CybersecurityNews)*
+- [Fortinet adds inline AI guardrails to FortiGate firewalls](https://www.reddit.com/r/cybersecurity/comments/1xg6ulf/fortinet_adds_inline_ai_guardrails_to_fortigate/) - *(Reddit r/cybersecurity)*
+- [Next step after Security+](https://www.reddit.com/r/cybersecurity/comments/1xg6cl4/next_step_after_security/) - *(Reddit r/cybersecurity)*
+- [Heap overflow in EDK2’s Brotli decompressor: the CVE-2021-28211 fix was applied to LZMA and never to Brotli](https://www.reddit.com/r/cybersecurity/comments/1xg56p9/heap_overflow_in_edk2s_brotli_decompressor_the/) - *(Reddit r/cybersecurity)*
+- [Anybody here have experience with Rapid7s nexpose?](https://www.reddit.com/r/cybersecurity/comments/1xg3dnc/anybody_here_have_experience_with_rapid7s_nexpose/) - *(Reddit r/cybersecurity)*
+- [Aren't people concerned about the security of AI-debloated Android TVs?](https://www.reddit.com/r/cybersecurity/comments/1xg2qq0/arent_people_concerned_about_the_security_of/) - *(Reddit r/cybersecurity)*
+- [Security+ or CySA+?](https://www.reddit.com/r/cybersecurity/comments/1xg23n0/security_or_cysa/) - *(Reddit r/cybersecurity)*
+- [SBI (one of the big banks in india) had a free pass to their database (CVE-2014-0398)](https://www.reddit.com/r/cybersecurity/comments/1xg11ih/sbi_one_of_the_big_banks_in_india_had_a_free_pass/) - *(Reddit r/cybersecurity)*
+- [OpenBSD 8.0 Released With Major Security Hardening and Post-Quantum SSH Support](https://cybersecuritynews.com/openbsd-8-0-released/) - *(CybersecurityNews)*
+- [PHP Releases New Windows Build Security Updates to Fix Critical HTTP2Shell Vulnerability](https://cybersecuritynews.com/php-http2shell-vulnerability/) - *(CybersecurityNews)*
+- [PHP2Shell security flaws now sucessfully exploited in the wild](https://www.reddit.com/r/cybersecurity/comments/1xfywmh/php2shell_security_flaws_now_sucessfully/) - *(Reddit r/cybersecurity)*
 
