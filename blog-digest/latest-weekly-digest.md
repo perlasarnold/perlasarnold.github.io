@@ -1,51 +1,38 @@
-# Security Digest - October 27, 2026
+# Security Digest - October 28, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
 
-- **Generated (UTC):** 2026-10-27 23:38:16 +00:00
+- **Generated (UTC):** 2026-10-28 19:12:06 +00:00
 - **Lookback window:** 7 days
 
 ## 🚀 Top Research & Advisories
-- **[Critical HashiCorp Consul Kubernetes Flaw Allows Attackers to Gain Elevated Privileges](https://cybersecuritynews.com/hashicorp-consul-kubernetes-vulnerability/)** - *(CybersecurityNews)*
-  System.Xml.XmlElement
-  > **Action:** Monitor developer tool vulnerabilities and supply chain risks.
+- **[Architecture Review: Full-System Design for a Hybrid ML/GNN Network Intrusion Detection System MVP](https://www.reddit.com/r/cybersecurity/comments/1xhrjky/architecture_review_fullsystem_design_for_a/)** - *(Reddit r/cybersecurity)*
+  Context: I am developing a Python-based Network Intrusion Detection System (NIDS) designed to move beyond traditional signature-based constraints. The application is a hybrid system: it uses an ensemble layer (Random Forest + XGBoost) for fast statis...
+  > **Action:** Review security controls and policy updates. Validate Edge/WebView2 coverage; refresh managed package.
 
 ## 💻 AppSec
 - **[Here are all the new features Visual Studio received in October 2026](https://www.neowin.net/news/here-are-all-the-new-features-visual-studio-received-in-october-2026/?utm_source=rss)** - *(Neowin)*
   Monitor developer tool vulnerabilities and supply chain risks.
 
-## 🏗 Infrastructure
-- **[CISA confirms PHP2Shell vulnerabilities now exploited in attacks](https://www.reddit.com/r/cybersecurity/comments/1xgywlp/cisa_confirms_php2shell_vulnerabilities_now/)** - *(Reddit r/cybersecurity)*
-  Review VPN client version and deployment.
-
-- **[FortiBleed 2.0: 975 New Domains & 40,573 Exposed Secrets](https://www.reddit.com/r/cybersecurity/comments/1xgu57x/fortibleed_20_975_new_domains_40573_exposed/)** - *(Reddit r/cybersecurity)*
-  Review server hardening and AD security posture.
-
 ## 🛠 Infrastructure & Endpoint Control
+- **["Hypothetical" issues with a government payment system](https://www.reddit.com/r/cybersecurity/comments/1xhnpi2/hypothetical_issues_with_a_government_payment/)** - *(Reddit r/cybersecurity)*
+  Confirm Adobe exposure; push updated deployment.
+
 - **[Copilot in Edge Sidebar is not working for many users](https://www.neowin.net/news/copilot-in-edge-sidebar-is-not-working-for-many-users/?utm_source=rss)** - *(Neowin)*
   Validate Edge/WebView2 coverage; refresh managed package.
 
-- **[Here are all the new features Microsoft added to Excel in October 2026](https://www.neowin.net/news/here-are-all-the-new-features-microsoft-added-to-excel-in-october-2026/?utm_source=rss)** - *(Neowin)*
-  Review Office update channel health and security baseline compliance.
-
-- **[New report slams Microsoft for leveraging "dark patterns" to force people to use Edge](https://www.neowin.net/reports/new-report-slams-microsoft-for-leveraging-dark-patterns-to-force-people-to-use-edge/?utm_source=rss)** - *(Neowin)*
-  Validate Edge/WebView2 coverage; refresh managed package.
-
-- **[PowerPoint Live gets more customization options](https://www.neowin.net/news/powerpoint-live-gets-more-customization-options/?utm_source=rss)** - *(Neowin)*
-  Review Office update channel health and security baseline compliance.
-
-- **[Windows CLAT is now generally available for organizations using IPv4 applications](https://www.neowin.net/news/windows-clat-is-now-generally-available-for-organizations-using-ipv4-applications/?utm_source=rss)** - *(Neowin)*
+- **[Windows 11 26H2, 25H2 get very long list of new features in KB5127936 preview update](https://www.neowin.net/news/windows-11-26h2-25h2-get-very-long-list-of-new-features-in-kb5127936-preview-update/?utm_source=rss)** - *(Neowin)*
   Validate workstation security baseline and update compliance.
 
 ## 🔍 Quick Links (Watch Items)
-- [New Kerberos Abuse Path Discovery - Constrained Delegation without Protocol Transition against SPN-less accounts](https://www.reddit.com/r/cybersecurity/comments/1xh7we9/new_kerberos_abuse_path_discovery_constrained/) - *(Reddit r/cybersecurity)*
-- [Codex vs Claude Code vs GLM vs DeepSeek: which is actually the best for autonomous offensive security research?](https://www.reddit.com/r/cybersecurity/comments/1xgzo8q/codex_vs_claude_code_vs_glm_vs_deepseek_which_is/) - *(Reddit r/cybersecurity)*
-- [Before Your SOC Investigates: What 16K+ Security Teams Already Know ](https://cybersecuritynews.com/before-your-soc-investigates-what-16k-security-teams-already-know/) - *(CybersecurityNews)*
-- [CISA confirms PHP2Shell vulnerabilities now exploited in attacks](https://www.reddit.com/r/cybersecurity/comments/1xgywlp/cisa_confirms_php2shell_vulnerabilities_now/) - *(Reddit r/cybersecurity)*
-- [Researchers Exploit OpenAI API Flaw to Extract Hidden GPT-5.6 Reasoning Traces](https://cybersecuritynews.com/researchers-exploit-openai-api-flaw/) - *(CybersecurityNews)*
-- [CISA Offers Two Free Tools to Detect Security Misconfigurations in Microsoft 365 and Google Workspace](https://cybersecuritynews.com/cisa-free-tools-to-detect-misconfigurations/) - *(CybersecurityNews)*
-- [How do you decide what’s worth reading when new threats and CVEs show up every day?](https://www.reddit.com/r/cybersecurity/comments/1xgtv63/how_do_you_decide_whats_worth_reading_when_new/) - *(Reddit r/cybersecurity)*
-- [Hackers Use Fake FedEx Invoices to Deploy Sirius Backdoor and Evade Windows Security](https://cybersecuritynews.com/fake-fedex-invoices/) - *(CybersecurityNews)*
-- [GRC Firm Recommendations in KCMO](https://www.reddit.com/r/cybersecurity/comments/1xgscoa/grc_firm_recommendations_in_kcmo/) - *(Reddit r/cybersecurity)*
-- [Evaluating new AppSec Tooling for the AI era](https://www.reddit.com/r/cybersecurity/comments/1xgqivj/evaluating_new_appsec_tooling_for_the_ai_era/) - *(Reddit r/cybersecurity)*
+- [CVE Intel update - The open-source CVE triage tool.](https://www.reddit.com/r/cybersecurity/comments/1xhtt43/cve_intel_update_the_opensource_cve_triage_tool/) - *(Reddit r/cybersecurity)*
+- [AI Workshop Training Question](https://www.reddit.com/r/cybersecurity/comments/1xhrpvf/ai_workshop_training_question/) - *(Reddit r/cybersecurity)*
+- [Architecture Review: Full-System Design for a Hybrid ML/GNN Network Intrusion Detection System MVP](https://www.reddit.com/r/cybersecurity/comments/1xhrjky/architecture_review_fullsystem_design_for_a/) - *(Reddit r/cybersecurity)*
+- [Global Vulnerability Scanning of Backport Fixes](https://www.reddit.com/r/cybersecurity/comments/1xhqc31/global_vulnerability_scanning_of_backport_fixes/) - *(Reddit r/cybersecurity)*
+- [😲 An operator stole 68 GB from a Philippine government agency, then left the evidence open on the internet](https://www.reddit.com/r/cybersecurity/comments/1xhosqd/an_operator_stole_68_gb_from_a_philippine/) - *(Reddit r/cybersecurity)*
+- [CISA Confirms Active Exploitation of Node2Shell / HTTP2Shell](https://www.reddit.com/r/cybersecurity/comments/1xho1aa/cisa_confirms_active_exploitation_of_node2shell/) - *(Reddit r/cybersecurity)*
+- [Why are Japanese companies getting hit by cyberattacks lately?](https://www.reddit.com/r/cybersecurity/comments/1xhna1g/why_are_japanese_companies_getting_hit_by/) - *(Reddit r/cybersecurity)*
+- [CVE-2026-113461](https://www.cve.org/CVERecord?id=CVE-2026-113461) - *(CVE.org)*
+- [CVE-2026-113461](https://nvd.nist.gov/vuln/detail/CVE-2026-113461) - *(NVD)*
+- [CVE-2026-111816](https://www.cve.org/CVERecord?id=CVE-2026-111816) - *(CVE.org)*
 
