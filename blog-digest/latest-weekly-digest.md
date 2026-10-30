@@ -1,63 +1,73 @@
-# Security Digest - October 29, 2026
+# Security Digest - October 30, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
 
-- **Generated (UTC):** 2026-10-29 19:21:26 +00:00
+- **Generated (UTC):** 2026-10-30 18:56:00 +00:00
 - **Lookback window:** 7 days
 
 ## 🚀 Top Research & Advisories
 - *No high-priority security research detected in this window.*
 ## 💻 AppSec
-- **[[Academic Research] Looking for IT Folks with Ransomware Experience](https://www.reddit.com/r/cybersecurity/comments/1xij0xv/academic_research_looking_for_it_folks_with/)** - *(Reddit r/cybersecurity)*
+- **[Any news about Zero2Automated beginner course and @0verfl0w_?](https://www.reddit.com/r/cybersecurity/comments/1xjahrd/any_news_about_zero2automated_beginner_course_and/)** - *(Reddit r/cybersecurity)*
   Review .NET runtime vulnerabilities and apply patches.
 
-- **[CVE Intel update - The open-source CVE triage tool.](https://www.reddit.com/r/cybersecurity/comments/1xilac0/cve_intel_update_the_opensource_cve_triage_tool/)** - *(Reddit r/cybersecurity)*
+- **[CVE-2026-113951](https://www.cve.org/CVERecord?id=CVE-2026-113951)** - *(CVE.org)*
   Monitor developer tool vulnerabilities and supply chain risks.
 
-- **[CVE-2026-112330](https://nvd.nist.gov/vuln/detail/CVE-2026-112330)** - *(NVD)*
-  Review .NET runtime vulnerabilities and apply patches.
-
-- **[CVE-2026-112331](https://www.cve.org/CVERecord?id=CVE-2026-112331)** - *(CVE.org)*
-  Review .NET runtime vulnerabilities and apply patches.
-
-- **[CVE-2026-112332](https://www.cve.org/CVERecord?id=CVE-2026-112332)** - *(CVE.org)*
-  Review .NET runtime vulnerabilities and apply patches.
-
-- **[CVE-2026-115508](https://www.cve.org/CVERecord?id=CVE-2026-115508)** - *(CVE.org)*
-  Monitor developer tool vulnerabilities and supply chain risks.
-
-- **[Request are hitting my site from https://leakix.net/ Who are they ?](https://www.reddit.com/r/cybersecurity/comments/1xikl3v/request_are_hitting_my_site_from_httpsleakixnet/)** - *(Reddit r/cybersecurity)*
-  Review .NET runtime vulnerabilities and apply patches.
+## 🏗 Infrastructure
+- **[Custom PHP2Shell Exploit Chained with Kernel LPE to Root Versions of Palo Alto Networks PAN-OS Firewalls in the Wild](https://www.reddit.com/r/cybersecurity/comments/1xj0jec/custom_php2shell_exploit_chained_with_kernel_lpe/)** - *(Reddit r/cybersecurity)*
+  Review VPN client version and deployment.
 
 ## 🛡 Security Ops
 - **[Lessons from building AI vishing simulations: help desk resets are the soft spot. What have your vishing tests turned up?](https://www.reddit.com/r/cybersecurity/comments/1xily3g/lessons_from_building_ai_vishing_simulations_help/)** - *(Reddit r/cybersecurity)*
   Review CA/MFA settings for tightening opportunities.
 
+- **[M365 - Phishing email sent from user to user](https://www.reddit.com/r/cybersecurity/comments/1xj6cuj/m365_phishing_email_sent_from_user_to_user/)** - *(Reddit r/cybersecurity)*
+  Review CA/MFA settings for tightening opportunities. Review Office update channel health and security baseline compliance.
+
 ## 🛠 Infrastructure & Endpoint Control
-- **[Google Chrome getting a new feature that will reduce tab switching](https://www.neowin.net/news/google-chrome-getting-a-new-feature-that-will-reduce-tab-switching/?utm_source=rss)** - *(Neowin)*
-  Validate Chrome coverage; update managed package if needed.
-
-- **[Help analyzing a suspicious domain with conflicting TLS certificate information and 0 VirusTotal detections](https://www.reddit.com/r/cybersecurity/comments/1xik2ko/help_analyzing_a_suspicious_domain_with/)** - *(Reddit r/cybersecurity)*
-  Validate Chrome coverage; update managed package if needed.
-
-- **[Windows 11 KB5127936 gets a much needed Modern Standby hibernation improvement](https://www.neowin.net/news/windows-11-kb5127936-gets-a-much-needed-modern-standby-hibernation-improvement/?utm_source=rss)** - *(Neowin)*
+- **[APT Hackers Use NetamLoader Malware to Target Windows 10 Systems in Asian Governments](https://cybersecuritynews.com/netamloader-malware/)** - *(CybersecurityNews)*
   Validate workstation security baseline and update compliance.
 
-- **[Windows 11 updates KB5127936, KB5127653 pack enhancements for Admin Protection, WinRE, CLAT](https://www.neowin.net/news/windows-11-updates-kb5127936-kb5127653-pack-enhancements-for-admin-protection-winre-clat/?utm_source=rss)** - *(Neowin)*
+- **[CVE-2026-115570](https://nvd.nist.gov/vuln/detail/CVE-2026-115570)** - *(NVD)*
+  Validate Chrome coverage; update managed package if needed.
+
+- **[I checked the DMARC policies of 226 large European listed companies (Euro Stoxx 50, DAX, CAC 40, IBEX 35, FTSE 100): 48 of them can still be spoofed](https://www.reddit.com/r/cybersecurity/comments/1xjcdkf/i_checked_the_dmarc_policies_of_226_large/)** - *(Reddit r/cybersecurity)*
+  Review Office update channel health and security baseline compliance.
+
+- **[M365 - Phishing email sent from user to user](https://www.reddit.com/r/cybersecurity/comments/1xj6cuj/m365_phishing_email_sent_from_user_to_user/)** - *(Reddit r/cybersecurity)*
+  Review CA/MFA settings for tightening opportunities. Review Office update channel health and security baseline compliance.
+
+- **[Microsoft Edge getting a feature that will make launching the browser faster](https://www.neowin.net/news/microsoft-edge-getting-a-feature-that-will-make-launching-the-browser-faster/?utm_source=rss)** - *(Neowin)*
+  Validate Edge/WebView2 coverage; refresh managed package.
+
+- **[Microsoft rolls back a Windows 11 design change with latest build but says it's temporary](https://www.neowin.net/news/microsoft-rolls-back-a-windows-11-design-change-with-latest-build-but-says-its-temporary/?utm_source=rss)** - *(Neowin)*
   Validate workstation security baseline and update compliance.
+
+- **[New Windows 11 Future Platforms build adds privacy controls for individual apps ](https://www.neowin.net/news/new-windows-11-future-platforms-build-adds-privacy-controls-for-individual-apps/?utm_source=rss)** - *(Neowin)*
+  Validate workstation security baseline and update compliance.
+
+- **[New Windows 11 Insider builds bring more Search options and refresh AutoPlay](https://www.neowin.net/news/new-windows-11-insider-builds-bring-more-search-options-and-refresh-autoplay/?utm_source=rss)** - *(Neowin)*
+  Validate workstation security baseline and update compliance.
+
+- **[Rustc 1.99.0 Windows exe flagged as malicious](https://www.reddit.com/r/cybersecurity/comments/1xj8z6f/rustc_1990_windows_exe_flagged_as_malicious/)** - *(Reddit r/cybersecurity)*
+  Review security controls and policy updates.
+
+- **[Save 87% on a lifetime license to classic Microsoft Office 2021 suite](https://www.neowin.net/deals/save-87-on-a-lifetime-license-to-classic-microsoft-office-2021-suite/?utm_source=rss)** - *(Neowin)*
+  Review Office update channel health and security baseline compliance.
 
 - **[Windows Security gets major update for Insiders with modernized UX](https://www.neowin.net/news/windows-security-gets-major-update-for-insiders-with-modernized-ux/?utm_source=rss)** - *(Neowin)*
   Validate workstation security baseline and update compliance.
 
 ## 🔍 Quick Links (Watch Items)
+- [When Threats Don’t Wait, Security Can’t Either ](https://cybersecuritynews.com/when-threats-dont-wait-security-cant-either/) - *(CybersecurityNews)*
+- [Constantly needing to consult write-ups](https://www.reddit.com/r/cybersecurity/comments/1xjghjh/constantly_needing_to_consult_writeups/) - *(Reddit r/cybersecurity)*
+- [Critical Drupal Commerce Vulnerability Could Let Hackers Buy Products for Just $0.01](https://cybersecuritynews.com/critical-drupal-commerce-vulnerability/) - *(CybersecurityNews)*
+- [Hackers Exploit Passwordless Telnet to Infect Linux Devices With New Kairos DDoS Botnet](https://cybersecuritynews.com/hackers-exploit-passwordless-telnet/) - *(CybersecurityNews)*
+- [I checked the DMARC policies of 226 large European listed companies (Euro Stoxx 50, DAX, CAC 40, IBEX 35, FTSE 100): 48 of them can still be spoofed](https://www.reddit.com/r/cybersecurity/comments/1xjcdkf/i_checked_the_dmarc_policies_of_226_large/) - *(Reddit r/cybersecurity)*
+- [What topics should I learn for a career as a cybersecurity focused software engineer?](https://www.reddit.com/r/cybersecurity/comments/1xj8ef9/what_topics_should_i_learn_for_a_career_as_a/) - *(Reddit r/cybersecurity)*
+- [M365 - Phishing email sent from user to user](https://www.reddit.com/r/cybersecurity/comments/1xj6cuj/m365_phishing_email_sent_from_user_to_user/) - *(Reddit r/cybersecurity)*
+- [Security awareness training platforms that have worked well long term](https://www.reddit.com/r/cybersecurity/comments/1xj158d/security_awareness_training_platforms_that_have/) - *(Reddit r/cybersecurity)*
+- [Custom PHP2Shell Exploit Chained with Kernel LPE to Root Versions of Palo Alto Networks PAN-OS Firewalls in the Wild](https://www.reddit.com/r/cybersecurity/comments/1xj0jec/custom_php2shell_exploit_chained_with_kernel_lpe/) - *(Reddit r/cybersecurity)*
 - [Windows Security gets major update for Insiders with modernized UX](https://www.neowin.net/news/windows-security-gets-major-update-for-insiders-with-modernized-ux/?utm_source=rss) - *(Neowin)*
-- [Abliterated Models in Appsec Pentesting](https://www.reddit.com/r/cybersecurity/comments/1xio8ti/abliterated_models_in_appsec_pentesting/) - *(Reddit r/cybersecurity)*
-- [Hackers Leak Personal Data of 40,000 DHS Employees](https://www.reddit.com/r/cybersecurity/comments/1xio8jn/hackers_leak_personal_data_of_40000_dhs_employees/) - *(Reddit r/cybersecurity)*
-- [Lessons from building AI vishing simulations: help desk resets are the soft spot. What have your vishing tests turned up?](https://www.reddit.com/r/cybersecurity/comments/1xily3g/lessons_from_building_ai_vishing_simulations_help/) - *(Reddit r/cybersecurity)*
-- [CVE Intel update - The open-source CVE triage tool.](https://www.reddit.com/r/cybersecurity/comments/1xilac0/cve_intel_update_the_opensource_cve_triage_tool/) - *(Reddit r/cybersecurity)*
-- [TightVNC Viewer Pre-auth RCE](https://www.reddit.com/r/cybersecurity/comments/1xil3eh/tightvnc_viewer_preauth_rce/) - *(Reddit r/cybersecurity)*
-- [Help analyzing a suspicious domain with conflicting TLS certificate information and 0 VirusTotal detections](https://www.reddit.com/r/cybersecurity/comments/1xik2ko/help_analyzing_a_suspicious_domain_with/) - *(Reddit r/cybersecurity)*
-- [Hackers Exploit Critical Cisco SD-WAN 0-Day Flaw to Deploy KeyDrift Malware and Steal Encryption Keys](https://cybersecuritynews.com/critical-cisco-sd-wan-0-day-flaw/) - *(CybersecurityNews)*
-- [Chinese Hackers Use Secret Silent Train Network to Exploit Zero-Days Against U.S. Government and Defense](https://cybersecuritynews.com/chinese-hackers/) - *(CybersecurityNews)*
-- [[Academic Research] Looking for IT Folks with Ransomware Experience](https://www.reddit.com/r/cybersecurity/comments/1xij0xv/academic_research_looking_for_it_folks_with/) - *(Reddit r/cybersecurity)*
 
