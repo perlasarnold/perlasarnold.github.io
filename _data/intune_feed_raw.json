@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-29T17:17:28.271498+00:00",
-  "date": "2026-10-29",
+  "generated_utc": "2026-10-30T16:55:50.199132+00:00",
+  "date": "2026-10-30",
   "lookback_hours": 25,
   "source_status": [
     {
@@ -17,7 +17,7 @@
     {
       "name": "Microsoft Intune What's New",
       "status": "OK",
-      "count": 0
+      "count": 2
     },
     {
       "name": "Windows IT Pro Blog",
@@ -37,17 +37,17 @@
     {
       "name": "BleepingComputer",
       "status": "OK",
-      "count": 3
+      "count": 6
     },
     {
       "name": "Neowin",
       "status": "OK",
-      "count": 4
+      "count": 0
     },
     {
       "name": "The Hacker News",
       "status": "OK",
-      "count": 11
+      "count": 6
     },
     {
       "name": "Krebs on Security",
@@ -99,6 +99,69 @@
   "items": {
     "high_alert": [
       {
+        "fingerprint": "b36707bb8ce8",
+        "title": "Malicious Claude Code extension on Cursor planted SSH backdoors",
+        "link": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
+        "source": "BleepingComputer",
+        "published": "2026-10-30T14:36:54+00:00",
+        "summary": "A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for approximately 11 hours on October 29, exposing up to 5,000 developers to malware designed to install persistent SSH backdoors. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "18bfb82bab68",
+        "title": "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours",
+        "link": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
+        "source": "The Hacker News",
+        "published": "2026-10-30T14:08:14+00:00",
+        "summary": "Threat actors have been observed attempting to exploit a high-severity security flaw in WordPress Core shortly after patches were released. The vulnerability, which does not have a CVE identifier, relates to a case of remote code execution impacting WordPress Core versions 4.7 through 7.1.3. It carries a CVSS score of 8.1 on the CVSS scoring system. Patches for the flaw were released on October",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "873b783f4aa4",
+        "title": "CISA says max severity GitLab flaw now exploited in the wild",
+        "link": "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
+        "source": "BleepingComputer",
+        "published": "2026-10-30T13:00:32+00:00",
+        "summary": "Attackers have started exploiting a maximum-severity GitLab vulnerability patched earlier this month, according to the US Cybersecurity and Infrastructure Security Agency (CISA). [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "4e1a56f42e24",
+        "title": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
+        "link": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
+        "source": "The Hacker News",
+        "published": "2026-10-30T07:45:30+00:00",
+        "summary": "Drupal has warned that threat actors are exploiting a \"highly critical\" security flaw in its Commerce Core component. The vulnerability, tracked as CVE-2026-118539 (CVSS score: N/A), is a case of missing authorization affecting Commerce Core versions from 0.0.0 to 2.41 and from 3.0.0 to 3.3.13. \"This module enables you to sell goods and services to customers through an included shopping cart",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "f62f66eccf72",
+        "title": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
+        "link": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
+        "source": "The Hacker News",
+        "published": "2026-10-30T07:27:05+00:00",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Cisco and GitLab software to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-97229 (CVSS score: 10.0) - An integer overflow or wraparound vulnerability in GitLab Community Edition and Enterprise",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "0181f54950f1",
+        "title": "Hugging Face malware campaign returns to hijack GPUs for crypto mining",
+        "link": "https://www.bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining/",
+        "source": "BleepingComputer",
+        "published": "2026-10-29T22:09:24+00:00",
+        "summary": "A crypto-mining campaign abusing Hugging Face models returned days after takedown, hijacking GPU servers and planting backdoors, with one model downloaded over 28,000 times. Separately, a fake Solana starter kit on GitHub is positioned to trick AI coding agents into installing a NetSupport RAT. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "a3d98cc82a62",
+        "title": "Hackers exploit Cisco SD-WAN flaw to deploy custom KeyDrift malware",
+        "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/",
+        "source": "BleepingComputer",
+        "published": "2026-10-29T18:38:26+00:00",
+        "summary": "A newly identified advanced persistent threat (APT) group tracked as UAT-11473 was observed exploiting CVE-2026-20127, an authentication-bypass flaw in Cisco Catalyst SD-WAN Controllers, to deploy a custom malware framework called KeyDrift. [...]",
+        "category": "high_alert"
+      },
+      {
         "fingerprint": "3922aa174313",
         "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
         "link": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
@@ -106,174 +169,111 @@
         "published": "2026-10-29T15:57:05+00:00",
         "summary": "A flaw in the Linux kernel's TCP code, tracked as CVE-2026-98432, affects Ubuntu, Red Hat Enterprise Linux (RHEL), and other Linux distributions. The kernel's own CVE team rates it 9.8 out of 10 on the CVSS scale. Anthropic said on October 27 that its AI model wrote an exploit that uses the flaw to let a remote attacker with no credentials run commands as root on Linux servers with a",
         "category": "high_alert"
-      },
-      {
-        "fingerprint": "a63963777c2f",
-        "title": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
-        "link": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
-        "source": "The Hacker News",
-        "published": "2026-10-29T15:20:29+00:00",
-        "summary": "Threat actors are delivering malicious loaders and cryptocurrency miners under the guise of artificial intelligence (AI) desktop applications for Anthropic Claude and OpenAI ChatGPT as part of a campaign dubbed Yoba. The activity involves creating fake GitHub projects that claim to be desktop applications like GPT-5.6 Sol, GPT-6 Astra, and Claude Opus, only to deliver a malware family called",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "9ca768a268c1",
-        "title": "CISA warns of Fragnesia Linux flaw chained in PHP2Shell attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks/",
-        "source": "BleepingComputer",
-        "published": "2026-10-29T13:59:48+00:00",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies to patch a high-severity Linux kernel privilege escalation bug that attackers are chaining with the PHP2Shell flaws in the wild. [...]",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "0d36e5ac4af5",
-        "title": "New Cisco firewall zero-day exploited to crash SSL VPN devices",
-        "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/",
-        "source": "BleepingComputer",
-        "published": "2026-10-29T11:10:13+00:00",
-        "summary": "Cisco released security updates to patch a denial-of-service zero-day in Adaptive Security Appliance (ASA) and Threat Defense (FTD) software that attackers are exploiting to remotely crash vulnerable firewall devices. [...]",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "615dff535494",
-        "title": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
-        "link": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
-        "source": "The Hacker News",
-        "published": "2026-10-29T10:44:46+00:00",
-        "summary": "Cisco has released patches to address a high-severity security flaw in Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-76418, is rated 8.6 on the CVSS scoring system. Successful exploitation could allow an unauthenticated, remote attacker to cause the",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "fe26d8d54aa2",
-        "title": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
-        "link": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
-        "source": "The Hacker News",
-        "published": "2026-10-29T09:05:39+00:00",
-        "summary": "An attacker tried to exploit a critical GitLab vulnerability on the Alpine Linux project's own GitLab server a week after GitLab released a fix, Alpine Linux said on 28 October. The flaw, CVE-2026-97229 (CVSS score: 10.0), can let an attacker run code on a GitLab server through a crafted regular expression in a CI configuration. Alpine found no evidence that the attack worked but",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "46ab63411adb",
-        "title": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
-        "link": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
-        "source": "The Hacker News",
-        "published": "2026-10-29T08:24:22+00:00",
-        "summary": "Hackers exploited a critical Cisco Catalyst SD-WAN flaw, fixed in February, to plant custom malware inside the systems that control an organization's SD-WAN network. The malware, called KeyDrift, is designed to copy the keys that encrypt traffic between sites and store them for later use, Cisco Talos said on October 28. Talos calls the attacks historical but does not specify when they",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "0fc5af715ffb",
-        "title": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
-        "link": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
-        "source": "The Hacker News",
-        "published": "2026-10-29T06:22:33+00:00",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a security flaw impacting Broadcom VMware ESX to its Known Exploited Vulnerabilities (KEV) catalog, after CrowdStrike revealed that it had been weaponized by a China-nexus threat actor known as Warp Panda in attacks targeting the U.S. legal sector. The vulnerability in question is CVE-2026-41709 (CVSS score:",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "cfc14d2223cf",
-        "title": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
-        "link": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
-        "source": "The Hacker News",
-        "published": "2026-10-28T18:08:33+00:00",
-        "summary": "The China-nexus cyber espionage group known as Volt Typhoon has been attributed to a now-disrupted covert access network dubbed Silent Train that has been put to use for zero-day exploitation and strategic access. \"First identified in late 2023, Silent Train uses rotating chains of compromised SOHO, IoT, and enterprise infrastructure,\" Lumen Technologies Black Lotus Labs said in a report shared",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "eb831b43637f",
-        "title": "Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.",
-        "link": "https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html",
-        "source": "The Hacker News",
-        "published": "2026-10-28T17:08:09+00:00",
-        "summary": "Third-party Android app stores can now apply to Google for permission to install apps with one tap, without Android's usual confirmation screens, and to update them in the background. To qualify, a store must pass identity checks and send Google its full catalog, along with every new app and update, for ongoing malware scanning. Approved stores get the features from December 1, but only on",
-        "category": "high_alert"
       }
     ],
     "bad_updates": [],
     "upcoming_changes": [
       {
-        "fingerprint": "02e4b646130d",
-        "title": "Dynamics 365 Project Operations: Analyze project plans with what-if scenarios",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577864",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-28T23:04:31+00:00",
-        "summary": "What if scenario modeling enables you to simulate changes to a project plan and evaluate their impact before committing to them. Available for both Project Operations core and Project Operations connect with ERP deployment types, this capability can be enabled through Feature Control and allows you to: - Create and manage multiple versions of the Work Breakdown Structure (WBS). - Modify key pla...",
+        "fingerprint": "71363aab014e",
+        "title": "In development - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/whats-new/in-development",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-10-30T07:35:00+00:00",
+        "summary": "In development for Microsoft Intune Summarize this artic... Applies to: Windows Automate tasks with local actions on Android Enterprise devices Microsoft Intune will introduce local actions for Android Enterprise fully managed and dedicated devices. Applies to: Android Enterprise fully managed devices Android Enterprise dedicated devices View eSIM.",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "375b010cf050",
-        "title": "Dynamics 365 Contact Center: Use bullseye routing with user groups to orchestrate conversations",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=576606",
+        "fingerprint": "3e0c448ddeeb",
+        "title": "Dynamics 365 Supply Chain Management: Enable fulfillment optimization in Dynamics 365 Supply Chain Management",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577894",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-28T23:04:31+00:00",
-        "summary": "Bullseye routing with user groups enables a tiered assignment strategy that automatically expands the pool of eligible representatives as conversation wait time increases. Rather than assigning from a fixed pool or waiting for overflow rules to trigger, this approach progressively widens availability in concentric rings—starting with the best-fit representatives and expanding outward as needed....",
+        "published": "2026-10-29T23:01:00+00:00",
+        "summary": "Distributed order management (DOM) can now optimize fulfillment for standard sales orders in Dynamics 365 Supply Chain Management. Previously, DOM was available only for Dynamics 365 Commerce orders. Now you can use the same rules-based fulfillment engine to automatically choose the best site and warehouse for each sales order line, without depending on Commerce or retail configuration. This fe...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "edaf667e4847",
-        "title": "Microsoft Contact Center AI: Insights and quality",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=575290",
+        "fingerprint": "4c770e36c6f8",
+        "title": "Dynamics 365 Supply Chain Management: Check margins when overriding prices in Unified pricing management",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577867",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-28T23:04:31+00:00",
-        "summary": "Gain visibility into AI interactions, conversation trends, and customer engagement​ Measure self-service effectiveness through containment, escalations, transfers, and resolution outcomes​ Monitor operational health and proactively identify customer experience risks​ Uncover customer friction points and optimize journeys using conversation insights​ Improve AI quality and compliance with config...",
+        "published": "2026-10-29T23:01:00+00:00",
+        "summary": "Price override allows sales representatives to adjust the preset price of a product during a transaction—typically for business purposes such as customer negotiations and retention. Previously, price override validation only enforced amount-based thresholds, without evaluating how the override would impact profit margins. Unified pricing management now provides margin check capabilities for pri...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "2ca5bd8488fb",
-        "title": "Microsoft Contact Center Intelligence: Universal connector for self-service omnichannel agents",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=575278",
+        "fingerprint": "240a8eade37b",
+        "title": "Dynamics 365 Finance: Enhance positive pay file generation through batch processing",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577858",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-28T23:04:31+00:00",
-        "summary": "Bring Microsoft AI to the contact center platform of your choice with the Universal Connector. Organizations can now integrate Microsoft self-service voice and chat agents with virtually any contact center using a simple API-based approach. The Universal Connector enables seamless handoff from AI agents to human representatives while preserving the full conversation context, ensuring a connecte...",
+        "published": "2026-10-29T23:01:00+00:00",
+        "summary": "This feature improves the scalability and performance of positive pay file generation by enabling the process to run as a background batch job. Organizations that generate large positive pay files can now offload processing from the interactive user session, reducing the risk of timeouts and improving the overall user experience. The enhancement is designed to support high-volume check payment ...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "8ad1369f26d6",
-        "title": "Microsoft Contact Center Intelligence: Tools",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=575274",
+        "fingerprint": "d889903dd9cf",
+        "title": "Microsoft Copilot Studio: Copilot studio cost controls in MAC",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577834",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-28T23:04:31+00:00",
-        "summary": "Tools are building blocks that let your agent interact with external systems. Tools expand what your agent can do, and your agent can perform various actions in response to user requests or autonomous triggers. Each tool represents a specific capability that your agent can perform. For example, you can equip your agent with tools that perform tasks like: Send emails by using the Office 365 Outl...",
+        "published": "2026-10-29T23:01:00+00:00",
+        "summary": "We’re expanding cost management for Microsoft Copilot Studio into the Microsoft 365 admin center. This gives administrators a more centralized way to manage Copilot Credit spend across usage-based AI workloads while retaining Copilot Studio cost management capabilities in the Power Platform admin center. With this update, administrators can bring supported Copilot Studio environments and agents...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "fe081112fcb5",
-        "title": "Dynamics 365 Contact Center: Reroute conversations to the right queue automatically",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=575272",
+        "fingerprint": "26205a7d07d2",
+        "title": "Dynamics 365 Sustainability: Enhance external sustainability reporting",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577744",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-28T23:04:31+00:00",
-        "summary": "Service representatives can reroute a live voice or messaging conversation when they realize they aren't the right person to help. The representative updates the conversation details, or the details of a linked case, contact, or account, and then selects Reroute. The conversation goes back through classification and route-to-queue rules and is assigned to the right queue automatically, so repre...",
+        "published": "2026-10-29T23:01:00+00:00",
+        "summary": "This feature delivers enhancements to the external reporting experience with an improved standards and assessments structure and enhanced search capabilities. Users can navigate standards, assessments, and concepts more efficiently, reducing time spent locating and managing reporting content across complex disclosures. New dimension visualizations provide clearer insight into the context of rep...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "bf95bb931a12",
-        "title": "Dynamics 365 Contact Center: Historical analytics",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=574113",
+        "fingerprint": "d05d72d321e1",
+        "title": "Microsoft Viva: Network analytics enhancements",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=576274",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-28T23:04:31+00:00",
-        "summary": "Contact Center historical analytics provides out-of-box historical reporting for Dynamics 365 Contact Center, built on a shared analytics foundation. It moves reporting from heavier workload-specific Power BI models toward a shared analytics foundation with conformed facts, shared dimensions, pre-built aggregations, and common definitions across conversations, sessions, agents, queues, channels...",
+        "published": "2026-10-29T23:01:00+00:00",
+        "summary": "Network analytics updates are rolling out in Microsoft Viva Engage, giving corporate communicators and network admins more flexibility to analyze activity and engagement across their organization. With this update, network analytics includes custom date ranges, faster activity data refreshes, updated dashboard and metric table designs, expanded organizational filters with search, and new people...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "30a09f1b9ffc",
-        "title": "Dynamics 365 Customer Service: Shared analytics for historical reporting",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=574112",
+        "fingerprint": "5d2f43cd29d1",
+        "title": "Microsoft Contact Center Intelligence:  Biometric authentication",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=575280",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-28T23:04:31+00:00",
+        "published": "2026-10-29T23:01:00+00:00",
+        "summary": "Voice biometric authentication delivers business value by reducing fraud and agent operating costs in contact centers. Voice-based verification improves identity assurance shortens call durations reduces customer service rep effort and enable secure self-service transactions. At the same time, it improves customer experience and scalability by authenticating callers naturally as they speak. Thi...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "48ed9925f105",
+        "title": "Dynamics 365 Customer Service: Shared analytics foundation for historical reporting",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=574114",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-10-29T23:01:00+00:00",
         "summary": "Dynamics 365 Customer Service provides out-of-the-box historical reporting built on a shared analytics foundation: a scalable, open, and AI-ready data foundation for Customer Experience and AI analytics scenarios across Dynamics 365. It uses a lakehouse-based architecture that can scale with data volume, supports curated analytics datasets for direct querying, and enables consistent reporting a...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "2b5e13a738df",
-        "title": "Dynamics 365 Business Central: Expense Agent mobile app",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573265",
+        "fingerprint": "b5c9f28f8067",
+        "title": "Dynamics 365 Business Central: Expense Agent - Create expenses from credit card feeds",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573256",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-10-28T23:04:31+00:00",
-        "summary": "The Expense Agent mobile app for Dynamics 365 Business Central extends expense capture to iOS and Android mobile devices by enabling employees to submit receipts directly from their phone or using native share functionality. Employees can take a photo of a receipt with their phone camera or select an existing image or document, and share it with Expense Agent mobile app. They can also capture m...",
+        "published": "2026-10-29T23:01:00+00:00",
+        "summary": "Expense Agent now supports creating expenses from imported credit card transaction feeds or automatically reconcile with them if the expense was created earlier. Key capabilities include: Import credit card transaction data and review it in the web and mobile apps. Automatically create expenses from imported card transactions. Match imported transactions to existing expenses, where applicable. ...",
         "category": "upcoming_changes"
       }
     ],
     "official_news": [
+      {
+        "fingerprint": "489ae0073ab6",
+        "title": "Enrollment for Microsoft Entra hybrid joined devices - Windows Autopilot",
+        "link": "https://learn.microsoft.com/en-us/autopilot/windows-autopilot-hybrid",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-10-29T17:35:00+00:00",
+        "summary": "Deploy Microsoft Entra hybrid joined devices by using Intune and Windows Autopilot Summarize this article for me In this article Important Microsoft recommends deploying new devices as cloud-native using Microsoft Entra join. Intune and Windows Autopilot can be used to set up Microsoft Entra hybrid joined devices. Install the Intune Connector for.",
+        "category": "official_news"
+      },
       {
         "fingerprint": "5e41ac4613f3",
         "title": "Tracking AI adoption in North Korean threat actor tradecraft",
@@ -295,75 +295,39 @@
     ],
     "community_buzz": [
       {
-        "fingerprint": "82d7d1c06781",
-        "title": "Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities",
-        "link": "https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
+        "fingerprint": "a5584a06bf07",
+        "title": "TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them",
+        "link": "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
         "source": "The Hacker News",
-        "published": "2026-10-29T13:42:40+00:00",
-        "summary": "Google on Wednesday took the wraps off Gemini 4 Carbon, its latest frontier model with state-of-the-art cybersecurity and long-horizon capabilities. \"It shows significant gains across coding and agentic tasks as well as across key capabilities critical for cybersecurity defense, landing a firm lead in SEC-bench Pro (88.2%) for finding vulnerabilities, ExploitGym (54.8%) for exploitation, and",
+        "published": "2026-10-30T15:17:28+00:00",
+        "summary": "TeamViewer has fixed a flaw that lets the machine being controlled in a remote session attack the computer that connected to control it. In a TeamViewer session, the computer that connects and takes control is the viewer, and the machine it controls is the host. A malicious or compromised host can exploit the flaw to crash the viewer's TeamViewer and, depending on the platform, may also run",
         "category": "community_buzz"
       },
       {
-        "fingerprint": "44a686ba0c1f",
-        "title": "Windows 11 KB5127936 gets a much needed Modern Standby hibernation improvement",
-        "link": "https://www.neowin.net/news/windows-11-kb5127936-gets-a-much-needed-modern-standby-hibernation-improvement/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-10-29T13:12:01+00:00",
-        "summary": "Windows 11's latest KB5127936 update delivers a a rather useful Modern Standby hibernation upgrade for a smarter, more reliable wake experience. Read more...",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "68557b0fa584",
-        "title": "Windows 11 KB5127936 update released with 41 changes and fixes",
-        "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127936-update-released-with-41-changes-and-fixes/",
+        "fingerprint": "730448751e01",
+        "title": "SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone",
+        "link": "https://www.bleepingcomputer.com/news/security/ss7-and-diameter-attacks-how-signaling-flaws-expose-your-phone/",
         "source": "BleepingComputer",
-        "published": "2026-10-29T12:00:07+00:00",
-        "summary": "Microsoft released the KB5127936 preview cumulative update for Windows 11 versions 25H2 and 26H2, with 41 changes, including File Explorer and Cloud rebuild improvements. [...]",
+        "published": "2026-10-30T14:00:10+00:00",
+        "summary": "Flaws in SS7 and Diameter signaling protocols can allow attackers to track phone locations, intercept calls and SMS verification codes, and impersonate subscribers without compromising their devices. Cape explains how these attacks exploit trust between networks and how its security-focused mobile service helps defend against them. [...]",
         "category": "community_buzz"
       },
       {
-        "fingerprint": "b9764db17500",
-        "title": "Webinar: How to Build AI Threat Readiness Into Your Security Operations",
-        "link": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
+        "fingerprint": "a189753468c3",
+        "title": "Drupal warns of critical Commerce Core flaw exploited in attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
+        "source": "BleepingComputer",
+        "published": "2026-10-30T10:16:07+00:00",
+        "summary": "Drupal warned admins to patch a critical access bypass vulnerability in the Commerce Core module that attackers are exploiting in the wild. [...]",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "39b39cb70588",
+        "title": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
+        "link": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
         "source": "The Hacker News",
-        "published": "2026-10-29T11:39:41+00:00",
-        "summary": "Security teams have spent years trying to detect threats faster. AI is changing the harder part: how much time defenders have left to act. Advanced AI models can now help attackers discover vulnerabilities, generate exploit code, and move through weaknesses faster than traditional security processes were built to handle. The challenge is no longer just finding another vulnerability or",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "1389ea60343a",
-        "title": "Windows 11 updates KB5127936, KB5127653 pack enhancements for Admin Protection, WinRE, CLAT",
-        "link": "https://www.neowin.net/news/windows-11-updates-kb5127936-kb5127653-pack-enhancements-for-admin-protection-winre-clat/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-10-29T07:54:01+00:00",
-        "summary": "Windows 11's latest preview updates bring several long-awaited capabilities like Cloud Rebuild, CLAT, and WinRE saved Wi-Fi profiles for IT admins, but some features won't reach everyone just yet. Read more...",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "015b9ee56a16",
-        "title": "Attackers Exploit PHP2Shell Flaws in Internet-Exposed Palo Alto Networks Management Interfaces",
-        "link": "https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
-        "source": "The Hacker News",
-        "published": "2026-10-29T05:50:17+00:00",
-        "summary": "Palo Alto Networks on Wednesday warned that threat actors are exploiting the recently patched PHP2Shell vulnerabilities against publicly-accessible management interfaces. \"Active exploitation has been observed targeting the Palo Alto Networks management interface exposed to the internet,\" the network security company said in an update to its advisory. The vulnerabilities, tracked as",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "a62b71d6da76",
-        "title": "KB5127653 preview update now out for Windows 11 version 26H1 with tons of enhancements",
-        "link": "https://www.neowin.net/news/kb5127653-preview-update-now-out-for-windows-11-version-26h1-with-tons-of-enhancements/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-10-28T19:18:01+00:00",
-        "summary": "Windows 11 26H1 is getting a substantial preview update packed with handy features, interface refinements, and fixes that could make everyday PC use smoother. Read more...",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "7b14dc63aa2a",
-        "title": "Windows 11 26H2, 25H2 get very long list of new features in KB5127936 preview update",
-        "link": "https://www.neowin.net/news/windows-11-26h2-25h2-get-very-long-list-of-new-features-in-kb5127936-preview-update/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-10-28T18:46:33+00:00",
-        "summary": "Microsoft's latest Windows 11 preview update packs plenty of useful changes, bringing new features and improvements that users won't want to miss. Read more...",
+        "published": "2026-10-30T08:55:47+00:00",
+        "summary": "Cybersecurity researchers have disclosed that a trojanized version of Anthropic's official Claude Code extension was distributed through the Cursor Marketplace as a legitimate update, attempting to install a persistent SSH backdoor on affected systems. The malicious update, version 2.1.313, was distributed under the extension's legitimate publisher identity, prompting Cursor to temporarily shut",
         "category": "community_buzz"
       }
     ]
