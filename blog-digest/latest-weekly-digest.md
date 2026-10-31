@@ -1,48 +1,31 @@
-# Security Digest - October 30, 2026
+# Security Digest - October 31, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
 
-- **Generated (UTC):** 2026-10-30 18:56:00 +00:00
+- **Generated (UTC):** 2026-10-31 18:05:01 +00:00
 - **Lookback window:** 7 days
 
 ## 🚀 Top Research & Advisories
 - *No high-priority security research detected in this window.*
-## 💻 AppSec
-- **[Any news about Zero2Automated beginner course and @0verfl0w_?](https://www.reddit.com/r/cybersecurity/comments/1xjahrd/any_news_about_zero2automated_beginner_course_and/)** - *(Reddit r/cybersecurity)*
-  Review .NET runtime vulnerabilities and apply patches.
-
-- **[CVE-2026-113951](https://www.cve.org/CVERecord?id=CVE-2026-113951)** - *(CVE.org)*
-  Monitor developer tool vulnerabilities and supply chain risks.
-
-## 🏗 Infrastructure
-- **[Custom PHP2Shell Exploit Chained with Kernel LPE to Root Versions of Palo Alto Networks PAN-OS Firewalls in the Wild](https://www.reddit.com/r/cybersecurity/comments/1xj0jec/custom_php2shell_exploit_chained_with_kernel_lpe/)** - *(Reddit r/cybersecurity)*
-  Review VPN client version and deployment.
-
 ## 🛡 Security Ops
-- **[Lessons from building AI vishing simulations: help desk resets are the soft spot. What have your vishing tests turned up?](https://www.reddit.com/r/cybersecurity/comments/1xily3g/lessons_from_building_ai_vishing_simulations_help/)** - *(Reddit r/cybersecurity)*
+- **[Cloud security: Your provider’s infrastructure isn’t your security strategy](https://www.reddit.com/r/cybersecurity/comments/1xjuxy9/cloud_security_your_providers_infrastructure_isnt/)** - *(Reddit r/cybersecurity)*
   Review CA/MFA settings for tightening opportunities.
-
-- **[M365 - Phishing email sent from user to user](https://www.reddit.com/r/cybersecurity/comments/1xj6cuj/m365_phishing_email_sent_from_user_to_user/)** - *(Reddit r/cybersecurity)*
-  Review CA/MFA settings for tightening opportunities. Review Office update channel health and security baseline compliance.
 
 ## 🛠 Infrastructure & Endpoint Control
 - **[APT Hackers Use NetamLoader Malware to Target Windows 10 Systems in Asian Governments](https://cybersecuritynews.com/netamloader-malware/)** - *(CybersecurityNews)*
   Validate workstation security baseline and update compliance.
 
-- **[CVE-2026-115570](https://nvd.nist.gov/vuln/detail/CVE-2026-115570)** - *(NVD)*
-  Validate Chrome coverage; update managed package if needed.
-
-- **[I checked the DMARC policies of 226 large European listed companies (Euro Stoxx 50, DAX, CAC 40, IBEX 35, FTSE 100): 48 of them can still be spoofed](https://www.reddit.com/r/cybersecurity/comments/1xjcdkf/i_checked_the_dmarc_policies_of_226_large/)** - *(Reddit r/cybersecurity)*
-  Review Office update channel health and security baseline compliance.
-
-- **[M365 - Phishing email sent from user to user](https://www.reddit.com/r/cybersecurity/comments/1xj6cuj/m365_phishing_email_sent_from_user_to_user/)** - *(Reddit r/cybersecurity)*
-  Review CA/MFA settings for tightening opportunities. Review Office update channel health and security baseline compliance.
-
-- **[Microsoft Edge getting a feature that will make launching the browser faster](https://www.neowin.net/news/microsoft-edge-getting-a-feature-that-will-make-launching-the-browser-faster/?utm_source=rss)** - *(Neowin)*
-  Validate Edge/WebView2 coverage; refresh managed package.
+- **[Claude Code helped me hunt ScreenConnect abuse. Two signed clients were on the same host.](https://www.reddit.com/r/cybersecurity/comments/1xk9v3z/claude_code_helped_me_hunt_screenconnect_abuse/)** - *(Reddit r/cybersecurity)*
+  Review security controls and policy updates.
 
 - **[Microsoft rolls back a Windows 11 design change with latest build but says it's temporary](https://www.neowin.net/news/microsoft-rolls-back-a-windows-11-design-change-with-latest-build-but-says-its-temporary/?utm_source=rss)** - *(Neowin)*
   Validate workstation security baseline and update compliance.
+
+- **[Microsoft Weekly: Windows 11 Preview updates, Elder Scrolls VI name, and more](https://www.neowin.net/news/microsoft-weekly-windows-11-preview-updates-elder-scrolls-vi-name-and-more/?utm_source=rss)** - *(Neowin)*
+  Validate workstation security baseline and update compliance.
+
+- **[Microsoft will soon allow organizations to auto-launch Edge on Windows startup](https://www.neowin.net/news/microsoft-will-soon-allow-organizations-to-auto-launch-edge-on-windows-startup/?utm_source=rss)** - *(Neowin)*
+  Validate Edge/WebView2 coverage; refresh managed package.
 
 - **[New Windows 11 Future Platforms build adds privacy controls for individual apps ](https://www.neowin.net/news/new-windows-11-future-platforms-build-adds-privacy-controls-for-individual-apps/?utm_source=rss)** - *(Neowin)*
   Validate workstation security baseline and update compliance.
@@ -50,24 +33,18 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - **[New Windows 11 Insider builds bring more Search options and refresh AutoPlay](https://www.neowin.net/news/new-windows-11-insider-builds-bring-more-search-options-and-refresh-autoplay/?utm_source=rss)** - *(Neowin)*
   Validate workstation security baseline and update compliance.
 
-- **[Rustc 1.99.0 Windows exe flagged as malicious](https://www.reddit.com/r/cybersecurity/comments/1xj8z6f/rustc_1990_windows_exe_flagged_as_malicious/)** - *(Reddit r/cybersecurity)*
-  Review security controls and policy updates.
-
 - **[Save 87% on a lifetime license to classic Microsoft Office 2021 suite](https://www.neowin.net/deals/save-87-on-a-lifetime-license-to-classic-microsoft-office-2021-suite/?utm_source=rss)** - *(Neowin)*
   Review Office update channel health and security baseline compliance.
 
-- **[Windows Security gets major update for Insiders with modernized UX](https://www.neowin.net/news/windows-security-gets-major-update-for-insiders-with-modernized-ux/?utm_source=rss)** - *(Neowin)*
-  Validate workstation security baseline and update compliance.
-
 ## 🔍 Quick Links (Watch Items)
-- [When Threats Don’t Wait, Security Can’t Either ](https://cybersecuritynews.com/when-threats-dont-wait-security-cant-either/) - *(CybersecurityNews)*
-- [Constantly needing to consult write-ups](https://www.reddit.com/r/cybersecurity/comments/1xjghjh/constantly_needing_to_consult_writeups/) - *(Reddit r/cybersecurity)*
-- [Critical Drupal Commerce Vulnerability Could Let Hackers Buy Products for Just $0.01](https://cybersecuritynews.com/critical-drupal-commerce-vulnerability/) - *(CybersecurityNews)*
-- [Hackers Exploit Passwordless Telnet to Infect Linux Devices With New Kairos DDoS Botnet](https://cybersecuritynews.com/hackers-exploit-passwordless-telnet/) - *(CybersecurityNews)*
-- [I checked the DMARC policies of 226 large European listed companies (Euro Stoxx 50, DAX, CAC 40, IBEX 35, FTSE 100): 48 of them can still be spoofed](https://www.reddit.com/r/cybersecurity/comments/1xjcdkf/i_checked_the_dmarc_policies_of_226_large/) - *(Reddit r/cybersecurity)*
-- [What topics should I learn for a career as a cybersecurity focused software engineer?](https://www.reddit.com/r/cybersecurity/comments/1xj8ef9/what_topics_should_i_learn_for_a_career_as_a/) - *(Reddit r/cybersecurity)*
-- [M365 - Phishing email sent from user to user](https://www.reddit.com/r/cybersecurity/comments/1xj6cuj/m365_phishing_email_sent_from_user_to_user/) - *(Reddit r/cybersecurity)*
-- [Security awareness training platforms that have worked well long term](https://www.reddit.com/r/cybersecurity/comments/1xj158d/security_awareness_training_platforms_that_have/) - *(Reddit r/cybersecurity)*
-- [Custom PHP2Shell Exploit Chained with Kernel LPE to Root Versions of Palo Alto Networks PAN-OS Firewalls in the Wild](https://www.reddit.com/r/cybersecurity/comments/1xj0jec/custom_php2shell_exploit_chained_with_kernel_lpe/) - *(Reddit r/cybersecurity)*
-- [Windows Security gets major update for Insiders with modernized UX](https://www.neowin.net/news/windows-security-gets-major-update-for-insiders-with-modernized-ux/?utm_source=rss) - *(Neowin)*
+- [How to write Security Scripts ?](https://www.reddit.com/r/cybersecurity/comments/1xkgzr4/how_to_write_security_scripts/) - *(Reddit r/cybersecurity)*
+- [Inside a malicious Claude Code-branded extension and its persistent SSH backdoor | Microsoft Security Blog](https://www.reddit.com/r/cybersecurity/comments/1xkdwm8/inside_a_malicious_claude_codebranded_extension/) - *(Reddit r/cybersecurity)*
+- [Am I qualified for a SOC analyst?](https://www.reddit.com/r/cybersecurity/comments/1xk50v1/am_i_qualified_for_a_soc_analyst/) - *(Reddit r/cybersecurity)*
+- [Over 60,000 Attacks Target WordPress RCE Vulnerability Within 24 Hours](https://cybersecuritynews.com/60000-attacks-targeting-wordpress/) - *(CybersecurityNews)*
+- [TeamViewer Security Flaw Could Turn Remote Support Sessions Into Computer Takeovers](https://cybersecuritynews.com/teamviewer-security-flaw/) - *(CybersecurityNews)*
+- [Shivay Lamba on X: "And now @NVIDIAAI Brev also got a security breach. At this point in time, every major tech](https://www.reddit.com/r/cybersecurity/comments/1xjv8y4/shivay_lamba_on_x_and_now_nvidiaai_brev_also_got/) - *(Reddit r/cybersecurity)*
+- [Cloud security: Your provider’s infrastructure isn’t your security strategy](https://www.reddit.com/r/cybersecurity/comments/1xjuxy9/cloud_security_your_providers_infrastructure_isnt/) - *(Reddit r/cybersecurity)*
+- [Are the days over for “passionately” finding bugs and CVEs?](https://www.reddit.com/r/cybersecurity/comments/1xjtkli/are_the_days_over_for_passionately_finding_bugs/) - *(Reddit r/cybersecurity)*
+- [Title: SOC Analysts and Security Engineers: What's the biggest problem in your daily security operations?](https://www.reddit.com/r/cybersecurity/comments/1xjryai/title_soc_analysts_and_security_engineers_whats/) - *(Reddit r/cybersecurity)*
+- [How are people using LLMs and AI coding agents for cyberattacks?](https://www.reddit.com/r/cybersecurity/comments/1xjpet9/how_are_people_using_llms_and_ai_coding_agents/) - *(Reddit r/cybersecurity)*
 
