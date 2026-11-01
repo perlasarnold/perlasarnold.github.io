@@ -1,24 +1,27 @@
-# Security Digest - October 31, 2026
+# Security Digest - November 1, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
 
-- **Generated (UTC):** 2026-10-31 18:05:01 +00:00
+- **Generated (UTC):** 2026-11-01 18:41:20 +00:00
 - **Lookback window:** 7 days
 
 ## 🚀 Top Research & Advisories
 - *No high-priority security research detected in this window.*
-## 🛡 Security Ops
-- **[Cloud security: Your provider’s infrastructure isn’t your security strategy](https://www.reddit.com/r/cybersecurity/comments/1xjuxy9/cloud_security_your_providers_infrastructure_isnt/)** - *(Reddit r/cybersecurity)*
-  Review CA/MFA settings for tightening opportunities.
+## 💻 AppSec
+- **[CVE-2026-116102](https://www.cve.org/CVERecord?id=CVE-2026-116102)** - *(CVE.org)*
+  Monitor developer tool vulnerabilities and supply chain risks.
 
 ## 🛠 Infrastructure & Endpoint Control
-- **[APT Hackers Use NetamLoader Malware to Target Windows 10 Systems in Asian Governments](https://cybersecuritynews.com/netamloader-malware/)** - *(CybersecurityNews)*
+- **[Developer makes Windows 11 26H2 work on insanely low 128MB RAM](https://www.neowin.net/news/developer-makes-windows-11-26h2-work-on-insanely-low-128mb-ram/?utm_source=rss)** - *(Neowin)*
   Validate workstation security baseline and update compliance.
 
-- **[Claude Code helped me hunt ScreenConnect abuse. Two signed clients were on the same host.](https://www.reddit.com/r/cybersecurity/comments/1xk9v3z/claude_code_helped_me_hunt_screenconnect_abuse/)** - *(Reddit r/cybersecurity)*
+- **[How do you integrate threat intelligence in your SIEM?](https://www.reddit.com/r/cybersecurity/comments/1xkiumv/how_do_you_integrate_threat_intelligence_in_your/)** - *(Reddit r/cybersecurity)*
   Review security controls and policy updates.
 
-- **[Microsoft rolls back a Windows 11 design change with latest build but says it's temporary](https://www.neowin.net/news/microsoft-rolls-back-a-windows-11-design-change-with-latest-build-but-says-its-temporary/?utm_source=rss)** - *(Neowin)*
+- **[How to customize the redesigned context menu in Windows 11](https://www.neowin.net/guides/how-to-customize-the-redesigned-context-menu-in-windows-11/?utm_source=rss)** - *(Neowin)*
+  Validate workstation security baseline and update compliance.
+
+- **[Microsoft confirms supported Windows 10 PCs can now directly update to Windows 11 26H2](https://www.neowin.net/news/microsoft-confirms-supported-windows-10-pcs-can-now-directly-update-to-windows-11-26h2/?utm_source=rss)** - *(Neowin)*
   Validate workstation security baseline and update compliance.
 
 - **[Microsoft Weekly: Windows 11 Preview updates, Elder Scrolls VI name, and more](https://www.neowin.net/news/microsoft-weekly-windows-11-preview-updates-elder-scrolls-vi-name-and-more/?utm_source=rss)** - *(Neowin)*
@@ -30,21 +33,15 @@ Daily security intelligence briefing for infrastructure and endpoint management 
 - **[New Windows 11 Future Platforms build adds privacy controls for individual apps ](https://www.neowin.net/news/new-windows-11-future-platforms-build-adds-privacy-controls-for-individual-apps/?utm_source=rss)** - *(Neowin)*
   Validate workstation security baseline and update compliance.
 
-- **[New Windows 11 Insider builds bring more Search options and refresh AutoPlay](https://www.neowin.net/news/new-windows-11-insider-builds-bring-more-search-options-and-refresh-autoplay/?utm_source=rss)** - *(Neowin)*
-  Validate workstation security baseline and update compliance.
-
-- **[Save 87% on a lifetime license to classic Microsoft Office 2021 suite](https://www.neowin.net/deals/save-87-on-a-lifetime-license-to-classic-microsoft-office-2021-suite/?utm_source=rss)** - *(Neowin)*
-  Review Office update channel health and security baseline compliance.
-
 ## 🔍 Quick Links (Watch Items)
-- [How to write Security Scripts ?](https://www.reddit.com/r/cybersecurity/comments/1xkgzr4/how_to_write_security_scripts/) - *(Reddit r/cybersecurity)*
-- [Inside a malicious Claude Code-branded extension and its persistent SSH backdoor | Microsoft Security Blog](https://www.reddit.com/r/cybersecurity/comments/1xkdwm8/inside_a_malicious_claude_codebranded_extension/) - *(Reddit r/cybersecurity)*
-- [Am I qualified for a SOC analyst?](https://www.reddit.com/r/cybersecurity/comments/1xk50v1/am_i_qualified_for_a_soc_analyst/) - *(Reddit r/cybersecurity)*
-- [Over 60,000 Attacks Target WordPress RCE Vulnerability Within 24 Hours](https://cybersecuritynews.com/60000-attacks-targeting-wordpress/) - *(CybersecurityNews)*
-- [TeamViewer Security Flaw Could Turn Remote Support Sessions Into Computer Takeovers](https://cybersecuritynews.com/teamviewer-security-flaw/) - *(CybersecurityNews)*
-- [Shivay Lamba on X: "And now @NVIDIAAI Brev also got a security breach. At this point in time, every major tech](https://www.reddit.com/r/cybersecurity/comments/1xjv8y4/shivay_lamba_on_x_and_now_nvidiaai_brev_also_got/) - *(Reddit r/cybersecurity)*
-- [Cloud security: Your provider’s infrastructure isn’t your security strategy](https://www.reddit.com/r/cybersecurity/comments/1xjuxy9/cloud_security_your_providers_infrastructure_isnt/) - *(Reddit r/cybersecurity)*
-- [Are the days over for “passionately” finding bugs and CVEs?](https://www.reddit.com/r/cybersecurity/comments/1xjtkli/are_the_days_over_for_passionately_finding_bugs/) - *(Reddit r/cybersecurity)*
-- [Title: SOC Analysts and Security Engineers: What's the biggest problem in your daily security operations?](https://www.reddit.com/r/cybersecurity/comments/1xjryai/title_soc_analysts_and_security_engineers_whats/) - *(Reddit r/cybersecurity)*
-- [How are people using LLMs and AI coding agents for cyberattacks?](https://www.reddit.com/r/cybersecurity/comments/1xjpet9/how_are_people_using_llms_and_ai_coding_agents/) - *(Reddit r/cybersecurity)*
+- [Using AI to help with GRC tasks - do prompt structures matter?](https://www.reddit.com/r/cybersecurity/comments/1xl7pu6/using_ai_to_help_with_grc_tasks_do_prompt/) - *(Reddit r/cybersecurity)*
+- [NIST Now Scores Only A Fraction Of New CVEs, And Your Risk Tools May Not Know](https://www.reddit.com/r/cybersecurity/comments/1xl76fy/nist_now_scores_only_a_fraction_of_new_cves_and/) - *(Reddit r/cybersecurity)*
+- [Open-Source Contribution Vibes](https://www.reddit.com/r/cybersecurity/comments/1xkzzpu/opensource_contribution_vibes/) - *(Reddit r/cybersecurity)*
+- [Change management workflow ITSM](https://www.reddit.com/r/cybersecurity/comments/1xkzl6z/change_management_workflow_itsm/) - *(Reddit r/cybersecurity)*
+- [Rustproxy Alternative for burp in performance](https://www.reddit.com/r/cybersecurity/comments/1xkw1ao/rustproxy_alternative_for_burp_in_performance/) - *(Reddit r/cybersecurity)*
+- [6 Years in Cybersecurity, but Rejected by Almost Every GRC Job I Apply For. What Am I Missing?🥺☹️](https://www.reddit.com/r/cybersecurity/comments/1xkuv55/6_years_in_cybersecurity_but_rejected_by_almost/) - *(Reddit r/cybersecurity)*
+- [Loss of interest in the field](https://www.reddit.com/r/cybersecurity/comments/1xkt6kq/loss_of_interest_in_the_field/) - *(Reddit r/cybersecurity)*
+- [Does AI make cryptocurrency security impossible?](https://www.reddit.com/r/cybersecurity/comments/1xkpzz9/does_ai_make_cryptocurrency_security_impossible/) - *(Reddit r/cybersecurity)*
+- [Commerce Core - Highly critical - Access bypass - SA-CONTRIB-2026-254](https://www.reddit.com/r/cybersecurity/comments/1xknrsz/commerce_core_highly_critical_access_bypass/) - *(Reddit r/cybersecurity)*
+- [I feel like three or more of the bigger sites / apps I am on have currently suffered some sort of security breach in the last week or two. How comes?](https://www.reddit.com/r/cybersecurity/comments/1xknqcc/i_feel_like_three_or_more_of_the_bigger_sites/) - *(Reddit r/cybersecurity)*
 
