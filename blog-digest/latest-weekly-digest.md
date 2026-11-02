@@ -1,47 +1,57 @@
-# Security Digest - November 1, 2026
+# Security Digest - November 2, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
 
-- **Generated (UTC):** 2026-11-01 18:41:20 +00:00
+- **Generated (UTC):** 2026-11-02 22:31:59 +00:00
 - **Lookback window:** 7 days
 
 ## 🚀 Top Research & Advisories
 - *No high-priority security research detected in this window.*
-## 💻 AppSec
-- **[CVE-2026-116102](https://www.cve.org/CVERecord?id=CVE-2026-116102)** - *(CVE.org)*
-  Monitor developer tool vulnerabilities and supply chain risks.
+## 🏗 Infrastructure
+- **[GoAhead vulnerability - the number 4 strikes again](https://www.reddit.com/r/cybersecurity/comments/1xm69gm/goahead_vulnerability_the_number_4_strikes_again/)** - *(Reddit r/cybersecurity)*
+  Review VPN client version and deployment.
+
+- **[Guardz Brings Palo Alto Networks Prisma Browser Protection to Small Businesses](https://cybersecuritynews.com/guardz-brings-palo-alto-networks-prisma-browser-protection-to-small-businesses/)** - *(CybersecurityNews)*
+  Review VPN client version and deployment.
+
+- **[PHP2Shell Investigation Identifies Palo Alto Firewall Compromises](https://www.reddit.com/r/cybersecurity/comments/1xm6qsz/php2shell_investigation_identifies_palo_alto/)** - *(Reddit r/cybersecurity)*
+  Review security controls and policy updates. Review VPN client version and deployment.
 
 ## 🛠 Infrastructure & Endpoint Control
-- **[Developer makes Windows 11 26H2 work on insanely low 128MB RAM](https://www.neowin.net/news/developer-makes-windows-11-26h2-work-on-insanely-low-128mb-ram/?utm_source=rss)** - *(Neowin)*
-  Validate workstation security baseline and update compliance.
-
-- **[How do you integrate threat intelligence in your SIEM?](https://www.reddit.com/r/cybersecurity/comments/1xkiumv/how_do_you_integrate_threat_intelligence_in_your/)** - *(Reddit r/cybersecurity)*
-  Review security controls and policy updates.
-
 - **[How to customize the redesigned context menu in Windows 11](https://www.neowin.net/guides/how-to-customize-the-redesigned-context-menu-in-windows-11/?utm_source=rss)** - *(Neowin)*
   Validate workstation security baseline and update compliance.
 
 - **[Microsoft confirms supported Windows 10 PCs can now directly update to Windows 11 26H2](https://www.neowin.net/news/microsoft-confirms-supported-windows-10-pcs-can-now-directly-update-to-windows-11-26h2/?utm_source=rss)** - *(Neowin)*
   Validate workstation security baseline and update compliance.
 
-- **[Microsoft Weekly: Windows 11 Preview updates, Elder Scrolls VI name, and more](https://www.neowin.net/news/microsoft-weekly-windows-11-preview-updates-elder-scrolls-vi-name-and-more/?utm_source=rss)** - *(Neowin)*
+- **[Microsoft explains why Windows 11 movable Taskbar is deliberately not as flexible as 10](https://www.neowin.net/news/microsoft-explains-why-windows-11-movable-taskbar-is-deliberately-not-as-flexible-as-10/?utm_source=rss)** - *(Neowin)*
   Validate workstation security baseline and update compliance.
 
-- **[Microsoft will soon allow organizations to auto-launch Edge on Windows startup](https://www.neowin.net/news/microsoft-will-soon-allow-organizations-to-auto-launch-edge-on-windows-startup/?utm_source=rss)** - *(Neowin)*
-  Validate Edge/WebView2 coverage; refresh managed package.
-
-- **[New Windows 11 Future Platforms build adds privacy controls for individual apps ](https://www.neowin.net/news/new-windows-11-future-platforms-build-adds-privacy-controls-for-individual-apps/?utm_source=rss)** - *(Neowin)*
+- **[Microsoft released Windows 11 KB5128977, KB5130881 setup & recovery updates](https://www.neowin.net/news/microsoft-released-windows-11-kb5128977-kb5130881-setup--recovery-updates/?utm_source=rss)** - *(Neowin)*
   Validate workstation security baseline and update compliance.
+
+- **[Microsoft released Windows 11/10 Defender update for USB installation ISO images](https://www.neowin.net/news/microsoft-released-windows-1110-defender-update-for-usb-installation-iso-images/?utm_source=rss)** - *(Neowin)*
+  Review security controls and policy updates. Validate workstation security baseline and update compliance.
+
+- **[PHP2Shell Investigation Identifies Palo Alto Firewall Compromises](https://www.reddit.com/r/cybersecurity/comments/1xm6qsz/php2shell_investigation_identifies_palo_alto/)** - *(Reddit r/cybersecurity)*
+  Review security controls and policy updates. Review VPN client version and deployment.
+
+- **[ShareX keeps making Windows 11's Snipping Tool harder to justify](https://www.neowin.net/news/sharex-keeps-making-windows-11s-snipping-tool-harder-to-justify/?utm_source=rss)** - *(Neowin)*
+  Validate workstation security baseline and update compliance.
+
+## 🩹 Patch Tuesday & Update Experience
+- **[Microsoft released Windows 11 KB5128977, KB5130881 setup & recovery updates](https://www.neowin.net/news/microsoft-released-windows-11-kb5128977-kb5130881-setup--recovery-updates/?utm_source=rss)** - *(Neowin)*
+  New dynamic updates for Windows 11 versions 26H1, 26H2, and 25H2, were released by Microsoft this past week. Read more...
 
 ## 🔍 Quick Links (Watch Items)
-- [Using AI to help with GRC tasks - do prompt structures matter?](https://www.reddit.com/r/cybersecurity/comments/1xl7pu6/using_ai_to_help_with_grc_tasks_do_prompt/) - *(Reddit r/cybersecurity)*
-- [NIST Now Scores Only A Fraction Of New CVEs, And Your Risk Tools May Not Know](https://www.reddit.com/r/cybersecurity/comments/1xl76fy/nist_now_scores_only_a_fraction_of_new_cves_and/) - *(Reddit r/cybersecurity)*
-- [Open-Source Contribution Vibes](https://www.reddit.com/r/cybersecurity/comments/1xkzzpu/opensource_contribution_vibes/) - *(Reddit r/cybersecurity)*
-- [Change management workflow ITSM](https://www.reddit.com/r/cybersecurity/comments/1xkzl6z/change_management_workflow_itsm/) - *(Reddit r/cybersecurity)*
-- [Rustproxy Alternative for burp in performance](https://www.reddit.com/r/cybersecurity/comments/1xkw1ao/rustproxy_alternative_for_burp_in_performance/) - *(Reddit r/cybersecurity)*
-- [6 Years in Cybersecurity, but Rejected by Almost Every GRC Job I Apply For. What Am I Missing?🥺☹️](https://www.reddit.com/r/cybersecurity/comments/1xkuv55/6_years_in_cybersecurity_but_rejected_by_almost/) - *(Reddit r/cybersecurity)*
-- [Loss of interest in the field](https://www.reddit.com/r/cybersecurity/comments/1xkt6kq/loss_of_interest_in_the_field/) - *(Reddit r/cybersecurity)*
-- [Does AI make cryptocurrency security impossible?](https://www.reddit.com/r/cybersecurity/comments/1xkpzz9/does_ai_make_cryptocurrency_security_impossible/) - *(Reddit r/cybersecurity)*
-- [Commerce Core - Highly critical - Access bypass - SA-CONTRIB-2026-254](https://www.reddit.com/r/cybersecurity/comments/1xknrsz/commerce_core_highly_critical_access_bypass/) - *(Reddit r/cybersecurity)*
-- [I feel like three or more of the bigger sites / apps I am on have currently suffered some sort of security breach in the last week or two. How comes?](https://www.reddit.com/r/cybersecurity/comments/1xknqcc/i_feel_like_three_or_more_of_the_bigger_sites/) - *(Reddit r/cybersecurity)*
+- [Does cybersecurity experience gained in an uncleared role, such as an unclassified SOC Analyst or Vulnerability Management Analyst position, count toward the experience requirements for a cleared cybersecurity position with a defense contractor?](https://www.reddit.com/r/cybersecurity/comments/1xmbit2/does_cybersecurity_experience_gained_in_an/) - *(Reddit r/cybersecurity)*
+- [Anyone read Designing Secure Software by Loren Kohnfelder?](https://www.reddit.com/r/cybersecurity/comments/1xm9wtu/anyone_read_designing_secure_software_by_loren/) - *(Reddit r/cybersecurity)*
+- [PHP2Shell Investigation Identifies Palo Alto Firewall Compromises](https://www.reddit.com/r/cybersecurity/comments/1xm6qsz/php2shell_investigation_identifies_palo_alto/) - *(Reddit r/cybersecurity)*
+- [New to cyber security](https://www.reddit.com/r/cybersecurity/comments/1xm6m3q/new_to_cyber_security/) - *(Reddit r/cybersecurity)*
+- [GoAhead vulnerability - the number 4 strikes again](https://www.reddit.com/r/cybersecurity/comments/1xm69gm/goahead_vulnerability_the_number_4_strikes_again/) - *(Reddit r/cybersecurity)*
+- [Found critical vulnerabilities in my college ERP website – Should I report to my college or the ERP company first?](https://www.reddit.com/r/cybersecurity/comments/1xm3kgg/found_critical_vulnerabilities_in_my_college_erp/) - *(Reddit r/cybersecurity)*
+- [November kicks off with CVE-2026-98432: A Critical Linux Kernel Use-After-Free (UAF) Vulnerability.](https://www.reddit.com/r/cybersecurity/comments/1xm24oj/november_kicks_off_with_cve202698432_a_critical/) - *(Reddit r/cybersecurity)*
+- [Agent Identity Governance: The Security Gap CISOs Aren't Seeing](https://www.reddit.com/r/cybersecurity/comments/1xm1ufu/agent_identity_governance_the_security_gap_cisos/) - *(Reddit r/cybersecurity)*
+- [Security professionals, how often have you ran into attackers taking advantage of layer 2 vulnerabilities?](https://www.reddit.com/r/cybersecurity/comments/1xm11z8/security_professionals_how_often_have_you_ran/) - *(Reddit r/cybersecurity)*
+- [Being untargeted is a matter of chance. Being uncompromised is a matter of security. Knowing the difference is a matter of awareness.](https://www.reddit.com/r/cybersecurity/comments/1xm0u65/being_untargeted_is_a_matter_of_chance_being/) - *(Reddit r/cybersecurity)*
 
