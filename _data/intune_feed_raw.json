@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-03T18:12:50.123005+00:00",
-  "date": "2026-11-03",
+  "generated_utc": "2026-11-04T18:24:55.497523+00:00",
+  "date": "2026-11-04",
   "lookback_hours": 25,
   "source_status": [
     {
@@ -12,12 +12,12 @@
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 10
+      "count": 25
     },
     {
       "name": "Microsoft Intune What's New",
       "status": "OK",
-      "count": 1
+      "count": 0
     },
     {
       "name": "Windows IT Pro Blog",
@@ -27,7 +27,7 @@
     {
       "name": "Microsoft Security Blog",
       "status": "OK",
-      "count": 3
+      "count": 1
     },
     {
       "name": "Microsoft Entra Blog",
@@ -42,12 +42,12 @@
     {
       "name": "Neowin",
       "status": "OK",
-      "count": 3
+      "count": 0
     },
     {
       "name": "The Hacker News",
       "status": "OK",
-      "count": 8
+      "count": 4
     },
     {
       "name": "Krebs on Security",
@@ -99,187 +99,285 @@
   "items": {
     "high_alert": [
       {
-        "fingerprint": "6e0af1a9e3aa",
-        "title": "Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access",
-        "link": "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
+        "fingerprint": "368bf49973dd",
+        "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
+        "link": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
         "source": "The Hacker News",
-        "published": "2026-11-03T15:59:19+00:00",
-        "summary": "Barracuda has disclosed details of two vulnerabilities affecting its products that, if chained together, could allow an attacker to bypass authorization controls and gain root access to a susceptible device. The vulnerabilities, a pre-authentication authorization bypass vulnerability and a command injection vulnerability, have been assigned the CVE identifiers CVE-2026-116606 (CVSS score: 9.3)",
+        "published": "2026-11-04T17:00:38+00:00",
+        "summary": "SonicWall has warned of two vulnerabilities impacting end-of-life Global Management System (GMS) systems that it said will not be patched. Details of the security flaws, which affect SonicWall GMS 9.5.2 and earlier versions, are below - CVE-2026-109593 (CVSS score: 9.1) - An unauthenticated file read vulnerability that could allow an attacker with network access to read internal GMS files,",
         "category": "high_alert"
       },
       {
-        "fingerprint": "83645214c15d",
-        "title": "Google bans Android TV maker for secretly installing malware on millions of devices",
-        "link": "https://www.neowin.net/news/google-bans-android-tv-maker-for-secretly-installing-malware-on-millions-of-devices/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-11-03T14:16:01+00:00",
-        "summary": "Google has disrupted the global XCPE botnet, an illegal operation that controlled over 1.3 million Android TV set-top boxes worldwide. Read more...",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "c0e0c4c6dea7",
-        "title": "UK school estate hit by 3AM ransomware in suspected AI-assisted attack",
-        "link": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/",
+        "fingerprint": "a2c7e35f6dfc",
+        "title": "NIKKE PC game launcher hacked to spread remote access, data-stealing malware",
+        "link": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/",
         "source": "BleepingComputer",
-        "published": "2026-11-03T14:00:00+00:00",
-        "summary": "A 3AM ransomware affiliate targeted a school estate in the UK and successfully encrypted around 37 of nearly 50 machines reached from an unmanaged host. [...]",
+        "published": "2026-11-04T16:58:46+00:00",
+        "summary": "The developers of Goddess of Victory: NIKKE have confirmed that hackers tampered with the game's PC launcher scripts in a supply-chain attack, distributing malware capable of stealing credentials and cryptocurrency wallet data. [...]",
         "category": "high_alert"
       },
       {
-        "fingerprint": "8db2b73032cb",
-        "title": "Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing",
-        "link": "https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
-        "source": "The Hacker News",
-        "published": "2026-11-03T11:23:53+00:00",
-        "summary": "Fixed kernels for a use-after-free vulnerability in the Linux kernel's IPv4 TCP code are now available for Red Hat Enterprise Linux 8, 9, and 10, while Ubuntu's fixes for its three newest long-term-support releases remain in its opt-in testing channel with no date for a regular update. The flaw, tracked as CVE-2026-98432, can be reached by a remote, unauthenticated attacker and can",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "f15aa425f43e",
-        "title": "Russia-Aligned Gorbag Hackers Exploit WinRAR Flaw to Deploy Data-Stealing Malware",
-        "link": "https://thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html",
-        "source": "The Hacker News",
-        "published": "2026-11-03T11:00:45+00:00",
-        "summary": "A Russia-aligned threat actor known as Gorbag has been observed using simple information stealer malware in attacks targeting Ukrainian organizations. \"Active since at least February 2025, the group has focused exclusively on Ukrainian targets, with a clear preference for law enforcement and justice entities, local administrations near the front line, and the defense sector,\" ESET researcher",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "88cfed952bce",
-        "title": "Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw",
-        "link": "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
-        "source": "The Hacker News",
-        "published": "2026-11-03T07:43:07+00:00",
-        "summary": "Synology is urging customers to update the DiskStation Manager (DSM) software powering its Network Attached Storage (NAS) devices following ransomware attacks. The Taiwanese vendor said it observed threat actors exploiting a vulnerability patched in December 2024 to target devices running outdated versions of DSM. \"These attacks aim to encrypt data and extort ransom,\" it said in a statement",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "a37b05385b26",
-        "title": "Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
-        "link": "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",
-        "source": "The Hacker News",
-        "published": "2026-11-03T05:34:41+00:00",
-        "summary": "A maximum-severity security flaw impacting Siemens SIMATIC IoT2050 Advanced devices has come under active exploitation, VulnCheck has revealed. The vulnerability, tracked as CVE-2026-58115 (CVSS score: 10.0), is a case of missing authentication for a critical function that could be exploited by an unauthenticated remote attacker to run arbitrary code. \"SIMATIC IoT2050 Advanced devices running",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "d888411c6e2f",
-        "title": "Attackers Target Unpatched CryptoPayment Gateway Flaw That Can Expose Wallet Credentials",
-        "link": "https://thehackernews.com/2026/11/attackers-target-unpatched.html",
-        "source": "The Hacker News",
-        "published": "2026-11-03T05:34:37+00:00",
-        "summary": "Threat actors are attempting to exploit an unpatched maximum-severity security vulnerability in the CryptoPayment Gateway WordPress plugin, according to findings from Defused Cyber. The vulnerability in question is CVE-2026-81648, which carries a CVSS score of 10.0. Successful exploitation of the flaw could permit unauthenticated users to delete arbitrary files on the server and extract",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "72251bd848a2",
-        "title": "Google disrupts million-device XCPE Android malware botnet, bans TV box maker",
-        "link": "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/",
+        "fingerprint": "9a14fe2d13e4",
+        "title": "CISA flags WordPress RCE flaw as actively exploited in attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/",
         "source": "BleepingComputer",
-        "published": "2026-11-02T18:16:34+00:00",
-        "summary": "Google and industry partners have dismantled the XCPE malware botnet consisting of more than 1.3 million Android TV streaming TV boxes that Google says its manufacturer intentionally infected with malware to generate revenue through cybercrime activities. [...]",
+        "published": "2026-11-04T12:11:05+00:00",
+        "summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers have started exploiting a recently patched high-severity WordPress vulnerability in the wild. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "e81449df10cc",
+        "title": "Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
+        "link": "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
+        "source": "The Hacker News",
+        "published": "2026-11-04T07:46:15+00:00",
+        "summary": "A critical Android flaw could allow an attacker to run code on a phone without any user action remotely, Google said in its November security bulletin. The flaw, CVE-2026-58868, affects Android 14 through 17. Phones get the fix with security patch level 2026-11-01 or later, which phone makers and carriers send on their own schedules. As of November 4, Google's bulletin did not report",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "8325ba77f0a0",
+        "title": "CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades",
+        "link": "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html",
+        "source": "The Hacker News",
+        "published": "2026-11-04T05:43:11+00:00",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a security flaw in WordPress Core to the Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The high-severity vulnerability, tracked as CVE-2026-119977 (CVSS score: 8.1), is a case of Time-of-check Time-of-use (TOCTOU) race condition that could be exploited to achieve arbitrary code",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "6d8eb7855642",
+        "title": "Binance says fake job interview led to $6.3 billion crypto heist",
+        "link": "https://www.bleepingcomputer.com/news/security/binance-says-fake-job-interview-led-to-63-billion-crypto-heist/",
+        "source": "BleepingComputer",
+        "published": "2026-11-03T20:05:50+00:00",
+        "summary": "Cryptocurrency exchange Binance says North Korean hackers used a fake job interview to trick an employee into installing malware that ultimately let them compromise the company's wallet infrastructure and steal about $6.34 billion in digital assets. [...]",
         "category": "high_alert"
       }
     ],
-    "bad_updates": [
-      {
-        "fingerprint": "a92e071342d2",
-        "title": "Microsoft confirms October Windows KB5002934 update broke Excel copy paste again, issues fix",
-        "link": "https://www.neowin.net/news/microsoft-confirms-october-windows-kb5002934-update-broke-excel-copy-paste-again-issues-fix/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-11-03T15:48:01+00:00",
-        "summary": "Microsoft's October Windows update struck again breaking Excel's copy-paste feature once more. The company admitted the problem and has issued a fix now. Read more...",
-        "category": "bad_updates"
-      }
-    ],
+    "bad_updates": [],
     "upcoming_changes": [
       {
-        "fingerprint": "a772b552b50f",
-        "title": "Dynamics 365 Sales: Autonomously generate quotes and drive sales with Sales Development Agent",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=578898",
+        "fingerprint": "faade82e6022",
+        "title": "Microsoft Viva: Engage - Improved shared messages end-user experience",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=578870",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-03T00:14:11+00:00",
-        "summary": "Sales Development Agent (SDA) can take leads from qualified opportunities to closed deals. Key capabilities include: Generating quotes through D365S as well as 1P/3P systems and sharing them with customers to company branded templates. Connectivity to quoting and transaction systems managed through Agent 365 MCP registry. Answer questions about the quote and adjust details based on customer fee...",
+        "published": "2026-11-04T00:02:09+00:00",
+        "summary": "Improving the shared conversation experience in Viva Engage to so it's easier for users to discover, read, and participate. GA date: November CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "3fc2416f2ff0",
-        "title": "Microsoft Teams: Intelligent call recap for call queue calls on Mobile",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=578871",
+        "fingerprint": "633cedcb40b3",
+        "title": "Microsoft Teams: Copilot in the Queues app on Mobile",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=578859",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-03T00:14:11+00:00",
-        "summary": "Calling reps and supervisor leads can access intelligent call recap for call queue calls directly from the Queues app on Mobile. After a call, users can quickly catch up on the conversation with AI-generated notes, key discussion points, and recommended follow-up tasks, helping reduce the time spent reviewing calls and making it easier to move customer conversations forward while on the go. GA ...",
+        "published": "2026-11-04T00:02:09+00:00",
+        "summary": "Agents and supervisors can use Copilot in the Queues app on Mobile to quickly understand and follow up on customer conversations. From shared call history, users can ask questions about a past call and use Copilot to surface relevant information and insights from the conversation, helping them get up to speed and take the next step without having to review the entire call GA date: December CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "ea52050e9aed",
-        "title": "Microsoft Teams: Automatic recording indicator for call queue calls on Mobile",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=578867",
+        "fingerprint": "a4713e5f0b19",
+        "title": "Microsoft Teams: Shared call history in the Queues app on Mobile",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=578858",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-03T00:14:11+00:00",
-        "summary": "For call queue calls that are automatically recorded by the organization, Teams on Mobile will clearly indicate that recording and transcription have started automatically and cannot be stopped. This gives users clearer and more accurate information about the recording state of their call and provides a consistent experience across desktop and mobile. GA date: December CY2026",
+        "published": "2026-11-04T00:02:09+00:00",
+        "summary": "Calling reps and Supervisor leads can view shared call history for their call queues in the Queues app on Mobile, helping them track call activity, review call details, and coordinate customer follow-ups while on the go. GA date: December CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "97cf785a508f",
-        "title": "Microsoft Teams: Manage call groups on Mobile",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=578860",
+        "fingerprint": "14ac18215042",
+        "title": "Dynamics 365 Commerce: Design POS screen layouts in a modern browser designer",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577893",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-03T00:14:11+00:00",
-        "summary": "Users can create and manage their call group directly from Teams on Mobile. They can add or remove members, configure how the group should ring, and choose to forward or simultaneously ring incoming calls to their call group. This makes it easier for users to manage how their calls are handled without needing to switch to the desktop experience. GA date: December CY2026",
+        "published": "2026-11-04T00:02:09+00:00",
+        "summary": "Create and preview POS screen layouts in headquarters with a modern web designer that simplifies configuration and reduces design iterations. The Screen layout designer is modernized as a React-based web experience embedded in Commerce headquarters, with a JSON-based layout backbone replacing the legacy XML representation. The feature applies to Store Commerce point of sale (POS). The moderniza...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "0259c7a53200",
-        "title": "OneDrive: Respond to access requests directly in the Share dialog",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=578856",
+        "fingerprint": "b9cb6c61d334",
+        "title": "Dynamics 365 Project Operations: Support larger invoices in Project Operations",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577855",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-03T00:14:11+00:00",
-        "summary": "Review and respond to access requests inside the Share dialog. When people request access to a file, folder, or library, anyone who can share it will see pending requests right in the Share dialog for that item. From there, they can choose the level of access to grant, approve or decline requests individually or in bulk, and message the requester before deciding. Requests for more access, such ...",
+        "published": "2026-11-04T00:02:09+00:00",
+        "summary": "The dual-write asynchronous integration feature in Project Operations enhances the customer invoicing process by enabling scalable and reliable data synchronization between Dataverse and Dynamics 365 Finance. This feature addresses the limitations of real-time dual-write sync, which is restricted to processing a maximum of 1,000 invoice lines per invoice. With the introduction of asynchronous i...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "d620133899aa",
-        "title": "Dynamics 365 Project Operations: Support What-If Analysis for multiple budget versions",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577872",
+        "fingerprint": "e717db25a04e",
+        "title": "Dynamics 365 Commerce: Apply bulk actions to multiple transaction lines",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577752",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-03T00:14:11+00:00",
-        "summary": "This is for Project Operations Core and Integrated to ERP. Enable project managers to compare multiple budget versions and select the most suitable budget before submission and approval. This capability improves decision-making by allowing users to evaluate different planning scenarios, understand financial impacts, and confidently choose the preferred budget version. GA date: August CY2027 Pre...",
+        "published": "2026-11-04T00:02:09+00:00",
+        "summary": "Store associates can select multiple eligible transaction lines and apply common updates in one action, including voiding items, changing the delivery mode, and changing the fulfillment location. This capability reduces repetitive work and errors on large orders while preserving line-level validation and providing clear feedback when an update can't be applied. Multiselect supports touch, keybo...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "1e2ac4fb2876",
-        "title": "Dynamics 365 Project Operations: Enable multiple baselines for a project",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573693",
+        "fingerprint": "5362503afd80",
+        "title": "Dynamics 365 Commerce: Design and print A4 and thermal receipts in a modern designer",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577751",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-03T00:14:11+00:00",
-        "summary": "Multiple Baselines enables project managers to capture and maintain multiple snapshots of a project plan, providing a historical record of project execution and performance over time. Available for Project Operations Core and Project Operations connected with ERP. With this capability, project managers can: Create and manage multiple project baselines. Load and view any baseline directly within...",
+        "published": "2026-11-04T00:02:09+00:00",
+        "summary": "Applies to : Point of Sale (Store Commerce app, Store Commerce for web), headquarters (Commerce headquarters receipt format designer), Hardware Station, Commerce Scale Unit. Modern designer in headquarters : A new React-based receipt designer is embedded in headquarters under Retail and Commerce > Channel setup > POS setup > POS > Receipt formats > Designer . You can author in the browser with ...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "c5fb1c513caa",
-        "title": "Dynamics 365 Business Central: USA - Manually upload 1099 forms to the IRIS",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573624",
+        "fingerprint": "f0ca17873116",
+        "title": "Dynamics 365 Commerce: Map keyboard shortcuts to common POS operations",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577750",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-03T00:14:11+00:00",
-        "summary": "The FIRE system will effectively be retired at the end of 2026, and IRIS will be the only electronic filing channel starting January 1, 2027. Users in Business Central can now generate IRIS-compatible 1099 submission files for manually upload instead of the legacy FIRE format. This feature will stay alongside A2A integration wirh IRIS providing full automation in reporting 1099 forms. GA date: ...",
+        "published": "2026-11-04T00:02:09+00:00",
+        "summary": "Applies to : Point of Sale (Store Commerce); configured in Commerce headquarters. Assign keyboard shortcuts to buttons in the Commerce headquarters button grid designer. Shortcuts are defined on buttons, not directly on operations, and can be applied to any button. Use shortcuts for common operations, such as void line, price override, discount, change quantity, and change delivery mode. Apply ...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "d3bdac336554",
-        "title": "Dynamics 365 Field Service: Use AI recommendations for mobile offline profile configuration",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573243",
+        "fingerprint": "874f4d86a6f7",
+        "title": "Dynamics 365 Customer Insights - Journeys: Marketing tools, skills and plugin are now available in Copilot Cowork",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577746",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-03T00:14:11+00:00",
-        "summary": "Business value Mobile offline profile design can affect first sync, ongoing sync cost, app responsiveness, and reliability. Administrators and makers often need to balance business data requirements with profile complexity, related data, and performance considerations. AI-assisted recommendations will help app makers identify opportunities to improve mobile offline profile design while creating...",
+        "published": "2026-11-04T00:02:09+00:00",
+        "summary": "The Customer Insights plugin brings Dynamics 365 Customer Insights context, actions, and guided workflows to Copilot Cowork. Marketers and other customer-facing teams can understand customer profiles, author brand-compliant content, and prepare consent-aware outreach using existing segments directly in the flow of work, reducing the need to switch to Dynamics 365 Customer Insights. The native C...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "aa326f40d477",
-        "title": "Microsoft Copilot (Microsoft 365): New Microsoft 365 Copilot usage reports for Copilot Search, Connectors, and Agents for US Government customers",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573170",
+        "fingerprint": "e3f9b89fa282",
+        "title": "Dynamics 365 Commerce: Guide shoppers through an intuitive self-checkout flow",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577414",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-03T00:14:11+00:00",
-        "summary": "We are introducing new Microsoft 365 Copilot usage reports for Copilot Search, Copilot Connectors, and Copilot Agents for US Government customers across GCC Moderate, GCC High, and DoD environments. These reports will provide administrators with organization-level and user-level insights to help them understand usage and adoption of these Copilot capabilities. GA date: December CY2026",
+        "published": "2026-11-04T00:02:09+00:00",
+        "summary": "Guide shoppers with clearer self-checkout flows, configurable assistance, and register-specific settings across supported Store Commerce devices. Store Commerce guides shoppers from item entry through payment and completion on Windows, web, iOS, and Android. The experience includes: Customer and loyalty prompts that can attach an active linked loyalty card. Back and Home navigation from categor...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "486dfa47b28c",
+        "title": "Dynamics 365 Commerce: Assign functionality profiles to self-checkout registers",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577411",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-11-04T00:02:09+00:00",
+        "summary": "This feature lets organizations assign a functionality profile directly to a self-checkout register in Commerce headquarters. The register-specific profile can control device settings, transaction reason codes, receipt numbering, and fiscal defaults for each kiosk. If no profile is selected on the self-checkout register, the register inherits the store's functionality profile. Staffed registers...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "05229e979dcc",
+        "title": "Dynamics 365 Commerce: Extend the phone Cart with custom app-bar commands",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577409",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-11-04T00:02:09+00:00",
+        "summary": "Add phone Cart commands and configurable sales-line details so Store Commerce extensions work consistently across device sizes. This feature applies to Store Commerce point of sale (POS) and the Commerce headquarters Screen layout designer. Extensions can register Cart commands by using CartExtensionCommandBase at components.extend.views.CartView.appBarCommands. On phone layouts, commands appea...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "4c742228e27b",
+        "title": "Dynamics 365 Commerce: Inventory view modernization on the Store Commerce app",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577408",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-11-04T00:02:09+00:00",
+        "summary": "Store Commerce inventory screens are being modernized with a new, responsive experience built on Fluent UI and React. The modern inventory views give store associates a consistent look and feel and fewer clicks across everyday inventory tasks, and they extend the modern inventory lookup experience to all inventory operations in the store. This feature includes: Inbound inventory (receiving): A ...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "414e224b8dfe",
+        "title": "Dynamics 365 Commerce: Inventory validation and fulfillment options on the Store Commerce transaction grid",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577407",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-11-04T00:02:09+00:00",
+        "summary": "When store and trade-counter associates add items to a sale, they need to know right away whether the item can be fulfilled, and if not, what the options are. This feature brings real-time inventory validation and fulfillment options directly into the Store Commerce transaction grid, so associates don't need to leave the transaction to check stock. This feature includes: Stock status on each li...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "719153cce5cc",
+        "title": "Power Apps: Form fill assistance using Microsoft 365 files in model-driven apps",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=576280",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-11-04T00:02:09+00:00",
+        "summary": "We’re expanding form fill assistance in Power Apps to use Microsoft 365 files as a source, helping users turn existing content into form entries with less manual effort. Availability Field Value Release Channel Monthly Version 2701.1 Applies to Model-driven apps Feature Scope Admins or makers | Users (enabled by admins or makers) | Users (enabled by default) | Users (always enabled) GA date: Ja...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "6a155370fb28",
+        "title": "Dynamics 365 Business Central: Norway - Install Norwegian localization as an extension to the base app",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573623",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-11-04T00:02:09+00:00",
+        "summary": "The localized version for Norway is now available as a set of extensions on the W1 base app. This version includes a data upgrade feature to simplify the transition from the previous localization. This release moves the product closer to full delocalization, so ISVs can reach a wider market. Some features move to the base app or become global apps, while others stay specific to the Norwegian ma...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "348db99fe877",
+        "title": "Dynamics 365 Business Central: France - Install French localization as an extension to the base app",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573621",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-11-04T00:02:09+00:00",
+        "summary": "The localized version for France is now available as a set of extensions on the W1 base app. This version includes a data upgrade feature to simplify the transition from the previous localization. This release moves the product closer to full delocalization, so ISVs can reach a wider market. Some features move to the base app or become global apps, while others stay specific to the French marke...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "510214f41c10",
+        "title": "Dynamics 365 Business Central: Iceland - Enable SAF-T audit file format",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573620",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-11-04T00:02:09+00:00",
+        "summary": "This feature extends support for the Standard Audit File for Tax (SAF-T) format to Iceland, allowing customers in this counmtry to generate audit files using the established SAF-T framework. Key capabilities include: Enable SAF-T audit file generation for companies operating in Iceland. Reuse the existing SAF-T W1 implementation to support additional country-specific compliance scenarios. Provi...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "dd2dbbe2dc14",
+        "title": "Dynamics 365 Business Central: Austria - Enable SAF-T audit file format",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573619",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-11-04T00:02:09+00:00",
+        "summary": "This feature extends support for the Standard Audit File for Tax (SAF-T) format to Austria, allowing customers in this coumtry to generate audit files using the established SAF-T framework. Key capabilities include: Enable SAF-T audit file generation for companies operating in Austria. Reuse the existing SAF-T W1 implementation to support additional country-specific compliance scenarios. Provid...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "e496b381312e",
+        "title": "Dynamics 365 Business Central: USA - Automate employee payments with ACH bank integration",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573618",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-11-04T00:02:09+00:00",
+        "summary": "Organizations in the United States can simplify employee expense reimbursements by paying approved claims directly to employees’ bank accounts through ACH. When used with the Expense Agent, approved reimbursements can be processed automatically, reducing manual payment handling and helping employees get reimbursed faster and more accurately. GA date: February CY2027 Preview date: December CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "c60df468125d",
+        "title": "Dynamics 365 Business Central: Germany - Export euBP with audit files export",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573617",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-11-04T00:02:09+00:00",
+        "summary": "Create more complete audit export packages with less manual preparation by exporting European Business Profile (euBP) information together with transactional audit data. Organizations using the German localization can include both in a single Audit Files Export process. Benefits: • Export euBP and transactional audit data together in a single process. • Include relevant business profile informa...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "8368177edfc4",
+        "title": "Dynamics 365 Business Central: Finance - Multiple VAT numbers for a vendor",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573616",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-11-04T00:02:09+00:00",
+        "summary": "Handle VAT correctly for vendors that operate across multiple European Union countries by recording multiple VAT numbers and applying the appropriate VAT Business Posting Group and General Business Posting Group for each transaction. Benefits • Support multiple VAT numbers for a single vendor, including vendors with warehouses in different EU countries. • Apply the appropriate VAT treatment for...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "8c699145a246",
+        "title": "Dynamics 365 Business Central: Finance - Configure and use bonded locations for excise duty calculations",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573615",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-11-04T00:02:09+00:00",
+        "summary": "Reduce manual work and support accurate excise duty handling by applying bonded-location rules to inventory. Designate warehouses or storage locations as bonded so excise duties can be deferred while goods remain in bonded storage and assessed when goods move to non-bonded locations or enter taxable circulation, according to configured tax rules. Benefits • Configure specific warehouses or stor...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "2a01d53de51a",
+        "title": "Dynamics 365 Business Central: Finance - Use complex calculation methods for excise duties",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573614",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-11-04T00:02:09+00:00",
+        "summary": "Simplify excise duty calculations with flexible methods that better reflect your organization’s tax scenarios. Configure excise duties using specific, ad valorem, or hybrid calculation methods, including calculations based on different tax bases, thresholds, quantities, percentages, or combinations of these factors. Benefits • Support specific, ad valorem, and hybrid excise duty calculation met...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "bd93ac80d51b",
+        "title": "Dynamics 365 Business Central: Finance - Cross-environment Master Data Management",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573613",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-11-04T00:02:09+00:00",
+        "summary": "Keep critical business data consistent across environments with cross-environment master data management. Centrally manage and govern master data—including customers, vendors, products, and reference data—and keep it synchronized wherever it is used, reducing duplicate maintenance and simplifying administration. Benefits • Maintain a single source of truth for master data across development, te...",
         "category": "upcoming_changes"
       }
     ],
@@ -292,70 +390,16 @@
         "published": "2026-11-03T17:32:47+00:00",
         "summary": "Microsoft Threat Intelligence tracks a fake-download campaign that uses trojanized Inno installers to deliver multiple monetization offers and provides detection and investigation guidance across the complete installer session. The post Fake-download campaign uses trojanized installers to deliver monetization payloads appeared first on Microsoft Security Blog .",
         "category": "official_news"
-      },
-      {
-        "fingerprint": "48a5c01a9351",
-        "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for AI Agent Management Platforms",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/11/03/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-ai-agent-management-platforms/",
-        "source": "Microsoft Security Blog",
-        "published": "2026-11-03T17:00:00+00:00",
-        "summary": "Read why Gartner named Microsoft a Leader in the inaugural 2026 Magic Quadrant for AI Agent Management Platforms. The post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for AI Agent Management Platforms appeared first on Microsoft Security Blog .",
-        "category": "official_news"
-      },
-      {
-        "fingerprint": "8ef124377b96",
-        "title": "Learn about using Intune to manage Microsoft Defender settings on devices that aren't enrolled with Intune - Microsoft Intune",
-        "link": "https://learn.microsoft.com/en-us/intune/device-security/microsoft-defender/security-settings-management",
-        "source": "Microsoft Intune What's New",
-        "published": "2026-11-02T23:34:00+00:00",
-        "summary": "Learn how to use Intune endpoint security policies to manage Microsoft Defender for Endpoint on devices that are not enrolled with Intune Summarize this article for me In this article When you integrate Microsoft Intune with Microsoft Defender for Endpoint, you can use Intune endpoint security policies to manage the Defender security settings on.",
-        "category": "official_news"
-      },
-      {
-        "fingerprint": "cca920536e22",
-        "title": "What exploited vulnerabilities have in common: A data-driven analysis of real-world attacks",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/11/02/exploited-vulnerabilities-common-data-driven-analysis-real-world-attacks/",
-        "source": "Microsoft Security Blog",
-        "published": "2026-11-02T20:20:59+00:00",
-        "summary": "Real-world exploitation concentrates in a small, high-impact subset of CVEs. Learn how defenders can prioritize vulnerabilities based on exploitation likelihood, exposure, and potential blast radius. The post What exploited vulnerabilities have in common: A data-driven analysis of real-world attacks appeared first on Microsoft Security Blog .",
-        "category": "official_news"
       }
     ],
     "community_buzz": [
       {
-        "fingerprint": "6badc9727ac6",
-        "title": "Barracuda warns of critical flaws allowing root access to devices",
-        "link": "https://www.bleepingcomputer.com/news/security/barracuda-warns-of-critical-flaws-allowing-root-access-to-devices/",
-        "source": "BleepingComputer",
-        "published": "2026-11-03T15:06:16+00:00",
-        "summary": "Cybersecurity company Barracuda Networks warned customers to patch two vulnerabilities that can let attackers run commands with root privileges. [...]",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "b1893c2cc3b3",
-        "title": "The 4 Elements of Exposure Prioritization and How to Operationalize Them",
-        "link": "https://thehackernews.com/2026/11/the-4-elements-of-exposure.html",
+        "fingerprint": "e5a4cf317a6f",
+        "title": "Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit",
+        "link": "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html",
         "source": "The Hacker News",
-        "published": "2026-11-03T11:18:20+00:00",
-        "summary": "Your team is remediating more vulnerabilities than ever, yet your breach risk has barely changed. You’re spending too much time and effort on exposures attackers may never exploit, while higher-risk exposures sit, waiting in the queue. Gartner®’s report on exposure prioritization states that fewer than 10% of vulnerabilities are exploited, yet most are treated as urgent. The report also argues",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "55a2b27325fa",
-        "title": "Hackers Exploit BTCPay Server Flaw to Steal Bitcoin and Litecoin From Hot Wallets",
-        "link": "https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html",
-        "source": "The Hacker News",
-        "published": "2026-11-03T08:31:48+00:00",
-        "summary": "BTCPay Server, a self-hosted, open-source cryptocurrency payment processor, has urged users to install the latest version of its software in response to reports of Bitcoin and Litecoin being stolen from hot wallets on instances running older versions. \"Our investigation found that these attacks targeted servers running BTCPay Server 2.4.1 (released on 23 July 2026) or earlier,\" BTCPay Server",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "09f38f1fd3b6",
-        "title": "Microsoft highlights how Windows 11 KB5127936 brings a much needed backup recovery feature",
-        "link": "https://www.neowin.net/news/microsoft-highlights-how-windows-11-kb5127936-brings-a-much-needed-backup-recovery-feature/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-11-03T06:36:01+00:00",
-        "summary": "Admins can breathe a sigh of relief sooner as Microsoft adds a new useful backup recovery feature with Windows 11 KB5127936. Read more...",
+        "published": "2026-11-04T16:06:43+00:00",
+        "summary": "Cybersecurity researchers have disclosed details of an OpenAI Codex jailbreak bundle that's designed to modify an artificial intelligence (AI) agent's trusted instructions to insert advertisements for a third-party AI gateway. The phenomenon has been codenamed prompt adware by Check Point Research. Called Haiou (meaning Seagull in Chinese), the jailbreak modifies OpenAI Codex's configuration",
         "category": "community_buzz"
       }
     ]
