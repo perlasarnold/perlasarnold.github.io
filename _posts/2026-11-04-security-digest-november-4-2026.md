@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Security Digest - November 4, 2026"
-date: 2026-11-04 00:28:54 +00:00
+date: 2026-11-04 20:37:21 +00:00
 categories: [security-digest]
 tags: [security, tldr, situational-awareness, endpoint-management]
 author: Arnold
@@ -10,64 +10,56 @@ author: Arnold
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
 
-- **Generated (UTC):** 2026-11-04 00:28:54 +00:00
+- **Generated (UTC):** 2026-11-04 20:37:21 +00:00
 - **Lookback window:** 7 days
 
 ## 🚀 Top Research & Advisories
-- *No high-priority security research detected in this window.*
+- **[Microsoft Paint CVE-2026-83844 lets hackers hack Windows 11 PCs over internet](https://www.neowin.net/news/microsoft-paint-cve-2026-83844-lets-hackers-hack-windows-11-pcs-over-internet/?utm_source=rss)** - *(Neowin)*
+  Microsoft has confirmed CVE-2026-83844 remote code execution flaw that affects Paint on Windows systems, and the fix is not obvious. Read more...
+  > **Action:** Validate workstation security baseline and update compliance.
+
 ## 💻 AppSec
-- **[OpenAI Builds Pando Git Infrastructure Using AI Agents and Deploys Continuous Security Testing](https://cybersecuritynews.com/openai-builds-pando-git-infrastructure/)** - *(CybersecurityNews)*
+- **[[Academic Research] Help collect data for ransomware research](https://www.reddit.com/r/cybersecurity/comments/1xnohfs/academic_research_help_collect_data_for/)** - *(Reddit r/cybersecurity)*
+  Review .NET runtime vulnerabilities and apply patches.
+
+- **[Looking for advice: what do you think of this tool? Constructive criticism welcome](https://www.reddit.com/r/cybersecurity/comments/1xnflrj/looking_for_advice_what_do_you_think_of_this_tool/)** - *(Reddit r/cybersecurity)*
   Monitor developer tool vulnerabilities and supply chain risks.
 
-## 🏗 Infrastructure
-- **[Hybrid AI ransomware attack on UK schools](https://www.reddit.com/r/cybersecurity/comments/1xmunw1/hybrid_ai_ransomware_attack_on_uk_schools/)** - *(Reddit r/cybersecurity)*
-  Review server hardening and AD security posture.
+- **[Visual Studio Code 1.145 rolling out updates to streamline agent workflows](https://www.neowin.net/news/visual-studio-code-1145-rolling-out-updates-to-streamline-agent-workflows/?utm_source=rss)** - *(Neowin)*
+  Monitor developer tool vulnerabilities and supply chain risks.
 
 ## 🛠 Infrastructure & Endpoint Control
-- **[Affinity will soon be getting an official Linux build](https://www.neowin.net/news/affinity-will-soon-be-getting-an-official-linux-build/?utm_source=rss)** - *(Neowin)*
-  Confirm Adobe exposure; push updated deployment.
-
-- **[Best way to perform ClickFix phishing simulation?](https://www.reddit.com/r/cybersecurity/comments/1xn37bx/best_way_to_perform_clickfix_phishing_simulation/)** - *(Reddit r/cybersecurity)*
-  Review security controls and policy updates.
-
-- **[Does Gen Digital delete antivirus/vpn accounts after years of inactivity?](https://www.reddit.com/r/cybersecurity/comments/1xn4ikz/does_gen_digital_delete_antivirusvpn_accounts/)** - *(Reddit r/cybersecurity)*
-  Review security controls and policy updates.
-
-- **[Is the pants-on-fire about PQC just because it contains the word "quantum"?](https://www.reddit.com/r/cybersecurity/comments/1xmvmfw/is_the_pantsonfire_about_pqc_just_because_it/)** - *(Reddit r/cybersecurity)*
+- **[Assist an artist-spearphishing](https://www.reddit.com/r/cybersecurity/comments/1xneelc/assist_an_artistspearphishing/)** - *(Reddit r/cybersecurity)*
   Review Office update channel health and security baseline compliance.
 
-- **[Microsoft confirms October Windows KB5002934 update broke Excel copy paste again, issues fix](https://www.neowin.net/news/microsoft-confirms-october-windows-kb5002934-update-broke-excel-copy-paste-again-issues-fix/?utm_source=rss)** - *(Neowin)*
-  Evaluate update rings and expedite actions if needed. Review Office update channel health and security baseline compliance.
-
-- **[Microsoft confirms Windows 11's new internet speed test was made in "spare time"](https://www.neowin.net/news/microsoft-confirms-windows-11s-new-internet-speed-test-was-made-in-spare-time/?utm_source=rss)** - *(Neowin)*
-  Validate workstation security baseline and update compliance.
-
-- **[Microsoft thinks 8GB of RAM is enough for Windows 11, pushes holiday deals on budget laptops](https://www.neowin.net/news/microsoft-thinks-8gb-of-ram-is-enough-for-windows-11-pushes-holiday-deals-on-budget-laptops/?utm_source=rss)** - *(Neowin)*
-  Validate workstation security baseline and update compliance.
-
-- **[Pass-ta-key Golden Attack: Stealing Google Password Manager Synced Passkeys for Offline Account Takeover](https://www.reddit.com/r/cybersecurity/comments/1xmrq4i/passtakey_golden_attack_stealing_google_password/)** - *(Reddit r/cybersecurity)*
-  Validate Chrome coverage; update managed package if needed.
-
-- **[REDMAGIC 12 Pro review: Beefed up with top end Snapdragon 8 Elite Gen 6 Extreme](https://www.neowin.net/reviews/redmagic-12-pro-review-beefed-up-with-top-end-snapdragon-8-elite-gen-6-extreme/?utm_source=rss)** - *(Neowin)*
+- **[CVE-2026-118689](https://nvd.nist.gov/vuln/detail/CVE-2026-118689)** - *(NVD)*
   Validate Edge/WebView2 coverage; refresh managed package.
 
-- **[Using LAPS all the time vs domain accounts](https://www.reddit.com/r/cybersecurity/comments/1xmy7kq/using_laps_all_the_time_vs_domain_accounts/)** - *(Reddit r/cybersecurity)*
-  Validate LAPS scope and rotation posture.
+- **[Free app bypasses Microsoft's limitation, letting Windows 11 desktop run without any GPU](https://www.neowin.net/news/free-app-bypasses-microsofts-limitation-letting-windows-11-desktop-run-without-any-gpu/?utm_source=rss)** - *(Neowin)*
+  Validate workstation security baseline and update compliance.
 
-## 🩹 Patch Tuesday & Update Experience
-- **[Microsoft confirms October Windows KB5002934 update broke Excel copy paste again, issues fix](https://www.neowin.net/news/microsoft-confirms-october-windows-kb5002934-update-broke-excel-copy-paste-again-issues-fix/?utm_source=rss)** - *(Neowin)*
-  Microsoft&#039;s October Windows update struck again breaking Excel&#039;s copy-paste feature once more. The company admitted the problem and has issued a fix now. Read more...
+- **[GitHub - kamehameha-ctrl/sniperscope: SniperScope is a high-performance External Attack Surface Management (EASM), passive/active OSINT intelligence, and forensic reporting workstation designed for cybersecurity auditors, SOC analysts, and penetration testers.](https://www.reddit.com/r/cybersecurity/comments/1xnli2w/github_kamehamehactrlsniperscope_sniperscope_is_a/)** - *(Reddit r/cybersecurity)*
+  Validate workstation security baseline and update compliance.
+
+- **[Microsoft is putting an AI model into Outlook Search, but it's not what you think](https://www.neowin.net/news/microsoft-is-putting-an-ai-model-into-outlook-search-but-its-not-what-you-think/?utm_source=rss)** - *(Neowin)*
+  Review Office update channel health and security baseline compliance.
+
+- **[Save 93% on a Windows 11 Pro or Home digital license](https://www.neowin.net/deals/save-93-on-a-windows-11-pro-or-home-digital-license/?utm_source=rss)** - *(Neowin)*
+  Validate workstation security baseline and update compliance.
+
+- **[Windows 11 26H2 vs 25H2 direct testing shows big drop in RAM usage in stressful conditions](https://www.neowin.net/news/windows-11-26h2-vs-25h2-direct-testing-shows-big-drop-in-ram-usage-in-stressful-conditions/?utm_source=rss)** - *(Neowin)*
+  Validate workstation security baseline and update compliance.
 
 ## 🔍 Quick Links (Watch Items)
-- [Pax Historia: An Independent Security Assessment of Large-Scale Data Exposure and Access-Control…](https://www.reddit.com/r/cybersecurity/comments/1xn66dt/pax_historia_an_independent_security_assessment/) - *(Reddit r/cybersecurity)*
-- [Senior Analyst considering going back to a Tier 2 role because I’m miserable at my current MSSP. Am I making a mistake?](https://www.reddit.com/r/cybersecurity/comments/1xn3xfl/senior_analyst_considering_going_back_to_a_tier_2/) - *(Reddit r/cybersecurity)*
-- [Question for Application Security or Product Security or DevSecOps folks](https://www.reddit.com/r/cybersecurity/comments/1xmzbvi/question_for_application_security_or_product/) - *(Reddit r/cybersecurity)*
-- [OpenAI Builds Pando Git Infrastructure Using AI Agents and Deploys Continuous Security Testing](https://cybersecuritynews.com/openai-builds-pando-git-infrastructure/) - *(CybersecurityNews)*
-- [Using LAPS all the time vs domain accounts](https://www.reddit.com/r/cybersecurity/comments/1xmy7kq/using_laps_all_the_time_vs_domain_accounts/) - *(Reddit r/cybersecurity)*
-- [Cyber security expert for advice for how to create a security framework including ERP, App, website, laptops networks etc.](https://www.reddit.com/r/cybersecurity/comments/1xmy5mn/cyber_security_expert_for_advice_for_how_to/) - *(Reddit r/cybersecurity)*
-- [Is the pants-on-fire about PQC just because it contains the word "quantum"?](https://www.reddit.com/r/cybersecurity/comments/1xmvmfw/is_the_pantsonfire_about_pqc_just_because_it/) - *(Reddit r/cybersecurity)*
-- [Vuln and Patch Mgmt tools](https://www.reddit.com/r/cybersecurity/comments/1xmvfpt/vuln_and_patch_mgmt_tools/) - *(Reddit r/cybersecurity)*
-- [Pass-ta-key Golden Attack: Stealing Google Password Manager Synced Passkeys for Offline Account Takeover](https://www.reddit.com/r/cybersecurity/comments/1xmrq4i/passtakey_golden_attack_stealing_google_password/) - *(Reddit r/cybersecurity)*
-- [CVE-2026-111314](https://nvd.nist.gov/vuln/detail/CVE-2026-111314) - *(NVD)*
+- [UK warned of AI cyberattacks on critical infrastructure by 2028](https://www.reddit.com/r/cybersecurity/comments/1xnyjkj/uk_warned_of_ai_cyberattacks_on_critical/) - *(Reddit r/cybersecurity)*
+- [Microsoft Paint CVE-2026-83844 lets hackers hack Windows 11 PCs over internet](https://www.neowin.net/news/microsoft-paint-cve-2026-83844-lets-hackers-hack-windows-11-pcs-over-internet/?utm_source=rss) - *(Neowin)*
+- [Meta Product Security Engineer Intern Interview](https://www.reddit.com/r/cybersecurity/comments/1xnukj7/meta_product_security_engineer_intern_interview/) - *(Reddit r/cybersecurity)*
+- [Save 93% on a Windows 11 Pro or Home digital license](https://www.neowin.net/deals/save-93-on-a-windows-11-pro-or-home-digital-license/?utm_source=rss) - *(Neowin)*
+- [CISA Confirms Active Exploitation of WordPress Core Vulnerability](https://www.reddit.com/r/cybersecurity/comments/1xnt8ft/cisa_confirms_active_exploitation_of_wordpress/) - *(Reddit r/cybersecurity)*
+- [Good security conferences in Europe?](https://www.reddit.com/r/cybersecurity/comments/1xnrw3z/good_security_conferences_in_europe/) - *(Reddit r/cybersecurity)*
+- [What are the security risks of running unlicensed computers on an organisation’s network? (Not pirated)](https://www.reddit.com/r/cybersecurity/comments/1xnqz0y/what_are_the_security_risks_of_running_unlicensed/) - *(Reddit r/cybersecurity)*
+- [Attackers are scanning the internet for Linux servers vulnerable to CVE-2026-98432 (CVSS 9.8), a critical TCP race-condition flaw that could allow remote root access. Over 2.1 million servers reportedly exposed. Ubuntu still has no patch.](https://www.reddit.com/r/cybersecurity/comments/1xnqw4a/attackers_are_scanning_the_internet_for_linux/) - *(Reddit r/cybersecurity)*
+- [Gorbag Hackers Exploit WinRAR Vulnerability to Steal Credentials From Ukrainian Government Agencies](https://cybersecuritynews.com/gorbag-hackers-exploit-winrar-vulnerability/) - *(CybersecurityNews)*
+- [One challenge of phishing detection that doesn't get enough attention: false positives](https://www.reddit.com/r/cybersecurity/comments/1xnp3z3/one_challenge_of_phishing_detection_that_doesnt/) - *(Reddit r/cybersecurity)*
 
 
