@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-05T18:29:09.806613+00:00",
-  "date": "2026-11-05",
+  "generated_utc": "2026-11-06T17:47:22.517925+00:00",
+  "date": "2026-11-06",
   "lookback_hours": 25,
   "source_status": [
     {
@@ -12,12 +12,12 @@
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 7
+      "count": 18
     },
     {
       "name": "Microsoft Intune What's New",
       "status": "OK",
-      "count": 1
+      "count": 0
     },
     {
       "name": "Windows IT Pro Blog",
@@ -37,7 +37,7 @@
     {
       "name": "BleepingComputer",
       "status": "OK",
-      "count": 3
+      "count": 1
     },
     {
       "name": "Neowin",
@@ -47,7 +47,7 @@
     {
       "name": "The Hacker News",
       "status": "OK",
-      "count": 3
+      "count": 5
     },
     {
       "name": "Krebs on Security",
@@ -99,127 +99,217 @@
   "items": {
     "high_alert": [
       {
-        "fingerprint": "30442b5ed684",
-        "title": "Hackers backdoor Linux servers using trojanized CWP web server",
-        "link": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-using-trojanized-cwp-web-server/",
-        "source": "BleepingComputer",
-        "published": "2026-11-05T16:24:26+00:00",
-        "summary": "A new Linux malware called CWPdoor is being distributed through a trojanized version of cwpsrv, the web server behind the Control Web Panel (CWP) management interface. [...]",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "68543aa2f941",
-        "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
-        "link": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+        "fingerprint": "10f02b1ed917",
+        "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
+        "link": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
         "source": "The Hacker News",
-        "published": "2026-11-05T12:08:54+00:00",
-        "summary": "OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2 million in API costs. \"Our prototype identified and analyzed 2,308 candidate Linux kernel findings, dynamically reproduced 1,724 vulnerabilities, and produced 948 local privilege escalation (LPE)",
+        "published": "2026-11-06T15:21:49+00:00",
+        "summary": "Threat actors are attempting to exploit a recently disclosed security flaw impacting OpenSSH that can enable sign-ins to accounts that have no password set, according to Previdian. The vulnerability, tracked as CVE-2026-123158 (CVSS score: 8.1) and codenamed SSHole (or *sshole), impacts Linux systems that run OpenSSH on the musl C library with Pluggable Authentication Modules (PAM) disabled,",
         "category": "high_alert"
       },
       {
-        "fingerprint": "f53d604f3a8d",
-        "title": "Zyxel GS1900 Patch Fails to Block Zero-Day Exploit Allowing Root Command Execution",
-        "link": "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html",
+        "fingerprint": "d6eb5f58f1ee",
+        "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
+        "link": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
         "source": "The Hacker News",
-        "published": "2026-11-05T07:06:33+00:00",
-        "summary": "Zyxel GS1900 network switches that received the vendor's earlier fix for an actively exploited flaw are still open to the exploit attackers used, researchers at Binarly found. The exploit lets anyone who can reach a switch's web management interface run commands on it without logging in. Zyxel has released new firmware for 10 GS1900 models that closes the hole. The earlier fix is the 2.90",
+        "published": "2026-11-06T12:06:43+00:00",
+        "summary": "A fix for CVE-2026-83844, a remote code execution flaw in Windows Paint, is now in the Microsoft Store. Paint gets this fix only through a Store update, not through Windows updates. The fixed build, 11.2609.401.0, was the newest Paint build in all ten countries The Hacker News checked today. The flaw is an out-of-bounds read that could let an attacker run code over a network. Microsoft rates",
         "category": "high_alert"
       },
       {
-        "fingerprint": "fcaa6632a5ab",
-        "title": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
-        "link": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
+        "fingerprint": "35b45c249361",
+        "title": "Experts Demonstrate Barracuda Email Security Gateway Chain Enabling Root Access Without Login",
+        "link": "https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html",
         "source": "The Hacker News",
-        "published": "2026-11-05T05:17:04+00:00",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a medium-severity security flaw impacting multiple Apple operating systems to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerability in question is CVE-2024-27834 (CVSS score: 5.5), a case of improper authentication that could allow an attacker with",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "773ffe6b2376",
-        "title": "Vercel rolls out new protection against stolen session cookie attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/",
-        "source": "BleepingComputer",
-        "published": "2026-11-04T21:31:18+00:00",
-        "summary": "Vercel is gradually rolling out Device Bound Session Credentials (DBSC) on its platform as a key defense against information stealer malware. [...]",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "9cdbb77d2293",
-        "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
-        "link": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
-        "source": "BleepingComputer",
-        "published": "2026-11-04T20:58:19+00:00",
-        "summary": "Zyxel has patched a zero-day vulnerability in its GS1900 series network switches that hackers exploited to compromise nearly 1,000 devices worldwide and steal configuration files and credentials. [...]",
+        "published": "2026-11-06T05:39:10+00:00",
+        "summary": "Two flaws in Barracuda's Email Security Gateway, an email-filtering appliance, can be chained to run commands on it as root, its highest level of access, with no login required. The company released patches on Monday, and the security firm watchTowr detailed the attack chain on Thursday. One flaw, CVE-2026-116606, is an authorization bypass. An unauthenticated attacker can use it to restore a",
         "category": "high_alert"
       }
     ],
     "bad_updates": [],
     "upcoming_changes": [
       {
-        "fingerprint": "5d9ccdaf0e2b",
-        "title": "Microsoft Teams: Multiple screen shares\nin Teams Rooms on Windows",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=579184",
+        "fingerprint": "81a6e5635ff4",
+        "title": "OneDrive: Command-line tool for the OneDrive sync app",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=578910",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-04T23:59:50+00:00",
-        "summary": "You can now view up to two shared screens side by side during meetings, reducing interruptions from screen hand-offs. Participants can switch between side-by-side and expanded views, identify presenters for each screen, and benefit from layouts optimized for single or dual displays. Available with Teams Rooms Pro. GA date: December CY2026",
+        "published": "2026-11-05T23:59:28+00:00",
+        "summary": "A new command-line tool, odcli, lets OneDrive users, IT admins and support engineers check and manage the OneDrive sync app from the command line. Commands cover sync status, accounts, configuration, policies, and managing the sync app. JSON output lets scripts, management tools and AI agents automate these tasks. GA date: March CY2027",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "22f27f354ef7",
-        "title": "Microsoft Purview: Information Protection-Auto-labeling for legacy Office files",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=578872",
+        "fingerprint": "73d8ae394218",
+        "title": "Dynamics 365 Project Operations: Invoice usability enhancements",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=578905",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-04T23:59:50+00:00",
-        "summary": "Microsoft Purview server-side auto-labeling will support legacy Microsoft Office file formats, including Word (.doc), Excel (.xls), and PowerPoint (.ppt). Organizations can automatically evaluate and apply sensitivity labels to these files in SharePoint and OneDrive. GA date: December CY2026",
+        "published": "2026-11-05T23:59:28+00:00",
+        "summary": "When billing teams review an invoice, they need to see where it stands, which transactions it includes, and what's still waiting to be billed. When that information is spread across tabs and long lists, reviews take longer and it's easier to miss a transaction. This update makes invoices easier to review: Timeline on the summary. The invoice summary includes a timeline [Confirm what it shows, s...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "c44e23f03230",
-        "title": "Dynamics 365 Supply Chain Management: Reimagine creation Phase In/Out rules to make it easier for users to enter in large volumes",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577884",
+        "fingerprint": "14f8f241cbd9",
+        "title": "Dynamics 365 Finance: Table edit with Microsoft Power BI filters and slicers",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=578876",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-04T23:59:50+00:00",
-        "summary": "Reimagine creation Phase In/Out rules. Allow users to pre-select Tables and Fields at Group level that will be populated on every rules. If a Table key field like Product ID is included in the rules, then auto fill related fields with values like Product Name, Product Group etc. Support for Phase In a new Product with out pointing to and old Product. Support Delete of a Dimension or Dimension c...",
+        "published": "2026-11-05T23:59:28+00:00",
+        "summary": "The table edit visual now responds to filters and slicers applied within the Microsoft Power BI report. When users filter the report using a slicer or other supported report filtering experience, the table edit visual reflects that filter context and displays the relevant dimension records. More info: https://learn.microsoft.com/en-us/dynamics365/finance/business-performance-planning/table-edit...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "8df48c262d2b",
-        "title": "Dynamics 365 Project Operations: Optimize Project Operations: Support cost commitments in project budgets",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577874",
+        "fingerprint": "318754c149c7",
+        "title": "Dynamics 365 Finance: Faster cube data loading with optimized dataflows",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=578874",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-04T23:59:50+00:00",
-        "summary": "Enable project managers to view and track Committed Costs directly within Project Operations budgets, providing a complete picture of budget consumption beyond actual costs. This enhancement allows project managers to make more informed budgeting, forecasting, and project control decisions by incorporating costs that are contractually or operationally committed but not yet realized. This is for...",
+        "published": "2026-11-05T23:59:28+00:00",
+        "summary": "Business performance planning introduces an optimized dataflow capability designed to improve the performance of loading data into planning cubes. The optimized dataflow improves how data is processed and loaded into the cube, reducing the time required to populate planning models, particularly when working with larger datasets. GA date: November CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "f3104053f517",
-        "title": "Dynamics 365 Project Operations: Enhance contract management insights and usability",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577425",
+        "fingerprint": "f8b0bb6d3e59",
+        "title": "Dynamics 365 Finance: Faster cube data loading with optimized dataflows",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=578873",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-04T23:59:50+00:00",
-        "summary": "This release expands the contract management experience in Dynamics 365 Project Operations with: Enhanced analytics and insights on the contract form to improve visibility into contract performance. Context-based pricing information that provides additional business context for pricing-related decisions. Improved presentation and discoverability of critical contract information. Streamlined use...",
+        "published": "2026-11-05T23:59:28+00:00",
+        "summary": "The Matrix visual now provides clearer control over how zero and blank values are handled during planning. Users can explicitly save 0 as a planning value, preserving the underlying record with a value of zero. Users can also delete an existing planning record by clearing the cell and saving the blank value. This behavior is supported when editing both leaf-level and parent-level cells, providi...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "d1dcf36e74cf",
-        "title": "Power Apps: New view layout in model-driven apps",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=575294",
+        "fingerprint": "cc46338035da",
+        "title": "Work IQ: Memory capabilities expand to agents",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=578869",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-04T23:59:50+00:00",
-        "summary": "Makers can now choose to display their data as a calendar or a stack of cards instead of the default grid layout. Makers can configure these layouts directly in the model driven app designer, giving users more intuitive ways to visualize and work with their data. Availability Field Value Release Channel Weekly Version 12.2 Applies to Model-driven apps Feature Scope Users (enabled by admins or m...",
+        "published": "2026-11-05T23:59:28+00:00",
+        "summary": "A new Work IQ MCP path, /memory/me/coreMemories, gives authorized agents access to a user’s memory profile. This profile enables agents to provide more personalized and relevant assistance. At launch, it includes Custom Instructions, Saved Memories, relevant work account data, and memories derived from chat history. The memory profile will continue to evolve and improve over time. GA date: Dece...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "15884b2c6f62",
-        "title": "Microsoft 365: Expiration for access on sharing main links",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=571399",
+        "fingerprint": "b83978833394",
+        "title": "Microsoft Viva: Insights and Copilot Analytics in GCC and GCC High",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=578868",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-04T23:59:50+00:00",
-        "summary": "People can set expiration dates for “Anyone” and “People in your organization” access on the main link to files and folders in OneDrive and SharePoint. New administrator policies can Administrators can set policies to require expiration and enforce a maximum access duration, with separate settings for OneDrive and SharePoint. These controls help organizations align content sharing with their da...",
+        "published": "2026-11-05T23:59:28+00:00",
+        "summary": "We are expanding the availability of Viva Insights and Copilot Analytics capabilities in Microsoft 365 Government Community Cloud (GCC, or GCC-M) and GCC High (GCC-H). Availability differs for a small number of capabilities by cloud, as noted below. • Eligible users will see updated Insights app features and supported Insights Admin Center experiences. • Adoption and Impact experiences will inc...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "25c895a0c015",
+        "title": "Microsoft 365 Copilot (Microsoft 365): Accounting skills",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=578864",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-11-05T23:59:28+00:00",
+        "summary": "Streamline corporate accounting work New accounting capabilities in Excel and Cowork help accountants spend less time on repetitive, manual tasks in the places they already work, including: • Reconcile accounts with confidence: Compare balances and transactions, identify discrepancies, and prepare reconciling items for review. • Prepare journal entries faster: Draft accruals, reclassifications,...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "c674f5a4d67b",
+        "title": "Dynamics 365 Commerce: Specify contacts on orders and quotations in POS",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577748",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-11-05T23:59:28+00:00",
+        "summary": "In B2B commerce, the company is the customer of record, but the individuals who place orders, make deposits, and collect goods can vary from transaction to transaction. Without a way to identify these individuals, retailers have limited visibility into who performed specific actions. This can create accountability gaps and make it more difficult to resolve disputes or meet compliance requiremen...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "58c7875d6862",
+        "title": "Microsoft 365: [Education] Microsoft Learning Zone - Improve Lesson Insights",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577544",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-11-05T23:59:28+00:00",
+        "summary": "See where your class is struggling and which students need support, with lesson-level results for every student. Aggregated responses show the mistakes many students made in a lesson. You can then open each student's answers to plan targeted follow-up. #education GA date: December CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "5e2fe1fac916",
+        "title": "Dynamics 365 Commerce: Unified Pricing Management - Attribute-based margin thresholds and tiers for approvals and reporting",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577415",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-11-05T23:59:28+00:00",
+        "summary": "Pricing managers can set margin controls that match how the business actually sells, instead of one threshold for everything. Each product, channel and customer gets the right margin guardrail. With this feature, pricing managers can define margin thresholds based on price attributes such as product category, product attributes, channel and customer group. Each threshold can include three margi...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "835d26d1f32a",
+        "title": "Dynamics 365 Commerce: Unified Pricing Management - Set prices per price unit for low-value items",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577413",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-11-05T23:59:28+00:00",
+        "summary": "Businesses that sell small, low-value items, such as fasteners, electronic components or packaging, can maintain prices more easily and accurately, without rounding problems from tiny per-unit prices. With this feature, Unified Pricing Management supports price units, so you can set a price per batch of units instead of per single unit. For example, you can price an item per 100 or 1,000 units....",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "5cca709c76ee",
+        "title": "Dynamics 365 Commerce: Unified Pricing Management - Require manager approval for price overrides and manual discounts that exceed margin limits",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577412",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-11-05T23:59:28+00:00",
+        "summary": "Retailers can protect their profitability without slowing down store operations. Sales associates can still adjust prices to close a sale. Any change that would push an item below the allowed margin goes to a manager for review, so discounting decisions stay controlled and consistent. With this feature, Unified Pricing Management checks every price override and manual discount against margin th...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "cad0d052d77d",
+        "title": "Dynamics 365 Commerce: Unified Pricing Management - View item margins on carts and orders in POS and APIs",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577410",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-11-05T23:59:28+00:00",
+        "summary": "Store associates and other selling channels can now see margins while they sell. This helps them make better pricing decisions and avoid unprofitable discounts or price overrides, so pricing stays consistent across channels. GA date: December CY2026 Preview date: October CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "e61f34e51e44",
+        "title": "Dynamics 365 Commerce: Show ATP and transfer lead time in Dynamics 365 Commerce inventory lookup",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577406",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-11-05T23:59:28+00:00",
+        "summary": "Store and trade-counter associates often need to source items from another store or warehouse and tell the customer when the item will arrive. This feature brings available-to-promise (ATP) data from Inventory Visibility together with transfer lead times in Store Commerce, so associates can choose the best location and set accurate delivery dates. This feature includes: ATP and estimated arriva...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "c017b6a21dc9",
+        "title": "Dynamics 365 Commerce: Tap to Pay on Android using Adyen connector",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577402",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-11-05T23:59:28+00:00",
+        "summary": "Business Value Tap to Pay on Android empowers sales associates with mobility, enabling them to accept payments directly on over-the-counter Android devices without relying on fixed terminals. This reduces the need for costly payment hardware, streamlines checkout experiences, and enhances customer engagement by allowing transactions anywhere in the store. Feature Details This feature enables Ta...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "9fe02b745d7f",
+        "title": "Microsoft Purview: Data Lifecycle Management-Enable version trimming for data covered by retention policies in OneDrive and SharePoint",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=575284",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-11-05T23:59:28+00:00",
+        "summary": "Let tenants trim file-version bloat created by retention, without breaking compliance promises. SharePoint/compliance admins at large, regulated enterprises must cap and reclaim storage consumed by retained file versions, while keeping legal-hold and records promises intact. Admins with appropriate Purview RBAC can enable version cleanup for ODB/SPO content even when retention policies are in e...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "a533f00e05dc",
+        "title": "Dynamics 365 Business Central: Expense Agent - specify when receipts must contain a VAT number",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573611",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-11-05T23:59:28+00:00",
+        "summary": "Help ensure expense receipts include required company VAT information by applying your organization’s receipt validation rules. Expense Agent can check submitted receipts for a valid company VAT number (Tax ID) when your configured rules require one, and flag receipts for review or prevent them from moving forward based on your policies. Benefits • Configure when a company VAT number is require...",
         "category": "upcoming_changes"
       }
     ],
     "official_news": [
+      {
+        "fingerprint": "3d7f23965bc7",
+        "title": "FBI, CISA warn of cyberattacks targeting refrigeration systems",
+        "link": "https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-of-cyberattacks-targeting-refrigeration-systems/",
+        "source": "BleepingComputer",
+        "published": "2026-11-06T00:56:44+00:00",
+        "summary": "The FBI and CISA warn that hackers are actively targeting industrial refrigeration and cold-chain monitoring systems worldwide, potentially causing food spoilage, equipment damage, and fire hazards. [...]",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "cee01d8d6b76",
+        "title": "Threat actors use agentic AI tooling to find and abuse exposed secrets",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets/",
+        "source": "Microsoft Security Blog",
+        "published": "2026-11-05T23:46:50+00:00",
+        "summary": "Microsoft Threat Intelligence has observed threat actors using the agentic offensive security framework ARTEX to search GitHub for OAuth application secrets, which can be used to compromise the associated OAuth application and perform authenticated actions in the application’s tenant. Agents operating on behalf of threat actors then used the compromised OAuth applications to perform a variety o...",
+        "category": "official_news"
+      },
       {
         "fingerprint": "487dc9f90356",
         "title": "New investments to reduce on-premises security risk",
@@ -237,27 +327,27 @@
         "published": "2026-11-05T17:00:00+00:00",
         "summary": "Microsoft Security’s November 2026 updates strengthen AI agent security, least privilege, threat protection, and exposure management. The post ​​​​What’s new in Microsoft Security: November 2026 appeared first on Microsoft Security Blog .",
         "category": "official_news"
-      },
-      {
-        "fingerprint": "426c2707c538",
-        "title": "Email threat landscape: Q3 2026 trends and insights",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/11/05/email-threat-landscape-q3-2026-trends-and-insights/",
-        "source": "Microsoft Security Blog",
-        "published": "2026-11-05T16:00:00+00:00",
-        "summary": "Microsoft Threat Intelligence observed a sharp rise in email-based phishing activity at the end of Q3 2026 (July – September), even as QR code phishing declined, CAPTCHA-gated phishing recovered, and malicious messages spoofing familiar business-service sender domains exposed risks associated with security overrides. The post Email threat landscape: Q3 2026 trends and insights appeared first on...",
-        "category": "official_news"
-      },
-      {
-        "fingerprint": "d65222cb34a4",
-        "title": "Microsoft Intune Enterprise Application Management - Microsoft Intune",
-        "link": "https://learn.microsoft.com/en-us/intune/app-management/deployment/enterprise-app-management",
-        "source": "Microsoft Intune What's New",
-        "published": "2026-11-04T23:33:00+00:00",
-        "summary": "When auto-update is enabled for an Enterprise App Catalog app with a required assignment, Intune detects when a newer version is available in the catalog and automatically updates the app on targeted devices. For Enterprise App Catalog apps with a Required assignment, you can turn on auto-update so Intune applies new versions from the catalog.",
-        "category": "official_news"
       }
     ],
     "community_buzz": [
+      {
+        "fingerprint": "167b71f2c5ef",
+        "title": "OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits",
+        "link": "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html",
+        "source": "The Hacker News",
+        "published": "2026-11-06T14:58:32+00:00",
+        "summary": "OpenAI on Thursday unveiled GPT‑6 Cyber, which it described as a major step forward in security research that brings together stronger cybersecurity capabilities with a step-change improvement in model alignment. The new model is \"more capable at finding and fixing vulnerabilities, and far more reliable staying within the boundaries researchers set,\" OpenAI said. It has classified the model as",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "8dbbc6aabe26",
+        "title": "Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers",
+        "link": "https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html",
+        "source": "The Hacker News",
+        "published": "2026-11-06T12:06:35+00:00",
+        "summary": "A browser extension that can run scripts on claude.ai could make Claude Desktop run code on a person's computer, researchers at Forever Security, an endpoint security company, showed in a test. The attack needs Dispatch, a Claude feature that lets people send tasks from their phone to Claude Desktop. The flaw that makes this possible can still be exploited, the researchers said earlier this",
+        "category": "community_buzz"
+      },
       {
         "fingerprint": "f9a488294e5d",
         "title": "OpenAI announces GPT-6 Cyber, its most capable cybersecurity model yet",
