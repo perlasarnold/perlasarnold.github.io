@@ -1,66 +1,48 @@
-# Security Digest - November 8, 2026
+# Security Digest - November 9, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
 
-- **Generated (UTC):** 2026-11-08 18:35:57 +00:00
+- **Generated (UTC):** 2026-11-09 23:13:51 +00:00
 - **Lookback window:** 7 days
 
 ## 🚀 Top Research & Advisories
 - *No high-priority security research detected in this window.*
+## 💻 AppSec
+- **[Your mail gateway's blocklist check can fail open or fail closed without logging anything. It depends on your DNS resolver](https://www.reddit.com/r/cybersecurity/comments/1xrvqxx/your_mail_gateways_blocklist_check_can_fail_open/)** - *(Reddit r/cybersecurity)*
+  Monitor developer tool vulnerabilities and supply chain risks. Review .NET runtime vulnerabilities and apply patches.
+
 ## 🏗 Infrastructure
-- **[What can I break in my Entra ID lab to learn?](https://www.reddit.com/r/sysadmin/comments/1xr0iaq/what_can_i_break_in_my_entra_id_lab_to_learn/)** - *(Reddit r/sysadmin)*
+- **[Microsoft wants to work directly with customers to make Windows Server better with TAP](https://www.neowin.net/news/microsoft-wants-to-work-directly-with-customers-to-make-windows-server-better-with-tap/?utm_source=rss)** - *(Neowin)*
   Review server hardening and AD security posture.
 
-## 🛡 Security Ops
-- **[AWS made me create a BUILDER ID (instead of enabling MFA). Why?](https://www.reddit.com/r/sysadmin/comments/1xqmh4j/aws_made_me_create_a_builder_id_instead_of/)** - *(Reddit r/sysadmin)*
-  Review CA/MFA settings for tightening opportunities.
-
-- **[how should I handle the password on a break glass account?](https://www.reddit.com/r/sysadmin/comments/1xqwam5/how_should_i_handle_the_password_on_a_break_glass/)** - *(Reddit r/sysadmin)*
-  Review CA/MFA settings for tightening opportunities.
-
-- **[SonicWall Warns of Potential In-the-Wild Exploitation of SSLVPN Flaw That Bypasses MFA](https://cybersecuritynews.com/sonicos-sslvpn-vulnerability-exploited/)** - *(CybersecurityNews)*
-  Review CA/MFA settings for tightening opportunities.
-
 ## 🛠 Infrastructure & Endpoint Control
-- **[CVE-2026-83539](https://nvd.nist.gov/vuln/detail/CVE-2026-83539)** - *(NVD)*
-  Confirm Adobe exposure; push updated deployment.
+- **[CVE-2026-71450](https://nvd.nist.gov/vuln/detail/CVE-2026-71450)** - *(NVD)*
+  Validate Edge/WebView2 coverage; refresh managed package.
 
-- **[Hackers use n-day exploits in zero-click attacks on iOS, Android devices](https://www.reddit.com/r/cybersecurity/comments/1xq9okc/hackers_use_nday_exploits_in_zeroclick_attacks_on/)** - *(Reddit r/cybersecurity)*
+- **[Firefox could soon get the same Windows 11 speed boost as Edge](https://www.neowin.net/news/firefox-could-soon-get-the-same-windows-11-speed-boost-as-edge/?utm_source=rss)** - *(Neowin)*
+  Validate Edge/WebView2 coverage; refresh managed package. Validate workstation security baseline and update compliance.
+
+- **[Google nuked 16,482 chrome themes extension on Nov 5](https://www.reddit.com/r/cybersecurity/comments/1xrzfky/google_nuked_16482_chrome_themes_extension_on_nov/)** - *(Reddit r/cybersecurity)*
   Validate Chrome coverage; update managed package if needed.
 
-- **[Microsoft brings Windows 11 26H2 to Beta Channel Insiders](https://www.neowin.net/news/microsoft-brings-windows-11-26h2-to-beta-channel-insiders/?utm_source=rss)** - *(Neowin)*
+- **[How to detect ai agents](https://www.reddit.com/r/cybersecurity/comments/1xs248x/how_to_detect_ai_agents/)** - *(Reddit r/cybersecurity)*
+  Validate Chrome coverage; update managed package if needed.
+
+- **[Microsoft clarifies rumor of redesigned & half-baked Windows 11 Registry Editor](https://www.neowin.net/news/microsoft-clarifies-rumor-of-redesigned--half-baked-windows-11-registry-editor/?utm_source=rss)** - *(Neowin)*
   Validate workstation security baseline and update compliance.
 
-- **[Microsoft finally addresses over 30 years of user frustrations with a simple Windows 11 fix](https://www.neowin.net/news/microsoft-finally-addresses-over-30-years-of-user-frustrations-with-a-simple-windows-11-fix/?utm_source=rss)** - *(Neowin)*
-  Validate workstation security baseline and update compliance.
-
-- **[Microsoft Outlook SPF validation error blocks email sending and receiving](https://www.neowin.net/news/microsoft-outlook-spf-validation-error-blocks-email-sending-and-receiving/?utm_source=rss)** - *(Neowin)*
-  Review Office update channel health and security baseline compliance.
-
-- **[Troubleshooting .json file in Microsoft Defender Workbook](https://www.reddit.com/r/cybersecurity/comments/1xr0f15/troubleshooting_json_file_in_microsoft_defender/)** - *(Reddit r/cybersecurity)*
-  Review security controls and policy updates.
-
-- **[What is point-in-time restore in Windows 11 and how to use it](https://www.neowin.net/guides/what-is-point-in-time-restore-in-windows-11-and-how-to-use-it/?utm_source=rss)** - *(Neowin)*
-  Validate workstation security baseline and update compliance.
-
-- **[Windows 11 Future Platforms build 29704.1000 fixes upgrade and AMD audio issues](https://www.neowin.net/news/windows-11-future-platforms-build-297041000-fixes-upgrade-and-amd-audio-issues/?utm_source=rss)** - *(Neowin)*
-  Validate workstation security baseline and update compliance.
-
-- **[Windows 11 gains more Steam users as 16GB RAM widens its lead](https://www.neowin.net/news/windows-11-gains-more-steam-users-as-16gb-ram-widens-its-lead/?utm_source=rss)** - *(Neowin)*
-  Validate workstation security baseline and update compliance.
-
-- **[Windows 11 Insider builds bring Windows Hello upgrades and better Live captions](https://www.neowin.net/news/windows-11-insider-builds-bring-windows-hello-upgrades-and-better-live-captions/?utm_source=rss)** - *(Neowin)*
-  Validate workstation security baseline and update compliance.
+- **[New Abe Office Malware Bypasses Chrome App-Bound Encryption to Steal Browser Passwords and Cookies](https://cybersecuritynews.com/abe-office-malware/)** - *(CybersecurityNews)*
+  Validate Chrome coverage; update managed package if needed.
 
 ## 🔍 Quick Links (Watch Items)
-- [Software engineers and IT consultants: What recurring problems do you encounter at work?](https://www.reddit.com/r/sysadmin/comments/1xr43bp/software_engineers_and_it_consultants_what/) - *(Reddit r/sysadmin)*
-- [Bulk file move and rename - Google Drive for desktop on macOS update](https://www.reddit.com/r/sysadmin/comments/1xr276j/bulk_file_move_and_rename_google_drive_for/) - *(Reddit r/sysadmin)*
-- [Frontier Labs are bringing Software Security into Lime light. I started experimenting if we can do it cheaper](https://www.reddit.com/r/cybersecurity/comments/1xqvboc/frontier_labs_are_bringing_software_security_into/) - *(Reddit r/cybersecurity)*
-- [AWS made me create a BUILDER ID (instead of enabling MFA). Why?](https://www.reddit.com/r/sysadmin/comments/1xqmh4j/aws_made_me_create_a_builder_id_instead_of/) - *(Reddit r/sysadmin)*
-- [ARTEX GitHub attack](https://www.reddit.com/r/cybersecurity/comments/1xqmfsz/artex_github_attack/) - *(Reddit r/cybersecurity)*
-- [Transforming My Homelabs](https://www.reddit.com/r/cybersecurity/comments/1xql451/transforming_my_homelabs/) - *(Reddit r/cybersecurity)*
-- [What recurring problems are still poorly solved by existing tools?](https://www.reddit.com/r/cybersecurity/comments/1xqkbld/what_recurring_problems_are_still_poorly_solved/) - *(Reddit r/cybersecurity)*
-- [cybersecurity in post agi era](https://www.reddit.com/r/cybersecurity/comments/1xqe7hn/cybersecurity_in_post_agi_era/) - *(Reddit r/cybersecurity)*
-- [Microsoft Weekly: Elder Scrolls VI Sentinel, Paint vulnerability, new Xbox app, and more](https://www.neowin.net/news/microsoft-weekly-elder-scrolls-vi-sentinel-paint-vulnerability-new-xbox-app-and-more/?utm_source=rss) - *(Neowin)*
-- [Hackers use n-day exploits in zero-click attacks on iOS, Android devices](https://www.reddit.com/r/cybersecurity/comments/1xq9okc/hackers_use_nday_exploits_in_zeroclick_attacks_on/) - *(Reddit r/cybersecurity)*
+- [What makes a security dashboard useful, and which providers are worth looking at?](https://www.reddit.com/r/cybersecurity/comments/1xs2z3x/what_makes_a_security_dashboard_useful_and_which/) - *(Reddit r/cybersecurity)*
+- [MDR vs. independent SOC + MDR partner: what actually work?](https://www.reddit.com/r/cybersecurity/comments/1xs0keq/mdr_vs_independent_soc_mdr_partner_what_actually/) - *(Reddit r/cybersecurity)*
+- [Your mail gateway's blocklist check can fail open or fail closed without logging anything. It depends on your DNS resolver](https://www.reddit.com/r/cybersecurity/comments/1xrvqxx/your_mail_gateways_blocklist_check_can_fail_open/) - *(Reddit r/cybersecurity)*
+- [Anubis Ransomware Hackers Deploy New Lindnor Backdoor and 13 Security-Killing Tools in U.S. Attack](https://cybersecuritynews.com/anubis-ransomware-lindnor-backdoor/) - *(CybersecurityNews)*
+- [Google unveils two new TPUs designed for secure AI workloads and massive context windows](https://www.neowin.net/news/google-unveils-two-new-tpus-designed-for-secure-ai-workloads-and-massive-context-windows/?utm_source=rss) - *(Neowin)*
+- [Career question on offensive security and CTI](https://www.reddit.com/r/cybersecurity/comments/1xrrq1c/career_question_on_offensive_security_and_cti/) - *(Reddit r/cybersecurity)*
+- [Hackers Used Default admin:admin Credentials to Exploit ForgeRock RCE and Remotely Unlock Cars](https://cybersecuritynews.com/forgerock-attack-chain/) - *(CybersecurityNews)*
+- [Wiz alternative for smaller projects.](https://www.reddit.com/r/cybersecurity/comments/1xrq1zg/wiz_alternative_for_smaller_projects/) - *(Reddit r/cybersecurity)*
+- [CISA Warns of SonicWall SonicOS SSLVPN Vulnerability Exploited in Attacks](https://cybersecuritynews.com/sonicwall-sonicos-sslvpn-vulnerability-exploited/) - *(CybersecurityNews)*
+- [Japanese retailer Iris Ohyama warns of data breach affecting 7.7 million users](https://www.neowin.net/news/japanese-retailer-iris-ohyama-warns-of-data-breach-affecting-77-million-users/?utm_source=rss) - *(Neowin)*
 
