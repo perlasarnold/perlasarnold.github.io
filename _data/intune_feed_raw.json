@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-09T21:16:01.821575+00:00",
-  "date": "2026-11-09",
+  "generated_utc": "2026-11-10T18:27:16.513163+00:00",
+  "date": "2026-11-10",
   "lookback_hours": 25,
   "source_status": [
     {
@@ -37,17 +37,17 @@
     {
       "name": "BleepingComputer",
       "status": "OK",
-      "count": 2
+      "count": 8
     },
     {
       "name": "Neowin",
       "status": "OK",
-      "count": 1
+      "count": 3
     },
     {
       "name": "The Hacker News",
       "status": "OK",
-      "count": 5
+      "count": 7
     },
     {
       "name": "Krebs on Security",
@@ -99,6 +99,105 @@
   "items": {
     "high_alert": [
       {
+        "fingerprint": "1467464bb67b",
+        "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
+        "link": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
+        "source": "The Hacker News",
+        "published": "2026-11-10T16:00:55+00:00",
+        "summary": "Cybersecurity researchers have disclosed details of an attack that exploited two now-patched vulnerabilities in AhsayCBS to deliver a Python-based implant. The activity, observed by Huntress in October 2026, involves the exploitation of a chain comprising CVE-2026-105133 and CVE-2026-105134 to bypass authentication and execute arbitrary commands on affected systems. Patches for the two",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "d19fc72aaad1",
+        "title": "Ransomware recovery is now a client retention metric",
+        "link": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-is-now-a-client-retention-metric/",
+        "source": "BleepingComputer",
+        "published": "2026-11-10T15:01:11+00:00",
+        "summary": "Recovering from ransomware doesn't guarantee an MSP will retain its clients, especially when delays, poor communication, and unexpected costs undermine trust. Kaseya examines how disconnected recovery tools create these problems and how integrated workflows can improve response times, transparency, and client retention. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "af9a5b6b243e",
+        "title": "Russian Turla Hackers Use New Cereal Malware to Steal Emails From Government Exchange Servers",
+        "link": "https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html",
+        "source": "The Hacker News",
+        "published": "2026-11-10T10:07:29+00:00",
+        "summary": "The Russia-aligned state-sponsored threat actor known as Turla (aka Snake) is wielding a previously undocumented cyber espionage toolset called Cereal that's used to break into victims' Microsoft Exchange servers with an aim to surreptitiously collect emails. According to an ESET report shared with The Hacker News ahead of publication, the sophisticated and modular tool is designed for",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "0085b7a4e956",
+        "title": "Turla hackers use new Cereal malware to spy on govt Exchange servers",
+        "link": "https://www.bleepingcomputer.com/news/security/turla-hackers-use-new-ceral-malware-to-spy-on-govt-exchange-servers/",
+        "source": "BleepingComputer",
+        "published": "2026-11-10T10:04:32+00:00",
+        "summary": "The Russian state-backed threat group Turla has been using a new malicious toolset called 'Cereal' to intercept emails on Microsoft Exchange servers at government organizations. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "13e50eab06cd",
+        "title": "SAP Patches Four CVSS 10.0 Flaws, Including Two Enabling Remote Code Execution",
+        "link": "https://thehackernews.com/2026/11/sap-patches-four-cvss-100-flaws.html",
+        "source": "The Hacker News",
+        "published": "2026-11-10T10:02:40+00:00",
+        "summary": "Four flaws that attackers could exploit without logging in were fixed today as part of SAP's monthly Security Patch Day—the vendor rates all four 10.0, the maximum CVSS score. Three are in the SAP NetWeaver application server, the software SAP systems run on, and one is in the Web Dispatcher, which receives web requests from the internet and passes them on to that server. The flaws in the Web",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "cc64320bcc02",
+        "title": "Google patches eighth Chrome zero-day exploited in attacks this year",
+        "link": "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/",
+        "source": "BleepingComputer",
+        "published": "2026-11-10T08:51:25+00:00",
+        "summary": "Google has released emergency security updates to patch a new Chrome vulnerability exploited in zero-day attacks, the eighth such flaw since the start of the year. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "ebb42f91ffae",
+        "title": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
+        "link": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
+        "source": "The Hacker News",
+        "published": "2026-11-10T06:52:54+00:00",
+        "summary": "Google on Monday released updates to patch nine security vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability, assigned the CVE identifier CVE-2026-125350 (CVSS score: N/A), has been described as a use-after-free bug in the XML component. Use-after-free bugs typically occur when a program attempts to access a memory location after",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "a97582303990",
+        "title": "CISA Warns of Active Exploitation of OpenSSH, GPUStack, FreeSWITCH, and IBM Flaws",
+        "link": "https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html",
+        "source": "The Hacker News",
+        "published": "2026-11-10T06:31:42+00:00",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added four security flaws impacting GPUStack, SignalWire FreeSwitch, OpenBSD OpenSSH, and IBM Aspera Faspex to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-123218 (CVSS score: 9.8) - An incorrect authorization vulnerability",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "d5b15fd9297a",
+        "title": "Vanderbilt University suffers potential ransomware attack, data breach",
+        "link": "https://www.neowin.net/news/vanderbilt-university-suffers-potential-ransomware-attack-data-breach/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-11-10T04:22:01+00:00",
+        "summary": "Vanderbilt University is asking students and faculty to shut down their devices after a cyberattack was detected. A ransomware gang claims responsibility for the incident. Read more...",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "d1f91a1da461",
+        "title": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
+        "link": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/",
+        "source": "BleepingComputer",
+        "published": "2026-11-09T23:52:12+00:00",
+        "summary": "Vanderbilt University warns it is responding to a cyberattack claimed by the BYOD ransomware gang, which claims to have encrypted the university's databases and stolen sensitive student, employee, and research data. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "7b7bb687181c",
+        "title": "N-able takes cloud platform offline after 30+ \"zero-days\" published",
+        "link": "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/",
+        "source": "BleepingComputer",
+        "published": "2026-11-09T21:26:25+00:00",
+        "summary": "N-able has taken its hosted N-central environments offline and urged on-premises customers to shut down their servers after a security researcher publicly disclosed more than 30 alleged zero-day vulnerabilities, including exploits that could let attackers take over vulnerable systems. [...]",
+        "category": "high_alert"
+      },
+      {
         "fingerprint": "b2c7039d4104",
         "title": "Russian cloud firm Beget rebuilds from scratch after data wiper attack",
         "link": "https://www.bleepingcomputer.com/news/security/russian-cloud-firm-beget-rebuilds-from-scratch-after-data-wiper-attack/",
@@ -115,38 +214,10 @@
         "published": "2026-11-09T17:36:28+00:00",
         "summary": "Attackers used the Ethersphere project's own release automation to publish malicious versions of two of its tools for the Swarm decentralized storage network: bee-js 13.3.0 and Swarm Desktop 0.56.2. Both releases download and run code built to steal the wallet key that Swarm Desktop keeps for its node, along with the stored password that unlocks it. The code is also built to install a backdoor",
         "category": "high_alert"
-      },
-      {
-        "fingerprint": "35821baf790d",
-        "title": "Hackers exploit SSHole OpenSSH flaw to breach Linux systems",
-        "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/",
-        "source": "BleepingComputer",
-        "published": "2026-11-09T16:04:57+00:00",
-        "summary": "Hackers are actively exploiting the \"SSHole\" vulnerability (CVE-2026-123158) in OpenSSH to execute commands, steal credentials, and establish persistent access. [...]",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "e8c05259112e",
-        "title": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
-        "link": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
-        "source": "The Hacker News",
-        "published": "2026-11-09T06:05:24+00:00",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity vulnerability impacting SonicWall SonicOS to its Known Exploited Vulnerabilities (KEV) catalog, following reports that it said may have been exploited in real-world attacks. The vulnerability, tracked as CVE-2026-19868 (CVSS score: 7.1 / 7.5), has been described as an authentication reinforcement",
-        "category": "high_alert"
       }
     ],
     "bad_updates": [],
-    "upcoming_changes": [
-      {
-        "fingerprint": "147106fe8bc4",
-        "title": "IT admins should check out these recent features added to Entra",
-        "link": "https://www.neowin.net/news/it-admins-should-check-out-these-recent-features-added-to-entra/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-11-09T13:00:04+00:00",
-        "summary": "Microsoft has outlined a fresh batch of Entra upgrades for IT admins, but one upcoming change means organizations should start preparing now. Read more...",
-        "category": "upcoming_changes"
-      }
-    ],
+    "upcoming_changes": [],
     "official_news": [
       {
         "fingerprint": "a7e0ccb76887",
@@ -160,30 +231,48 @@
     ],
     "community_buzz": [
       {
+        "fingerprint": "638fab427255",
+        "title": "Windows 11 KB5132061 KB5131087 November 2026 Patch Tuesday direct download links here",
+        "link": "https://www.neowin.net/news/windows-11-kb5132061-kb5131087-november-2026-patch-tuesday-direct-download-links-here/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-11-10T18:11:37+00:00",
+        "summary": "Microsoft has released Patch Tuesday updates for Windows 11 KB5132061 and KB5131087 for November 2026. Here's what's included. Read more...",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "39eabd91a12d",
+        "title": "Free eBook: Cybersecurity for NGOs: Attack Prevention and Threat Response (was $30)",
+        "link": "https://www.neowin.net/sponsored/free-ebook-cybersecurity-for-ngos-attack-prevention-and-threat-response-was-30/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-11-10T15:00:01+00:00",
+        "summary": "The book equips readers with specific strategies to protect organizations serving vulnerable populations from sophisticated cyber threats. Read more...",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "179f8ec82291",
+        "title": "Hackers now exploit critical Barracuda ESG flaws to gain root access",
+        "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-barracuda-email-security-gateway-flaws-to-get-root-access/",
+        "source": "BleepingComputer",
+        "published": "2026-11-10T10:10:20+00:00",
+        "summary": "Cybersecurity company Barracuda Networks warned that attackers have begun exploiting two recently patched Email Security Gateway (ESG) vulnerabilities that let them run commands with root privileges. [...]",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "613978d1a4ed",
+        "title": "York University breach exposed personal information dating to 2007",
+        "link": "https://www.bleepingcomputer.com/news/security/york-university-breach-exposed-personal-information-dating-to-2007/",
+        "source": "BleepingComputer",
+        "published": "2026-11-09T21:22:31+00:00",
+        "summary": "York University has announced it suffered a cybersecurity incident in which a threat actor stole personal information people submitted through online forms. [...]",
+        "category": "community_buzz"
+      },
+      {
         "fingerprint": "76566ea3ff1d",
         "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
         "link": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
         "source": "The Hacker News",
         "published": "2026-11-09T17:51:21+00:00",
         "summary": "An attacker broke into AWS accounts belonging to multiple Qubole customers between October 14 and October 26 and stole stored secrets and data, cloud security company Wiz said today. The attacker used credentials for an AWS account that Qubole's platform uses to reach those customers. How the attacker got those credentials has not been disclosed. Qubole, a data lake platform owned by Idera,",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "a0875feee146",
-        "title": "LNbits Urges All Operators to Shut Down Their Bitcoin Lightning Wallet Servers Amid Attacks",
-        "link": "https://thehackernews.com/2026/11/lnbits-urges-all-operators-to-shut-down.html",
-        "source": "The Hacker News",
-        "published": "2026-11-09T10:01:21+00:00",
-        "summary": "Everyone running LNbits, a free, open-source Bitcoin Lightning wallet system, should shut down their servers now because of a wave of attacks, the project said yesterday. It has several security fixes to release and asked operators to be careful until they are out. One operator said new accounts used an exploit to withdraw 2,285,545 satoshis, about 0.023 bitcoin, from his server before he could",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "d6d2107aa9fc",
-        "title": "U.S. Agencies Warn Refrigeration Controller Attacks Could Cause Fires and Inventory Losses",
-        "link": "https://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html",
-        "source": "The Hacker News",
-        "published": "2026-11-09T06:15:10+00:00",
-        "summary": "U.S. government agencies have warned that threat actors are actively targeting industrial refrigeration and cold-chain monitoring systems globally with an aim to cause service disruptions, fire hazards, and loss of inventory. \"The actors may exploit vulnerabilities or weaknesses in unpatched or internet-accessible controllers to remotely alter settings and force units into continuous heating",
         "category": "community_buzz"
       }
     ]
