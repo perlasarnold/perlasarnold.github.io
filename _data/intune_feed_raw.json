@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-10T18:27:16.513163+00:00",
-  "date": "2026-11-10",
+  "generated_utc": "2026-11-11T18:19:54.059964+00:00",
+  "date": "2026-11-11",
   "lookback_hours": 25,
   "source_status": [
     {
@@ -12,12 +12,12 @@
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 0
+      "count": 16
     },
     {
       "name": "Microsoft Intune What's New",
       "status": "OK",
-      "count": 0
+      "count": 2
     },
     {
       "name": "Windows IT Pro Blog",
@@ -27,7 +27,7 @@
     {
       "name": "Microsoft Security Blog",
       "status": "OK",
-      "count": 1
+      "count": 2
     },
     {
       "name": "Microsoft Entra Blog",
@@ -37,7 +37,7 @@
     {
       "name": "BleepingComputer",
       "status": "OK",
-      "count": 8
+      "count": 7
     },
     {
       "name": "Neowin",
@@ -47,12 +47,12 @@
     {
       "name": "The Hacker News",
       "status": "OK",
-      "count": 7
+      "count": 8
     },
     {
       "name": "Krebs on Security",
       "status": "OK",
-      "count": 0
+      "count": 2
     },
     {
       "name": "The Old New Thing",
@@ -99,180 +99,371 @@
   "items": {
     "high_alert": [
       {
-        "fingerprint": "1467464bb67b",
-        "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
-        "link": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
-        "source": "The Hacker News",
-        "published": "2026-11-10T16:00:55+00:00",
-        "summary": "Cybersecurity researchers have disclosed details of an attack that exploited two now-patched vulnerabilities in AhsayCBS to deliver a Python-based implant. The activity, observed by Huntress in October 2026, involves the exploitation of a chain comprising CVE-2026-105133 and CVE-2026-105134 to bypass authentication and execute arbitrary commands on affected systems. Patches for the two",
+        "fingerprint": "88b679515270",
+        "title": "Who Runs the Ransomware Group Qilin?",
+        "link": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
+        "source": "Krebs on Security",
+        "published": "2026-11-11T18:06:01+00:00",
+        "summary": "The cybercrime group Qilin has emerged as the world's most active ransomware affiliate program, claiming at least 365 victim organizations in the past three months alone. But even top Russian hackers make operational security mistakes, and the administrator of Qilin has made a few key missteps over the last decade that all point to a 36-year-old man living in St. Petersburg, Russia.",
         "category": "high_alert"
       },
       {
-        "fingerprint": "d19fc72aaad1",
-        "title": "Ransomware recovery is now a client retention metric",
-        "link": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-is-now-a-client-retention-metric/",
+        "fingerprint": "c42b4a9c14ff",
+        "title": "Maersk confirms data breach as WhiteArmor ransomware demands $5 million",
+        "link": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/",
         "source": "BleepingComputer",
-        "published": "2026-11-10T15:01:11+00:00",
-        "summary": "Recovering from ransomware doesn't guarantee an MSP will retain its clients, especially when delays, poor communication, and unexpected costs undermine trust. Kaseya examines how disconnected recovery tools create these problems and how integrated workflows can improve response times, transparency, and client retention. [...]",
+        "published": "2026-11-11T16:24:18+00:00",
+        "summary": "Maersk announced that a threat actor gained unauthorized access to a local legacy system inherited through an earlier acquisition and extracted data from it. [...]",
         "category": "high_alert"
       },
       {
-        "fingerprint": "af9a5b6b243e",
-        "title": "Russian Turla Hackers Use New Cereal Malware to Steal Emails From Government Exchange Servers",
-        "link": "https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html",
+        "fingerprint": "b4b4a330fe01",
+        "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
+        "link": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
         "source": "The Hacker News",
-        "published": "2026-11-10T10:07:29+00:00",
-        "summary": "The Russia-aligned state-sponsored threat actor known as Turla (aka Snake) is wielding a previously undocumented cyber espionage toolset called Cereal that's used to break into victims' Microsoft Exchange servers with an aim to surreptitiously collect emails. According to an ESET report shared with The Hacker News ahead of publication, the sophisticated and modular tool is designed for",
+        "published": "2026-11-11T16:12:46+00:00",
+        "summary": "Zoom has released software updates to address two security flaws impacting Zoom Workplace for Windows, including a critical bug that could result in privilege escalation on affected systems. The vulnerabilities are listed below - CVE-2026-108186 (CVSS score: 9.6) - An improper input validation vulnerability that could allow an unauthenticated user to conduct an escalation of privilege via",
         "category": "high_alert"
       },
       {
-        "fingerprint": "0085b7a4e956",
-        "title": "Turla hackers use new Cereal malware to spy on govt Exchange servers",
-        "link": "https://www.bleepingcomputer.com/news/security/turla-hackers-use-new-ceral-malware-to-spy-on-govt-exchange-servers/",
+        "fingerprint": "c8d1b9eee55a",
+        "title": "N-able releases security hotfixes for zero-day vulnerabilities",
+        "link": "https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/",
         "source": "BleepingComputer",
-        "published": "2026-11-10T10:04:32+00:00",
-        "summary": "The Russian state-backed threat group Turla has been using a new malicious toolset called 'Cereal' to intercept emails on Microsoft Exchange servers at government organizations. [...]",
+        "published": "2026-11-11T12:32:27+00:00",
+        "summary": "N-able released hotfixes to address zero-day bugs affecting its N-central remote monitoring and management (RMM) platform, which were publicly disclosed over the weekend and forced it to take vulnerable hosted environments offline. [...]",
         "category": "high_alert"
       },
       {
-        "fingerprint": "13e50eab06cd",
-        "title": "SAP Patches Four CVSS 10.0 Flaws, Including Two Enabling Remote Code Execution",
-        "link": "https://thehackernews.com/2026/11/sap-patches-four-cvss-100-flaws.html",
+        "fingerprint": "9716a12d931a",
+        "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
+        "link": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
         "source": "The Hacker News",
-        "published": "2026-11-10T10:02:40+00:00",
-        "summary": "Four flaws that attackers could exploit without logging in were fixed today as part of SAP's monthly Security Patch Day—the vendor rates all four 10.0, the maximum CVSS score. Three are in the SAP NetWeaver application server, the software SAP systems run on, and one is in the Web Dispatcher, which receives web requests from the internet and passes them on to that server. The flaws in the Web",
+        "published": "2026-11-11T06:04:02+00:00",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) Tuesday added two security flaws impacting Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. Details of the vulnerabilities are below - CVE-2026-20320 (CVSS score: 7.5) - An improper restriction of XML external entity",
         "category": "high_alert"
       },
       {
-        "fingerprint": "cc64320bcc02",
-        "title": "Google patches eighth Chrome zero-day exploited in attacks this year",
-        "link": "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/",
-        "source": "BleepingComputer",
-        "published": "2026-11-10T08:51:25+00:00",
-        "summary": "Google has released emergency security updates to patch a new Chrome vulnerability exploited in zero-day attacks, the eighth such flaw since the start of the year. [...]",
+        "fingerprint": "0fd8b0e4d2a5",
+        "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
+        "link": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
+        "source": "Krebs on Security",
+        "published": "2026-11-10T21:55:03+00:00",
+        "summary": "Microsoft did another four-digit patch drop today, releasing updates to fix almost 1,100 security vulnerabilities in its Windows operating systems and supported software. This month's Patch Tuesday addresses 63 critical flaws -- including a zero-day in Microsoft Outlook -- and comes amid important security updates from other software makers, including Adobe, Apple, Google and Mozilla.",
         "category": "high_alert"
       },
       {
-        "fingerprint": "ebb42f91ffae",
-        "title": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
-        "link": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
+        "fingerprint": "040aa33a7c0d",
+        "title": "Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones",
+        "link": "https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html",
         "source": "The Hacker News",
-        "published": "2026-11-10T06:52:54+00:00",
-        "summary": "Google on Monday released updates to patch nine security vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability, assigned the CVE identifier CVE-2026-125350 (CVSS score: N/A), has been described as a use-after-free bug in the XML component. Use-after-free bugs typically occur when a program attempts to access a memory location after",
+        "published": "2026-11-10T19:23:10+00:00",
+        "summary": "A flaw in Git can let a malicious repository run an attacker's code on a computer that clones it recursively, together with its submodules. The Git project fixed it this week in Git 2.56.1, with matching fixes for the 2.50 through 2.55 series in 2.50.2, 2.51.3, 2.52.1, 2.53.1, 2.54.1 and 2.55.1. The flaw, tracked as CVE-2026-111760, is an integer truncation in how Git handles its index. An",
         "category": "high_alert"
       },
       {
-        "fingerprint": "a97582303990",
-        "title": "CISA Warns of Active Exploitation of OpenSSH, GPUStack, FreeSWITCH, and IBM Flaws",
-        "link": "https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html",
+        "fingerprint": "90757dd2243a",
+        "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
+        "link": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
         "source": "The Hacker News",
-        "published": "2026-11-10T06:31:42+00:00",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added four security flaws impacting GPUStack, SignalWire FreeSwitch, OpenBSD OpenSSH, and IBM Aspera Faspex to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-123218 (CVSS score: 9.8) - An incorrect authorization vulnerability",
+        "published": "2026-11-10T19:19:39+00:00",
+        "summary": "An attacker exploited a remote code execution flaw in SGLang, an open-source inference engine, and ran code on one of NEAR AI's inference servers last Sunday. The attacker could also have seen requests being processed on that server that day, including requests sent in confidential mode, the company said earlier this week. That mode processes requests inside a trusted execution environment (TEE",
         "category": "high_alert"
       },
       {
-        "fingerprint": "d5b15fd9297a",
-        "title": "Vanderbilt University suffers potential ransomware attack, data breach",
-        "link": "https://www.neowin.net/news/vanderbilt-university-suffers-potential-ransomware-attack-data-breach/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-11-10T04:22:01+00:00",
-        "summary": "Vanderbilt University is asking students and faculty to shut down their devices after a cyberattack was detected. A ransomware gang claims responsibility for the incident. Read more...",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "d1f91a1da461",
-        "title": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
-        "link": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/",
+        "fingerprint": "9979519482ff",
+        "title": "Microsoft November 2026 Patch Tuesday fixes 1,235 flaws, Outlook zero-day",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day/",
         "source": "BleepingComputer",
-        "published": "2026-11-09T23:52:12+00:00",
-        "summary": "Vanderbilt University warns it is responding to a cyberattack claimed by the BYOD ransomware gang, which claims to have encrypted the university's databases and stolen sensitive student, employee, and research data. [...]",
+        "published": "2026-11-10T19:07:36+00:00",
+        "summary": "Today is Microsoft's November 2026 Patch Tuesday, with security updates addressing a record-breaking 1,235 flaws, including one actively exploited Microsoft Outlook zero-day vulnerability. [...]",
         "category": "high_alert"
       },
       {
-        "fingerprint": "7b7bb687181c",
-        "title": "N-able takes cloud platform offline after 30+ \"zero-days\" published",
-        "link": "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/",
-        "source": "BleepingComputer",
-        "published": "2026-11-09T21:26:25+00:00",
-        "summary": "N-able has taken its hosted N-central environments offline and urged on-premises customers to shut down their servers after a security researcher publicly disclosed more than 30 alleged zero-day vulnerabilities, including exploits that could let attackers take over vulnerable systems. [...]",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "b2c7039d4104",
-        "title": "Russian cloud firm Beget rebuilds from scratch after data wiper attack",
-        "link": "https://www.bleepingcomputer.com/news/security/russian-cloud-firm-beget-rebuilds-from-scratch-after-data-wiper-attack/",
-        "source": "BleepingComputer",
-        "published": "2026-11-09T17:50:32+00:00",
-        "summary": "A data-wiping malware attack has forced Russian cloud services provider Beget to rebuild its cloud infrastructure from scratch, the company said. [...]",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "179dd0cd05bc",
-        "title": "Hackers Compromise Ethersphere's bee-js and Swarm Desktop to Deliver Wallet-Stealing Malware",
-        "link": "https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html",
+        "fingerprint": "a7a113740ce7",
+        "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
+        "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
         "source": "The Hacker News",
-        "published": "2026-11-09T17:36:28+00:00",
-        "summary": "Attackers used the Ethersphere project's own release automation to publish malicious versions of two of its tools for the Swarm decentralized storage network: bee-js 13.3.0 and Swarm Desktop 0.56.2. Both releases download and run code built to steal the wallet key that Swarm Desktop keeps for its node, along with the stored password that unlocks it. The code is also built to install a backdoor",
+        "published": "2026-11-10T18:12:21+00:00",
+        "summary": "French software company Vates VMS has warned of a critical security vulnerability in Xen Orchestra that it said is being actively exploited in the wild. The authentication bypass flaw, which does not yet have a CVE identifier, is tracked as VSA-2026-062. \"REST cookie parsing turns authenticationToken=j:%7B%7D into {},\" Vates VMS said in an alert. \"REST authentication passes that object to the",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "52f781e38dcf",
+        "title": "Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem",
+        "link": "https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html",
+        "source": "The Hacker News",
+        "published": "2026-11-10T17:43:23+00:00",
+        "summary": "Three distinct threat activity clusters with shared infrastructure and malware code similarities have been observed targeting telecommunications providers, government organizations, military entities, research institutions, and critical infrastructure across Latin America, Asia, and Europe over the past year. Check Point Research is tracking the clusters under the names SilentDelivery,",
         "category": "high_alert"
       }
     ],
-    "bad_updates": [],
-    "upcoming_changes": [],
+    "bad_updates": [
+      {
+        "fingerprint": "344de9a6f35c",
+        "title": "User finds fix for Windows 11 KB5132061 install fail, a Microsoft feature may be culprit",
+        "link": "https://www.neowin.net/news/user-finds-fix-for-windows-11-kb5132061-install-fail-a-microsoft-feature-may-be-culprit/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-11-11T06:00:04+00:00",
+        "summary": "Is the latest Windows 11 KB5132061 update refusing to install on your PC? A user has uncovered a fix, and a Microsoft feature may be to blame for the issue. Read more...",
+        "category": "bad_updates"
+      },
+      {
+        "fingerprint": "2ad62880a707",
+        "title": "Microsoft releases Windows 10 KB5131096 extended security update",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5131096-extended-security-update/",
+        "source": "BleepingComputer",
+        "published": "2026-11-10T20:04:36+00:00",
+        "summary": "Microsoft released the Windows 10 KB5131096 extended security update, which includes this month's November 2026 Patch Tuesday fixes and a few bug fixes and changes. [...]",
+        "category": "bad_updates"
+      }
+    ],
+    "upcoming_changes": [
+      {
+        "fingerprint": "c8f5bd436b06",
+        "title": "Dynamics 365 Project Operations: Optimize Project Operations - Allow to invoice future-dated transactions",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577876",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-11-11T01:20:59+00:00",
+        "summary": "Available for core and integrated. Currently, project invoices include transactions based on the invoice date, which can make it difficult to prepare invoices in advance when additional transactions are expected before the end of the billing period. With this feature, you can use the Accounting date as the transaction cutoff date for an invoice. When the Accounting date is later than the invoic...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "3d3da851279e",
+        "title": "Microsoft Edge: Expanded enforcement controls for Data Loss Prevention connectors",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=579894",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-11-11T00:56:01+00:00",
+        "summary": "Microsoft Edge for Business is expanding its existing Data Loss Prevention Enterprise Connector capabilities. Administrators will be able to configure more consistent enforcement across download, upload, paste, and print workflows. Additional controls include required bypass justification and administrator-defined guidance. GA date: December CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "8c07c80c6cb3",
+        "title": "Microsoft Teams: Tenant policy controls who can record and transcribe",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=579860",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-11-11T00:56:01+00:00",
+        "summary": "Teams administrators can use meeting policies to control who can start recording and transcription, helping organizations apply consistent meeting settings. Administrators can restrict these permissions to organizers and co-organizers or extend them to presenters. They can also determine whether meeting organizers can modify these settings or whether they are enforced by policy. GA date: Decemb...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "c0f0f1d142e4",
+        "title": "Microsoft Teams: Real-time queue metrics in the Queues app on Mobile",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=579859",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-11-11T00:56:01+00:00",
+        "summary": "Calling representative and Supervisor leads can view real-time call queue metrics directly from the Queues app on Mobile, giving them greater visibility into current queue activity and performance while on the go. Users can quickly understand the state of their queues, monitor key operational metrics, and make more informed decisions about their availability and queue participation without need...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "ef7bc140b583",
+        "title": "Outlook: More visibility into usage for recoverable items storage",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=579190",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-11-11T00:56:01+00:00",
+        "summary": "You'll be able to see how much storage your recoverable items are using in Outlook. This gives you a clearer picture of your storage usage before you reach a limit. You can use this information to make more informed decisions about managing your mailbox. #newoutlookforwindows GA date: February CY2027",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "cb3ba0cad332",
+        "title": "Outlook: Expand or collapse all accounts at once",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=579189",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-11-11T00:56:01+00:00",
+        "summary": "You'll be able to expand or collapse all accounts at once in Outlook's folder pane. You won't need to expand or collapse each account individually. This makes it easier to navigate multiple accounts or keep your folder pane compact. #newoutlookforwindows GA date: February CY2027",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "6c5a9369aab2",
+        "title": "Outlook: Remember your online archive folder pane state",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=579188",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-11-11T00:56:01+00:00",
+        "summary": "Outlook will remember whether your online archive is expanded or collapsed when you return. Outlook on the web and the new Outlook for Windows will each keep their own saved state. This saves you from repeatedly expanding or collapsing your archive as you navigate your mailbox. #newoutlookforwindows GA date: February CY2027",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "1b665b263f7e",
+        "title": "Outlook: Keep folders expanded when you restart Outlook",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=579187",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-11-11T00:56:01+00:00",
+        "summary": "Outlook will remember which folders and shared mailboxes you have expanded or collapsed when you restart the app. You can pick up where you left off without opening the same folder branches again. This makes returning to your usual folders easier. #newoutlookforwindows GA date: February CY2027",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "700db3583ec3",
+        "title": "Outlook: Sort your subfolders from A to Z",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=579186",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-11-11T00:56:01+00:00",
+        "summary": "You'll be able to sort a folder's subfolders alphabetically from the parent folder. This makes it easier to find the folder you need without rearranging subfolders one by one. It's a simple way to keep long folder lists organized. #newoutlookforwindows GA date: February CY2027",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "44ad32211192",
+        "title": "Outlook: Keep folder sharing within your organization's policies",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=579185",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-11-11T00:56:01+00:00",
+        "summary": "Folder sharing in Outlook will respect your organization's restrictions for Default and Anonymous permissions. When these restrictions are enabled, you won't be able to change either setting. Permissions granted directly to individual users will remain unaffected. This helps keep folder sharing aligned with your organization's policies. #newoutlookforwindows GA date: January CY2027",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "85c5c5128ceb",
+        "title": "Dynamics 365 Contact Center: Quality Evaluation Agent - Review historical quality metrics in a unified dashboard",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577895",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-11-11T00:56:01+00:00",
+        "summary": "The quality evaluation historical dashboard provides aggregated insights from completed evaluations, helping organizations track quality trends over time. Users can view quality scores and trends across selected date ranges, with up to two years of historical data available. More info: https://learn.microsoft.com/en-us/dynamics365/contact-center/use/quality-evaluation-historical-analytics GA da...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "8bff0e0d7502",
+        "title": "Microsoft Power Platform governance and administration: Secure Dataverse record with column-based filtering",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577860",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-11-11T00:56:01+00:00",
+        "summary": "This enhancement introduces column-based security filtering, enabling records to be secured using attribute values rather than traditional ownership. This allows security admins to define access based on business dimensions such as region or department, making it ideal for scenarios where record ownership does not exist—such as reporting and aggregated datasets. By eliminating the need for arti...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "579e38f2eea7",
+        "title": "Dynamics 365 Commerce: Design receipts using a modern, web-based designer in headquarters and print them on A4 paper or thermal printers from Store Commerce, supporting B2B scenarios",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573703",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-11-11T00:56:01+00:00",
+        "summary": "Applies to : Point of Sale (Store Commerce app and web), Commerce headquarters receipt format designer, Hardware Station, and Commerce Scale Unit. The modern receipt designer introduces a React-based designer in headquarters at Retail and Commerce > Channel setup > POS setup > POS > Receipt formats > Designer . Users can author receipts in the browser with live preview, without installing the l...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "9f78ac086199",
+        "title": "Dynamics 365 Business Central: E-Documents - Self-billing enablement",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573612",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-11-11T00:56:01+00:00",
+        "summary": "Streamline self-billing by automatically creating, managing, and exchanging electronic documents for self-billed invoices as part of the invoice lifecycle. This reduces manual document handling while helping ensure self-billed transactions include the appropriate electronic documents in standardized formats used by local regulations and trading partners. Benefits • Automate electronic document ...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "373ca61c3c23",
+        "title": "Microsoft Copilot (Microsoft 365): Copilot Cowork: Access Business Applications with Work IQ",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573293",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-11-11T00:53:34+00:00",
+        "summary": "Users can access Business Applications through Work IQ in Copilot Cowork and use Business Skills to complete end-to-end business processes grounded in their enterprise data and apps. This helps users move from finding the right business application to taking action across key workflows with less context switching. GA date: December CY2026 Preview date: September CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "3964e038238c",
+        "title": "Work IQ: Business Skills to manage your business processes in Work IQ MCP",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573290",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-11-11T00:53:34+00:00",
+        "summary": "Business skills are natural-language instructions that capture how your organization gets work done. They represent your business processes, policies, and domain knowledge in a format that agents can understand and follow. Each skill describes how to complete a specific type of work—the steps involved, the information required, and the business rules that apply. Agents discover and use the busi...",
+        "category": "upcoming_changes"
+      }
+    ],
     "official_news": [
       {
-        "fingerprint": "a7e0ccb76887",
-        "title": "FORGE Lab uses agentic tools to identify memory safety issues in Rust",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/11/09/forge-lab-uses-agentic-tools-to-identify-memory-safety-issues-in-rust/",
+        "fingerprint": "69c3374f325d",
+        "title": "Lessons from 59 Linux Kernel Bug Reports",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/11/11/lessons-from-59-linux-kernel-bug-reports/",
         "source": "Microsoft Security Blog",
-        "published": "2026-11-09T20:17:31+00:00",
-        "summary": "Microsoft FORGE Lab researchers found memory-safety bugs in Rust's core and std libraries, including cases where safe Rust code can trigger undefined behavior. Using Hyenas, FORGE's frontier research version of codename MDASH, the team investigated three patterns of misplaced trust in unsafe code and what they reveal about Rust's safety guarantees. The post FORGE Lab uses agentic tools to ident...",
+        "published": "2026-11-11T16:55:00+00:00",
+        "summary": "Microsoft FORGE Lab researchers used codename MDASH to investigate Linux kernel vulnerabilities, resulting in 59 upstream bug reports, 33 assigned CVEs, and 38 merged fixes. The research includes eight demonstrated local root privilege-escalation exploits and examines the challenges of turning AI-generated findings into validated vulnerabilities and upstream fixes. The post Lessons from 59 Linu...",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "87509a2fd1f5",
+        "title": "CISA flags Cisco BroadWorks flaw as actively exploited in attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/cisa-flags-cisco-broadworks-flaw-as-actively-exploited-in-attacks/",
+        "source": "BleepingComputer",
+        "published": "2026-11-11T10:12:08+00:00",
+        "summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned on Tuesday that hackers are now exploiting a high-severity Cisco BroadWorks vulnerability in attacks. [...]",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "c5d6d6851934",
+        "title": "Enroll a Linux device in Intune - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/user-help/enrollment/enroll-linux",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-11-11T08:32:00+00:00",
+        "summary": "Enroll Linux device in Intune Summarize this article for me In this article Enroll a Linux device in Microsoft Intune to get secure access to work or school resources in Microsoft Edge. This article descri... Microsoft Intune app: The Linux version of the Microsoft Intune app is used for enrollment. The Intune app registers your device with your.",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "f3a337cbd150",
+        "title": "Detecting sleeper agents hiding in AI model neurons",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/11/10/detecting-sleeper-agents-hiding-in-ai-model-neurons/",
+        "source": "Microsoft Security Blog",
+        "published": "2026-11-10T23:00:00+00:00",
+        "summary": "Microsoft Research has released new threat research detailing how a capable agent model could be turned into a sleeper agent by editing fewer than ten neurons to inject a short payload; Microsoft Research has also found that this threat is detectable by frontier agents, which can identify anomalous weight edits. The post Detecting sleeper agents hiding in AI model neurons appeared first on Micr...",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "991b0584fcf1",
+        "title": "Get the Intune Company Portal App - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/user-help/company-portal/",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-11-10T18:34:00+00:00",
+        "summary": "Get the Intune Company Portal app Summarize this article for me In this article Microsoft Intune helps organizations manage access to their internal apps, data, and resources. Intune Company Portal is the app that lets you, as an employee or student in your organization, securely access those resources. The app is available for desktop (Windows.",
         "category": "official_news"
       }
     ],
     "community_buzz": [
       {
-        "fingerprint": "638fab427255",
-        "title": "Windows 11 KB5132061 KB5131087 November 2026 Patch Tuesday direct download links here",
-        "link": "https://www.neowin.net/news/windows-11-kb5132061-kb5131087-november-2026-patch-tuesday-direct-download-links-here/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-11-10T18:11:37+00:00",
-        "summary": "Microsoft has released Patch Tuesday updates for Windows 11 KB5132061 and KB5131087 for November 2026. Here's what's included. Read more...",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "39eabd91a12d",
-        "title": "Free eBook: Cybersecurity for NGOs: Attack Prevention and Threat Response (was $30)",
-        "link": "https://www.neowin.net/sponsored/free-ebook-cybersecurity-for-ngos-attack-prevention-and-threat-response-was-30/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-11-10T15:00:01+00:00",
-        "summary": "The book equips readers with specific strategies to protect organizations serving vulnerable populations from sophisticated cyber threats. Read more...",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "179f8ec82291",
-        "title": "Hackers now exploit critical Barracuda ESG flaws to gain root access",
-        "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-barracuda-email-security-gateway-flaws-to-get-root-access/",
-        "source": "BleepingComputer",
-        "published": "2026-11-10T10:10:20+00:00",
-        "summary": "Cybersecurity company Barracuda Networks warned that attackers have begun exploiting two recently patched Email Security Gateway (ESG) vulnerabilities that let them run commands with root privileges. [...]",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "613978d1a4ed",
-        "title": "York University breach exposed personal information dating to 2007",
-        "link": "https://www.bleepingcomputer.com/news/security/york-university-breach-exposed-personal-information-dating-to-2007/",
-        "source": "BleepingComputer",
-        "published": "2026-11-09T21:22:31+00:00",
-        "summary": "York University has announced it suffered a cybersecurity incident in which a threat actor stole personal information people submitted through online forms. [...]",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "76566ea3ff1d",
-        "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
-        "link": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
+        "fingerprint": "518353c8087f",
+        "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
+        "link": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html",
         "source": "The Hacker News",
-        "published": "2026-11-09T17:51:21+00:00",
-        "summary": "An attacker broke into AWS accounts belonging to multiple Qubole customers between October 14 and October 26 and stole stored secrets and data, cloud security company Wiz said today. The attacker used credentials for an AWS account that Qubole's platform uses to reach those customers. How the attacker got those credentials has not been disclosed. Qubole, a data lake platform owned by Idera,",
+        "published": "2026-11-11T15:34:27+00:00",
+        "summary": "Cybersecurity researchers have disclosed details of a campaign in which an emerging agentic penetration testing platform called AntiFox has been used to steal Amazon Web Services (AWS) credentials and pivot laterally into compromised environments. \"In several recently observed intrusions, Alibaba Cloud systems hosting AntiFox interfaces were associated with confirmed malicious actions against",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "0cd79146211b",
+        "title": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
+        "link": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
+        "source": "The Hacker News",
+        "published": "2026-11-11T08:17:53+00:00",
+        "summary": "Microsoft on Tuesday released patches for a total of 1,259 vulnerabilities spanning its software portfolio, the second consecutive month where the patch volume has exceeded 1,000 flaws. These cover 726 flaws in Windows, 174 in Office, 61 in Developer Tools, 59 in SQL Server, 53 in Developer Tools, and 27 in SharePoint Server. The patches also include 165 non-Microsoft-issued CVE identifiers.",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "f86bba285167",
+        "title": "Windows 11 KB5132061 update download & install fails with 0x800f0993 error",
+        "link": "https://www.neowin.net/news/windows-11-kb5132061-update-download--install-fails-with-0x800f0993-error/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-11-10T20:58:01+00:00",
+        "summary": "Many Neowin readers have confirmed that the latest Windows 11 26H2, 25H2, 24H2 KB5132061 update is failing to install with an 0x800f0993 error. Read more...",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "8735c7d83810",
+        "title": "Hackers exploit trusted AWS access to breach multiple cloud environments",
+        "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/",
+        "source": "BleepingComputer",
+        "published": "2026-11-10T19:31:11+00:00",
+        "summary": "A threat actor used compromised identity and access management (IAM) credentials for a Qubole big data platform's AWS account to access and exfiltrate data from multiple customers' AWS environments. [...]",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "8b94a9f97587",
+        "title": "Windows 11 KB5132061 & KB5131087 cumulative updates released",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132061-and-kb5131087-cumulative-updates-released/",
+        "source": "BleepingComputer",
+        "published": "2026-11-10T18:33:26+00:00",
+        "summary": "Microsoft has released the Patch Tuesday Windows 11 and cumulative updates for versions 26H2/25H2/24H2 and 23H2 to fix security vulnerabilities and bugs, and add new features. [...]",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "7bca19d2b062",
+        "title": "Microsoft releases Patch Tuesday update KB5131096 for Windows 10 22H2 and 21H2",
+        "link": "https://www.neowin.net/news/microsoft-releases-patch-tuesday-update-kb5131096-for-windows-10-2h22-and-21h2/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-11-10T18:28:11+00:00",
+        "summary": "Microsoft just released the new cumulative update KB5131096 for Windows 10 versions 22H2 and 21H2. See what's included: Read more...",
         "category": "community_buzz"
       }
     ]
