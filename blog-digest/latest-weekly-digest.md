@@ -2,57 +2,58 @@
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
 
-- **Generated (UTC):** 2026-11-11 00:28:44 +00:00
+- **Generated (UTC):** 2026-11-11 21:00:05 +00:00
 - **Lookback window:** 7 days
 
 ## 🚀 Top Research & Advisories
-- **[Google patches Chrome zero-day already exploited in attacks](https://www.reddit.com/r/cybersecurity/comments/1xsvy9p/google_patches_chrome_zeroday_already_exploited/)** - *(Reddit r/cybersecurity)*
-  Google released an emergency update fixing CVE-2026-125350, a high-severity use-after-free vulnerability in Chrome&#39;s XML component. Google confirms an exploit exists in the wild but has not publicly disclosed the attackers or victims. This is the...
-  > **Action:** Validate Chrome coverage; update managed package if needed.
-
-- **[Microsoft November 2026 Patch Tuesday Fixes 1,093 Vulnerabilities, Including Outlook Zero-Day](https://cybersecuritynews.com/microsoft-november-2026-patch-tuesday/)** - *(CybersecurityNews)*
-  System.Xml.XmlElement
+- **[Microsoft patches actively exploited Outlook zero-day](https://www.reddit.com/r/cybersecurity/comments/1xtlgeg/microsoft_patches_actively_exploited_outlook/)** - *(Reddit r/cybersecurity)*
+  Microsoft&#39;s November Patch Tuesday addressed 1,235 vulnerabilities, including CVE-2026-124194, an actively exploited Outlook spoofing vulnerability. Attackers could use a specially crafted message file to cause affected Outlook installations to c...
   > **Action:** Evaluate update rings and expedite actions if needed. Review Office update channel health and security baseline compliance.
 
-## 🏗 Infrastructure
-- **[Cracking Server 2022 NTLMv1-SSP Hashes with Rainbow Tables](https://www.reddit.com/r/cybersecurity/comments/1xswu1d/cracking_server_2022_ntlmv1ssp_hashes_with/)** - *(Reddit r/cybersecurity)*
-  Review server hardening and AD security posture.
+- **[We built a free tool to combat "container rot" by auto-generating SBOMs from Docker images and x-raying dependencies. Looking for honest dev feedback!](https://www.reddit.com/r/cybersecurity/comments/1xtfq77/we_built_a_free_tool_to_combat_container_rot_by/)** - *(Reddit r/cybersecurity)*
+  Hi r/cybersecurity , In our daily consulting and maintenance work, we manage and update a bunch of different software stacks, client projects, and containerized apps (mostly Python/Django, Node, and Kubernetes). One of the most frustrating parts of o...
+  > **Action:** Monitor developer tool vulnerabilities and supply chain risks.
+
+## 💻 AppSec
+- **[CVE-2026-102339](https://nvd.nist.gov/vuln/detail/CVE-2026-102339)** - *(NVD)*
+  Monitor developer tool vulnerabilities and supply chain risks.
+
+- **[CVE-2026-102340](https://nvd.nist.gov/vuln/detail/CVE-2026-102340)** - *(NVD)*
+  Monitor developer tool vulnerabilities and supply chain risks.
+
+- **[Visual Studio 2026 LTSC 18.11 now live with two years of support](https://www.neowin.net/news/visual-studio-2026-ltsc-1811-now-live-with-two-years-of-support/?utm_source=rss)** - *(Neowin)*
+  Monitor developer tool vulnerabilities and supply chain risks.
+
+## 🛡 Security Ops
+- **[INTERVIEW AT CROWDSTRIKE](https://www.reddit.com/r/cybersecurity/comments/1xtjh99/interview_at_crowdstrike/)** - *(Reddit r/cybersecurity)*
+  Review sensor guidance and deployment posture.
 
 ## 🛠 Infrastructure & Endpoint Control
-- **[Contacted for a Risk and Vulnerability Analyst Position, 30min Interview Thurs, Best Way To Prepare and What To Expect?](https://www.reddit.com/r/cybersecurity/comments/1xsv0d6/contacted_for_a_risk_and_vulnerability_analyst/)** - *(Reddit r/cybersecurity)*
-  Review security controls and policy updates.
-
-- **[i went through the manifests of ~290k chrome extensions. 28.7% can read and change data on every website](https://www.reddit.com/r/cybersecurity/comments/1xsrejn/i_went_through_the_manifests_of_290k_chrome/)** - *(Reddit r/cybersecurity)*
-  Confirm Adobe exposure; push updated deployment. Validate Chrome coverage; update managed package if needed.
+- **[Adobe expands Windows on Arm support with InCopy, InDesign, and NVIDIA RTX Spark](https://www.neowin.net/news/adobe-expands-windows-on-arm-support-with-incopy-indesign-and-nvidia-rtx-spark/?utm_source=rss)** - *(Neowin)*
+  Confirm Adobe exposure; push updated deployment.
 
 - **[If the Windows Update hot patcher checks that the function hasn’t already been patched, does that mean you can’t install two hot-patches?](https://devblogs.microsoft.com/oldnewthing/20261109-00/?p=112841/)** - *(The Old New Thing)*
   Evaluate update rings and expedite actions if needed.
 
-- **[Microsoft releases Patch Tuesday update KB5131096 for Windows 10 22H2 and 21H2](https://www.neowin.net/news/microsoft-releases-patch-tuesday-update-kb5131096-for-windows-10-2h22-and-21h2/?utm_source=rss)** - *(Neowin)*
-  Evaluate update rings and expedite actions if needed. Validate workstation security baseline and update compliance.
-
-- **[Microsoft surprising Classic Outlook fans with a visual redesign & a user-requested feature](https://www.neowin.net/news/microsoft-surprising-classic-outlook-fans-with-a-visual-redesign--a-user-requested-feature/?utm_source=rss)** - *(Neowin)*
+- **[Save 80% on a Microsoft Office 2024 Professional Plus: Digital License](https://www.neowin.net/deals/save-80-on-a-microsoft-office-2024-professional-plus-digital-license/?utm_source=rss)** - *(Neowin)*
   Review Office update channel health and security baseline compliance.
 
-- **[Windows 11 KB5132061 KB5131087 November 2026 Patch Tuesday direct download links here](https://www.neowin.net/news/windows-11-kb5132061-kb5131087-november-2026-patch-tuesday-direct-download-links-here/?utm_source=rss)** - *(Neowin)*
-  Evaluate update rings and expedite actions if needed. Validate workstation security baseline and update compliance.
-
-- **[Windows 11 KB5132061 update download & install fails with 0x800f0993 error](https://www.neowin.net/news/windows-11-kb5132061-update-download--install-fails-with-0x800f0993-error/?utm_source=rss)** - *(Neowin)*
+- **[User finds fix for Windows 11 KB5132061 install fail, a Microsoft feature may be culprit](https://www.neowin.net/news/user-finds-fix-for-windows-11-kb5132061-install-fail-a-microsoft-feature-may-be-culprit/?utm_source=rss)** - *(Neowin)*
   Validate workstation security baseline and update compliance.
 
 ## 🩹 Patch Tuesday & Update Experience
-- **[Windows 11 KB5132061 update download & install fails with 0x800f0993 error](https://www.neowin.net/news/windows-11-kb5132061-update-download--install-fails-with-0x800f0993-error/?utm_source=rss)** - *(Neowin)*
-  Many Neowin readers have confirmed that the latest Windows 11 26H2, 25H2, 24H2 KB5132061 update is failing to install with an 0x800f0993 error. Read more...
+- **[User finds fix for Windows 11 KB5132061 install fail, a Microsoft feature may be culprit](https://www.neowin.net/news/user-finds-fix-for-windows-11-kb5132061-install-fail-a-microsoft-feature-may-be-culprit/?utm_source=rss)** - *(Neowin)*
+  Is the latest Windows 11 KB5132061 update refusing to install on your PC? A user has uncovered a fix, and a Microsoft feature may be to blame for the issue. Read more...
 
 ## 🔍 Quick Links (Watch Items)
-- [Preventing vulnerabilities instead of running after them](https://www.reddit.com/r/cybersecurity/comments/1xt323t/preventing_vulnerabilities_instead_of_running/) - *(Reddit r/cybersecurity)*
-- [Cracking Server 2022 NTLMv1-SSP Hashes with Rainbow Tables](https://www.reddit.com/r/cybersecurity/comments/1xswu1d/cracking_server_2022_ntlmv1ssp_hashes_with/) - *(Reddit r/cybersecurity)*
-- [Cybersecurity statistics of the week (November 2nd - November 8th)](https://www.reddit.com/r/cybersecurity/comments/1xswil5/cybersecurity_statistics_of_the_week_november_2nd/) - *(Reddit r/cybersecurity)*
-- [How are security teams managing Shadow AI and AI agent security?](https://www.reddit.com/r/cybersecurity/comments/1xsvzvm/how_are_security_teams_managing_shadow_ai_and_ai/) - *(Reddit r/cybersecurity)*
-- [Google patches Chrome zero-day already exploited in attacks](https://www.reddit.com/r/cybersecurity/comments/1xsvy9p/google_patches_chrome_zeroday_already_exploited/) - *(Reddit r/cybersecurity)*
-- [Microsoft November 2026 Patch Tuesday Fixes 1,093 Vulnerabilities, Including Outlook Zero-Day](https://cybersecuritynews.com/microsoft-november-2026-patch-tuesday/) - *(CybersecurityNews)*
-- [Contacted for a Risk and Vulnerability Analyst Position, 30min Interview Thurs, Best Way To Prepare and What To Expect?](https://www.reddit.com/r/cybersecurity/comments/1xsv0d6/contacted_for_a_risk_and_vulnerability_analyst/) - *(Reddit r/cybersecurity)*
-- [Microsoft releases Patch Tuesday update KB5131096 for Windows 10 22H2 and 21H2](https://www.neowin.net/news/microsoft-releases-patch-tuesday-update-kb5131096-for-windows-10-2h22-and-21h2/?utm_source=rss) - *(Neowin)*
-- [Windows 11 KB5132061 KB5131087 November 2026 Patch Tuesday direct download links here](https://www.neowin.net/news/windows-11-kb5132061-kb5131087-november-2026-patch-tuesday-direct-download-links-here/?utm_source=rss) - *(Neowin)*
-- [Amazon's Ring brings back its flying security camera and launches a $1,000 security robot](https://www.neowin.net/news/amazons-ring-brings-back-its-flying-security-camera-and-launches-a-1000-security-robot/?utm_source=rss) - *(Neowin)*
+- [Ubuntu 26.10 Adds New Security Protection to curl, Blocking Revoked SSL Certificates](https://cybersecuritynews.com/ubuntu-26-10-adds-protection-to-curl/) - *(CybersecurityNews)*
+- [Hackers Could Exploit MCP Server Supply Chain Weaknesses to Steal API Keys and Administrator Credentials](https://cybersecuritynews.com/hackers-could-exploit-mcp-server/) - *(CybersecurityNews)*
+- [Microsoft patches actively exploited Outlook zero-day](https://www.reddit.com/r/cybersecurity/comments/1xtlgeg/microsoft_patches_actively_exploited_outlook/) - *(Reddit r/cybersecurity)*
+- [Phishing at the Front Desk: Usable Security in Luxury Hotels](https://www.reddit.com/r/cybersecurity/comments/1xtjr5f/phishing_at_the_front_desk_usable_security_in/) - *(Reddit r/cybersecurity)*
+- [Engineers Yoni Gottesman and Noam Kesten from Glow found PixelLeak, where AI coding agents pushed private data to public GitHub repos. AMA about the research and pretty much anything about agentic security.](https://www.reddit.com/r/cybersecurity/comments/1xtj0qk/engineers_yoni_gottesman_and_noam_kesten_from/) - *(Reddit r/cybersecurity)*
+- [Microsoft: Exchange Server 2016 and 2019 should now be considered "permanently vulnerable"](https://www.neowin.net/news/microsoft-exchange-server-2016-and-2019-should-now-be-considered-permanently-vulnerable/?utm_source=rss) - *(Neowin)*
+- [Windows SignDrop 0-Day Exploit Lets Attackers Gain SYSTEM Privileges Through CLFS Protection](https://cybersecuritynews.com/windows-signdrop-zero-day-exploit/) - *(CybersecurityNews)*
+- [eMudhra Revokes 8 More Certificate Authorities Following Major SSL Private Key Security Failure](https://cybersecuritynews.com/emudhra-certificate-authority-revocation/) - *(CybersecurityNews)*
+- [the Government Wants to Go Digital, But Can't Even Keep Its Websites Secure? 🫪🥴](https://www.reddit.com/r/cybersecurity/comments/1xth45s/the_government_wants_to_go_digital_but_cant_even/) - *(Reddit r/cybersecurity)*
+- [We built a free tool to combat "container rot" by auto-generating SBOMs from Docker images and x-raying dependencies. Looking for honest dev feedback!](https://www.reddit.com/r/cybersecurity/comments/1xtfq77/we_built_a_free_tool_to_combat_container_rot_by/) - *(Reddit r/cybersecurity)*
 
