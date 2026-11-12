@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-11T18:19:54.059964+00:00",
-  "date": "2026-11-11",
+  "generated_utc": "2026-11-12T18:40:23.042180+00:00",
+  "date": "2026-11-12",
   "lookback_hours": 25,
   "source_status": [
     {
@@ -12,12 +12,12 @@
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 16
+      "count": 12
     },
     {
       "name": "Microsoft Intune What's New",
       "status": "OK",
-      "count": 2
+      "count": 6
     },
     {
       "name": "Windows IT Pro Blog",
@@ -27,7 +27,7 @@
     {
       "name": "Microsoft Security Blog",
       "status": "OK",
-      "count": 2
+      "count": 1
     },
     {
       "name": "Microsoft Entra Blog",
@@ -37,22 +37,22 @@
     {
       "name": "BleepingComputer",
       "status": "OK",
-      "count": 7
+      "count": 6
     },
     {
       "name": "Neowin",
       "status": "OK",
-      "count": 3
+      "count": 6
     },
     {
       "name": "The Hacker News",
       "status": "OK",
-      "count": 8
+      "count": 9
     },
     {
       "name": "Krebs on Security",
       "status": "OK",
-      "count": 2
+      "count": 1
     },
     {
       "name": "The Old New Thing",
@@ -99,6 +99,123 @@
   "items": {
     "high_alert": [
       {
+        "fingerprint": "665b51132811",
+        "title": "New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access",
+        "link": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html",
+        "source": "The Hacker News",
+        "published": "2026-11-12T17:50:27+00:00",
+        "summary": "Public exploit code released earlier this week claims that a local Windows user can gain SYSTEM privileges through the Common Log File System driver. The proof of concept, called SignDrop, targets a log-authentication feature added to the driver last year. It abuses how clfs.sys creates companion files when a privileged process opens a prepared log, using path redirection to take control of",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "d5469642aa80",
+        "title": "New Windows SignDrop zero-day gives hackers SYSTEM privileges",
+        "link": "https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges/",
+        "source": "BleepingComputer",
+        "published": "2026-11-12T16:04:00+00:00",
+        "summary": "Security researcher Abdelhamid Naceri (also known as Nightmare Eclipse) has released a new Windows zero-day exploit that can let attackers gain SYSTEM privileges. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "f1679c926d21",
+        "title": "Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass",
+        "link": "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html",
+        "source": "The Hacker News",
+        "published": "2026-11-12T15:38:49+00:00",
+        "summary": "Citrix has released patches for multiple critical security flaws impacting NetScaler ADC, Citrix NetScaler Gateway, and NetScaler Console that could lead to denial-of-service (DoS) or an authentication bypass. The critical vulnerabilities that impact NetScaler ADC and NetScaler Gateway are listed below - CVE-2026-120868 (CVSS score: 9.3) - A memory overflow vulnerability in Packet",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "e0d57b9f6f10",
+        "title": "186 Fake AI Domains Redirect Users to ClickFix Lures, Browser Malware, and Search Hijackers",
+        "link": "https://thehackernews.com/2026/11/186-fake-ai-domains-redirect-users-to.html",
+        "source": "The Hacker News",
+        "published": "2026-11-12T15:15:40+00:00",
+        "summary": "Cybersecurity researchers have found that lookalike domains masquerading as artificial intelligence (AI) tools are being used to serve ClickFix-style lures, browser-hijacking malware, and a set of extensions that hijack user searches. This delivery pattern has been codenamed TypoPrompting by Island. \"AI-app lookalikes that turn an attempt to reach a familiar tool into a prompt to verify,",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "d3abcd1eae40",
+        "title": "Police dismantle Gootloader, CastleRAT, StealC malware infrastructure",
+        "link": "https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/",
+        "source": "BleepingComputer",
+        "published": "2026-11-12T15:07:20+00:00",
+        "summary": "Europol and law enforcement partners from nine countries have seized hundreds of servers and domains used by the Gootloader, CastleRAT, and StealC malware operations. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "7e3339a4e448",
+        "title": "Your Endpoint Management Platform Could Be Your Biggest Security Risk",
+        "link": "https://www.bleepingcomputer.com/news/security/your-endpoint-management-platform-could-be-your-biggest-security-risk/",
+        "source": "BleepingComputer",
+        "published": "2026-11-12T15:00:10+00:00",
+        "summary": "Endpoint management platforms can become powerful attack tools when compromised, allowing hackers to deploy malware, execute commands, and disrupt thousands of devices. Action1 explains how customer-controlled cryptographic authorization can prevent attackers from abusing sensitive endpoint operations. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "08240eada3f0",
+        "title": "SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths",
+        "link": "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html",
+        "source": "The Hacker News",
+        "published": "2026-11-12T13:08:28+00:00",
+        "summary": "The ongoing campaign targeting ConnectWise ScreenConnect deployments involves the exploitation of a now-patched critical security flaw in the remote access software, and not a new vulnerability, it has emerged. Blackpoint Cyber's Adversary Pursuit Group (APG), which shared the details with The Hacker News, said the recovered attacker toolkit exploits CVE-2026-84869 (CVSS score: 9.9), an",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "300e7c95529e",
+        "title": "PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution",
+        "link": "https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html",
+        "source": "The Hacker News",
+        "published": "2026-11-12T11:33:15+00:00",
+        "summary": "PTC has released patches for a new critical vulnerability impacting Windchill and FlexPLM software that, if successfully exploited, could result in remote code execution. The security flaw, tracked as CVE-2026-126325, carries a CVSS v4 score of 9.2 out of a maximum of 10.0. It has been described as a case of improper input validation and deserialization of untrusted data that could result in",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "da472c1846c4",
+        "title": "Critical Pre-Auth MongoDB Flaw (CVE-2026-118383) Can Crash Lagging Servers on Failover",
+        "link": "https://thehackernews.com/2026/11/critical-pre-auth-mongodb-flaw-cve-2026.html",
+        "source": "The Hacker News",
+        "published": "2026-11-12T09:25:00+00:00",
+        "summary": "A critical flaw in MongoDB Server allows an unauthenticated attacker to send two requests that trigger a crash on the database server. The crash occurs only if that server is later chosen to take over as the main server while it still lacks some recent changes. MongoDB, the company that makes the database, released fixed versions earlier this week. The affected servers are members of a replica",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "7aa6ee3628bc",
+        "title": "Remus malware claims to retain Gmail account access even after a password change",
+        "link": "https://www.neowin.net/news/remus-malware-claims-to-retain-gmail-account-access-even-after-a-password-change/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-11-12T05:22:01+00:00",
+        "summary": "The developers of an infostealer malware assert that their program can continue accessing a victim's Gmail inbox even after the account's password is reset. Read more...",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "4e822ef39572",
+        "title": "Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely",
+        "link": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html",
+        "source": "The Hacker News",
+        "published": "2026-11-12T05:12:26+00:00",
+        "summary": "A critical flaw in Apache HTTP Server's HTTP/2 module, mod_http2, can let a remote attacker run code on the server. Tracked as CVE-2026-119618, it affects versions 2.4.55 through 2.4.70 and is fixed in version 2.4.71, released yesterday. Only servers with HTTP/2 enabled are affected, according to Red Hat, which ships the server as part of Red Hat Enterprise Linux. An attacker who can reach the",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "2f1c980043bc",
+        "title": "Shipping company Maersk suffers data breach, ransomware gang demands $5 million",
+        "link": "https://www.neowin.net/news/shipping-company-maersk-suffers-data-breach-ransomware-gang-demands-5-million/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-11-12T01:40:01+00:00",
+        "summary": "Danish logistics company Maersk recently confirmed a data breach that affected one of its contract-logistics arm. A ransomware gang claims to have stolen over 10GB of sensitive data. Read more...",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "67de96c21e58",
+        "title": "Active ScreenConnect attacks breach MSPs, impact dozens of organizations",
+        "link": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/",
+        "source": "BleepingComputer",
+        "published": "2026-11-11T22:56:21+00:00",
+        "summary": "ConnectWise is investigating an active malware campaign targeting managed service providers (MSPs) that uses compromised ScreenConnect environments to deploy rogue remote-access clients to customer devices. [...]",
+        "category": "high_alert"
+      },
+      {
         "fingerprint": "88b679515270",
         "title": "Who Runs the Ransomware Group Qilin?",
         "link": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
@@ -106,364 +223,256 @@
         "published": "2026-11-11T18:06:01+00:00",
         "summary": "The cybercrime group Qilin has emerged as the world's most active ransomware affiliate program, claiming at least 365 victim organizations in the past three months alone. But even top Russian hackers make operational security mistakes, and the administrator of Qilin has made a few key missteps over the last decade that all point to a 36-year-old man living in St. Petersburg, Russia.",
         "category": "high_alert"
-      },
-      {
-        "fingerprint": "c42b4a9c14ff",
-        "title": "Maersk confirms data breach as WhiteArmor ransomware demands $5 million",
-        "link": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/",
-        "source": "BleepingComputer",
-        "published": "2026-11-11T16:24:18+00:00",
-        "summary": "Maersk announced that a threat actor gained unauthorized access to a local legacy system inherited through an earlier acquisition and extracted data from it. [...]",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "b4b4a330fe01",
-        "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
-        "link": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
-        "source": "The Hacker News",
-        "published": "2026-11-11T16:12:46+00:00",
-        "summary": "Zoom has released software updates to address two security flaws impacting Zoom Workplace for Windows, including a critical bug that could result in privilege escalation on affected systems. The vulnerabilities are listed below - CVE-2026-108186 (CVSS score: 9.6) - An improper input validation vulnerability that could allow an unauthenticated user to conduct an escalation of privilege via",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "c8d1b9eee55a",
-        "title": "N-able releases security hotfixes for zero-day vulnerabilities",
-        "link": "https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/",
-        "source": "BleepingComputer",
-        "published": "2026-11-11T12:32:27+00:00",
-        "summary": "N-able released hotfixes to address zero-day bugs affecting its N-central remote monitoring and management (RMM) platform, which were publicly disclosed over the weekend and forced it to take vulnerable hosted environments offline. [...]",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "9716a12d931a",
-        "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
-        "link": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
-        "source": "The Hacker News",
-        "published": "2026-11-11T06:04:02+00:00",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) Tuesday added two security flaws impacting Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. Details of the vulnerabilities are below - CVE-2026-20320 (CVSS score: 7.5) - An improper restriction of XML external entity",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "0fd8b0e4d2a5",
-        "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
-        "link": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
-        "source": "Krebs on Security",
-        "published": "2026-11-10T21:55:03+00:00",
-        "summary": "Microsoft did another four-digit patch drop today, releasing updates to fix almost 1,100 security vulnerabilities in its Windows operating systems and supported software. This month's Patch Tuesday addresses 63 critical flaws -- including a zero-day in Microsoft Outlook -- and comes amid important security updates from other software makers, including Adobe, Apple, Google and Mozilla.",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "040aa33a7c0d",
-        "title": "Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones",
-        "link": "https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html",
-        "source": "The Hacker News",
-        "published": "2026-11-10T19:23:10+00:00",
-        "summary": "A flaw in Git can let a malicious repository run an attacker's code on a computer that clones it recursively, together with its submodules. The Git project fixed it this week in Git 2.56.1, with matching fixes for the 2.50 through 2.55 series in 2.50.2, 2.51.3, 2.52.1, 2.53.1, 2.54.1 and 2.55.1. The flaw, tracked as CVE-2026-111760, is an integer truncation in how Git handles its index. An",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "90757dd2243a",
-        "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
-        "link": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
-        "source": "The Hacker News",
-        "published": "2026-11-10T19:19:39+00:00",
-        "summary": "An attacker exploited a remote code execution flaw in SGLang, an open-source inference engine, and ran code on one of NEAR AI's inference servers last Sunday. The attacker could also have seen requests being processed on that server that day, including requests sent in confidential mode, the company said earlier this week. That mode processes requests inside a trusted execution environment (TEE",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "9979519482ff",
-        "title": "Microsoft November 2026 Patch Tuesday fixes 1,235 flaws, Outlook zero-day",
-        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day/",
-        "source": "BleepingComputer",
-        "published": "2026-11-10T19:07:36+00:00",
-        "summary": "Today is Microsoft's November 2026 Patch Tuesday, with security updates addressing a record-breaking 1,235 flaws, including one actively exploited Microsoft Outlook zero-day vulnerability. [...]",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "a7a113740ce7",
-        "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
-        "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
-        "source": "The Hacker News",
-        "published": "2026-11-10T18:12:21+00:00",
-        "summary": "French software company Vates VMS has warned of a critical security vulnerability in Xen Orchestra that it said is being actively exploited in the wild. The authentication bypass flaw, which does not yet have a CVE identifier, is tracked as VSA-2026-062. \"REST cookie parsing turns authenticationToken=j:%7B%7D into {},\" Vates VMS said in an alert. \"REST authentication passes that object to the",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "52f781e38dcf",
-        "title": "Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem",
-        "link": "https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html",
-        "source": "The Hacker News",
-        "published": "2026-11-10T17:43:23+00:00",
-        "summary": "Three distinct threat activity clusters with shared infrastructure and malware code similarities have been observed targeting telecommunications providers, government organizations, military entities, research institutions, and critical infrastructure across Latin America, Asia, and Europe over the past year. Check Point Research is tracking the clusters under the names SilentDelivery,",
-        "category": "high_alert"
       }
     ],
     "bad_updates": [
       {
-        "fingerprint": "344de9a6f35c",
-        "title": "User finds fix for Windows 11 KB5132061 install fail, a Microsoft feature may be culprit",
-        "link": "https://www.neowin.net/news/user-finds-fix-for-windows-11-kb5132061-install-fail-a-microsoft-feature-may-be-culprit/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-11-11T06:00:04+00:00",
-        "summary": "Is the latest Windows 11 KB5132061 update refusing to install on your PC? A user has uncovered a fix, and a Microsoft feature may be to blame for the issue. Read more...",
+        "fingerprint": "204d24d804b0",
+        "title": "Microsoft: Recent Windows updates cause SQL Server performance issues",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-sql-server-performance-issues/",
+        "source": "BleepingComputer",
+        "published": "2026-11-12T12:11:11+00:00",
+        "summary": "Microsoft has confirmed that Windows updates released since the October 2026 Patch Tuesday are causing SQL Server performance and stability issues. [...]",
         "category": "bad_updates"
       },
       {
-        "fingerprint": "2ad62880a707",
-        "title": "Microsoft releases Windows 10 KB5131096 extended security update",
-        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5131096-extended-security-update/",
-        "source": "BleepingComputer",
-        "published": "2026-11-10T20:04:36+00:00",
-        "summary": "Microsoft released the Windows 10 KB5131096 extended security update, which includes this month's November 2026 Patch Tuesday fixes and a few bug fixes and changes. [...]",
+        "fingerprint": "7e54779cf4b8",
+        "title": "Microsoft explains how Windows 11 KB5132061 install fail bug is being fixed",
+        "link": "https://www.neowin.net/news/microsoft-explains-how-windows-11-kb5132061-install-fail-bug-is-being-fixed/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-11-12T08:42:02+00:00",
+        "summary": "Microsoft shares how it's tackling Windows 11 KB5132061 installation failures, though frustrated users may have to wait a while. Read more...",
         "category": "bad_updates"
       }
     ],
     "upcoming_changes": [
       {
-        "fingerprint": "c8f5bd436b06",
-        "title": "Dynamics 365 Project Operations: Optimize Project Operations - Allow to invoice future-dated transactions",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577876",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-11T01:20:59+00:00",
-        "summary": "Available for core and integrated. Currently, project invoices include transactions based on the invoice date, which can make it difficult to prepare invoices in advance when additional transactions are expected before the end of the billing period. With this feature, you can use the Accounting date as the transaction cutoff date for an invoice. When the Accounting date is later than the invoic...",
+        "fingerprint": "551a12254273",
+        "title": "Microsoft shares how upcoming eMudhra patch for Windows 11/10 will be delivered",
+        "link": "https://www.neowin.net/news/microsoft-shares-how-upcoming-emudhra-patch-for-windows-1110-will-be-delivered/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-11-12T06:36:01+00:00",
+        "summary": "Microsoft is preparing the latest eMudhra patch following the recent certificate security concerns. New details are up for admins to consider. Read more...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "3d3da851279e",
-        "title": "Microsoft Edge: Expanded enforcement controls for Data Loss Prevention connectors",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=579894",
+        "fingerprint": "367eab55b2a0",
+        "title": "Dynamics 365 Customer Insights - Journeys: Create event experience that match your business structure by supporting leads, contacts, or both​",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=579982",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-11T00:56:01+00:00",
-        "summary": "Microsoft Edge for Business is expanding its existing Data Loss Prevention Enterprise Connector capabilities. Administrators will be able to configure more consistent enforcement across download, upload, paste, and print workflows. Additional controls include required bypass justification and administrator-defined guidance. GA date: December CY2026",
+        "published": "2026-11-12T01:35:00+00:00",
+        "summary": "Align event registrations with the way your organization manages customer data. By supporting lead-based registration journeys and existing matching rules, you can avoid unnecessary Contact creation, improve data quality, and ensure event attendees follow the same lead management process used across your business.​ Configure event registration forms to create or update Contacts, Leads, or both ...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "8c07c80c6cb3",
-        "title": "Microsoft Teams: Tenant policy controls who can record and transcribe",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=579860",
+        "fingerprint": "0dc1c54ed829",
+        "title": "Power Automate: Direct triggers for desktop flows",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=579975",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-11T00:56:01+00:00",
-        "summary": "Teams administrators can use meeting policies to control who can start recording and transcription, helping organizations apply consistent meeting settings. Administrators can restrict these permissions to organizers and co-organizers or extend them to presenters. They can also determine whether meeting organizers can modify these settings or whether they are enforced by policy. GA date: Decemb...",
+        "published": "2026-11-12T01:35:00+00:00",
+        "summary": "Desktop flows will support direct triggers, enabling automations to start in response to supported events without requiring an intermediary cloud flow. This simplifies automation design and reduces the effort required to connect desktop flows to business processes. GA date: March CY2027 Preview date: January CY2027",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "c0f0f1d142e4",
-        "title": "Microsoft Teams: Real-time queue metrics in the Queues app on Mobile",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=579859",
+        "fingerprint": "db40ed728103",
+        "title": "Power Automate: Credentials - Integration with Delinea secret server",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=579974",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-11T00:56:01+00:00",
-        "summary": "Calling representative and Supervisor leads can view real-time call queue metrics directly from the Queues app on Mobile, giving them greater visibility into current queue activity and performance while on the go. Users can quickly understand the state of their queues, monitor key operational metrics, and make more informed decisions about their availability and queue participation without need...",
+        "published": "2026-11-12T01:35:00+00:00",
+        "summary": "Power Automate will support Delinea Secret Server as an external credential provider for desktop flows. Organizations can securely use credentials managed in Delinea for machine sign-in and credential retrieval during attended and unattended automation. GA date: March CY2027",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "ef7bc140b583",
-        "title": "Outlook: More visibility into usage for recoverable items storage",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=579190",
+        "fingerprint": "ca5612502a12",
+        "title": "Dynamics 365 Customer Insights - Journeys: Send each message only once with deduplication for SMS and custom channels",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=579903",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-11T00:56:01+00:00",
-        "summary": "You'll be able to see how much storage your recoverable items are using in Outlook. This gives you a clearer picture of your storage usage before you reach a limit. You can use this information to make more informed decisions about managing your mailbox. #newoutlookforwindows GA date: February CY2027",
+        "published": "2026-11-12T01:35:00+00:00",
+        "summary": "Deduplicates recipients by contact point, so each phone number or custom channel address gets the message once per send. Eliminates manual post-send clean-up, wasted messaging spend and the customer annoyance of duplicate texts. Brings SMS and custom channels to parity with email's built-in deduplication. GA date: December CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "cb3ba0cad332",
-        "title": "Outlook: Expand or collapse all accounts at once",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=579189",
+        "fingerprint": "8f4ee936050f",
+        "title": "Outlook: Copilot Chat Sheet UX Update for Mobile",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=579897",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-11T00:56:01+00:00",
-        "summary": "You'll be able to expand or collapse all accounts at once in Outlook's folder pane. You won't need to expand or collapse each account individually. This makes it easier to navigate multiple accounts or keep your folder pane compact. #newoutlookforwindows GA date: February CY2027",
+        "published": "2026-11-12T01:35:00+00:00",
+        "summary": "Copilot Chat in Outlook on iOS and Android is getting updated! You'll notice smoother animations, improved strings, and some small changes to the header, such as the new/temporary chat button being moved behind the ... button. GA date: December CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "6c5a9369aab2",
-        "title": "Outlook: Remember your online archive folder pane state",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=579188",
+        "fingerprint": "aec62fd41e54",
+        "title": "Microsoft Edge: Top sites in Edge search bar",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=579193",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-11T00:56:01+00:00",
-        "summary": "Outlook will remember whether your online archive is expanded or collapsed when you return. Outlook on the web and the new Outlook for Windows will each keep their own saved state. This saves you from repeatedly expanding or collapsing your archive as you navigate your mailbox. #newoutlookforwindows GA date: February CY2027",
+        "published": "2026-11-12T01:35:00+00:00",
+        "summary": "Adding easy access to top sites in Edge search bar on desktop. Users can add, edit, remove, or hide top sites. Admins can control available to this feature using the NewTabPageManagedQuickLinks and NewTabPageQuickLinksEnabled policies. GA date: January CY2027",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "1b665b263f7e",
-        "title": "Outlook: Keep folders expanded when you restart Outlook",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=579187",
+        "fingerprint": "56663529e93e",
+        "title": "Microsoft 365: [Education] Practice presentations with Speaker Coach in Learning Activities",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=578880",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-11T00:56:01+00:00",
-        "summary": "Outlook will remember which folders and shared mailboxes you have expanded or collapsed when you restart the app. You can pick up where you left off without opening the same folder branches again. This makes returning to your usual folders easier. #newoutlookforwindows GA date: February CY2027",
+        "published": "2026-11-12T01:35:00+00:00",
+        "summary": "In learning activities, students can rehearse presentations, receive feedback on their delivery, and practice again with targeted suggestions to improve clarity and confidence. #education GA date: December CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "700db3583ec3",
-        "title": "Outlook: Sort your subfolders from A to Z",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=579186",
+        "fingerprint": "a43a10b8fec4",
+        "title": "Dynamics 365 Finance: Submit only validated records to Dynamics 365 Finance",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=578877",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-11T00:56:01+00:00",
-        "summary": "You'll be able to sort a folder's subfolders alphabetically from the parent folder. This makes it easier to find the folder you need without rearranging subfolders one by one. It's a simple way to keep long folder lists organized. #newoutlookforwindows GA date: February CY2027",
+        "published": "2026-11-12T01:35:00+00:00",
+        "summary": "The write to business rules engine configuration experience introduces an option to submit only records that have successfully passed Account structure validation. When enabled, Business Performance Planning filters the writeback dataset and submits only records marked as valid by account structure validation to the business rules engine writeback process. Records that have not passed validatio...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "44ad32211192",
-        "title": "Outlook: Keep folder sharing within your organization's policies",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=579185",
+        "fingerprint": "6221dde536c1",
+        "title": "Dynamics 365 Customer Insights - Journeys: Build audiences faster with reusable segment templates",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=578863",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-11T00:56:01+00:00",
-        "summary": "Folder sharing in Outlook will respect your organization's restrictions for Default and Anonymous permissions. When these restrictions are enabled, you won't be able to change either setting. Permissions granted directly to individual users will remain unaffected. This helps keep folder sharing aligned with your organization's policies. #newoutlookforwindows GA date: January CY2027",
+        "published": "2026-11-12T01:35:00+00:00",
+        "summary": "Segment templates help you build audiences without recreating queries for each campaign. Choose a built-in template for common scenarios such as event attendance or email engagement, or save your own segment query as a reusable custom template. Add placeholders with hint text to guide marketers through entering campaign-specific values, reducing repetitive setup while keeping audience criteria ...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "85c5c5128ceb",
-        "title": "Dynamics 365 Contact Center: Quality Evaluation Agent - Review historical quality metrics in a unified dashboard",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577895",
+        "fingerprint": "054cc98e32d5",
+        "title": "Microsoft 365: [Education] Microsoft Learning Zone - Minecraft connected lessons",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577545",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-11T00:56:01+00:00",
-        "summary": "The quality evaluation historical dashboard provides aggregated insights from completed evaluations, helping organizations track quality trends over time. Users can view quality scores and trends across selected date ranges, with up to two years of historical data available. More info: https://learn.microsoft.com/en-us/dynamics365/contact-center/use/quality-evaluation-historical-analytics GA da...",
+        "published": "2026-11-12T01:35:00+00:00",
+        "summary": "Bring Minecraft Education to every classroom with AI-powered tools that match curriculum goals to Build Challenges, blend lessons with project-based learning, launch directly from Learning Zone, and give you full visibility into participation, completion, and student understanding. #education GA date: February CY2027",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "8bff0e0d7502",
-        "title": "Microsoft Power Platform governance and administration: Secure Dataverse record with column-based filtering",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=577860",
+        "fingerprint": "5129593d69bf",
+        "title": "Microsoft 365 admin center: Cross-Tenant Orchestrated Migration",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=576273",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-11T00:56:01+00:00",
-        "summary": "This enhancement introduces column-based security filtering, enabling records to be secured using attribute values rather than traditional ownership. This allows security admins to define access based on business dimensions such as region or department, making it ideal for scenarios where record ownership does not exist—such as reporting and aggregated datasets. By eliminating the need for arti...",
+        "published": "2026-11-12T01:35:00+00:00",
+        "summary": "Cross-Tenant Orchestrated Migration for User Data Migration (UDM) and Shared Data Migration (SDM) allows customers to move their Microsoft 365 data from one Microsoft tenant to another. UDM includes the ability to move user mailboxes, OneDrive accounts, Teams chats, and Teams meetings. SDM includes the ability to move M365 Groups, SharePoint Sites, Group Mailboxes, and teams and channels. More ...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "579e38f2eea7",
-        "title": "Dynamics 365 Commerce: Design receipts using a modern, web-based designer in headquarters and print them on A4 paper or thermal printers from Store Commerce, supporting B2B scenarios",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573703",
+        "fingerprint": "8499ce2de346",
+        "title": "Dynamics 365 Project Operations: Archive project cost actuals with long-term retention",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573238",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-11T00:56:01+00:00",
-        "summary": "Applies to : Point of Sale (Store Commerce app and web), Commerce headquarters receipt format designer, Hardware Station, and Commerce Scale Unit. The modern receipt designer introduces a React-based designer in headquarters at Retail and Commerce > Channel setup > POS setup > POS > Receipt formats > Designer . Users can author receipts in the browser with live preview, without installing the l...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "9f78ac086199",
-        "title": "Dynamics 365 Business Central: E-Documents - Self-billing enablement",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573612",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-11T00:56:01+00:00",
-        "summary": "Streamline self-billing by automatically creating, managing, and exchanging electronic documents for self-billed invoices as part of the invoice lifecycle. This reduces manual document handling while helping ensure self-billed transactions include the appropriate electronic documents in standardized formats used by local regulations and trading partners. Benefits • Automate electronic document ...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "373ca61c3c23",
-        "title": "Microsoft Copilot (Microsoft 365): Copilot Cowork: Access Business Applications with Work IQ",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573293",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-11T00:53:34+00:00",
-        "summary": "Users can access Business Applications through Work IQ in Copilot Cowork and use Business Skills to complete end-to-end business processes grounded in their enterprise data and apps. This helps users move from finding the right business application to taking action across key workflows with less context switching. GA date: December CY2026 Preview date: September CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "3964e038238c",
-        "title": "Work IQ: Business Skills to manage your business processes in Work IQ MCP",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=573290",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-11T00:53:34+00:00",
-        "summary": "Business skills are natural-language instructions that capture how your organization gets work done. They represent your business processes, policies, and domain knowledge in a format that agents can understand and follow. Each skill describes how to complete a specific type of work—the steps involved, the information required, and the business rules that apply. Agents discover and use the busi...",
+        "published": "2026-11-12T01:35:00+00:00",
+        "summary": "Organizations managing high volumes of project transactions need to retain historical cost data without allowing years of completed transactions to continually increase the volume of active operational data. This capability enables organizations to archive processed project staging table cost actuals for long-term retention while preserving access to historical records when needed. Administrato...",
         "category": "upcoming_changes"
       }
     ],
     "official_news": [
       {
-        "fingerprint": "69c3374f325d",
-        "title": "Lessons from 59 Linux Kernel Bug Reports",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/11/11/lessons-from-59-linux-kernel-bug-reports/",
-        "source": "Microsoft Security Blog",
-        "published": "2026-11-11T16:55:00+00:00",
-        "summary": "Microsoft FORGE Lab researchers used codename MDASH to investigate Linux kernel vulnerabilities, resulting in 59 upstream bug reports, 33 assigned CVEs, and 38 merged fixes. The research includes eight demonstrated local root privilege-escalation exploits and examines the challenges of turning AI-generated findings into validated vulnerabilities and upstream fixes. The post Lessons from 59 Linu...",
-        "category": "official_news"
-      },
-      {
-        "fingerprint": "87509a2fd1f5",
-        "title": "CISA flags Cisco BroadWorks flaw as actively exploited in attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/cisa-flags-cisco-broadworks-flaw-as-actively-exploited-in-attacks/",
-        "source": "BleepingComputer",
-        "published": "2026-11-11T10:12:08+00:00",
-        "summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned on Tuesday that hackers are now exploiting a high-severity Cisco BroadWorks vulnerability in attacks. [...]",
-        "category": "official_news"
-      },
-      {
-        "fingerprint": "c5d6d6851934",
-        "title": "Enroll a Linux device in Intune - Microsoft Intune",
-        "link": "https://learn.microsoft.com/en-us/intune/user-help/enrollment/enroll-linux",
-        "source": "Microsoft Intune What's New",
-        "published": "2026-11-11T08:32:00+00:00",
-        "summary": "Enroll Linux device in Intune Summarize this article for me In this article Enroll a Linux device in Microsoft Intune to get secure access to work or school resources in Microsoft Edge. This article descri... Microsoft Intune app: The Linux version of the Microsoft Intune app is used for enrollment. The Intune app registers your device with your.",
-        "category": "official_news"
-      },
-      {
-        "fingerprint": "f3a337cbd150",
-        "title": "Detecting sleeper agents hiding in AI model neurons",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/11/10/detecting-sleeper-agents-hiding-in-ai-model-neurons/",
-        "source": "Microsoft Security Blog",
-        "published": "2026-11-10T23:00:00+00:00",
-        "summary": "Microsoft Research has released new threat research detailing how a capable agent model could be turned into a sleeper agent by editing fewer than ten neurons to inject a short payload; Microsoft Research has also found that this threat is detectable by frontier agents, which can identify anomalous weight edits. The post Detecting sleeper agents hiding in AI model neurons appeared first on Micr...",
-        "category": "official_news"
-      },
-      {
         "fingerprint": "991b0584fcf1",
         "title": "Get the Intune Company Portal App - Microsoft Intune",
         "link": "https://learn.microsoft.com/en-us/intune/user-help/company-portal/",
         "source": "Microsoft Intune What's New",
-        "published": "2026-11-10T18:34:00+00:00",
+        "published": "2026-11-12T08:34:00+00:00",
         "summary": "Get the Intune Company Portal app Summarize this article for me In this article Microsoft Intune helps organizations manage access to their internal apps, data, and resources. Intune Company Portal is the app that lets you, as an employee or student in your organization, securely access those resources. The app is available for desktop (Windows.",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "3fae2900c1df",
+        "title": "Device enrollment guide for Microsoft Intune - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/device-enrollment/guide",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-11-12T08:34:00+00:00",
+        "summary": "Enrollment guide: Microsoft Intune enrollment Summarize this article for me In this article Microsoft Intune, together with Microsoft Entra ID, facilitates a secure, streamlined process for registering and enrolling devices that want access to your internal resources. Once users and devices are registered within your Microsoft Entra ID (also.",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "479ed3ededdd",
+        "title": "Step 5 – Enroll devices in Microsoft Intune - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/device-enrollment/enroll-devices",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-11-12T08:34:00+00:00",
+        "summary": "Step 5 – Enroll devices in Microsoft Intune Summarize this article for me In this article In the final phase of deployment, devices are registered or joined in Microsoft Entra ID, enrolled in Microsoft Intune, and checked for compliance. During enrollment, Microsoft Intune installs a mobile device management (MDM) certificate on the device, which.",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "49cf870ebc11",
+        "title": "Enroll devices using a device enrollment manager account - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/device-enrollment/setup-enrollment-manager",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-11-12T08:34:00+00:00",
+        "summary": "Add device enrollment managers Summarize this article for me In this article A device enrollment manager (DEM) is a nonadministrator user who can enroll devices in Intune. Supported enrollment methods A device enrollment manager can use the following methods to enroll devices in Intune: Bulk enrollment using a provisioning package DEM-initiated.",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "735b7011213f",
+        "title": "Get an Apple MDM Push certificate for Intune - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/device-enrollment/apple/create-mdm-push-certificate",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-11-12T08:34:00+00:00",
+        "summary": "Get an Apple MDM push certificate Summarize this article for me In this article Upload and renew your Apple MDM push certificates in Microsoft Intune. An Apple MDM Push certificate is required to manage iOS/iPadOS and macOS devices in Microsoft Intune, and enables devices to enroll via: The Intune Company Portal app. Apple bulk enrollment methods,.",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "135d132f1a8b",
+        "title": "Android device enrollment guide for Microsoft Intune - Microsoft Intune",
+        "link": "https://learn.microsoft.com/en-us/intune/device-enrollment/android/guide",
+        "source": "Microsoft Intune What's New",
+        "published": "2026-11-12T08:34:00+00:00",
+        "summary": "Enrollment guide: Enroll Android devices in Microsoft Intune Summarize this article for me In this article Personal and organization-owned devices can be enrolled in Intune. There's also a visual guide of the different enrollment options for each platform: Download PDF version | Download Visio version Before you begin For a list of all the.",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "395e601d88a2",
+        "title": "The global socket: how threat actors are weaponizing GSocket for stealthy C2",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/11/11/global-socket-how-threat-actors-weaponizing-gsocket-stealthy-c2/",
+        "source": "Microsoft Security Blog",
+        "published": "2026-11-11T19:49:57+00:00",
+        "summary": "Threat actors are deploying GSocket on compromised Linux servers to keep encrypted remote access after the original vulnerability is patched. Learn how to detect, investigate, and remediate this activity. The post The global socket: how threat actors are weaponizing GSocket for stealthy C2 appeared first on Microsoft Security Blog .",
         "category": "official_news"
       }
     ],
     "community_buzz": [
       {
-        "fingerprint": "518353c8087f",
-        "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
-        "link": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html",
+        "fingerprint": "231cf8e2a3ae",
+        "title": "Critical Red Hat Quay Flaw Lets Attackers Read and Overwrite All Private Container Images in a Registry",
+        "link": "https://thehackernews.com/2026/11/critical-red-hat-quay-flaw-lets.html",
         "source": "The Hacker News",
-        "published": "2026-11-11T15:34:27+00:00",
-        "summary": "Cybersecurity researchers have disclosed details of a campaign in which an emerging agentic penetration testing platform called AntiFox has been used to steal Amazon Web Services (AWS) credentials and pivot laterally into compromised environments. \"In several recently observed intrusions, Alibaba Cloud systems hosting AntiFox interfaces were associated with confirmed malicious actions against",
+        "published": "2026-11-12T16:27:01+00:00",
+        "summary": "A critical flaw in Red Hat Quay allows an attacker who can access a Quay registry to read and overwrite private container images in every repository. Quay enables anonymous access by default, and while it is enabled, the attacker needs no account. When it is off, anyone with a valid account can still exploit the flaw, Red Hat said yesterday. The company has released fixed builds for eight Quay",
         "category": "community_buzz"
       },
       {
-        "fingerprint": "0cd79146211b",
-        "title": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
-        "link": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
+        "fingerprint": "5790b8ed4226",
+        "title": "Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs",
+        "link": "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html",
         "source": "The Hacker News",
-        "published": "2026-11-11T08:17:53+00:00",
-        "summary": "Microsoft on Tuesday released patches for a total of 1,259 vulnerabilities spanning its software portfolio, the second consecutive month where the patch volume has exceeded 1,000 flaws. These cover 726 flaws in Windows, 174 in Office, 61 in Developer Tools, 59 in SQL Server, 53 in Developer Tools, and 27 in SharePoint Server. The patches also include 165 non-Microsoft-issued CVE identifiers.",
+        "published": "2026-11-12T12:09:14+00:00",
+        "summary": "Google Cloud VMs on AMD Turin chips need a guest OS patch and a stop-and-start to protect against three CPU side-channel flaws, Google said this week. The company has already applied mitigations against attacks between VMs, and between VMs and the host. Inside a VM, the flaws may let an attacker with code on the same processor core infer data from other processes or the kernel. The affected",
         "category": "community_buzz"
       },
       {
-        "fingerprint": "f86bba285167",
-        "title": "Windows 11 KB5132061 update download & install fails with 0x800f0993 error",
-        "link": "https://www.neowin.net/news/windows-11-kb5132061-update-download--install-fails-with-0x800f0993-error/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-11-10T20:58:01+00:00",
-        "summary": "Many Neowin readers have confirmed that the latest Windows 11 26H2, 25H2, 24H2 KB5132061 update is failing to install with an 0x800f0993 error. Read more...",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "8735c7d83810",
-        "title": "Hackers exploit trusted AWS access to breach multiple cloud environments",
-        "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/",
+        "fingerprint": "d6a1fff6f844",
+        "title": "Hackers plant GSocket on Linux servers for persistent access",
+        "link": "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access/",
         "source": "BleepingComputer",
-        "published": "2026-11-10T19:31:11+00:00",
-        "summary": "A threat actor used compromised identity and access management (IAM) credentials for a Qubole big data platform's AWS account to access and exfiltrate data from multiple customers' AWS environments. [...]",
+        "published": "2026-11-12T09:38:00+00:00",
+        "summary": "Multiple threat actors are abusing GSocket, a legitimate open-source remote access tool, to maintain access to Linux servers even after patching the vulnerabilities exploited to gain initial access. [...]",
         "category": "community_buzz"
       },
       {
-        "fingerprint": "8b94a9f97587",
-        "title": "Windows 11 KB5132061 & KB5131087 cumulative updates released",
-        "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132061-and-kb5131087-cumulative-updates-released/",
-        "source": "BleepingComputer",
-        "published": "2026-11-10T18:33:26+00:00",
-        "summary": "Microsoft has released the Patch Tuesday Windows 11 and cumulative updates for versions 26H2/25H2/24H2 and 23H2 to fix security vulnerabilities and bugs, and add new features. [...]",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "7bca19d2b062",
-        "title": "Microsoft releases Patch Tuesday update KB5131096 for Windows 10 22H2 and 21H2",
-        "link": "https://www.neowin.net/news/microsoft-releases-patch-tuesday-update-kb5131096-for-windows-10-2h22-and-21h2/?utm_source=rss",
+        "fingerprint": "9f9315db5ae9",
+        "title": "Microsoft introduces Entra security feature that even admins can't disable",
+        "link": "https://www.neowin.net/news/microsoft-introduces-entra-security-feature-that-even-admins-cant-disable/?utm_source=rss",
         "source": "Neowin",
-        "published": "2026-11-10T18:28:11+00:00",
-        "summary": "Microsoft just released the new cumulative update KB5131096 for Windows 10 versions 22H2 and 21H2. See what's included: Read more...",
+        "published": "2026-11-12T05:38:02+00:00",
+        "summary": "Microsoft's new Entra security feature gives admins seven days to recover important accounts. But once enabled, nobody can disable it. Read more...",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "7295388f6d59",
+        "title": "Latest Windows 11 update KB5132061 could break your PowerShell scripts",
+        "link": "https://www.neowin.net/news/latest-windows-11-update-kb5132061-could-break-your-powershell-scripts/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-11-12T04:08:01+00:00",
+        "summary": "Microsoft's latest Windows update could cause trouble for PowerShell users. Some previously working scripts may now fail signature verification, but Microsoft has a fix. Read more...",
         "category": "community_buzz"
       }
     ]
