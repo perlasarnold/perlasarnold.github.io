@@ -1,51 +1,50 @@
-# Security Digest - November 15, 2026
+# Security Digest - November 16, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
 
-- **Generated (UTC):** 2026-11-15 19:30:18 +00:00
+- **Generated (UTC):** 2026-11-16 23:08:05 +00:00
 - **Lookback window:** 7 days
 
 ## 🚀 Top Research & Advisories
 - *No high-priority security research detected in this window.*
 ## 🛡 Security Ops
-- **[​"Case Study: Multi-platform automated session hijacking wave across multiple emails (Infostealer confirmation & mitigation)"](https://www.reddit.com/r/cybersecurity/comments/1xwyn9b/case_study_multiplatform_automated_session/)** - *(Reddit r/cybersecurity)*
-  Review CA/MFA settings for tightening opportunities.
+- **["Next-Gen" Index-free SIEM vs traditional SIEM](https://www.reddit.com/r/cybersecurity/comments/1xxp29c/nextgen_indexfree_siem_vs_traditional_siem/)** - *(Reddit r/cybersecurity)*
+  Review sensor guidance and deployment posture.
 
 ## 🛠 Infrastructure & Endpoint Control
-- **[GitHub - Ymsniper/vault-share: Self-hosted, invite-only encrypted file sharing in Flask. Each file gets its own AES-256-GCM key, sealed with HPKE for every reader. Signed uploads, duress passwords that open separate cover vaults, and a master key that can require a USB flash drive.](https://www.reddit.com/r/cybersecurity/comments/1xwcugb/github_ymsnipervaultshare_selfhosted_inviteonly/)** - *(Reddit r/cybersecurity)*
-  Confirm Adobe exposure; push updated deployment.
+- **[Google AI Studio lead gets Windows 11 running on the iPhone Duo with help from Gemini 4](https://www.neowin.net/news/google-ai-studio-lead-gets-windows-11-running-on-the-iphone-duo-with-help-from-gemini-4/?utm_source=rss)** - *(Neowin)*
+  Validate workstation security baseline and update compliance.
 
-- **[If the Windows Update hot patcher checks that the function hasn’t already been patched, does that mean you can’t install two hot-patches?](https://devblogs.microsoft.com/oldnewthing/20261109-00/?p=112841/)** - *(The Old New Thing)*
+- **[Microsoft Edge on Xbox has a hidden feature that makes web browsing much cleaner](https://www.neowin.net/news/microsoft-edge-on-xbox-has-a-hidden-feature-that-makes-web-browsing-much-cleaner/?utm_source=rss)** - *(Neowin)*
+  Validate Edge/WebView2 coverage; refresh managed package.
+
+- **[Microsoft finally explains why Outlook went down worldwide, and it all started in July](https://www.neowin.net/news/microsoft-finally-explains-why-outlook-went-down-worldwide-and-it-all-started-in-july/?utm_source=rss)** - *(Neowin)*
+  Review Office update channel health and security baseline compliance.
+
+- **[Microsoft is testing a new way to remotely lock Windows 11 PCs, but there's a catch](https://www.neowin.net/news/microsoft-is-testing-a-new-way-to-remotely-lock-windows-11-pcs-but-theres-a-catch/?utm_source=rss)** - *(Neowin)*
+  Validate workstation security baseline and update compliance.
+
+- **[Microsoft Releases Out-of-band Update to Address Windows Licensing and Activation Errors](https://cybersecuritynews.com/microsoft-windows-licensing-error/)** - *(CybersecurityNews)*
   Evaluate update rings and expedite actions if needed.
 
-- **[Microsoft released Windows 11 KB5132060, KB5131097 updates for OS recovery](https://www.neowin.net/news/microsoft-released-windows-11-kb5132060-kb5131097-updates-for-os-recovery/?utm_source=rss)** - *(Neowin)*
+- **[Users, admins report new Microsoft 365 outage with Exchange, Outlook, Excel, hit](https://www.neowin.net/news/users-admins-report-new-microsoft-365-outage-with-exchange-outlook-exccel-hit/?utm_source=rss)** - *(Neowin)*
+  Review Office update channel health and security baseline compliance.
+
+- **[Windows 11 Beta (26320.10003) brings File Explorer improvements, and more](https://www.neowin.net/news/windows-11-beta-2632010003-brings-file-explorer-improvements-and-more/?utm_source=rss)** - *(Neowin)*
+  Review encryption policy and remediation gaps. Validate workstation security baseline and update compliance.
+
+- **[You can still get Windows 11 Pro or Home for less than ten bucks](https://www.neowin.net/deals/you-can-still-get-windows-11-pro-or-home-for-less-than-ten-bucks/?utm_source=rss)** - *(Neowin)*
   Validate workstation security baseline and update compliance.
-
-- **[Microsoft Weekly: November Patch Tuesday updates, Microsoft 365 outage, and more](https://www.neowin.net/news/microsoft-weekly-november-patch-tuesday-updates-microsoft-365-outage-and-more/?utm_source=rss)** - *(Neowin)*
-  Evaluate update rings and expedite actions if needed.
-
-- **[Microsoft's Windows 11 hidden performance boost trick can ironically slow your system down](https://www.neowin.net/news/microsofts-windows-11-hidden-performance-boost-trick-can-ironically-slow-your-system-down/?utm_source=rss)** - *(Neowin)*
-  Validate workstation security baseline and update compliance.
-
-- **[User unexpectedly discovers how Windows 11 can fail to run even with a proper internet](https://www.neowin.net/news/user-unexpectedly-finds-surprising-windows-11-internet-requirement-microsoft-doesnt-warn-on/?utm_source=rss)** - *(Neowin)*
-  Validate workstation security baseline and update compliance.
-
-- **[Windows 11 will soon run on even more unsupported AMD, Intel CPUs despite Microsoft's block](https://www.neowin.net/news/windows-11-will-soon-run-on-even-more-unsupported-amd-intel-cpus-despite-microsofts-block/?utm_source=rss)** - *(Neowin)*
-  Validate workstation security baseline and update compliance.
-
-## 🩹 Patch Tuesday & Update Experience
-- **[Microsoft released Windows 11 KB5132060, KB5131097 updates for OS recovery](https://www.neowin.net/news/microsoft-released-windows-11-kb5132060-kb5131097-updates-for-os-recovery/?utm_source=rss)** - *(Neowin)*
-  New dynamic updates for Windows 11 versions 26H1, 26H2, 25H2, and 24H2, were released by Microsoft this past week. Read more...
 
 ## 🔍 Quick Links (Watch Items)
-- [​"Case Study: Multi-platform automated session hijacking wave across multiple emails (Infostealer confirmation & mitigation)"](https://www.reddit.com/r/cybersecurity/comments/1xwyn9b/case_study_multiplatform_automated_session/) - *(Reddit r/cybersecurity)*
-- [Need Guidance for CTF Round of Application security Engineer](https://www.reddit.com/r/cybersecurity/comments/1xwykoh/need_guidance_for_ctf_round_of_application/) - *(Reddit r/cybersecurity)*
-- [Question about game admin privilege and anticheat driver](https://www.reddit.com/r/cybersecurity/comments/1xwwchq/question_about_game_admin_privilege_and_anticheat/) - *(Reddit r/cybersecurity)*
-- [Is red teaming really serving its purpose, or has it become just another compliance checkbox?](https://www.reddit.com/r/cybersecurity/comments/1xwtxk6/is_red_teaming_really_serving_its_purpose_or_has/) - *(Reddit r/cybersecurity)*
-- [How Cairn, an Open-Source AI penetration testing tool, Was Weaponized for Autonomous Cyberattacks](https://www.reddit.com/r/cybersecurity/comments/1xwrwfs/how_cairn_an_opensource_ai_penetration_testing/) - *(Reddit r/cybersecurity)*
-- [Will people with existing experience as a security engineer get even more valuable given no one is hiring entry level engineers right now?](https://www.reddit.com/r/cybersecurity/comments/1xwch7u/will_people_with_existing_experience_as_a/) - *(Reddit r/cybersecurity)*
-- [Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper](https://www.reddit.com/r/cybersecurity/comments/1xw8lfa/check_point_gateways_hacked_via_php2shell_to/) - *(Reddit r/cybersecurity)*
-- [## Balancing AI and Documentation for Learning Security](https://www.reddit.com/r/cybersecurity/comments/1xw7sdn/balancing_ai_and_documentation_for_learning/) - *(Reddit r/cybersecurity)*
-- [Microsoft Weekly: November Patch Tuesday updates, Microsoft 365 outage, and more](https://www.neowin.net/news/microsoft-weekly-november-patch-tuesday-updates-microsoft-365-outage-and-more/?utm_source=rss) - *(Neowin)*
-- [Companies treat cybersecurity like garbage until they get punched in the teeth with an attack](https://www.reddit.com/r/cybersecurity/comments/1xvxx03/companies_treat_cybersecurity_like_garbage_until/) - *(Reddit r/cybersecurity)*
+- [Building a CI/CD + AI agentic defense lab — Feedback Welcome](https://www.reddit.com/r/cybersecurity/comments/1xy2vov/building_a_cicd_ai_agentic_defense_lab_feedback/) - *(Reddit r/cybersecurity)*
+- [Poisoned Scripts on BBC, Zoom and Other Major Websites Linked to iPhone Exploit Loaders](https://www.reddit.com/r/cybersecurity/comments/1xy2ofi/poisoned_scripts_on_bbc_zoom_and_other_major/) - *(Reddit r/cybersecurity)*
+- [Is my cert collection affecting my job hunt?](https://www.reddit.com/r/cybersecurity/comments/1xxzux7/is_my_cert_collection_affecting_my_job_hunt/) - *(Reddit r/cybersecurity)*
+- [You can still get Windows 11 Pro or Home for less than ten bucks](https://www.neowin.net/deals/you-can-still-get-windows-11-pro-or-home-for-less-than-ten-bucks/?utm_source=rss) - *(Neowin)*
+- [15 Best Patch Management Tools In 2027](https://cybersecuritynews.com/patch-management-tools/) - *(CybersecurityNews)*
+- [*SSHole (CVE-2026-123158): The Story Behind the OpenSSH Authentication Bypass](https://www.reddit.com/r/cybersecurity/comments/1xxvoxh/sshole_cve2026123158_the_story_behind_the_openssh/) - *(Reddit r/cybersecurity)*
+- [FBI warns AI hacking framework ARTEX is being used in real cyberattacks](https://www.reddit.com/r/cybersecurity/comments/1xxsqfz/fbi_warns_ai_hacking_framework_artex_is_being/) - *(Reddit r/cybersecurity)*
+- [GTIG found a fully automated patch-to-exploit pipeline (exploit_agent) — no human in the loop](https://www.reddit.com/r/cybersecurity/comments/1xxsccl/gtig_found_a_fully_automated_patchtoexploit/) - *(Reddit r/cybersecurity)*
+- [NvRoot aka from rent to root - new LPE vulnerability for NVIDIA GPU driver (CVE-2026-47591)](https://www.reddit.com/r/cybersecurity/comments/1xxr1nm/nvroot_aka_from_rent_to_root_new_lpe/) - *(Reddit r/cybersecurity)*
+- [Leaked Credentials Are an Enterprise Problem: GitGuardian Extends Its Good Samaritan Program to Security Teams](https://cybersecuritynews.com/leaked-credentials-are-an-enterprise-problem-gitguardian-extends-its-good-samaritan-program-to-security-teams/) - *(CybersecurityNews)*
 
