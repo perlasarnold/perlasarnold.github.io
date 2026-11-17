@@ -1,50 +1,50 @@
-# Security Digest - November 16, 2026
+# Security Digest - November 17, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
 
-- **Generated (UTC):** 2026-11-16 23:08:05 +00:00
+- **Generated (UTC):** 2026-11-17 21:58:14 +00:00
 - **Lookback window:** 7 days
 
 ## 🚀 Top Research & Advisories
 - *No high-priority security research detected in this window.*
-## 🛡 Security Ops
-- **["Next-Gen" Index-free SIEM vs traditional SIEM](https://www.reddit.com/r/cybersecurity/comments/1xxp29c/nextgen_indexfree_siem_vs_traditional_siem/)** - *(Reddit r/cybersecurity)*
-  Review sensor guidance and deployment posture.
+## 🏗 Infrastructure
+- **[Microsoft launches Windows Server 2028 with native NVMe, ReFS boot, and more features](https://www.neowin.net/news/microsoft-launches-windows-server-2028-with-native-nvme-refs-boot-and-more-features/?utm_source=rss)** - *(Neowin)*
+  Review server hardening and AD security posture.
 
 ## 🛠 Infrastructure & Endpoint Control
-- **[Google AI Studio lead gets Windows 11 running on the iPhone Duo with help from Gemini 4](https://www.neowin.net/news/google-ai-studio-lead-gets-windows-11-running-on-the-iphone-duo-with-help-from-gemini-4/?utm_source=rss)** - *(Neowin)*
+- **[Copilot will soon be able to edit your local files and troubleshoot Windows 11](https://www.neowin.net/news/copilot-will-soon-be-able-to-edit-your-local-files-and-troubleshoot-windows-11/?utm_source=rss)** - *(Neowin)*
   Validate workstation security baseline and update compliance.
 
-- **[Microsoft Edge on Xbox has a hidden feature that makes web browsing much cleaner](https://www.neowin.net/news/microsoft-edge-on-xbox-has-a-hidden-feature-that-makes-web-browsing-much-cleaner/?utm_source=rss)** - *(Neowin)*
+- **[CVE-2026-113579](https://nvd.nist.gov/vuln/detail/CVE-2026-113579)** - *(NVD)*
+  Confirm Adobe exposure; push updated deployment.
+
+- **[CVE-2026-113580](https://nvd.nist.gov/vuln/detail/CVE-2026-113580)** - *(NVD)*
+  Confirm Adobe exposure; push updated deployment.
+
+- **[CVE-2026-114371](https://nvd.nist.gov/vuln/detail/CVE-2026-114371)** - *(NVD)*
+  Confirm Adobe exposure; push updated deployment.
+
+- **[CVE-2026-114372](https://nvd.nist.gov/vuln/detail/CVE-2026-114372)** - *(NVD)*
+  Confirm Adobe exposure; push updated deployment.
+
+- **[CVE-2026-118197](https://www.cve.org/CVERecord?id=CVE-2026-118197)** - *(CVE.org)*
+  Confirm Adobe exposure; push updated deployment.
+
+- **[Microsoft is taking the next step in turning Edge into an AI browser](https://www.neowin.net/news/microsoft-is-taking-the-next-step-in-turning-edge-into-an-ai-browser/?utm_source=rss)** - *(Neowin)*
   Validate Edge/WebView2 coverage; refresh managed package.
 
-- **[Microsoft finally explains why Outlook went down worldwide, and it all started in July](https://www.neowin.net/news/microsoft-finally-explains-why-outlook-went-down-worldwide-and-it-all-started-in-july/?utm_source=rss)** - *(Neowin)*
-  Review Office update channel health and security baseline compliance.
-
-- **[Microsoft is testing a new way to remotely lock Windows 11 PCs, but there's a catch](https://www.neowin.net/news/microsoft-is-testing-a-new-way-to-remotely-lock-windows-11-pcs-but-theres-a-catch/?utm_source=rss)** - *(Neowin)*
-  Validate workstation security baseline and update compliance.
-
-- **[Microsoft Releases Out-of-band Update to Address Windows Licensing and Activation Errors](https://cybersecuritynews.com/microsoft-windows-licensing-error/)** - *(CybersecurityNews)*
+- **[Microsoft reveals improved Windows update management with new Intune, Autopatch features](https://www.neowin.net/news/microsoft-reveals-improved-windows-update-management-with-new-intune-autopatch-features/?utm_source=rss)** - *(Neowin)*
   Evaluate update rings and expedite actions if needed.
 
-- **[Users, admins report new Microsoft 365 outage with Exchange, Outlook, Excel, hit](https://www.neowin.net/news/users-admins-report-new-microsoft-365-outage-with-exchange-outlook-exccel-hit/?utm_source=rss)** - *(Neowin)*
-  Review Office update channel health and security baseline compliance.
-
-- **[Windows 11 Beta (26320.10003) brings File Explorer improvements, and more](https://www.neowin.net/news/windows-11-beta-2632010003-brings-file-explorer-improvements-and-more/?utm_source=rss)** - *(Neowin)*
-  Review encryption policy and remediation gaps. Validate workstation security baseline and update compliance.
-
-- **[You can still get Windows 11 Pro or Home for less than ten bucks](https://www.neowin.net/deals/you-can-still-get-windows-11-pro-or-home-for-less-than-ten-bucks/?utm_source=rss)** - *(Neowin)*
-  Validate workstation security baseline and update compliance.
-
 ## 🔍 Quick Links (Watch Items)
-- [Building a CI/CD + AI agentic defense lab — Feedback Welcome](https://www.reddit.com/r/cybersecurity/comments/1xy2vov/building_a_cicd_ai_agentic_defense_lab_feedback/) - *(Reddit r/cybersecurity)*
-- [Poisoned Scripts on BBC, Zoom and Other Major Websites Linked to iPhone Exploit Loaders](https://www.reddit.com/r/cybersecurity/comments/1xy2ofi/poisoned_scripts_on_bbc_zoom_and_other_major/) - *(Reddit r/cybersecurity)*
-- [Is my cert collection affecting my job hunt?](https://www.reddit.com/r/cybersecurity/comments/1xxzux7/is_my_cert_collection_affecting_my_job_hunt/) - *(Reddit r/cybersecurity)*
-- [You can still get Windows 11 Pro or Home for less than ten bucks](https://www.neowin.net/deals/you-can-still-get-windows-11-pro-or-home-for-less-than-ten-bucks/?utm_source=rss) - *(Neowin)*
-- [15 Best Patch Management Tools In 2027](https://cybersecuritynews.com/patch-management-tools/) - *(CybersecurityNews)*
-- [*SSHole (CVE-2026-123158): The Story Behind the OpenSSH Authentication Bypass](https://www.reddit.com/r/cybersecurity/comments/1xxvoxh/sshole_cve2026123158_the_story_behind_the_openssh/) - *(Reddit r/cybersecurity)*
-- [FBI warns AI hacking framework ARTEX is being used in real cyberattacks](https://www.reddit.com/r/cybersecurity/comments/1xxsqfz/fbi_warns_ai_hacking_framework_artex_is_being/) - *(Reddit r/cybersecurity)*
-- [GTIG found a fully automated patch-to-exploit pipeline (exploit_agent) — no human in the loop](https://www.reddit.com/r/cybersecurity/comments/1xxsccl/gtig_found_a_fully_automated_patchtoexploit/) - *(Reddit r/cybersecurity)*
-- [NvRoot aka from rent to root - new LPE vulnerability for NVIDIA GPU driver (CVE-2026-47591)](https://www.reddit.com/r/cybersecurity/comments/1xxr1nm/nvroot_aka_from_rent_to_root_new_lpe/) - *(Reddit r/cybersecurity)*
-- [Leaked Credentials Are an Enterprise Problem: GitGuardian Extends Its Good Samaritan Program to Security Teams](https://cybersecuritynews.com/leaked-credentials-are-an-enterprise-problem-gitguardian-extends-its-good-samaritan-program-to-security-teams/) - *(CybersecurityNews)*
+- [Microsoft Perception is now generally available](https://www.neowin.net/news/microsoft-perception-is-now-generally-available/?utm_source=rss) - *(Neowin)*
+- [Jensen Huang says he is willing to return as Nvidia CEO](https://www.neowin.net/news/jensen-huang-says-he-is-willing-to-return-as-nvidia-ceo/?utm_source=rss) - *(Neowin)*
+- [CVE-2026-118197](https://www.cve.org/CVERecord?id=CVE-2026-118197) - *(CVE.org)*
+- [CVE-2026-118197](https://nvd.nist.gov/vuln/detail/CVE-2026-118197) - *(NVD)*
+- [CVE-2026-114372](https://nvd.nist.gov/vuln/detail/CVE-2026-114372) - *(NVD)*
+- [CVE-2026-114372](https://www.cve.org/CVERecord?id=CVE-2026-114372) - *(CVE.org)*
+- [CVE-2026-114371](https://nvd.nist.gov/vuln/detail/CVE-2026-114371) - *(NVD)*
+- [CVE-2026-114371](https://www.cve.org/CVERecord?id=CVE-2026-114371) - *(CVE.org)*
+- [CVE-2026-113580](https://nvd.nist.gov/vuln/detail/CVE-2026-113580) - *(NVD)*
+- [CVE-2026-113580](https://www.cve.org/CVERecord?id=CVE-2026-113580) - *(CVE.org)*
 
