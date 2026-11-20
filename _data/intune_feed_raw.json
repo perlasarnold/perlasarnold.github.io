@@ -1,17 +1,17 @@
 {
-  "generated_utc": "2026-11-19T19:19:31.124363+00:00",
-  "date": "2026-11-19",
+  "generated_utc": "2026-11-20T18:57:00.271383+00:00",
+  "date": "2026-11-20",
   "lookback_hours": 25,
   "source_status": [
     {
       "name": "CISA Cyber Advisories",
       "status": "OK",
-      "count": 3
+      "count": 0
     },
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 0
+      "count": 8
     },
     {
       "name": "Microsoft Intune What's New",
@@ -26,7 +26,7 @@
     {
       "name": "Microsoft Security Blog",
       "status": "OK",
-      "count": 0
+      "count": 1
     },
     {
       "name": "Microsoft Entra Blog",
@@ -36,7 +36,7 @@
     {
       "name": "BleepingComputer",
       "status": "OK",
-      "count": 3
+      "count": 5
     },
     {
       "name": "Neowin",
@@ -46,7 +46,7 @@
     {
       "name": "The Hacker News",
       "status": "OK",
-      "count": 5
+      "count": 8
     },
     {
       "name": "Krebs on Security",
@@ -98,127 +98,228 @@
   "items": {
     "high_alert": [
       {
-        "fingerprint": "b142303cf8bd",
-        "title": "phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution",
-        "link": "https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html",
-        "source": "The Hacker News",
-        "published": "2026-11-19T16:59:56+00:00",
-        "summary": "PHP's default file-based session storage can be made to return objects an attacker chose, by cutting off a session write at the right moment. When combined with a second weakness, such as a suitable gadget chain in the app, those objects can allow the attacker to run code on the server. Today's PHP releases fix the flaw, called phpAfterShell. The flaw is tracked as CVE-2026-126714 and rated",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "4cf442acd4ae",
-        "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
-        "link": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
-        "source": "The Hacker News",
-        "published": "2026-11-19T15:18:07+00:00",
-        "summary": "The PHP Foundation has released security updates to address multiple critical security flaws that could be exploited to achieve remote code execution on affected deployments, including CVE-2026-115560. The release of the patch follows an advance notice in which the project maintainers alerted users to multiple critical vulnerabilities affecting all supported PHP versions under specific",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "a630e94feedc",
-        "title": "Five warning signs of ransomware breach before encryption or data theft",
-        "link": "https://www.bleepingcomputer.com/news/security/five-warning-signs-of-ransomware-breach-before-encryption-or-data-theft/",
+        "fingerprint": "14b64fd348d4",
+        "title": "Hackers use autonomous AI tool Cairn to find zero-day, take over server",
+        "link": "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/",
         "source": "BleepingComputer",
-        "published": "2026-11-19T15:00:10+00:00",
-        "summary": "Ransomware attacks often involve credential theft, lateral movement, and attempts to disable security controls long before encryption begins. Acronis examines five warning signs that can help defenders detect intrusions earlier, contain malicious activity, and protect critical systems and backups. [...]",
+        "published": "2026-11-20T17:30:00+00:00",
+        "summary": "Threat actors used the open-source AI penetration-testing framework Cairn to find a previously unknown vulnerability in a medical imaging application. [...]",
         "category": "high_alert"
       },
       {
-        "fingerprint": "814d81693c2f",
-        "title": "Elecbrakes EB2, VM1, ELBC2000",
-        "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-02",
-        "source": "CISA Cyber Advisories",
-        "published": "2026-11-19T12:00:00+00:00",
-        "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain control of the brakes of a trailer, modify the firmware, disable the brake lights, modify the brake conditions or disable other critical safety features. The following versions of Elecbrakes EB2, VM1, ELBC2000 are affected: EB2 <=3.0.4.2.0 (CVE-2026-124281, CVE-2026-125273, CVE-2026-96805) ELBC200...",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "853160839c9d",
-        "title": "libumqtt",
-        "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03",
-        "source": "CISA Cyber Advisories",
-        "published": "2026-11-19T12:00:00+00:00",
-        "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow a remote attacker to cause a denial of service, memory corruption, or information disclosure. The following versions of libumqtt are affected: libumqtt <=1.1.1 (CVE-2026-125132) CVSS Vendor Equipment v3 8.6 libumqtt libumqtt 1 Vulnerability Integer Underflow (Wrap or Wraparound) Background Critical Infrastructure Sector...",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "e0a03efa91d1",
-        "title": "Autonomy Logic OpenPLC Runtime",
-        "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01",
-        "source": "CISA Cyber Advisories",
-        "published": "2026-11-19T12:00:00+00:00",
-        "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow several unauthenticated admin accounts to be created. The following versions of Autonomy Logic OpenPLC Runtime are affected: OpenPLC Runtime <=4.2.4 (CVE-2026-126088) CVSS Vendor Equipment v3 8.1 Autonomy Logic OpenPLC Runtime 1 Vulnerability Concurrent Execution using Shared Resource with Improper Synchronization ('Rac...",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "9559038fb0bf",
-        "title": "Everything Is a Web Application, Including Your Firewall",
-        "link": "https://thehackernews.com/2026/11/everything-is-web-application-including.html",
+        "fingerprint": "b52e2b8e52ce",
+        "title": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control",
+        "link": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html",
         "source": "The Hacker News",
-        "published": "2026-11-19T11:52:23+00:00",
-        "summary": "One of the early targets of PHP2Shell exploitation was the firewall. On October 28, Palo Alto Networks confirmed that attackers were exploiting the two PHP vulnerabilities, CVE-2026-109618 and CVE-2026-109619, against PAN-OS management interfaces exposed to the internet. Both flaws let anyone execute code on the web server without authentication. The disclosure itself went a little wrong.",
+        "published": "2026-11-20T16:58:16+00:00",
+        "summary": "Cybersecurity researchers have disclosed details of a previously unknown Android malware framework called Bazuka that offers large language model (LLM) integration for victim management and control at scale. Dutch mobile security company ThreatFabric said it discovered the threat in late October 2026 during an investigation into an NFC-relay banking Trojan. \"Bazuka is a full malware framework,",
         "category": "high_alert"
       },
       {
-        "fingerprint": "641e29cc74fd",
-        "title": "Cybercriminals compromise Microsoft's Agent Framework PyPI package to steal credentials",
-        "link": "https://www.neowin.net/news/cybercriminals-compromise-microsofts-agent-framework-pypi-package-to-steal-credentials/?utm_source=rss",
+        "fingerprint": "216780c21ec3",
+        "title": "Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts",
+        "link": "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html",
+        "source": "The Hacker News",
+        "published": "2026-11-20T12:20:00+00:00",
+        "summary": "A flaw in KVM, the hypervisor built into the Linux kernel, let researchers read about 127 GB of a cloud server's memory from inside a virtual machine of their own on DigitalOcean. On a shared server, that memory can include other customers' virtual machines. The flaw, tracked as CVE-2026-99312, affects only hosts with AMD processors and nested virtualization enabled. Fixed kernels shipped",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "70d856cd566e",
+        "title": "F5 releases emergency patches for critical BIG-IP RCE flaws",
+        "link": "https://www.bleepingcomputer.com/news/security/f5-releases-emergency-patches-for-critical-big-ip-rce-flaws/",
+        "source": "BleepingComputer",
+        "published": "2026-11-20T10:57:43+00:00",
+        "summary": "US cybersecurity company F5 warned customers to patch five critical BIG-IP vulnerabilities that attackers can exploit to trigger denial-of-service (DoS) or gain remote code execution. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "91fa700e567d",
+        "title": "Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network",
+        "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html",
+        "source": "The Hacker News",
+        "published": "2026-11-20T10:32:50+00:00",
+        "summary": "Threat actors have been observed exploiting a recently disclosed critical security flaw in Cisco Expressway to breach a Russian organization shortly after the public release of a proof-of-concept (PoC) exploit. The activity involves the exploitation of CVE-2026-76466 (CVSS score: 9.8), a vulnerability that could allow an unauthenticated, remote attacker with network access to a Cisco Expressway",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "aa56be9d8c18",
+        "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
+        "link": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
+        "source": "The Hacker News",
+        "published": "2026-11-20T09:38:15+00:00",
+        "summary": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026. The vulnerability, tracked as CVE-2026-123890 (CVSS score: 9.8), is a case of authentication bypass in the VMware Directory Service that could be exploited to gain unauthorized",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "633813ed38c9",
+        "title": "ROMULUS ClickFix Attacks Deliver RAT That Can Spy on Users and Control PCs",
+        "link": "https://thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html",
+        "source": "The Hacker News",
+        "published": "2026-11-20T07:11:39+00:00",
+        "summary": "Threat actors have been observed using the ROMULUS ClickFix malware delivery platform to deliver a previously undocumented remote access trojan (RAT) that shares similarities with CNCMachineRMS. \"ROMULUS likely operates as a delivery service, distributing CNCMachineRMS and Legion Loader through separate chains while retaining ClickFix and signed binary sideloading techniques,\" Blackpoint",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "a699f2b01fcc",
+        "title": "FastUnlock zero-day bypasses BitLocker on fully patched Windows 11, researcher claims",
+        "link": "https://www.neowin.net/news/fastunlock-zero-day-bypasses-bitlocker-on-fully-patched-windows-11-researcher-claims/?utm_source=rss",
         "source": "Neowin",
-        "published": "2026-11-19T09:48:01+00:00",
-        "summary": "Threat actors were recently able to publish two malicious versions of Microsoft's official Agent Framework Python package on PyPI. Both releases contained malware that stole data. Read more...",
+        "published": "2026-11-20T06:44:01+00:00",
+        "summary": "A researcher says even fully patched Windows 11 PCs with BitLocker enabled can be breached in minutes if the attacker has physical access. Read more...",
         "category": "high_alert"
       },
       {
-        "fingerprint": "915847c03798",
-        "title": "NVIDIA investigating Gentlemen ransomware breach claims",
-        "link": "https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/",
-        "source": "BleepingComputer",
-        "published": "2026-11-19T09:23:21+00:00",
-        "summary": "NVIDIA is investigating claims of a security breach after the Gentlemen ransomware group has added the company to its dark web data leak site. [...]",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "e3e06c3a1418",
-        "title": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
-        "link": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
+        "fingerprint": "dcc7a97d3159",
+        "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
+        "link": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
         "source": "The Hacker News",
-        "published": "2026-11-19T08:00:00+00:00",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added four vulnerabilities impacting Synology DiskStation Manager (DSM), BerriAI LiteLLM, Apache Axis, and Vanderbilt University Research Electronic Data Capture (REDCap) to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities are listed below -",
+        "published": "2026-11-20T05:30:01+00:00",
+        "summary": "A newly disclosed unpatched zero-day technique called FastUnlock lets someone with physical access to a locked Windows computer start programs without signing in. Whoever uses it gets only a limited account, not administrator control of the machine. The method was posted yesterday by a researcher who uses the handles MSNightmare and Nightmare Eclipse, and the endpoint-security firm ThreatLocker",
         "category": "high_alert"
       },
       {
-        "fingerprint": "7a7126add3f2",
-        "title": "Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms",
-        "link": "https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/",
+        "fingerprint": "2bd42e4bdf0f",
+        "title": "VMware patches vCenter zero-day exploited in attacks since September",
+        "link": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
         "source": "BleepingComputer",
-        "published": "2026-11-18T23:08:33+00:00",
-        "summary": "Ukrainian authorities, working with the FBI, have arrested four suspected members of an international ransomware organization linked to more than $40.5 million in ransom payments from at least 28 companies worldwide. [...]",
+        "published": "2026-11-20T00:26:25+00:00",
+        "summary": "Broadcom has released security updates to fix a critical VMware vCenter Server authentication bypass vulnerability that Chinese-linked hackers have exploited in zero-day attacks since September 2026. [...]",
         "category": "high_alert"
       },
       {
-        "fingerprint": "515706fca61f",
-        "title": "10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers",
-        "link": "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html",
+        "fingerprint": "d7997e610067",
+        "title": "Nvidia listed in ransomware gang's data leak site, has less than nine days to respond",
+        "link": "https://www.neowin.net/news/nvidia-listed-in-ransomware-gangs-data-leak-site-has-less-than-nine-days-to-respond/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-11-19T23:58:04+00:00",
+        "summary": "Nvidia is currently investigating the possibility of a security breach after ransomware gang called The Gentlemen added the company to its dark web data leak site. Read more...",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "52950c8116fa",
+        "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
+        "link": "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html",
         "source": "The Hacker News",
-        "published": "2026-11-18T18:31:17+00:00",
-        "summary": "A flaw in NGINX's HTTP/2 support can allow an attacker to run code on servers with HTTP/2 enabled, without needing to log in. The decade-old flaw, CVE-2026-123007, dubbed \"nginx2root,\" has been present in NGINX's open-source code since version 1.9.5, released on September 22, 2015. Fixed versions 1.31.9 and 1.30.7 came out today. F5, the company behind NGINX, says attackers can run code where",
+        "published": "2026-11-19T18:47:58+00:00",
+        "summary": "The easiest way to fool someone is to give them something they already expect. A job offer. A message about a service outage. A familiar app. Nothing looks strange at first. And that's the problem. This week's stories show how ordinary things are being used to steal data, spread malware, and get people to hand over access. There's another shift worth watching. AI is making some attacks easier",
         "category": "high_alert"
       }
     ],
     "bad_updates": [],
-    "upcoming_changes": [],
+    "upcoming_changes": [
+      {
+        "fingerprint": "4729a0ebb12b",
+        "title": "Microsoft Teams: Pick up where you left off in channels on desktop",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=579890",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-11-20T01:24:53+00:00",
+        "summary": "Stay on top of channel conversations by picking up right where you left off. Choose to open Teams channels at your last read message instead of the most recent message, making it easier to catch up on conversations and follow discussions without losing your place. GA date: February CY2027",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "399f37626635",
+        "title": "Microsoft Edge: Smarter and faster update application",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=581801",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-11-19T23:37:54+00:00",
+        "summary": "Microsoft Edge can now apply pending updates when your browser is idle. We've updated the Relaunch Notification policy to allow you to manage idle restarts for your organization. More info: https://learn.microsoft.com/en-us/deployedge/microsoft-edge-policies/relaunchnotification GA date: January CY2027",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "8a9027d413e2",
+        "title": "Microsoft Teams: Configure a list of allowed external meeting notetaker bots for your Teams meetings",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=580451",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-11-19T23:37:54+00:00",
+        "summary": "Admins will be able to configure more granular and advanced controls for managing external bots and their access to meetings hosted in their organization. Admins will be able to configure a list of external meeting bots which are allowed to join meetings hosted in their organization. Admins can also opt to block all other bots or let them be enforced into the currently available high friction l...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "a6b1a878edef",
+        "title": "Microsoft Copilot Studio: Run Python code as a step in workflows",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=580866",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-11-19T21:30:10+00:00",
+        "summary": "The new Code node lets makers run Python as a step in a workflow for logic that expressions and connectors can't handle. Data transforms, calculations, regex, and advanced parsing. File conversion and parsing (for example PDF → text, CSV, XML). Generate the code from natural language with AI, or write and edit it by hand. GA date: November CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "69d28a535cf6",
+        "title": "Microsoft Copilot Studio: Generate documents from the Agent node in workflows",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=580865",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-11-19T21:30:10+00:00",
+        "summary": "The Agent node can now return files that the agent generates, such as PDF, Word, Excel, PowerPoint, and CSV, as workflow outputs. Works with both inline agents and existing (published) agents. Generated files appear as an ordered files output (name, content type, content) that's available to downstream steps. Pass files to connectors to email, save to SharePoint/OneDrive, or attach to records. ...",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "0bdd1bf85f74",
+        "title": "Microsoft Copilot Studio: Share workflows with co-owners for collaborative editing",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=580864",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-11-19T21:30:10+00:00",
+        "summary": "Makers can share a workflow with other users as co-owners so they can view, edit, and manage it. Share from the workflows page or the designer. Review the connections the workflow uses and their permissions before sharing. See who the workflow is shared with when reopening Share. Co-owners can edit and run the workflow. GA date: December CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "35ea3ef5608f",
+        "title": "Microsoft Copilot Studio: Service principal owner for workflows",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=580863",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-11-19T21:30:10+00:00",
+        "summary": "Workflows can now be owned under a service principal (a Microsoft Entra app registration) instead of a named user account. GA date: December CY2026",
+        "category": "upcoming_changes"
+      },
+      {
+        "fingerprint": "d40b95b7b894",
+        "title": "Microsoft Teams: Voice phishing detection for external calls",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=580443",
+        "source": "Microsoft 365 Roadmap",
+        "published": "2026-11-19T21:30:10+00:00",
+        "summary": "Voice phishing detection helps protect Microsoft Teams users from potential scams during one-to-one calls with people outside their organization. Using AI, Teams analyzes conversations for signs of social engineering and alerts recipients when suspicious activity is detected, helping them recognize potential threats and decide how to proceed. GA date: December CY2026",
+        "category": "upcoming_changes"
+      }
+    ],
     "official_news": [
       {
-        "fingerprint": "f512d6522e3b",
-        "title": "KB5132057 and KB5132265 updates for Windows 11 are now generally available",
-        "link": "https://www.neowin.net/news/kb5132057-and-kb5132265-updates-for-windows-11-are-now-generally-available/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-11-19T18:50:01+00:00",
-        "summary": "Microsoft just released cumulative updates KB5132057 and KB5132265 for Windows 11 versions 26H2, 25H2, and 26H1 to the public. See what's included: Read more...",
+        "fingerprint": "9ec3be96e26a",
+        "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for SIEM",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/11/20/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-siem/",
+        "source": "Microsoft Security Blog",
+        "published": "2026-11-20T17:00:00+00:00",
+        "summary": "We're honored that Microsoft has once again been recognized as a Leader in the 2026 Gartner® Magic Quadrant™ for Security Information and Event Management (SIEM). The post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for SIEM appeared first on Microsoft Security Blog .",
+        "category": "official_news"
+      },
+      {
+        "fingerprint": "40a964c4f385",
+        "title": "SonicWall Warns Gen 6 Firewalls Won't Get Security Patches, Even for Critical Flaws",
+        "link": "https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html",
+        "source": "The Hacker News",
+        "published": "2026-11-20T10:38:22+00:00",
+        "summary": "SonicWall has urged all customers still running Generation 6 firewalls to retire and replace them immediately and stop exposing the devices on the internet edge, citing security risks fueled by AI-assisted attacks. \"Attackers now use automation and AI to find and exploit unsupported edge devices faster than ever,\" SonicWall said. \"We expect internet-facing Gen 6 firewalls to be actively",
         "category": "official_news"
       }
     ],
-    "community_buzz": []
+    "community_buzz": [
+      {
+        "fingerprint": "e041c6dc665f",
+        "title": "Windows 11 KB5132057 update released with 28 changes and fixes",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132057-update-released-with-28-changes-and-fixes/",
+        "source": "BleepingComputer",
+        "published": "2026-11-20T09:25:35+00:00",
+        "summary": "Microsoft released the KB5132057 November Windows 11 preview update, which comes with 28 changes, including improvements to Windows Search, Windows Hello, and the Run dialog. [...]",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "a16162a80173",
+        "title": "Hackers steal data of 1.6 million SBC Medical Group customers",
+        "link": "https://www.bleepingcomputer.com/news/security/hackers-steal-data-of-16-million-sbc-medical-group-customers/",
+        "source": "BleepingComputer",
+        "published": "2026-11-19T22:25:42+00:00",
+        "summary": "SBC Medical Group has warned in a filing with the U.S. Securities and Exchange Commission (SEC) that two cybersecurity incidents exposed sensitive customer and employee information, including personal data belonging to 1.6 million people. [...]",
+        "category": "community_buzz"
+      }
+    ]
   }
 }
