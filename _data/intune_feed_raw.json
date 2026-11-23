@@ -1,17 +1,17 @@
 {
-  "generated_utc": "2026-11-20T18:57:00.271383+00:00",
-  "date": "2026-11-20",
+  "generated_utc": "2026-11-23T22:25:49.276754+00:00",
+  "date": "2026-11-23",
   "lookback_hours": 25,
   "source_status": [
     {
       "name": "CISA Cyber Advisories",
       "status": "OK",
-      "count": 0
+      "count": 1
     },
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 8
+      "count": 0
     },
     {
       "name": "Microsoft Intune What's New",
@@ -26,7 +26,7 @@
     {
       "name": "Microsoft Security Blog",
       "status": "OK",
-      "count": 1
+      "count": 0
     },
     {
       "name": "Microsoft Entra Blog",
@@ -36,17 +36,17 @@
     {
       "name": "BleepingComputer",
       "status": "OK",
-      "count": 5
+      "count": 2
     },
     {
       "name": "Neowin",
       "status": "OK",
-      "count": 2
+      "count": 1
     },
     {
       "name": "The Hacker News",
       "status": "OK",
-      "count": 8
+      "count": 6
     },
     {
       "name": "Krebs on Security",
@@ -98,226 +98,98 @@
   "items": {
     "high_alert": [
       {
-        "fingerprint": "14b64fd348d4",
-        "title": "Hackers use autonomous AI tool Cairn to find zero-day, take over server",
-        "link": "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/",
+        "fingerprint": "4e735a3e7c88",
+        "title": "⚡ Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble",
+        "link": "https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html",
+        "source": "The Hacker News",
+        "published": "2026-11-23T15:10:48+00:00",
+        "summary": "A stolen key. A trusted message. A routine update. None of these looks like the start of a major security problem. That's partly why they work. Attackers don't always need to break down a door. Sometimes they just use one that's already open. This week's stories show how quickly a small opening can turn into a much bigger mess. One breach helps attackers reach another target. Tools people rely",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "8699f5c48f9c",
+        "title": "Critical binary-parser Flaw Enables JavaScript Injection via Malicious Parser Definitions",
+        "link": "https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html",
+        "source": "The Hacker News",
+        "published": "2026-11-23T13:22:20+00:00",
+        "summary": "A critical security flaw has been disclosed in the popular binary-parser library that could allow an attacker who controls parser definitions to execute arbitrary code. The vulnerability, tracked as CVE-2026-134814 (CVSS score: 9.2 / 8.1), is a case of code injection impacting binary-parser versions prior to 2.3.1. \"Binary-parser before 2.3.1 contains a code injection vulnerability that allows",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "cb2123e096d4",
+        "title": "Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning",
+        "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",
+        "source": "The Hacker News",
+        "published": "2026-11-23T12:41:04+00:00",
+        "summary": "Threat actors are exploiting a now-patched security flaw in ConnectWise ScreenConnect to target managed service provider (MSP) servers. The activity revolves around CVE-2026-84869 (CVSS score: 9.9), a critical ScreenConnect client flaw that allows a guest to transfer and execute a malicious payload on a connecting technician's host. \"On November 12, 2026, we observed one managed service",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "504f19573d27",
+        "title": "N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation",
+        "link": "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html",
+        "source": "The Hacker News",
+        "published": "2026-11-23T12:28:09+00:00",
+        "summary": "N-able yesterday disclosed a critical flaw it found while investigating the breach of its Mail Assure and SpamExperts Hosted Cloud, an email filtering service it runs for managed service providers. The bug, tracked as CVE-2026-134624, is a server-side request forgery (SSRF) flaw. It allowed a user with high-level API access to open connections to internal systems of the user's choosing on the",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "7d9d303ee7b3",
+        "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+        "link": "https://www.cisa.gov/news-events/alerts/2026/11/23/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+        "source": "CISA Cyber Advisories",
+        "published": "2026-11-23T12:00:00+00:00",
+        "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-133968 Project MONAI MONAI Label Path Traversal Vulnerability CVE-2026-134624 N-able Mail Assure (SpamExperts) Server-Side Request Forgery (SSRF) Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and p...",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "97edfda41e9d",
+        "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
+        "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
+        "source": "The Hacker News",
+        "published": "2026-11-23T09:11:56+00:00",
+        "summary": "Cybersecurity researchers have urged users to discontinue using a legacy ASP.NET anti-CSRF library named Idunno.AntiCsrf (\"Idunno.AntiCsrf.dll\") following the discovery of a critical vulnerability that has been exploited in the wild. The vulnerability, tracked as CVE-2026-131914, carries a CVSS score of 9.3 out of 10.0. The issue affects versions 0.9.1.0 and 0.9.1 Beta, and relates to an",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "c59ef8d08b87",
+        "title": "Hackers Exploited GL.iNet Cloud Flaw to Install Malware on Routers and KVM Devices",
+        "link": "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html",
+        "source": "The Hacker News",
+        "published": "2026-11-23T09:04:08+00:00",
+        "summary": "Hackers exploited a vulnerability in GL.iNet's GoodCloud remote management service to install malware on some customer routers and KVM devices, the maker of travel routers and remote-access KVM hardware said in a security notice updated today. The company identified and fixed the flaw on Friday and blocked the access the attacker used, so devices can no longer be infected through this route.",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "d3a13665a23d",
+        "title": "CISA flags critical Cisco RCE flaw as actively exploited in attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/",
         "source": "BleepingComputer",
-        "published": "2026-11-20T17:30:00+00:00",
-        "summary": "Threat actors used the open-source AI penetration-testing framework Cairn to find a previously unknown vulnerability in a medical imaging application. [...]",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "b52e2b8e52ce",
-        "title": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control",
-        "link": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html",
-        "source": "The Hacker News",
-        "published": "2026-11-20T16:58:16+00:00",
-        "summary": "Cybersecurity researchers have disclosed details of a previously unknown Android malware framework called Bazuka that offers large language model (LLM) integration for victim management and control at scale. Dutch mobile security company ThreatFabric said it discovered the threat in late October 2026 during an investigation into an NFC-relay banking Trojan. \"Bazuka is a full malware framework,",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "216780c21ec3",
-        "title": "Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts",
-        "link": "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html",
-        "source": "The Hacker News",
-        "published": "2026-11-20T12:20:00+00:00",
-        "summary": "A flaw in KVM, the hypervisor built into the Linux kernel, let researchers read about 127 GB of a cloud server's memory from inside a virtual machine of their own on DigitalOcean. On a shared server, that memory can include other customers' virtual machines. The flaw, tracked as CVE-2026-99312, affects only hosts with AMD processors and nested virtualization enabled. Fixed kernels shipped",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "70d856cd566e",
-        "title": "F5 releases emergency patches for critical BIG-IP RCE flaws",
-        "link": "https://www.bleepingcomputer.com/news/security/f5-releases-emergency-patches-for-critical-big-ip-rce-flaws/",
-        "source": "BleepingComputer",
-        "published": "2026-11-20T10:57:43+00:00",
-        "summary": "US cybersecurity company F5 warned customers to patch five critical BIG-IP vulnerabilities that attackers can exploit to trigger denial-of-service (DoS) or gain remote code execution. [...]",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "91fa700e567d",
-        "title": "Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network",
-        "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html",
-        "source": "The Hacker News",
-        "published": "2026-11-20T10:32:50+00:00",
-        "summary": "Threat actors have been observed exploiting a recently disclosed critical security flaw in Cisco Expressway to breach a Russian organization shortly after the public release of a proof-of-concept (PoC) exploit. The activity involves the exploitation of CVE-2026-76466 (CVSS score: 9.8), a vulnerability that could allow an unauthenticated, remote attacker with network access to a Cisco Expressway",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "aa56be9d8c18",
-        "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
-        "link": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
-        "source": "The Hacker News",
-        "published": "2026-11-20T09:38:15+00:00",
-        "summary": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026. The vulnerability, tracked as CVE-2026-123890 (CVSS score: 9.8), is a case of authentication bypass in the VMware Directory Service that could be exploited to gain unauthorized",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "633813ed38c9",
-        "title": "ROMULUS ClickFix Attacks Deliver RAT That Can Spy on Users and Control PCs",
-        "link": "https://thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html",
-        "source": "The Hacker News",
-        "published": "2026-11-20T07:11:39+00:00",
-        "summary": "Threat actors have been observed using the ROMULUS ClickFix malware delivery platform to deliver a previously undocumented remote access trojan (RAT) that shares similarities with CNCMachineRMS. \"ROMULUS likely operates as a delivery service, distributing CNCMachineRMS and Legion Loader through separate chains while retaining ClickFix and signed binary sideloading techniques,\" Blackpoint",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "a699f2b01fcc",
-        "title": "FastUnlock zero-day bypasses BitLocker on fully patched Windows 11, researcher claims",
-        "link": "https://www.neowin.net/news/fastunlock-zero-day-bypasses-bitlocker-on-fully-patched-windows-11-researcher-claims/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-11-20T06:44:01+00:00",
-        "summary": "A researcher says even fully patched Windows 11 PCs with BitLocker enabled can be breached in minutes if the attacker has physical access. Read more...",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "dcc7a97d3159",
-        "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
-        "link": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
-        "source": "The Hacker News",
-        "published": "2026-11-20T05:30:01+00:00",
-        "summary": "A newly disclosed unpatched zero-day technique called FastUnlock lets someone with physical access to a locked Windows computer start programs without signing in. Whoever uses it gets only a limited account, not administrator control of the machine. The method was posted yesterday by a researcher who uses the handles MSNightmare and Nightmare Eclipse, and the endpoint-security firm ThreatLocker",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "2bd42e4bdf0f",
-        "title": "VMware patches vCenter zero-day exploited in attacks since September",
-        "link": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
-        "source": "BleepingComputer",
-        "published": "2026-11-20T00:26:25+00:00",
-        "summary": "Broadcom has released security updates to fix a critical VMware vCenter Server authentication bypass vulnerability that Chinese-linked hackers have exploited in zero-day attacks since September 2026. [...]",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "d7997e610067",
-        "title": "Nvidia listed in ransomware gang's data leak site, has less than nine days to respond",
-        "link": "https://www.neowin.net/news/nvidia-listed-in-ransomware-gangs-data-leak-site-has-less-than-nine-days-to-respond/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-11-19T23:58:04+00:00",
-        "summary": "Nvidia is currently investigating the possibility of a security breach after ransomware gang called The Gentlemen added the company to its dark web data leak site. Read more...",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "52950c8116fa",
-        "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
-        "link": "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html",
-        "source": "The Hacker News",
-        "published": "2026-11-19T18:47:58+00:00",
-        "summary": "The easiest way to fool someone is to give them something they already expect. A job offer. A message about a service outage. A familiar app. Nothing looks strange at first. And that's the problem. This week's stories show how ordinary things are being used to steal data, spread malware, and get people to hand over access. There's another shift worth watching. AI is making some attacks easier",
+        "published": "2026-11-23T07:44:19+00:00",
+        "summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers are now exploiting a recently patched critical Cisco Expressway vulnerability in the wild. [...]",
         "category": "high_alert"
       }
     ],
     "bad_updates": [],
-    "upcoming_changes": [
-      {
-        "fingerprint": "4729a0ebb12b",
-        "title": "Microsoft Teams: Pick up where you left off in channels on desktop",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=579890",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-20T01:24:53+00:00",
-        "summary": "Stay on top of channel conversations by picking up right where you left off. Choose to open Teams channels at your last read message instead of the most recent message, making it easier to catch up on conversations and follow discussions without losing your place. GA date: February CY2027",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "399f37626635",
-        "title": "Microsoft Edge: Smarter and faster update application",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=581801",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-19T23:37:54+00:00",
-        "summary": "Microsoft Edge can now apply pending updates when your browser is idle. We've updated the Relaunch Notification policy to allow you to manage idle restarts for your organization. More info: https://learn.microsoft.com/en-us/deployedge/microsoft-edge-policies/relaunchnotification GA date: January CY2027",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "8a9027d413e2",
-        "title": "Microsoft Teams: Configure a list of allowed external meeting notetaker bots for your Teams meetings",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=580451",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-19T23:37:54+00:00",
-        "summary": "Admins will be able to configure more granular and advanced controls for managing external bots and their access to meetings hosted in their organization. Admins will be able to configure a list of external meeting bots which are allowed to join meetings hosted in their organization. Admins can also opt to block all other bots or let them be enforced into the currently available high friction l...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "a6b1a878edef",
-        "title": "Microsoft Copilot Studio: Run Python code as a step in workflows",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=580866",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-19T21:30:10+00:00",
-        "summary": "The new Code node lets makers run Python as a step in a workflow for logic that expressions and connectors can't handle. Data transforms, calculations, regex, and advanced parsing. File conversion and parsing (for example PDF → text, CSV, XML). Generate the code from natural language with AI, or write and edit it by hand. GA date: November CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "69d28a535cf6",
-        "title": "Microsoft Copilot Studio: Generate documents from the Agent node in workflows",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=580865",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-19T21:30:10+00:00",
-        "summary": "The Agent node can now return files that the agent generates, such as PDF, Word, Excel, PowerPoint, and CSV, as workflow outputs. Works with both inline agents and existing (published) agents. Generated files appear as an ordered files output (name, content type, content) that's available to downstream steps. Pass files to connectors to email, save to SharePoint/OneDrive, or attach to records. ...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "0bdd1bf85f74",
-        "title": "Microsoft Copilot Studio: Share workflows with co-owners for collaborative editing",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=580864",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-19T21:30:10+00:00",
-        "summary": "Makers can share a workflow with other users as co-owners so they can view, edit, and manage it. Share from the workflows page or the designer. Review the connections the workflow uses and their permissions before sharing. See who the workflow is shared with when reopening Share. Co-owners can edit and run the workflow. GA date: December CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "35ea3ef5608f",
-        "title": "Microsoft Copilot Studio: Service principal owner for workflows",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=580863",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-19T21:30:10+00:00",
-        "summary": "Workflows can now be owned under a service principal (a Microsoft Entra app registration) instead of a named user account. GA date: December CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "d40b95b7b894",
-        "title": "Microsoft Teams: Voice phishing detection for external calls",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=580443",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-19T21:30:10+00:00",
-        "summary": "Voice phishing detection helps protect Microsoft Teams users from potential scams during one-to-one calls with people outside their organization. Using AI, Teams analyzes conversations for signs of social engineering and alerts recipients when suspicious activity is detected, helping them recognize potential threats and decide how to proceed. GA date: December CY2026",
-        "category": "upcoming_changes"
-      }
-    ],
-    "official_news": [
-      {
-        "fingerprint": "9ec3be96e26a",
-        "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for SIEM",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/11/20/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-siem/",
-        "source": "Microsoft Security Blog",
-        "published": "2026-11-20T17:00:00+00:00",
-        "summary": "We're honored that Microsoft has once again been recognized as a Leader in the 2026 Gartner® Magic Quadrant™ for Security Information and Event Management (SIEM). The post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for SIEM appeared first on Microsoft Security Blog .",
-        "category": "official_news"
-      },
-      {
-        "fingerprint": "40a964c4f385",
-        "title": "SonicWall Warns Gen 6 Firewalls Won't Get Security Patches, Even for Critical Flaws",
-        "link": "https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html",
-        "source": "The Hacker News",
-        "published": "2026-11-20T10:38:22+00:00",
-        "summary": "SonicWall has urged all customers still running Generation 6 firewalls to retire and replace them immediately and stop exposing the devices on the internet edge, citing security risks fueled by AI-assisted attacks. \"Attackers now use automation and AI to find and exploit unsupported edge devices faster than ever,\" SonicWall said. \"We expect internet-facing Gen 6 firewalls to be actively",
-        "category": "official_news"
-      }
-    ],
+    "upcoming_changes": [],
+    "official_news": [],
     "community_buzz": [
       {
-        "fingerprint": "e041c6dc665f",
-        "title": "Windows 11 KB5132057 update released with 28 changes and fixes",
-        "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132057-update-released-with-28-changes-and-fixes/",
-        "source": "BleepingComputer",
-        "published": "2026-11-20T09:25:35+00:00",
-        "summary": "Microsoft released the KB5132057 November Windows 11 preview update, which comes with 28 changes, including improvements to Windows Search, Windows Hello, and the Run dialog. [...]",
+        "fingerprint": "ee96ddd557d7",
+        "title": "Final 2026 Windows 11 optional update KB5132057 fails to install",
+        "link": "https://www.neowin.net/news/final-2026-windows-11-optional-update-kb5132057-fails-to-install/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-11-23T18:30:03+00:00",
+        "summary": "Windows 11's final 2026 optional update, KB5132057, hits an installation roadblock for some users, leaving them frustrated and searching for answers. Read more...",
         "category": "community_buzz"
       },
       {
-        "fingerprint": "a16162a80173",
-        "title": "Hackers steal data of 1.6 million SBC Medical Group customers",
-        "link": "https://www.bleepingcomputer.com/news/security/hackers-steal-data-of-16-million-sbc-medical-group-customers/",
+        "fingerprint": "3f49721770b6",
+        "title": "Microsoft confirms Windows printing issues affecting Forcepoint users",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-printing-issues-after-kb5132043-windows-hotpatch/",
         "source": "BleepingComputer",
-        "published": "2026-11-19T22:25:42+00:00",
-        "summary": "SBC Medical Group has warned in a filing with the U.S. Securities and Exchange Commission (SEC) that two cybersecurity incidents exposed sensitive customer and employee information, including personal data belonging to 1.6 million people. [...]",
+        "published": "2026-11-23T09:11:15+00:00",
+        "summary": "Microsoft confirmed printing issues on systems running Forcepoint DLP software after installing the KB5132043 November 2026 Windows 11 hotpatch. [...]",
         "category": "community_buzz"
       }
     ]
