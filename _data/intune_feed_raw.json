@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-25T20:20:55.689537+00:00",
-  "date": "2026-11-25",
+  "generated_utc": "2026-11-26T19:57:37.098933+00:00",
+  "date": "2026-11-26",
   "lookback_hours": 25,
   "source_status": [
     {
@@ -11,7 +11,7 @@
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 14
+      "count": 9
     },
     {
       "name": "Microsoft Intune What's New",
@@ -26,7 +26,7 @@
     {
       "name": "Microsoft Security Blog",
       "status": "OK",
-      "count": 2
+      "count": 0
     },
     {
       "name": "Microsoft Entra Blog",
@@ -46,7 +46,7 @@
     {
       "name": "The Hacker News",
       "status": "OK",
-      "count": 3
+      "count": 4
     },
     {
       "name": "Krebs on Security",
@@ -98,219 +98,181 @@
   "items": {
     "high_alert": [
       {
-        "fingerprint": "5aa0835b5ac3",
-        "title": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
-        "link": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
-        "source": "The Hacker News",
-        "published": "2026-11-25T12:48:54+00:00",
-        "summary": "Threat actors are actively exploiting two newly patched security flaws in GeoServer, according to watchTowr. The vulnerabilities in question are CVE-2026-120705 and CVE-2026-129243, details of which are below - CVE-2026-120705 (CVSS score: 8.6) - An arbitrary file read vulnerability that could enable an attacker to access local text files readable by the GeoServer process or fetch",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "fa536ad8713e",
-        "title": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation",
-        "link": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
-        "source": "The Hacker News",
-        "published": "2026-11-25T11:23:26+00:00",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical flaw impacting Drupal to its Known Exploited Vulnerabilities (KEV) catalog, requiring federal agencies to apply the fixes by November 27, 2026. The vulnerability, tracked as CVE-2026-132165 aka Fail2Install (CVSS score: 9.8), is a case of remote code execution (RCE) impacting Drupal core. \"Drupal Core",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "7182faf0efcc",
-        "title": "Hackers now exploit critical Drupal RCE flaw to hijack sites",
-        "link": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/",
+        "fingerprint": "98f6f6adefef",
+        "title": "Remus malware steals Gmail messages via fake Google Sheets extension",
+        "link": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
         "source": "BleepingComputer",
-        "published": "2026-11-25T10:10:20+00:00",
-        "summary": "The Drupal security team has confirmed that a critical vulnerability that lets attackers hijack unpatched sites has been actively exploited since at least Thursday. [...]",
+        "published": "2026-11-26T15:23:28+00:00",
+        "summary": "The Remus infostealer is stealing Gmail messages through a stealthy malicious Chrome extension, a capability the malware operators marketed as a zero-day exploit in Google's email service. [...]",
         "category": "high_alert"
       },
       {
-        "fingerprint": "cbe93e4591e5",
-        "title": "CIA suffers cybersecurity incident that exposed unclassified information",
-        "link": "https://www.neowin.net/news/cia-suffers-cybersecurity-incident-that-exposed-unclassified-information/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-11-25T09:52:01+00:00",
-        "summary": "The CIA, along with two other government agencies, disclosed a security breach that exposed some unclassified information. Read more...",
+        "fingerprint": "f84191adaa83",
+        "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
+        "link": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
+        "source": "The Hacker News",
+        "published": "2026-11-26T15:13:41+00:00",
+        "summary": "The threat actors behind the PolinRider campaign have been observed planting a Python loader in GitHub repositories, as evidence emerges that the activity may have started as far back as February 2025. \"The loader hides in a small utils package or in conftest.py,\" SafeDep said in a report published this week. \"When Python imports the file, the loader reads the newest transaction that an",
         "category": "high_alert"
       },
       {
-        "fingerprint": "ff34923901f6",
-        "title": "Roblox players are increasingly searching for cheats that could contain malware",
-        "link": "https://www.neowin.net/news/roblox-players-are-increasingly-searching-for-cheats-that-could-contain-malware/?utm_source=rss",
+        "fingerprint": "5f64537958e2",
+        "title": "Backdoor malware found preinstalled on 220,000 Android devices, study finds",
+        "link": "https://www.neowin.net/news/backdoor-malware-found-preinstalled-on-220000-android-devices-study-finds/?utm_source=rss",
         "source": "Neowin",
-        "published": "2026-11-25T04:00:05+00:00",
-        "summary": "A new study found that Roblox is the most-searched game when it comes to cheats and workarounds. However, not all of these hacks work, as some are designed to steal sensitive data from victims' PCs. Read more...",
+        "published": "2026-11-26T15:02:01+00:00",
+        "summary": "A new study by Kaspersky found that a backdoor called Keenadu was found on 220,000 Android devices during the first 10 months of 2026. It can display fraudulent ads and download more malware. Read more...",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "4835a1d9e3fb",
+        "title": "SYS010 malware abuses browser management to spy on Gmail, Outlook",
+        "link": "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
+        "source": "BleepingComputer",
+        "published": "2026-11-26T11:50:17+00:00",
+        "summary": "A new version of the SYS01 infostealer malware delivered through Meta ads is enrolling browsers into enterprise-style management to force the installation of an extension that steals sensitive data, including Gmail and Outlook emails. [...]",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "10da9cf7e1f8",
+        "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+        "link": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
+        "source": "The Hacker News",
+        "published": "2026-11-26T07:02:34+00:00",
+        "summary": "Drupal has warned of a new \"highly critical\" security flaw impacting Drupal core that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-136716 (CVSS score: N/A), has been described as a case of improper checking for unusual or exceptional conditions. It also relates to CVE-2026-132165 aka Fail2Install in that it addresses remaining vulnerable installation states",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "cd99941066d3",
+        "title": "DOJ accuses ransomware recovery executive of paying cybercriminals to decrypt files",
+        "link": "https://www.neowin.net/news/doj-accuses-ransomware-recovery-executive-of-paying-ransomware-gangs-to-decrypt-files/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-11-26T06:50:01+00:00",
+        "summary": "The DOJ has formally charged a former executive of a ransomware data recovery company after he allegedly paid ransomware gangs instead of finding legitimate ways to unlock victims' files. Read more...",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "f619f8b3ca3c",
+        "title": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
+        "link": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
+        "source": "The Hacker News",
+        "published": "2026-11-26T06:44:46+00:00",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added 10 security flaws to its Known Exploited Vulnerabilities (KEV) catalog, including five vulnerabilities impacting Mitel MiCollab that were disclosed last week. The Mitel MiCollab vulnerabilities are listed below - CVE-2026-133275 (CVSS score: 5.3) - An arbitrary file upload vulnerability in the Audio, Web and",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "e3530c33d745",
+        "title": "Microsoft outs Windows Server KB5138318 (26100.33732) OOB hotpatch to fix KB5131077 bug",
+        "link": "https://www.neowin.net/news/microsoft-outs-windows-server-kb5138318-2610033732-oob-hotpatch-to-fix-kb5131077-bug/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-11-26T05:58:02+00:00",
+        "summary": "Microsoft releases a new out-of-band hotpatch update KB5138318 for Windows Server 2025 to fix an IP problem with the previous KB5131077 update. Read more...",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "ce8cb263b0e3",
+        "title": "13 Malicious NuGet Packages Turn Fake .NET Job Assessments Into Malware Delivery Traps",
+        "link": "https://thehackernews.com/2026/11/13-malicious-nuget-packages-turn-fake.html",
+        "source": "The Hacker News",
+        "published": "2026-11-26T03:48:52+00:00",
+        "summary": "Cybersecurity researchers have discovered 13 malicious NuGet packages that are designed to target Windows .NET developers under the guise of a fake take-home job assessment. \"Most of the packages pose as WinUI 3 and WPF [Windows Presentation Foundation] button controls,\" Socket security researcher Kush Pandya said in a technical write-up. \"In the versions we analyzed, building or running a",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "fea7867733ff",
+        "title": "Microsoft reportedly refused to remove a trojan-spreading app from its Store",
+        "link": "https://www.neowin.net/news/microsoft-reportedly-refused-to-remove-a-trojan-spreading-app-from-its-store/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-11-25T22:40:04+00:00",
+        "summary": "Hackers have been using fake Snipping Tool downloads to infect Windows computers, but the most concerning part is where the malware came from. Read more...",
         "category": "high_alert"
       }
     ],
-    "bad_updates": [
-      {
-        "fingerprint": "9a6ac8bff537",
-        "title": "Microsoft confirms NTLM authentication failures after November Windows updates",
-        "link": "https://www.neowin.net/news/microsoft-confirms-ntlm-authentication-failures-after-november-windows-updates/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-11-25T16:22:02+00:00",
-        "summary": "Installing Microsoft's latest Patch Tuesday release might lock users out of third-party apps. Here is how to identify broken NTLM devices and apply a temporary registry fix. Read more...",
-        "category": "bad_updates"
-      }
-    ],
+    "bad_updates": [],
     "upcoming_changes": [
       {
-        "fingerprint": "c6b27c9fd6aa",
-        "title": "Microsoft Teams: Show your shared content on both room displays",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=582052",
+        "fingerprint": "1042ac3f71eb",
+        "title": "Microsoft Power Platform governance and administration: Create and manage Filter-based Security filters in Power Platform Maker portal",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=581895",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-25T00:10:31+00:00",
-        "summary": "Make presentations easier to see from anywhere in the room, even when you're not in a Teams meeting. On Microsoft Teams Rooms on Android with dual displays, content you share through an HDMI connection can now appear on both screens at once. You can start or stop showing your content on both screens from the room controls. Admins can use settings to manage how this works in their rooms. GA date...",
+        "published": "2026-11-26T00:16:54+00:00",
+        "summary": "Admins and makers can create and manage filters for Filter-based Security through a simplified management experience. Filters define which Dataverse records users can access based on configurable conditions, helping organizations implement scalable, policy-driven record access without individually sharing records. Customer benefit Organizations can more easily configure and maintain Filter-base...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "629ff4276e13",
-        "title": "Microsoft Teams: External bot detection and activity reports in Admin Center",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=582050",
+        "fingerprint": "70f761921b09",
+        "title": "Dynamics 365 Finance:  Customer Transaction Form Enhancement",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=581794",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-25T00:10:31+00:00",
-        "summary": "Admins should be able to track the detection and meeting access activity of external bots in the meetings and events hosted in their tenant. GA date: January CY2027",
+        "published": "2026-11-26T00:16:54+00:00",
+        "summary": "Redesigning the Customer transaction form to improve the performance and include the Multiledger aspect GA date: March CY2027 Preview date: December CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "b1f53f1c2281",
-        "title": "SharePoint: Organization-wide page templates",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=581865",
+        "fingerprint": "b52eee35ea95",
+        "title": "Dynamics 365 Finance: Finance explorer skill",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=581793",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-25T00:10:31+00:00",
-        "summary": "We are introducing organization-wide page templates in SharePoint, enabling organizations to provide reusable, approved starting points for page creation across sites within a tenant. Managed centrally in the SharePoint site associated with your organization's brand center, these templates help authors reduce repetitive setup and create pages with consistent content. GA date: December CY2026",
+        "published": "2026-11-26T00:16:54+00:00",
+        "summary": "This provides the end-to-end traceability of document relationships across the order to cash. GA date: June CY2027 Preview date: March CY2027",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "775bd2d5e984",
-        "title": "Dynamics 365 Commerce: UTGST Tax support in Commerce [India Tax Localization]",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=581799",
+        "fingerprint": "41430dad641b",
+        "title": "Dynamics 365 Finance: Finance Explorer Skill",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=581792",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-25T00:10:31+00:00",
-        "summary": "This feature adds UTGST (Union Territory Goods and Services Tax) to the Commerce channel - store Commerce/POS/Trade POS and e‑commerce transactions in union territories. What UTGST is: For union territories in India that don't have a legislature, the GST Council introduced UTGST, which is comparable to SGST. UTGST applies to the following union territories of India: Chandigarh Lakshadweep Daman...",
+        "published": "2026-11-26T00:16:54+00:00",
+        "summary": "This skill helps the user to provides the end-to-end traceability of document relationships for order to cash GA date: June CY2027 Preview date: March CY2027",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "42765227ee34",
-        "title": "Dynamics 365 Supply Chain Management: ATP with customer & product lead time",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=581798",
+        "fingerprint": "ddf9a2a03fdf",
+        "title": "Dynamics 365 Finance: Enable Parameter-Based Configuration for Customer Prepayments",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=581783",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-25T00:10:31+00:00",
-        "summary": "This feature adds lead times set per customer or per product to the ATP promise date, so the date reflects how each customer and each item is actually served. Customer lead time: time that applies to everything shipped to a given customer, such as agreed service levels, delivery schedules, or extra handling and documentation. Product lead time: time that applies to a given item whoever orders i...",
+        "published": "2026-11-26T00:16:54+00:00",
+        "summary": "The Prepayment customer invoice feature can be enabled per legal entity/country region. GA date: December CY2026",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "beb7316ac94e",
-        "title": "Dynamics 365 Supply Chain Management: Configurable ATP with Receipt Control",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=581797",
+        "fingerprint": "d5536351d035",
+        "title": "Dynamics 365 Finance: Explorer Skill",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=581782",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-25T00:10:31+00:00",
-        "summary": "This feature lets a business choose which incoming supply counts when the system calculates available-to-promise (ATP), so delivery promises match its own order-promising policy. It is in preview from version 10.0.50. It allows business to design ATP calculations for their business needs through different parameters to exclude purchase order or transfer order or production order. By default, th...",
+        "published": "2026-11-26T00:16:54+00:00",
+        "summary": "This feature provides the end-to-end traceability of document relationships across order to cash. GA date: June CY2027 Preview date: March CY2027",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "3c5c421bde93",
-        "title": "Microsoft Power Platform governance and administration: Unify finance and operations system administrator user and role management in Power Platform admin center",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=581777",
+        "fingerprint": "c89e5f15dc57",
+        "title": "Dynamics 365 Human Resources: Simplify HR case management with employee self-service",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=581756",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-25T00:10:31+00:00",
-        "summary": "Administrators can now manage system administrator users and security roles for both finance and operations apps and Dataverse from a single, unified experience in Power Platform admin center. Instead of switching between the finance and operations Users and Security configuration pages and the Dataverse user and role pages, admins can add and enable users, assign and remove roles, and review u...",
+        "published": "2026-11-26T00:16:54+00:00",
+        "summary": "Enable employees to conveniently create, manage, and track HR-related cases through the Employee Self-Service (ESS) experience in Dynamics 365 Human Resources. Employees can submit HR inquiries, report issues, and request assistance for scenarios related to leave and absence, benefits, and personnel management. The capability provides a centralized experience for employees to raise HR cases, mo...",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "132751f48717",
-        "title": "Dynamics 365 Human Resources: Agent onboarding for new employees",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=581772",
+        "fingerprint": "2826d33245fe",
+        "title": "Microsoft Teams: Open and collaborate on Pages in Teams",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=580886",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-25T00:10:31+00:00",
-        "summary": "Business value Onboarding in Dynamics 365 Human Resources spans several pages and two people: HR administrators hire the candidate, enroll leave and set compensation, while the new employee completes personal details, address, emergency contacts and identification. Steps are easy to miss. A new agentic onboarding experience will brings the tasks into one guided conversation over live Human Reso...",
+        "published": "2026-11-26T00:16:54+00:00",
+        "summary": "When someone shares a page in chat or a channel, you can open it in Teams, edit, and discuss with teammates. Open a page in your main Teams window or a new window, whichever works best for you. More info: https://support.microsoft.com/en-us/teams/teams-channels/manage-pages-and-loop-components-in-channels GA date: January CY2027 Preview date: January CY2027",
         "category": "upcoming_changes"
       },
       {
-        "fingerprint": "5b1912f3f793",
-        "title": "Dynamics 365 Project Operations: Enable Project Revenue recognition using cost estimate instead of EAC (estimate at complete)",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=580871",
+        "fingerprint": "5486d46050b3",
+        "title": "Microsoft Viva: Access Management for Copilot Analytics",
+        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=578862",
         "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-25T00:10:31+00:00",
-        "summary": "When you enable the Enable Project Revenue recognition using the cost estimate instead of the EAC (estimate at complete) setting, you activate this feature. Uses the original project estimate for PoC calculations: Delivers stable, predictable revenue without EAC-driven fluctuations. Anchors revenue recognition to a fixed baseline: Improves transparency and boosts confidence in reported project ...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "df655f3a23a1",
-        "title": "Microsoft Viva - Viva Glint: Enhanced multi-attribute report exports",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=580455",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-25T00:10:31+00:00",
-        "summary": "Enhancements that are a part of this release expand who can use the Multi-attribute report export, increases the supported scale, and gives authorized users more control over the questions and attributes included. GA date: January CY2027",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "948123888348",
-        "title": "Dynamics 365 Field Service: Plan further ahead with 180-day hourly schedule board view",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=579966",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-25T00:10:31+00:00",
-        "summary": "Scheduling teams planning work over several months need to see upcoming bookings while retaining an hourly view of their schedules. The current hourly view supports up to 28 days. The planned extended view is designed to help teams review bookings across a longer planning horizon without switching to a less detailed view, or paging through multiple time periods. Loading and refresh improvements...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "6f2628b573ad",
-        "title": "Dynamics 365 Field Service: Custom tooltips and templates on schedule board aggregate views",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=579965",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-25T00:10:31+00:00",
-        "summary": "Scheduling teams planning multiday work do so using the aggregate views on the schedule board - the daily, weekly, and monthly views. On those views, multiple bookings are aggregated into a single object that spans the entire period. This improvement will allow administrators to configure the template and tooltips that are available on those views, so they can display information relevant to th...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "fc27d67c00a1",
-        "title": "Dynamics 365 Project Operations: Activity Approvals Agent",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=578903",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-25T00:10:31+00:00",
-        "summary": "The Approvals Agent in Dynamics 365 Project Operations uses AI to perform an initial review of submitted time, expense, and material entries against policy documents written in natural language. It classifies entries as Ready for approval or Needs review, helping project managers prioritize entries that require attention. Organizations can choose between two operating modes. In Classify mode, a...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "33ffb91bdac5",
-        "title": "Dynamics 365 Project Operations: Mark all eligible actuals ready to invoice in bulk",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=578902",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-25T00:10:31+00:00",
-        "summary": "Before you can invoice a project, every eligible unbilled sales actual has to be marked ready to invoice. Today, project managers and billing administrators do that by selecting records in a grid that's capped at 1,000 per page, then repeating the action page after page. For firms with tens of thousands of actuals in a billing cycle, that adds up to hours of repetitive work before a single invo...",
+        "published": "2026-11-26T00:16:54+00:00",
+        "summary": "Admins can now manage who has access to Viva Insights - Copilot Analytics, and what they can do, directly in the product. The new Access Management experience brings role assignment and permissions into one place for Global administrators, AI administrators and Viva Insights administrators, instead of managing access across Viva Feature Access Management (VFAM) settings in the Microsoft 365 adm...",
         "category": "upcoming_changes"
       }
     ],
-    "official_news": [
-      {
-        "fingerprint": "41f3f6756573",
-        "title": "What defenders need to know about ARTEX, the agentic AI framework threat actors abuse",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/11/25/what-defenders-need-to-know-artex-agentic-ai-framework-threat-actors-abuse/",
-        "source": "Microsoft Security Blog",
-        "published": "2026-11-25T18:09:06+00:00",
-        "summary": "The AI-powered penetration testing framework ARTEX has been abused by threat actors like Storm-0940, Storm-3358, Onyx Sleet, Pearl Sleet, Crystal Typhoon, and Salt Typhoon to accelerate their existing workflows related to network reconnaissance, credential attacks, and web application exploitation. The post What defenders need to know about ARTEX, the agentic AI framework threat actors abuse ap...",
-        "category": "official_news"
-      },
-      {
-        "fingerprint": "e30cd06e2c89",
-        "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Email Security",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/11/25/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-email-security/",
-        "source": "Microsoft Security Blog",
-        "published": "2026-11-25T17:15:00+00:00",
-        "summary": "We're honored to share that Microsoft has been named a Leader in the 2026 Gartner® Magic Quadrant™ for Email Security, for the second consecutive year. The post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Email Security appeared first on Microsoft Security Blog .",
-        "category": "official_news"
-      },
-      {
-        "fingerprint": "efc260dc16f2",
-        "title": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
-        "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
-        "source": "BleepingComputer",
-        "published": "2026-11-25T16:13:40+00:00",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning about a critical vulnerability in Danfoss AK-SM 8xxA Series controllers used by food retailers to manage commercial refrigeration, HVAC, and lighting systems. [...]",
-        "category": "official_news"
-      }
-    ],
+    "official_news": [],
     "community_buzz": [
       {
         "fingerprint": "f061ddaa95c6",
@@ -319,24 +281,6 @@
         "source": "BleepingComputer",
         "published": "2026-11-25T19:39:31+00:00",
         "summary": "Swiss and Italian cybersecurity agencies are warning about automated cyberattacks powered by AI agents targeting organizations in the critical infrastructure sector. [...]",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "64756a2cc2ed",
-        "title": "U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion",
-        "link": "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html",
-        "source": "The Hacker News",
-        "published": "2026-11-25T12:30:08+00:00",
-        "summary": "The U.S. Treasury Department's Financial Crimes Enforcement Network (FinCEN) has been hit by a cybersecurity incident that resulted in \"unauthorized access to a limited subset of its systems,\" the bureau said on Tuesday. As a precaution, it has taken some systems offline. The bureau collects suspicious activity reports and other Bank Secrecy Act (BSA) filings from banks and other financial",
-        "category": "community_buzz"
-      },
-      {
-        "fingerprint": "2ed4541e372c",
-        "title": "Dataset containing 2 billion records gets exposed online",
-        "link": "https://www.neowin.net/news/dataset-containing-2-billion-records-gets-exposed-online/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-11-25T07:10:01+00:00",
-        "summary": "A cybersecurity researcher has found a massive data leak containing approximately 2 billion records. This included usernames, email addresses, passwords, and browser data. Read more...",
         "category": "community_buzz"
       }
     ]
