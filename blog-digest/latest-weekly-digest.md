@@ -1,54 +1,40 @@
-# Security Digest - November 25, 2026
+# Security Digest - November 26, 2026
 
 Daily security intelligence briefing for infrastructure and endpoint management teams. Consolidated from authoritative research, vendor advisories, and community discussions.
 
-- **Generated (UTC):** 2026-11-25 22:52:37 +00:00
+- **Generated (UTC):** 2026-11-26 22:43:17 +00:00
 - **Lookback window:** 7 days
 
 ## 🚀 Top Research & Advisories
-- **[Critical Adobe Vulnerabilities Let Hackers Execute Malicious Code on Servers](https://cybersecuritynews.com/critical-adobe-vulnerabilities/)** - *(CybersecurityNews)*
-  System.Xml.XmlElement
-  > **Action:** Confirm Adobe exposure; push updated deployment.
-
+- *No high-priority security research detected in this window.*
 ## 💻 AppSec
-- **[CVE-2026-129316](https://www.cve.org/CVERecord?id=CVE-2026-129316)** - *(CVE.org)*
+- **[CVE-2026-133520](https://www.cve.org/CVERecord?id=CVE-2026-133520)** - *(CVE.org)*
   Monitor developer tool vulnerabilities and supply chain risks.
 
-- **[CVE-2026-129989](https://nvd.nist.gov/vuln/detail/CVE-2026-129989)** - *(NVD)*
+- **[Visual Studio Code 1.148 is here, and it can keep your PC awake while AI agents are working](https://www.neowin.net/news/visual-studio-code-1148-is-here-and-it-can-keep-your-pc-awake-while-ai-agents-are-working/?utm_source=rss)** - *(Neowin)*
   Monitor developer tool vulnerabilities and supply chain risks.
 
-- **[CVE-2026-129990](https://www.cve.org/CVERecord?id=CVE-2026-129990)** - *(CVE.org)*
-  Monitor developer tool vulnerabilities and supply chain risks.
+## 🏗 Infrastructure
+- **[Microsoft outs Windows Server KB5138318 (26100.33732) OOB hotpatch to fix KB5131077 bug](https://www.neowin.net/news/microsoft-outs-windows-server-kb5138318-2610033732-oob-hotpatch-to-fix-kb5131077-bug/?utm_source=rss)** - *(Neowin)*
+  Evaluate update rings and expedite actions if needed. Review server hardening and AD security posture.
 
 ## 🛠 Infrastructure & Endpoint Control
-- **[Here are all the new features Microsoft added to Excel in November 2026](https://www.neowin.net/news/here-are-all-the-new-features-microsoft-added-to-excel-in-november-2026/?utm_source=rss)** - *(Neowin)*
-  Review Office update channel health and security baseline compliance.
-
-- **[It would be nice to have a native "Digital Wellbeing" functionality in Windows 11](https://www.neowin.net/opinions/it-would-be-nice-to-have-a-native-digital-wellbeing-functionality-in-windows-11/?utm_source=rss)** - *(Neowin)*
-  Validate workstation security baseline and update compliance.
-
-- **[Microsoft 365 Bug Blocked Users From Opening Word, Excel, and Outlook With Blank White Screen](https://cybersecuritynews.com/microsoft-365-white-screen-bug/)** - *(CybersecurityNews)*
-  Review Office update channel health and security baseline compliance.
-
-- **[Microsoft confirms NTLM authentication failures after November Windows updates](https://www.neowin.net/news/microsoft-confirms-ntlm-authentication-failures-after-november-windows-updates/?utm_source=rss)** - *(Neowin)*
-  Evaluate update rings and expedite actions if needed.
-
-- **[Report: Microsoft officially shipping vulnerable Intel driver component via Windows Update](https://www.neowin.net/news/report-microsoft-officially-shipping-vulnerable-intel-driver-component-via-windows-update/?utm_source=rss)** - *(Neowin)*
-  Evaluate update rings and expedite actions if needed.
+- **[Microsoft outs Windows Server KB5138318 (26100.33732) OOB hotpatch to fix KB5131077 bug](https://www.neowin.net/news/microsoft-outs-windows-server-kb5138318-2610033732-oob-hotpatch-to-fix-kb5131077-bug/?utm_source=rss)** - *(Neowin)*
+  Evaluate update rings and expedite actions if needed. Review server hardening and AD security posture.
 
 ## 🩹 Patch Tuesday & Update Experience
-- **[Microsoft confirms NTLM authentication failures after November Windows updates](https://www.neowin.net/news/microsoft-confirms-ntlm-authentication-failures-after-november-windows-updates/?utm_source=rss)** - *(Neowin)*
-  Installing Microsoft&#039;s latest Patch Tuesday release might lock users out of third-party apps. Here is how to identify broken NTLM devices and apply a temporary registry fix. Read more...
+- **[Microsoft outs Windows Server KB5138318 (26100.33732) OOB hotpatch to fix KB5131077 bug](https://www.neowin.net/news/microsoft-outs-windows-server-kb5138318-2610033732-oob-hotpatch-to-fix-kb5131077-bug/?utm_source=rss)** - *(Neowin)*
+  Microsoft releases a new out-of-band hotpatch update KB5138318 for Windows Server 2025 to fix an IP problem with the previous KB5131077 update. Read more...
 
 ## 🔍 Quick Links (Watch Items)
-- [Report: Microsoft officially shipping vulnerable Intel driver component via Windows Update](https://www.neowin.net/news/report-microsoft-officially-shipping-vulnerable-intel-driver-component-via-windows-update/?utm_source=rss) - *(Neowin)*
-- [After security breach, 1Password says hackers got customer data but vaults are safe](https://www.neowin.net/news/after-security-breach-1password-says-hackers-got-customer-data-but-vaults-are-safe/?utm_source=rss) - *(Neowin)*
-- [Microsoft confirms NTLM authentication failures after November Windows updates](https://www.neowin.net/news/microsoft-confirms-ntlm-authentication-failures-after-november-windows-updates/?utm_source=rss) - *(Neowin)*
-- [Hackers Exploit Fortinet Flaws to Breach Commercial Ships and Access Control Networks](https://cybersecuritynews.com/fortinet-flaws-to-breach-commercial-ships/) - *(CybersecurityNews)*
-- [CIA suffers cybersecurity incident that exposed unclassified information](https://www.neowin.net/news/cia-suffers-cybersecurity-incident-that-exposed-unclassified-information/?utm_source=rss) - *(Neowin)*
+- [OpenAI AI Agents Bypass Security Restrictions and Access Government Systems Without Permission](https://cybersecuritynews.com/openai-ai-agents/) - *(CybersecurityNews)*
+- [Drupal Warns of Active Attacks Exploiting New Critical Website Takeover Vulnerability](https://cybersecuritynews.com/drupal-website-takeover-flaw/) - *(CybersecurityNews)*
 - [Having two security products installed at the same time isn’t a great idea, but sometimes you have to do it](https://devblogs.microsoft.com/oldnewthing/20261123-00/?p=112887/) - *(The Old New Thing)*
-- [CVE-2026-127231](https://nvd.nist.gov/vuln/detail/CVE-2026-127231) - *(NVD)*
-- [CVE-2026-127231](https://www.cve.org/CVERecord?id=CVE-2026-127231) - *(CVE.org)*
-- [CVE-2026-127040](https://nvd.nist.gov/vuln/detail/CVE-2026-127040) - *(NVD)*
-- [CVE-2026-127040](https://www.cve.org/CVERecord?id=CVE-2026-127040) - *(CVE.org)*
+- [CVE-2026-82091](https://nvd.nist.gov/vuln/detail/CVE-2026-82091) - *(NVD)*
+- [CVE-2026-82091](https://www.cve.org/CVERecord?id=CVE-2026-82091) - *(CVE.org)*
+- [CVE-2026-133528](https://www.cve.org/CVERecord?id=CVE-2026-133528) - *(CVE.org)*
+- [CVE-2026-133528](https://nvd.nist.gov/vuln/detail/CVE-2026-133528) - *(NVD)*
+- [CVE-2026-133521](https://www.cve.org/CVERecord?id=CVE-2026-133521) - *(CVE.org)*
+- [CVE-2026-133521](https://nvd.nist.gov/vuln/detail/CVE-2026-133521) - *(NVD)*
+- [CVE-2026-133520](https://www.cve.org/CVERecord?id=CVE-2026-133520) - *(CVE.org)*
 
