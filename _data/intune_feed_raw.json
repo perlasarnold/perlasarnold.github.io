@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-26T19:57:37.098933+00:00",
-  "date": "2026-11-26",
+  "generated_utc": "2026-11-27T19:46:51.098963+00:00",
+  "date": "2026-11-27",
   "lookback_hours": 25,
   "source_status": [
     {
@@ -11,7 +11,7 @@
     {
       "name": "Microsoft 365 Roadmap",
       "status": "OK",
-      "count": 9
+      "count": 0
     },
     {
       "name": "Microsoft Intune What's New",
@@ -41,7 +41,7 @@
     {
       "name": "Neowin",
       "status": "OK",
-      "count": 4
+      "count": 3
     },
     {
       "name": "The Hacker News",
@@ -98,189 +98,98 @@
   "items": {
     "high_alert": [
       {
-        "fingerprint": "98f6f6adefef",
-        "title": "Remus malware steals Gmail messages via fake Google Sheets extension",
-        "link": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
+        "fingerprint": "058030b3465d",
+        "title": "Unpatched Cacti zero-day with public PoC gives remote code execution",
+        "link": "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/",
         "source": "BleepingComputer",
-        "published": "2026-11-26T15:23:28+00:00",
-        "summary": "The Remus infostealer is stealing Gmail messages through a stealthy malicious Chrome extension, a capability the malware operators marketed as a zero-day exploit in Google's email service. [...]",
+        "published": "2026-11-27T17:06:13+00:00",
+        "summary": "A zero-day vulnerability in the Cacti network monitoring platform has been publicly disclosed, along with a proof-of-concept exploit that lets unauthenticated attackers execute commands on vulnerable servers. [...]",
         "category": "high_alert"
       },
       {
-        "fingerprint": "f84191adaa83",
-        "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
-        "link": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
-        "source": "The Hacker News",
-        "published": "2026-11-26T15:13:41+00:00",
-        "summary": "The threat actors behind the PolinRider campaign have been observed planting a Python loader in GitHub repositories, as evidence emerges that the activity may have started as far back as February 2025. \"The loader hides in a small utils package or in conftest.py,\" SafeDep said in a report published this week. \"When Python imports the file, the loader reads the newest transaction that an",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "5f64537958e2",
-        "title": "Backdoor malware found preinstalled on 220,000 Android devices, study finds",
-        "link": "https://www.neowin.net/news/backdoor-malware-found-preinstalled-on-220000-android-devices-study-finds/?utm_source=rss",
+        "fingerprint": "bc02e31f24cd",
+        "title": "Cybercriminals claim breach of web hosting provider GoDaddy, leaking 37.5 GB of data",
+        "link": "https://www.neowin.net/news/cybercriminals-claim-breach-of-web-hosting-provider-godaddy-leaking-375gb-of-data/?utm_source=rss",
         "source": "Neowin",
-        "published": "2026-11-26T15:02:01+00:00",
-        "summary": "A new study by Kaspersky found that a backdoor called Keenadu was found on 220,000 Android devices during the first 10 months of 2026. It can display fraudulent ads and download more malware. Read more...",
+        "published": "2026-11-27T13:24:01+00:00",
+        "summary": "A ransomware group called Inception has publicly posted internal data that allegedly belongs to web hosting provider and domain registrar company GoDaddy. Read more...",
         "category": "high_alert"
       },
       {
-        "fingerprint": "4835a1d9e3fb",
-        "title": "SYS010 malware abuses browser management to spy on Gmail, Outlook",
-        "link": "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
+        "fingerprint": "9a7c385af859",
+        "title": "Fake GTA VI for PC ports are infecting victims with ClickFix malware on Github",
+        "link": "https://www.neowin.net/news/fake-gta-vi-for-pc-ports-are-infecting-victims-with-clickfix-malware-on-github/?utm_source=rss",
+        "source": "Neowin",
+        "published": "2026-11-27T09:42:01+00:00",
+        "summary": "Cybercriminals are taking advantage of community efforts to create a GTA VI PC port by creating GitHub repositories that \"offer\" the game. However, this only infects victims' devices with malware. Read more...",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "1a2d83812f56",
+        "title": "Hackers Trojanize Official Q-Dir and DesktopOK Downloads to Deliver Remote Access Malware",
+        "link": "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html",
+        "source": "The Hacker News",
+        "published": "2026-11-27T09:29:30+00:00",
+        "summary": "Cybersecurity researchers have disclosed details of a software supply chain attack that has tampered with Q-Dir and DesktopOK installation files distributed via the official SoftwareOK website. \"Evidence indicates that malicious files were generated not only when users downloaded the programs directly from the official download page but also during the update process of previously installed",
+        "category": "high_alert"
+      },
+      {
+        "fingerprint": "3c7790fb83e9",
+        "title": "New NFS2ROOT Linux flaw can let attackers gain root privileges",
+        "link": "https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/",
         "source": "BleepingComputer",
-        "published": "2026-11-26T11:50:17+00:00",
-        "summary": "A new version of the SYS01 infostealer malware delivered through Meta ads is enrolling browsers into enterprise-style management to force the installation of an extension that steals sensitive data, including Gmail and Outlook emails. [...]",
+        "published": "2026-11-27T08:06:58+00:00",
+        "summary": "​A 12-year-old critical vulnerability in the Linux kernel's Network File System (NFS) server, tracked as CVE-2026-99362, allows remote attackers to gain root privileges. [...]",
         "category": "high_alert"
       },
       {
-        "fingerprint": "10da9cf7e1f8",
-        "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
-        "link": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
+        "fingerprint": "a79ab3c72458",
+        "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+        "link": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
         "source": "The Hacker News",
-        "published": "2026-11-26T07:02:34+00:00",
-        "summary": "Drupal has warned of a new \"highly critical\" security flaw impacting Drupal core that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-136716 (CVSS score: N/A), has been described as a case of improper checking for unusual or exceptional conditions. It also relates to CVE-2026-132165 aka Fail2Install in that it addresses remaining vulnerable installation states",
+        "published": "2026-11-27T05:48:20+00:00",
+        "summary": "Details have emerged about a new zero-day vulnerability in Cacti, an open-source network monitoring tool, that could be exploited to achieve remote code execution. The proof-of-concept (PoC) exploit, which has yet to be assigned a CVE identifier, has been tracked as 4HTTP2SHELL and 4HTTP2ROOT. \"I found a path from a fresh, unauthenticated HTTP session to command execution as the Cacti server",
         "category": "high_alert"
       },
       {
-        "fingerprint": "cd99941066d3",
-        "title": "DOJ accuses ransomware recovery executive of paying cybercriminals to decrypt files",
-        "link": "https://www.neowin.net/news/doj-accuses-ransomware-recovery-executive-of-paying-ransomware-gangs-to-decrypt-files/?utm_source=rss",
+        "fingerprint": "f1492566560b",
+        "title": "Malicious live wallpaper app delivered via Meta ads steals sensitive data, spies on emails",
+        "link": "https://www.neowin.net/news/malicious-live-wallpaper-app-delivered-via-meta-ads-steals-sensitive-data-spies-on-emails/?utm_source=rss",
         "source": "Neowin",
-        "published": "2026-11-26T06:50:01+00:00",
-        "summary": "The DOJ has formally charged a former executive of a ransomware data recovery company after he allegedly paid ransomware gangs instead of finding legitimate ways to unlock victims' files. Read more...",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "f619f8b3ca3c",
-        "title": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
-        "link": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
-        "source": "The Hacker News",
-        "published": "2026-11-26T06:44:46+00:00",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added 10 security flaws to its Known Exploited Vulnerabilities (KEV) catalog, including five vulnerabilities impacting Mitel MiCollab that were disclosed last week. The Mitel MiCollab vulnerabilities are listed below - CVE-2026-133275 (CVSS score: 5.3) - An arbitrary file upload vulnerability in the Audio, Web and",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "e3530c33d745",
-        "title": "Microsoft outs Windows Server KB5138318 (26100.33732) OOB hotpatch to fix KB5131077 bug",
-        "link": "https://www.neowin.net/news/microsoft-outs-windows-server-kb5138318-2610033732-oob-hotpatch-to-fix-kb5131077-bug/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-11-26T05:58:02+00:00",
-        "summary": "Microsoft releases a new out-of-band hotpatch update KB5138318 for Windows Server 2025 to fix an IP problem with the previous KB5131077 update. Read more...",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "ce8cb263b0e3",
-        "title": "13 Malicious NuGet Packages Turn Fake .NET Job Assessments Into Malware Delivery Traps",
-        "link": "https://thehackernews.com/2026/11/13-malicious-nuget-packages-turn-fake.html",
-        "source": "The Hacker News",
-        "published": "2026-11-26T03:48:52+00:00",
-        "summary": "Cybersecurity researchers have discovered 13 malicious NuGet packages that are designed to target Windows .NET developers under the guise of a fake take-home job assessment. \"Most of the packages pose as WinUI 3 and WPF [Windows Presentation Foundation] button controls,\" Socket security researcher Kush Pandya said in a technical write-up. \"In the versions we analyzed, building or running a",
-        "category": "high_alert"
-      },
-      {
-        "fingerprint": "fea7867733ff",
-        "title": "Microsoft reportedly refused to remove a trojan-spreading app from its Store",
-        "link": "https://www.neowin.net/news/microsoft-reportedly-refused-to-remove-a-trojan-spreading-app-from-its-store/?utm_source=rss",
-        "source": "Neowin",
-        "published": "2026-11-25T22:40:04+00:00",
-        "summary": "Hackers have been using fake Snipping Tool downloads to infect Windows computers, but the most concerning part is where the malware came from. Read more...",
+        "published": "2026-11-27T04:50:01+00:00",
+        "summary": "A new version of an infostealer malware is hiding behind a malicious Meta ad offering live wallpaper app downloads. The malware is capable of spying on users and stealing session cookies. Read more...",
         "category": "high_alert"
       }
     ],
     "bad_updates": [],
-    "upcoming_changes": [
-      {
-        "fingerprint": "1042ac3f71eb",
-        "title": "Microsoft Power Platform governance and administration: Create and manage Filter-based Security filters in Power Platform Maker portal",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=581895",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-26T00:16:54+00:00",
-        "summary": "Admins and makers can create and manage filters for Filter-based Security through a simplified management experience. Filters define which Dataverse records users can access based on configurable conditions, helping organizations implement scalable, policy-driven record access without individually sharing records. Customer benefit Organizations can more easily configure and maintain Filter-base...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "70f761921b09",
-        "title": "Dynamics 365 Finance:  Customer Transaction Form Enhancement",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=581794",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-26T00:16:54+00:00",
-        "summary": "Redesigning the Customer transaction form to improve the performance and include the Multiledger aspect GA date: March CY2027 Preview date: December CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "b52eee35ea95",
-        "title": "Dynamics 365 Finance: Finance explorer skill",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=581793",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-26T00:16:54+00:00",
-        "summary": "This provides the end-to-end traceability of document relationships across the order to cash. GA date: June CY2027 Preview date: March CY2027",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "41430dad641b",
-        "title": "Dynamics 365 Finance: Finance Explorer Skill",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=581792",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-26T00:16:54+00:00",
-        "summary": "This skill helps the user to provides the end-to-end traceability of document relationships for order to cash GA date: June CY2027 Preview date: March CY2027",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "ddf9a2a03fdf",
-        "title": "Dynamics 365 Finance: Enable Parameter-Based Configuration for Customer Prepayments",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=581783",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-26T00:16:54+00:00",
-        "summary": "The Prepayment customer invoice feature can be enabled per legal entity/country region. GA date: December CY2026",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "d5536351d035",
-        "title": "Dynamics 365 Finance: Explorer Skill",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=581782",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-26T00:16:54+00:00",
-        "summary": "This feature provides the end-to-end traceability of document relationships across order to cash. GA date: June CY2027 Preview date: March CY2027",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "c89e5f15dc57",
-        "title": "Dynamics 365 Human Resources: Simplify HR case management with employee self-service",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=581756",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-26T00:16:54+00:00",
-        "summary": "Enable employees to conveniently create, manage, and track HR-related cases through the Employee Self-Service (ESS) experience in Dynamics 365 Human Resources. Employees can submit HR inquiries, report issues, and request assistance for scenarios related to leave and absence, benefits, and personnel management. The capability provides a centralized experience for employees to raise HR cases, mo...",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "2826d33245fe",
-        "title": "Microsoft Teams: Open and collaborate on Pages in Teams",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=580886",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-26T00:16:54+00:00",
-        "summary": "When someone shares a page in chat or a channel, you can open it in Teams, edit, and discuss with teammates. Open a page in your main Teams window or a new window, whichever works best for you. More info: https://support.microsoft.com/en-us/teams/teams-channels/manage-pages-and-loop-components-in-channels GA date: January CY2027 Preview date: January CY2027",
-        "category": "upcoming_changes"
-      },
-      {
-        "fingerprint": "5486d46050b3",
-        "title": "Microsoft Viva: Access Management for Copilot Analytics",
-        "link": "https://www.microsoft.com/microsoft-365/roadmap?id=578862",
-        "source": "Microsoft 365 Roadmap",
-        "published": "2026-11-26T00:16:54+00:00",
-        "summary": "Admins can now manage who has access to Viva Insights - Copilot Analytics, and what they can do, directly in the product. The new Access Management experience brings role assignment and permissions into one place for Global administrators, AI administrators and Viva Insights administrators, instead of managing access across Viva Feature Access Management (VFAM) settings in the Microsoft 365 adm...",
-        "category": "upcoming_changes"
-      }
-    ],
+    "upcoming_changes": [],
     "official_news": [],
     "community_buzz": [
       {
-        "fingerprint": "f061ddaa95c6",
-        "title": "Italy and Switzerland warn of autonomous AI-driven cyberattacks",
-        "link": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/",
+        "fingerprint": "bc4bfb652e29",
+        "title": "Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control",
+        "link": "https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html",
+        "source": "The Hacker News",
+        "published": "2026-11-27T11:49:34+00:00",
+        "summary": "Cybersecurity researchers have disclosed details of a cyber attack in which a threat actor leveraged a Microsoft Store application to deliver a remote access trojan (RAT) called Vinci RAT. The intrusion, according to eSentire, begins with a redirection to a bogus site for a sniping tool (\"snipp.codes-team[.]com\"), from where a Microsoft-signed installer called \"Snipping-Tool.exe\" is",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "222e6d1744ac",
+        "title": "Microsoft pushes emergency hotpatch to fix Windows Server crashes",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/new-out-of-band-oob-emergency-hotpatch-fixes-windows-server-2025-crashes/",
         "source": "BleepingComputer",
-        "published": "2026-11-25T19:39:31+00:00",
-        "summary": "Swiss and Italian cybersecurity agencies are warning about automated cyberattacks powered by AI agents targeting organizations in the critical infrastructure sector. [...]",
+        "published": "2026-11-27T09:08:16+00:00",
+        "summary": "Microsoft has released an emergency hotpatch update to address Windows Server 2025 crashes triggered after installing this month's security hotpatch update (KB5131077). [...]",
+        "category": "community_buzz"
+      },
+      {
+        "fingerprint": "4c84d225e61c",
+        "title": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
+        "link": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html",
+        "source": "The Hacker News",
+        "published": "2026-11-27T06:04:20+00:00",
+        "summary": "Attackers using AI agents have broken into computer systems at Swiss organizations in four of five confirmed attacks, the first such cases in the country, the country's cybersecurity agency said yesterday. Three of the attacks targeted critical infrastructure operators, and two of those succeeded, with no major disruptions reported. The victims have not been named, and it is not known who is",
         "category": "community_buzz"
       }
     ]
